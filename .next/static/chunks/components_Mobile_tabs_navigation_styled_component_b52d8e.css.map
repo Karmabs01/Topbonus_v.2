@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["[project]/components/Mobile_tabs_navigation/styled.component.css"],"sourcesContent":[".bg-mob-header {\n    background-image: linear-gradient(76deg, #9d4eb3 7%, #6c37b1 35.92%, #310877 85.69%);\n  position: relative;\n  filter: drop-shadow(0 4px 30px #d180ee33);\n  border-radius: 30px 30px 0 0 !important;\n  border-top: 2px solid #fff6;\n  border-bottom: 2px solid #fff6;\n}\n.bg-mob-header svg {\n    color: #ff8f1f;\n}\n.round-logo {\n    background: #ff8f1f;\n    border: 3px solid #fff;\n}\n\n\n@media(min-width: 320px) and (max-width: 767px) {\n    .round-logo {\n        position: absolute;\n        z-index: -1;\n        background-image: linear-gradient(76deg, #9d4eb3 7%, #6c37b1 35.92%, #310877 85.69%);\n    border: 2px solid #fff6;\n    width: 10rem !important;\n    height: 10rem !important;\n    }\n    .minilogos {\n        position: relative;\n    }\n    .minilogos::after {\n        content: \"\";\n        width: 100px;\n        height: 2px;\n        position: absolute;\n        top: -6px;\n        left: -21px;\n        background: linear-gradient(90deg,#7a00ac,#7a00ac);\n    }\n    #real-block .random-title {\n        text-align: center;\n    }\n}"],"names":[],"mappings":"AAAA;;;;;;;;;AAQA;;;;AAGA;;;;;AAMA;EACI;;;;;;;;;EAQA;;;;EAGA;;;;;;;;;;EASA"}},
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
