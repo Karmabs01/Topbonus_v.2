@@ -23,6 +23,7 @@ async function initializeI18n() {
     defLng = "all";
   }
 
+  
   const availableLanguages = [
     "au",
     "ca",
