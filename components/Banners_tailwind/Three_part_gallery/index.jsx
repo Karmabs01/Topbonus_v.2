@@ -7,7 +7,8 @@ export default async function Three_part_gallery() {
 
     return (
         <>
-            <div className="main__container">
+          <div className="pt-16">
+          <div className="main__container">
                 <div className="flex justify-start flex-col md:flex-row">
                     <div className="basis-1/3">
                         <Hottest_titles />
@@ -19,6 +20,7 @@ export default async function Three_part_gallery() {
                     </div>
                 </div>
             </div>
+          </div>
         </>
     );
 }

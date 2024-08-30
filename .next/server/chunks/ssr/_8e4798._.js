@@ -712,82 +712,75 @@ const Loader = ()=>{
         className: "loader loader2",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "loader-inner",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "loader-line-wrap",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "loader-line"
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                class: "dot-spinner",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        class: "dot-spinner__dot"
                     }, void 0, false, {
                         fileName: "[project]/components/FilterLoader.jsx",
-                        lineNumber: 9,
-                        columnNumber: 9
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/components/FilterLoader.jsx",
-                    lineNumber: 8,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "loader-line-wrap",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "loader-line"
+                        lineNumber: 24,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        class: "dot-spinner__dot"
                     }, void 0, false, {
                         fileName: "[project]/components/FilterLoader.jsx",
-                        lineNumber: 12,
-                        columnNumber: 9
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/components/FilterLoader.jsx",
-                    lineNumber: 11,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "loader-line-wrap",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "loader-line"
+                        lineNumber: 25,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        class: "dot-spinner__dot"
                     }, void 0, false, {
                         fileName: "[project]/components/FilterLoader.jsx",
-                        lineNumber: 15,
-                        columnNumber: 9
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/components/FilterLoader.jsx",
-                    lineNumber: 14,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "loader-line-wrap",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "loader-line"
+                        lineNumber: 26,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        class: "dot-spinner__dot"
                     }, void 0, false, {
                         fileName: "[project]/components/FilterLoader.jsx",
-                        lineNumber: 18,
-                        columnNumber: 9
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/components/FilterLoader.jsx",
-                    lineNumber: 17,
-                    columnNumber: 7
-                }, this),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "loader-line-wrap",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "loader-line"
+                        lineNumber: 27,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        class: "dot-spinner__dot"
                     }, void 0, false, {
                         fileName: "[project]/components/FilterLoader.jsx",
-                        lineNumber: 21,
-                        columnNumber: 9
+                        lineNumber: 28,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        class: "dot-spinner__dot"
+                    }, void 0, false, {
+                        fileName: "[project]/components/FilterLoader.jsx",
+                        lineNumber: 29,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        class: "dot-spinner__dot"
+                    }, void 0, false, {
+                        fileName: "[project]/components/FilterLoader.jsx",
+                        lineNumber: 30,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        class: "dot-spinner__dot"
+                    }, void 0, false, {
+                        fileName: "[project]/components/FilterLoader.jsx",
+                        lineNumber: 31,
+                        columnNumber: 11
                     }, this)
-                }, void 0, false, {
-                    fileName: "[project]/components/FilterLoader.jsx",
-                    lineNumber: 20,
-                    columnNumber: 7
-                }, this)
-            ]
-        }, void 0, true, {
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/FilterLoader.jsx",
+                lineNumber: 23,
+                columnNumber: 9
+            }, this)
+        }, void 0, false, {
             fileName: "[project]/components/FilterLoader.jsx",
             lineNumber: 7,
-            columnNumber: 5
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/FilterLoader.jsx",
@@ -1022,7 +1015,7 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                 className: "p-3 flex justify-between flex-wrap mb-2 card-brand-filtered w-full",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex flex-col basis-[63%]",
+                                        className: "flex flex-col basis-[63%] card-63",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "flex ml-1 mb-3"
@@ -1420,7 +1413,7 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                 className: "brandImage p-3",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                     className: `${target}`,
-                                                    href: `${brand.GoBig}/${newUrl}&creative_id=XXL_Brand_Exit`,
+                                                    href: `${brand.GoBig}/${newUrl}&creative_id=Brand_Exit_2`,
                                                     target: "_blank",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                         src: `/brands/${brand.CasinoBrand}.png`,
@@ -1482,7 +1475,7 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: `${brand.GoBig}/${newUrl}&creative_id=XXL_Brand_Exit`,
+                                                        href: `${brand.GoBig}/${newUrl}&creative_id=Brand_Exit_2`,
                                                         target: "_blank",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "btn btn-new-mini",
@@ -1544,8 +1537,8 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col basis-[31%] py-6 slsk",
-                    children: !isMobile ? vis2.slice(0, visibleBrands2).map((item)=>{
+                    className: `flex flex-col basis-[31%] py-6 slsk ${vis2.length < 2 ? 'w159' : ''}`,
+                    children: !isMobile || vis2.length < 2 ? vis2.slice(0, visibleBrands2).map((item)=>{
                         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "card-brand-banner mb-2 flex flex-col items-center pb-3",
                             children: [
@@ -1553,7 +1546,7 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                     className: "brandImage p-3",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         className: "flex justify-center flex-col items-center target-listing-brands",
-                                        href: `${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`,
+                                        href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`,
                                         target: "_blank",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1588,7 +1581,7 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    href: `${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`,
+                                    href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`,
                                     target: "_blank",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "btn btn-new-mini target-listing-brands",
@@ -1596,17 +1589,17 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                             children: t("Play Now")
                                         }, void 0, false, {
                                             fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                            lineNumber: 490,
+                                            lineNumber: 491,
                                             columnNumber: 25
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 489,
+                                        lineNumber: 490,
                                         columnNumber: 23
                                     }, this)
                                 }, item.id_brand, false, {
                                     fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                    lineNumber: 484,
+                                    lineNumber: 485,
                                     columnNumber: 21
                                 }, this)
                             ]
@@ -1625,7 +1618,7 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                         className: "brandImage p-3",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             className: "flex justify-center flex-col items-center target-listing-brands",
-                                            href: `${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`,
+                                            href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`,
                                             target: "_blank",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1637,7 +1630,7 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                     className: "target-listing-brands"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                    lineNumber: 511,
+                                                    lineNumber: 512,
                                                     columnNumber: 27
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1645,22 +1638,22 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                     children: item.OurOfferContent
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                    lineNumber: 519,
+                                                    lineNumber: 520,
                                                     columnNumber: 27
                                                 }, this)
                                             ]
                                         }, item.id_brand, true, {
                                             fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                            lineNumber: 505,
+                                            lineNumber: 506,
                                             columnNumber: 25
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 504,
+                                        lineNumber: 505,
                                         columnNumber: 23
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: `${item.GoBig}/${newUrl}&creative_id=XXL_Listing_Brands`,
+                                        href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`,
                                         target: "_blank",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "btn btn-new-mini target-listing-brands",
@@ -1668,29 +1661,29 @@ function AllPayments({ creative, isLoader, segment, value, target, brands, curre
                                                 children: t("Play Now")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                                lineNumber: 530,
+                                                lineNumber: 531,
                                                 columnNumber: 27
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                            lineNumber: 529,
+                                            lineNumber: 530,
                                             columnNumber: 25
                                         }, this)
                                     }, item.id_brand, false, {
                                         fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                        lineNumber: 524,
+                                        lineNumber: 525,
                                         columnNumber: 23
                                     }, this)
                                 ]
                             }, item.id_brand, true, {
                                 fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                                lineNumber: 500,
+                                lineNumber: 501,
                                 columnNumber: 21
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/components/Brands_payments/AllPayments.jsx",
-                        lineNumber: 497,
+                        lineNumber: 498,
                         columnNumber: 15
                     }, this)
                 }, void 0, false, {
@@ -1755,7 +1748,7 @@ const FilteredPayments = ()=>{
                     children: t("Catalog of all offered Online Casinos by Payment Methods in 2024")
                 }, void 0, false, {
                     fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
-                    lineNumber: 57,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1763,34 +1756,30 @@ const FilteredPayments = ()=>{
                     children: t("Looking for online casinos with specific payment methods? Explore our current database of numerous casino offers for you to choose from.")
                 }, void 0, false, {
                     fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
-                    lineNumber: 60,
+                    lineNumber: 34,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
                         "aria-label": "Tabs",
-                        className: "isolate isolate-tabs flex divide-x overflow-x-auto",
+                        className: "isolate payments-tabs flex flex-wrap justify-start",
                         children: navigateBrands.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(currentTab === item.currentTab ? 'decoration-2 underline-offset-8 ' : 'text-gray-500', 'group relative flex-1 overflow-hidden px-4 py-4 text-center text-sm font-medium flex justify-center flex-row items-center p-2 min-w-40 transition-colors duration-300 ease-in-out'),
+                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$classnames$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"])(currentTab === item.currentTab ? 'decoration-2 underline-offset-8 ' : 'text-gray-500', 'group relative overflow-hidden text-center text-sm font-medium flex justify-center flex-row items-center !px-0 !py-2 basis-[20%] sm:basis-[16%] md:basis-[10%] transition-colors duration-300 ease-in-out'),
                                 onClick: ()=>handleTabChange(item.currentTab),
-                                children: [
-                                    item.icon,
-                                    item.currentText2
-                                ]
-                            }, item.currentTab, true, {
+                                children: item.icon
+                            }, item.currentTab, false, {
                                 fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
-                                lineNumber: 66,
+                                lineNumber: 40,
                                 columnNumber: 15
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
-                        lineNumber: 64,
+                        lineNumber: 38,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
-                    lineNumber: 63,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1805,13 +1794,13 @@ const FilteredPayments = ()=>{
                             currentText: item.currentText
                         }, `${item.currentTab}-${language}`, false, {
                             fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
-                            lineNumber: 87,
+                            lineNumber: 60,
                             columnNumber: 17
                         }, this);
                     })
                 }, void 0, false, {
                     fileName: "[project]/components/Brands_payments/FilteredPayments.jsx",
-                    lineNumber: 83,
+                    lineNumber: 56,
                     columnNumber: 9
                 }, this)
             ]

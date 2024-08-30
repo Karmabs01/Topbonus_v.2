@@ -53,19 +53,19 @@ export default function Banner_small() {
             </div>
             <div className="flex items-center justify-start btns-ch">
               <div className="h-20 w-20 btn-choose">
-                <Link href={`${redirectUrl}/${newUrl}&creative_id=Choice_Of_The_Day`}
+                <Link href={`${redirectUrl}/${newUrl}&creative_id=Choice_Of_The_Day_2`}
                   target="_blank">
                   {t("Choose")}
                 </Link>
               </div>
               <div className="h-20 w-20 btn-choose">
-                <Link href={`${redirectUrl}/${newUrl}&creative_id=Choice_Of_The_Day`}
+                <Link href={`${redirectUrl}/${newUrl}&creative_id=Choice_Of_The_Day_2`}
                   target="_blank">
                   {t("Choose")}
                 </Link>
               </div>
               <div className="h-20 w-20 btn-choose">
-                <Link href={`${redirectUrl}/${newUrl}&creative_id=Choice_Of_The_Day`}
+                <Link href={`${redirectUrl}/${newUrl}&creative_id=Choice_Of_The_Day_2`}
                   target="_blank">
                   {t("Choose")}
                 </Link>

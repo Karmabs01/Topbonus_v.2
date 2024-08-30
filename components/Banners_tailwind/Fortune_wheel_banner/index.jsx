@@ -9,11 +9,11 @@ export default function Banner_small() {
   const { t } = useTranslation();
   const categoryBrands = { key1: "FirstPriority", key2: "1" };
   const target = "target-fw-brands-main-page";
-  const creative = "FW_Brands_Main_Page";
+  const creative = "FW_Brands_Main_Page_2";
 
   return (
     <>
-      <div id="fortune-wheel" className="mt-10 mtt mmt-mob">
+      <div id="fortune-wheel" className="mt-16 mtt mmt-mob">
         <div className="main__container bg-main">
           <div className="background overflow-hidden background-roulete rounded-xl h-full ">
             <div className="mx-auto max-w-7xl px-6 lg:px-8 flex flex-col">
@@ -27,7 +27,7 @@ export default function Banner_small() {
                   </h5>
                   <div className="flex mt-4">
                     <Link
-                      href={`&creative_id=FORTUNE_WHEEL`}
+                      href={`&creative_id=FORTUNE_WHEEL_2`}
                       target="_blank"
                     >
                       <div className="btn btn-new">

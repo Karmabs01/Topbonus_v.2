@@ -758,6 +758,10 @@ select {
   margin-top: 4rem !important;
 }
 
+.\!mt-24 {
+  margin-top: 6rem !important;
+}
+
 .-ml-px {
   margin-left: -1px;
 }
@@ -868,6 +872,10 @@ select {
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .mt-2 {
@@ -13023,10 +13031,6 @@ main > .topbr {
   .sm\:py-16 {
     padding-top: 4rem;
     padding-bottom: 4rem;
-  }
-
-  .sm\:pb-10 {
-    padding-bottom: 2.5rem;
   }
 
   .sm\:pb-5 {

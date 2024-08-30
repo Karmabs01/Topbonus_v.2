@@ -8,7 +8,7 @@ const useNavigateBrands = () => {
     {
       currentTab: 1,
       currentCategories: 25,
-      currentText: "All_Brands",
+      currentText: "All_Brands_2",
       segment: "CurrentStatus",
       value: "Ongoing",
       target: "target-all-brands",
@@ -45,7 +45,7 @@ const useNavigateBrands = () => {
     {
       currentTab: 5,
       currentCategories: 187,
-      currentText: "New_Brands",
+      currentText: "New_Brands_2",
       segment: "Segment2",
       value: "Sandbox",
       target: "target-new-arrivals",
@@ -70,7 +70,7 @@ const useNavigateBrands = () => {
     {
       currentTab: 2,
       currentCategories: 26,
-      currentText: "Top_Rated_Casinos",
+      currentText: "Top_Rated_Casinos_2",
       segment: "Segment2",
       value: "Premium",
       target: "target-recommended-brands",
@@ -95,7 +95,7 @@ const useNavigateBrands = () => {
     {
       currentTab: 3,
       currentCategories: 24,
-      currentText: "Fast_Payout",
+      currentText: "Fast_Payout_2",
       segment: "QuickSignUp",
       value: "1",
       target: "target-quick-sign-up-brands",
@@ -120,7 +120,7 @@ const useNavigateBrands = () => {
     {
       currentTab: 4,
       currentCategories: 19,
-      currentText: "Best_Slot",
+      currentText: "Best_Slot_2",
       segment: "Hottest",
       value: "1",
       target: "target-hottest-deals",
@@ -156,7 +156,7 @@ const useNavigateBrands = () => {
     {
       currentTab: 6,
       currentCategories: 19,
-      currentText: "Table_Games",
+      currentText: "Table_Games_2",
       segment: "Hottest",
       value: "1",
       target: "target-hottest-deals",
@@ -203,7 +203,7 @@ const useNavigateBrands = () => {
     {
       currentTab: 7,
       currentCategories: 19,
-      currentText: "Jackpot_Casinos",
+      currentText: "Jackpot_Casinos_2",
       segment: "Hottest",
       value: "1",
       target: "target-hottest-deals",

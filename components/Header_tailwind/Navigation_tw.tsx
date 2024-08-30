@@ -139,7 +139,7 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
                   </div>
                   <div className="flex ml-auto sm:mt-0">
                     <Link
-                      href={`${redirectUrl}/${newUrl}&creative_id=Try_Your_Luck_header`}
+                      href={`${redirectUrl}/${newUrl}&creative_id=Try_Your_Luck_header_2`}
                       target="_blank"
                     >
                       <div className="relative px-4 py-3 text-white rounded-lg lucky-btn btn-blick overflow-hidden flex items-center">

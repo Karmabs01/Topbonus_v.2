@@ -35,7 +35,7 @@ export default function Fortune() {
 
   const categoryBrands = { key1: "FirstPriority", key2: "1" };
   const target = "target-fw-brands-wheel-page";
-  const creative = "FW_Brands_Wheel_Page";
+  const creative = "FW_Brands_Wheel_Page_2";
   return (
     <div className="page-fortune main__container">
       {/* <button onClick={() => updateUserDataIfNeeded(userData)}>On</button> */}

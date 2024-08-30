@@ -120,7 +120,7 @@ export default function Brands_double_carousel() {
         <Loader />
       ) : (
         brands.length > 0 && (
-          <div className="brands_rows pt-10 sm:pb-10">
+          <div className="brands_rows pt-10">
             <div className="main__container relative mt-8">
               <div className="background-slider2 absolute">
                 <svg
@@ -212,7 +212,7 @@ export default function Brands_double_carousel() {
                                 <div className="item">
                                   <Link
                                     className=""
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
+                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
                                     target="_blank"
                                   >
                                     <Image
@@ -232,7 +232,7 @@ export default function Brands_double_carousel() {
                                 <div className="item">
                                   <Link
                                     className=""
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
+                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
                                     target="_blank"
                                   >
                                     <Image
@@ -254,7 +254,7 @@ export default function Brands_double_carousel() {
                                 <div className="item">
                                   <Link
                                     className=""
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
+                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
                                     target="_blank"
                                   >
                                     <Image
@@ -274,7 +274,7 @@ export default function Brands_double_carousel() {
                                 <div className="item">
                                   <Link
                                     className=""
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
+                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
                                     target="_blank"
                                   >
                                     <Image
@@ -296,7 +296,7 @@ export default function Brands_double_carousel() {
                                 <div className="item">
                                   <Link
                                     className=""
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
+                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
                                     target="_blank"
                                   >
                                     <Image
@@ -316,7 +316,7 @@ export default function Brands_double_carousel() {
                                 <div className="item">
                                   <Link
                                     className=""
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
+                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
                                     target="_blank"
                                   >
                                     <Image
@@ -338,7 +338,7 @@ export default function Brands_double_carousel() {
                                 <div className="item">
                                   <Link
                                     className=""
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
+                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
                                     target="_blank"
                                   >
                                     <Image
@@ -358,7 +358,7 @@ export default function Brands_double_carousel() {
                                 <div className="item">
                                   <Link
                                     className=""
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
+                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
                                     target="_blank"
                                   >
                                     <Image
@@ -390,7 +390,7 @@ export default function Brands_double_carousel() {
                               <div className="item2">
                                 <Link
                                   className=""
-                                  href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout`}
+                                  href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
                                   target="_blank"
                                 >
                                   <Image

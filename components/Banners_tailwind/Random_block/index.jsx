@@ -73,7 +73,7 @@ export default function Random_block() {
                     </p>
 
                     <Link
-                      href={`${redirectUrl}/${newUrl}&creative_id=Try_Your_Luck`}
+                      href={`${redirectUrl}/${newUrl}&creative_id=Try_Your_Luck_2`}
                       target="_blank"
                       className="flex mlml"
                     >

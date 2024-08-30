@@ -11,7 +11,7 @@ export default function Next_event_banner() {
 
   return (
     <>
-      <div className="main__container !mt-16">
+      <div className="main__container !mt-24">
         <div className="">
           <div className="flex flex-col items-center justify-center gap-x-6 banner-event px-6 py-2.5 sm:px-3.5">
             <h3 className="text-xl sm:text-xl leading-6 text-white uppercase">

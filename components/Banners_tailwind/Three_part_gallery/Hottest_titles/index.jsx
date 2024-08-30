@@ -177,7 +177,7 @@ export default function Popular_offers() {
                   {brands.slice(0, 5).map((rowData, index) => (
                     <Link
                       className=""
-                      href={`${rowData.GoBig}/${newUrl}&creative_id=Hottest`}
+                      href={`${rowData.GoBig}/${newUrl}&creative_id=Hottest_2`}
                       target="_blank"
                     >
                       <li
@@ -196,7 +196,7 @@ export default function Popular_offers() {
                         <div className="flex items-center flex-col w-full">
                           <div className="flex-1 px-4 text-sm h-full w-full">
                             <a
-                              href={`${rowData.GoBig}/${newUrl}&creative_id=Hottest`}
+                              href={`${rowData.GoBig}/${newUrl}&creative_id=Hottest_2`}
                               className="font-medium"
                             >
                               {rowData.CasinoBrand}

@@ -9,14 +9,14 @@ import Brands_carousel from "../Brands_carousel";
 export default function Banner_small() {
   const categoryBrands = { key1: "Segment2", key2: "Sandbox" };
   const { t } = useTranslation();
+  const creative = "Top_New_Releases_2"
 
   return (
     <>
       <div>
         <div id="real-block" className="main__container">
           <div className="">
-            <div className="flex items-center px-2 py-2.5 sm:px-3.5 rounded-md mt-10 flex-col sm:flex-row new-brands">
-              {/* <div className="flex flex-row items-center">
+          <div className="flex items-center px-2 py-2.5 sm:px-3.5 rounded-md mt-16 flex-col sm:flex-row new-brands">              {/* <div className="flex flex-row items-center">
                 <div className="absolute abs-p flex justify-center items-center">
                   <p>NEW</p>
                 </div>
@@ -46,7 +46,7 @@ export default function Banner_small() {
           </div>
         </div>
       </div>
-      <Brands_carousel categoryBrands={categoryBrands} creative={"Top_New_Releases"} />
+      <Brands_carousel categoryBrands={categoryBrands} creative={creative} />
     </>
   );
 }

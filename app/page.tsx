@@ -17,8 +17,6 @@ import FilteredHome from "@/components/Brands_home/FilteredHome";
 import Fortunes from "@/components/fortune";
 import NewArrivals from "@/components/newArrivals/NewArrivals";
 
-
-
 export const metadata: Metadata = {
   title: "topbon.us: Your Comprehensive Source for Casino Reviews and Insights",
   description:
@@ -28,19 +26,16 @@ export const metadata: Metadata = {
 export default async function Home() {
   const banner = true;
   const target = "target-fw-brands-main-page";
-  const creative = "FW_Brands_Main_Page";
+  const creative = "FW_Brands_Main_Page_2";
   return (
     <>
-      <TopBrands />
-      <Banner_small />
-      {/* <Double_banners /> */}
-      <Random_block />
-      <Brands_double_carousel />
-      <Jackpot_banner />
       <Three_part_gallery />
+      <TopBrands />
+      <Brands_double_carousel />
       <Next_event_banner />
-
       <Fortune_wheel />
+      <Banner_small />
+      <Random_block />
 
       {/*    
    <Brand_carousel_mobile/>
@@ -60,7 +55,6 @@ export default async function Home() {
 
       <div className="background-block">
         <FilteredHome />
-          
       </div>
     </>
   );
