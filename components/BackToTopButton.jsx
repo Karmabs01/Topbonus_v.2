@@ -33,7 +33,7 @@ const BackToTop = () => {
     isVisible && (
       <div
         onClick={scrollToTop}
-        className="fixed bottom-10 right-10 text-white p-3 rounded-full backToTopBtn transition cursor-pointer"
+        className="fixed bottom-28 right-7 text-white p-3 rounded-full backToTopBtn transition cursor-pointer"
       >
         ↑
       </div>
