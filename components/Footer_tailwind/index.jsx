@@ -149,7 +149,7 @@ const Footer_tailwind = () => {
                                     </div>
                                     <div className="text-sm leading-6">
                                         <label htmlFor="candidates" className="font-medium text-white">
-                                            {t("I agree to receive promotional emails from TOPBON.US and its partners.")}
+                                            {t("I agree to receive promotional emails from best.topbonuspicks.com and its partners.")}
                                         </label>
                                     </div>
                                 </div>
@@ -164,7 +164,7 @@ const Footer_tailwind = () => {
                                     </div>
                                     <div className="text-sm leading-6">
                                         <label htmlFor="offers" className="font-medium text-white">
-                                            {t("I agree to receive promotional sms from TOPBON.US.")}
+                                            {t("I agree to receive promotional sms from best.topbonuspicks.com.")}
                                         </label>
                                     </div>
                                 </div>
@@ -174,7 +174,7 @@ const Footer_tailwind = () => {
                 </div>
                 <div className="mt-5 border-t border-gray-900/10 pt-8 sm:mt-5 md:flex md:items-center md:justify-center lg:mt-5 pb-10 md:pb-0 bot-foot">
                     <p className="mt-8 text-md leading-5 text-gray-300 md:order-1 md:mt-0 text-center">
-                        Copyright &copy; 2024, topbon.us All rights reserved.
+                        Copyright &copy; 2024, best.topbonuspicks.com All rights reserved.
                     </p>
                 </div>
             </div>

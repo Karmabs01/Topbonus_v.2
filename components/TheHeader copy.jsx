@@ -50,7 +50,7 @@ const TheHeader = () => {
 
   useEffect(() => {
     const handleMessage = (event) => {
-      if (event.origin !== "https://topbon.us") {
+      if (event.origin !== "https://best.topbonuspicks.com") {
         console.error(
           "Received message from an unauthorized origin:",
           event.origin

@@ -16,9 +16,9 @@ import MainWrapper from '@/components/MainWrapper'; // Импортируем к
 
 export const metadata: Metadata = {
   title:
-    'Bonus topbon.us: Your Comprehensive Source for Casino Reviews and Insights',
+    'Bonus best.topbonuspicks.com: Your Comprehensive Source for Casino Reviews and Insights',
   description:
-    'Welcome to Bonus topbon.us, your ultimate destination for comprehensive casino reviews and invaluable insights...',
+    'Welcome to Bonus best.topbonuspicks.com, your ultimate destination for comprehensive casino reviews and invaluable insights...',
 };
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
+      <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
           rel="stylesheet"
@@ -38,14 +38,14 @@ export default function RootLayout({
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','G-BTGRSY2322');
+})(window,document,'script','dataLayer','G-LTL641RYK9');
           `}
         </Script>
-      </Head>
+      </head>
       <body>
         <noscript>
           <iframe
-            src="https://www.googletagmanager.com/ns.html?id=G-BTGRSY2322"
+            src="https://www.googletagmanager.com/ns.html?id=G-LTL641RYK9"
             height="0"
             width="0"
             style={{ display: 'none', visibility: 'hidden' }}
@@ -79,6 +79,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js"
           defer
         ></Script>
+            <Script id="ladesc">
+          {`
+            (function (d, src, c) {
+              var t = d.scripts[d.scripts.length - 1],
+                s = d.createElement("script");
+              s.id = "la_x2s6df8d";
+              s.defer = true;
+              s.src = src;
+              s.onload = s.onreadystatechange = function () {
+                var rs = this.readyState;
+                if (rs && rs != "complete" && rs != "loaded") {
+                  return;
+                }
+                c(this);
+              };
+              t.parentElement.insertBefore(s, t.nextSibling);
+            })(document, "https://maw.ladesk.com/scripts/track.js", function (e) {
+              LiveAgent.createButton("32wx1d8n", e);
+            });
+          `}
+        </Script>
       </body>
     </html>
   );

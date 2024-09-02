@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Responsible Gaming | Bonus topbon.us",
+  title: "Responsible Gaming | Bonus best.topbonuspicks.com",
   description:
-    "Navigate the complexities of casino payment methods with ease, thanks to Bonus topbon.us's comprehensive Payments guide. From credit cards and e-wallets to cryptocurrencies, we cover all the options, detailing the pros and cons to help you make informed decisions. Learn about processing times, fees, and security measures so you can deposit and withdraw funds with confidence. Your seamless gaming experience starts with choosing the right payment method, and we're here to guide you every step of the way!",
+    "Navigate the complexities of casino payment methods with ease, thanks to Bonus best.topbonuspicks.com's comprehensive Payments guide. From credit cards and e-wallets to cryptocurrencies, we cover all the options, detailing the pros and cons to help you make informed decisions. Learn about processing times, fees, and security measures so you can deposit and withdraw funds with confidence. Your seamless gaming experience starts with choosing the right payment method, and we're here to guide you every step of the way!",
 };
 
 export default async function Bonuses() {
@@ -12,7 +12,7 @@ export default async function Bonuses() {
       <div className="main__container">
         <h1 className="mb-3">Responsible Gaming</h1>
         <p>
-          At Bonus topbon.us, we believe that gambling should always be a form
+          At Bonus best.topbonuspicks.com, we believe that gambling should always be a form
           of entertainment. However, it&#39;s important to recognize that a
           small percentage of individuals may lose control when gambling. Before
           you begin playing, it&#39;s crucial to understand that gambling should
@@ -119,7 +119,7 @@ export default async function Bonuses() {
         </ul>
         <h2 className="mb-3">Protection of Minors</h2>
         <p>
-          Bonus topbon.us only accepts players who are at least 18 years old and
+          Bonus best.topbonuspicks.com only accepts players who are at least 18 years old and
           employs various methods to prevent minors from registering and playing
           on our website. We reserve the right to request proof of identity, and
           if a player is under the legal age to play, access to the website will

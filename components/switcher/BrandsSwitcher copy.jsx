@@ -10,7 +10,7 @@ const BrandsSwitcher = () => {
   const ipData = async () => {
     try {
       const response = await fetch(
-        "https://ipapi.co/json/?key=YD0x5VtXrPJkOcFQMjEyQgqjfM6jUcwS4J54b3DI8ztyrFpHzW"
+        "https://ipapi.co/json/"
       );
       const data = await response.json();
       if (data.country) {
