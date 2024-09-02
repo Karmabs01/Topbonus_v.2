@@ -299,7 +299,7 @@ const UserBrands = () => {
                               </Link>
                               <Link
                                 className="relative btn-play btn-blick overflow-hidden"
-                                href={`${brand.GoBig}/&creative_id=USER_REGISTRATION_2`}
+                                href={`${brand.GoBig}/&creative_id=REGISTRATION_2`}
                                 target="_blank"
                               >
                                 Play Now
