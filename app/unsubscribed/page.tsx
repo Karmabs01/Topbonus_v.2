@@ -10,7 +10,7 @@ export default async function Bonuses() {
   
   return (
     <div className="page-bonuses">
-        <div className="main__container unsubscribed">
+        <div className="main__container unsubscribed text-orange">
             <h2>You are unsubscribed!</h2>
         </div>
     </div>
