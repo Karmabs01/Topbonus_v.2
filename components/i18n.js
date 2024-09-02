@@ -12,12 +12,16 @@ async function initializeI18n() {
     );
     const data = await response.json();
     if (typeof window !== "undefined") {
-      localStorage.setItem("country", data.country);
+      if (localStorage.getItem("country") === null) {
+        localStorage.setItem("country", data.country);
+        defLng = data.country.toLowerCase();
+      } else {
+        defLng = localStorage.getItem("country");
+      }
       localStorage.setItem("country_phone", data.country);
       localStorage.setItem("country_data", data.country);
       localStorage.setItem("country_name", data.country_name);
     }
-    defLng = data.country.toLowerCase();
   } catch (error) {
     console.error("Ошибка при запросе к API:", error);
     defLng = "all";

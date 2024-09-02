@@ -3,9 +3,10 @@ import React, { useState, useEffect } from "react";
 const Counter = () => {
   const startAmount = 250000;
   const maxAmount = 375000;
-
-  // Фиксированное время старта (например, сейчас)
   const fixedStartTime = Date.UTC(2024, 7, 4, 0, 0, 0);
+  
+  // Состояние для отслеживания, рендерится ли компонент на клиенте
+  const [isClient, setIsClient] = useState(false);
 
   // Функция для генерации случайного числа от 5 до 25
   const getRandomIncrement = () => Math.floor(Math.random() * 21) + 5;
@@ -29,8 +30,16 @@ const Counter = () => {
     return currentAmount;
   };
 
-  const [amount, setAmount] = useState(calculateInitialAmount());
-  const [displayAmount, setDisplayAmount] = useState(amount);
+  const [amount, setAmount] = useState(startAmount);
+  const [displayAmount, setDisplayAmount] = useState(startAmount);
+
+  useEffect(() => {
+    // Устанавливаем флаг для подтверждения, что мы на клиенте
+    setIsClient(true);
+    
+    // Начинаем с вычисленного значения только на клиенте
+    setAmount(calculateInitialAmount());
+  }, []);
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -44,26 +53,33 @@ const Counter = () => {
     }, 2000);
 
     return () => clearInterval(intervalId);
-  }, []);
+  }, [isClient]);
 
   useEffect(() => {
-    const animationInterval = setInterval(() => {
-      setDisplayAmount((prevDisplayAmount) => {
-        const step = (amount - prevDisplayAmount) / 10;
-        let newDisplayAmount = prevDisplayAmount + step;
-        if (
-          (step > 0 && newDisplayAmount >= amount) ||
-          (step < 0 && newDisplayAmount <= amount)
-        ) {
-          newDisplayAmount = amount;
-          clearInterval(animationInterval);
-        }
-        return newDisplayAmount;
-      });
-    }, 50);
+    if (isClient) {
+      const animationInterval = setInterval(() => {
+        setDisplayAmount((prevDisplayAmount) => {
+          const step = (amount - prevDisplayAmount) / 10;
+          let newDisplayAmount = prevDisplayAmount + step;
+          if (
+            (step > 0 && newDisplayAmount >= amount) ||
+            (step < 0 && newDisplayAmount <= amount)
+          ) {
+            newDisplayAmount = amount;
+            clearInterval(animationInterval);
+          }
+          return newDisplayAmount;
+        });
+      }, 50);
 
-    return () => clearInterval(animationInterval);
-  }, [amount]);
+      return () => clearInterval(animationInterval);
+    }
+  }, [amount, isClient]);
+
+  // Ожидаем рендеринг только на клиенте
+  if (!isClient) {
+    return null;
+  }
 
   return (
     <div>
