@@ -163,6 +163,7 @@ export default function Popular_offers() {
                                                     <div className="relative flex align-center justify-center">
                                                         <Link
                                                             href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers_2`}
+                                                            target="_blank"
                                                         >
                                                             <Image
                                                                 src={`/brands/${rowData.CasinoBrand}.png`}
@@ -183,6 +184,7 @@ export default function Popular_offers() {
                                                 <div className="btn-crd">
                                                     <Link
                                                         href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers_2`}
+                                                        target="_blank"
                                                         className="relative flex items-center justify-center px-8 py-2 text-lg font-medium rounded-full text-white btn-blick overflow-hidden"
                                                     >
                                                         {t("Play Now")}
@@ -223,6 +225,7 @@ export default function Popular_offers() {
                                                     <div className="mt-6">
                                                         <Link
                                                             href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers_2`}
+                                                            target="_blank"
                                                             className=" flex items-center justify-center text-white btn-crd"
                                                         >
                                                             {t("Play Now")}

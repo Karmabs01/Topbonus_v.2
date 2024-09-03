@@ -27,7 +27,7 @@ export default function Banner_small() {
                   </h5>
                   <div className="flex mt-4">
                     <Link
-                      href={`&creative_id=FORTUNE_WHEEL_2`}
+                      href={`/fortune/?creative_id=FORTUNE_WHEEL_2`}
                       target="_blank"
                     >
                       <div className="btn btn-new">

@@ -38,6 +38,10 @@ export default function Banner_small() {
         url = "https://link.reg2dep.business/topbonus_rnd";
     }
     setRedirectUrl(url);
+    const savedUrl = localStorage.getItem("savedUrl");
+    if (savedUrl) {
+      setNewUrl(savedUrl);
+    }
   }, [source]);
 
   return (
