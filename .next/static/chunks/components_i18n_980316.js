@@ -18,15 +18,25 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18
 async function initializeI18n() {
     let defLng;
     try {
-        const response = await fetch("https://ipapi.co/json/?key=YD0x5VtXrPJkOcFQMjEyQgqjfM6jUcwS4J54b3DI8ztyrFpHzW");
-        const data = await response.json();
+        // Проверяем, есть ли значение "country" в localStorage
         if (typeof window !== "undefined") {
-            localStorage.setItem("country", data.country);
-            localStorage.setItem("country_phone", data.country);
-            localStorage.setItem("country_data", data.country);
-            localStorage.setItem("country_name", data.country_name);
+            const storedCountry = localStorage.getItem("country");
+            if (!storedCountry) {
+                const response = await fetch('/api/geolocation');
+                const data = await response.json();
+                // Записываем данные в localStorage только если он пуст
+                localStorage.setItem("country", data.country);
+                localStorage.setItem("country_phone", data.country);
+                localStorage.setItem("country_data", data.country);
+                localStorage.setItem("country_name", data.country);
+                defLng = data.country.toLowerCase();
+            } else {
+                // Если данные уже есть, используем их
+                defLng = storedCountry.toLowerCase();
+            }
+        } else {
+            defLng = "all";
         }
-        defLng = data.country.toLowerCase();
     } catch (error) {
         console.error("Ошибка при запросе к API:", error);
         defLng = "all";
@@ -465,8 +475,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Join the community of our subscribers",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!",
                 "I agree with Terms and Conditions and Privacy Policy.": "I agree with Terms and Conditions and Privacy Policy.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "I agree to receive promotional emails from TOPBON.US and its partners.",
-                "I agree to receive promotional sms from TOPBON.US.": "I agree to receive promotional sms from TOPBON.US.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "I agree to receive promotional emails from best.topbonuspicks.com and its partners.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "I agree to receive promotional sms from best.topbonuspicks.com.",
                 "Take a Chance!": "Take a Chance!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Feeling lucky? Discover random casino brands and test your fortune!",
                 "New Brands": "New Brands",
@@ -798,8 +808,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Dołącz do społeczności naszych subskrybentów",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Otrzymuj najnowsze oferty i lukratywne bonusy od zaufanych kasyn online działających w Twoim regionie! Dowiedz się jako pierwszy, gdzie dziś warto zagrać!",
                 "I agree with Terms and Conditions and Privacy Policy.": "Zgadzam się z Regulaminem i Polityką Prywatności.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "Zgadzam się na otrzymywanie wiadomości promocyjnych od TOPBON.US i jego partnerów.",
-                "I agree to receive promotional sms from TOPBON.US.": "Zgadzam się na otrzymywanie SMS-ów promocyjnych od TOPBON.US.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "Zgadzam się na otrzymywanie wiadomości promocyjnych od best.topbonuspicks.com i jego partnerów.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "Zgadzam się na otrzymywanie SMS-ów promocyjnych od best.topbonuspicks.com.",
                 "Take a Chance!": "Spróbuj Szczęścia!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Czujesz szczęście? Odkryj losowe marki kasyn i sprawdź swoje szczęście!",
                 "New Brands": "Nowe Marki",
@@ -1128,8 +1138,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Schließe dich unserer Community von Abonnenten an",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Erhalte frische Angebote und lukrative Boni von vertrauenswürdigen Online-Casinos in deiner Region! Sei der Erste, der erfährt, wo es sich heute zu spielen lohnt!",
                 "I agree with Terms and Conditions and Privacy Policy.": "Ich stimme den AGB und der Datenschutzerklärung zu.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "Ich stimme zu, Werbe-E-Mails von TOPBON.US und seinen Partnern zu erhalten.",
-                "I agree to receive promotional sms from TOPBON.US.": "Ich stimme zu, Werbe-SMS von TOPBON.US zu erhalten.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "Ich stimme zu, Werbe-E-Mails von best.topbonuspicks.com und seinen Partnern zu erhalten.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "Ich stimme zu, Werbe-SMS von best.topbonuspicks.com zu erhalten.",
                 "Take a Chance!": "Nutze deine Chance!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Fühlst du dich glücklich? Entdecke zufällige Casino-Marken und teste dein Glück!",
                 "New Brands": "Neue Marken",
@@ -1457,8 +1467,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Присъедини се към общността на нашите абонати",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Получавай най-новите оферти и изгодни бонуси от надеждни онлайн казина, работещи в твоя регион! Бъди първият, който ще разбере къде си заслужава да играеш днес!",
                 "I agree with Terms and Conditions and Privacy Policy.": "Съгласявам се с Условията за ползване и Политиката за поверителност.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "Съгласявам се да получавам промоционални имейли от TOPBON.US и неговите партньори.",
-                "I agree to receive promotional sms from TOPBON.US.": "Съгласявам се да получавам промоционални съобщения от TOPBON.US.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "Съгласявам се да получавам промоционални имейли от best.topbonuspicks.com и неговите партньори.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "Съгласявам се да получавам промоционални съобщения от best.topbonuspicks.com.",
                 "Take a Chance!": "Възползвай се от Шанса!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Чувстваш се късметлия? Открий случайни марки казина и провери късмета си!",
                 "New Brands": "Нови Марки",
@@ -1786,8 +1796,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Připojte se ke komunitě našich odběratelů",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Získejte čerstvé nabídky a lukrativní bonusy od důvěryhodných online kasin působících ve vaší oblasti! Buďte první, kdo zjistí, kde se dnes vyplatí hrát!",
                 "I agree with Terms and Conditions and Privacy Policy.": "Souhlasím s podmínkami a zásadami ochrany osobních údajů.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "Souhlasím s přijímáním reklamních e-mailů od TOPBON.US a jeho partnerů.",
-                "I agree to receive promotional sms from TOPBON.US.": "Souhlasím s přijímáním reklamních SMS od TOPBON.US.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "Souhlasím s přijímáním reklamních e-mailů od best.topbonuspicks.com a jeho partnerů.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "Souhlasím s přijímáním reklamních SMS od best.topbonuspicks.com.",
                 "Take a Chance!": "Využijte Šanci!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Cítíte se šťastně? Objevte náhodné kasinové značky a otestujte své štěstí!",
                 "New Brands": "Nové Značky",
@@ -2115,8 +2125,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Bliv en del af vores abonnentfællesskab",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Få friske tilbud og lukrative bonusser fra pålidelige online kasinoer i din region! Vær den første til at finde ud af, hvor det er værd at spille i dag!",
                 "I agree with Terms and Conditions and Privacy Policy.": "Jeg accepterer vilkår og betingelser samt privatlivspolitik.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "Jeg accepterer at modtage reklameemails fra TOPBON.US og dets partnere.",
-                "I agree to receive promotional sms from TOPBON.US.": "Jeg accepterer at modtage reklame-sms fra TOPBON.US.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "Jeg accepterer at modtage reklameemails fra best.topbonuspicks.com og dets partnere.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "Jeg accepterer at modtage reklame-sms fra best.topbonuspicks.com.",
                 "Take a Chance!": "Tag en Chance!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Føler du dig heldig? Opdag tilfældige kasino-mærker og test dit held!",
                 "New Brands": "Nye Mærker",
@@ -2444,8 +2454,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Word lid van de gemeenschap van onze abonnees",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Ontvang verse aanbiedingen en lucratieve bonussen van betrouwbare online casino's in jouw regio! Wees de eerste om te ontdekken waar het vandaag de moeite waard is om te spelen!",
                 "I agree with Terms and Conditions and Privacy Policy.": "Ik ga akkoord met de Algemene Voorwaarden en het Privacybeleid.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "Ik ga akkoord met het ontvangen van promotionele e-mails van TOPBON.US en zijn partners.",
-                "I agree to receive promotional sms from TOPBON.US.": "Ik ga akkoord met het ontvangen van promotionele sms'jes van TOPBON.US.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "Ik ga akkoord met het ontvangen van promotionele e-mails van best.topbonuspicks.com en zijn partners.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "Ik ga akkoord met het ontvangen van promotionele sms'jes van best.topbonuspicks.com.",
                 "Take a Chance!": "Waag je Kans!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Voel je je gelukkig? Ontdek willekeurige casino merken en test je geluk!",
                 "New Brands": "Nieuwe Merken",
@@ -2773,8 +2783,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Únete a la comunidad de nuestros suscriptores",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "¡Obtén ofertas frescas y bonos lucrativos de casinos online confiables que operan en tu región! Sé el primero en descubrir dónde vale la pena jugar hoy!",
                 "I agree with Terms and Conditions and Privacy Policy.": "Estoy de acuerdo con los Términos y Condiciones y la Política de Privacidad.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "Acepto recibir correos electrónicos promocionales de TOPBON.US y sus socios.",
-                "I agree to receive promotional sms from TOPBON.US.": "Acepto recibir SMS promocionales de TOPBON.US.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "Acepto recibir correos electrónicos promocionales de best.topbonuspicks.com y sus socios.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "Acepto recibir SMS promocionales de best.topbonuspicks.com.",
                 "Take a Chance!": "¡Aprovecha tu Oportunidad!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "¿Te sientes afortunado? ¡Descubre marcas de casino aleatorias y pon a prueba tu suerte!",
                 "New Brands": "Nuevas Marcas",
@@ -3102,8 +3112,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Liity tilaajiemme yhteisöön",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Saat tuoreita tarjouksia ja tuottoisia bonuksia luotettavista nettikasinoista, jotka toimivat alueellasi! Ole ensimmäinen, joka tietää, missä kannattaa pelata tänään!",
                 "I agree with Terms and Conditions and Privacy Policy.": "Hyväksyn ehdot ja tietosuojakäytännön.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "Hyväksyn vastaanottavani mainospostia TOPBON.US:ltä ja sen kumppaneilta.",
-                "I agree to receive promotional sms from TOPBON.US.": "Hyväksyn vastaanottavani mainosviestejä TOPBON.US:ltä.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "Hyväksyn vastaanottavani mainospostia best.topbonuspicks.com:ltä ja sen kumppaneilta.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "Hyväksyn vastaanottavani mainosviestejä best.topbonuspicks.com:ltä.",
                 "Take a Chance!": "Ota Mahdollisuus!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Tuntuuko onnekkaalta? Löydä satunnaisia kasinobrändejä ja testaa onneasi!",
                 "New Brands": "Uudet Brändit",
@@ -3432,8 +3442,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Rejoignez la communauté de nos abonnés",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Obtenez de nouvelles offres et des bonus lucratifs de casinos en ligne fiables opérant dans votre région ! Soyez le premier à découvrir où il vaut la peine de jouer aujourd'hui !",
                 "I agree with Terms and Conditions and Privacy Policy.": "J'accepte les Termes et Conditions ainsi que la Politique de Confidentialité.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "J'accepte de recevoir des emails promotionnels de la part de TOPBON.US et de ses partenaires.",
-                "I agree to receive promotional sms from TOPBON.US.": "J'accepte de recevoir des SMS promotionnels de la part de TOPBON.US.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "J'accepte de recevoir des emails promotionnels de la part de best.topbonuspicks.com et de ses partenaires.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "J'accepte de recevoir des SMS promotionnels de la part de best.topbonuspicks.com.",
                 "Take a Chance!": "Tentez votre Chance !",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Vous vous sentez chanceux ? Découvrez des marques de casino aléatoires et testez votre chance !",
                 "New Brands": "Nouvelles Marques",
@@ -3762,8 +3772,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Γίνετε μέλος της κοινότητας των συνδρομητών μας",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Αποκτήστε νέες προσφορές και κερδοφόρα μπόνους από αξιόπιστα διαδικτυακά καζίνο που λειτουργούν στην περιοχή σας! Γίνετε ο πρώτος που θα μάθει πού αξίζει να παίξετε σήμερα!",
                 "I agree with Terms and Conditions and Privacy Policy.": "Συμφωνώ με τους Όρους και Προϋποθέσεις και την Πολιτική Απορρήτου.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "Συμφωνώ να λαμβάνω διαφημιστικά email από το TOPBON.US και τους συνεργάτες του.",
-                "I agree to receive promotional sms from TOPBON.US.": "Συμφωνώ να λαμβάνω διαφημιστικά sms από το TOPBON.US.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "Συμφωνώ να λαμβάνω διαφημιστικά email από το best.topbonuspicks.com και τους συνεργάτες του.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "Συμφωνώ να λαμβάνω διαφημιστικά sms από το best.topbonuspicks.com.",
                 "Take a Chance!": "Πάρτε μια Ευκαιρία!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Αισθάνεστε τυχεροί; Ανακαλύψτε τυχαίες μάρκες καζίνο και δοκιμάστε την τύχη σας!",
                 "New Brands": "Νέες Μάρκες",
@@ -4092,8 +4102,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Csatlakozz a feliratkozóink közösségéhez",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Szerezz friss ajánlatokat és jövedelmező bónuszokat a megbízható online kaszinókból, amelyek a régiódban működnek! Légy az első, aki megtudja, hol érdemes ma játszani!",
                 "I agree with Terms and Conditions and Privacy Policy.": "Egyetértek a Felhasználási feltételekkel és az Adatvédelmi irányelvekkel.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "Egyetértek, hogy promóciós e-maileket kapjak a TOPBON.US-tól és partnereitől.",
-                "I agree to receive promotional sms from TOPBON.US.": "Egyetértek, hogy promóciós SMS-eket kapjak a TOPBON.US-tól.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "Egyetértek, hogy promóciós e-maileket kapjak a best.topbonuspicks.com-tól és partnereitől.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "Egyetértek, hogy promóciós SMS-eket kapjak a best.topbonuspicks.com-tól.",
                 "Take a Chance!": "Vállalj kockázatot!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Szerencsésnek érzed magad? Fedezz fel véletlenszerű kaszinó márkákat és teszteld a szerencsédet!",
                 "New Brands": "Új Márkák",
@@ -4422,8 +4432,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Unisciti alla comunità dei nostri iscritti",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Ottieni nuove offerte e bonus redditizi dai casinò online affidabili che operano nella tua regione! Sii il primo a scoprire dove vale la pena giocare oggi!",
                 "I agree with Terms and Conditions and Privacy Policy.": "Accetto i Termini e Condizioni e l'Informativa sulla Privacy.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "Accetto di ricevere email promozionali da TOPBON.US e dai suoi partner.",
-                "I agree to receive promotional sms from TOPBON.US.": "Accetto di ricevere sms promozionali da TOPBON.US.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "Accetto di ricevere email promozionali da best.topbonuspicks.com e dai suoi partner.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "Accetto di ricevere sms promozionali da best.topbonuspicks.com.",
                 "Take a Chance!": "Tenta la Fortuna!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Ti senti fortunato? Scopri marchi di casinò casuali e metti alla prova la tua fortuna!",
                 "New Brands": "Nuovi Marchi",
@@ -4752,8 +4762,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Bli med i fellesskapet av våre abonnenter",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Få friske kupp og lukrative bonuser fra pålitelige nettcasinoer som opererer i din region! Vær den første til å finne ut hvor det er verdt å spille i dag!",
                 "I agree with Terms and Conditions and Privacy Policy.": "Jeg godtar vilkår og betingelser samt personvernreglene.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "Jeg godtar å motta kampanje-e-poster fra TOPBON.US og dets partnere.",
-                "I agree to receive promotional sms from TOPBON.US.": "Jeg godtar å motta kampanje-SMS fra TOPBON.US.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "Jeg godtar å motta kampanje-e-poster fra best.topbonuspicks.com og dets partnere.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "Jeg godtar å motta kampanje-SMS fra best.topbonuspicks.com.",
                 "Take a Chance!": "Ta en sjanse!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Føler du deg heldig? Oppdag tilfeldige kasinomerker og test lykken din!",
                 "New Brands": "Nye Merker",
@@ -5082,8 +5092,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Junte-se à comunidade de nossos assinantes",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Obtenha novas ofertas e bônus lucrativos de cassinos online confiáveis que operam em sua região! Seja o primeiro a descobrir onde vale a pena jogar hoje!",
                 "I agree with Terms and Conditions and Privacy Policy.": "Concordo com os Termos e Condições e a Política de Privacidade.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "Concordo em receber e-mails promocionais da TOPBON.US e seus parceiros.",
-                "I agree to receive promotional sms from TOPBON.US.": "Concordo em receber SMS promocionais da TOPBON.US.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "Concordo em receber e-mails promocionais da best.topbonuspicks.com e seus parceiros.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "Concordo em receber SMS promocionais da best.topbonuspicks.com.",
                 "Take a Chance!": "Tente a Sorte!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Sentindo-se com sorte? Descubra marcas de cassinos aleatórias e teste sua fortuna!",
                 "New Brands": "Novas Marcas",
@@ -5412,8 +5422,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Gå med i gemenskapen av våra prenumeranter",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Få nya erbjudanden och lukrativa bonusar från pålitliga onlinekasinon som verkar i din region! Var den första att ta reda på var det är värt att spela idag!",
                 "I agree with Terms and Conditions and Privacy Policy.": "Jag godkänner villkoren och sekretesspolicyn.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "Jag godkänner att ta emot reklammejl från TOPBON.US och dess partners.",
-                "I agree to receive promotional sms from TOPBON.US.": "Jag godkänner att ta emot reklamsms från TOPBON.US.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "Jag godkänner att ta emot reklammejl från best.topbonuspicks.com och dess partners.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "Jag godkänner att ta emot reklamsms från best.topbonuspicks.com.",
                 "Take a Chance!": "Ta en chans!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Känner du dig tursam? Upptäck slumpmässiga kasinomärken och testa din tur!",
                 "New Brands": "Nya Märken",
@@ -5742,8 +5752,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Pripojte sa ku komunite našich odberateľov",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Získajte čerstvé ponuky a lukratívne bonusy od dôveryhodných online kasín, ktoré pôsobia vo vašom regióne! Buďte prvý, kto zistí, kde sa oplatí hrať dnes!",
                 "I agree with Terms and Conditions and Privacy Policy.": "Súhlasím s podmienkami používania a ochranou osobných údajov.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "Súhlasím s prijímaním propagačných e-mailov od TOPBON.US a jeho partnerov.",
-                "I agree to receive promotional sms from TOPBON.US.": "Súhlasím s prijímaním propagačných sms od TOPBON.US.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "Súhlasím s prijímaním propagačných e-mailov od best.topbonuspicks.com a jeho partnerov.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "Súhlasím s prijímaním propagačných sms od best.topbonuspicks.com.",
                 "Take a Chance!": "Využite šancu!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Cítite sa šťastný? Objavte náhodné značky kasín a otestujte svoje šťastie!",
                 "New Brands": "Nové Značky",
@@ -6072,8 +6082,8 @@ async function initializeI18n() {
                 "Join the community of our subscribers": "Abonelerimizin topluluğuna katılın",
                 "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "Bölgenizde faaliyet gösteren güvenilir online casinoların sunduğu yeni fırsatlar ve kârlı bonuslar alın! Bugün oynamaya değer yerleri ilk keşfeden siz olun!",
                 "I agree with Terms and Conditions and Privacy Policy.": "Hüküm ve Koşulları ve Gizlilik Politikasını kabul ediyorum.",
-                "I agree to receive promotional emails from TOPBON.US and its partners.": "TOPBON.US ve ortaklarından tanıtım e-postaları almayı kabul ediyorum.",
-                "I agree to receive promotional sms from TOPBON.US.": "TOPBON.US'tan tanıtım SMS'leri almayı kabul ediyorum.",
+                "I agree to receive promotional emails from best.topbonuspicks.com and its partners.": "Best.topbonuspicks.com ve ortaklarından tanıtım e-postaları almayı kabul ediyorum.",
+                "I agree to receive promotional sms from best.topbonuspicks.com.": "Best.topbonuspicks.com'tan tanıtım SMS'leri almayı kabul ediyorum.",
                 "Take a Chance!": "Şansınızı Deneyin!",
                 "Feeling lucky? Discover random casino brands and test your fortune!": "Şanslı hissediyor musun? Rastgele casino markalarını keşfedin ve şansınızı deneyin!",
                 "New Brands": "Yeni Markalar",

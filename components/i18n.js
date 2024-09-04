@@ -5,22 +5,28 @@ import { initReactI18next } from "react-i18next";
 
 async function initializeI18n() {
   let defLng;
-
+  
   try {
-    const response = await fetch(
-      "https://ipapi.co/json/"
-    );
-    const data = await response.json();
+    // Проверяем, есть ли значение "country" в localStorage
     if (typeof window !== "undefined") {
-      if (localStorage.getItem("country") === null) {
+      const storedCountry = localStorage.getItem("country");
+      if (!storedCountry) {
+        const response = await fetch('/api/geolocation');
+        const data = await response.json();
+        
+        // Записываем данные в localStorage только если он пуст
         localStorage.setItem("country", data.country);
+        localStorage.setItem("country_phone", data.country);
+        localStorage.setItem("country_data", data.country);
+        localStorage.setItem("country_name", data.country);
+
         defLng = data.country.toLowerCase();
       } else {
-        defLng = localStorage.getItem("country");
+        // Если данные уже есть, используем их
+        defLng = storedCountry.toLowerCase();
       }
-      localStorage.setItem("country_phone", data.country);
-      localStorage.setItem("country_data", data.country);
-      localStorage.setItem("country_name", data.country_name);
+    } else {
+      defLng = "all";
     }
   } catch (error) {
     console.error("Ошибка при запросе к API:", error);

@@ -1,10 +1,6 @@
 {
   "app": {
-    "[project]/app/page": [],
-    "[project]/app/crypto-casinos/page": [],
-    "[project]/app/deposit-bonuses/page": [],
-    "[project]/app/payments/bitcoin-casino/page": [],
-    "[project]/app/game-providers/boongo/page": []
+    "[project]/app/page": []
   },
   "appUsingSizeAdjust": false,
   "pages": {},

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/api/geolocation/route.ts"],"sourcesContent":["import { NextRequest, NextResponse } from 'next/server';\r\n\r\nexport async function GET(req: NextRequest) {\r\n  const country = req.headers.get('x-vercel-ip-country') || 'all';\r\n  \r\n  return NextResponse.json({ country });\r\n}\r\n"],"names":[],"mappings":";;;;;;AAEO,eAAe,IAAI,GAAgB;IACxC,MAAM,UAAU,IAAI,OAAO,CAAC,GAAG,CAAC,0BAA0B;IAE1D,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC;QAAE;IAAQ;AACrC"}},
+    {"offset": {"line": 17, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

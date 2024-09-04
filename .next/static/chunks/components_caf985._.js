@@ -644,7 +644,7 @@ const BrandsSwitcher = ()=>{
     const { language, setLanguage } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])(); // Используй состояние и функцию из контекста
     const ipData = async ()=>{
         try {
-            const response = await fetch("https://ipapi.co/json");
+            const response = await fetch('/api/geolocation'); // Используем ваш API route
             const data = await response.json();
             if (data.country) {
                 setLanguage(data.country.toLowerCase()); // Используй setLanguage из контекста
@@ -1220,14 +1220,14 @@ const BrandsSwitcher = ()=>{
                                                     className: `mr-2 flag-icon flag-icon-${selectedLanguage?.code}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                    lineNumber: 206,
+                                                    lineNumber: 204,
                                                     columnNumber: 23
                                                 }, this),
                                                 selectedLanguage?.label
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 205,
+                                            lineNumber: 203,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1237,18 +1237,18 @@ const BrandsSwitcher = ()=>{
                                                 className: "h-5 w-5 text-gray-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                lineNumber: 210,
+                                                lineNumber: 208,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 209,
+                                            lineNumber: 207,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 203,
+                                    lineNumber: 201,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ListboxOptions"], {
@@ -1265,7 +1265,7 @@ const BrandsSwitcher = ()=>{
                                                                     className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                    lineNumber: 229,
+                                                                    lineNumber: 227,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 " ",
@@ -1273,7 +1273,7 @@ const BrandsSwitcher = ()=>{
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 227,
+                                                            lineNumber: 225,
                                                             columnNumber: 23
                                                         }, this),
                                                         selected ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1283,47 +1283,47 @@ const BrandsSwitcher = ()=>{
                                                                 className: "h-5 w-5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                lineNumber: 233,
+                                                                lineNumber: 231,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 232,
+                                                            lineNumber: 230,
                                                             columnNumber: 25
                                                         }, this) : null
                                                     ]
                                                 }, void 0, true)
                                         }, language.code, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 218,
+                                            lineNumber: 216,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 214,
+                                    lineNumber: 212,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                            lineNumber: 202,
+                            lineNumber: 200,
                             columnNumber: 11
                         }, this)
                     }, void 0, false)
             }, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 191,
+                lineNumber: 189,
                 columnNumber: 5
             }, this),
             isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 245,
+                lineNumber: 243,
                 columnNumber: 19
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-        lineNumber: 190,
+        lineNumber: 188,
         columnNumber: 5
     }, this);
 };
@@ -1336,166 +1336,6 @@ _c = BrandsSwitcher;
 const __TURBOPACK__default__export__ = BrandsSwitcher;
 var _c;
 __turbopack_refresh__.register(_c, "BrandsSwitcher");
- // "use client";
- // import { useState, useEffect } from "react";
- // import Loader from "@/components/Loader";
- // import { useLanguage } from "./LanguageContext";
- // const BrandsSwitcher = () => {
- //   const [isLoading, setIsLoading] = useState(false);
- //   const { language, setLanguage } = useLanguage(); // Используй состояние и функцию из контекста
- //   const ipData = async () => {
- //     try {
- //       const response = await fetch(
- //         "https://ipapi.co/json/?key=YD0x5VtXrPJkOcFQMjEyQgqjfM6jUcwS4J54b3DI8ztyrFpHzW"
- //       );
- //       const data = await response.json();
- //       if (data.country) {
- //         setLanguage(data.country.toLowerCase()); // Используй setLanguage из контекста
- //         if (typeof window !== "undefined") {
- //           localStorage.setItem("country_brands", data.country.toLowerCase());
- //         }
- //       }
- //     } catch (error) {
- //       console.error("Ошибка при запросе к API:", error);
- //       setLanguage("all"); 
- //     }
- //   };
- //   useEffect(() => {
- //     const savedLanguage = localStorage.getItem("country_brands");
- //     if (!savedLanguage) {
- //       ipData();
- //     }
- //   }, []);
- //   const changeLanguage = (lng) => {
- //     setIsLoading(true);
- //     setLanguage(lng);
- //     localStorage.setItem("country_brands", lng);
- //     setIsLoading(false);
- //   };
- //   const availableLanguages = [
- //     { code: "au", label: "Australia", flag: "🇦🇺" },
- //     { code: "at", label: "Austria", flag: "🇦🇹" },
- //     { code: "be", label: "Belgium", flag: "🇧🇪" },
- //     { code: "bg", label: "Bulgaria", flag: "🇧🇬" },
- //     { code: "ca", label: "Canada", flag: "🇨🇦" },
- //     { code: "cz", label: "Czech", flag: "🇨🇿" },
- //     { code: "dk", label: "Denmark", flag: "🇩🇰" },
- //     { code: "fi", label: "Finland", flag: "🇫🇮" },
- //     { code: "fr", label: "France", flag: "🇫🇷" },
- //     { code: "de", label: "Germany", flag: "🇩🇪" },
- //     { code: "gr", label: "Greece", flag: "🇬🇷" },
- //     { code: "hu", label: "Hungary", flag: "🇭🇺" },
- //     { code: "ie", label: "Ireland", flag: "🇮🇪" },
- //     { code: "it", label: "Italy", flag: "🇮🇹" },
- //     { code: "nl", label: "Netherlands", flag: "🇳🇱" },
- //     { code: "nz", label: "New Zealand", flag: "🇳🇿" },
- //     { code: "no", label: "Norway", flag: "🇳🇴" },
- //     { code: "pl", label: "Poland", flag: "🇵🇱" },
- //     { code: "pt", label: "Portugal", flag: "🇵🇹" },
- //     { code: "sk", label: "Slovakia", flag: "🇸🇰" },
- //     { code: "es", label: "Spain", flag: "🇪🇸" },
- //     { code: "se", label: "Sweden", flag: "🇸🇪" },
- //     { code: "ch", label: "Switzerland", flag: "🇨🇭" },
- //     { code: "tr", label: "Turkey", flag: "🇹🇷" },
- //     { code: "gb", label: "United Kingdom", flag: "🇬🇧" },
- //     { code: "all", label: "World", flag: "🌍" },
- //   ];
- //   const availableLanguages1039 = [
- //     { code: "au", label: "Australia", flag: "🇦🇺" },
- //     { code: "at", label: "Austria", flag: "🇦🇹" },
- //     { code: "be", label: "Belgium", flag: "🇧🇪" },
- //     { code: "bg", label: "Bulgaria", flag: "🇧🇬" },
- //     { code: "ca", label: "Canada", flag: "🇨🇦" },
- //     { code: "cz", label: "Czech", flag: "🇨🇿" },
- //     { code: "dk", label: "Denmark", flag: "🇩🇰" },
- //     { code: "fi", label: "Finland", flag: "🇫🇮" },
- //     { code: "fr", label: "France", flag: "🇫🇷" },
- //     { code: "de", label: "Germany", flag: "🇩🇪" },
- //     { code: "gr", label: "Greece", flag: "🇬🇷" },
- //     { code: "hu", label: "Hungary", flag: "🇭🇺" },
- //     { code: "ie", label: "Ireland", flag: "🇮🇪" },
- //     { code: "it", label: "Italy", flag: "🇮🇹" },
- //     { code: "nl", label: "Netherlands", flag: "🇳🇱" },
- //     { code: "nz", label: "New Zealand", flag: "🇳🇿" },
- //     { code: "no", label: "Norway", flag: "🇳🇴" },
- //     { code: "pl", label: "Poland", flag: "🇵🇱" },
- //     { code: "pt", label: "Portugal", flag: "🇵🇹" },
- //     { code: "sk", label: "Slovakia", flag: "🇸🇰" },
- //     { code: "es", label: "Spain", flag: "🇪🇸" },
- //     { code: "se", label: "Sweden", flag: "🇸🇪" },
- //     { code: "ch", label: "Switzerland", flag: "🇨🇭" },
- //     { code: "tr", label: "Turkey", flag: "🇹🇷" },
- //     { code: "gb", label: "United Kingdom", flag: "🇬🇧" },
- //     { code: "all", label: "World", flag: "🌍" },
- //   ];
- //   const availableLanguages1043 = [
- //     { code: "ca", label: "Canada", flag: "🇨🇦" },
- //     { code: "us", label: "United States", flag: "🇺🇸" },
- //   ];
- //   const availableLanguages1044 = [
- //     { code: "au", label: "Australia", flag: "🇦🇺" },
- //     { code: "at", label: "Austria", flag: "🇦🇹" },
- //     { code: "be", label: "Belgium", flag: "🇧🇪" },
- //     { code: "ca", label: "Canada", flag: "🇨🇦" },
- //     { code: "ch", label: "Switzerland", flag: "🇨🇭" },
- //     { code: "nl", label: "Netherlands", flag: "🇳🇱" },
- //     { code: "de", label: "Germany", flag: "🇩🇪" },
- //     { code: "cz", label: "The Czech Republic", flag: "🇨🇿" },
- //     { code: "fi", label: "Finland", flag: "🇫🇮" },
- //     { code: "gb", label: "Great Britain", flag: "🇬🇧" },
- //     { code: "ie", label: "Ireland", flag: "🇮🇪" },
- //     { code: "it", label: "Italy", flag: "🇮🇹" },
- //     { code: "nz", label: "New Zealand", flag: "🇳🇿" },
- //     { code: "no", label: "Norway", flag: "🇳🇴" },
- //     // { code: "pl", label: "Poland", flag: "🇵🇱" },
- //     { code: "za", label: "South Africa", flag: "🇿🇦" },
- //     { code: "se", label: "Sweden", flag: "🇸🇪" },
- //     { code: "us", label: "USA", flag: "🇺🇸" },
- //     { code: "all", label: "World", flag: "🌍" },
- //   ];
- //   let item;
- //   if (typeof window !== "undefined") {
- //     item = localStorage.getItem("source");
- //   }
- //   let newLng;
- //   if (item === "partner1039") {
- //     newLng = availableLanguages1039;
- //   } else if (item === "partner1043") {
- //     newLng = availableLanguages1043;
- //   } else if (item === "partner1044") {
- //     newLng = availableLanguages1044;
- //   } else {
- //     newLng = availableLanguages;
- //   }
- //   return (
- //     <div className={`language-switcher ml-3 flex flex-col`}>
- //       <select
- //         className={`desktop-lang ${language}`}
- //         value={language}
- //         onChange={(e) => {
- //           const selected = newLng.find(
- //             (lang) => lang.code === e.target.value
- //           );
- //           if (selected) {
- //             changeLanguage(selected.code);
- //           }
- //         }}
- //       >
- //         {newLng.map((language) => (
- //           <option
- //             key={language.code}
- //             value={language.code}
- //             style={{ fontSize: "20px" }}
- //           >
- //             {language.flag} {language.label}
- //           </option>
- //         ))}
- //       </select>
- //       {isLoading && <Loader />}
- //     </div>
- //   );
- // };
- // export default BrandsSwitcher;
 
 })()),
 "[project]/components/getUser/getUser.jsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
@@ -3146,7 +2986,7 @@ const Footer_tailwind = ()=>{
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                             htmlFor: "candidates",
                                                             className: "font-medium text-white",
-                                                            children: t("I agree to receive promotional emails from TOPBON.US and its partners.")
+                                                            children: t("I agree to receive promotional emails from best.topbonuspicks.com and its partners.")
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
                                                             lineNumber: 151,
@@ -3188,7 +3028,7 @@ const Footer_tailwind = ()=>{
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                             htmlFor: "offers",
                                                             className: "font-medium text-white",
-                                                            children: t("I agree to receive promotional sms from TOPBON.US.")
+                                                            children: t("I agree to receive promotional sms from best.topbonuspicks.com.")
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
                                                             lineNumber: 166,
@@ -3232,7 +3072,7 @@ const Footer_tailwind = ()=>{
                     className: "mt-5 border-t border-gray-900/10 pt-8 sm:mt-5 md:flex md:items-center md:justify-center lg:mt-5 pb-10 md:pb-0 bot-foot",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "mt-8 text-md leading-5 text-gray-300 md:order-1 md:mt-0 text-center",
-                        children: "Copyright © 2024, topbon.us All rights reserved."
+                        children: "Copyright © 2024, best.topbonuspicks.com All rights reserved."
                     }, void 0, false, {
                         fileName: "[project]/components/Footer_tailwind/index.jsx",
                         lineNumber: 176,
@@ -3305,7 +3145,7 @@ const BackToTop = ()=>{
     }, []);
     return isVisible && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         onClick: scrollToTop,
-        className: "fixed bottom-10 right-10 text-white p-3 rounded-full backToTopBtn transition cursor-pointer",
+        className: "fixed bottom-28 right-7 text-white p-3 rounded-full backToTopBtn transition cursor-pointer",
         children: "↑"
     }, void 0, false, {
         fileName: "[project]/components/BackToTopButton.jsx",
