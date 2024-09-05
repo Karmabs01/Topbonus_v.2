@@ -29,7 +29,6 @@ export default function RootLayout({
   return (
     <html className="light" lang="en">
       <head>
-        
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
           rel="stylesheet"
