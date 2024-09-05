@@ -116,4 +116,14 @@
   background-position: -60px -20px !important;
 }
 
+.country-flag .flag-icon-all {
+  width: 20px;
+  height: 20px;
+  float: left;
+  content: "";
+  padding: auto;
+  background-size: contain;
+  background: url("/world.png") no-repeat !important;
+}
+
 /*# sourceMappingURL=app_flags_31ffea.css.map*/

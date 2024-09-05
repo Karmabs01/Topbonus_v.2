@@ -116,6 +116,16 @@
   background-position: -60px -20px !important;
 }
 
+.country-flag .flag-icon-all {
+  width: 20px;
+  height: 20px;
+  float: left;
+  content: "";
+  padding: auto;
+  background-size: contain;
+  background: url("/world.png") no-repeat !important;
+}
+
 
 /* [project]/components/Header_tailwind/styled.component.css [app-client] (css) */
 header nav {

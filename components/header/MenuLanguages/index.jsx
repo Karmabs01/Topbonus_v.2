@@ -190,7 +190,7 @@ export default function MultipleSelectPlaceholder() {
         newFlag.find((f) => f.code === language)?.code ||
         newFlag.find((f) => f.code === 'all').code;
       return (
-        <div className="flex items-center">
+        <div className="flex items-center country-flag">
           {/* <em className="flagflag ">{languageFlag}</em> */}
           <span className={`flag-icon flag-icon-${languageFlag}`} />
           <em className="flagflag2 ">{lng ? lng.toUpperCase() : ''}</em>

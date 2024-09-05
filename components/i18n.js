@@ -162,7 +162,15 @@ async function initializeI18n() {
     newLng = availableLanguages;
   }
 
-  const languages = newLng;
+  if (defLng == "at" || defLng == "ch") {
+    defLng = "de"
+  }
+  if (defLng == "au" || defLng == "gb" || defLng == "ca" || defLng == "ie" || defLng == "nz") {
+    defLng = "all"
+  }
+  if (defLng == "be") {
+    defLng = "fr"
+  }
 
   const matchedLanguage = newLng.includes(defLng) ? defLng : "all";
 

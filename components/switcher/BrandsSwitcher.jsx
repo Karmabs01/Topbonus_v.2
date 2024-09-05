@@ -170,8 +170,6 @@ const BrandsSwitcher = () => {
     newLng = availableLanguages;
   }
 
-
-
   const [lng, setLng] = useState("all");
 
   const fetchBrands = (language, newLng) => {
@@ -197,7 +195,7 @@ const BrandsSwitcher = () => {
     >
       {({ open }) => (
         <>
-          <div className="relative">
+          <div className="relative country-flag">
             <ListboxButton className="relative w-full cursor-default rounded-md bg-purple py-1.5 pl-3 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none sm:text-sm sm:leading-6">
               {/* <span className="block truncate">{selectedLanguage?.flag} {selectedLanguage?.label}</span> */}
               <span className="block truncate flex items-center text-white">
