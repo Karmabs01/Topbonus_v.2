@@ -10,6 +10,12 @@
   position: relative;
 }
 
+.light .new-brands {
+  border-top: 2.5px #c1a7e4;
+  border-bottom: 2.5px #c1a7e4;
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
+}
+
 .new-brands p {
   font-size: 24px;
   font-style: normal;

@@ -1,3 +1,13 @@
 {
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/fast-withdrawal-casinos/page": "app/fast-withdrawal-casinos/page.js",
+  "/fortune/page": "app/fortune/page.js",
+  "/personal/page": "app/personal/page.js",
+  "/newest-casinos/page": "app/newest-casinos/page.js",
+  "/casinos/page": "app/casinos/page.js",
+  "/shop/page": "app/shop/page.js",
+  "/crypto-casinos/page": "app/crypto-casinos/page.js",
+  "/exclusive-bonuses/page": "app/exclusive-bonuses/page.js"
 }

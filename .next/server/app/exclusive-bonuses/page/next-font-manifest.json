@@ -1,8 +1,6 @@
 {
   "pages": {},
-  "app": {
-    "[project]/app/exclusive-bonuses/page": []
-  },
+  "app": {},
   "appUsingSizeAdjust": false,
   "pagesUsingSizeAdjust": false
 }

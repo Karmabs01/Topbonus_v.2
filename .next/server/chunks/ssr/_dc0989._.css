@@ -129,7 +129,7 @@
 
 /* [project]/components/Header_tailwind/styled.component.css [app-ssr] (css) */
 header nav {
-  background-image: linear-gradient(76deg, #9d4eb3 7%, #6c37b1 35.92%, #310877 85.69%);
+  background-image: linear-gradient(76deg, #088af6 0%, #d992e6 101%);
   position: relative;
   filter: drop-shadow(0 4px 30px #d180ee33);
   border-radius: 30px;
@@ -229,7 +229,7 @@ header nav button {
   font-size: 18px;
   font-weight: 600;
   display: inline-block;
-  color: #fff;
+  color: #35303a;
 }
 
 .marquee b {
@@ -319,9 +319,13 @@ header nav button {
 }
 
 @media (width >= 320px) and (width <= 767px) {
+  .pt-16 {
+    padding-top: 1rem !important;
+  }
+
   .wrap-line-text {
     padding: 12px 0;
-    background: #0f0926;
+    background: #e9edf1;
   }
 
   .mobmen {
@@ -388,11 +392,11 @@ header nav button {
 }
 
 .bg-mob-header svg {
-  color: #ff8f1f;
+  color: #fee000;
 }
 
 .round-logo {
-  background: #ff8f1f;
+  background: #fee000;
   border: 3px solid #fff;
 }
 
@@ -400,8 +404,8 @@ header nav button {
   .round-logo {
     position: absolute;
     z-index: -1;
-    background-image: linear-gradient(76deg, #9d4eb3 7%, #6c37b1 35.92%, #310877 85.69%);
     border: 2px solid #fff6;
+    background-image: linear-gradient(76deg, #9d4eb3 7%, #6c37b1 35.92%, #310877 85.69%) !important;
     width: 10rem !important;
     height: 10rem !important;
   }
@@ -417,7 +421,7 @@ header nav button {
     position: absolute;
     top: -6px;
     left: -21px;
-    background: linear-gradient(90deg, #7a00ac, #7a00ac);
+    background: linear-gradient(90deg, #7a00ac, #7a00ac) !important;
   }
 
   #real-block .random-title {

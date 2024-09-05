@@ -242,10 +242,31 @@
     margin-top: 15px;
   }
 
+  .bg-mob-header {
+    -webkit-backdrop-filter: blur(17.915px);
+    backdrop-filter: blur(17.915px);
+    background: linear-gradient(161deg, #228dff 0%, #f8a5d9 101.7%) !important;
+  }
+
+  .round-logo {
+    background: linear-gradient(161deg, #228dff 0%, #f8a5d9 101.7%) !important;
+  }
+
+  .minilogos:after {
+    left: -17px !important;
+    background: linear-gradient(161deg, #228dff 0%, #f8a5d9 101.7%) !important;
+  }
+
   .emojis {
-    background: linear-gradient(76deg, #9d4eb3 7%, #6c37b1 35.92%, #310877 85.69%);
+    -webkit-backdrop-filter: blur(17.915px);
+    backdrop-filter: blur(17.915px);
     padding: 30px 15px;
     min-height: initial;
+    background: linear-gradient(161deg, #228dff 0%, #f8a5d9 101.7%) !important;
+  }
+
+  .mob-sl .card-thr p {
+    min-height: 60px;
   }
 
   .face-mob {

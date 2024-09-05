@@ -445,6 +445,12 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   position: relative;
 }
 
+.light .new-brands {
+  border-top: 2.5px #c1a7e4;
+  border-bottom: 2.5px #c1a7e4;
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
+}
+
 .new-brands p {
   font-size: 24px;
   font-style: normal;
@@ -1850,13 +1856,6 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 /* [project]/node_modules/slick-carousel/slick/slick-theme.css [app-ssr] (css) */
 .slick-loading .slick-list {
   background: #fff url("/_next/static/media/ajax-loader.326aa633.gif") center no-repeat;
-}
-
-@font-face {
-  font-family: slick;
-  font-weight: normal;
-  font-style: normal;
-  src: url("/_next/static/media/slick.a3496dc3.eot");
 }
 
 .slick-prev, .slick-next {

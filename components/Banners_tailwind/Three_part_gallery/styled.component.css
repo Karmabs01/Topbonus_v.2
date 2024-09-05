@@ -227,10 +227,27 @@
     margin-left: 0;
     margin-top: 15px;
   }
+  .bg-mob-header {
+    background: linear-gradient(161deg, #228DFF 0%, #F8A5D9 101.7%) !important;
+
+    backdrop-filter: blur(17.915000915527344px);    
+  }
+  .round-logo {
+    background: linear-gradient(161deg, #228DFF 0%, #F8A5D9 101.7%) !important;
+  }
+  .minilogos:after {
+    left: -17px !important;
+    background: linear-gradient(161deg, #228DFF 0%, #F8A5D9 101.7%) !important;
+  }
   .emojis {
-    background: linear-gradient(76deg, #9D4EB3 7%, #6C37B1 35.92%, #310877 85.69%);
+    background: linear-gradient(161deg, #228DFF 0%, #F8A5D9 101.7%) !important;
+
+    backdrop-filter: blur(17.915000915527344px);
     padding: 30px 15px;
     min-height: initial;
+  }
+  .mob-sl .card-thr p {
+    min-height: 60px;
   }
   .face-mob {
     flex-direction: column;

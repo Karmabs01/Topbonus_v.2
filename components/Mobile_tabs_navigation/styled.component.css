@@ -7,10 +7,10 @@
   border-bottom: 2px solid #fff6;
 }
 .bg-mob-header svg {
-    color: #ff8f1f;
+    color: #fee000;
 }
 .round-logo {
-    background: #ff8f1f;
+    background: #fee000;
     border: 3px solid #fff;
 }
 
@@ -19,7 +19,7 @@
     .round-logo {
         position: absolute;
         z-index: -1;
-        background-image: linear-gradient(76deg, #9d4eb3 7%, #6c37b1 35.92%, #310877 85.69%);
+        background-image: linear-gradient(76deg, #9d4eb3 7%, #6c37b1 35.92%, #310877 85.69%) !important;
     border: 2px solid #fff6;
     width: 10rem !important;
     height: 10rem !important;
@@ -34,7 +34,7 @@
         position: absolute;
         top: -6px;
         left: -21px;
-        background: linear-gradient(90deg,#7a00ac,#7a00ac);
+        background: linear-gradient(90deg,#7a00ac,#7a00ac) !important;
     }
     #real-block .random-title {
         text-align: center;

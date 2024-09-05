@@ -1,6 +1,6 @@
 /* [project]/components/Header_tailwind/styled.component.css [app-client] (css) */
 header nav {
-  background-image: linear-gradient(76deg, #9d4eb3 7%, #6c37b1 35.92%, #310877 85.69%);
+  background-image: linear-gradient(76deg, #088af6 0%, #d992e6 101%);
   position: relative;
   filter: drop-shadow(0 4px 30px #d180ee33);
   border-radius: 30px;
@@ -100,7 +100,7 @@ header nav button {
   font-size: 18px;
   font-weight: 600;
   display: inline-block;
-  color: #fff;
+  color: #35303a;
 }
 
 .marquee b {
@@ -190,9 +190,13 @@ header nav button {
 }
 
 @media (width >= 320px) and (width <= 767px) {
+  .pt-16 {
+    padding-top: 1rem !important;
+  }
+
   .wrap-line-text {
     padding: 12px 0;
-    background: #0f0926;
+    background: #e9edf1;
   }
 
   .mobmen {

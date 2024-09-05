@@ -12,7 +12,11 @@
   padding: 28px;
   position: relative;
 }
-
+.light .new-brands {
+  border-top: 2.5px #c1a7e4;
+  border-bottom: 2.5px #c1a7e4;
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
+}
 .new-brands p {
   font-size: 24px;
   font-style: normal;
@@ -83,7 +87,7 @@
   line-height: normal;
   z-index: 1;
 }
-@media(min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .new-brands {
     padding: 20px 10px;
   }
@@ -98,7 +102,7 @@
     position: initial;
     display: none;
   }
-  .new-brands>.items-center {
+  .new-brands > .items-center {
     flex-direction: column;
   }
 }
