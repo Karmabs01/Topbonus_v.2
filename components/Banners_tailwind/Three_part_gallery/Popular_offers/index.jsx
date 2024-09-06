@@ -153,7 +153,7 @@ export default function Popular_offers() {
                                 <h2
                                     className="text-3xl font-bold tracking-tight text-white random-title"
                                 >
-                                    {t("POPULAR")} <span>{t("offers")}</span>
+                                    {t("POPULAR")} <span> {t("offers")}</span>
                                 </h2>
                                 <div className="mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8 hidden md:inline">
                                     <div className="cards-thr">

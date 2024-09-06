@@ -11018,3 +11018,13 @@ ul.ul-list a {
   color: #402e52 !important;
 
 }
+.payments-tabs button, .providers-tabs button {
+  color: #402e52 !important;
+
+}
+.payments-tabs .decoration-2::after, .providers-tabs .decoration-2::after {
+  background: #fee000 !important;
+}
+.light .random-title span {
+  color: #f44a7e !important;
+}
