@@ -40,7 +40,7 @@ header nav button {
   border-radius: 30px;
   border-top: 2.5px solid rgba(255, 255, 255, 0.4);
   border-bottom: 2.5px solid rgba(255, 255, 255, 0.4);
-  background: rgba(15, 9, 38, 0.895) !important;
+  background: rgba(50, 28, 137, 0.895) !important;
   /* background: linear-gradient(
     161deg,
     rgba(255, 255, 255, 0.1) 0%,
@@ -54,7 +54,7 @@ header nav button {
   transition: 0.3s;
 }
 .submenu-x a:hover {
-  color: #ff8f1f;
+  color: #f44a7e;
 }
 .lang-menu {
   border-radius: 30px;
