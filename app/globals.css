@@ -11066,3 +11066,14 @@ border-radius: 5px !important;
 .mobmen .bg-or {
   background: rgb(25, 118, 210) !important;
 }
+
+.slider-left .slick-dots {
+  max-width: 150px;
+  overflow: hidden;
+}
+@media(min-width: 320px) and (max-width: 767px) {
+  .slider-left .slick-dots {
+    max-width: 350px;
+    overflow: hidden;
+  } 
+}
