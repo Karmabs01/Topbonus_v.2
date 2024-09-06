@@ -11003,8 +11003,18 @@ ul.ul-list a {
 }
 .backToTopBtn.text-white {
   color: #402e52 !important;
-
 }
 .page-gaming p {
   color: #402e52 !important;
+}
+.lang-menu {
+  background: rgba(50, 28, 137, 0.895) !important;
+}
+.backToTopBtn:hover {
+  background-color: initial !important;
+}
+
+.main__container.unsubscribed.text-orange {
+  color: #402e52 !important;
+
 }
