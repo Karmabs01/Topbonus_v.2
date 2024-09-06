@@ -16,9 +16,9 @@ import MainWrapper from '@/components/MainWrapper'; // Импортируем к
 
 export const metadata: Metadata = {
   title:
-    'Bonus best.topbonuspicks.com: Your Comprehensive Source for Casino Reviews and Insights',
+    'Bonus topbonuspicks.com: Your Comprehensive Source for Casino Reviews and Insights',
   description:
-    'Welcome to Bonus best.topbonuspicks.com, your ultimate destination for comprehensive casino reviews and invaluable insights...',
+    'Welcome to Bonus topbonuspicks.com, your ultimate destination for comprehensive casino reviews and invaluable insights...',
 };
 
 export default function RootLayout({

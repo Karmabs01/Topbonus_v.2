@@ -212,7 +212,7 @@ const UserBrands = () => {
                         <div>
                           <Link
                             className="mt-3"
-                            href={`${chunk.GoBig}/&creative_id=USER_REGISTRATION_2`}
+                            href={`${chunk.GoBig}/&creative_id=USER_REGISTRATION`}
                             target="_blank"
                           >
                             <Image
@@ -225,7 +225,7 @@ const UserBrands = () => {
                           </Link>
                           <Link
                             className="relative btn-play btn-blick overflow-hidden"
-                            href={`${chunk.GoBig}/&creative_id=USER_REGISTRATION_2`}
+                            href={`${chunk.GoBig}/&creative_id=USER_REGISTRATION`}
                             target="_blank"
                           >
                             Play Now
@@ -250,7 +250,7 @@ const UserBrands = () => {
                          <div>
                            <Link
                              className="mt-3"
-                             href={`${chunk.GoBig}/&creative_id=USER_REGISTRATION_2`}
+                             href={`${chunk.GoBig}/&creative_id=USER_REGISTRATION`}
                              target="_blank"
                            >
                              <Image
@@ -263,7 +263,7 @@ const UserBrands = () => {
                            </Link>
                            <Link
                              className="relative btn-play btn-blick overflow-hidden"
-                             href={`${chunk.GoBig}/&creative_id=USER_REGISTRATION_2`}
+                             href={`${chunk.GoBig}/&creative_id=USER_REGISTRATION`}
                              target="_blank"
                            >
                              Play Now
@@ -286,7 +286,7 @@ const UserBrands = () => {
                             <div>
                               <Link
                                 className="mt-3"
-                                href={`${brand.GoBig}/&creative_id=USER_REGISTRATION_2`}
+                                href={`${brand.GoBig}/&creative_id=USER_REGISTRATION`}
                                 target="_blank"
                               >
                                 <Image

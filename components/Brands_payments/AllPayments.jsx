@@ -398,7 +398,7 @@ export default function AllPayments({
                       <Link
                         className={`${target}`}
                         key={brand.id_brand}
-                        href={`${brand.GoBig}/${newUrl}&creative_id=Brand_Exit_2`}
+                        href={`${brand.GoBig}/${newUrl}&creative_id=Brand_Exit`}
                         target="_blank"
                       >
                         <Image
@@ -434,7 +434,7 @@ export default function AllPayments({
                         </p>
                       </div>
                       <Link
-                        href={`${brand.GoBig}/${newUrl}&creative_id=Brand_Exit_2`}
+                        href={`${brand.GoBig}/${newUrl}&creative_id=Brand_Exit`}
                         target="_blank"
                       >
                         <div className="btn btn-new-mini">
@@ -465,7 +465,7 @@ export default function AllPayments({
                       <Link
                         className="flex justify-center flex-col items-center target-listing-brands"
                         key={item.id_brand}
-                        href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`}
+                        href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
                         target="_blank"
                       >
                         <Image
@@ -484,7 +484,7 @@ export default function AllPayments({
 
                     <Link
                       key={item.id_brand}
-                      href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`}
+                      href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
                       target="_blank"
                     >
                       <div className="btn btn-new-mini target-listing-brands">
@@ -506,7 +506,7 @@ export default function AllPayments({
                         <Link
                           className="flex justify-center flex-col items-center target-listing-brands"
                           key={item.id_brand}
-                          href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`}
+                          href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
                           target="_blank"
                         >
                           <Image
@@ -524,7 +524,7 @@ export default function AllPayments({
                       </div>
                       <Link
                         key={item.id_brand}
-                        href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`}
+                        href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
                         target="_blank"
                       >
                         <div className="btn btn-new-mini target-listing-brands">

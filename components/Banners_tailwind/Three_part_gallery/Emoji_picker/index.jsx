@@ -20,23 +20,25 @@ export default function Banner_small() {
     let url = "";
     switch (source) {
       case "partner1039":
-        url = "https://link.reg2dep.business/topbonus_rnd39";
+        url = "https://link.bo-nus.com/partner_aurnd";
         break;
       case "partner1043":
-        url = "https://link.reg2dep.business/topbonus_rnd43";
+        url = "https://info.topbon.us/rnd1043";
         break;
       case "partner1044":
         url = "https://link.reg2dep.business/topbonus_rnd44";
         break;
       case "CLD_VIP":
-        url = "https://link.reg2dep.business/topbonus_rndcld";
+        url = "https://link.gobig.finance/rnd1044";
         break;
       case "partner1045_b1":
-        url = "https://link.reg2dep.business/topbonus_rndcld";
+        url = "https://link.gobig.finance/rnd1044";
         break;
       default:
-        url = "https://link.reg2dep.business/topbonus_rnd";
+        url = "https://info.topbon.us/aurnd";
     }
+
+
     setRedirectUrl(url);
     const savedUrl = localStorage.getItem("savedUrl");
     if (savedUrl) {
@@ -57,19 +59,19 @@ export default function Banner_small() {
             </div>
             <div className="flex items-center justify-start btns-ch">
               <div className="h-20 w-20 btn-choose">
-                <Link href={`${redirectUrl}/${newUrl}&creative_id=Choice_Of_The_Day_2`}
+                <Link href={`${redirectUrl}/${newUrl}&creative_id=Choice_Of_The_Day`}
                   target="_blank">
                   {t("Choose")}
                 </Link>
               </div>
               <div className="h-20 w-20 btn-choose">
-                <Link href={`${redirectUrl}/${newUrl}&creative_id=Choice_Of_The_Day_2`}
+                <Link href={`${redirectUrl}/${newUrl}&creative_id=Choice_Of_The_Day`}
                   target="_blank">
                   {t("Choose")}
                 </Link>
               </div>
               <div className="h-20 w-20 btn-choose">
-                <Link href={`${redirectUrl}/${newUrl}&creative_id=Choice_Of_The_Day_2`}
+                <Link href={`${redirectUrl}/${newUrl}&creative_id=Choice_Of_The_Day`}
                   target="_blank">
                   {t("Choose")}
                 </Link>

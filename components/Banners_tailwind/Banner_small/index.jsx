@@ -10,7 +10,7 @@ import Brands_carousel from "../Brands_carousel";
 export default function Banner_small() {
   const categoryBrands = { key1: "Segment2", key2: "Sandbox" };
   const { t } = useTranslation();
-  const creative = "Top_New_Releases_2"
+  const creative = "Top_New_Releases"
 
   useEffect(() => {
     const hash = window.location.hash;

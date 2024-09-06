@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | best.topbonuspicks.com",
+  title: "Privacy Policy | topbonuspicks.com",
   description:
     " This Privacy Policy outlines how we collect, use, and protect your personal information.",
 };
@@ -10,7 +10,7 @@ export default async function Privacy() {
   return (
     <div className="page-gaming pt-10 pb-10">
       <div className="main__container">
-        <h1 className="mb-3">Welcome to best.topbonuspicks.com</h1>
+        <h1 className="mb-3">Welcome to topbonuspicks.com</h1>
         <p>
           This Privacy Policy outlines how we collect, use, and protect your
           personal information. By using the Website, you consent to the
@@ -54,7 +54,7 @@ export default async function Privacy() {
         </p>
         <h2 className="mb-3">Children&#39;s Privacy</h2>
         <p>
-          Bonus best.topbonuspicks.com is not intended for individuals under the age of 18.
+          Bonus topbonuspicks.com is not intended for individuals under the age of 18.
           We do not knowingly collect personal information from individuals
           under 18. If you believe that we have inadvertently collected such
           information, please contact us so we can promptly remove it.
@@ -72,7 +72,7 @@ export default async function Privacy() {
           personal information or this Privacy Policy, please contact us at
           <a href="mailto:support@myawardwallet.com"> support@myawardwallet.com</a>. We will make
           reasonable efforts to address your inquiries in a timely manner. By
-          using Bonus best.topbonuspicks.com, you agree to the practices outlined in this
+          using Bonus topbonuspicks.com, you agree to the practices outlined in this
           Privacy Policy. If you do not agree with any part of this policy,
           please refrain from using the Website.
         </p>

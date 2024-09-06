@@ -162,7 +162,7 @@ export default function TopBrands() {
                             <div className="flex flex-row">
                               <div className="basis-3/3">
                                 <Link
-                                  href={`${rowData.GoBig}/${newUrl}&creative_id=Top_Brand_2`}
+                                  href={`${rowData.GoBig}/${newUrl}&creative_id=Top_Brand`}
                                   target="_blank"
                                 >
                                   <Image
@@ -179,7 +179,7 @@ export default function TopBrands() {
                                 <div className="flex sm:mt-4 allbtn">
                                   <Link
                                     className="btnscale"
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Top_Brand_2`}
+                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Top_Brand`}
                                     target="_blank"
                                   >
                                     <div className="btn btn-new">

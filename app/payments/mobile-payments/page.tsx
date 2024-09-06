@@ -5,9 +5,9 @@ import FilteredPayments from "@/components/Brands_payments/FilteredPayments";
 import MobilePayments from "@/components/Brands_payments/MobilePayments";
 
 export const metadata: Metadata = {
-  title: "Mobile payments | Bonus best.topbonuspicks.com",
+  title: "Mobile payments | Bonus topbonuspicks.com",
   description:
-    "Step into the future of convenience with Mobile Payments, expertly covered in our comprehensive guide at Bonus best.topbonuspicks.com. From SMS payments to mobile wallets, our guide details the various mobile payment methods that make funding your casino account as easy as a tap on your screen. Learn about their advantages, security features, and any limitations, all while discovering top-rated casinos that support mobile payments. Ensure a seamless and secure gaming experience by harnessing the power of mobile payments with our expert insights!",
+    "Step into the future of convenience with Mobile Payments, expertly covered in our comprehensive guide at Bonus topbonuspicks.com. From SMS payments to mobile wallets, our guide details the various mobile payment methods that make funding your casino account as easy as a tap on your screen. Learn about their advantages, security features, and any limitations, all while discovering top-rated casinos that support mobile payments. Ensure a seamless and secure gaming experience by harnessing the power of mobile payments with our expert insights!",
 };
 
 export default async function Bonuses() {

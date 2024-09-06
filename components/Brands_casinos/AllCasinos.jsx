@@ -391,7 +391,7 @@ export default function AllBonuses({
                     <div className="brandImage p-3">
                       <Link
                         key={brand.id_brand}
-                        href={`${brand.GoBig}/${newUrl}&creative_id=Brands_Exit_2`}
+                        href={`${brand.GoBig}/${newUrl}&creative_id=Brands_Exit`}
                         className={`${target}`}
                         target="_blank"
                       >
@@ -416,7 +416,7 @@ export default function AllBonuses({
                         </p>
                       </div>
                       <Link
-                        href={`${brand.GoBig}/${newUrl}&creative_id=Brands_Exit_2`}
+                        href={`${brand.GoBig}/${newUrl}&creative_id=Brands_Exit`}
                         target="_blank"
                       >
                         <div className="btn btn-new-mini">
@@ -447,7 +447,7 @@ export default function AllBonuses({
                       <Link
                         className="flex justify-center flex-col items-center target-listing-brands"
                         key={item.id_brand}
-                        href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`}
+                        href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
                         target="_blank"
                       >
                         <Image
@@ -466,7 +466,7 @@ export default function AllBonuses({
 
                     <Link
                       key={item.id_brand}
-                      href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`}
+                      href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
                       target="_blank"
                     >
                       <div className="btn btn-new-mini target-listing-brands">
@@ -506,7 +506,7 @@ export default function AllBonuses({
                       </div>
                       <Link
                       key={item.id_brand}
-                      href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`}
+                      href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
                       target="_blank"
                     >
                       <div className="btn btn-new-mini target-listing-brands">

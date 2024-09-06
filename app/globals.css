@@ -10963,21 +10963,25 @@ ul.ul-list a {
   }
   .card-thr .btn-crd {
     color: #402e52 !important;
-
-
   }
 
   .bg-mob-header {
-    background: linear-gradient(161deg, #228DFF 0%, #F8A5D9 101.7%) !important;
+    background: linear-gradient(161deg, #228dff 0%, #f8a5d9 101.7%) !important;
 
-    backdrop-filter: blur(17.915000915527344px);    
+    backdrop-filter: blur(17.915000915527344px);
   }
   .round-logo {
-    background: linear-gradient(161deg, #228DFF 0%, #F8A5D9 101.7%) !important;
+    background: linear-gradient(161deg, #228dff 0%, #f8a5d9 101.7%) !important;
   }
   .minilogos:after {
     left: -17px !important;
-    background: linear-gradient(161deg, #228DFF 0%, #F8A5D9 101.7%) !important;
+    background: linear-gradient(161deg, #228dff 0%, #f8a5d9 101.7%) !important;
+  }
+  .light .depimg {
+    border: 1px solid #fff;
+    width: 23%;
+    display: flex;
+    justify-content: center;
   }
 }
 
@@ -10985,7 +10989,15 @@ ul.ul-list a {
   color: #f44a7e !important;
 }
 
-.slick-slider .slick-prev:before, .slick-slider .slick-next:before {
+.slick-slider .slick-prev:before,
+.slick-slider .slick-next:before {
   color: #402e52 !important;
-
+}
+.banner-event h3,
+.banner-event p {
+  background: linear-gradient(161deg, #ffffff1a, #ffffff0d 101.7%);
+  -webkit-backdrop-filter: blur(12.5px);
+  backdrop-filter: blur(12.5px);
+  padding: 3px 0;
+  border-radius: 15px;
 }
