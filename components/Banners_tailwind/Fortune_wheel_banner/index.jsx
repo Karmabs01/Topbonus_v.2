@@ -10,7 +10,7 @@ export default function Banner_small() {
   const { t } = useTranslation();
   const categoryBrands = { key1: "FirstPriority", key2: "1" };
   const target = "target-fw-brands-main-page";
-  const creative = "FW_Brands_Main_Page_2";
+  const creative = "FW_Brands_Main_Page";
 
   const elementRef = useRef(null);
 
