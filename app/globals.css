@@ -11001,3 +11001,7 @@ ul.ul-list a {
   padding: 3px 0;
   border-radius: 15px;
 }
+.backToTopBtn.text-white {
+  color: #402e52 !important;
+
+}
