@@ -9024,11 +9024,11 @@ input.error {
 }
 .page-gaming p,
 .page-gaming li {
-  color: #fff;
+  color: #000000;
 }
 .page-gaming h2,
 .page-gaming h1 {
-  color: #fee000;
+  color: #F44A7E;
 }
 .page-gaming li {
   position: relative;
@@ -9041,7 +9041,7 @@ input.error {
 .page-gaming li a,
 .page-gaming a {
   text-decoration: underline;
-  color: #fee000;
+  color: #F44A7E;
 }
 .page-gaming ul {
   padding-left: 15px;
@@ -9055,7 +9055,7 @@ input.error {
   border-radius: 50%;
   top: 8px;
   z-index: 1;
-  background: #fee000;
+  background: #F44A7E;
 }
 
 .btn-new {
