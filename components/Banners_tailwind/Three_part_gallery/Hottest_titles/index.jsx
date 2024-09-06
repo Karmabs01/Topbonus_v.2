@@ -174,7 +174,7 @@ export default function Popular_offers() {
                   role="list"
                   className="grid grid-cols-1 gap-5 sm:gap-6 ul-list"
                 >
-                  {brands.slice(0, 5).map((rowData, index) => (
+                  {shuffledBrands.slice(0, 5).map((rowData, index) => (
                     <Link
                       className=""
                       href={`${rowData.GoBig}/${newUrl}&creative_id=Hottest`}

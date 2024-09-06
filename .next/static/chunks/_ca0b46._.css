@@ -11553,11 +11553,11 @@ input.error {
 }
 
 .page-gaming p, .page-gaming li {
-  color: #fff;
+  color: #000;
 }
 
 .page-gaming h2, .page-gaming h1 {
-  color: #fee000;
+  color: #f44a7e;
 }
 
 .page-gaming li {
@@ -11572,7 +11572,7 @@ input.error {
 
 .page-gaming li a, .page-gaming a {
   text-decoration: underline;
-  color: #fee000;
+  color: #f44a7e;
 }
 
 .page-gaming ul {
@@ -11588,7 +11588,7 @@ input.error {
   border-radius: 50%;
   top: 8px;
   z-index: 1;
-  background: #fee000;
+  background: #f44a7e;
 }
 
 .btn-new {
@@ -13677,6 +13677,18 @@ ul.ul-list a {
 
 .mobmen .bg-or {
   background: #1976d2 !important;
+}
+
+.slider-left .slick-dots {
+  max-width: 150px;
+  overflow: hidden;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .slider-left .slick-dots {
+    max-width: 350px;
+    overflow: hidden;
+  }
 }
 
 .placeholder\:text-gray-300::-moz-placeholder {
