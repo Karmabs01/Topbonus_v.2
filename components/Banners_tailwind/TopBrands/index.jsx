@@ -153,7 +153,7 @@ export default function TopBrands() {
                 <div className="slider-left w-full md:w-2/3 mb-10 md:mb-2">
                   <Slider {...settings}>
                     {brands.length > 0 &&
-                      brands.map((rowData, index) => (
+                      shuffledBrands.map((rowData, index) => (
                         <div
                           key={index}
                           className="background-slider overflow-hidden bg-indigo-600 py-5 rounded-xl h-full flex flex-col justify-between"
