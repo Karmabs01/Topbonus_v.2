@@ -31,7 +31,7 @@ export default async function Home() {
     <>
       <Three_part_gallery />
       <TopBrands />
-      <Jackpot_banner />
+
       <Brands_double_carousel />
       <Next_event_banner />
       <Fortune_wheel />
