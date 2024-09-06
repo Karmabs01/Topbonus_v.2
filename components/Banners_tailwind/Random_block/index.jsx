@@ -18,20 +18,22 @@ export default function Random_block() {
     let url = "";
     switch (source) {
       case "partner1039":
-        url = "https://link.reg2dep.business/topbonus_rnd39";
+        url = "https://link.bo-nus.com/partner_aurnd";
         break;
       case "partner1043":
-        url = "https://link.reg2dep.business/topbonus_rnd43";
+        url = "https://info.topbon.us/rnd1043";
         break;
       case "partner1044":
-        url = "https://link.reg2dep.business/topbonus_rnd44";
+        url = "https://link.gobig.finance/rnd1044";
         break;
       case "CLD_VIP":
+        url = "https://link.bo-nus.com/rnd_cld";
+        break;
       case "partner1045_b1":
-        url = "https://link.reg2dep.business/topbonus_rndcld";
+        url = "https://link.bo-nus.com/rnd_cld";
         break;
       default:
-        url = "https://link.reg2dep.business/topbonus_rnd";
+        url = "https://info.topbon.us/aurnd";
     }
     setRedirectUrl(url);
 
