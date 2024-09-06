@@ -287,7 +287,7 @@ const Header_tailwind = () => {
             <div className="absolute right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
               <button
                 type="button"
-                className="hidden md:flex relative rounded-full p-1 text-white hover:text-blue-400 transition-colors duration-300 ease-in-ou mr-5"
+                className="hidden md:flex relative rounded-full p-1 text-white  transition-colors duration-300 ease-in-ou mr-5"
               >
                 {load ? (
                   <Link
@@ -297,7 +297,7 @@ const Header_tailwind = () => {
                     <>
                       <CurrencyDollarIcon
                         aria-hidden="true"
-                        className="h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-blue-400 mr-2"
+                        className="h-8 w-8 text-white transition-colors duration-300 ease-in-out  mr-2"
                       />
                       {`${dataUser.balance}$`}
                     </>
@@ -309,7 +309,7 @@ const Header_tailwind = () => {
               <Link href={`/fortune`} className="hidden md:flex">
                 <button
                   type="button"
-                  className="relative rounded-full p-1 text-white hover:text-blue-400 transition-colors duration-300 ease-in-ou mr-5"
+                  className="relative rounded-full p-1 text-white  transition-colors duration-300 ease-in-ou mr-5"
                 >
                   <span className="absolute -inset-1.5" />
                   {load ? (
@@ -317,7 +317,7 @@ const Header_tailwind = () => {
                       <>
                         <TicketIcon
                           aria-hidden="true"
-                          className="h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-blue-400"
+                          className="h-8 w-8 text-white transition-colors duration-300 ease-in-out "
                         />
                       </>
                     </Badge>
