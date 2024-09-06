@@ -183,7 +183,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .topbr-tw {
-  padding-top: 66px;
+  padding-top: 46px;
 }
 
 .topbr-tw p {
@@ -443,6 +443,12 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   backdrop-filter: blur(15px);
   padding: 28px;
   position: relative;
+}
+
+.light .new-brands {
+  border-top: 2.5px #c1a7e4;
+  border-bottom: 2.5px #c1a7e4;
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
 }
 
 .new-brands p {
@@ -1300,10 +1306,31 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
     margin-top: 15px;
   }
 
+  .bg-mob-header {
+    -webkit-backdrop-filter: blur(17.915px);
+    backdrop-filter: blur(17.915px);
+    background: linear-gradient(161deg, #228dff 0%, #f8a5d9 101.7%) !important;
+  }
+
+  .round-logo {
+    background: linear-gradient(161deg, #228dff 0%, #f8a5d9 101.7%) !important;
+  }
+
+  .minilogos:after {
+    left: -17px !important;
+    background: linear-gradient(161deg, #228dff 0%, #f8a5d9 101.7%) !important;
+  }
+
   .emojis {
-    background: linear-gradient(76deg, #9d4eb3 7%, #6c37b1 35.92%, #310877 85.69%);
+    -webkit-backdrop-filter: blur(17.915px);
+    backdrop-filter: blur(17.915px);
     padding: 30px 15px;
     min-height: initial;
+    background: linear-gradient(161deg, #228dff 0%, #f8a5d9 101.7%) !important;
+  }
+
+  .mob-sl .card-thr p {
+    min-height: 60px;
   }
 
   .face-mob {
@@ -2205,14 +2232,6 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 /* [project]/node_modules/slick-carousel/slick/slick-theme.css [app-client] (css) */
 .slick-loading .slick-list {
   background: #fff url("../media/ajax-loader.326aa633.gif") center no-repeat;
-}
-
-@font-face {
-  font-family: slick;
-  font-weight: normal;
-  font-style: normal;
-  src: url("/fonts/slick.eot");
-  src: url("/fonts/slick.eot?#iefix") format("embedded-opentype"), url("../media/slick.6bbd91df.woff") format("woff"), url("/fonts/slick.ttf") format("truetype"), url("/fonts/slick.svg#slick") format("svg");
 }
 
 .slick-prev, .slick-next {

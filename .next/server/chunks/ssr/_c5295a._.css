@@ -183,7 +183,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .topbr-tw {
-  padding-top: 66px;
+  padding-top: 46px;
 }
 
 .topbr-tw p {
@@ -443,6 +443,12 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   backdrop-filter: blur(15px);
   padding: 28px;
   position: relative;
+}
+
+.light .new-brands {
+  border-top: 2.5px #c1a7e4;
+  border-bottom: 2.5px #c1a7e4;
+  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
 }
 
 .new-brands p {
@@ -1900,14 +1906,6 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 /* [project]/node_modules/slick-carousel/slick/slick-theme.css [app-ssr] (css) */
 .slick-loading .slick-list {
   background: #fff url("/_next/static/media/ajax-loader.326aa633.gif") center no-repeat;
-}
-
-@font-face {
-  font-family: slick;
-  font-weight: normal;
-  font-style: normal;
-  src: url("/fonts/slick.eot");
-  src: url("/fonts/slick.eot?#iefix") format("embedded-opentype"), url("/_next/static/media/slick.6bbd91df.woff") format("woff"), url("/fonts/slick.ttf") format("truetype"), url("/fonts/slick.svg#slick") format("svg");
 }
 
 .slick-prev, .slick-next {
