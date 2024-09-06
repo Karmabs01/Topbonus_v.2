@@ -27,14 +27,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html className="light" lang="en">
+    <html className='light all' lang="en">
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
           rel="stylesheet"
         />
-     <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-LTL641RYK9"
+
+        {/* Google Tag Manager */}
+        <Script 
+          src="https://www.googletagmanager.com/gtag/js?id=G-BTGRSY2322" 
           strategy="afterInteractive"
         />
         <Script id="gtag-init" strategy="afterInteractive">
@@ -42,11 +44,12 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-LTL641RYK9');
+            gtag('config', 'G-BTGRSY2322');
           `}
         </Script>
       </head>
-      <body>
+      
+      <body >
         <LanguageProvider>
           <Header_tailwind />
           <MainWrapper>
@@ -69,15 +72,12 @@ export default function RootLayout({
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
           `}
         </Script>
-        <Script
-          src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js"
-          defer
-        ></Script>
-            <Script id="ladesc" strategy="afterInteractive">
+
+        <Script id="ladesc" strategy="afterInteractive">
           {`
             (function (d, src, c) {
               var t = d.scripts[d.scripts.length - 1],
-                s = d.createElement("script");
+                s = d.createElement('script');
               s.id = "la_x2s6df8d";
               s.defer = true;
               s.src = src;
