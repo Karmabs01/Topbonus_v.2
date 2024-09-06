@@ -99,7 +99,7 @@ export default function TopBrands() {
     }
   }, [language]);
 
-  const categoryBrands = { key1: "Segment2", key2: "Premium" };
+  const categoryBrands = { key1: "Trendsetting", key2: "1" };;
   const { data, error } = useSWR(
     ["brands", language],
     () => getBrands(language),
