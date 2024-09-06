@@ -10700,6 +10700,9 @@ main > .topbr {
 .light .slick-slide:nth-child(3n + 2) .background-slider {
   background: url(/newimageslight/new-banner-slider-2.png) center no-repeat;
 }
+.light .slick-slide:nth-child(3n + 3) .background-slider {
+  background: url(/newimageslight/new-banner-slider-3.png) center no-repeat;
+}
 .light .btn-new:after {
   background: url("/newimageslight/btnhover.png") center no-repeat;
 }
@@ -10983,6 +10986,27 @@ ul.ul-list a {
     display: flex;
     justify-content: center;
   }
+  .light .slick-slide:nth-child(3n + 1) .background-slider {
+    background: url(/newimageslight/new-banner-slider-1mob.png) center no-repeat;
+    background-size: cover;
+  }
+  .light .slick-slide:nth-child(3n + 2) .background-slider {
+    background: url(/newimageslight/new-banner-slider-2mob.png) center no-repeat;
+    background-size: cover;
+  }
+  .light .slick-slide:nth-child(3n + 3) .background-slider {
+    background: url(/newimageslight/new-banner-slider-3mob.png) center no-repeat;
+    background-size: cover;
+  }
+  .light .filter-brands .slick-slide:nth-child(3n+1) .card-brand-banner {
+    background: url("/newimageslight/banner-mob10.png") center no-repeat !important;
+  }
+  .light .filter-brands .slick-slide:nth-child(3n+2) .card-brand-banner {
+    background: url("/newimageslight/banner-mob11.png") center no-repeat !important;
+  }
+  .light .filter-brands .slick-slide:nth-child(3n+3) .card-brand-banner {
+    background: url("/newimageslight/banner-mob12.png") center no-repeat !important;
+  }
 }
 
 .light .brands_rows h2.mt-4 span {
@@ -11032,7 +11056,13 @@ ul.ul-list a {
   background: rgba(50,28,137,.895) !important;
 }
 
-
+/* #b_32wx1d8n_398>div>div>div {
+border-color: transparent !important;
+border-radius: 5px !important;
+}
+#b_32wx1d8n_398>div {
+  bottom: 195px !important;
+} */
 .mobmen .bg-or {
   background: rgb(25, 118, 210) !important;
 }

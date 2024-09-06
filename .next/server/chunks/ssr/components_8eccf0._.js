@@ -2925,7 +2925,7 @@ const Footer_tailwind = ()=>{
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                             htmlFor: "candidates",
                                                             className: "font-medium text-white",
-                                                            children: t("I agree to receive promotional emails from best.topbonuspicks.com and its partners.")
+                                                            children: t("I agree to receive promotional emails from topbonuspicks.com and its partners.")
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
                                                             lineNumber: 151,
@@ -2967,7 +2967,7 @@ const Footer_tailwind = ()=>{
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                                             htmlFor: "offers",
                                                             className: "font-medium text-white",
-                                                            children: t("I agree to receive promotional sms from best.topbonuspicks.com.")
+                                                            children: t("I agree to receive promotional sms from topbonuspicks.com.")
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Footer_tailwind/index.jsx",
                                                             lineNumber: 166,
@@ -3011,7 +3011,7 @@ const Footer_tailwind = ()=>{
                     className: "mt-5 border-t border-gray-900/10 pt-8 sm:mt-5 md:flex md:items-center md:justify-center lg:mt-5 pb-10 md:pb-0 bot-foot",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "mt-8 text-md leading-5 text-gray-300 md:order-1 md:mt-0 text-center",
-                        children: "Copyright © 2024, best.topbonuspicks.com All rights reserved."
+                        children: "Copyright © 2024, topbonuspicks.com All rights reserved."
                     }, void 0, false, {
                         fileName: "[project]/components/Footer_tailwind/index.jsx",
                         lineNumber: 176,

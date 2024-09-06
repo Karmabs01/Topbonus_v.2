@@ -12700,6 +12700,10 @@ main > .topbr {
   background: url("/newimageslight/new-banner-slider-2.png") center no-repeat;
 }
 
+.light .slick-slide:nth-child(3n+3) .background-slider {
+  background: url("/newimageslight/new-banner-slider-3.png") center no-repeat;
+}
+
 .light .btn-new:after {
   background: url("/newimageslight/btnhover.png") center no-repeat;
 }
@@ -13023,6 +13027,40 @@ ul.ul-list a {
     left: -17px !important;
     background: linear-gradient(161deg, #228dff 0%, #f8a5d9 101.7%) !important;
   }
+
+  .light .depimg {
+    border: 1px solid #fff;
+    width: 23%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .light .slick-slide:nth-child(3n+1) .background-slider {
+    background: url("/newimageslight/new-banner-slider-1mob.png") center no-repeat;
+    background-size: cover;
+  }
+
+  .light .slick-slide:nth-child(3n+2) .background-slider {
+    background: url("/newimageslight/new-banner-slider-2mob.png") center no-repeat;
+    background-size: cover;
+  }
+
+  .light .slick-slide:nth-child(3n+3) .background-slider {
+    background: url("/newimageslight/new-banner-slider-3mob.png") center no-repeat;
+    background-size: cover;
+  }
+
+  .light .filter-brands .slick-slide:nth-child(3n+1) .card-brand-banner {
+    background: url("/newimageslight/banner-mob10.png") center no-repeat !important;
+  }
+
+  .light .filter-brands .slick-slide:nth-child(3n+2) .card-brand-banner {
+    background: url("/newimageslight/banner-mob11.png") center no-repeat !important;
+  }
+
+  .light .filter-brands .slick-slide:nth-child(3n+3) .card-brand-banner {
+    background: url("/newimageslight/banner-mob12.png") center no-repeat !important;
+  }
 }
 
 .light .brands_rows h2.mt-4 span {
@@ -13031,6 +13069,54 @@ ul.ul-list a {
 
 .slick-slider .slick-prev:before, .slick-slider .slick-next:before {
   color: #402e52 !important;
+}
+
+.banner-event h3, .banner-event p {
+  background: linear-gradient(161deg, #ffffff1a, #ffffff0d 101.7%);
+  -webkit-backdrop-filter: blur(12.5px);
+  backdrop-filter: blur(12.5px);
+  padding: 3px 0;
+  border-radius: 15px;
+}
+
+.backToTopBtn.text-white {
+  color: #402e52 !important;
+}
+
+.page-gaming p {
+  color: #402e52 !important;
+}
+
+.lang-menu {
+  background: #321c89e4 !important;
+}
+
+.backToTopBtn:hover {
+  background-color: initial !important;
+}
+
+.main__container.unsubscribed.text-orange {
+  color: #402e52 !important;
+}
+
+.payments-tabs button, .providers-tabs button {
+  color: #402e52 !important;
+}
+
+.payments-tabs .decoration-2:after, .providers-tabs .decoration-2:after {
+  background: #fee000 !important;
+}
+
+.light .popular-offers .random-title span {
+  color: #f44a7e !important;
+}
+
+.main__container .lang-menu {
+  background: #321c89e4 !important;
+}
+
+.mobmen .bg-or {
+  background: #1976d2 !important;
 }
 
 .placeholder\:text-gray-300::-moz-placeholder {
@@ -13091,11 +13177,6 @@ ul.ul-list a {
 .hover\:text-gray-300:hover {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
-}
-
-.hover\:text-gray-400:hover {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .hover\:text-indigo-600:hover {

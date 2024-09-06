@@ -1,24 +1,24 @@
-import Head from "next/head";
-import { Analytics } from "@vercel/analytics/react";
-import { TheHeader } from "@/components/TheHeader";
-import { Header_tailwind } from "@/components/Header_tailwind";
-import { Footer_tailwind } from "@/components/Footer_tailwind";
+import Head from 'next/head';
+import { Analytics } from '@vercel/analytics/react';
+import { TheHeader } from '@/components/TheHeader';
+import { Header_tailwind } from '@/components/Header_tailwind';
+import { Footer_tailwind } from '@/components/Footer_tailwind';
 
-import BackToTopButton from "@/components/BackToTopButton";
-import "./globals.css";
-import type { Metadata } from "next";
-import { TheFooter } from "@/components/TheFooter";
-import { LanguageProvider } from "@/components/switcher/LanguageContext";
-import RandomWindow from "@/components/random/RandomWindow";
-import Marque from "@/components/Marque";
-import Script from "next/script";
-import MainWrapper from "@/components/MainWrapper"; // Импортируем клиентский компонент
+import BackToTopButton from '@/components/BackToTopButton';
+import './globals.css';
+import type { Metadata } from 'next';
+import { TheFooter } from '@/components/TheFooter';
+import { LanguageProvider } from '@/components/switcher/LanguageContext';
+import RandomWindow from '@/components/random/RandomWindow';
+import Marque from '@/components/Marque';
+import Script from 'next/script';
+import MainWrapper from '@/components/MainWrapper'; // Импортируем клиентский компонент
 
 export const metadata: Metadata = {
   title:
-    "Bonus topbonuspicks.com: Your Comprehensive Source for Casino Reviews and Insights",
+    'Bonus topbonuspicks.com: Your Comprehensive Source for Casino Reviews and Insights',
   description:
-    "Welcome to Bonus topbonuspicks.com, your ultimate destination for comprehensive casino reviews and invaluable insights...",
+    'Welcome to Bonus topbonuspicks.com, your ultimate destination for comprehensive casino reviews and invaluable insights...',
 };
 
 export default function RootLayout({
@@ -27,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html className="light all" lang="en">
+    <html className='light all' lang="en">
       <head>
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
@@ -35,8 +35,8 @@ export default function RootLayout({
         />
 
         {/* Google Tag Manager */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-BTGRSY2322"
+        <Script 
+          src="https://www.googletagmanager.com/gtag/js?id=G-BTGRSY2322" 
           strategy="afterInteractive"
         />
         <Script id="gtag-init" strategy="afterInteractive">
@@ -48,8 +48,8 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-
-      <body>
+      
+      <body >
         <LanguageProvider>
           <Header_tailwind />
           <MainWrapper>
@@ -72,16 +72,7 @@ export default function RootLayout({
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
           `}
         </Script>
-        <style jsx>{`
-          #b_32wx1d8n_398 > div > div > div {
-            border-color: transparent !important;
-            border-radius: 5px !important;
-          }
 
-          #b_32wx1d8n_398 > div {
-            bottom: 195px !important;
-          }
-        `}</style>
         <Script id="ladesc" strategy="afterInteractive">
           {`
             (function (d, src, c) {

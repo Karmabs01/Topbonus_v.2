@@ -44,7 +44,7 @@ header nav button {
   border-radius: 30px;
   border-top: 2.5px solid #fff6;
   border-bottom: 2.5px solid #fff6;
-  background: #0f0926e4 !important;
+  background: #321c89e4 !important;
 }
 
 .submenu-x a {
@@ -54,7 +54,7 @@ header nav button {
 }
 
 .submenu-x a:hover {
-  color: #ff8f1f;
+  color: #f44a7e;
 }
 
 .lang-menu {
