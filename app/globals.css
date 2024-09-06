@@ -11028,3 +11028,6 @@ ul.ul-list a {
 .light .popular-offers .random-title span {
   color: #f44a7e !important;
 }
+.main__container .lang-menu {
+  background: rgba(50,28,137,.895) !important;
+}
