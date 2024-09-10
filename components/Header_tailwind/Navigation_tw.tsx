@@ -73,6 +73,9 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
       case "partner1045_b1":
         url = "https://link.bo-nus.com/rnd_cld";
         break;
+      case "partner1046":
+        url = "https://link.bo-nus.com/rnd_cld";
+        break;
       default:
         url = "https://info.topbon.us/aurnd";
     }

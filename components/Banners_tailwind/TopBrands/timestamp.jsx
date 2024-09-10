@@ -74,6 +74,9 @@ export default function Timestamp() {
         case "partner1045_b1":
           url = `https://link.bo-nus.com/rnd_cld/${newUrl}&creative_id=XXL_JIN`;
           break;
+        case "partner1046":
+          url = `https://link.bo-nus.com/rnd_cld/${newUrl}&creative_id=XXL_JIN`;
+          break;
         default:
           url = `https://info.topbon.us/aurnd/${newUrl}&creative_id=XXL_JIN`;
       }
@@ -240,15 +243,14 @@ export default function Timestamp() {
                 <span className="goldie">{formatTime(remainingTime)}</span>{" "}
                 {t("to collect it!")}
               </p>
-         
             </div>
           )}
           {stage === "third-stage" && (
             <div className="thrdjin">
               <h5 className="h5">{t("Your Bonus is Ready!")}</h5>
-              <p className="p">{t("Click below to claim your magical reward!")}</p>
-
-      
+              <p className="p">
+                {t("Click below to claim your magical reward!")}
+              </p>
 
               <button className="btn btn-new" onClick={resetToFirstStage}>
                 <p> {t("Bonus Ready!")}</p>

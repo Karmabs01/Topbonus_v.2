@@ -4,10 +4,16 @@ import useSWR, { mutate } from "swr";
 import { useTranslation } from "react-i18next";
 import Loader from "@/components/Loader";
 
-import { Label, Listbox, ListboxButton, ListboxOption, ListboxOptions } from '@headlessui/react'
-import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
+import {
+  Label,
+  Listbox,
+  ListboxButton,
+  ListboxOption,
+  ListboxOptions,
+} from "@headlessui/react";
+import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
 
-import "../../app/flags.css"
+import "../../app/flags.css";
 
 const LanguageSwitcher = () => {
   const { t, i18n } = useTranslation();
@@ -34,7 +40,7 @@ const LanguageSwitcher = () => {
     { code: "bg", label: "Bulgarian", flag: "🇧🇬" },
     { code: "all", label: "English", flag: "🌍" },
   ];
-  
+
   // Define partner-specific language options
   const availableLanguages1039 = availableLanguages;
   const availableLanguages1043 = [
@@ -93,6 +99,9 @@ const LanguageSwitcher = () => {
     case "partner1045_b1":
       newLng = availableLanguagesCLD_VIP;
       break;
+    case "partner1046":
+      newLng = availableLanguagesCLD_VIP;
+      break;
     default:
       newLng = availableLanguages;
       break;
@@ -114,7 +123,6 @@ const LanguageSwitcher = () => {
   };
 
   return (
-  
     <div>
       <div>
         <div className="flex flex-col m-2">
@@ -135,17 +143,26 @@ const LanguageSwitcher = () => {
                   <ListboxButton className="relative w-full cursor-default rounded-md py-1.5 pl-3 text-left text-gray-900 shadow-sm ring-1 ring-inset bg-purple ring-gray-300 focus:outline-none sm:text-sm sm:leading-6">
                     <span className="block truncate flex items-center text-white">
                       {/* {newLng.find((lang) => lang.code === selectedLanguage)?.flag}{' '} */}
-                      <span className={`mr-2 flag-icon flag-icon-${newLng.find((lang) => lang.code === selectedLanguage)?.code}`} />
-                      {newLng.find((lang) => lang.code === selectedLanguage)?.label}
+                      <span
+                        className={`mr-2 flag-icon flag-icon-${
+                          newLng.find((lang) => lang.code === selectedLanguage)
+                            ?.code
+                        }`}
+                      />
+                      {
+                        newLng.find((lang) => lang.code === selectedLanguage)
+                          ?.label
+                      }
                     </span>
                     <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
-                      <ChevronUpDownIcon aria-hidden="true" className="h-5 w-5 text-gray-400" />
+                      <ChevronUpDownIcon
+                        aria-hidden="true"
+                        className="h-5 w-5 text-gray-400"
+                      />
                     </span>
                   </ListboxButton>
 
-                  <ListboxOptions
-                    className="absolute z-10 mt-1 max-h-40 w-full overflow-auto rounded-md py-1 text-base shadow-lg ring-1 ring-black bg-purple ring-opacity-5 focus:outline-none sm:text-sm"
-                  >
+                  <ListboxOptions className="absolute z-10 mt-1 max-h-40 w-full overflow-auto rounded-md py-1 text-base shadow-lg ring-1 ring-black bg-purple ring-opacity-5 focus:outline-none sm:text-sm">
                     {newLng.map((language) => (
                       <ListboxOption
                         key={language.code}
@@ -156,14 +173,25 @@ const LanguageSwitcher = () => {
                       >
                         {({ selected }) => (
                           <>
-                            <span className={`block truncate flex items-center ${selected ? 'font-bold text-white' : 'font-normal'}`}>
+                            <span
+                              className={`block truncate flex items-center ${
+                                selected
+                                  ? "font-bold text-white"
+                                  : "font-normal"
+                              }`}
+                            >
                               {/* {language.flag} {language.label} */}
-                              <span className={`mr-2 flag-icon flag-icon-${language.code}`} /> {language.label} 
-
+                              <span
+                                className={`mr-2 flag-icon flag-icon-${language.code}`}
+                              />{" "}
+                              {language.label}
                             </span>
                             {selected && (
                               <span className="absolute inset-y-0 right-0 flex items-center pr-4 text-white">
-                                <CheckIcon aria-hidden="true" className="h-5 w-5" />
+                                <CheckIcon
+                                  aria-hidden="true"
+                                  className="h-5 w-5"
+                                />
                               </span>
                             )}
                           </>

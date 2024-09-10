@@ -117,6 +117,7 @@ const Header_tailwind = () => {
         "partner1044",
         "CLD_VIP",
         "partner1045_b1",
+        "partner1046"
       ];
       partners.forEach((partner) => {
         if (data.includes(partner)) {
