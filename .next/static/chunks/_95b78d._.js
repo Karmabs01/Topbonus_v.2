@@ -183,7 +183,6 @@ function Pickup({ newUrl }) {
         categoryBrands.key1,
         categoryBrands.key2
     ]);
-    const shuffledBrands = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lodash$2f$shuffle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(brands);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex items-center justify-end jins w-full",
@@ -195,10 +194,10 @@ function Pickup({ newUrl }) {
                         children: t("Premium Choice of the Day")
                     }, void 0, false, {
                         fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                        lineNumber: 37,
+                        lineNumber: 36,
                         columnNumber: 11
                     }, this),
-                    shuffledBrands.length > 0 && shuffledBrands.slice(0, 1).map((rowData, index)=>// <p className="p">{t("Click below to claim your magical reward!")}</p>
+                    brands.length > 0 && brands.slice(0, 1).map((rowData, index)=>// <p className="p">{t("Click below to claim your magical reward!")}</p>
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -215,17 +214,17 @@ function Pickup({ newUrl }) {
                                             className: "target-top-new-releases"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                            lineNumber: 47,
+                                            lineNumber: 46,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                        lineNumber: 43,
+                                        lineNumber: 42,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                    lineNumber: 42,
+                                    lineNumber: 41,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -233,7 +232,7 @@ function Pickup({ newUrl }) {
                                     children: rowData.OurOfferContent
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                    lineNumber: 57,
+                                    lineNumber: 56,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -244,29 +243,29 @@ function Pickup({ newUrl }) {
                                         children: t("Play Now")
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                        lineNumber: 64,
+                                        lineNumber: 63,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                    lineNumber: 58,
+                                    lineNumber: 57,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                            lineNumber: 41,
+                            lineNumber: 40,
                             columnNumber: 15
                         }, this))
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                lineNumber: 36,
+                lineNumber: 35,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-            lineNumber: 35,
+            lineNumber: 34,
             columnNumber: 7
         }, this)
     }, void 0, false);
@@ -398,9 +397,10 @@ function TopBrands() {
         language
     ]);
     const categoryBrands = {
-        key1: "Segment2",
-        key2: "Premium"
+        key1: "Trendsetting",
+        key2: "1"
     };
+    ;
     const { data, error } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swr$2f$dist$2f$core$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"])([
         "brands",
         language
@@ -459,7 +459,7 @@ function TopBrands() {
                             className: "slider-left w-full md:w-2/3 mb-10 md:mb-2",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 ...settings,
-                                children: brands.length > 0 && brands.map((rowData, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                children: shuffledBrands.length > 0 && shuffledBrands.map((rowData, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "background-slider overflow-hidden bg-indigo-600 py-5 rounded-xl h-full flex flex-col justify-between",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "flex flex-col",
@@ -1866,20 +1866,22 @@ function Random_block() {
         let url = "";
         switch(source){
             case "partner1039":
-                url = "https://link.reg2dep.business/topbonus_rnd39";
+                url = "https://link.bo-nus.com/partner_aurnd";
                 break;
             case "partner1043":
-                url = "https://link.reg2dep.business/topbonus_rnd43";
+                url = "https://info.topbon.us/rnd1043";
                 break;
             case "partner1044":
-                url = "https://link.reg2dep.business/topbonus_rnd44";
+                url = "https://link.gobig.finance/rnd1044";
                 break;
             case "CLD_VIP":
+                url = "https://link.bo-nus.com/rnd_cld";
+                break;
             case "partner1045_b1":
-                url = "https://link.reg2dep.business/topbonus_rndcld";
+                url = "https://link.bo-nus.com/rnd_cld";
                 break;
             default:
-                url = "https://link.reg2dep.business/topbonus_rnd";
+                url = "https://info.topbon.us/aurnd";
         }
         setRedirectUrl(url);
         const savedUrl = localStorage.getItem("savedUrl");
@@ -1935,12 +1937,12 @@ function Random_block() {
                                         loading: "lazy"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                        lineNumber: 78,
+                                        lineNumber: 80,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                    lineNumber: 77,
+                                    lineNumber: 79,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1958,13 +1960,13 @@ function Random_block() {
                                                         children: t("luck!")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                        lineNumber: 90,
+                                                        lineNumber: 92,
                                                         columnNumber: 39
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                lineNumber: 89,
+                                                lineNumber: 91,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1972,7 +1974,7 @@ function Random_block() {
                                                 children: t("Feeling lucky? Click to unlock a cool, exclusive bonus—only available right now. Don't miss your chance!")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                lineNumber: 92,
+                                                lineNumber: 94,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1985,54 +1987,54 @@ function Random_block() {
                                                         children: t("Try Your Luck!")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                        lineNumber: 102,
+                                                        lineNumber: 104,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                    lineNumber: 101,
+                                                    lineNumber: 103,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                                lineNumber: 96,
+                                                lineNumber: 98,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                        lineNumber: 88,
+                                        lineNumber: 90,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                                    lineNumber: 87,
+                                    lineNumber: 89,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                            lineNumber: 76,
+                            lineNumber: 78,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                        lineNumber: 75,
+                        lineNumber: 77,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                    lineNumber: 74,
+                    lineNumber: 76,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-                lineNumber: 73,
+                lineNumber: 75,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Banners_tailwind/Random_block/index.jsx",
-            lineNumber: 72,
+            lineNumber: 74,
             columnNumber: 7
         }, this)
     }, void 0, false);
@@ -3163,22 +3165,22 @@ function Banner_small() {
         let url = "";
         switch(source){
             case "partner1039":
-                url = "https://link.reg2dep.business/topbonus_rnd39";
+                url = "https://link.bo-nus.com/partner_aurnd";
                 break;
             case "partner1043":
-                url = "https://link.reg2dep.business/topbonus_rnd43";
+                url = "https://info.topbon.us/rnd1043";
                 break;
             case "partner1044":
-                url = "https://link.reg2dep.business/topbonus_rnd44";
+                url = "https://link.gobig.finance/rnd1044";
                 break;
             case "CLD_VIP":
-                url = "https://link.reg2dep.business/topbonus_rndcld";
+                url = "https://link.bo-nus.com/rnd_cld";
                 break;
             case "partner1045_b1":
-                url = "https://link.reg2dep.business/topbonus_rndcld";
+                url = "https://link.bo-nus.com/rnd_cld";
                 break;
             default:
-                url = "https://link.reg2dep.business/topbonus_rnd";
+                url = "https://info.topbon.us/aurnd";
         }
         setRedirectUrl(url);
         const savedUrl = localStorage.getItem("savedUrl");
@@ -3416,7 +3418,7 @@ function Popular_offers() {
         language
     ]);
     const categoryBrands = {
-        key1: "Hottest",
+        key1: "High_hybrid",
         key2: "1"
     };
     const { data, error } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swr$2f$dist$2f$core$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"])([
@@ -3549,7 +3551,7 @@ function Popular_offers() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
                             role: "list",
                             className: "grid grid-cols-1 gap-5 sm:gap-6 ul-list",
-                            children: brands.slice(0, 5).map((rowData, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            children: shuffledBrands.slice(0, 5).map((rowData, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     className: "",
                                     href: `${rowData.GoBig}/${newUrl}&creative_id=Hottest_2`,
                                     target: "_blank",
@@ -3843,8 +3845,8 @@ function Popular_offers() {
         language
     ]);
     const categoryBrands = {
-        key1: "Trendsetting",
-        key2: "1"
+        key1: "Segment2",
+        key2: "Premium"
     };
     const { data, error } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swr$2f$dist$2f$core$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"])([
         "brands",
@@ -3922,7 +3924,7 @@ function Popular_offers() {
                             className: "mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8 hidden md:inline",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "cards-thr",
-                                children: brands.slice(0, 6).map((rowData, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                children: shuffledBrands.slice(0, 6).map((rowData, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "card-thr",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4025,7 +4027,7 @@ function Popular_offers() {
                                 className: "cards-th",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     ...settings,
-                                    children: brands.map((rowData, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    children: shuffledBrands.map((rowData, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "overflow-hidden card-thr",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {

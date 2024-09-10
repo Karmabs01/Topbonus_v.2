@@ -2157,13 +2157,6 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   background: #fff url("../media/ajax-loader.326aa633.gif") center no-repeat;
 }
 
-@font-face {
-  font-family: slick;
-  font-weight: normal;
-  font-style: normal;
-  src: url("../media/slick.a3496dc3.eot");
-}
-
 .slick-prev, .slick-next {
   font-size: 0;
   line-height: 0;

@@ -2428,7 +2428,7 @@ select {
 }
 
 .h5 {
-  font-size: 34px;
+  font-size: 33px;
   font-weight: 700;
 }
 
@@ -12673,6 +12673,18 @@ main > .topbr {
 @media (width >= 320px) and (width <= 767px) {
   .backToTopBtn {
     display: none;
+  }
+}
+
+.slider-left .slick-dots {
+  max-width: 150px;
+  overflow: hidden;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .slider-left .slick-dots {
+    max-width: 350px;
+    overflow: hidden;
   }
 }
 

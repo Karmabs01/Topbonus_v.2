@@ -29,6 +29,7 @@ async function initializeI18n() {
                 localStorage.setItem("country_phone", data.country);
                 localStorage.setItem("country_data", data.country);
                 localStorage.setItem("country_name", data.country);
+                localStorage.setItem("country_brands", data.country.toLowerCase());
                 defLng = data.country.toLowerCase();
             } else {
                 // Если данные уже есть, используем их
