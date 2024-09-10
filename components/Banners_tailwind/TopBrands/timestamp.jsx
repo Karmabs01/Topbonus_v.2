@@ -74,6 +74,9 @@ export default function Timestamp() {
         case "partner1045_b1":
           url = `https://link.bo-nus.com/rnd_cld/${newUrl}&creative_id=XXL_JIN`;
           break;
+          case "partner1046":
+            url = `https://link.bo-nus.com/rnd_cld/${newUrl}&creative_id=XXL_JIN`;
+            break;
         default:
           url = `https://info.topbon.us/aurnd/${newUrl}&creative_id=XXL_JIN`;
       }

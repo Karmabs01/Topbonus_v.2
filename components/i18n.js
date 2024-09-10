@@ -159,6 +159,8 @@ async function initializeI18n() {
     newLng = availableLanguagesCLD_VIP;
   } else if (item === "partner1045_b1") {
     newLng = availableLanguagesCLD_VIP;
+  } else if (item === "partner1046") {
+    newLng = availableLanguagesCLD_VIP;
   } else {
     newLng = availableLanguages;
   }

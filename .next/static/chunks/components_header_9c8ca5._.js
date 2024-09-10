@@ -1469,6 +1469,9 @@ function MultipleSelectPlaceholder() {
         case "partner1045_b1":
             newFlag = flagsCLD_VIP;
             break;
+        case "partner1046":
+            newFlag = flagsCLD_VIP;
+            break;
         default:
             newFlag = flags;
             break;
@@ -1483,7 +1486,7 @@ function MultipleSelectPlaceholder() {
                         className: `flag-icon flag-icon-${languageFlag}`
                     }, void 0, false, {
                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                        lineNumber: 195,
+                        lineNumber: 198,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
@@ -1491,13 +1494,13 @@ function MultipleSelectPlaceholder() {
                         children: lng ? lng.toUpperCase() : ''
                     }, void 0, false, {
                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                        lineNumber: 196,
+                        lineNumber: 199,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                lineNumber: 193,
+                lineNumber: 196,
                 columnNumber: 9
             }, this);
         }
@@ -1517,12 +1520,12 @@ function MultipleSelectPlaceholder() {
                                 children: renderValue(personName)
                             }, void 0, false, {
                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                lineNumber: 214,
+                                lineNumber: 217,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                            lineNumber: 213,
+                            lineNumber: 216,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$menu$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MenuItems"], {
@@ -1539,23 +1542,23 @@ function MultipleSelectPlaceholder() {
                                                         children: t('Your country of residence')
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 228,
+                                                        lineNumber: 231,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$BrandsSwitcher$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 231,
+                                                        lineNumber: 234,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                lineNumber: 225,
+                                                lineNumber: 228,
                                                 columnNumber: 21
                                             }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                        lineNumber: 223,
+                                        lineNumber: 226,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$menu$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MenuItem"], {
@@ -1567,46 +1570,46 @@ function MultipleSelectPlaceholder() {
                                                         children: t("Website language")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 240,
+                                                        lineNumber: 243,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageSwitcher$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 243,
+                                                        lineNumber: 246,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                lineNumber: 237,
+                                                lineNumber: 240,
                                                 columnNumber: 21
                                             }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                        lineNumber: 235,
+                                        lineNumber: 238,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                lineNumber: 222,
+                                lineNumber: 225,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                            lineNumber: 218,
+                            lineNumber: 221,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true)
         }, void 0, false, {
             fileName: "[project]/components/header/MenuLanguages/index.jsx",
-            lineNumber: 210,
+            lineNumber: 213,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-        lineNumber: 209,
+        lineNumber: 212,
         columnNumber: 5
     }, this);
 }

@@ -27,9 +27,14 @@ export default function Random_block() {
         url = "https://link.gobig.finance/rnd1044";
         break;
       case "CLD_VIP":
+        url = "https://link.bo-nus.com/rnd_cld";
+        break;
       case "partner1045_b1":
         url = "https://link.bo-nus.com/rnd_cld";
         break;
+        case "partner1046":
+          url = "https://link.bo-nus.com/rnd_cld";
+          break;
       default:
         url = "https://info.topbon.us/aurnd";
     }

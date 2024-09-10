@@ -34,6 +34,9 @@ export default function Banner_small() {
       case "partner1045_b1":
         url = "https://link.gobig.finance/rnd1044";
         break;
+        case "partner1046":
+          url = "https://link.gobig.finance/rnd1044";
+          break;
       default:
         url = "https://info.topbon.us/aurnd";
     }

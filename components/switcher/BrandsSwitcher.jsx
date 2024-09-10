@@ -4,9 +4,15 @@ import Loader from "@/components/Loader";
 import { useLanguage } from "./LanguageContext";
 import { useTranslation } from "react-i18next";
 
-import { Label, Listbox, ListboxButton, ListboxOption, ListboxOptions } from '@headlessui/react'
-import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
-import "../../app/flags.css"
+import {
+  Label,
+  Listbox,
+  ListboxButton,
+  ListboxOption,
+  ListboxOptions,
+} from "@headlessui/react";
+import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
+import "../../app/flags.css";
 
 const BrandsSwitcher = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -14,7 +20,7 @@ const BrandsSwitcher = () => {
 
   const ipData = async () => {
     try {
-      const response = await fetch('/api/geolocation'); // Используем ваш API route
+      const response = await fetch("/api/geolocation"); // Используем ваш API route
       const data = await response.json();
       if (data.country) {
         setLanguage(data.country.toLowerCase()); // Используй setLanguage из контекста
@@ -64,7 +70,7 @@ const BrandsSwitcher = () => {
     { code: "nl", label: "Netherlands", flag: "🇳🇱" },
     { code: "hu", label: "Hungary", flag: "🇭🇺" },
     { code: "bg", label: "Bulgaria", flag: "🇧🇬" },
-    { code: "all", label: "World", flag: "🌍" }
+    { code: "all", label: "World", flag: "🌍" },
   ];
   const availableLanguages1039 = [
     { code: "au", label: "Australia", flag: "🇦🇺" },
@@ -150,7 +156,6 @@ const BrandsSwitcher = () => {
     { code: "sk", label: "Slovakia", flag: "🇸🇰" },
   ];
 
-  
   let item;
   if (typeof window !== "undefined") {
     item = localStorage.getItem("source");
@@ -165,6 +170,8 @@ const BrandsSwitcher = () => {
   } else if (item === "CLD_VIP") {
     newLng = availableLanguagesCLD_VIP;
   } else if (item === "partner1045_b1") {
+    newLng = availableLanguagesCLD_VIP;
+  } else if (item === "partner1046") {
     newLng = availableLanguagesCLD_VIP;
   } else {
     newLng = availableLanguages;
@@ -184,62 +191,72 @@ const BrandsSwitcher = () => {
 
   return (
     <div className="flex flex-col m-2">
-    <Listbox
-      value={lng}
-      onChange={(code) => {
-        const selected = newLng.find((lang) => lang.code === code);
-        if (selected) {
-          changeLanguage(selected.code);
-        }
-      }}
-    >
-      {({ open }) => (
-        <>
-          <div className="relative country-flag">
-            <ListboxButton className="relative w-full cursor-default rounded-md bg-purple py-1.5 pl-3 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none sm:text-sm sm:leading-6">
-              {/* <span className="block truncate">{selectedLanguage?.flag} {selectedLanguage?.label}</span> */}
-              <span className="block truncate flex items-center text-white">
-                      <span className={`mr-2 flag-icon flag-icon-${selectedLanguage?.code}`} />
-                      {selectedLanguage?.label}
-                    </span>
-              <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
-                <ChevronUpDownIcon aria-hidden="true" className="h-5 w-5 text-gray-400" />
-              </span>
-            </ListboxButton>
+      <Listbox
+        value={lng}
+        onChange={(code) => {
+          const selected = newLng.find((lang) => lang.code === code);
+          if (selected) {
+            changeLanguage(selected.code);
+          }
+        }}
+      >
+        {({ open }) => (
+          <>
+            <div className="relative country-flag">
+              <ListboxButton className="relative w-full cursor-default rounded-md bg-purple py-1.5 pl-3 text-left text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:outline-none sm:text-sm sm:leading-6">
+                {/* <span className="block truncate">{selectedLanguage?.flag} {selectedLanguage?.label}</span> */}
+                <span className="block truncate flex items-center text-white">
+                  <span
+                    className={`mr-2 flag-icon flag-icon-${selectedLanguage?.code}`}
+                  />
+                  {selectedLanguage?.label}
+                </span>
+                <span className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2">
+                  <ChevronUpDownIcon
+                    aria-hidden="true"
+                    className="h-5 w-5 text-gray-400"
+                  />
+                </span>
+              </ListboxButton>
 
-            <ListboxOptions
-              className="absolute z-10 mt-1 max-h-40 w-full overflow-auto rounded-md bg-purple py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm "
-            >
-              {newLng.map((language) => ( 
-                <ListboxOption
-                  key={language.code}
-                  value={language.code}
-                  className={() =>
-                    `relative cursor-pointer select-none py-2 pl-3 pr-9 bg-purple text-gray-200 hover:bg-indigo-600`
-                  }
-                >
-                  {({ selected }) => (
-                    <>
-                      <span className={`block truncate flex items-center ${selected ? 'font-bold text-white' : 'font-normal'}`}>
-                        {/* {language.flag} {language.label} */}
-                        <span className={`mr-2 flag-icon flag-icon-${language.code}`} /> {language.label} 
-                      </span>
-                      {selected ? (
-                        <span className="absolute inset-y-0 right-0 flex items-center pr-4 text-white">
-                          <CheckIcon aria-hidden="true" className="h-5 w-5" />
+              <ListboxOptions className="absolute z-10 mt-1 max-h-40 w-full overflow-auto rounded-md bg-purple py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm ">
+                {newLng.map((language) => (
+                  <ListboxOption
+                    key={language.code}
+                    value={language.code}
+                    className={() =>
+                      `relative cursor-pointer select-none py-2 pl-3 pr-9 bg-purple text-gray-200 hover:bg-indigo-600`
+                    }
+                  >
+                    {({ selected }) => (
+                      <>
+                        <span
+                          className={`block truncate flex items-center ${
+                            selected ? "font-bold text-white" : "font-normal"
+                          }`}
+                        >
+                          {/* {language.flag} {language.label} */}
+                          <span
+                            className={`mr-2 flag-icon flag-icon-${language.code}`}
+                          />{" "}
+                          {language.label}
                         </span>
-                      ) : null}
-                    </>
-                  )}
-                </ListboxOption>
-              ))}
-            </ListboxOptions>
-          </div>
-        </>
-      )}
-    </Listbox>
-    {isLoading && <Loader />}
-  </div>
+                        {selected ? (
+                          <span className="absolute inset-y-0 right-0 flex items-center pr-4 text-white">
+                            <CheckIcon aria-hidden="true" className="h-5 w-5" />
+                          </span>
+                        ) : null}
+                      </>
+                    )}
+                  </ListboxOption>
+                ))}
+              </ListboxOptions>
+            </div>
+          </>
+        )}
+      </Listbox>
+      {isLoading && <Loader />}
+    </div>
   );
 };
 

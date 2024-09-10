@@ -68,6 +68,7 @@ export default function TopBrands() {
       "partner1044",
       "CLD_VIP",
       "partner1045_b1",
+      "partner1046",
     ];
 
     function setPartnerSource(keyword) {

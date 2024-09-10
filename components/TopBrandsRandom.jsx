@@ -38,7 +38,7 @@ export default function TopBrandsRandom() {
     searchParams.delete("brand");
     const currentKeyword = searchParams.get("keyword");
 
-    const partners = ["partner1039", "partner1043", "partner1044", "CLD_VIP", "partner1045_b1"];
+    const partners = ["partner1039", "partner1043", "partner1044", "CLD_VIP", "partner1045_b1", "partner1046"];
 
     function setPartnerSource(keyword) {
       const partner = partners.find((p) => keyword.includes(p));
@@ -106,6 +106,9 @@ export default function TopBrandsRandom() {
       case "partner1045_b1":
         url = "https://link.reg2dep.business/topbonus_rndcld";
         break;
+        case "partner1046":
+          url = "https://link.reg2dep.business/topbonus_rndcld";
+          break;
       default:
         url = "https://link.reg2dep.business/topbonus_rnd";
     }

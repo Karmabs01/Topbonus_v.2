@@ -375,6 +375,9 @@ const LanguageSwitcher = ()=>{
         case "partner1045_b1":
             newLng = availableLanguagesCLD_VIP;
             break;
+        case "partner1046":
+            newLng = availableLanguagesCLD_VIP;
+            break;
         default:
             newLng = availableLanguages;
             break;
@@ -383,7 +386,7 @@ const LanguageSwitcher = ()=>{
         children: "Failed to load"
     }, void 0, false, {
         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-        lineNumber: 101,
+        lineNumber: 110,
         columnNumber: 21
     }, this);
     const changeLanguage = async (lng)=>{
@@ -427,14 +430,14 @@ const LanguageSwitcher = ()=>{
                                                             className: `mr-2 flag-icon flag-icon-${newLng.find((lang)=>lang.code === selectedLanguage)?.code}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                            lineNumber: 138,
+                                                            lineNumber: 146,
                                                             columnNumber: 23
                                                         }, this),
                                                         newLng.find((lang)=>lang.code === selectedLanguage)?.label
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 136,
+                                                    lineNumber: 144,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -444,18 +447,18 @@ const LanguageSwitcher = ()=>{
                                                         className: "h-5 w-5 text-gray-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                        lineNumber: 142,
+                                                        lineNumber: 158,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 141,
+                                                    lineNumber: 157,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                            lineNumber: 135,
+                                            lineNumber: 143,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ListboxOptions"], {
@@ -466,13 +469,13 @@ const LanguageSwitcher = ()=>{
                                                     children: ({ selected })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: `block truncate flex items-center ${selected ? 'font-bold text-white' : 'font-normal'}`,
+                                                                    className: `block truncate flex items-center ${selected ? "font-bold text-white" : "font-normal"}`,
                                                                     children: [
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                            lineNumber: 161,
+                                                                            lineNumber: 184,
                                                                             columnNumber: 31
                                                                         }, this),
                                                                         " ",
@@ -480,7 +483,7 @@ const LanguageSwitcher = ()=>{
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                    lineNumber: 159,
+                                                                    lineNumber: 176,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 selected && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -490,57 +493,57 @@ const LanguageSwitcher = ()=>{
                                                                         className: "h-5 w-5"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                        lineNumber: 166,
+                                                                        lineNumber: 191,
                                                                         columnNumber: 33
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                    lineNumber: 165,
+                                                                    lineNumber: 190,
                                                                     columnNumber: 31
                                                                 }, this)
                                                             ]
                                                         }, void 0, true)
                                                 }, language.code, false, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 150,
+                                                    lineNumber: 167,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                            lineNumber: 146,
+                                            lineNumber: 165,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                    lineNumber: 134,
+                                    lineNumber: 142,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false)
                     }, void 0, false, {
                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                        lineNumber: 121,
+                        lineNumber: 129,
                         columnNumber: 11
                     }, this),
                     isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                        lineNumber: 178,
+                        lineNumber: 206,
                         columnNumber: 25
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                lineNumber: 120,
+                lineNumber: 128,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-            lineNumber: 119,
+            lineNumber: 127,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-        lineNumber: 118,
+        lineNumber: 126,
         columnNumber: 5
     }, this);
 };
@@ -618,7 +621,7 @@ const BrandsSwitcher = ()=>{
     const { language, setLanguage } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLanguage"])(); // Используй состояние и функцию из контекста
     const ipData = async ()=>{
         try {
-            const response = await fetch('/api/geolocation'); // Используем ваш API route
+            const response = await fetch("/api/geolocation"); // Используем ваш API route
             const data = await response.json();
             if (data.country) {
                 setLanguage(data.country.toLowerCase()); // Используй setLanguage из контекста
@@ -1154,6 +1157,8 @@ const BrandsSwitcher = ()=>{
         newLng = availableLanguagesCLD_VIP;
     } else if (item === "partner1045_b1") {
         newLng = availableLanguagesCLD_VIP;
+    } else if (item === "partner1046") {
+        newLng = availableLanguagesCLD_VIP;
     } else {
         newLng = availableLanguages;
     }
@@ -1194,15 +1199,15 @@ const BrandsSwitcher = ()=>{
                                                     className: `mr-2 flag-icon flag-icon-${selectedLanguage?.code}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                    lineNumber: 202,
-                                                    columnNumber: 23
+                                                    lineNumber: 209,
+                                                    columnNumber: 19
                                                 }, this),
                                                 selectedLanguage?.label
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 201,
-                                            columnNumber: 15
+                                            lineNumber: 208,
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2",
@@ -1211,19 +1216,19 @@ const BrandsSwitcher = ()=>{
                                                 className: "h-5 w-5 text-gray-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                lineNumber: 206,
-                                                columnNumber: 17
+                                                lineNumber: 215,
+                                                columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 205,
-                                            columnNumber: 15
+                                            lineNumber: 214,
+                                            columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 199,
-                                    columnNumber: 13
+                                    lineNumber: 206,
+                                    columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ListboxOptions"], {
                                     className: "absolute z-10 mt-1 max-h-40 w-full overflow-auto rounded-md bg-purple py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm ",
@@ -1233,22 +1238,22 @@ const BrandsSwitcher = ()=>{
                                             children: ({ selected })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: `block truncate flex items-center ${selected ? 'font-bold text-white' : 'font-normal'}`,
+                                                            className: `block truncate flex items-center ${selected ? "font-bold text-white" : "font-normal"}`,
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                    lineNumber: 225,
-                                                                    columnNumber: 25
+                                                                    lineNumber: 239,
+                                                                    columnNumber: 27
                                                                 }, this),
                                                                 " ",
                                                                 language.label
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 223,
-                                                            columnNumber: 23
+                                                            lineNumber: 233,
+                                                            columnNumber: 25
                                                         }, this),
                                                         selected ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "absolute inset-y-0 right-0 flex items-center pr-4 text-white",
@@ -1257,47 +1262,47 @@ const BrandsSwitcher = ()=>{
                                                                 className: "h-5 w-5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                lineNumber: 229,
-                                                                columnNumber: 27
+                                                                lineNumber: 246,
+                                                                columnNumber: 29
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 228,
-                                                            columnNumber: 25
+                                                            lineNumber: 245,
+                                                            columnNumber: 27
                                                         }, this) : null
                                                     ]
                                                 }, void 0, true)
                                         }, language.code, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 214,
-                                            columnNumber: 17
+                                            lineNumber: 224,
+                                            columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 210,
-                                    columnNumber: 13
+                                    lineNumber: 222,
+                                    columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                            lineNumber: 198,
-                            columnNumber: 11
+                            lineNumber: 205,
+                            columnNumber: 13
                         }, this)
                     }, void 0, false)
             }, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 187,
-                columnNumber: 5
+                lineNumber: 194,
+                columnNumber: 7
             }, this),
             isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 241,
-                columnNumber: 19
+                lineNumber: 258,
+                columnNumber: 21
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-        lineNumber: 186,
+        lineNumber: 193,
         columnNumber: 5
     }, this);
 };
@@ -2255,6 +2260,10 @@ const getBrands = async (lng)=>{
             languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["availableLanguagesCLD_VIP"]
         },
         partner1045_b1: {
+            url: apiCLD_VIP,
+            languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["availableLanguagesCLD_VIP"]
+        },
+        partner1046: {
             url: apiCLD_VIP,
             languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["availableLanguagesCLD_VIP"]
         },
