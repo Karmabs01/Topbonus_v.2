@@ -595,7 +595,7 @@ async function initializeI18n() {
         casinos: "casinos",
         "Discover the hottest casino brands trending right now!":
           "Discover the hottest casino brands trending right now!",
-        "What is your choise": "What is your choise",
+        "What is your choise": "What is your choice ",
         "for today?": "for today?",
         Choose: "Choose",
         POPULAR: "POPULAR",
@@ -1069,7 +1069,7 @@ async function initializeI18n() {
         casinos: "kasyna",
         "Discover the hottest casino brands trending right now!":
           "Odkryj najgorętszych marek kasyn, które są teraz na topie!",
-        "What is your choise": "Jaki jest Twój wybór",
+        "What is your choise": "Jaki jest Twój wybór ",
         "for today?": "na dzisiaj?",
         Choose: "Wybierz",
         POPULAR: "POPULARNE",
@@ -1538,7 +1538,7 @@ async function initializeI18n() {
         casinos: "Casinos",
         "Discover the hottest casino brands trending right now!":
           "Entdecke die heißesten Casino-Marken, die gerade im Trend liegen!",
-        "What is your choise": "Was ist deine Wahl",
+        "What is your choise": "Was ist deine Wahl ",
         "for today?": "für heute?",
         Choose: "Wähle",
         POPULAR: "BELIEBTE",
@@ -2002,7 +2002,7 @@ async function initializeI18n() {
         casinos: "казина",
         "Discover the hottest casino brands trending right now!":
           "Открий най-горещите казино марки, които са на мода в момента!",
-        "What is your choise": "Какъв е твоят избор",
+        "What is your choise": "Какъв е твоят избор ",
         "for today?": "за днес?",
         Choose: "Избери",
         POPULAR: "ПОПУЛЯРНИ",
@@ -2467,7 +2467,7 @@ async function initializeI18n() {
         casinos: "kasina",
         "Discover the hottest casino brands trending right now!":
           "Objevte nejžhavější kasinové značky, které jsou právě teď v kurzu!",
-        "What is your choise": "Jaká je vaše volba",
+        "What is your choise": "Jaká je vaše volba ",
         "for today?": "na dnešek?",
         Choose: "Vyberte",
         POPULAR: "POPULÁRNÍ",
@@ -2932,7 +2932,7 @@ async function initializeI18n() {
         casinos: "kasinoer",
         "Discover the hottest casino brands trending right now!":
           "Oplev de hotteste casino-brands, der trender lige nu!",
-        "What is your choise": "Hvad er dit valg",
+        "What is your choise": "Hvad er dit valg ",
         "for today?": "for i dag?",
         Choose: "Vælg",
         POPULAR: "POPULÆRE",
@@ -3398,7 +3398,7 @@ async function initializeI18n() {
         casinos: "casino's",
         "Discover the hottest casino brands trending right now!":
           "Ontdek de heetste casinomerken die op dit moment trending zijn!",
-        "What is your choise": "Wat is je keuze",
+        "What is your choise": "Wat is je keuze ",
         "for today?": "voor vandaag?",
         Choose: "Kies",
         POPULAR: "POPULAIRE",
@@ -3864,7 +3864,7 @@ async function initializeI18n() {
         casinos: "casinos",
         "Discover the hottest casino brands trending right now!":
           "¡Descubre las marcas de casinos más populares del momento!",
-        "What is your choise": "¿Cuál es tu elección",
+        "What is your choise": "¿Cuál es tu elección ",
         "for today?": "para hoy?",
         Choose: "Elige",
         POPULAR: "POPULARES",
@@ -4329,7 +4329,7 @@ async function initializeI18n() {
         casinos: "kasinot",
         "Discover the hottest casino brands trending right now!":
           "Löydä kuumimmat kasino-brändit, jotka ovat juuri nyt trendikkäitä!",
-        "What is your choise": "Mikä on valintasi",
+        "What is your choise": "Mikä on valintasi ",
         "for today?": "tänään?",
         Choose: "Valitse",
         POPULAR: "SUOSITUT",
@@ -4795,7 +4795,7 @@ async function initializeI18n() {
         casinos: "casinos",
         "Discover the hottest casino brands trending right now!":
           "Découvrez les marques de casino les plus en vogue du moment!",
-        "What is your choise": "Quel est votre choix",
+        "What is your choise": "Quel est votre choix ",
         "for today?": "pour aujourd'hui ?",
         Choose: "Choisir",
         POPULAR: "POPULAIRE",
@@ -5263,7 +5263,7 @@ async function initializeI18n() {
         casinos: "καζίνο",
         "Discover the hottest casino brands trending right now!":
           "Ανακαλύψτε τις πιο καυτές μάρκες καζίνο που είναι τώρα στη μόδα!",
-        "What is your choise": "Ποια είναι η επιλογή σας",
+        "What is your choise": "Ποια είναι η επιλογή σας ",
         "for today?": "για σήμερα;",
         Choose: "Επιλέξτε",
         POPULAR: "ΔΗΜΟΦΙΛΕΙΣ",
@@ -5730,7 +5730,7 @@ async function initializeI18n() {
         casinos: "kaszinók",
         "Discover the hottest casino brands trending right now!":
           "Fedezd fel a legtrendibb kaszinómárkákat, amelyek most hódítanak!",
-        "What is your choise": "Mi a választásod",
+        "What is your choise": "Mi a választásod ",
         "for today?": "ma?",
         Choose: "Válassz",
         POPULAR: "NÉPSZERŰ",
@@ -6197,7 +6197,7 @@ async function initializeI18n() {
         casinos: "casinò",
         "Discover the hottest casino brands trending right now!":
           "Scopri i marchi di casinò più caldi del momento!",
-        "What is your choise": "Qual è la tua scelta",
+        "What is your choise": "Qual è la tua scelta ",
         "for today?": "per oggi?",
         Choose: "Scegli",
         POPULAR: "POPOLARI",
@@ -6664,7 +6664,7 @@ async function initializeI18n() {
         casinos: "kasinoer",
         "Discover the hottest casino brands trending right now!":
           "Oppdag de hotteste casino-merkene som trender akkurat nå!",
-        "What is your choise": "Hva er ditt valg",
+        "What is your choise": "Hva er ditt valg ",
         "for today?": "for i dag?",
         Choose: "Velg",
         POPULAR: "POPULÆRE",
@@ -7131,7 +7131,7 @@ async function initializeI18n() {
         casinos: "cassinos",
         "Discover the hottest casino brands trending right now!":
           "Descubra as marcas de cassino mais quentes que estão em alta agora!",
-        "What is your choise": "Qual é a sua escolha",
+        "What is your choise": "Qual é a sua escolha ",
         "for today?": "para hoje?",
         Choose: "Escolha",
         POPULAR: "POPULAR",
@@ -7599,7 +7599,7 @@ async function initializeI18n() {
         casinos: "kasinon",
         "Discover the hottest casino brands trending right now!":
           "Upptäck de hetaste casinovarumärkena som trendar just nu!",
-        "What is your choise": "Vad är ditt val",
+        "What is your choise": "Vad är ditt val ",
         "for today?": "för idag?",
         Choose: "Välj",
         POPULAR: "POPULÄRA",
@@ -8066,7 +8066,7 @@ async function initializeI18n() {
         casinos: "kasína",
         "Discover the hottest casino brands trending right now!":
           "Objavte najhorúcejšie kasínové značky, ktoré sú práve teraz v trende!",
-        "What is your choise": "Aká je vaša voľba",
+        "What is your choise": "Aká je vaša voľba ",
         "for today?": "pre dnešok?",
         Choose: "Vyberte si",
         POPULAR: "POPULÁRNE",
@@ -8531,7 +8531,7 @@ async function initializeI18n() {
         casinos: "kasinolar",
         "Discover the hottest casino brands trending right now!":
           "Şu anda trend olan en popüler casino markalarını keşfedin!",
-        "What is your choise": "Seçiminiz nedir",
+        "What is your choise": "Seçiminiz nedir ",
         "for today?": "bugün için?",
         Choose: "Seçin",
         POPULAR: "POPÜLER",
