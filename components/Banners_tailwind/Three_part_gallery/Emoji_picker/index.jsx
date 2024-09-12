@@ -55,7 +55,7 @@ export default function Banner_small() {
         <div className="main__container">
           <div className="flex justify-between items-center face-mob">
             <h3 className="text-lg leading-6 ">
-              {t("What is your choise")}<span>{t(" for today?")}</span>
+              {t("What is your choise")}<span>{t("for today?")}</span>
             </h3>
             <div className="mob-none">
               <Image src={img} alt={img} width={400} height={150} />
