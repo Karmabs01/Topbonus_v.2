@@ -583,7 +583,7 @@ async function initializeI18n() {
         "HOTTEST":"HOTTEST",
         "casinos":"casinos",
         "Discover the hottest casino brands trending right now!":"Discover the hottest casino brands trending right now!",
-        "What is your choise":"What is your choise",
+        "What is your choise":"What is your choice",
         "for today?":"for today?",
         "Choose":"Choose",
         "POPULAR":"POPULAR",
