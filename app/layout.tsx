@@ -73,7 +73,7 @@ export default function RootLayout({
           `}
         </Script>
 
-        <Script id="ladesc" strategy="afterInteractive">
+        {/* <Script id="ladesc" strategy="afterInteractive">
           {`
             (function (d, src, c) {
               var t = d.scripts[d.scripts.length - 1],
@@ -93,7 +93,7 @@ export default function RootLayout({
               LiveAgent.createButton("32wx1d8n", e);
             });
           `}
-        </Script>
+        </Script> */}
       </body>
     </html>
   );
