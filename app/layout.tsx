@@ -69,11 +69,11 @@ export default function RootLayout({
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
           `}
         </Script>
-        <Script
+        {/* <Script
           src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js"
           defer
-        ></Script>
-            <Script id="ladesc" strategy="afterInteractive">
+        ></Script> */}
+            {/* <Script id="ladesc" strategy="afterInteractive">
           {`
             (function (d, src, c) {
               var t = d.scripts[d.scripts.length - 1],
@@ -93,7 +93,7 @@ export default function RootLayout({
               LiveAgent.createButton("32wx1d8n", e);
             });
           `}
-        </Script>
+        </Script> */}
       </body>
     </html>
   );
