@@ -13244,6 +13244,94 @@ main > .topbr {
   }
 }
 
+.form-support {
+  position: fixed;
+  width: 100%;
+  z-index: 9;
+  height: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f0926c7;
+  -webkit-backdrop-filter: blur(17.915px);
+  backdrop-filter: blur(17.915px);
+}
+
+.formS {
+  border-radius: 10px;
+  border-top: 2px solid #fff6;
+  border-bottom: 2px solid #fff6;
+  background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
+  -webkit-backdrop-filter: blur(17.915px);
+  backdrop-filter: blur(17.915px);
+  padding: 25px;
+  min-width: 300px;
+  position: relative;
+}
+
+.formS input, .formS textarea {
+  border-radius: 30px;
+  border-top: 2.5px solid #fff6;
+  border-bottom: 2.5px solid #fff6;
+  background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
+  -webkit-backdrop-filter: blur(17.915px);
+  backdrop-filter: blur(17.915px);
+  width: 100%;
+  resize: none;
+}
+
+.formS div {
+  margin-top: 15px;
+}
+
+.formS .btn-orange {
+  font-size: 18px;
+  border-radius: 30px;
+  width: 100%;
+  min-width: 100%;
+}
+
+.formS * {
+  color: #fff;
+}
+
+.formS .close-btn {
+  background: #ee3838;
+  padding: 0 7px;
+  border-radius: 2px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.btn-support {
+  border-radius: 0 0 30px 30px;
+  background: #ff8f1f;
+  box-shadow: 0 -5px 30px #ff8f1f4d;
+  transform: rotate(-90deg);
+  transition: all .3s;
+  right: -21px;
+  top: 50%;
+  position: fixed;
+  font-size: 18px !important;
+}
+
+.btn-support:hover {
+  background: #f69d44;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .btn-support {
+    z-index: 999;
+    right: -30px;
+  }
+
+  .form-support {
+    z-index: 999;
+  }
+}
+
 .placeholder\:text-gray-300::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));

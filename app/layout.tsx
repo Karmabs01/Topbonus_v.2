@@ -3,6 +3,7 @@ import { Analytics } from '@vercel/analytics/react';
 import { TheHeader } from '@/components/TheHeader';
 import { Header_tailwind } from '@/components/Header_tailwind';
 import { Footer_tailwind } from '@/components/Footer_tailwind';
+import Chat from "@/components/Chat_support";
 
 import BackToTopButton from '@/components/BackToTopButton';
 import './globals.css';
@@ -49,6 +50,7 @@ export default function RootLayout({
       <body>
         <LanguageProvider>
           <Header_tailwind />
+          <Chat />
           <MainWrapper>
             {children}
             <Analytics />
