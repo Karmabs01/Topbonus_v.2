@@ -652,6 +652,11 @@ async function initializeI18n() {
         "My Profile": "My Profile",
         "Get ready for the hottest brands, arriving soon!":
           "Get ready for the hottest brands, arriving soon!",
+        "The message was sent hastily!": "The message was sent hastily!",
+        Error: "Error",
+        "Contact Us": "Contact Us",
+        Message: "Message",
+        Send: "Send",
       },
     },
 
@@ -1121,6 +1126,12 @@ async function initializeI18n() {
         "My Profile": "Mój Profil",
         "Get ready for the hottest brands, arriving soon!":
           "Przygotuj się na najgorętsze marki, które wkrótce nadejdą!",
+        "The message was sent hastily!":
+          "Wiadomość została wysłana w pośpiechu!",
+        Error: "Błąd",
+        "Contact Us": "Skontaktuj się z nami",
+        Message: "Wiadomość",
+        Send: "Wyślij",
       },
     },
     de: {
@@ -1590,6 +1601,11 @@ async function initializeI18n() {
         "My Profile": "Mein Profil",
         "Get ready for the hottest brands, arriving soon!":
           "Mach dich bereit für die heißesten Marken, die bald kommen!",
+        "The message was sent hastily!": "Die Nachricht wurde hastig gesendet!",
+        Error: "Fehler",
+        "Contact Us": "Kontaktieren Sie uns",
+        Message: "Nachricht",
+        Send: "Senden",
       },
     },
     bg: {
@@ -2054,6 +2070,11 @@ async function initializeI18n() {
         "My Profile": "Моят профил",
         "Get ready for the hottest brands, arriving soon!":
           "Подгответе се за най-горещите марки, които скоро ще пристигнат!",
+        "The message was sent hastily!": "Съобщението беше изпратено набързо!",
+        Error: "Грешка",
+        "Contact Us": "Свържете се с нас",
+        Message: "Съобщение",
+        Send: "Изпрати",
       },
     },
     cz: {
@@ -2519,6 +2540,11 @@ async function initializeI18n() {
         "My Profile": "Můj profil",
         "Get ready for the hottest brands, arriving soon!":
           "Připravte se na nejžhavější značky, které brzy dorazí!",
+        "The message was sent hastily!": "Zpráva byla odeslána ve spěchu!",
+        Error: "Chyba",
+        "Contact Us": "Kontaktujte nás",
+        Message: "Zpráva",
+        Send: "Odeslat",
       },
     },
     dk: {
@@ -2984,6 +3010,11 @@ async function initializeI18n() {
         "My Profile": "Min Profil",
         "Get ready for the hottest brands, arriving soon!":
           "Gør dig klar til de hotteste brands, der snart ankommer!",
+        "The message was sent hastily!": "Beskeden blev sendt hurtigt!",
+        Error: "Fejl",
+        "Contact Us": "Kontakt os",
+        Message: "Besked",
+        Send: "Send",
       },
     },
     nl: {
@@ -3450,6 +3481,11 @@ async function initializeI18n() {
         "My Profile": "Mijn Profiel",
         "Get ready for the hottest brands, arriving soon!":
           "Maak je klaar voor de heetste merken, die binnenkort komen!",
+        "The message was sent hastily!": "Het bericht werd haastig verzonden!",
+        Error: "Fout",
+        "Contact Us": "Neem contact met ons op",
+        Message: "Bericht",
+        Send: "Verzenden",
       },
     },
     es: {
@@ -3916,6 +3952,12 @@ async function initializeI18n() {
         "My Profile": "Mi Perfil",
         "Get ready for the hottest brands, arriving soon!":
           "¡Prepárate para las marcas más populares que llegarán pronto!",
+        "The message was sent hastily!":
+          "¡El mensaje fue enviado apresuradamente!",
+        Error: "Error",
+        "Contact Us": "Contáctenos",
+        Message: "Mensaje",
+        Send: "Enviar",
       },
     },
     fi: {
@@ -4380,6 +4422,11 @@ async function initializeI18n() {
         "My Profile": "Oma Profiili",
         "Get ready for the hottest brands, arriving soon!":
           "Valmistaudu kuumimpiin brändeihin, jotka ovat pian tulossa!",
+        "The message was sent hastily!": "Viesti lähetettiin kiireesti!",
+        Error: "Virhe",
+        "Contact Us": "Ota yhteyttä",
+        Message: "Viesti",
+        Send: "Lähetä",
       },
     },
     fr: {
@@ -4847,6 +4894,11 @@ async function initializeI18n() {
         "My Profile": "Mon Profil",
         "Get ready for the hottest brands, arriving soon!":
           "Préparez-vous pour les marques les plus en vogue, qui arrivent bientôt!",
+        "The message was sent hastily!": "Le message a été envoyé à la hâte!",
+        Error: "Erreur",
+        "Contact Us": "Contactez-nous",
+        Message: "Message",
+        Send: "Envoyer",
       },
     },
 
@@ -5315,6 +5367,11 @@ async function initializeI18n() {
         "My Profile": "Το Προφίλ Μου",
         "Get ready for the hottest brands, arriving soon!":
           "Ετοιμαστείτε για τις πιο καυτές μάρκες, που έρχονται σύντομα!",
+        "The message was sent hastily!": "Το μήνυμα στάλθηκε βιαστικά!",
+        Error: "Σφάλμα",
+        "Contact Us": "Επικοινωνήστε μαζί μας",
+        Message: "Μήνυμα",
+        Send: "Αποστολή",
       },
     },
     hu: {
@@ -5782,6 +5839,11 @@ async function initializeI18n() {
         "My Profile": "Saját Profilom",
         "Get ready for the hottest brands, arriving soon!":
           "Készülj fel a legmenőbb márkákra, amelyek hamarosan érkeznek!",
+        "The message was sent hastily!": "Az üzenetet sietve küldték el!",
+        Error: "Hiba",
+        "Contact Us": "Lépjen kapcsolatba velünk",
+        Message: "Üzenet",
+        Send: "Küldés",
       },
     },
     it: {
@@ -6249,6 +6311,12 @@ async function initializeI18n() {
         "My Profile": "Il Mio Profilo",
         "Get ready for the hottest brands, arriving soon!":
           "Preparati per i marchi più caldi, in arrivo presto!",
+        "The message was sent hastily!":
+          "Il messaggio è stato inviato frettolosamente!",
+        Error: "Errore",
+        "Contact Us": "Contattaci",
+        Message: "Messaggio",
+        Send: "Invia",
       },
     },
     no: {
@@ -6716,6 +6784,11 @@ async function initializeI18n() {
         "My Profile": "Min Profil",
         "Get ready for the hottest brands, arriving soon!":
           "Gjør deg klar for de hotteste merkene, som snart kommer!",
+        "The message was sent hastily!": "Meldingen ble sendt i all hast!",
+        Error: "Feil",
+        "Contact Us": "Kontakt oss",
+        Message: "Melding",
+        Send: "Send",
       },
     },
     pt: {
@@ -7183,6 +7256,12 @@ async function initializeI18n() {
         "My Profile": "Meu Perfil",
         "Get ready for the hottest brands, arriving soon!":
           "Prepare-se para as marcas mais quentes, que chegam em breve!",
+        "The message was sent hastily!":
+          "A mensagem foi enviada apressadamente!",
+        Error: "Erro",
+        "Contact Us": "Fale conosco",
+        Message: "Mensagem",
+        Send: "Enviar",
       },
     },
     se: {
@@ -7651,6 +7730,11 @@ async function initializeI18n() {
         "My Profile": "Min Profil",
         "Get ready for the hottest brands, arriving soon!":
           "Gör dig redo för de hetaste märkena, som snart kommer!",
+        "The message was sent hastily!": "Meddelandet skickades hastigt!",
+        Error: "Fel",
+        "Contact Us": "Kontakta oss",
+        Message: "Meddelande",
+        Send: "Skicka",
       },
     },
     sk: {
@@ -8118,6 +8202,11 @@ async function initializeI18n() {
         "My Profile": "Môj Profil",
         "Get ready for the hottest brands, arriving soon!":
           "Pripravte sa na najhorúcejšie značky, ktoré čoskoro prídu!",
+        "The message was sent hastily!": "Správa bola odoslaná narýchlo!",
+        Error: "Chyba",
+        "Contact Us": "Kontaktujte nás",
+        Message: "Správa",
+        Send: "Odoslať",
       },
     },
     tr: {
@@ -8583,6 +8672,11 @@ async function initializeI18n() {
         "My Profile": "Profilim",
         "Get ready for the hottest brands, arriving soon!":
           "En popüler markalar yakında geliyor, hazır olun!",
+        "The message was sent hastily!": "Mesaj aceleyle gönderildi!",
+        Error: "Hata",
+        "Contact Us": "Bize Ulaşın",
+        Message: "Mesaj",
+        Send: "Gönder",
       },
     },
   };
