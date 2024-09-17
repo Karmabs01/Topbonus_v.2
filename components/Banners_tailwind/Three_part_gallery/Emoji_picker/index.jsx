@@ -50,6 +50,7 @@ export default function Banner_small() {
   }, [source]);
 
   return (
+    
     <>
       <div className="emojis">
         <div className="main__container">
