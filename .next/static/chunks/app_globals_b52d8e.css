@@ -12703,15 +12703,23 @@ main > .topbr {
 }
 
 .formS {
-  border-radius: 10px;
+  border-radius: 20px;
   border-top: 2px solid #fff6;
   border-bottom: 2px solid #fff6;
   background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
   -webkit-backdrop-filter: blur(17.915px);
   backdrop-filter: blur(17.915px);
   padding: 25px;
-  min-width: 300px;
+  min-width: 350px;
   position: relative;
+}
+
+.formS label {
+  padding-left: 18px;
+}
+
+.formS h1 {
+  text-align: center;
 }
 
 .formS input, .formS textarea {
@@ -12723,6 +12731,10 @@ main > .topbr {
   backdrop-filter: blur(17.915px);
   width: 100%;
   resize: none;
+}
+
+.formS textarea {
+  height: 200px;
 }
 
 .formS div {

@@ -3085,15 +3085,15 @@ const Index = ()=>{
                 setLoading(false); // Скрыть Loader через 1 секунду
             }, 1000);
             if (response.ok) {
-                setStatus("Сообщение успешно отправлено!");
+                setStatus("The message was sent hastily!");
                 setTimeout(()=>{
                     setFormVisible(false); // Закрываем форму через 1 секунду после отправки
                 }, 1000);
             } else {
-                setStatus("Ошибка при отправке сообщения.");
+                setStatus("Error");
             }
         } catch (error) {
-            setStatus("Ошибка: " + error.message);
+            setStatus("Error");
             setLoading(false); // Скрыть Loader в случае ошибки
         }
     };
