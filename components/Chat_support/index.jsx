@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Loader from "@/components/Loader";
+import { useTranslation } from "react-i18next";
 
 const Index = () => {
   const [email, setEmail] = useState("");
@@ -8,6 +9,7 @@ const Index = () => {
   const [status, setStatus] = useState("");
   const [loading, setLoading] = useState(false); // Состояние загрузки
   const [formVisible, setFormVisible] = useState(false); // Состояние видимости формы
+  const { t } = useTranslation();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -35,15 +37,15 @@ const Index = () => {
       }, 1000);
 
       if (response.ok) {
-        setStatus("The message was sent hastily!");
+        setStatus(t("The message was sent hastily!"));
         setTimeout(() => {
           setFormVisible(false); // Закрываем форму через 1 секунду после отправки
         }, 1000);
       } else {
-        setStatus("Error");
+        setStatus(t("Error"));
       }
     } catch (error) {
-      setStatus("Error");
+      setStatus(t("Error"));
       setLoading(false); // Скрыть Loader в случае ошибки
     }
   };
@@ -55,7 +57,7 @@ const Index = () => {
   return (
     <div>
       <button onClick={toggleForm} className="btn btn-support">
-        Support
+        {t("Support")}
       </button>
 
       {formVisible && (
@@ -67,10 +69,10 @@ const Index = () => {
           )}
           <div className={`formS ${loading ? "blurred" : ""}`}>
             <button onClick={toggleForm} className="close-btn">X</button> {/* Кнопка для закрытия формы */}
-            <h1>Contact Us</h1>
+            <h1>{t("Contact Us")}</h1>
             <form onSubmit={handleSubmit}>
               <div>
-                <label>Email:</label>
+                <label>{t("Email")}:</label>
                 <input
                   type="email"
                   value={email}
@@ -79,7 +81,7 @@ const Index = () => {
                 />
               </div>
               <div>
-                <label>Message:</label>
+                <label>{t("Message")}:</label>
                 <textarea
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
@@ -87,7 +89,7 @@ const Index = () => {
                 />
               </div>
               <button className="btn btn-orange mt-4" type="submit">
-                Send
+                {t("Send")}
               </button>
             </form>
             {status && <p>{status}</p>}
