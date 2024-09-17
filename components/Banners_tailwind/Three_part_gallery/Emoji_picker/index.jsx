@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import img from "@/public/newimages/facmob.png";
+import img from "@/public/newimages/mobile_1.png";
 import { useTranslation } from "react-i18next";
 
 export default function Banner_small() {
@@ -50,8 +50,7 @@ export default function Banner_small() {
         <div className="main__container">
           <div className="flex justify-between items-center face-mob">
             <h3 className="text-lg leading-6 ">
-              {t("What is your choise")}
-              <span>{t("for today?")}</span>
+              Play, Win, and Grab a<span> New iPhone</span>
             </h3>
             <div className="mob-none">
               <Image src={img} alt={img} width={400} height={150} />

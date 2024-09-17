@@ -99,7 +99,8 @@
   margin-left: 25px;
 }
 .emojis {
-  background: url("/newimages/threeface.png") no-repeat center;
+  /* background: url("/newimages/threeface.png") no-repeat center; */
+  background: url("/newimages/threephones1.png") no-repeat center;
   min-height: 329px;
   border-radius: 30px;
   padding: 38px 0 12px 44px;
