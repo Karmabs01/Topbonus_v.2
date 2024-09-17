@@ -12746,7 +12746,7 @@ main > .topbr {
 }
 
 .light .emojis {
-  background: url("/newimageslight/threeface.png") center no-repeat;
+  background: url("/newimageslight/threephones2.png") center no-repeat;
 }
 
 .light .fivehot {
@@ -13145,15 +13145,19 @@ ul.ul-list a {
   backdrop-filter: blur(17.915px);
 }
 
+.formS label {
+  padding-left: 18px;
+}
+
 .formS {
-  border-radius: 10px;
+  border-radius: 20px;
   border-top: 2px solid #fff6;
   border-bottom: 2px solid #fff6;
   background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
   -webkit-backdrop-filter: blur(17.915px);
   backdrop-filter: blur(17.915px);
   padding: 25px;
-  min-width: 300px;
+  min-width: 350px;
   position: relative;
   background-image: linear-gradient(76deg, #088af6 0%, #d992e6 101%);
 }
@@ -13167,6 +13171,10 @@ ul.ul-list a {
   backdrop-filter: blur(17.915px);
   width: 100%;
   resize: none;
+}
+
+.formS textarea {
+  height: 200px;
 }
 
 .formS div {

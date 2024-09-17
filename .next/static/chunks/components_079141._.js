@@ -3264,10 +3264,10 @@ const Index = ()=>{
                     setFormVisible(false); // Закрываем форму через 1 секунду после отправки
                 }, 1000);
             } else {
-                setStatus("Ошибка при отправке сообщения.");
+                setStatus("Error");
             }
         } catch (error) {
-            setStatus("Ошибка: " + error.message);
+            setStatus("Error");
             setLoading(false); // Скрыть Loader в случае ошибки
         }
     };
