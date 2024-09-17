@@ -573,7 +573,7 @@ async function initializeI18n() {
         "Make deposits on the brands below to participate in the jackpot":
           "Make deposits on the brands below to participate in the jackpot",
 
-<<<<<<< HEAD
+
         "Casino":"Casino",
         "Shop":"Shop",
         "Wheel":"Wheel",
@@ -585,7 +585,7 @@ async function initializeI18n() {
         "Contact Us": "Contact Us",
         "Message":"Message",
         "Send":"Send",
-=======
+
         Casinos: "Casinos",
         Bonuses: "Bonuses",
         "All Payments": "All Payments",
@@ -672,7 +672,7 @@ async function initializeI18n() {
         Send: "Send",
         "Play, Win, and Grab a": "Play, Win, and Grab a",
         "New iPhone": "New iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
+
       },
     },
 
@@ -1140,14 +1140,14 @@ async function initializeI18n() {
         Wheel: "Koło",
         Profile: "Profil",
         "My Profile": "Mój Profil",
-<<<<<<< HEAD
+
         "Get ready for the hottest brands, arriving soon!": "Przygotuj się na najgorętsze marki, które wkrótce nadejdą!",
         "The message was sent hastily!": "Wiadomość została wysłana w pośpiechu!",
         "Error": "Błąd",
         "Contact Us": "Skontaktuj się z nami",
         "Message": "Wiadomość",
-        "Send": "Wyślij"
-=======
+        "Send": "Wyślij",
+
         "Get ready for the hottest brands, arriving soon!":
           "Przygotuj się na najgorętsze marki, które wkrótce nadejdą!",
         "The message was sent hastily!":
@@ -1158,7 +1158,7 @@ async function initializeI18n() {
         Send: "Wyślij",
         "Play, Win, and Grab a": "Graj, wygrywaj i złap",
         "New iPhone": "Nowy iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
+
       },
     },
     de: {
@@ -1626,14 +1626,14 @@ async function initializeI18n() {
         Wheel: "Rad",
         Profile: "Profil",
         "My Profile": "Mein Profil",
-<<<<<<< HEAD
+
         "Get ready for the hottest brands, arriving soon!": "Mach dich bereit für die heißesten Marken, die bald kommen!",
         "The message was sent hastily!": "Die Nachricht wurde hastig gesendet!",
         "Error": "Fehler",
         "Contact Us": "Kontaktieren Sie uns",
         "Message": "Nachricht",
-        "Send": "Senden"
-=======
+        "Send": "Senden",
+
         "Get ready for the hottest brands, arriving soon!":
           "Mach dich bereit für die heißesten Marken, die bald kommen!",
         "The message was sent hastily!": "Die Nachricht wurde hastig gesendet!",
@@ -1643,7 +1643,7 @@ async function initializeI18n() {
         Send: "Senden",
         "Play, Win, and Grab a": "Spielen, gewinnen und schnapp dir",
         "New iPhone": "Neues iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
+
       },
     },
     bg: {
@@ -2106,14 +2106,14 @@ async function initializeI18n() {
         Wheel: "Колело",
         Profile: "Профил",
         "My Profile": "Моят профил",
-<<<<<<< HEAD
+
         "Get ready for the hottest brands, arriving soon!": "Подгответе се за най-горещите марки, които скоро ще пристигнат!",
         "The message was sent hastily!": "Съобщението беше изпратено набързо!",
         "Error": "Грешка",
         "Contact Us": "Свържете се с нас",
         "Message": "Съобщение",
-        "Send": "Изпрати"
-=======
+        "Send": "Изпрати",
+
         "Get ready for the hottest brands, arriving soon!":
           "Подгответе се за най-горещите марки, които скоро ще пристигнат!",
         "The message was sent hastily!": "Съобщението беше изпратено набързо!",
@@ -2123,7 +2123,7 @@ async function initializeI18n() {
         Send: "Изпрати",
         "Play, Win, and Grab a": "Играй, спечели и вземи",
         "New iPhone": "Нов iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
+
       },
     },
     cz: {
@@ -2587,14 +2587,14 @@ async function initializeI18n() {
         Wheel: "Kolo",
         Profile: "Profil",
         "My Profile": "Můj profil",
-<<<<<<< HEAD
+
         "Get ready for the hottest brands, arriving soon!": "Připravte se na nejžhavější značky, které brzy dorazí!",
         "The message was sent hastily!": "Zpráva byla odeslána ve spěchu!",
         "Error": "Chyba",
         "Contact Us": "Kontaktujte nás",
         "Message": "Zpráva",
-        "Send": "Odeslat"
-=======
+        "Send": "Odeslat",
+
         "Get ready for the hottest brands, arriving soon!":
           "Připravte se na nejžhavější značky, které brzy dorazí!",
         "The message was sent hastily!": "Zpráva byla odeslána ve spěchu!",
@@ -2604,7 +2604,7 @@ async function initializeI18n() {
         Send: "Odeslat",
         "Play, Win, and Grab a": "Hrajte, vyhrajte a získejte",
         "New iPhone": "Nový iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
+
       },
     },
     dk: {
@@ -3068,14 +3068,14 @@ async function initializeI18n() {
         Wheel: "Hjul",
         Profile: "Profil",
         "My Profile": "Min Profil",
-<<<<<<< HEAD
+
         "Get ready for the hottest brands, arriving soon!": "Gør dig klar til de hotteste brands, der snart ankommer!",
         "The message was sent hastily!": "Beskeden blev sendt hurtigt!",
         "Error": "Fejl",
         "Contact Us": "Kontakt os",
         "Message": "Besked",
-        "Send": "Send"
-=======
+        "Send": "Send",
+
         "Get ready for the hottest brands, arriving soon!":
           "Gør dig klar til de hotteste brands, der snart ankommer!",
         "The message was sent hastily!": "Beskeden blev sendt hurtigt!",
@@ -3085,7 +3085,7 @@ async function initializeI18n() {
         Send: "Send",
         "Play, Win, and Grab a": "Spil, vind og få",
         "New iPhone": "Ny iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
+
       },
     },
     nl: {
@@ -3550,14 +3550,14 @@ async function initializeI18n() {
         Wheel: "Wiel",
         Profile: "Profiel",
         "My Profile": "Mijn Profiel",
-<<<<<<< HEAD
+
         "Get ready for the hottest brands, arriving soon!": "Maak je klaar voor de heetste merken, die binnenkort komen!",
         "The message was sent hastily!": "Het bericht werd haastig verzonden!",
         "Error": "Fout",
         "Contact Us": "Neem contact met ons op",
         "Message": "Bericht",
-        "Send": "Verzenden"
-=======
+        "Send": "Verzenden",
+
         "Get ready for the hottest brands, arriving soon!":
           "Maak je klaar voor de heetste merken, die binnenkort komen!",
         "The message was sent hastily!": "Het bericht werd haastig verzonden!",
@@ -3567,7 +3567,7 @@ async function initializeI18n() {
         Send: "Verzenden",
         "Play, Win, and Grab a": "Speel, win en pak een",
         "New iPhone": "Nieuwe iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
+
       },
     },
     es: {
@@ -4032,14 +4032,13 @@ async function initializeI18n() {
         Wheel: "Ruleta",
         Profile: "Perfil",
         "My Profile": "Mi Perfil",
-<<<<<<< HEAD
+
         "Get ready for the hottest brands, arriving soon!": "¡Prepárate para las marcas más populares que llegarán pronto!",
         "The message was sent hastily!": "¡El mensaje fue enviado apresuradamente!",
         "Error": "Error",
         "Contact Us": "Contáctenos",
         "Message": "Mensaje",
-        "Send": "Enviar"
-=======
+        "Send": "Enviar",
         "Get ready for the hottest brands, arriving soon!":
           "¡Prepárate para las marcas más populares que llegarán pronto!",
         "The message was sent hastily!":
@@ -4050,7 +4049,7 @@ async function initializeI18n() {
         Send: "Enviar",
         "Play, Win, and Grab a": "Juega, gana y consigue un",
         "New iPhone": "Nuevo iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
+
       },
     },
     fi: {
@@ -4513,14 +4512,13 @@ async function initializeI18n() {
         Wheel: "Ratas",
         Profile: "Profiili",
         "My Profile": "Oma Profiili",
-<<<<<<< HEAD
+
         "Get ready for the hottest brands, arriving soon!": "Valmistaudu kuumimpiin brändeihin, jotka ovat pian tulossa!",
         "The message was sent hastily!": "Viesti lähetettiin kiireesti!",
         "Error": "Virhe",
         "Contact Us": "Ota yhteyttä",
         "Message": "Viesti",
-        "Send": "Lähetä"
-=======
+        "Send": "Lähetä",
         "Get ready for the hottest brands, arriving soon!":
           "Valmistaudu kuumimpiin brändeihin, jotka ovat pian tulossa!",
         "The message was sent hastily!": "Viesti lähetettiin kiireesti!",
@@ -4530,7 +4528,6 @@ async function initializeI18n() {
         Send: "Lähetä",
         "Play, Win, and Grab a": "Pelaa, voita ja nappaa",
         "New iPhone": "Uusi iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
       },
     },
     fr: {
@@ -4996,14 +4993,13 @@ async function initializeI18n() {
         Wheel: "Roue",
         Profile: "Profil",
         "My Profile": "Mon Profil",
-<<<<<<< HEAD
+
         "Get ready for the hottest brands, arriving soon!": "Préparez-vous pour les marques les plus en vogue, qui arrivent bientôt!",
 "The message was sent hastily!": "Le message a été envoyé à la hâte!",
     "Error": "Erreur",
     "Contact Us": "Contactez-nous",
     "Message": "Message",
-    "Send": "Envoyer"
-=======
+    "Send": "Envoyer",
         "Get ready for the hottest brands, arriving soon!":
           "Préparez-vous pour les marques les plus en vogue, qui arrivent bientôt!",
         "The message was sent hastily!": "Le message a été envoyé à la hâte!",
@@ -5013,7 +5009,7 @@ async function initializeI18n() {
         Send: "Envoyer",
         "Play, Win, and Grab a": "Jouez, gagnez et obtenez un",
         "New iPhone": "Nouvel iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
+
       },
     },
 
@@ -5480,14 +5476,12 @@ async function initializeI18n() {
         Wheel: "Τροχός",
         Profile: "Προφίλ",
         "My Profile": "Το Προφίλ Μου",
-<<<<<<< HEAD
         "Get ready for the hottest brands, arriving soon!": "Ετοιμαστείτε για τις πιο καυτές μάρκες, που έρχονται σύντομα!",
         "The message was sent hastily!": "Το μήνυμα στάλθηκε βιαστικά!",
         "Error": "Σφάλμα",
         "Contact Us": "Επικοινωνήστε μαζί μας",
         "Message": "Μήνυμα",
-        "Send": "Αποστολή"
-=======
+        "Send": "Αποστολή",
         "Get ready for the hottest brands, arriving soon!":
           "Ετοιμαστείτε για τις πιο καυτές μάρκες, που έρχονται σύντομα!",
         "The message was sent hastily!": "Το μήνυμα στάλθηκε βιαστικά!",
@@ -5497,7 +5491,7 @@ async function initializeI18n() {
         Send: "Αποστολή",
         "Play, Win, and Grab a": "Παίξτε, κερδίστε και πάρτε ένα",
         "New iPhone": "Νέο iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
+
       },
     },
     hu: {
@@ -5963,14 +5957,13 @@ async function initializeI18n() {
         Wheel: "Kerék",
         Profile: "Profil",
         "My Profile": "Saját Profilom",
-<<<<<<< HEAD
+
         "Get ready for the hottest brands, arriving soon!": "Készülj fel a legmenőbb márkákra, amelyek hamarosan érkeznek!",
         "The message was sent hastily!": "Az üzenetet sietve küldték el!",
         "Error": "Hiba",
         "Contact Us": "Lépjen kapcsolatba velünk",
         "Message": "Üzenet",
-        "Send": "Küldés"
-=======
+        "Send": "Küldés",
         "Get ready for the hottest brands, arriving soon!":
           "Készülj fel a legmenőbb márkákra, amelyek hamarosan érkeznek!",
         "The message was sent hastily!": "Az üzenetet sietve küldték el!",
@@ -5980,7 +5973,7 @@ async function initializeI18n() {
         Send: "Küldés",
         "Play, Win, and Grab a": "Játssz, nyerj, és szerezd meg",
         "New iPhone": "Új iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
+
       },
     },
     it: {
@@ -6446,14 +6439,13 @@ async function initializeI18n() {
         Wheel: "Ruota",
         Profile: "Profilo",
         "My Profile": "Il Mio Profilo",
-<<<<<<< HEAD
+
         "Get ready for the hottest brands, arriving soon!": "Preparati per i marchi più caldi, in arrivo presto!",
         "The message was sent hastily!": "Il messaggio è stato inviato frettolosamente!",
         "Error": "Errore",
         "Contact Us": "Contattaci",
         "Message": "Messaggio",
-        "Send": "Invia"
-=======
+        "Send": "Invia",
         "Get ready for the hottest brands, arriving soon!":
           "Preparati per i marchi più caldi, in arrivo presto!",
         "The message was sent hastily!":
@@ -6464,7 +6456,7 @@ async function initializeI18n() {
         Send: "Invia",
         "Play, Win, and Grab a": "Gioca, vinci e prendi un",
         "New iPhone": "Nuovo iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
+
       },
     },
     no: {
@@ -6930,14 +6922,13 @@ async function initializeI18n() {
         Wheel: "Hjul",
         Profile: "Profil",
         "My Profile": "Min Profil",
-<<<<<<< HEAD
+
         "Get ready for the hottest brands, arriving soon!": "Gjør deg klar for de hotteste merkene, som snart kommer!",
         "The message was sent hastily!": "Meldingen ble sendt i all hast!",
         "Error": "Feil",
         "Contact Us": "Kontakt oss",
         "Message": "Melding",
-        "Send": "Send"
-=======
+        "Send": "Send",
         "Get ready for the hottest brands, arriving soon!":
           "Gjør deg klar for de hotteste merkene, som snart kommer!",
         "The message was sent hastily!": "Meldingen ble sendt i all hast!",
@@ -6947,7 +6938,7 @@ async function initializeI18n() {
         Send: "Send",
         "Play, Win, and Grab a": "Spill, vinn og få en",
         "New iPhone": "Ny iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
+
       },
     },
     pt: {
@@ -7413,14 +7404,12 @@ async function initializeI18n() {
         Wheel: "Roda",
         Profile: "Perfil",
         "My Profile": "Meu Perfil",
-<<<<<<< HEAD
         "Get ready for the hottest brands, arriving soon!": "Prepare-se para as marcas mais quentes, que chegam em breve!",
         "The message was sent hastily!": "A mensagem foi enviada apressadamente!",
         "Error": "Erro",
         "Contact Us": "Fale conosco",
         "Message": "Mensagem",
-        "Send": "Enviar"
-=======
+        "Send": "Enviar",
         "Get ready for the hottest brands, arriving soon!":
           "Prepare-se para as marcas mais quentes, que chegam em breve!",
         "The message was sent hastily!":
@@ -7431,7 +7420,7 @@ async function initializeI18n() {
         Send: "Enviar",
         "Play, Win, and Grab a": "Jogue, ganhe e pegue um",
         "New iPhone": "Novo iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
+
       },
     },
     se: {
@@ -7898,14 +7887,12 @@ async function initializeI18n() {
         Wheel: "Hjul",
         Profile: "Profil",
         "My Profile": "Min Profil",
-<<<<<<< HEAD
         "Get ready for the hottest brands, arriving soon!": "Gör dig redo för de hetaste märkena, som snart kommer!",
         "The message was sent hastily!": "Meddelandet skickades hastigt!",
         "Error": "Fel",
         "Contact Us": "Kontakta oss",
         "Message": "Meddelande",
-        "Send": "Skicka"
-=======
+        "Send": "Skicka",
         "Get ready for the hottest brands, arriving soon!":
           "Gör dig redo för de hetaste märkena, som snart kommer!",
         "The message was sent hastily!": "Meddelandet skickades hastigt!",
@@ -7915,7 +7902,6 @@ async function initializeI18n() {
         Send: "Skicka",
         "Play, Win, and Grab a": "Spela, vinn och ta en",
         "New iPhone": "Ny iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
       },
     },
     sk: {
@@ -8381,14 +8367,12 @@ async function initializeI18n() {
         Wheel: "Koleso",
         Profile: "Profil",
         "My Profile": "Môj Profil",
-<<<<<<< HEAD
         "Get ready for the hottest brands, arriving soon!": "Pripravte sa na najhorúcejšie značky, ktoré čoskoro prídu!",
         "The message was sent hastily!": "Správa bola odoslaná narýchlo!",
         "Error": "Chyba",
         "Contact Us": "Kontaktujte nás",
         "Message": "Správa",
-        "Send": "Odoslať"
-=======
+        "Send": "Odoslať",
         "Get ready for the hottest brands, arriving soon!":
           "Pripravte sa na najhorúcejšie značky, ktoré čoskoro prídu!",
         "The message was sent hastily!": "Správa bola odoslaná narýchlo!",
@@ -8398,7 +8382,7 @@ async function initializeI18n() {
         Send: "Odoslať",
         "Play, Win, and Grab a": "Hrajte, vyhrajte a chyťte",
         "New iPhone": "Nový iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
+
       },
     },
     tr: {
@@ -8862,14 +8846,14 @@ async function initializeI18n() {
         Wheel: "Tekerlek",
         Profile: "Profil",
         "My Profile": "Profilim",
-<<<<<<< HEAD
+
         "Get ready for the hottest brands, arriving soon!": "En popüler markalar yakında geliyor, hazır olun!",
         "The message was sent hastily!": "Mesaj aceleyle gönderildi!",
         "Error": "Hata",
         "Contact Us": "Bize Ulaşın",
         "Message": "Mesaj",
-        "Send": "Gönder"
-=======
+        "Send": "Gönder",
+
         "Get ready for the hottest brands, arriving soon!":
           "En popüler markalar yakında geliyor, hazır olun!",
         "The message was sent hastily!": "Mesaj aceleyle gönderildi!",
@@ -8879,7 +8863,7 @@ async function initializeI18n() {
         Send: "Gönder",
         "Play, Win, and Grab a": "Oyna, kazan ve kap",
         "New iPhone": "Yeni iPhone",
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
+
       },
     },
   };
