@@ -11147,10 +11147,12 @@ resize: none;
   box-shadow: 0 -5px 30px #f44a70;
   transform: rotate(-90deg);
   transition: 0.3s;
-  right: -21px;
+  right: -50px;
   top: 50%;
+  width: 150px;
   position: fixed;
   font-size: 18px !important;
+  z-index: 999;
 }
 .btn-support:hover {
   background: #f44a71;
@@ -11160,7 +11162,7 @@ resize: none;
 @media(min-width: 320px) and (max-width: 767px) {
   .btn-support {
     z-index: 999;
-    right: -30px;
+    right: -50px;
   }
   .form-support {
     z-index: 999;
