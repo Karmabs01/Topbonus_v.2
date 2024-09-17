@@ -11093,14 +11093,17 @@ border-radius: 5px !important;
   background: rgb(255, 255, 255, 0.5);
   backdrop-filter: blur(17.915000915527344px);
 }
+.formS label {
+  padding-left: 18px;
+}
 .formS{
-  border-radius: 10px;
+  border-radius: 20px;
 border-top: 2px solid rgba(255, 255, 255, 0.40);
 border-bottom: 2px solid rgba(255, 255, 255, 0.40);
 background: linear-gradient(161deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.05) 101.7%);
 backdrop-filter: blur(17.915000915527344px);
 padding: 25px;
-min-width: 300px;
+min-width: 350px;
 position: relative;
 background-image: linear-gradient(76deg, #088af6 0%, #d992e6 101%);
 }
@@ -11112,6 +11115,9 @@ background: linear-gradient(161deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255,
 backdrop-filter: blur(17.915000915527344px);
 width: 100%;
 resize: none;
+}
+.formS textarea {
+  height: 200px;
 }
 .formS div {
   margin-top: 15px;
