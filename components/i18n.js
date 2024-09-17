@@ -657,6 +657,8 @@ async function initializeI18n() {
         "Contact Us": "Contact Us",
         Message: "Message",
         Send: "Send",
+        "Play, Win, and Grab a": "Play, Win, and Grab a",
+        "New iPhone": "New iPhone",
       },
     },
 
@@ -1132,6 +1134,8 @@ async function initializeI18n() {
         "Contact Us": "Skontaktuj się z nami",
         Message: "Wiadomość",
         Send: "Wyślij",
+        "Play, Win, and Grab a": "Graj, wygrywaj i złap",
+        "New iPhone": "Nowy iPhone",
       },
     },
     de: {
@@ -1606,6 +1610,8 @@ async function initializeI18n() {
         "Contact Us": "Kontaktieren Sie uns",
         Message: "Nachricht",
         Send: "Senden",
+        "Play, Win, and Grab a": "Spielen, gewinnen und schnapp dir",
+        "New iPhone": "Neues iPhone",
       },
     },
     bg: {
@@ -2075,6 +2081,8 @@ async function initializeI18n() {
         "Contact Us": "Свържете се с нас",
         Message: "Съобщение",
         Send: "Изпрати",
+        "Play, Win, and Grab a": "Играй, спечели и вземи",
+        "New iPhone": "Нов iPhone",
       },
     },
     cz: {
@@ -2545,6 +2553,8 @@ async function initializeI18n() {
         "Contact Us": "Kontaktujte nás",
         Message: "Zpráva",
         Send: "Odeslat",
+        "Play, Win, and Grab a": "Hrajte, vyhrajte a získejte",
+        "New iPhone": "Nový iPhone",
       },
     },
     dk: {
@@ -3015,6 +3025,8 @@ async function initializeI18n() {
         "Contact Us": "Kontakt os",
         Message: "Besked",
         Send: "Send",
+        "Play, Win, and Grab a": "Spil, vind og få",
+        "New iPhone": "Ny iPhone",
       },
     },
     nl: {
@@ -3486,6 +3498,8 @@ async function initializeI18n() {
         "Contact Us": "Neem contact met ons op",
         Message: "Bericht",
         Send: "Verzenden",
+        "Play, Win, and Grab a": "Speel, win en pak een",
+        "New iPhone": "Nieuwe iPhone",
       },
     },
     es: {
@@ -3958,6 +3972,8 @@ async function initializeI18n() {
         "Contact Us": "Contáctenos",
         Message: "Mensaje",
         Send: "Enviar",
+        "Play, Win, and Grab a": "Juega, gana y consigue un",
+        "New iPhone": "Nuevo iPhone",
       },
     },
     fi: {
@@ -4427,6 +4443,8 @@ async function initializeI18n() {
         "Contact Us": "Ota yhteyttä",
         Message: "Viesti",
         Send: "Lähetä",
+        "Play, Win, and Grab a": "Pelaa, voita ja nappaa",
+        "New iPhone": "Uusi iPhone",
       },
     },
     fr: {
@@ -4899,6 +4917,8 @@ async function initializeI18n() {
         "Contact Us": "Contactez-nous",
         Message: "Message",
         Send: "Envoyer",
+        "Play, Win, and Grab a": "Jouez, gagnez et obtenez un",
+        "New iPhone": "Nouvel iPhone",
       },
     },
 
@@ -5372,6 +5392,8 @@ async function initializeI18n() {
         "Contact Us": "Επικοινωνήστε μαζί μας",
         Message: "Μήνυμα",
         Send: "Αποστολή",
+        "Play, Win, and Grab a": "Παίξτε, κερδίστε και πάρτε ένα",
+        "New iPhone": "Νέο iPhone",
       },
     },
     hu: {
@@ -5844,6 +5866,8 @@ async function initializeI18n() {
         "Contact Us": "Lépjen kapcsolatba velünk",
         Message: "Üzenet",
         Send: "Küldés",
+        "Play, Win, and Grab a": "Játssz, nyerj, és szerezd meg",
+        "New iPhone": "Új iPhone",
       },
     },
     it: {
@@ -6317,6 +6341,8 @@ async function initializeI18n() {
         "Contact Us": "Contattaci",
         Message: "Messaggio",
         Send: "Invia",
+        "Play, Win, and Grab a": "Gioca, vinci e prendi un",
+        "New iPhone": "Nuovo iPhone",
       },
     },
     no: {
@@ -6789,6 +6815,8 @@ async function initializeI18n() {
         "Contact Us": "Kontakt oss",
         Message: "Melding",
         Send: "Send",
+        "Play, Win, and Grab a": "Spill, vinn og få en",
+        "New iPhone": "Ny iPhone",
       },
     },
     pt: {
@@ -7262,6 +7290,8 @@ async function initializeI18n() {
         "Contact Us": "Fale conosco",
         Message: "Mensagem",
         Send: "Enviar",
+        "Play, Win, and Grab a": "Jogue, ganhe e pegue um",
+        "New iPhone": "Novo iPhone",
       },
     },
     se: {
@@ -7735,6 +7765,8 @@ async function initializeI18n() {
         "Contact Us": "Kontakta oss",
         Message: "Meddelande",
         Send: "Skicka",
+        "Play, Win, and Grab a": "Spela, vinn och ta en",
+        "New iPhone": "Ny iPhone",
       },
     },
     sk: {
@@ -8207,6 +8239,8 @@ async function initializeI18n() {
         "Contact Us": "Kontaktujte nás",
         Message: "Správa",
         Send: "Odoslať",
+        "Play, Win, and Grab a": "Hrajte, vyhrajte a chyťte",
+        "New iPhone": "Nový iPhone",
       },
     },
     tr: {
@@ -8677,6 +8711,8 @@ async function initializeI18n() {
         "Contact Us": "Bize Ulaşın",
         Message: "Mesaj",
         Send: "Gönder",
+        "Play, Win, and Grab a": "Oyna, kazan ve kap",
+        "New iPhone": "Yeni iPhone",
       },
     },
   };
