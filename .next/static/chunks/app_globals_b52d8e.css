@@ -12767,9 +12767,11 @@ main > .topbr {
   box-shadow: 0 -5px 30px #ff8f1f4d;
   transform: rotate(-90deg);
   transition: all .3s;
-  right: -21px;
+  width: 150px;
+  right: -50px;
   top: 50%;
   position: fixed;
+  z-index: 999;
   font-size: 18px !important;
 }
 
@@ -12780,7 +12782,7 @@ main > .topbr {
 @media (width >= 320px) and (width <= 767px) {
   .btn-support {
     z-index: 999;
-    right: -30px;
+    right: -50px;
   }
 
   .form-support {
