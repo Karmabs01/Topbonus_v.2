@@ -3185,17 +3185,10 @@ const Index = ()=>{
                     setFormVisible(false); // Закрываем форму через 1 секунду после отправки
                 }, 1000);
             } else {
-<<<<<<< HEAD
                 setStatus(t("Error"));
             }
         } catch (error) {
             setStatus(t("Error"));
-=======
-                setStatus("Error");
-            }
-        } catch (error) {
-            setStatus("Error");
->>>>>>> d5716ec900ae38ce09b489e991a181adb9a34e49
             setLoading(false); // Скрыть Loader в случае ошибки
         }
     };
