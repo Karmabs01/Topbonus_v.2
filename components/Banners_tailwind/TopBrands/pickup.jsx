@@ -29,13 +29,14 @@ export default function Pickup({ newUrl }) {
       setLoading(false);
     }
   }, [data, categoryBrands.key1, categoryBrands.key2]);
+  console.log("==============", brands)
   return (
     <>
       <div className="flex items-center justify-end jins w-full">
         <div className="thrdjin">
           <h5 className="h5">{t("Premium Choice of the Day")}</h5>
           {brands.length > 0 &&
-            brands.slice(0, 1).map((rowData, index) => (
+            brands.slice(1, 2).map((rowData, index) => (
               // <p className="p">{t("Click below to claim your magical reward!")}</p>
               <div>
                 <div className="img-wrap">
