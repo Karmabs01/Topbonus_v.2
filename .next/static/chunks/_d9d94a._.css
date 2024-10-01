@@ -1018,7 +1018,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
 .fivehot-banner {
   padding: 28px 19px;
-  background: url("/newimages/fivehot.png") center no-repeat;
+  background: url("/newimages/beerfest.png") center no-repeat;
   background-size: cover;
   border-radius: 30px;
   min-height: 329px;
@@ -1235,6 +1235,8 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
   .fivehot-banner {
     min-height: initial;
+    background: url("/newimages/beerfestmobile.png") center no-repeat;
+    background-size: cover;
   }
 
   .fivehot-banner p {

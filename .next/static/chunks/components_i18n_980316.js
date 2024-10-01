@@ -450,6 +450,17 @@ async function initializeI18n() {
                 "Bonus Ready!": "Bonus Ready!",
                 "HIT THE JACKPOT!": "HIT THE JACKPOT!",
                 "Make deposits on the brands below to participate in the jackpot": "Make deposits on the brands below to participate in the jackpot",
+                Casino: "Casino",
+                Shop: "Shop",
+                Wheel: "Wheel",
+                Profile: "Profile",
+                "My Profile": "My Profile",
+                "Get ready for the hottest brands, arriving soon!": "Get ready for the hottest brands, arriving soon!",
+                "The message was sent hastily!": "The message was sent hastily!",
+                Error: "Error",
+                "Contact Us": "Contact Us",
+                Message: "Message",
+                Send: "Send",
                 Casinos: "Casinos",
                 Bonuses: "Bonuses",
                 "All Payments": "All Payments",
@@ -522,7 +533,9 @@ async function initializeI18n() {
                 Message: "Message",
                 Send: "Send",
                 "Play, Win, and Grab a": "Play, Win, and Grab a",
-                "New iPhone": "New iPhone"
+                "New iPhone": "New iPhone",
+                "OKTOBERFEST WINS": "OKTOBERFEST WINS",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!"
             }
         },
         pl: {
@@ -857,8 +870,16 @@ async function initializeI18n() {
                 "Contact Us": "Skontaktuj się z nami",
                 Message: "Wiadomość",
                 Send: "Wyślij",
+                "Get ready for the hottest brands, arriving soon!": "Przygotuj się na najgorętsze marki, które wkrótce nadejdą!",
+                "The message was sent hastily!": "Wiadomość została wysłana w pośpiechu!",
+                Error: "Błąd",
+                "Contact Us": "Skontaktuj się z nami",
+                Message: "Wiadomość",
+                Send: "Wyślij",
                 "Play, Win, and Grab a": "Graj, wygrywaj i złap",
-                "New iPhone": "Nowy iPhone"
+                "New iPhone": "Nowy iPhone",
+                "OKTOBERFEST WINS": "OKTOBERFEST WYGRYWA",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Odkryj najgorętsze 'browary' gier, serwujące duże wygrane i bonusy w świątecznym duchu Oktoberfestu!"
             }
         },
         de: {
@@ -1194,8 +1215,16 @@ async function initializeI18n() {
                 "Contact Us": "Kontaktieren Sie uns",
                 Message: "Nachricht",
                 Send: "Senden",
+                "Get ready for the hottest brands, arriving soon!": "Mach dich bereit für die heißesten Marken, die bald kommen!",
+                "The message was sent hastily!": "Die Nachricht wurde hastig gesendet!",
+                Error: "Fehler",
+                "Contact Us": "Kontaktieren Sie uns",
+                Message: "Nachricht",
+                Send: "Senden",
                 "Play, Win, and Grab a": "Spielen, gewinnen und schnapp dir",
-                "New iPhone": "Neues iPhone"
+                "New iPhone": "Neues iPhone",
+                "OKTOBERFEST WINS": "OKTOBERFEST GEWINNT",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Entdecken Sie die heißesten Gaming-'Brauereien', die große Gewinne und Boni im festlichen Geist des Oktoberfests servieren!"
             }
         },
         bg: {
@@ -1530,8 +1559,16 @@ async function initializeI18n() {
                 "Contact Us": "Свържете се с нас",
                 Message: "Съобщение",
                 Send: "Изпрати",
+                "Get ready for the hottest brands, arriving soon!": "Подгответе се за най-горещите марки, които скоро ще пристигнат!",
+                "The message was sent hastily!": "Съобщението беше изпратено набързо!",
+                Error: "Грешка",
+                "Contact Us": "Свържете се с нас",
+                Message: "Съобщение",
+                Send: "Изпрати",
                 "Play, Win, and Grab a": "Играй, спечели и вземи",
-                "New iPhone": "Нов iPhone"
+                "New iPhone": "Нов iPhone",
+                "OKTOBERFEST WINS": "ОКТОБЕРФЕСТ ПОБЕЖДАВА",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Открийте най-горещите игрални 'пивоварни', които предлагат големи печалби и бонуси в празничния дух на Октомврифест!"
             }
         },
         cz: {
@@ -1866,8 +1903,16 @@ async function initializeI18n() {
                 "Contact Us": "Kontaktujte nás",
                 Message: "Zpráva",
                 Send: "Odeslat",
+                "Get ready for the hottest brands, arriving soon!": "Připravte se na nejžhavější značky, které brzy dorazí!",
+                "The message was sent hastily!": "Zpráva byla odeslána ve spěchu!",
+                Error: "Chyba",
+                "Contact Us": "Kontaktujte nás",
+                Message: "Zpráva",
+                Send: "Odeslat",
                 "Play, Win, and Grab a": "Hrajte, vyhrajte a získejte",
-                "New iPhone": "Nový iPhone"
+                "New iPhone": "Nový iPhone",
+                "OKTOBERFEST WINS": "OKTOBERFEST VYHRÁVÁ",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Objevte nejžhavější herní 'pivovary', které nabízejí velké výhry a bonusy v duchu oslavního ducha Oktoberfestu!"
             }
         },
         dk: {
@@ -2202,8 +2247,16 @@ async function initializeI18n() {
                 "Contact Us": "Kontakt os",
                 Message: "Besked",
                 Send: "Send",
+                "Get ready for the hottest brands, arriving soon!": "Gør dig klar til de hotteste brands, der snart ankommer!",
+                "The message was sent hastily!": "Beskeden blev sendt hurtigt!",
+                Error: "Fejl",
+                "Contact Us": "Kontakt os",
+                Message: "Besked",
+                Send: "Send",
                 "Play, Win, and Grab a": "Spil, vind og få",
-                "New iPhone": "Ny iPhone"
+                "New iPhone": "Ny iPhone",
+                "OKTOBERFEST WINS": "OKTOBERFEST VINDER",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Opdag de hotteste spil 'bryggerier', der serverer store gevinster og bonusser i den festlige ånd af Oktoberfest!"
             }
         },
         nl: {
@@ -2538,8 +2591,16 @@ async function initializeI18n() {
                 "Contact Us": "Neem contact met ons op",
                 Message: "Bericht",
                 Send: "Verzenden",
+                "Get ready for the hottest brands, arriving soon!": "Maak je klaar voor de heetste merken, die binnenkort komen!",
+                "The message was sent hastily!": "Het bericht werd haastig verzonden!",
+                Error: "Fout",
+                "Contact Us": "Neem contact met ons op",
+                Message: "Bericht",
+                Send: "Verzenden",
                 "Play, Win, and Grab a": "Speel, win en pak een",
-                "New iPhone": "Nieuwe iPhone"
+                "New iPhone": "Nieuwe iPhone",
+                "OKTOBERFEST WINS": "OKTOBERFEEST WINT",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Ontdek de heetste gaming 'brouwerijen' die grote overwinningen en bonussen serveren in de feestelijke sfeer van Oktoberfest!"
             }
         },
         es: {
@@ -2874,8 +2935,16 @@ async function initializeI18n() {
                 "Contact Us": "Contáctenos",
                 Message: "Mensaje",
                 Send: "Enviar",
+                "Get ready for the hottest brands, arriving soon!": "¡Prepárate para las marcas más populares que llegarán pronto!",
+                "The message was sent hastily!": "¡El mensaje fue enviado apresuradamente!",
+                Error: "Error",
+                "Contact Us": "Contáctenos",
+                Message: "Mensaje",
+                Send: "Enviar",
                 "Play, Win, and Grab a": "Juega, gana y consigue un",
-                "New iPhone": "Nuevo iPhone"
+                "New iPhone": "Nuevo iPhone",
+                "OKTOBERFEST WINS": "OKTOBERFEST GANA",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Descubre las mejores 'cervecerías' de juegos que ofrecen grandes ganancias y bonificaciones en el espíritu festivo de Oktoberfest!"
             }
         },
         fi: {
@@ -3210,8 +3279,16 @@ async function initializeI18n() {
                 "Contact Us": "Ota yhteyttä",
                 Message: "Viesti",
                 Send: "Lähetä",
+                "Get ready for the hottest brands, arriving soon!": "Valmistaudu kuumimpiin brändeihin, jotka ovat pian tulossa!",
+                "The message was sent hastily!": "Viesti lähetettiin kiireesti!",
+                Error: "Virhe",
+                "Contact Us": "Ota yhteyttä",
+                Message: "Viesti",
+                Send: "Lähetä",
                 "Play, Win, and Grab a": "Pelaa, voita ja nappaa",
-                "New iPhone": "Uusi iPhone"
+                "New iPhone": "Uusi iPhone",
+                "OKTOBERFEST WINS": "OKTOBERFEST VOITTAA",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Löydä kuumimmat pelien 'panimot', jotka tarjoavat suuria voittoja ja bonuksia Oktoberfestin juhlavassa hengessä!"
             }
         },
         fr: {
@@ -3547,8 +3624,16 @@ async function initializeI18n() {
                 "Contact Us": "Contactez-nous",
                 Message: "Message",
                 Send: "Envoyer",
+                "Get ready for the hottest brands, arriving soon!": "Préparez-vous pour les marques les plus en vogue, qui arrivent bientôt!",
+                "The message was sent hastily!": "Le message a été envoyé à la hâte!",
+                Error: "Erreur",
+                "Contact Us": "Contactez-nous",
+                Message: "Message",
+                Send: "Envoyer",
                 "Play, Win, and Grab a": "Jouez, gagnez et obtenez un",
-                "New iPhone": "Nouvel iPhone"
+                "New iPhone": "Nouvel iPhone",
+                "OKTOBERFEST WINS": "OKTOBERFEST GAGNE",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Découvrez les plus chaudes 'brasseries' de jeux proposant de gros gains et des bonus dans l'esprit festif de l'Oktoberfest!"
             }
         },
         gr: {
@@ -3884,8 +3969,16 @@ async function initializeI18n() {
                 "Contact Us": "Επικοινωνήστε μαζί μας",
                 Message: "Μήνυμα",
                 Send: "Αποστολή",
+                "Get ready for the hottest brands, arriving soon!": "Ετοιμαστείτε για τις πιο καυτές μάρκες, που έρχονται σύντομα!",
+                "The message was sent hastily!": "Το μήνυμα στάλθηκε βιαστικά!",
+                Error: "Σφάλμα",
+                "Contact Us": "Επικοινωνήστε μαζί μας",
+                Message: "Μήνυμα",
+                Send: "Αποστολή",
                 "Play, Win, and Grab a": "Παίξτε, κερδίστε και πάρτε ένα",
-                "New iPhone": "Νέο iPhone"
+                "New iPhone": "Νέο iPhone",
+                "OKTOBERFEST WINS": "ΟΚΤΩΒΡΙΟΥΣΤ ΝΙΚΑΕΙ",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Ανακαλύψτε τις πιο δημοφιλείς 'ζυθοποιίες' παιχνιδιών που προσφέρουν μεγάλες νίκες και μπόνους με το γιορτινό πνεύμα του Oktoberfest!"
             }
         },
         hu: {
@@ -4221,8 +4314,16 @@ async function initializeI18n() {
                 "Contact Us": "Lépjen kapcsolatba velünk",
                 Message: "Üzenet",
                 Send: "Küldés",
+                "Get ready for the hottest brands, arriving soon!": "Készülj fel a legmenőbb márkákra, amelyek hamarosan érkeznek!",
+                "The message was sent hastily!": "Az üzenetet sietve küldték el!",
+                Error: "Hiba",
+                "Contact Us": "Lépjen kapcsolatba velünk",
+                Message: "Üzenet",
+                Send: "Küldés",
                 "Play, Win, and Grab a": "Játssz, nyerj, és szerezd meg",
-                "New iPhone": "Új iPhone"
+                "New iPhone": "Új iPhone",
+                "OKTOBERFEST WINS": "OKTOBERFEST NYER",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Fedezze fel a legforróbb játékkészítőket, akik nagy nyereményeket és bónuszokat kínálnak az Oktoberfest ünnepi hangulatában!"
             }
         },
         it: {
@@ -4558,8 +4659,16 @@ async function initializeI18n() {
                 "Contact Us": "Contattaci",
                 Message: "Messaggio",
                 Send: "Invia",
+                "Get ready for the hottest brands, arriving soon!": "Preparati per i marchi più caldi, in arrivo presto!",
+                "The message was sent hastily!": "Il messaggio è stato inviato frettolosamente!",
+                Error: "Errore",
+                "Contact Us": "Contattaci",
+                Message: "Messaggio",
+                Send: "Invia",
                 "Play, Win, and Grab a": "Gioca, vinci e prendi un",
-                "New iPhone": "Nuovo iPhone"
+                "New iPhone": "Nuovo iPhone",
+                "OKTOBERFEST WINS": "OKTOBERFEST VINCE",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Scopri le più calde 'birrerie' del gioco che offrono grandi vincite e bonus nello spirito festoso dell'Oktoberfest!"
             }
         },
         no: {
@@ -4895,8 +5004,16 @@ async function initializeI18n() {
                 "Contact Us": "Kontakt oss",
                 Message: "Melding",
                 Send: "Send",
+                "Get ready for the hottest brands, arriving soon!": "Gjør deg klar for de hotteste merkene, som snart kommer!",
+                "The message was sent hastily!": "Meldingen ble sendt i all hast!",
+                Error: "Feil",
+                "Contact Us": "Kontakt oss",
+                Message: "Melding",
+                Send: "Send",
                 "Play, Win, and Grab a": "Spill, vinn og få en",
-                "New iPhone": "Ny iPhone"
+                "New iPhone": "Ny iPhone",
+                "OKTOBERFEST WINS": "OKTOBERFEST VINNER",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Oppdag de heteste spill-'bryggeriene' som serverer store gevinster og bonuser i feststemningen til Oktoberfest!"
             }
         },
         pt: {
@@ -5232,8 +5349,16 @@ async function initializeI18n() {
                 "Contact Us": "Fale conosco",
                 Message: "Mensagem",
                 Send: "Enviar",
+                "Get ready for the hottest brands, arriving soon!": "Prepare-se para as marcas mais quentes, que chegam em breve!",
+                "The message was sent hastily!": "A mensagem foi enviada apressadamente!",
+                Error: "Erro",
+                "Contact Us": "Fale conosco",
+                Message: "Mensagem",
+                Send: "Enviar",
                 "Play, Win, and Grab a": "Jogue, ganhe e pegue um",
-                "New iPhone": "Novo iPhone"
+                "New iPhone": "Novo iPhone",
+                "OKTOBERFEST WINS": "OKTOBERFEST VENCE",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Descubra as mais quentes 'cervetarias' de jogos que oferecem grandes vitórias e bônus no espírito festivo da Oktoberfest!"
             }
         },
         se: {
@@ -5569,8 +5694,16 @@ async function initializeI18n() {
                 "Contact Us": "Kontakta oss",
                 Message: "Meddelande",
                 Send: "Skicka",
+                "Get ready for the hottest brands, arriving soon!": "Gör dig redo för de hetaste märkena, som snart kommer!",
+                "The message was sent hastily!": "Meddelandet skickades hastigt!",
+                Error: "Fel",
+                "Contact Us": "Kontakta oss",
+                Message: "Meddelande",
+                Send: "Skicka",
                 "Play, Win, and Grab a": "Spela, vinn och ta en",
-                "New iPhone": "Ny iPhone"
+                "New iPhone": "Ny iPhone",
+                "OKTOBERFEST WINS": "OKTOBERFEST VINNER",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Upptäck de hetaste spel 'bryggerierna' som serverar stora vinster och bonusar i festlig anda av Oktoberfest!"
             }
         },
         sk: {
@@ -5906,8 +6039,16 @@ async function initializeI18n() {
                 "Contact Us": "Kontaktujte nás",
                 Message: "Správa",
                 Send: "Odoslať",
+                "Get ready for the hottest brands, arriving soon!": "Pripravte sa na najhorúcejšie značky, ktoré čoskoro prídu!",
+                "The message was sent hastily!": "Správa bola odoslaná narýchlo!",
+                Error: "Chyba",
+                "Contact Us": "Kontaktujte nás",
+                Message: "Správa",
+                Send: "Odoslať",
                 "Play, Win, and Grab a": "Hrajte, vyhrajte a chyťte",
-                "New iPhone": "Nový iPhone"
+                "New iPhone": "Nový iPhone",
+                "OKTOBERFEST WINS": "OKTOBERFEST VÍŤAZÍ",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Objavte najhorúcejšie herné 'pivovary', ktoré ponúkajú veľké výhry a bonusy v slávnostnom duchu Oktoberfestu!"
             }
         },
         tr: {
@@ -6243,8 +6384,16 @@ async function initializeI18n() {
                 "Contact Us": "Bize Ulaşın",
                 Message: "Mesaj",
                 Send: "Gönder",
+                "Get ready for the hottest brands, arriving soon!": "En popüler markalar yakında geliyor, hazır olun!",
+                "The message was sent hastily!": "Mesaj aceleyle gönderildi!",
+                Error: "Hata",
+                "Contact Us": "Bize Ulaşın",
+                Message: "Mesaj",
+                Send: "Gönder",
                 "Play, Win, and Grab a": "Oyna, kazan ve kap",
-                "New iPhone": "Yeni iPhone"
+                "New iPhone": "Yeni iPhone",
+                "OKTOBERFEST WINS": "OKTOBERFEST KAZANIR",
+                "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "Oktoberfest ruhunun coşkusuyla büyük kazançlar ve bonuslar sunan en popüler oyun 'fabrikalarını' keşfedin!"
             }
         }
     };
