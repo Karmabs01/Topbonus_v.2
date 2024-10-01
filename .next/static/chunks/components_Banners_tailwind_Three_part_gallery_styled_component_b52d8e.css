@@ -10,7 +10,7 @@
 
 .fivehot-banner {
   padding: 28px 19px;
-  background: url("/newimages/fivehot.png") center no-repeat;
+  background: url("/newimages/beerfest.png") center no-repeat;
   background-size: cover;
   border-radius: 30px;
   min-height: 329px;
@@ -221,6 +221,11 @@
 }
 
 @media (width >= 320px) and (width <= 767px) {
+  .fivehot-banner {
+    background: url("/newimages/beerfestmobile.png") center no-repeat;
+    background-size: cover;
+  }
+
   .fivehot .main__container {
     width: 100% !important;
   }
