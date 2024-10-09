@@ -11,9 +11,15 @@ import LanguageSwitcher from "@/components/switcher/LanguageSwitcher";
 import i18n from "@/components/i18n";
 import { useTranslation } from "react-i18next";
 
-import { Menu, MenuButton, MenuItem, MenuItems, Label } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
-import "../../../app/flags.css"
+import {
+  Menu,
+  MenuButton,
+  MenuItem,
+  MenuItems,
+  Label,
+} from "@headlessui/react";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import "../../../app/flags.css";
 
 const ITEM_HEIGHT = 48;
 const ITEM_PADDING_TOP = 8;
@@ -126,6 +132,31 @@ export default function MultipleSelectPlaceholder() {
     { code: "us", label: "USA", flag: "🇺🇸" },
     { code: "all", label: "World", flag: "🌍" },
   ];
+  const flags1045 = [
+    { code: "au", label: "Australia", flag: "🇦🇺" },
+    { code: "at", label: "Austria", flag: "🇦🇹" },
+    { code: "be", label: "Belgium", flag: "🇧🇪" },
+    { code: "ca", label: "Canada", flag: "🇨🇦" },
+    { code: "ch", label: "Switzerland", flag: "🇨🇭" },
+    { code: "cz", label: "The Czech Republic", flag: "🇨🇿" },
+    { code: "de", label: "Germany", flag: "🇩🇪" },
+    { code: "dk", label: "Denmark", flag: "🇩🇰" },
+    { code: "fi", label: "Finland", flag: "🇫🇮" },
+    { code: "fr", label: "France", flag: "🇫🇷" },
+    { code: "gb", label: "United Kingdom", flag: "🇬🇧" },
+    { code: "gr", label: "Greece", flag: "🇬🇷" },
+    { code: "hu", label: "Hungary", flag: "🇭🇺" },
+    { code: "ie", label: "Ireland", flag: "🇮🇪" },
+    { code: "it", label: "Italy", flag: "🇮🇹" },
+    { code: "pt", label: "Portugal", flag: "🇵🇹" },
+    { code: "es", label: "Spain", flag: "🇪🇸" },
+    { code: "no", label: "Norway", flag: "🇳🇴" },
+    { code: "nl", label: "Netherlands", flag: "🇳🇱" },
+    { code: "pl", label: "Poland", flag: "🇵🇱" },
+    { code: "se", label: "Sweden", flag: "🇸🇪" },
+    { code: "sk", label: "Slovakia", flag: "🇸🇰" },
+    { code: "all", label: "World", flag: "🌍" },
+  ];
   const flagsCLD_VIP = [
     { code: "au", label: "Australia", flag: "🇦🇺" },
     { code: "at", label: "Austria", flag: "🇦🇹" },
@@ -177,11 +208,11 @@ export default function MultipleSelectPlaceholder() {
       newFlag = flagsCLD_VIP;
       break;
     case "partner1045_b1":
+      newFlag = flags1045;
+      break;
+    case "partner1046":
       newFlag = flagsCLD_VIP;
       break;
-      case "partner1046":
-        newFlag = flagsCLD_VIP;
-        break;
     default:
       newFlag = flags;
       break;
@@ -191,12 +222,12 @@ export default function MultipleSelectPlaceholder() {
     if (selected.length === 0) {
       const languageFlag =
         newFlag.find((f) => f.code === language)?.code ||
-        newFlag.find((f) => f.code === 'all').code;
+        newFlag.find((f) => f.code === "all").code;
       return (
         <div className="flex items-center country-flag">
           {/* <em className="flagflag ">{languageFlag}</em> */}
           <span className={`flag-icon flag-icon-${languageFlag}`} />
-          <em className="flagflag2 ">{lng ? lng.toUpperCase() : ''}</em>
+          <em className="flagflag2 ">{lng ? lng.toUpperCase() : ""}</em>
         </div>
       );
     }
@@ -205,7 +236,7 @@ export default function MultipleSelectPlaceholder() {
         const flag = newFlag.find((flag) => flag.code === code);
         return flag ? `${flag.flag}` : code;
       })
-      .join(', ');
+      .join(", ");
   };
 
   return (
@@ -219,17 +250,16 @@ export default function MultipleSelectPlaceholder() {
               </MenuButton>
             </div>
             <MenuItems
-              className={`absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md focus:outline-none transition-transform transform ${open ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
-                }`}
+              className={`absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md focus:outline-none transition-transform transform ${
+                open ? "scale-100 opacity-100" : "scale-95 opacity-0"
+              }`}
             >
               <div className="lang-menu">
                 <MenuItem>
                   {({ active }) => (
-                    <div
-                      className={`block text-sm text-white `}
-                    >
+                    <div className={`block text-sm text-white `}>
                       <Label className="block text-sm font-medium leading-6 text-white w-full ml-2">
-                        {t('Your country of residence')}
+                        {t("Your country of residence")}
                       </Label>
                       <BrandsSwitcher />
                     </div>
@@ -237,9 +267,7 @@ export default function MultipleSelectPlaceholder() {
                 </MenuItem>
                 <MenuItem>
                   {({ active }) => (
-                    <div
-                      className={`block text-sm text-white lng-sw`}
-                    >
+                    <div className={`block text-sm text-white lng-sw`}>
                       <Label className="block text-sm font-medium leading-6 text-white w-full ml-2">
                         {t("Website language")}
                       </Label>
@@ -247,8 +275,6 @@ export default function MultipleSelectPlaceholder() {
                     </div>
                   )}
                 </MenuItem>
-
-
               </div>
             </MenuItems>
           </>
