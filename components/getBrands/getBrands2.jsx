@@ -33,6 +33,7 @@ export const getBrands = async (lng) => {
   if (!supportedLanguage) {
     supportedLanguage = { code: "all" };
   }
+  
 
   try {
     const res = await fetch(url);
