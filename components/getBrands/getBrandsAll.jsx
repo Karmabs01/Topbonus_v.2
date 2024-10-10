@@ -5,9 +5,11 @@ export const getBrands = async (categoryBrands, lng) => {
   const api1043 = "https://bonusnumber1.com/api/brandsNew3/read.php";
   const api1044 = "https://bonusnumber1.com/api/brandsNew4/read.php";
   const apiCLD_VIP = "https://bonusnumber1.com/api/brandsNew5/read.php";
+  const api1045 = "https://bonusnumber1.com/api/brandsNew6/read.php";
+
 
   const source = localStorage.getItem("source");
-  console.log(source)
+  console.log(source);
   // const geo = localStorage.getItem("country");
 
   try {
@@ -18,7 +20,12 @@ export const getBrands = async (categoryBrands, lng) => {
       url = api1043;
     } else if (source === "partner1044") {
       url = api1044;
-    } else if (source === "CLD_VIP" || source === "partner1045_b1" || source === "partner1046") {
+    } else if (source === "partner1045_b1") {
+      url = api1045;
+    } else if (
+      source === "CLD_VIP" ||
+      source === "partner1046"
+    ) {
       url = apiCLD_VIP;
     } else {
       url = apiAll;
