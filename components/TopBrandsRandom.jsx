@@ -104,7 +104,7 @@ export default function TopBrandsRandom() {
         url = "https://link.bo-nus.com/rnd_cld";
         break;
       case "partner1045_b1":
-        url = "https://link.bo-nus.com/rnd_cld";
+        url = "https://link.gobig.finance/rnd1045";
         break;
         case "partner1046":
           url = "https://link.bo-nus.com/rnd_cld";

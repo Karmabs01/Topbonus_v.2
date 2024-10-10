@@ -185,7 +185,7 @@ function Pickup({ newUrl }) {
                         lineNumber: 37,
                         columnNumber: 11
                     }, this),
-                    brands.length > 0 && brands.slice(0, 1).map((rowData, index)=>// <p className="p">{t("Click below to claim your magical reward!")}</p>
+                    brands.length > 0 && brands.slice(3, 4).map((rowData, index)=>// <p className="p">{t("Click below to claim your magical reward!")}</p>
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1811,7 +1811,7 @@ function Random_block() {
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
             case "partner1045_b1":
-                url = "https://link.bo-nus.com/rnd_cld";
+                url = "https://link.gobig.finance/rnd1045";
                 break;
             case "partner1046":
                 url = "https://link.bo-nus.com/rnd_cld";
@@ -1989,6 +1989,7 @@ const getBrands = async (categoryBrands, lng)=>{
     const api1043 = "https://bonusnumber1.com/api/brandsNew3/read.php";
     const api1044 = "https://bonusnumber1.com/api/brandsNew4/read.php";
     const apiCLD_VIP = "https://bonusnumber1.com/api/brandsNew5/read.php";
+    const api1045 = "https://bonusnumber1.com/api/brandsNew6/read.php";
     const availableLanguages = [
         {
             code: "au",
@@ -2352,6 +2353,128 @@ const getBrands = async (categoryBrands, lng)=>{
             flag: "🌍"
         }
     ];
+    const availableLanguages1045 = [
+        {
+            code: "au",
+            label: "Australia",
+            flag: "🇦🇺"
+        },
+        {
+            code: "at",
+            label: "Austria",
+            flag: "🇦🇹"
+        },
+        {
+            code: "be",
+            label: "Belgium",
+            flag: "🇧🇪"
+        },
+        {
+            code: "ca",
+            label: "Canada",
+            flag: "🇨🇦"
+        },
+        {
+            code: "ch",
+            label: "Switzerland",
+            flag: "🇨🇭"
+        },
+        {
+            code: "cz",
+            label: "The Czech Republic",
+            flag: "🇨🇿"
+        },
+        {
+            code: "de",
+            label: "Germany",
+            flag: "🇩🇪"
+        },
+        {
+            code: "dk",
+            label: "Denmark",
+            flag: "🇩🇰"
+        },
+        {
+            code: "fi",
+            label: "Finland",
+            flag: "🇫🇮"
+        },
+        {
+            code: "fr",
+            label: "France",
+            flag: "🇫🇷"
+        },
+        {
+            code: "gb",
+            label: "United Kingdom",
+            flag: "🇬🇧"
+        },
+        {
+            code: "gr",
+            label: "Greece",
+            flag: "🇬🇷"
+        },
+        {
+            code: "hu",
+            label: "Hungary",
+            flag: "🇭🇺"
+        },
+        {
+            code: "ie",
+            label: "Ireland",
+            flag: "🇮🇪"
+        },
+        {
+            code: "it",
+            label: "Italy",
+            flag: "🇮🇹"
+        },
+        {
+            code: "pt",
+            label: "Portugal",
+            flag: "🇵🇹"
+        },
+        {
+            code: "es",
+            label: "Spain",
+            flag: "🇪🇸"
+        },
+        {
+            code: "no",
+            label: "Norway",
+            flag: "🇳🇴"
+        },
+        {
+            code: "nl",
+            label: "Netherlands",
+            flag: "🇳🇱"
+        },
+        {
+            code: "nz",
+            label: "New Zealand",
+            flag: "🇳🇿"
+        },
+        {
+            code: "pl",
+            label: "Poland",
+            flag: "🇵🇱"
+        },
+        {
+            code: "se",
+            label: "Sweden",
+            flag: "🇸🇪"
+        },
+        {
+            code: "sk",
+            label: "Slovakia",
+            flag: "🇸🇰"
+        },
+        {
+            code: "all",
+            label: "World",
+            flag: "🌍"
+        }
+    ];
     const availableLanguagesCLD_VIP = [
         {
             code: "au",
@@ -2472,8 +2595,8 @@ const getBrands = async (categoryBrands, lng)=>{
             languages: availableLanguagesCLD_VIP
         },
         partner1045_b1: {
-            url: apiCLD_VIP,
-            languages: availableLanguagesCLD_VIP
+            url: api1045,
+            languages: availableLanguages1045
         },
         partner1046: {
             url: apiCLD_VIP,
@@ -3083,7 +3206,7 @@ function Banner_small() {
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
             case "partner1045_b1":
-                url = "https://link.bo-nus.com/rnd_cld";
+                url = "https://link.gobig.finance/rnd1045";
                 break;
             case "partner1046":
                 url = "https://link.bo-nus.com/rnd_cld";
