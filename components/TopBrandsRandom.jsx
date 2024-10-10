@@ -104,7 +104,7 @@ export default function TopBrandsRandom() {
         url = "https://link.reg2dep.business/topbonus_rndcld";
         break;
       case "partner1045_b1":
-        url = "https://link.reg2dep.business/topbonus_rndcld";
+        url = "https://link.gobig.finance/rnd1045";
         break;
         case "partner1046":
           url = "https://link.reg2dep.business/topbonus_rndcld";

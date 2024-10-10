@@ -4,6 +4,8 @@ export const getBrands = async (categoryBrands, lng) => {
   const api1043 = "https://bonusnumber1.com/api/brandsNew3/read.php";
   const api1044 = "https://bonusnumber1.com/api/brandsNew4/read.php";
   const apiCLD_VIP = "https://bonusnumber1.com/api/brandsNew5/read.php";
+  const api1045 = "https://bonusnumber1.com/api/brandsNew6/read.php";
+
 
   const availableLanguages = [
     { code: "au", label: "Australia", flag: "🇦🇺" },
@@ -84,6 +86,23 @@ export const getBrands = async (categoryBrands, lng) => {
     { code: "us", label: "USA", flag: "🇺🇸" },
     { code: "all", label: "World", flag: "🌍" },
   ];
+  const availableLanguages1045 = [
+    { code: "cz", label: "Czech", flag: "🇨🇿" },
+    { code: "de", label: "German", flag: "🇩🇪" },
+    { code: "dk", label: "Danish", flag: "🇩🇰" },
+    { code: "fi", label: "Finnish", flag: "🇫🇮" },
+    { code: "fr", label: "French", flag: "🇫🇷" },
+    { code: "gr", label: "Greek", flag: "🇬🇷" },
+    { code: "hu", label: "Hungarian", flag: "🇭🇺" },
+    { code: "it", label: "Italian", flag: "🇮🇹" },
+    { code: "nl", label: "Dutch", flag: "🇳🇱" },
+    { code: "no", label: "Norwegian", flag: "🇳🇴" },
+    { code: "pl", label: "Polish", flag: "🇵🇱" },
+    { code: "es", label: "Spanish", flag: "🇪🇸" },
+    { code: "se", label: "Swedish", flag: "🇸🇪" },
+    { code: "sk", label: "Slovak", flag: "🇸🇰" },
+    { code: "all", label: "English", flag: "🌍" },
+  ];
   const availableLanguagesCLD_VIP = [
     { code: "au", label: "Australia", flag: "🇦🇺" },
     { code: "at", label: "Austria", flag: "🇦🇹" },
@@ -112,7 +131,7 @@ export const getBrands = async (categoryBrands, lng) => {
     partner1043: { url: api1043, languages: availableLanguages1043 },
     partner1044: { url: api1044, languages: availableLanguages1044 },
     CLD_VIP: { url: apiCLD_VIP, languages: availableLanguagesCLD_VIP },
-    partner1045_b1: { url: apiCLD_VIP, languages: availableLanguagesCLD_VIP },
+    partner1045_b1: { url: api1045, languages: availableLanguages1045 },
     partner1046: { url: apiCLD_VIP, languages: availableLanguagesCLD_VIP },
     default: { url: apiAll, languages: availableLanguages },
   };
