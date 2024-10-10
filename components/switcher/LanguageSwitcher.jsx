@@ -60,6 +60,23 @@ const LanguageSwitcher = () => {
     { code: "se", label: "Swedish", flag: "🇸🇪" },
     { code: "all", label: "English", flag: "🌍" },
   ];
+  const availableLanguages1045 = [
+    { code: "cz", label: "Czech", flag: "🇨🇿" },
+    { code: "de", label: "German", flag: "🇩🇪" },
+    { code: "dk", label: "Danish", flag: "🇩🇰" },
+    { code: "fi", label: "Finnish", flag: "🇫🇮" },
+    { code: "fr", label: "French", flag: "🇫🇷" },
+    { code: "gr", label: "Greek", flag: "🇬🇷" },
+    { code: "hu", label: "Hungarian", flag: "🇭🇺" },
+    { code: "it", label: "Italian", flag: "🇮🇹" },
+    { code: "nl", label: "Dutch", flag: "🇳🇱" },
+    { code: "no", label: "Norwegian", flag: "🇳🇴" },
+    { code: "pl", label: "Polish", flag: "🇵🇱" },
+    { code: "es", label: "Spanish", flag: "🇪🇸" },
+    { code: "se", label: "Swedish", flag: "🇸🇪" },
+    { code: "sk", label: "Slovak", flag: "🇸🇰" },
+    { code: "all", label: "English", flag: "🌍" },
+  ];
   const availableLanguagesCLD_VIP = [
     { code: "cz", label: "Czech", flag: "🇨🇿" },
     { code: "de", label: "German", flag: "🇩🇪" },
@@ -97,7 +114,7 @@ const LanguageSwitcher = () => {
       newLng = availableLanguagesCLD_VIP;
       break;
     case "partner1045_b1":
-      newLng = availableLanguagesCLD_VIP;
+      newLng = availableLanguages1045;
       break;
     case "partner1046":
       newLng = availableLanguagesCLD_VIP;

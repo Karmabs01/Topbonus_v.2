@@ -123,6 +123,32 @@ const BrandsSwitcher = () => {
     { code: "us", label: "USA", flag: "🇺🇸" },
     { code: "all", label: "World", flag: "🌍" },
   ];
+  const availableLanguages1045 = [
+    { code: "au", label: "Australia", flag: "🇦🇺" },
+    { code: "at", label: "Austria", flag: "🇦🇹" },
+    { code: "be", label: "Belgium", flag: "🇧🇪" },
+    { code: "ca", label: "Canada", flag: "🇨🇦" },
+    { code: "ch", label: "Switzerland", flag: "🇨🇭" },
+    { code: "cz", label: "The Czech Republic", flag: "🇨🇿" },
+    { code: "de", label: "Germany", flag: "🇩🇪" },
+    { code: "dk", label: "Denmark", flag: "🇩🇰" },
+    { code: "fi", label: "Finland", flag: "🇫🇮" },
+    { code: "fr", label: "France", flag: "🇫🇷" },
+    { code: "gb", label: "United Kingdom", flag: "🇬🇧" },
+    { code: "gr", label: "Greece", flag: "🇬🇷" },
+    { code: "hu", label: "Hungary", flag: "🇭🇺" },
+    { code: "ie", label: "Ireland", flag: "🇮🇪" },
+    { code: "it", label: "Italy", flag: "🇮🇹" },
+    { code: "pt", label: "Portugal", flag: "🇵🇹" },
+    { code: "es", label: "Spain", flag: "🇪🇸" },
+    { code: "no", label: "Norway", flag: "🇳🇴" },
+    { code: "nl", label: "Netherlands", flag: "🇳🇱" },
+    { code: "nz", label: "New Zealand", flag: "🇳🇿" },
+    { code: "pl", label: "Poland", flag: "🇵🇱" },
+    { code: "se", label: "Sweden", flag: "🇸🇪" },
+    { code: "sk", label: "Slovakia", flag: "🇸🇰" },
+    { code: "all", label: "World", flag: "🌍" },
+  ];
   const availableLanguagesCLD_VIP = [
     { code: "all", label: "All", flag: "🌍" },
     { code: "at", label: "Austria", flag: "🇦🇹" },
@@ -165,7 +191,7 @@ const BrandsSwitcher = () => {
   } else if (item === "CLD_VIP") {
     newLng = availableLanguagesCLD_VIP;
   } else if (item === "partner1045_b1") {
-    newLng = availableLanguagesCLD_VIP;
+    newLng = availableLanguages1045;
   } else if (item === "partner1046") {
     newLng = availableLanguagesCLD_VIP;
   } else {
