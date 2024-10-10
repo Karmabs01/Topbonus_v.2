@@ -5,11 +5,11 @@ export const getBrandsFiltered = async (filtered, lng) => {
   const api1043 = "https://bonusnumber1.com/api/brandsNew3/read.php";
   const api1044 = "https://bonusnumber1.com/api/brandsNew4/read.php";
   const apiCLD_VIP = "https://bonusnumber1.com/api/brandsNew5/read.php";
+  const api1045 = "https://bonusnumber1.com/api/brandsNew6/read.php";
+
 
   const source = localStorage.getItem("source");
   // const geo = localStorage.getItem("country");
-
-
 
   try {
     let url;
@@ -19,26 +19,31 @@ export const getBrandsFiltered = async (filtered, lng) => {
       url = api1043;
     } else if (source === "partner1044") {
       url = api1044;
-    } else if (source === "CLD_VIP" || source === "partner1045_b1" || source === "partner1046") {
+    } else if (source === "partner1045_b1") {
+      url = api1045;
+    } else if (
+      source === "CLD_VIP" ||
+      source === "partner1046"
+    ) {
       url = apiCLD_VIP;
     } else {
       url = apiAll;
     }
     const res = await fetch(url);
 
-
-   
     if (res.ok) {
       const responseData = await res.json();
       let filteredData = [];
 
       if (lng) {
         const geoLng = lng.toUpperCase();
-     
 
         filteredData = responseData.brandsNew.filter((rowData) => {
-          const categoriesArray = rowData["categories"] ? 
-            rowData["categories"].split(",").map((category) => category.trim()) : [];
+          const categoriesArray = rowData["categories"]
+            ? rowData["categories"]
+                .split(",")
+                .map((category) => category.trim())
+            : [];
           return (
             rowData.GEO === geoLng &&
             rowData["CurrentStatus"] === "Ongoing" &&
@@ -48,7 +53,6 @@ export const getBrandsFiltered = async (filtered, lng) => {
             categoriesArray.includes(filtered)
           );
         });
-        
       }
 
       return filteredData; // Возвращаем отфильтрованные данные
@@ -61,5 +65,3 @@ export const getBrandsFiltered = async (filtered, lng) => {
     return []; // Возвращаем пустой массив в случае ошибки
   }
 };
-
-
