@@ -245,14 +245,18 @@
     background: linear-gradient(161deg, #228DFF 0%, #F8A5D9 101.7%) !important;
   }
   .emojis {
-    background: linear-gradient(161deg, #228DFF 0%, #F8A5D9 101.7%) !important;
-
+    /* background: linear-gradient(161deg, #228DFF 0%, #F8A5D9 101.7%) !important; */
+    background: url("/newimageslight/dark_mobile.png") center no-repeat !important;
+    background-size: cover !important;
     backdrop-filter: blur(17.915000915527344px);
     padding: 30px 15px;
     min-height: initial;
   }
   .mob-sl .card-thr p {
     min-height: 60px;
+  }
+  .emojis .mob-none{
+    opacity: 0 !important;
   }
   .face-mob {
     flex-direction: column;

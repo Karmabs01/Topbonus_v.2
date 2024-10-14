@@ -1281,11 +1281,16 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
     backdrop-filter: blur(17.915px);
     padding: 30px 15px;
     min-height: initial;
-    background: linear-gradient(161deg, #228dff 0%, #f8a5d9 101.7%) !important;
+    background: url("/newimageslight/dark_mobile.png") center no-repeat !important;
+    background-size: cover !important;
   }
 
   .mob-sl .card-thr p {
     min-height: 60px;
+  }
+
+  .emojis .mob-none {
+    opacity: 0 !important;
   }
 
   .face-mob {

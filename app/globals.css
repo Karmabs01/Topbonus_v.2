@@ -38,13 +38,13 @@
 
   .brands_rows h2.mt-4 {
     font-family: "AA Duke";
-    font-size: 98px !important;
+    font-size: 83px !important;
     font-weight: 400;
     padding-left: 48px;
   }
   .brands_rows h2.mt-4 span {
     font-family: "AA Duke";
-    font-size: 80px !important;
+    font-size: 65px !important;
     font-weight: 400;
   }
   .banner-jack h3,
@@ -10743,7 +10743,7 @@ main > .topbr {
   color: #fff;
 }
 .light .emojis {
-  background: url("/newimageslight/threephones2.png") center no-repeat;
+  background: url("/newimageslight/dark_deck.png") center no-repeat;
 }
 .light .fivehot {
   border-top: 2.5px solid #c1a7e4;
