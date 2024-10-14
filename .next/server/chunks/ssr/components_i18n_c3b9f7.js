@@ -128,6 +128,32 @@ async function initializeI18n() {
         "tr",
         "all"
     ];
+    const availableLanguages1045 = [
+        "fi",
+        "se",
+        "ca",
+        "nz",
+        "nl",
+        "au",
+        "cz",
+        "fr",
+        "nl",
+        "gb",
+        "de",
+        "at",
+        "ch",
+        "dk",
+        "es",
+        "pl",
+        "gr",
+        "no",
+        "ie",
+        "it",
+        "pt",
+        "hu",
+        "sk",
+        "be"
+    ];
     const availableLanguagesCLD_VIP = [
         "all",
         "at",
@@ -167,7 +193,7 @@ async function initializeI18n() {
     } else if (item === "CLD_VIP") {
         newLng = availableLanguagesCLD_VIP;
     } else if (item === "partner1045_b1") {
-        newLng = availableLanguagesCLD_VIP;
+        newLng = availableLanguages1045;
     } else if (item === "partner1046") {
         newLng = availableLanguagesCLD_VIP;
     } else {
