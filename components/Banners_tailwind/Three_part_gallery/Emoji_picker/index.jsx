@@ -50,7 +50,7 @@ export default function Banner_small() {
         <div className="main__container">
           <div className="flex justify-between items-center face-mob">
             <h3 className="text-lg leading-6 ">
-              {t("Play, Win, and Grab a")}<span> {t("New iPhone")}</span>
+              {t("Pick, Play, and")}<span> {t("Get Your Treat")}</span>
             </h3>
             <div className="mob-none">
               <Image src={img} alt={img} width={400} height={150} />

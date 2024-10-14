@@ -101,7 +101,7 @@
 }
 
 .emojis {
-  background: url("/newimages/threephones1.png") center no-repeat;
+  background: url("/newimages/dark_deck.png") center no-repeat;
   min-height: 329px;
   border-radius: 30px;
   padding: 38px 0 12px 44px;
@@ -221,6 +221,15 @@
 }
 
 @media (width >= 320px) and (width <= 767px) {
+  .emojis .mob-none {
+    opacity: 0 !important;
+  }
+
+  .emojis {
+    background: url("/newimages/dark_mobile.png") center no-repeat !important;
+    background-size: cover !important;
+  }
+
   .fivehot .main__container {
     width: 100% !important;
   }

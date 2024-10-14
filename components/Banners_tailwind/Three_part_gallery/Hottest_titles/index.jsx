@@ -171,11 +171,11 @@ export default function Popular_offers() {
               <div className="fivehot-banner">
                 <h3>
                   {number} <span className="span-orange">{t("HOTTEST")}</span>{" "}
-                  <span>{t("OKTOBERFEST WINS")}</span>
+                  <span>{t("HELLISH WINS")}</span>
                 </h3>
                 <p className="!text-xl mt-5">
                   {t(
-                    "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!"
+                    "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses."
                   )}
                 </p>
               </div>
