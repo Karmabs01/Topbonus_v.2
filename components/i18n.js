@@ -702,6 +702,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "OKTOBERFEST WINS",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!",
+
+        "Best Halloween Offers": "Best Halloween Offers",
+        Offers: "Offers",
+        "Best Halloween": "Best Halloween",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!",
+        "HELLISH WINS": "HELLISH WINS",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.",
+        "Pick, Play, and": "Pick, Play, and",
+        "Get Your Treat": "Get Your Treat",
       },
     },
 
@@ -1192,6 +1203,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "OKTOBERFEST WYGRYWA",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Odkryj najgorętsze 'browary' gier, serwujące duże wygrane i bonusy w świątecznym duchu Oktoberfestu!",
+
+        "Best Halloween Offers": "Najlepsze oferty Halloween",
+        Offers: "Oferty",
+        "Best Halloween": "Najlepsze Halloween",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Pukaj do drzwi strasznych kasyn i zgarnij swoje smakołyki! Odkryj najlepsze oferty Halloween, gdzie największe wygrane to nie tylko sztuczki - to smakołyki czekające na Ciebie w tym sezonie!",
+        "HELLISH WINS": "PIEKIELNE ZWYCIĘSTWO",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Odwagę zanurzyć się w głębiach tych nawiedzonych kasyn oferujących najgorętsze piekielne wygrane i diabelskie bonusy.",
+        "Pick, Play, and": "Wybierz, Zagraj i",
+        "Get Your Treat": "Odbierz swoją nagrodę",
       },
     },
     de: {
@@ -1680,6 +1702,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "OKTOBERFEST GEWINNT",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Entdecken Sie die heißesten Gaming-'Brauereien', die große Gewinne und Boni im festlichen Geist des Oktoberfests servieren!",
+
+        "Best Halloween Offers": "Beste Halloween-Angebote",
+        Offers: "Angebote",
+        "Best Halloween": "Bestes Halloween",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Klopf an die Türen gruseliger Casinos und hol dir deine Leckerbissen! Entdecke die besten Halloween-Angebote, bei denen die größten Gewinne nicht nur Tricks sind - sie sind die Leckerbissen, die in dieser Saison auf dich warten!",
+        "HELLISH WINS": "Höllisch gewinnt",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Trauen Sie sich, in die Tiefen dieser geisterhaften Casinos einzutauchen, die die heißesten höllischen Gewinne und teuflischen Boni bieten.",
+        "Pick, Play, and": "Auswählen, Spielen und",
+        "Get Your Treat": "Hol dir deine Belohnung",
       },
     },
     bg: {
@@ -2163,6 +2196,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "ОКТОБЕРФЕСТ ПОБЕЖДАВА",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Открийте най-горещите игрални 'пивоварни', които предлагат големи печалби и бонуси в празничния дух на Октомврифест!",
+
+        "Best Halloween Offers": "Най-добрите Хелоуин оферти",
+        Offers: "Предложения",
+        "Best Halloween": "Най-добър Хелоуин",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Постъкайте на вратите на страшните казина и си вземете наградите! Разгледайте Най-добрите Хелоуин Оферти, където най-големите печалби не са просто измами - те са наградите, които ви очакват този сезон!",
+        "HELLISH WINS": "АДСКИ ПОБЕДИ",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Осмели се да се потопиш в дълбините на тези обикаляни казина, предлагащи най-горещите адски печалби и дяволски бонуси.",
+        "Pick, Play, and": "Избери, Играй и",
+        "Get Your Treat": "Вземи своята награда.",
       },
     },
     cz: {
@@ -2647,6 +2691,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "OKTOBERFEST VYHRÁVÁ",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Objevte nejžhavější herní 'pivovary', které nabízejí velké výhry a bonusy v duchu oslavního ducha Oktoberfestu!",
+
+        "Best Halloween Offers": "Nejlepší nabídky na Halloween",
+        Offers: "Nabídky",
+        "Best Halloween": "Nejlepší Halloween",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Zaklepejte na dveře strašidelných kasin a získejte své odměny! Objevte nejlepší nabídky na Halloween, kde největší výhry nejsou jen triky - jsou to odměny, které na vás čekají v této sezóně!",
+        "HELLISH WINS": "PEKELNÉ VÝHRY",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Odvažte se ponořit do hlubin těchto strašidelných kasin nabízejících nejžhavější pekelné výhry a ďábelské bonusy.",
+        "Pick, Play, and": "Vyber, hraj a",
+        "Get Your Treat": "Dostanete svou odměnu",
       },
     },
     dk: {
@@ -3131,6 +3186,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "OKTOBERFEST VINDER",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Opdag de hotteste spil 'bryggerier', der serverer store gevinster og bonusser i den festlige ånd af Oktoberfest!",
+
+        "Best Halloween Offers": "Bedste Halloween-tilbud",
+        Offers: "Tilbud",
+        "Best Halloween": "Bedste Halloween",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Bank på dørene til uhyggelige kasinoer og kræv dine godbidder! Udforsk de bedste Halloween-tilbud, hvor de største gevinster ikke kun er tricks - de er godbidderne, der venter på dig denne sæson!",
+        "HELLISH WINS": "Hellish vinder",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Vov at dykke ned i dybderne af disse hjemsøgte kasinoer, der tilbyder de varmeste helvedesgevinster og djævelske bonusser.",
+        "Pick, Play, and": "Vælg, Spil, og",
+        "Get Your Treat": "Få din godbid",
       },
     },
     nl: {
@@ -3616,6 +3682,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "OKTOBERFEEST WINT",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Ontdek de heetste gaming 'brouwerijen' die grote overwinningen en bonussen serveren in de feestelijke sfeer van Oktoberfest!",
+
+        "Best Halloween Offers": "Beste Halloween Aanbiedingen",
+        Offers: "Aanbiedingen",
+        "Best Halloween": "Beste Halloween",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Klop op de deuren van griezelige casino's en claim je traktaties! Verken de Beste Halloween Aanbiedingen, waar de grootste overwinningen niet alleen trucs zijn - het zijn de traktaties die op je wachten dit seizoen!",
+        "HELLISH WINS": "Helse overwinningen",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Durf af te dalen in de diepten van deze spookachtige casino's die de heetste helse overwinningen en duivelse bonussen bieden.",
+        "Pick, Play, and": "Kies, Speel en",
+        "Get Your Treat": "Krijg je traktatie",
       },
     },
     es: {
@@ -4102,6 +4179,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "OKTOBERFEST GANA",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Descubre las mejores 'cervecerías' de juegos que ofrecen grandes ganancias y bonificaciones en el espíritu festivo de Oktoberfest!",
+
+        "Best Halloween Offers": "Mejores ofertas de Halloween",
+        Offers: "Ofertas",
+        "Best Halloween": "Mejor Halloween",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "¡Toca las puertas de los casinos espeluznantes y reclama tus premios! ¡Explora las Mejores Ofertas de Halloween, donde las mayores ganancias no son solo trucos, son los premios que te esperan en esta temporada!",
+        "HELLISH WINS": "GANANZA INFERNAL",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Atrévete a sumergirte en las profundidades de estos casinos embrujados que ofrecen las victorias más calientes del infierno y bonos diabólicos.",
+        "Pick, Play, and": "Escoge, Juega y",
+        "Get Your Treat": "Obtén tu premio",
       },
     },
     fi: {
@@ -4584,6 +4672,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "OKTOBERFEST VOITTAA",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Löydä kuumimmat pelien 'panimot', jotka tarjoavat suuria voittoja ja bonuksia Oktoberfestin juhlavassa hengessä!",
+
+        "Best Halloween Offers": "Parhaat Halloween-tarjoukset",
+        Offers: "Tarjoukset",
+        "Best Halloween": "Paras Halloween",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Kolkuta kummittelevien kasinoiden oville ja lunasta herkkusi! Tutustu parhaisiin Halloween-tarjouksiin, joissa suurimmat voitot eivät ole vain temppuja - ne ovat odottamassa sinua tällä kaudella!",
+        "HELLISH WINS": "HELVETILLINEN VOITTO",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Uskalla sukeltaa näiden kummittelevien kasinoiden syvyyksiin, jotka tarjoavat kuumimpia helvetillisiä voittoja ja pirullisia bonuksia.",
+        "Pick, Play, and": "Valitse, Pelaa ja",
+        "Get Your Treat": "Hae herkkusi",
       },
     },
     fr: {
@@ -5070,6 +5169,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "OKTOBERFEST GAGNE",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Découvrez les plus chaudes 'brasseries' de jeux proposant de gros gains et des bonus dans l'esprit festif de l'Oktoberfest!",
+
+        "Best Halloween Offers": "Meilleures offres d'Halloween",
+        Offers: "Offres",
+        "Best Halloween": "Meilleur Halloween",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Frappez aux portes des casinos effrayants et réclamez vos friandises ! Découvrez les meilleures offres d'Halloween, où les plus gros gains ne sont pas seulement des tours de passe-passe, ce sont les friandises qui vous attendent cette saison !",
+        "HELLISH WINS": "VICTOIRE DIABOLIQUE",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Osez plonger dans les profondeurs de ces casinos hantés offrant les gains les plus brûlants de l'enfer et des bonus diaboliques.",
+        "Pick, Play, and": "Choisis, Joue, et",
+        "Get Your Treat": "Obtiens ta friandise",
       },
     },
 
@@ -5555,6 +5665,16 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "ΟΚΤΩΒΡΙΟΥΣΤ ΝΙΚΑΕΙ",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Ανακαλύψτε τις πιο δημοφιλείς 'ζυθοποιίες' παιχνιδιών που προσφέρουν μεγάλες νίκες και μπόνους με το γιορτινό πνεύμα του Oktoberfest!",
+        "Best Halloween Offers": "Καλύτερες προσφορές για το Halloween",
+        Offers: "Προσφορές",
+        "Best Halloween": "Καλύτερο Halloween",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Χτύπα στις πόρτες των τρομακτικών καζίνο και απαίτησε τα γλυκά σου! Εξερεύνησε τις Καλύτερες Προσφορές Halloween, όπου οι μεγαλύτερες νίκες δεν είναι απλά κόλπα - είναι τα γλυκά που σε περιμένουν αυτή τη σεζόν!",
+        "HELLISH WINS": "ΚΟΛΑΣΜΕΝΗ ΝΙΚΕΣ",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Τολμήστε να βουτήξετε στα βάθη αυτών των στοιχηματικών καζίνο που προσφέρουν τις πιο καυτές κερδοφόρες νίκες και διαβολικά μπόνους.",
+        "Pick, Play, and": "Επιλέξτε, Παίξτε και",
+        "Get Your Treat": "Πάρτε το δώρο σας",
       },
     },
     hu: {
@@ -6040,6 +6160,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "OKTOBERFEST NYER",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Fedezze fel a legforróbb játékkészítőket, akik nagy nyereményeket és bónuszokat kínálnak az Oktoberfest ünnepi hangulatában!",
+
+        "Best Halloween Offers": "Legjobb Halloween ajánlatok",
+        Offers: "Kínálatok",
+        "Best Halloween": "Legjobb Halloween",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Koppints a rémisztő kaszinók ajtaján és szerezd meg a jutalmakat! Fedezd fel a legjobb Halloween ajánlatokat, ahol a legnagyobb nyeremények nemcsak trükkök, hanem azok a jutalmak, amik rád várnak ebben az időszakban!",
+        "HELLISH WINS": "Pokoli győzelem",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Merce a legmélyebb, kísérteties kaszinókba, ahol a legforróbb pokoli nyereményeket és ördögi bónuszokat kínálják.",
+        "Pick, Play, and": "Válassz, Játsz, és",
+        "Get Your Treat": "Kapd meg a jutalmadat.",
       },
     },
     it: {
@@ -6527,6 +6658,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "OKTOBERFEST VINCE",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Scopri le più calde 'birrerie' del gioco che offrono grandi vincite e bonus nello spirito festoso dell'Oktoberfest!",
+
+        "Best Halloween Offers": "Migliori offerte di Halloween",
+        Offers: "Offerte",
+        "Best Halloween": "Miglior Halloween",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Bussa alle porte dei casinò spaventosi e reclama i tuoi dolcetti! Esplora le Migliori Offerte di Halloween, dove le vincite più grandi non sono solo trucchi, sono i dolcetti che ti aspettano in questa stagione!",
+        "HELLISH WINS": "INFERNALE VINCE",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Osate immergervi nelle profondità di questi casinò infestati che offrono le vincite infernali più calde e i bonus diabolici.",
+        "Pick, Play, and": "Scegli, Gioca e",
+        "Get Your Treat": "Prendi il tuo trattamento",
       },
     },
     no: {
@@ -7012,6 +7154,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "OKTOBERFEST VINNER",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Oppdag de heteste spill-'bryggeriene' som serverer store gevinster og bonuser i feststemningen til Oktoberfest!",
+
+        "Best Halloween Offers": "Beste Halloween-tilbud",
+        Offers: "Tilbud",
+        "Best Halloween": "Beste Halloween",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Bank på dørene til skumle kasinoer og hent godbitene dine! Utforsk de beste Halloween-tilbudene, der de største gevinstene ikke bare er triks - de er godbitene som venter på deg denne sesongen!",
+        "HELLISH WINS": "HELLISH VINNER",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Våg å dykke ned i dybdene av disse hjemsøkte kasinoene som tilbyr de varmeste helvetesgevinster og djevelske bonuser.",
+        "Pick, Play, and": "Velg, Spill, og",
+        "Get Your Treat": "Få godbiten din",
       },
     },
     pt: {
@@ -7498,6 +7651,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "OKTOBERFEST VENCE",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Descubra as mais quentes 'cervetarias' de jogos que oferecem grandes vitórias e bônus no espírito festivo da Oktoberfest!",
+
+        "Best Halloween Offers": "Melhores Ofertas de Halloween",
+        Offers: "Ofertas.",
+        "Best Halloween": "Melhor Halloween",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Bata às portas dos cassinos assustadores e reivindique suas guloseimas! Explore as Melhores Ofertas de Halloween, onde as maiores vitórias não são apenas truques - são as guloseimas esperando por você nesta temporada!",
+        "HELLISH WINS": "INFERNAIS VENCEM",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Atreva-se a mergulhar nas profundezas desses cassinos assombrados que oferecem as vitórias mais infernais e bônus diabólicos.",
+        "Pick, Play, and": "Escolha, Jogue e",
+        "Get Your Treat": "Receba o seu agrado",
       },
     },
     se: {
@@ -7983,6 +8147,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "OKTOBERFEST VINNER",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Upptäck de hetaste spel 'bryggerierna' som serverar stora vinster och bonusar i festlig anda av Oktoberfest!",
+
+        "Best Halloween Offers": "Bästa Halloween-erbjudanden",
+        Offers: "Erbjudanden",
+        "Best Halloween": "Bästa Halloween",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Knacka på dörrarna till läskiga casinon och hämta dina godsaker! Utforska de bästa Halloween-erbjudandena, där de största vinsterna inte bara är trick - de är godsakerna som väntar på dig den här säsongen!",
+        "HELLISH WINS": "HIMMELSKA VINNARE",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Våga dyka ner i djupen av dessa hemsökta kasinon som erbjuder de hetaste helvetiska vinster och djävulska bonusar.",
+        "Pick, Play, and": "Välj, Spela och",
+        "Get Your Treat": "Få din behandla",
       },
     },
     sk: {
@@ -8467,6 +8642,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "OKTOBERFEST VÍŤAZÍ",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Objavte najhorúcejšie herné 'pivovary', ktoré ponúkajú veľké výhry a bonusy v slávnostnom duchu Oktoberfestu!",
+
+        "Best Halloween Offers": "Najlepšie ponuky na Halloween",
+        Offers: "Nabídky",
+        "Best Halloween": "Najlepšie Halloween",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Klopte na dvere strašidelných kasín a získajte svoje odmeny! Preskúmajte najlepšie ponuky na Halloween, kde najväčšie výhry nie sú len triky - sú to odmeny, ktoré na vás čakajú v tejto sezóne!",
+        "HELLISH WINS": "PEKELNÉ VÍŤAZSTVO",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Odvážte sa ponoriť do hĺbok týchto strašidelne kasín ponúkajúcich najhorúcejšie pekelné výhry a diabolské bonusy.",
+        "Pick, Play, and": "Vyber, Hraj a",
+        "Get Your Treat": "Dostaň svoju odmenu",
       },
     },
     tr: {
@@ -8951,6 +9137,17 @@ async function initializeI18n() {
         "OKTOBERFEST WINS": "OKTOBERFEST KAZANIR",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "Oktoberfest ruhunun coşkusuyla büyük kazançlar ve bonuslar sunan en popüler oyun 'fabrikalarını' keşfedin!",
+
+        "Best Halloween Offers": "En İyi Cadılar Bayramı Teklifleri",
+        Offers: "Teklifler",
+        "Best Halloween": "En İyi Cadılar Bayramı",
+        "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!":
+          "Ürkütücü casinoların kapılarını çalın ve ödüllerinizi alın! En İyi Cadılar Bayramı Tekliflerini keşfedin, en büyük kazançlar sadece hileler değil, bu mevsim sizin için bekleyen ödüllerdir!",
+        "HELLISH WINS": "Cehennem Kazanır",
+        "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.":
+          "Bu lanetli casinoların derinliklerine dalma cesaretini göster, en sıcak cehennem kazançları ve şeytani bonuslar sunuyorlar.",
+        "Pick, Play, and": "Seç, Oyna ve",
+        "Get Your Treat": "Ödülünü Al",
       },
     },
   };
