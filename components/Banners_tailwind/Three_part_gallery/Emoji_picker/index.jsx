@@ -23,16 +23,16 @@ export default function Banner_small() {
         url = "https://info.topbon.us/rnd1043";
         break;
       case "partner1044":
-        url = "https://link.reg2dep.business/topbonus_rnd44";
+        url = "https://link.gobig.finance/rnd1044";
         break;
       case "CLD_VIP":
-        url = "https://link.gobig.finance/rnd1044";
+        url = "https://link.bo-nus.com/rnd_cld";
         break;
       case "partner1045_b1":
         url = "https://link.gobig.finance/rnd1045";
         break;
       case "partner1046":
-        url = "https://link.gobig.finance/rnd1044";
+        url = "https://link.bo-nus.com/rnd_cld";
         break;
       default:
         url = "https://info.topbon.us/aurnd";
