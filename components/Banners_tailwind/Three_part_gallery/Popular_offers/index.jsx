@@ -133,6 +133,7 @@ export default function Popular_offers() {
       />
     ),
   }));
+  
 
   return (
     <>

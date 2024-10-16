@@ -148,17 +148,7 @@ const TopBrands = () => {
   const [currentBrandIndex, setCurrentBrandIndex] = useState(0);
   const [fade, setFade] = useState(true);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setFade(false); // Начать затухание
-      setTimeout(() => {
-        setCurrentBrandIndex((prevIndex) => (prevIndex + 1) % shuffledBrands.length);
-        setFade(true); // Начать появление
-      }, 500); // Продолжительность затухания
-    }, 5000); // Смена бренда каждые 5 секунд
 
-    return () => clearInterval(interval);
-  }, [shuffledBrands.length]);
 
   console.log("SLIDERBRANDS", brands);
 
