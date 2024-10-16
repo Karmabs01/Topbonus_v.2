@@ -12779,7 +12779,29 @@ main > .topbr {
   background: #f69d44;
 }
 
+.refetch img {
+  animation: 2s linear infinite rotate;
+}
+
+.refetch:hover img {
+  animation: none;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 @media (width >= 320px) and (width <= 767px) {
+  .refetch {
+    display: none;
+  }
+
   .btn-support {
     z-index: 999;
     right: -50px;
@@ -12787,6 +12809,12 @@ main > .topbr {
 
   .form-support {
     z-index: 999;
+  }
+}
+
+@media (width >= 320px) and (width <= 1259px) {
+  .refetch {
+    display: none;
   }
 }
 
