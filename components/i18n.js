@@ -713,6 +713,7 @@ async function initializeI18n() {
           "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.",
         "Pick, Play, and": "Pick, Play, and",
         "Get Your Treat": "Get Your Treat",
+        "Other Brands": "Other Brands"
       },
     },
 

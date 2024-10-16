@@ -13788,6 +13788,10 @@ ul.ul-list a {
   .form-support {
     z-index: 999;
   }
+
+  .btn-oth {
+    min-width: 20%;
+  }
 }
 
 .placeholder\:text-gray-300::-moz-placeholder {

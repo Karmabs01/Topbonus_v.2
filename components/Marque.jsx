@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 const Marque = () => {
   const handleClick = () => {
-    const targetElement = document.getElementById("real-block");
+    const targetElement = document.getElementById("anchor-marque");
     if (targetElement) {
       const headerOffset = 50; // Adjust this value based on your header height
       const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;

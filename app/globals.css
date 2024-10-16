@@ -11166,4 +11166,7 @@ resize: none;
   .form-support {
     z-index: 999;
   }
+  .btn-oth {
+    min-width: 20%;
+  }
 }

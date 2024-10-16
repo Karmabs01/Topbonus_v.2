@@ -26,7 +26,7 @@ const FilteredHome = () => {
   };
 
   return (
-    <div className="pt-10 pb-10">
+    <div id="anchor-marque" className="pt-10 pb-10 ">
       <div className="main__container">
         {/* <h2 className="">
           {t("Catalog of all 2024 Online Casino Bonuses Offered")}
