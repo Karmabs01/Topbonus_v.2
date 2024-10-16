@@ -195,7 +195,7 @@ const Header_tailwind = () => {
 
   useEffect(() => {
     const handleMessage = (event) => {
-      if (event.origin !== "https://best.topbonuspicks.com") {
+      if (event.origin !== "https://topbon.us") {
         // console.error(
         //   "Received message from an unauthorized origin:",
         //   event.origin

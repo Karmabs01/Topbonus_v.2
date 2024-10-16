@@ -1,16 +1,16 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms and Conditions | Bonus best.topbonuspicks.com",
+  title: "Terms and Conditions | Bonus topbon.us",
   description:
-    "Welcome to Bonus best.topbonuspicks.com. These Terms & Conditions govern your access to and use of the Website. By accessing and using the Website, you agree to comply with these Terms & Conditions. If you do not agree with these terms, please refrain from using the Website.",
+    "Welcome to Bonus topbon.us. These Terms & Conditions govern your access to and use of the Website. By accessing and using the Website, you agree to comply with these Terms & Conditions. If you do not agree with these terms, please refrain from using the Website.",
 };
 
 export default async function Privacy() {
   return (
     <div className="page-gaming pt-10 pb-10">
       <div className="main__container">
-        <h1 className="mb-3">Welcome to best.topbonuspicks.coms</h1>
+        <h1 className="mb-3">Welcome to topbon.uss</h1>
 
         <p className="mb-3">
           Where you have the opportunity to get spins in the Fortune Wheel that
@@ -41,7 +41,7 @@ export default async function Privacy() {
         <p className="mb-3">
           These terms and conditions (&#39;Terms&#39;) govern your participation
           in the rewards and cashback program (&#39;Program&#39;) offered by
-          best.topbonuspicks.com (&#39;we,&#39; &#39;us,&#39; or &#39;our&#39;). By
+          topbon.us (&#39;we,&#39; &#39;us,&#39; or &#39;our&#39;). By
           participating in the Program, you agree to abide by these Terms.
           Please read them carefully.
         </p>
@@ -70,7 +70,7 @@ export default async function Privacy() {
         <h2 className="mb-3">Limitations on Winnings:</h2>
         <p className="mb-3">
           3.1. Please note that a player cannot withdraw more than the amount
-          they have deposited on the brands associated with best.topbonuspicks.com
+          they have deposited on the brands associated with topbon.us
           Our project serves as a cashback tool and not a source of income.
         </p>
         <p className="mb-3">
