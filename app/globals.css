@@ -11158,6 +11158,15 @@ resize: none;
   background: #f44a71;
 }
 
+.refetch img {
+  animation: rotate 2s linear infinite;
+}
+
+.refetch:hover img {
+  animation: none;
+}
+
+
 @media(min-width: 320px) and (max-width: 767px) {
   .btn-support {
     z-index: 999;
@@ -11168,5 +11177,17 @@ resize: none;
   }
   .btn-oth {
     min-width: 20%;
+  }
+  .refetch {
+    display: none;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }

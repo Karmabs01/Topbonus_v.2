@@ -13219,6 +13219,14 @@ ul.ul-list a {
   background: #f44a71;
 }
 
+.refetch img {
+  animation: 2s linear infinite rotate;
+}
+
+.refetch:hover img {
+  animation: none;
+}
+
 @media (width >= 320px) and (width <= 767px) {
   .btn-support {
     z-index: 999;
@@ -13231,6 +13239,20 @@ ul.ul-list a {
 
   .btn-oth {
     min-width: 20%;
+  }
+
+  .refetch {
+    display: none;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
   }
 }
 

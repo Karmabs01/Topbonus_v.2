@@ -11,7 +11,7 @@ import { useLanguage } from "../../../switcher/LanguageContext";
 import { getBrands } from "../../../getBrands/getBrands2";
 import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
-
+import refetch from "@/public/refetch.png";
 import "./styled.component.css";
 
 export default function Popular_offers() {
@@ -19,8 +19,6 @@ export default function Popular_offers() {
   const [source, setSource] = useState("");
   const [loading, setLoading] = useState(true);
   const [brands, setBrands] = useState([]);
-  const [currentBrandIndex, setCurrentBrandIndex] = useState(0);
-  const [fade, setFade] = useState(true); // State to manage fade effect
   const { language } = useLanguage();
   const { t } = useTranslation();
 
@@ -54,7 +52,6 @@ export default function Popular_offers() {
   };
 
   useEffect(() => {
-    // Обновляем URL, удаляем параметры и устанавливаем source на основе localStorage
     const currentUrl = window.location.href;
     const indexOfQuestionMark = currentUrl.indexOf("?");
     const newUrl2 =
@@ -63,7 +60,6 @@ export default function Popular_offers() {
         : currentUrl;
     window.history.replaceState({}, document.title, newUrl2);
 
-    // Работа с URL и localStorage для определения source
     const urlObj = new URL(currentUrl);
     const searchParams = new URLSearchParams(urlObj.search);
     searchParams.delete("brand");
@@ -86,7 +82,6 @@ export default function Popular_offers() {
         searchParams.set("source", partner);
       } else {
         setSource("0");
-        // Получаем текущий источник и проверяем, не является ли он одним из допустимых партнеров
         const sourceFound = localStorage.getItem("source");
         if (!partners.includes(sourceFound)) {
           localStorage.setItem("source", "0");
@@ -98,8 +93,6 @@ export default function Popular_offers() {
     if (currentKeyword) {
       setPartnerSource(currentKeyword);
     }
-
-    const ad_campaign = localStorage.getItem("ad_campaign_id");
 
     const savedUrl = localStorage.getItem("savedUrl");
     if (savedUrl) {
@@ -113,6 +106,7 @@ export default function Popular_offers() {
     () => getBrands(language),
     { initialData: brands }
   );
+
   useEffect(() => {
     if (data) {
       const filteredData = data.filter(
@@ -122,6 +116,11 @@ export default function Popular_offers() {
       setLoading(false);
     }
   }, [data, categoryBrands.key1, categoryBrands.key2]);
+
+  const refetchBrands = () => {
+    const shuffled = shuffle(brands);
+    setBrands(shuffled); // Перемешиваем и обновляем состояние с брендами
+  };
 
   const shuffledBrands = shuffle(brands);
   const cards2 = shuffledBrands.slice(0, 6).map((brand) => ({
@@ -135,18 +134,6 @@ export default function Popular_offers() {
     ),
   }));
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setFade(false); // Start fade-out
-      setTimeout(() => {
-        setCurrentBrandIndex((prevIndex) => (prevIndex + 1) % brands.length);
-        setFade(true); // Start fade-in
-      }, 500); // Duration of fade-out effect
-    }, 5000000); // Change brand every 5 seconds
-
-    return () => clearInterval(interval);
-  }, [brands.length]);
-
   return (
     <>
       <div className="pt-10 popular-offers">
@@ -158,9 +145,14 @@ export default function Popular_offers() {
               <div className="w-full">
                 <div className="flex justify-between">
                   <h2 className="text-3xl font-bold tracking-tight text-white random-title">
-                    {t("POPULAR")} <span> {t("offers")}</span>
+                    {t("POPULAR")} <span>{t("offers")}</span>
                   </h2>
-                  {/* <Link className="inline-flex h-8 items-center justify-center rounded-full bg-transparent lucky-btn text-white px-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 font-bold btn-oth" href={'/'}>{t("Other Brands")}</Link> */}
+                  <button
+                    className="refetch"
+                    onClick={refetchBrands} // Обработчик клика
+                  >
+                    <Image src={refetch} alt="refetch" width={50} loading="lazy" />
+                  </button>
                 </div>
                 <div className="mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8 hidden md:inline">
                   <div className="cards-thr">
@@ -169,7 +161,7 @@ export default function Popular_offers() {
                         <div className="relative">
                           <div className="relative flex align-center justify-center">
                             <Link
-                              href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers`}
+                              href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers_2`}
                               target="_blank"
                             >
                               <Image
@@ -193,7 +185,7 @@ export default function Popular_offers() {
                         </div>
                         <div className="btn-crd">
                           <Link
-                            href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers`}
+                            href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers_2`}
                             target="_blank"
                             className="relative flex items-center justify-center px-8 py-2 text-lg font-medium rounded-full text-white btn-blick overflow-hidden"
                           >
@@ -214,7 +206,7 @@ export default function Popular_offers() {
                             <div className="imgp">
                               <Link
                                 target="_blank"
-                                href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers`}
+                                href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers_2`}
                               >
                                 <Image
                                   src={`/brands/${rowData.CasinoBrand}.png`}
@@ -237,7 +229,7 @@ export default function Popular_offers() {
                           </div>
                           <div className="mt-6">
                             <Link
-                              href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers`}
+                              href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers_2`}
                               target="_blank"
                               className=" flex items-center justify-center text-white btn-crd"
                             >
