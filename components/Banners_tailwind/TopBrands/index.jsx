@@ -150,7 +150,6 @@ const TopBrands = () => {
 
 
 
-  console.log("SLIDERBRANDS", brands);
 
   return (
     <div className="topbr-tw">

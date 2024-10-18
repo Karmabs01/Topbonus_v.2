@@ -55,7 +55,6 @@ export default function Brands_double_carousel() {
         searchParams.set("source", partner);
       } else {
         setSource("0");
-        // Получаем текущий источник и проверяем, не является ли он одним из допустимых партнеров
         const sourceFound = localStorage.getItem("source");
         if (!partners.includes(sourceFound)) {
           localStorage.setItem("source", "0");
