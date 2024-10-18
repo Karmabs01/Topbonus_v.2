@@ -59,7 +59,7 @@ export default function Popular_offers() {
     ];
 
     function setPartnerSource(keyword) {
-      const partner = partners.find((p) => keyword.includes(p));
+      const partner = partners.find((p) => keyword && keyword.includes(p));
       if (partner) {
         localStorage.setItem("source", partner);
         setSource(partner);
@@ -103,17 +103,40 @@ export default function Popular_offers() {
     }
   }, [data, categoryBrands.key1, categoryBrands.key2]);
 
-  const shuffledBrands = shuffle(brands);
-  const cards2 = shuffledBrands.slice(0, 6).map((brand) => ({
-    key: uuidv4(),
-    content: (
-      <Card
-        imagen={`/brands/${brand.CasinoBrand}.png`}
-        link={brand.GoBig}
-        bonus={brand.OurOfferContent}
-      />
-    ),
-  }));
+  // Начало изменений
+  const specificBrandName = 'Betplays'; // Замените на нужный бренд
+
+  let brandsToDisplay = [];
+
+  if (brands.length > 0) {
+    // Находим конкретный бренд
+    const specificBrand = brands.find(
+      (brand) => brand.CasinoBrand === specificBrandName
+    );
+
+    // Убираем этот бренд из списка, чтобы избежать дубликатов
+    let otherBrands = brands;
+    if (specificBrand) {
+      otherBrands = brands.filter(
+        (brand) => brand.CasinoBrand !== specificBrandName
+      );
+    }
+
+    // Перемешиваем оставшиеся бренды
+    const shuffledOtherBrands = shuffle(otherBrands);
+
+    // Получаем 4 или 5 случайных брендов
+    const numberOfRandomBrands = specificBrand ? 4 : 5;
+    const randomBrands = shuffledOtherBrands.slice(0, numberOfRandomBrands);
+
+    // Формируем итоговый массив брендов для отображения
+    if (specificBrand) {
+      brandsToDisplay = [specificBrand, ...randomBrands];
+    } else {
+      brandsToDisplay = randomBrands;
+    }
+  }
+  // Конец изменений
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -160,6 +183,7 @@ export default function Popular_offers() {
 
   const number = brands.length > 5 ? 5 : brands.length;
 
+  console.log("HOTTEST", brands);
   return (
     <>
       <div className="fivehot">
@@ -183,7 +207,7 @@ export default function Popular_offers() {
                 role="list"
                 className="grid grid-cols-1 gap-5 sm:gap-6 ul-list"
               >
-                {shuffledBrands.slice(0, 5).map((rowData, index) => (
+                {brandsToDisplay.map((rowData, index) => (
                   <Link
                     className=""
                     href={`${rowData.GoBig}/${newUrl}&creative_id=Hottest_2`}

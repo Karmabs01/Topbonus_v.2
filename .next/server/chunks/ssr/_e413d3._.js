@@ -176,8 +176,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$MainWrapper$2f
 ;
 ;
 const metadata = {
-    title: 'Bonus best.topbonuspicks.com: Your Comprehensive Source for Casino Reviews and Insights',
-    description: 'Welcome to Bonus best.topbonuspicks.com, your ultimate destination for comprehensive casino reviews and invaluable insights...'
+    title: 'Bonus topbon.us: Your Comprehensive Source for Casino Reviews and Insights',
+    description: 'Welcome to Bonus topbon.us, your ultimate destination for comprehensive casino reviews and invaluable insights...'
 };
 function RootLayout({ children }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("html", {
@@ -649,8 +649,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Brands_home$2f
 ;
 ;
 const metadata = {
-    title: "best.topbonuspicks.com: Your Comprehensive Source for Casino Reviews and Insights",
-    description: "Welcome to best.topbonuspicks.com, your ultimate destination for comprehensive casino reviews and invaluable insights. Whether you're a seasoned gambler or just starting your casino journey, we're here to guide you through the world of online casinos. Our expert team meticulously reviews casinos, covering game variety, bonuses, payment options, security, and more. With our in-depth analysis and unbiased recommendations, you can make informed decisions and elevate your gaming experience. Explore our extensive database, stay updated with the latest trends, and embark on a rewarding casino adventure with Bonus best.topbonuspicks.com."
+    title: "topbon.us: Your Comprehensive Source for Casino Reviews and Insights",
+    description: "Welcome to topbon.us, your ultimate destination for comprehensive casino reviews and invaluable insights. Whether you're a seasoned gambler or just starting your casino journey, we're here to guide you through the world of online casinos. Our expert team meticulously reviews casinos, covering game variety, bonuses, payment options, security, and more. With our in-depth analysis and unbiased recommendations, you can make informed decisions and elevate your gaming experience. Explore our extensive database, stay updated with the latest trends, and embark on a rewarding casino adventure with Bonus topbon.us."
 };
 async function Home() {
     const banner = true;
