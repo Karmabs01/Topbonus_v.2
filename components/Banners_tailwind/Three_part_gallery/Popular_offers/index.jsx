@@ -145,7 +145,7 @@ export default function Popular_offers() {
       />
     ),
   }));
-  console.log("BRANDS@@@", brands2)
+
 
   return (
     <>
