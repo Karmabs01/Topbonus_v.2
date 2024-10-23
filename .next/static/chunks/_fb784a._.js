@@ -48,25 +48,25 @@ const Navigation = ({ navLinks, onLinkClick })=>{
         let url = "";
         switch(source){
             case "partner1039":
-                url = "https://link.reg2dep.business/topbonus_rnd39";
+                url = "https://link.bo-nus.com/partner_aurnd";
                 break;
             case "partner1043":
-                url = "https://link.reg2dep.business/topbonus_rnd43";
+                url = "https://info.topbon.us/rnd1043";
                 break;
             case "partner1044":
-                url = "https://link.reg2dep.business/topbonus_rnd44";
+                url = "https://link.gobig.finance/rnd1044";
                 break;
             case "CLD_VIP":
-                url = "https://link.reg2dep.business/topbonus_rndcld";
+                url = "https://link.bo-nus.com/rnd_cld";
                 break;
             case "partner1045_b1":
-                url = "https://link.reg2dep.business/topbonus_rndcld";
+                url = "https://link.gobig.finance/rnd1045";
                 break;
             case "partner1046":
-                url = "https://link.reg2dep.business/topbonus_rndcld";
+                url = "https://link.bo-nus.com/rnd_cld";
                 break;
             default:
-                url = "https://link.reg2dep.business/topbonus_rnd";
+                url = "https://info.topbon.us/aurnd";
         }
         setRedirectUrl(url);
         const savedUrl = localStorage.getItem("savedUrl");
@@ -88,12 +88,12 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                             children: link.label
                         }, void 0, false, {
                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                            lineNumber: 97,
+                            lineNumber: 98,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                        lineNumber: 96,
+                        lineNumber: 97,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$popover$2f$popover$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PopoverPanel"], {
@@ -112,7 +112,7 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                     children: subLink.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 112,
+                                                    lineNumber: 113,
                                                     columnNumber: 25
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -125,29 +125,29 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                                 className: "absolute inset-0"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                                lineNumber: 121,
+                                                                lineNumber: 122,
                                                                 columnNumber: 29
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                        lineNumber: 116,
+                                                        lineNumber: 117,
                                                         columnNumber: 27
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 116,
                                                     columnNumber: 25
                                                 }, this)
                                             ]
                                         }, subLink.label, true, {
                                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                            lineNumber: 108,
+                                            lineNumber: 109,
                                             columnNumber: 23
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                    lineNumber: 105,
+                                    lineNumber: 106,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -163,12 +163,12 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                         children: t("Try Your Luck!")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                        lineNumber: 130,
+                                                        lineNumber: 131,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 129,
+                                                    lineNumber: 130,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -176,13 +176,13 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                     children: t("Feeling lucky? Discover random casino brands and test your fortune!")
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 137,
+                                                    lineNumber: 138,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                            lineNumber: 128,
+                                            lineNumber: 129,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -197,52 +197,52 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                         children: t("Take a Chance!")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                        lineNumber: 149,
+                                                        lineNumber: 150,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 148,
+                                                    lineNumber: 149,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                lineNumber: 144,
+                                                lineNumber: 145,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                            lineNumber: 143,
+                                            lineNumber: 144,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                    lineNumber: 127,
+                                    lineNumber: 128,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                            lineNumber: 104,
+                            lineNumber: 105,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                        lineNumber: 100,
+                        lineNumber: 101,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$popover$2f$popover$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PopoverBackdrop"], {
                         className: "fixed inset-0 w-screen h-screen z-10 -top-20 -left-32"
                     }, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                        lineNumber: 156,
+                        lineNumber: 157,
                         columnNumber: 13
                     }, this)
                 ]
             }, link.label, true, {
                 fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                lineNumber: 95,
+                lineNumber: 96,
                 columnNumber: 11
             }, this);
         })
@@ -564,6 +564,83 @@ const LanguageSwitcher = ()=>{
             flag: "🌍"
         }
     ];
+    const availableLanguages1045 = [
+        {
+            code: "cz",
+            label: "Czech",
+            flag: "🇨🇿"
+        },
+        {
+            code: "de",
+            label: "German",
+            flag: "🇩🇪"
+        },
+        {
+            code: "dk",
+            label: "Danish",
+            flag: "🇩🇰"
+        },
+        {
+            code: "fi",
+            label: "Finnish",
+            flag: "🇫🇮"
+        },
+        {
+            code: "fr",
+            label: "French",
+            flag: "🇫🇷"
+        },
+        {
+            code: "gr",
+            label: "Greek",
+            flag: "🇬🇷"
+        },
+        {
+            code: "hu",
+            label: "Hungarian",
+            flag: "🇭🇺"
+        },
+        {
+            code: "it",
+            label: "Italian",
+            flag: "🇮🇹"
+        },
+        {
+            code: "nl",
+            label: "Dutch",
+            flag: "🇳🇱"
+        },
+        {
+            code: "no",
+            label: "Norwegian",
+            flag: "🇳🇴"
+        },
+        {
+            code: "pl",
+            label: "Polish",
+            flag: "🇵🇱"
+        },
+        {
+            code: "es",
+            label: "Spanish",
+            flag: "🇪🇸"
+        },
+        {
+            code: "se",
+            label: "Swedish",
+            flag: "🇸🇪"
+        },
+        {
+            code: "sk",
+            label: "Slovak",
+            flag: "🇸🇰"
+        },
+        {
+            code: "all",
+            label: "English",
+            flag: "🌍"
+        }
+    ];
     const availableLanguagesCLD_VIP = [
         {
             code: "cz",
@@ -661,7 +738,7 @@ const LanguageSwitcher = ()=>{
             newLng = availableLanguagesCLD_VIP;
             break;
         case "partner1045_b1":
-            newLng = availableLanguagesCLD_VIP;
+            newLng = availableLanguages1045;
             break;
         case "partner1046":
             newLng = availableLanguagesCLD_VIP;
@@ -674,7 +751,7 @@ const LanguageSwitcher = ()=>{
         children: "Failed to load"
     }, void 0, false, {
         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-        lineNumber: 110,
+        lineNumber: 127,
         columnNumber: 21
     }, this);
     const changeLanguage = async (lng)=>{
@@ -718,14 +795,14 @@ const LanguageSwitcher = ()=>{
                                                             className: `mr-2 flag-icon flag-icon-${newLng.find((lang)=>lang.code === selectedLanguage)?.code}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                            lineNumber: 146,
+                                                            lineNumber: 163,
                                                             columnNumber: 23
                                                         }, this),
                                                         newLng.find((lang)=>lang.code === selectedLanguage)?.label
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 144,
+                                                    lineNumber: 161,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -735,18 +812,18 @@ const LanguageSwitcher = ()=>{
                                                         className: "h-5 w-5 text-gray-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                        lineNumber: 158,
+                                                        lineNumber: 175,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 157,
+                                                    lineNumber: 174,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                            lineNumber: 143,
+                                            lineNumber: 160,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ListboxOptions"], {
@@ -763,7 +840,7 @@ const LanguageSwitcher = ()=>{
                                                                             className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                            lineNumber: 184,
+                                                                            lineNumber: 201,
                                                                             columnNumber: 31
                                                                         }, this),
                                                                         " ",
@@ -771,7 +848,7 @@ const LanguageSwitcher = ()=>{
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                    lineNumber: 176,
+                                                                    lineNumber: 193,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 selected && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -781,57 +858,57 @@ const LanguageSwitcher = ()=>{
                                                                         className: "h-5 w-5"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                        lineNumber: 191,
+                                                                        lineNumber: 208,
                                                                         columnNumber: 33
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                    lineNumber: 190,
+                                                                    lineNumber: 207,
                                                                     columnNumber: 31
                                                                 }, this)
                                                             ]
                                                         }, void 0, true)
                                                 }, language.code, false, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 167,
+                                                    lineNumber: 184,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                            lineNumber: 165,
+                                            lineNumber: 182,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                    lineNumber: 142,
+                                    lineNumber: 159,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false)
                     }, void 0, false, {
                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                        lineNumber: 129,
+                        lineNumber: 146,
                         columnNumber: 11
                     }, this),
                     isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                        lineNumber: 206,
+                        lineNumber: 223,
                         columnNumber: 25
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                lineNumber: 128,
+                lineNumber: 145,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-            lineNumber: 127,
+            lineNumber: 144,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-        lineNumber: 126,
+        lineNumber: 143,
         columnNumber: 5
     }, this);
 };
@@ -930,7 +1007,7 @@ const BrandsSwitcher = ()=>{
     const { language, setLanguage } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])(); // Используй состояние и функцию из контекста
     const ipData = async ()=>{
         try {
-            const response = await fetch("/api/geolocation"); // Используем ваш API route
+            const response = await fetch('/api/geolocation'); // Используем ваш API route
             const data = await response.json();
             if (data.country) {
                 setLanguage(data.country.toLowerCase()); // Используй setLanguage из контекста
@@ -1329,6 +1406,128 @@ const BrandsSwitcher = ()=>{
             flag: "🌍"
         }
     ];
+    const availableLanguages1045 = [
+        {
+            code: "au",
+            label: "Australia",
+            flag: "🇦🇺"
+        },
+        {
+            code: "at",
+            label: "Austria",
+            flag: "🇦🇹"
+        },
+        {
+            code: "be",
+            label: "Belgium",
+            flag: "🇧🇪"
+        },
+        {
+            code: "ca",
+            label: "Canada",
+            flag: "🇨🇦"
+        },
+        {
+            code: "ch",
+            label: "Switzerland",
+            flag: "🇨🇭"
+        },
+        {
+            code: "cz",
+            label: "The Czech Republic",
+            flag: "🇨🇿"
+        },
+        {
+            code: "de",
+            label: "Germany",
+            flag: "🇩🇪"
+        },
+        {
+            code: "dk",
+            label: "Denmark",
+            flag: "🇩🇰"
+        },
+        {
+            code: "fi",
+            label: "Finland",
+            flag: "🇫🇮"
+        },
+        {
+            code: "fr",
+            label: "France",
+            flag: "🇫🇷"
+        },
+        {
+            code: "gb",
+            label: "United Kingdom",
+            flag: "🇬🇧"
+        },
+        {
+            code: "gr",
+            label: "Greece",
+            flag: "🇬🇷"
+        },
+        {
+            code: "hu",
+            label: "Hungary",
+            flag: "🇭🇺"
+        },
+        {
+            code: "ie",
+            label: "Ireland",
+            flag: "🇮🇪"
+        },
+        {
+            code: "it",
+            label: "Italy",
+            flag: "🇮🇹"
+        },
+        {
+            code: "pt",
+            label: "Portugal",
+            flag: "🇵🇹"
+        },
+        {
+            code: "es",
+            label: "Spain",
+            flag: "🇪🇸"
+        },
+        {
+            code: "no",
+            label: "Norway",
+            flag: "🇳🇴"
+        },
+        {
+            code: "nl",
+            label: "Netherlands",
+            flag: "🇳🇱"
+        },
+        {
+            code: "nz",
+            label: "New Zealand",
+            flag: "🇳🇿"
+        },
+        {
+            code: "pl",
+            label: "Poland",
+            flag: "🇵🇱"
+        },
+        {
+            code: "se",
+            label: "Sweden",
+            flag: "🇸🇪"
+        },
+        {
+            code: "sk",
+            label: "Slovakia",
+            flag: "🇸🇰"
+        },
+        {
+            code: "all",
+            label: "World",
+            flag: "🌍"
+        }
+    ];
     const availableLanguagesCLD_VIP = [
         {
             code: "all",
@@ -1465,7 +1664,7 @@ const BrandsSwitcher = ()=>{
     } else if (item === "CLD_VIP") {
         newLng = availableLanguagesCLD_VIP;
     } else if (item === "partner1045_b1") {
-        newLng = availableLanguagesCLD_VIP;
+        newLng = availableLanguages1045;
     } else if (item === "partner1046") {
         newLng = availableLanguagesCLD_VIP;
     } else {
@@ -1508,15 +1707,15 @@ const BrandsSwitcher = ()=>{
                                                     className: `mr-2 flag-icon flag-icon-${selectedLanguage?.code}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                    lineNumber: 209,
-                                                    columnNumber: 19
+                                                    lineNumber: 229,
+                                                    columnNumber: 1
                                                 }, this),
                                                 selectedLanguage?.label
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 208,
-                                            columnNumber: 17
+                                            lineNumber: 228,
+                                            columnNumber: 1
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "pointer-events-none absolute inset-y-0 right-0 flex items-center pr-2",
@@ -1525,19 +1724,19 @@ const BrandsSwitcher = ()=>{
                                                 className: "h-5 w-5 text-gray-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                lineNumber: 215,
-                                                columnNumber: 19
+                                                lineNumber: 233,
+                                                columnNumber: 1
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 214,
-                                            columnNumber: 17
+                                            lineNumber: 232,
+                                            columnNumber: 1
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 206,
-                                    columnNumber: 15
+                                    lineNumber: 226,
+                                    columnNumber: 1
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ListboxOptions"], {
                                     className: "absolute z-10 mt-1 max-h-40 w-full overflow-auto rounded-md bg-purple py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm ",
@@ -1547,22 +1746,22 @@ const BrandsSwitcher = ()=>{
                                             children: ({ selected })=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: `block truncate flex items-center ${selected ? "font-bold text-white" : "font-normal"}`,
+                                                            className: `block truncate flex items-center ${selected ? 'font-bold text-white' : 'font-normal'}`,
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                     className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                    lineNumber: 239,
-                                                                    columnNumber: 27
+                                                                    lineNumber: 252,
+                                                                    columnNumber: 1
                                                                 }, this),
                                                                 " ",
                                                                 language.label
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 233,
-                                                            columnNumber: 25
+                                                            lineNumber: 250,
+                                                            columnNumber: 1
                                                         }, this),
                                                         selected ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                             className: "absolute inset-y-0 right-0 flex items-center pr-4 text-white",
@@ -1571,48 +1770,48 @@ const BrandsSwitcher = ()=>{
                                                                 className: "h-5 w-5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                lineNumber: 246,
-                                                                columnNumber: 29
+                                                                lineNumber: 256,
+                                                                columnNumber: 1
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 245,
-                                                            columnNumber: 27
+                                                            lineNumber: 255,
+                                                            columnNumber: 1
                                                         }, this) : null
                                                     ]
                                                 }, void 0, true)
                                         }, language.code, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 224,
-                                            columnNumber: 19
+                                            lineNumber: 241,
+                                            columnNumber: 1
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 222,
-                                    columnNumber: 15
+                                    lineNumber: 237,
+                                    columnNumber: 1
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                            lineNumber: 205,
-                            columnNumber: 13
+                            lineNumber: 225,
+                            columnNumber: 1
                         }, this)
                     }, void 0, false)
             }, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 194,
-                columnNumber: 7
+                lineNumber: 214,
+                columnNumber: 1
             }, this),
             isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 258,
-                columnNumber: 21
+                lineNumber: 268,
+                columnNumber: 15
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-        lineNumber: 193,
-        columnNumber: 5
+        lineNumber: 213,
+        columnNumber: 1
     }, this);
 };
 _s(BrandsSwitcher, "DfqLkduspkp4nnbSoiAm0g02qFE=", false, function() {
@@ -2989,6 +3188,128 @@ function MultipleSelectPlaceholder() {
             flag: "🌍"
         }
     ];
+    const flags1045 = [
+        {
+            code: "au",
+            label: "Australia",
+            flag: "🇦🇺"
+        },
+        {
+            code: "at",
+            label: "Austria",
+            flag: "🇦🇹"
+        },
+        {
+            code: "be",
+            label: "Belgium",
+            flag: "🇧🇪"
+        },
+        {
+            code: "ca",
+            label: "Canada",
+            flag: "🇨🇦"
+        },
+        {
+            code: "ch",
+            label: "Switzerland",
+            flag: "🇨🇭"
+        },
+        {
+            code: "cz",
+            label: "The Czech Republic",
+            flag: "🇨🇿"
+        },
+        {
+            code: "de",
+            label: "Germany",
+            flag: "🇩🇪"
+        },
+        {
+            code: "dk",
+            label: "Denmark",
+            flag: "🇩🇰"
+        },
+        {
+            code: "fi",
+            label: "Finland",
+            flag: "🇫🇮"
+        },
+        {
+            code: "fr",
+            label: "France",
+            flag: "🇫🇷"
+        },
+        {
+            code: "gb",
+            label: "United Kingdom",
+            flag: "🇬🇧"
+        },
+        {
+            code: "gr",
+            label: "Greece",
+            flag: "🇬🇷"
+        },
+        {
+            code: "hu",
+            label: "Hungary",
+            flag: "🇭🇺"
+        },
+        {
+            code: "ie",
+            label: "Ireland",
+            flag: "🇮🇪"
+        },
+        {
+            code: "it",
+            label: "Italy",
+            flag: "🇮🇹"
+        },
+        {
+            code: "pt",
+            label: "Portugal",
+            flag: "🇵🇹"
+        },
+        {
+            code: "es",
+            label: "Spain",
+            flag: "🇪🇸"
+        },
+        {
+            code: "no",
+            label: "Norway",
+            flag: "🇳🇴"
+        },
+        {
+            code: "nl",
+            label: "Netherlands",
+            flag: "🇳🇱"
+        },
+        {
+            code: "nz",
+            label: "New Zealand",
+            flag: "🇳🇿"
+        },
+        {
+            code: "pl",
+            label: "Poland",
+            flag: "🇵🇱"
+        },
+        {
+            code: "se",
+            label: "Sweden",
+            flag: "🇸🇪"
+        },
+        {
+            code: "sk",
+            label: "Slovakia",
+            flag: "🇸🇰"
+        },
+        {
+            code: "all",
+            label: "World",
+            flag: "🌍"
+        }
+    ];
     const flagsCLD_VIP = [
         {
             code: "au",
@@ -3117,7 +3438,7 @@ function MultipleSelectPlaceholder() {
             newFlag = flagsCLD_VIP;
             break;
         case "partner1045_b1":
-            newFlag = flagsCLD_VIP;
+            newFlag = flags1045;
             break;
         case "partner1046":
             newFlag = flagsCLD_VIP;
@@ -3136,7 +3457,7 @@ function MultipleSelectPlaceholder() {
                         className: `flag-icon flag-icon-${languageFlag}`
                     }, void 0, false, {
                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                        lineNumber: 198,
+                        lineNumber: 224,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
@@ -3144,13 +3465,13 @@ function MultipleSelectPlaceholder() {
                         children: lng ? lng.toUpperCase() : ''
                     }, void 0, false, {
                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                        lineNumber: 199,
+                        lineNumber: 225,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                lineNumber: 196,
+                lineNumber: 222,
                 columnNumber: 9
             }, this);
         }
@@ -3170,12 +3491,12 @@ function MultipleSelectPlaceholder() {
                                 children: renderValue(personName)
                             }, void 0, false, {
                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                lineNumber: 217,
+                                lineNumber: 243,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                            lineNumber: 216,
+                            lineNumber: 242,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$menu$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MenuItems"], {
@@ -3192,23 +3513,23 @@ function MultipleSelectPlaceholder() {
                                                         children: t('Your country of residence')
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 231,
+                                                        lineNumber: 257,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$BrandsSwitcher$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 234,
+                                                        lineNumber: 260,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                lineNumber: 228,
+                                                lineNumber: 254,
                                                 columnNumber: 21
                                             }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                        lineNumber: 226,
+                                        lineNumber: 252,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$menu$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MenuItem"], {
@@ -3220,46 +3541,46 @@ function MultipleSelectPlaceholder() {
                                                         children: t("Website language")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 243,
+                                                        lineNumber: 269,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageSwitcher$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 246,
+                                                        lineNumber: 272,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                lineNumber: 240,
+                                                lineNumber: 266,
                                                 columnNumber: 21
                                             }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                        lineNumber: 238,
+                                        lineNumber: 264,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                lineNumber: 225,
+                                lineNumber: 251,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                            lineNumber: 221,
+                            lineNumber: 247,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true)
         }, void 0, false, {
             fileName: "[project]/components/header/MenuLanguages/index.jsx",
-            lineNumber: 213,
+            lineNumber: 239,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-        lineNumber: 212,
+        lineNumber: 238,
         columnNumber: 5
     }, this);
 }
@@ -3750,6 +4071,7 @@ __turbopack_esm__({
     "availableLanguages1039": ()=>availableLanguages1039,
     "availableLanguages1043": ()=>availableLanguages1043,
     "availableLanguages1044": ()=>availableLanguages1044,
+    "availableLanguages1045": ()=>availableLanguages1045,
     "availableLanguagesCLD_VIP": ()=>availableLanguagesCLD_VIP
 });
 const availableLanguages = [
@@ -4110,6 +4432,128 @@ const availableLanguages1044 = [
         flag: "🌍"
     }
 ];
+const availableLanguages1045 = [
+    {
+        code: "au",
+        label: "Australia",
+        flag: "🇦🇺"
+    },
+    {
+        code: "at",
+        label: "Austria",
+        flag: "🇦🇹"
+    },
+    {
+        code: "be",
+        label: "Belgium",
+        flag: "🇧🇪"
+    },
+    {
+        code: "ca",
+        label: "Canada",
+        flag: "🇨🇦"
+    },
+    {
+        code: "ch",
+        label: "Switzerland",
+        flag: "🇨🇭"
+    },
+    {
+        code: "cz",
+        label: "The Czech Republic",
+        flag: "🇨🇿"
+    },
+    {
+        code: "de",
+        label: "Germany",
+        flag: "🇩🇪"
+    },
+    {
+        code: "dk",
+        label: "Denmark",
+        flag: "🇩🇰"
+    },
+    {
+        code: "fi",
+        label: "Finland",
+        flag: "🇫🇮"
+    },
+    {
+        code: "fr",
+        label: "France",
+        flag: "🇫🇷"
+    },
+    {
+        code: "gb",
+        label: "United Kingdom",
+        flag: "🇬🇧"
+    },
+    {
+        code: "gr",
+        label: "Greece",
+        flag: "🇬🇷"
+    },
+    {
+        code: "hu",
+        label: "Hungary",
+        flag: "🇭🇺"
+    },
+    {
+        code: "ie",
+        label: "Ireland",
+        flag: "🇮🇪"
+    },
+    {
+        code: "it",
+        label: "Italy",
+        flag: "🇮🇹"
+    },
+    {
+        code: "pt",
+        label: "Portugal",
+        flag: "🇵🇹"
+    },
+    {
+        code: "es",
+        label: "Spain",
+        flag: "🇪🇸"
+    },
+    {
+        code: "no",
+        label: "Norway",
+        flag: "🇳🇴"
+    },
+    {
+        code: "nl",
+        label: "Netherlands",
+        flag: "🇳🇱"
+    },
+    {
+        code: "nz",
+        label: "New Zealand",
+        flag: "🇳🇿"
+    },
+    {
+        code: "pl",
+        label: "Poland",
+        flag: "🇵🇱"
+    },
+    {
+        code: "se",
+        label: "Sweden",
+        flag: "🇸🇪"
+    },
+    {
+        code: "sk",
+        label: "Slovakia",
+        flag: "🇸🇰"
+    },
+    {
+        code: "all",
+        label: "World",
+        flag: "🌍"
+    }
+];
 const availableLanguagesCLD_VIP = [
     {
         code: "au",
@@ -4229,6 +4673,7 @@ const getBrands = async (lng)=>{
     const api1043 = "https://bonusnumber1.com/api/brandsNew3/read.php";
     const api1044 = "https://bonusnumber1.com/api/brandsNew4/read.php";
     const apiCLD_VIP = "https://bonusnumber1.com/api/brandsNew5/read.php";
+    const api1045 = "https://bonusnumber1.com/api/brandsNew6/read.php";
     const partners = {
         partner1039: {
             url: api1039,
@@ -4247,8 +4692,8 @@ const getBrands = async (lng)=>{
             languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["availableLanguagesCLD_VIP"]
         },
         partner1045_b1: {
-            url: apiCLD_VIP,
-            languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["availableLanguagesCLD_VIP"]
+            url: api1045,
+            languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["availableLanguages1045"]
         },
         partner1046: {
             url: apiCLD_VIP,
@@ -4309,7 +4754,7 @@ const Marquee = ()=>{
     _s();
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"])();
     const handleClick = ()=>{
-        const targetElement = document.getElementById("real-block");
+        const targetElement = document.getElementById("anchor-marque");
         if (targetElement) {
             const headerOffset = 50;
             const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;

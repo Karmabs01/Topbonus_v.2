@@ -2897,15 +2897,15 @@ select {
 
 .all .emojis h3 {
   font-family: AA Duke;
-  font-size: 83px;
+  font-size: 43px;
   font-weight: 400;
   max-width: 286px;
-  line-height: 80px;
+  line-height: 50px;
 }
 
 .all .emojis h3 span {
   color: #fee000;
-  font-size: 65px;
+  font-size: 35px;
 }
 
 .all .bg-main h2 {
@@ -3014,15 +3014,15 @@ select {
 }
 
 .emojis h3 {
-  font-size: 43px;
+  font-size: 38px;
   font-weight: 700;
   max-width: 286px;
-  line-height: 60px;
+  line-height: 50px;
 }
 
 .emojis h3 span {
   color: #fee000;
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .bg-main h2 {
@@ -3052,6 +3052,22 @@ select {
 }
 
 @media (width >= 320px) and (width <= 767px) {
+  .pt-10.popular-offers {
+    padding-top: 15px !important;
+  }
+
+  .mmm-none {
+    display: none !important;
+  }
+
+  .timer2 {
+    padding-bottom: 160px;
+  }
+
+  .timer2 p, .timer2 span {
+    text-align: center !important;
+  }
+
   .background-slider h3 {
     font-size: 35px;
   }
@@ -13302,7 +13318,7 @@ main > .topbr {
 }
 
 .light .emojis {
-  background: url("/newimageslight/dark_deck.png") center no-repeat;
+  background: url("/bannerhell.png") center no-repeat;
 }
 
 .light .fivehot {
@@ -13810,6 +13826,19 @@ ul.ul-list a {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.timer2 p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.timer2 span {
+  color: #fee000;
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .placeholder\:text-gray-300::-moz-placeholder {

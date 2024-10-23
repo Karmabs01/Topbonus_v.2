@@ -51,7 +51,7 @@
 }
 
 .fivehot .ul-list {
-  padding: 28px 0;
+  padding: 36px 0;
   margin-left: 21px;
   margin-right: 21px;
 }
@@ -101,7 +101,7 @@
 }
 
 .emojis {
-  background: url("/newimages/threeface.png") center no-repeat;
+  background: url("/bannerhell.png") center no-repeat;
   min-height: 329px;
   border-radius: 30px;
   padding: 38px 0 12px 44px;
@@ -267,7 +267,7 @@
     backdrop-filter: blur(17.915px);
     padding: 30px 15px;
     min-height: initial;
-    background: url("/newimageslight/dark_mobile.png") center no-repeat !important;
+    background: url("/newimageslight/dyna.png") center no-repeat !important;
     background-size: cover !important;
   }
 
