@@ -162,7 +162,7 @@ export default function Popular_offers() {
                       <div className="relative">
                         <div className="relative flex align-center justify-center">
                           <Link
-                            href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers_2`}
+                            href={`${rowData.GoBig}/${newUrl}&creative_id=Helloween`}
                             target="_blank"
                           >
                             <Image
@@ -183,7 +183,7 @@ export default function Popular_offers() {
                       </div>
                       <div className="btn-crd">
                         <Link
-                          href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers_2`}
+                          href={`${rowData.GoBig}/${newUrl}&creative_id=Helloween`}
                           target="_blank"
                           className="relative flex items-center justify-center px-8 py-2 text-lg font-medium rounded-full text-white btn-blick overflow-hidden"
                         >
@@ -261,7 +261,7 @@ export default function Popular_offers() {
                             <div className="imgp">
                               <Link
                                 target="_blank"
-                                href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers_2`}
+                                href={`${rowData.GoBig}/${newUrl}&creative_id=Helloween`}
                               >
                                 <Image
                                   src={`/brands/${rowData.CasinoBrand}.png`}
@@ -284,7 +284,7 @@ export default function Popular_offers() {
                           </div>
                           <div className="mt-6">
                             <Link
-                              href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers_2`}
+                              href={`${rowData.GoBig}/${newUrl}&creative_id=Helloween`}
                               target="_blank"
                               className=" flex items-center justify-center text-white btn-crd"
                             >
