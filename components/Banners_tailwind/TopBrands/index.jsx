@@ -11,7 +11,6 @@ import { getBrands } from "../../getBrands/getBrands2";
 import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import Pickup from "./pickup";
-// import Timestamp from "./timestamp";
 
 import "./styled.component.css";
 
@@ -23,7 +22,8 @@ const TopBrands = () => {
   const { language } = useLanguage();
   const { t } = useTranslation();
 
-  // Настройки слайдера мемоизированы для предотвращения их пересоздания при каждом рендере
+  console.log("Component rendered with language:", language);
+
   const settings = useMemo(
     () => ({
       infinite: true,
@@ -47,20 +47,23 @@ const TopBrands = () => {
     []
   );
 
-  // Функция для установки URL и source на основе ключевого слова
   useEffect(() => {
+    console.log("useEffect [language] triggered with language:", language);
     const currentUrl = window.location.href;
+    console.log("Current URL:", currentUrl);
     const indexOfQuestionMark = currentUrl.indexOf("?");
     const newUrl2 =
       indexOfQuestionMark !== -1
         ? currentUrl.substring(0, indexOfQuestionMark)
         : currentUrl;
+    console.log("New URL after removing query params:", newUrl2);
     window.history.replaceState({}, document.title, newUrl2);
 
     const urlObj = new URL(currentUrl);
     const searchParams = new URLSearchParams(urlObj.search);
     searchParams.delete("brand");
     const currentKeyword = searchParams.get("keyword");
+    console.log("Current keyword:", currentKeyword);
 
     const partners = [
       "partner1039",
@@ -74,10 +77,12 @@ const TopBrands = () => {
     const setPartnerSource = (keyword) => {
       const partner = partners.find((p) => keyword.includes(p));
       if (partner) {
+        console.log("Partner found:", partner);
         localStorage.setItem("source", partner);
         setSource(partner);
         searchParams.set("source", partner);
       } else {
+        console.log("No partner found, setting source to 0");
         setSource("0");
         const sourceFound = localStorage.getItem("source");
         if (!partners.includes(sourceFound)) {
@@ -92,25 +97,25 @@ const TopBrands = () => {
     }
 
     const ad_campaign = localStorage.getItem("ad_campaign_id");
+    console.log("Ad campaign ID from localStorage:", ad_campaign);
 
     const savedUrl = localStorage.getItem("savedUrl");
+    console.log("Saved URL from localStorage:", savedUrl);
     if (savedUrl) {
       setNewUrl(savedUrl);
     }
   }, [language]);
 
-  // Функция для получения и фильтрации брендов
   const fetchAllBrands = useCallback(async () => {
+    console.log("Fetching all brands for language:", language);
     setLoading(true);
     try {
-      const data = await getBrands(language); // Получение всех брендов
+      const data = await getBrands(language);
       console.log("Fetched data:", data);
 
-      // Фильтрация брендов на основе полей Networks и High_hybrid
       const filteredBrands = data.filter((brand) => {
         return brand.Networks === "1" || brand.High_hybrid === "1";
       });
-
       console.log("Filtered brands:", filteredBrands);
 
       setBrands(filteredBrands);
@@ -121,13 +126,16 @@ const TopBrands = () => {
     }
   }, [language]);
 
-  // Выполнение загрузки данных при изменении языка
   useEffect(() => {
+    console.log("useEffect to fetch brands triggered");
     fetchAllBrands();
   }, [fetchAllBrands]);
 
-  // Перемешивание брендов и создание карточек мемоизировано
-  const shuffledBrands = useMemo(() => shuffle(brands), [brands]);
+  const shuffledBrands = useMemo(() => {
+    const shuffled = shuffle(brands);
+    console.log("Shuffled brands:", shuffled);
+    return shuffled;
+  }, [brands]);
 
   const cards2 = useMemo(
     () =>
@@ -144,12 +152,12 @@ const TopBrands = () => {
     [shuffledBrands]
   );
 
-  // Управление эффектом затухания
   const [currentBrandIndex, setCurrentBrandIndex] = useState(0);
   const [fade, setFade] = useState(true);
 
-
-
+  useEffect(() => {
+    console.log("Brands state updated:", brands);
+  }, [brands]);
 
   return (
     <div className="topbr-tw">
@@ -161,12 +169,12 @@ const TopBrands = () => {
             <div className="flex justify-between items-start md:flex-row lg:space-y-0 mob1">
               <div className="slider-left w-full md:w-2/3 mb-10 md:mb-2">
                 <Slider {...settings}>
-                  {brands.map((rowData, index) => (
+                  {shuffledBrands.map((rowData, index) => (
                     <div
-                      key={`${rowData.id_brand}-${index}`} // Используем уникальный идентификатор
+                      key={`${rowData.id_brand}-${index}`}
                       className={`background-slider overflow-hidden bg-indigo-600 py-5 rounded-xl h-full flex flex-col justify-between ${
                         fade ? "fade-in" : "fade-out"
-                      }`} // Применяем классы затухания
+                      }`}
                     >
                       <div className="flex flex-col">
                         <div className="flex flex-row">
