@@ -1059,7 +1059,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .fivehot .ul-list {
-  padding: 28px 0;
+  padding: 36px 0;
   margin-left: 21px;
   margin-right: 21px;
 }
@@ -1109,7 +1109,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .emojis {
-  background: url("/newimages/dark_deck.png") center no-repeat;
+  background: url("/bannerhell.png") right -50px center no-repeat;
   min-height: 329px;
   border-radius: 30px;
   padding: 38px 0 12px 44px;
@@ -1229,12 +1229,28 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 @media (width >= 320px) and (width <= 767px) {
+  .pt-10.popular-offers {
+    padding-top: 15px !important;
+  }
+
+  .mob-sl .card-thr p {
+    min-height: 60px;
+  }
+
   .emojis .mob-none {
     opacity: 0 !important;
   }
 
+  .timer2 p, .timer2 span {
+    text-align: center !important;
+  }
+
+  .timer2 {
+    padding-bottom: 160px;
+  }
+
   .emojis {
-    background: url("/newimages/dark_mobile.png") center no-repeat !important;
+    background: url("/newimages/dyna.png") center no-repeat !important;
     background-size: cover !important;
   }
 
@@ -1318,6 +1334,10 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   .imgp {
     margin-left: 10px;
     margin-right: 10px;
+  }
+
+  .mmm-none {
+    display: none;
   }
 }
 

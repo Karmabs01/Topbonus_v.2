@@ -19,6 +19,8 @@ export default function Popular_offers() {
   const [source, setSource] = useState("");
   const [loading, setLoading] = useState(true);
   const [brands, setBrands] = useState([]);
+  const [brands2, setBrands2] = useState([]);
+
   const { language } = useLanguage();
   const { t } = useTranslation();
 
@@ -101,6 +103,8 @@ export default function Popular_offers() {
   }, [language]);
 
   const categoryBrands = { key1: "Segment2", key2: "Sandbox" };
+  const categoryBrands2 = { key1: "Video", key2: "hell" };
+
   const { data, error } = useSWR(
     ["brands", language],
     () => getBrands(language),
@@ -112,7 +116,13 @@ export default function Popular_offers() {
       const filteredData = data.filter(
         (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
       );
+      const filteredData2 = data.filter(
+        (rowData) => rowData[categoryBrands2.key1] === categoryBrands2.key2
+      );
       setBrands(filteredData);
+      setBrands2(filteredData2);
+      console.log("BRANDS@@@222", filteredData2)
+
       setLoading(false);
     }
   }, [data, categoryBrands.key1, categoryBrands.key2]);
@@ -123,6 +133,8 @@ export default function Popular_offers() {
   };
 
   const shuffledBrands = shuffle(brands);
+  const shuffledBrands2 = shuffle(brands2);
+
   const cards2 = shuffledBrands.slice(0, 6).map((brand) => ({
     key: uuidv4(),
     content: (
@@ -133,7 +145,7 @@ export default function Popular_offers() {
       />
     ),
   }));
-  
+  console.log("BRANDS@@@", brands2)
 
   return (
     <>
@@ -144,20 +156,62 @@ export default function Popular_offers() {
           ) : (
             cards2 && (
               <div className="w-full">
+                <div className="cards-thr mmm-none">
+                  {shuffledBrands2.slice(0, 3).map((rowData, index) => (
+                    <div key={"Popular_offers" + index} className="card-thr">
+                      <div className="relative">
+                        <div className="relative flex align-center justify-center">
+                          <Link
+                            href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers_2`}
+                            target="_blank"
+                          >
+                            <Image
+                              src={`/brands/${rowData.CasinoBrand}.png`}
+                              alt={rowData.CasinoBrand}
+                              width={190}
+                              height={130}
+                              loading="lazy"
+                              className=" w-full object-contain object-center"
+                            />
+                          </Link>
+                        </div>
+                        <div className="relative mt-4 text-center">
+                          <p className="mt-1 text-sm text-gray-500 h-10">
+                            {rowData.OurOfferContent}
+                          </p>
+                        </div>
+                      </div>
+                      <div className="btn-crd">
+                        <Link
+                          href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers_2`}
+                          target="_blank"
+                          className="relative flex items-center justify-center px-8 py-2 text-lg font-medium rounded-full text-white btn-blick overflow-hidden"
+                        >
+                          {t("Play Now")}
+                        </Link>
+                      </div>
+                    </div>
+                  ))}
+                </div>
                 <div className="flex justify-between">
-                  <h2 className="text-3xl font-bold tracking-tight text-white random-title">
+                  <h2 className="text-3xl font-bold tracking-tight text-white random-title mmm-none">
                     {t("POPULAR")} <span>{t("offers")}</span>
                   </h2>
                   <button
                     className="refetch"
                     onClick={refetchBrands} // Обработчик клика
                   >
-                    <Image src={refetch} alt="refetch" width={50} loading="lazy" />
+                    <Image
+                      src={refetch}
+                      alt="refetch"
+                      width={50}
+                      loading="lazy"
+                    />
                   </button>
                 </div>
                 <div className="mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8 hidden md:inline">
                   <div className="cards-thr">
-                    {shuffledBrands.slice(0, 6).map((rowData, index) => (
+                    {shuffledBrands.slice(0, 3).map((rowData, index) => (
                       <div key={"Popular_offers" + index} className="card-thr">
                         <div className="relative">
                           <div className="relative flex align-center justify-center">
@@ -200,6 +254,49 @@ export default function Popular_offers() {
 
                 <div className="md:hidden w-full mob-sl">
                   <div className="cards-th">
+                  <Slider {...settings}>
+                      {shuffledBrands2.map((rowData, index) => (
+                        <div key={index} className="overflow-hidden card-thr">
+                          <div className="pm10">
+                            <div className="imgp">
+                              <Link
+                                target="_blank"
+                                href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers_2`}
+                              >
+                                <Image
+                                  src={`/brands/${rowData.CasinoBrand}.png`}
+                                  alt={rowData.CasinoBrand}
+                                  width={100}
+                                  height={100}
+                                  loading="lazy"
+                                  className="w-full object-contain object-center"
+                                />
+                              </Link>
+                            </div>
+                            <div className="mt-4 text-center">
+                              <h3 className="text-lg font-semibold text-gray-900">
+                                {rowData.CasinoBrand}
+                              </h3>
+                              <p className="mt-1 text-sm ">
+                                {rowData.OurOfferContent}
+                              </p>
+                            </div>
+                          </div>
+                          <div className="mt-6">
+                            <Link
+                              href={`${rowData.GoBig}/${newUrl}&creative_id=Popular_Offers_2`}
+                              target="_blank"
+                              className=" flex items-center justify-center text-white btn-crd"
+                            >
+                              {t("Play Now")}
+                            </Link>
+                          </div>
+                        </div>
+                      ))}
+                    </Slider>
+                    <h2 className="text-3xl font-bold tracking-tight text-white random-title mt-3 mb-3">
+                    {t("POPULAR")} <span>{t("offers")}</span>
+                  </h2>
                     <Slider {...settings}>
                       {shuffledBrands.map((rowData, index) => (
                         <div key={index} className="overflow-hidden card-thr">

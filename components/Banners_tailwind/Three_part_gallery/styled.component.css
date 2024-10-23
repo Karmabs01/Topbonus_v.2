@@ -51,7 +51,7 @@
 }
 
 .fivehot .ul-list {
-  padding: 28px 0;
+  padding: 36px 0;
   margin-left: 21px;
   margin-right: 21px;
 }
@@ -100,7 +100,7 @@
 }
 .emojis {
   /* background: url("/newimages/threeface.png") no-repeat center; */
-  background: url("/newimages/dark_deck.png") no-repeat center;
+  background: url("/bannerhell.png") no-repeat center right -50px;
   min-height: 329px;
   border-radius: 30px;
   padding: 38px 0 12px 44px;
@@ -212,11 +212,23 @@
   display: none;
 }
 @media (min-width: 320px) and (max-width: 767px) {
+  .pt-10.popular-offers {
+    padding-top: 15px !important;
+  }
+  .mob-sl .card-thr p {
+    min-height: 60px;
+  }
   .emojis .mob-none {
     opacity: 0 !important;
   }
+  .timer2 p, .timer2 span {
+    text-align: center !important;
+  }
+  .timer2 {
+    padding-bottom: 160px;
+  }
   .emojis {
-    background: url("/newimages/dark_mobile.png") no-repeat center !important;
+    background: url("/newimages/dyna.png") no-repeat center !important;
     background-size: cover !important;
   }
   .fivehot .main__container {
@@ -284,5 +296,8 @@
   .imgp {
     margin-left: 10px;
     margin-right: 10px;
+  }
+  .mmm-none {
+    display: none;
   }
 }

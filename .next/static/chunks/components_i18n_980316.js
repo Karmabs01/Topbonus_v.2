@@ -569,7 +569,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "HELLISH WINS",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.",
                 "Pick, Play, and": "Pick, Play, and",
-                "Get Your Treat": "Get Your Treat"
+                "Get Your Treat": "Get Your Treat",
+                "Midweek mischief!": "Midweek mischief!",
+                "spin and win, if you dare!": "spin and win, if you dare!",
+                "Ends In": "Ends In",
+                "A new week, a new scare": "A new week, a new scare",
+                "—start your winning streak today!": "—start your winning streak today!",
+                "Ghastly surprises await you": "Ghastly surprises await you",
+                "—are you brave enough to claim them?": "—are you brave enough to claim them?",
+                "Feel the thrills of fortune": "Feel the thrills of fortune",
+                "with today’s spooky surprise!": "with today’s spooky surprise!",
+                "Prepare for frightful": "Prepare for frightful",
+                "wins and eerie excitement!": "wins and eerie excitement!",
+                "Ghostly gains are just a": "Ghostly gains are just a",
+                "spin away—unlock today’s treat!": "spin away—unlock today’s treat!",
+                "Unveil today’s fright and": "Unveil today’s fright and",
+                "feel the chill of fortune!": "feel the chill of fortune!"
             }
         },
         pl: {
@@ -921,7 +936,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "PIEKIELNE ZWYCIĘSTWO",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Odwagę zanurzyć się w głębiach tych nawiedzonych kasyn oferujących najgorętsze piekielne wygrane i diabelskie bonusy.",
                 "Pick, Play, and": "Wybierz, Zagraj i",
-                "Get Your Treat": "Odbierz swoją nagrodę"
+                "Get Your Treat": "Odbierz swoją nagrodę",
+                "Midweek mischief!": "Środkowy tydzień psoty!",
+                "spin and win, if you dare!": "kręć i wygrywaj, jeśli masz odwagę!",
+                "Ends In": "Kończy się",
+                "A new week, a new scare": "Nowy tydzień, nowy strach",
+                "—start your winning streak today!": "—rozpocznij swoją serię zwycięstw już dziś!",
+                "Ghastly surprises await you": "Przerażające niespodzianki czekają na ciebie",
+                "—are you brave enough to claim them?": "Czy jesteś wystarczająco odważny, aby je zgłosić?",
+                "Feel the thrills of fortune": "Poczuj emocje fortuny.",
+                "with today’s spooky surprise!": "z dzisiejszą straszną niespodzianką!",
+                "Prepare for frightful": "Przygotuj się na przerażenie",
+                "wins and eerie excitement!": "zwycięstwa i upiorny dreszcz emocji!",
+                "Ghostly gains are just a": "Nadprzyrodzone zyski są tylko",
+                "spin away—unlock today’s treat!": "kręć dalej - odblokuj dzisiejszą niespodziankę!",
+                "Unveil today’s fright and": "Ujawnij dzisiejszy strach",
+                "feel the chill of fortune!": "poczuj chłód fortuny!"
             }
         },
         de: {
@@ -1274,7 +1304,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "Höllisch gewinnt",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Trauen Sie sich, in die Tiefen dieser geisterhaften Casinos einzutauchen, die die heißesten höllischen Gewinne und teuflischen Boni bieten.",
                 "Pick, Play, and": "Auswählen, Spielen und",
-                "Get Your Treat": "Hol dir deine Belohnung"
+                "Get Your Treat": "Hol dir deine Belohnung",
+                "Midweek mischief!": "Mitte-der-Woche-Unfug!",
+                "spin and win, if you dare!": "drehen und gewinnen, wenn du dich traust!",
+                "Ends In": "Endet in",
+                "A new week, a new scare": "Eine neue Woche, eine neue Schrecken",
+                "—start your winning streak today!": "Beginnen Sie heute Ihre Siegesserie!",
+                "Ghastly surprises await you": "Gruselige Überraschungen erwarten dich",
+                "—are you brave enough to claim them?": "Bist du mutig genug, sie zu beanspruchen?",
+                "Feel the thrills of fortune": "Spüre die Aufregung des Glücks",
+                "with today’s spooky surprise!": "mit der gruseligen Überraschung des heutigen Tages!",
+                "Prepare for frightful": "Bereite dich auf Schrecken vor",
+                "wins and eerie excitement!": "Sieg und unheimliche Aufregung!",
+                "Ghostly gains are just a": "Geisterhafte Gewinne sind nur ein",
+                "spin away—unlock today’s treat!": "Los geht's - entdecke die heutige Überraschung!",
+                "Unveil today’s fright and": "Enthülle den Schrecken des heutigen Tages",
+                "feel the chill of fortune!": "Spüre die Kälte des Schicksals!"
             }
         },
         bg: {
@@ -1626,7 +1671,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "АДСКИ ПОБЕДИ",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Осмели се да се потопиш в дълбините на тези обикаляни казина, предлагащи най-горещите адски печалби и дяволски бонуси.",
                 "Pick, Play, and": "Избери, Играй и",
-                "Get Your Treat": "Вземи своята награда."
+                "Get Your Treat": "Вземи своята награда",
+                "Midweek mischief!": "Средата на седмицата!",
+                "spin and win, if you dare!": "завъртете и спечелете, ако смелите!",
+                "Ends In": "Завършва в",
+                "A new week, a new scare": "Нова седмица, нов страх",
+                "—start your winning streak today!": "—започнете своята победна серия днес!",
+                "Ghastly surprises await you": "Ужасни изненади ви очакват",
+                "—are you brave enough to claim them?": "- дали си достатъчно смел, за да ги претендираш?",
+                "Feel the thrills of fortune": "Усетете тръпките на късмета",
+                "with today’s spooky surprise!": "с днешното страшно изненада!",
+                "Prepare for frightful": "Подгответе се за ужасен",
+                "wins and eerie excitement!": "победи и плашещо вълнение!",
+                "Ghostly gains are just a": "Призрачните печалби са просто едно",
+                "spin away—unlock today’s treat!": "завъртете се - отключете днешното удоволствие!",
+                "Unveil today’s fright and": "Разкрий страха днес",
+                "feel the chill of fortune!": "почувствайте студа на късмета!"
             }
         },
         cz: {
@@ -1978,7 +2038,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "PEKELNÉ VÝHRY",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Odvažte se ponořit do hlubin těchto strašidelných kasin nabízejících nejžhavější pekelné výhry a ďábelské bonusy.",
                 "Pick, Play, and": "Vyber, hraj a",
-                "Get Your Treat": "Dostanete svou odměnu"
+                "Get Your Treat": "Dostanete svou odměnu",
+                "Midweek mischief!": "Středotýdenní neplecha!",
+                "spin and win, if you dare!": "otoč a vyhraj, pokud se odvážíš!",
+                "Ends In": "Končí v",
+                "A new week, a new scare": "Nový týden, nový strach",
+                "—start your winning streak today!": "Začněte svou výherní sérii dnes!",
+                "Ghastly surprises await you": "Čekají na tebe strašidelné překvapení",
+                "—are you brave enough to claim them?": "– jsi dost odvážný na to, abys si je nárokoval?",
+                "Feel the thrills of fortune": "Pocitujte vzrušení štěstí",
+                "with today’s spooky surprise!": "s dnešním děsivým překvapením!",
+                "Prepare for frightful": "Připravte se na děsivé",
+                "wins and eerie excitement!": "výhry a podivné vzrušení!",
+                "Ghostly gains are just a": "Záhadné zisky jsou jen",
+                "spin away—unlock today’s treat!": "Otočte pryč - odemkněte dnešní odměnu!",
+                "Unveil today’s fright and": "Odhal dnešní hrůzu",
+                "feel the chill of fortune!": "pocítit chlad štěstí!"
             }
         },
         dk: {
@@ -2330,7 +2405,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "Hellish vinder",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Vov at dykke ned i dybderne af disse hjemsøgte kasinoer, der tilbyder de varmeste helvedesgevinster og djævelske bonusser.",
                 "Pick, Play, and": "Vælg, Spil, og",
-                "Get Your Treat": "Få din godbid"
+                "Get Your Treat": "Få din godbid",
+                "Midweek mischief!": "Midtuge ballade!",
+                "spin and win, if you dare!": "spin and win, hvis du tør!",
+                "Ends In": "Slutter i",
+                "A new week, a new scare": "En ny uge, en ny skræk",
+                "—start your winning streak today!": "Start din vindende stime i dag!",
+                "Ghastly surprises await you": "Grusomme overraskelser venter dig",
+                "—are you brave enough to claim them?": "Er du modig nok til at kræve dem?",
+                "Feel the thrills of fortune": "Mærk spændingen ved lykken",
+                "with today’s spooky surprise!": "med dagens uhyggelige overraskelse!",
+                "Prepare for frightful": "Forbered dig på frygtelig",
+                "wins and eerie excitement!": "sejre og uhyggelig spænding!",
+                "Ghostly gains are just a": "Spøgelsesagtige gevinster er bare en",
+                "spin away—unlock today’s treat!": "spin away - lås op for dagens godbid!",
+                "Unveil today’s fright and": "Afslør dagens skræk og",
+                "feel the chill of fortune!": "føl kulden fra skæbnen!"
             }
         },
         nl: {
@@ -2682,7 +2772,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "Helse overwinningen",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Durf af te dalen in de diepten van deze spookachtige casino's die de heetste helse overwinningen en duivelse bonussen bieden.",
                 "Pick, Play, and": "Kies, Speel en",
-                "Get Your Treat": "Krijg je traktatie"
+                "Get Your Treat": "Krijg je traktatie",
+                "Midweek mischief!": "Midweek kattenkwaad!",
+                "spin and win, if you dare!": "draai en win, als je durft!",
+                "Ends In": "Eindigt In",
+                "A new week, a new scare": "Een nieuwe week, een nieuwe schrik",
+                "—start your winning streak today!": "Begin vandaag nog je winnende reeks!",
+                "Ghastly surprises await you": "Afschuwelijke verrassingen wachten op je",
+                "—are you brave enough to claim them?": "ben je moedig genoeg om ze op te eisen?",
+                "Feel the thrills of fortune": "Voel de opwinding van fortuin",
+                "with today’s spooky surprise!": "met de griezelige verrassing van vandaag!",
+                "Prepare for frightful": "Bereid je voor op angstaanjagend",
+                "wins and eerie excitement!": "winsten en griezelige opwinding!",
+                "Ghostly gains are just a": "Spectrale winsten zijn slechts een",
+                "spin away—unlock today’s treat!": "draai weg - ontgrendel de traktatie van vandaag!",
+                "Unveil today’s fright and": "Onthul de angst van vandaag",
+                "feel the chill of fortune!": "voel de kilte van het lot!"
             }
         },
         es: {
@@ -3034,7 +3139,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "GANANZA INFERNAL",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Atrévete a sumergirte en las profundidades de estos casinos embrujados que ofrecen las victorias más calientes del infierno y bonos diabólicos.",
                 "Pick, Play, and": "Escoge, Juega y",
-                "Get Your Treat": "Obtén tu premio"
+                "Get Your Treat": "Obtén tu premio",
+                "Midweek mischief!": "Travesuras a mitad de semana!",
+                "spin and win, if you dare!": "gira y gana, si te atreves!",
+                "Ends In": "Termina en",
+                "A new week, a new scare": "Una nueva semana, un nuevo susto",
+                "—start your winning streak today!": "¡Comienza tu racha ganadora hoy!",
+                "Ghastly surprises await you": "Sorpresas espeluznantes te esperan",
+                "—are you brave enough to claim them?": "¿Eres lo suficientemente valiente para reclamarlos?",
+                "Feel the thrills of fortune": "Siente la emoción de la fortuna",
+                "with today’s spooky surprise!": "¡con la sorpresa espeluznante de hoy!",
+                "Prepare for frightful": "Prepárate para el terror",
+                "wins and eerie excitement!": "¡Victorias y emoción misteriosa!",
+                "Ghostly gains are just a": "Ganancias fantasmales son solo eso",
+                "spin away—unlock today’s treat!": "¡Gira y desbloquea la sorpresa de hoy!",
+                "Unveil today’s fright and": "Descubre el miedo de hoy",
+                "feel the chill of fortune!": "siente el escalofrío de la fortuna!"
             }
         },
         fi: {
@@ -3386,7 +3506,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "HELVETILLINEN VOITTO",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Uskalla sukeltaa näiden kummittelevien kasinoiden syvyyksiin, jotka tarjoavat kuumimpia helvetillisiä voittoja ja pirullisia bonuksia.",
                 "Pick, Play, and": "Valitse, Pelaa ja",
-                "Get Your Treat": "Hae herkkusi"
+                "Get Your Treat": "Hae herkkusi",
+                "Midweek mischief!": "Viikon keskivaiheen ilkikurisuus!",
+                "spin and win, if you dare!": "pyöritä ja voita, jos uskallat!",
+                "Ends In": "Päättyy",
+                "A new week, a new scare": "Uusi viikko, uusi pelko",
+                "—start your winning streak today!": "Aloita voittoputkesi tänään!",
+                "Ghastly surprises await you": "Kauhistuttavia yllätyksiä odottaa sinua",
+                "—are you brave enough to claim them?": "Oletko tarpeeksi rohkea vaatimaan niitä?",
+                "Feel the thrills of fortune": "Tunne onnen jännitys",
+                "with today’s spooky surprise!": "tämän päivän kammottava yllätys!",
+                "Prepare for frightful": "Valmistaudu pelottavaan",
+                "wins and eerie excitement!": "voitot ja kammottava jännitys!",
+                "Ghostly gains are just a": "Aaveelliset voitot ovat vain aaveita",
+                "spin away—unlock today’s treat!": "pyöräytä pois - avaa päivän herkku!",
+                "Unveil today’s fright and": "Paljasta tämän päivän pelko ja",
+                "feel the chill of fortune!": "tunne kohtalon kylmyys!"
             }
         },
         fr: {
@@ -3739,7 +3874,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "VICTOIRE DIABOLIQUE",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Osez plonger dans les profondeurs de ces casinos hantés offrant les gains les plus brûlants de l'enfer et des bonus diaboliques.",
                 "Pick, Play, and": "Choisis, Joue, et",
-                "Get Your Treat": "Obtiens ta friandise"
+                "Get Your Treat": "Obtiens ta friandise",
+                "Midweek mischief!": "Mauvais tours en milieu de semaine!",
+                "spin and win, if you dare!": "tournez et gagnez, si vous osez!",
+                "Ends In": "Se termine dans",
+                "A new week, a new scare": "Une nouvelle semaine, une nouvelle frayeur",
+                "—start your winning streak today!": "- Commencez votre série de victoires aujourd'hui !",
+                "Ghastly surprises await you": "D'horribles surprises vous attendent",
+                "—are you brave enough to claim them?": "Êtes-vous assez courageux pour les revendiquer ?",
+                "Feel the thrills of fortune": "Ressentez les frissons de la fortune",
+                "with today’s spooky surprise!": "avec la surprise effrayante d'aujourd'hui!",
+                "Prepare for frightful": "Préparez-vous à avoir peur",
+                "wins and eerie excitement!": "gains et excitation étrange!",
+                "Ghostly gains are just a": "Les gains fantomatiques ne sont qu'une illusion",
+                "spin away—unlock today’s treat!": "tournez et débloquez la surprise du jour!",
+                "Unveil today’s fright and": "Dévoile la frayeur d'aujourd'hui",
+                "feel the chill of fortune!": "sentez le frisson de la fortune!"
             }
         },
         gr: {
@@ -4092,7 +4242,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "ΚΟΛΑΣΜΕΝΗ ΝΙΚΕΣ",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Τολμήστε να βουτήξετε στα βάθη αυτών των στοιχηματικών καζίνο που προσφέρουν τις πιο καυτές κερδοφόρες νίκες και διαβολικά μπόνους.",
                 "Pick, Play, and": "Επιλέξτε, Παίξτε και",
-                "Get Your Treat": "Πάρτε το δώρο σας"
+                "Get Your Treat": "Πάρτε το δώρο σας",
+                "Midweek mischief!": "Κακόβουλες πράξεις μέσης εβδομάδας!",
+                "spin and win, if you dare!": "στρίψτε και κερδίστε, αν τολμάτε!",
+                "Ends In": "Τελειώνει Σε",
+                "A new week, a new scare": "Μια νέα εβδομάδα, ένας νέος φόβος",
+                "—start your winning streak today!": "Ξεκινήστε τη σειρά νικών σας σήμερα!",
+                "Ghastly surprises await you": "Σκοτεινές εκπλήξεις σας περιμένουν",
+                "—are you brave enough to claim them?": "- είσαι αρκετά γενναίος για να τα διεκδικήσεις",
+                "Feel the thrills of fortune": "Αισθάνεστε τις συγκινήσεις της τύχης",
+                "with today’s spooky surprise!": "με τη σημερινή τρομακτική έκπληξη!",
+                "Prepare for frightful": "Προετοιμαστείτε για φρίκη",
+                "wins and eerie excitement!": "νίκες και τρομακτική αγωνία!",
+                "Ghostly gains are just a": "Τα φαντασμαγορικά κέρδη είναι απλώς ένα",
+                "spin away—unlock today’s treat!": "ξεσπάστε - ξεκλειδώστε το σημερινό επιδόρπιο!",
+                "Unveil today’s fright and": "Αποκαλύψτε τον φόβο της σημερινής ημέρας",
+                "feel the chill of fortune!": "νιώστε την ψυχρασία της τύχης!"
             }
         },
         hu: {
@@ -4445,7 +4610,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "Pokoli győzelem",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Merce a legmélyebb, kísérteties kaszinókba, ahol a legforróbb pokoli nyereményeket és ördögi bónuszokat kínálják.",
                 "Pick, Play, and": "Válassz, Játsz, és",
-                "Get Your Treat": "Kapd meg a jutalmadat."
+                "Get Your Treat": "Kapd meg a jutalmadat",
+                "Midweek mischief!": "Hét közepi csínytevések!",
+                "spin and win, if you dare!": "pörögj és nyerj, ha mered!",
+                "Ends In": "Vége van",
+                "A new week, a new scare": "Egy új hét, egy új rémület",
+                "—start your winning streak today!": "kezdje meg a nyerő sorozatát ma!",
+                "Ghastly surprises await you": "Rettenetes meglepetések várnak rád",
+                "—are you brave enough to claim them?": "- merésze vagy bevallani őket?",
+                "Feel the thrills of fortune": "Érezd a szerencse izgalmait",
+                "with today’s spooky surprise!": "a mai ijesztő meglepetéssel!",
+                "Prepare for frightful": "Készülj a rémületre",
+                "wins and eerie excitement!": "győzelem és kísérteties izgalom!",
+                "Ghostly gains are just a": "Szellemlényes nyereségek csak egyek",
+                "spin away—unlock today’s treat!": "pörögj el - nyisd ki a mai meglepetést!",
+                "Unveil today’s fright and": "Fedezze fel a mai rémületet",
+                "feel the chill of fortune!": "érzed a szerencse hidegét!"
             }
         },
         it: {
@@ -4798,7 +4978,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "INFERNALE VINCE",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Osate immergervi nelle profondità di questi casinò infestati che offrono le vincite infernali più calde e i bonus diabolici.",
                 "Pick, Play, and": "Scegli, Gioca e",
-                "Get Your Treat": "Prendi il tuo trattamento"
+                "Get Your Treat": "Prendi il tuo trattamento",
+                "Midweek mischief!": "Dispetti a metà settimana!",
+                "spin and win, if you dare!": "gira e vinci, se osi!",
+                "Ends In": "Termina In",
+                "A new week, a new scare": "Una nuova settimana, una nuova paura",
+                "—start your winning streak today!": "Inizia la tua serie vincente oggi!",
+                "Ghastly surprises await you": "Orribili sorprese ti aspettano",
+                "—are you brave enough to claim them?": "Sei abbastanza coraggioso da reclamarli?",
+                "Feel the thrills of fortune": "Senti le emozioni della fortuna",
+                "with today’s spooky surprise!": "con la sorpresa spaventosa di oggi!",
+                "Prepare for frightful": "Preparati per spaventoso",
+                "wins and eerie excitement!": "vittorie ed eccitazione inquietante!",
+                "Ghostly gains are just a": "Guadagni spettrali sono solo un",
+                "spin away—unlock today’s treat!": "gira via - sblocca il regalo di oggi!",
+                "Unveil today’s fright and": "Svela la paura di oggi",
+                "feel the chill of fortune!": "sentire il freddo della fortuna!"
             }
         },
         no: {
@@ -5151,7 +5346,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "HELLISH VINNER",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Våg å dykke ned i dybdene av disse hjemsøkte kasinoene som tilbyr de varmeste helvetesgevinster og djevelske bonuser.",
                 "Pick, Play, and": "Velg, Spill, og",
-                "Get Your Treat": "Få godbiten din"
+                "Get Your Treat": "Få godbiten din",
+                "Midweek mischief!": "Midtuke ulykke!",
+                "spin and win, if you dare!": "spinn og vinn, hvis du tør!",
+                "Ends In": "Slutter i",
+                "A new week, a new scare": "En ny uke, en ny skrekk",
+                "—start your winning streak today!": "—start din seiersrekke i dag!",
+                "Ghastly surprises await you": "Grusomme overraskelser venter deg",
+                "—are you brave enough to claim them?": "- er du modig nok til å kreve dem?",
+                "Feel the thrills of fortune": "Kjenn spenningen av lykken",
+                "with today’s spooky surprise!": "med dagens skumle overraskelse!",
+                "Prepare for frightful": "Forbered deg på skrekkinnjagende",
+                "wins and eerie excitement!": "seire og uhyggelig spenning!",
+                "Ghostly gains are just a": "Spøkelsesaktige gevinster er bare en",
+                "spin away—unlock today’s treat!": "spinn bort - lås opp dagens godbit!",
+                "Unveil today’s fright and": "Avdekke dagens skrekk og",
+                "feel the chill of fortune!": "kjenne kulden av skjebnen!"
             }
         },
         pt: {
@@ -5504,7 +5714,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "INFERNAIS VENCEM",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Atreva-se a mergulhar nas profundezas desses cassinos assombrados que oferecem as vitórias mais infernais e bônus diabólicos.",
                 "Pick, Play, and": "Escolha, Jogue e",
-                "Get Your Treat": "Receba o seu agrado"
+                "Get Your Treat": "Receba o seu agrado",
+                "Midweek mischief!": "Travessura no meio da semana!",
+                "spin and win, if you dare!": "girar e ganhar, se tiver coragem!",
+                "Ends In": "Fim em",
+                "A new week, a new scare": "Uma nova semana, um novo susto",
+                "—start your winning streak today!": "Comece sua sequência de vitórias hoje!",
+                "Ghastly surprises await you": "Surpresas terríveis esperam por você",
+                "—are you brave enough to claim them?": "Você é corajoso o suficiente para reivindicá-los?",
+                "Feel the thrills of fortune": "Sinta as emoções da fortuna",
+                "with today’s spooky surprise!": "com a surpresa assustadora de hoje!",
+                "Prepare for frightful": "Prepare-se para o assustador",
+                "wins and eerie excitement!": "vitórias e excitação sinistra!",
+                "Ghostly gains are just a": "Os ganhos fantasmagóricos são apenas um",
+                "spin away—unlock today’s treat!": "rodar para longe - desbloquear a surpresa de hoje!",
+                "Unveil today’s fright and": "Revelar o medo de hoje",
+                "feel the chill of fortune!": "sinta o frio da fortuna!"
             }
         },
         se: {
@@ -5857,7 +6082,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "HIMMELSKA VINNARE",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Våga dyka ner i djupen av dessa hemsökta kasinon som erbjuder de hetaste helvetiska vinster och djävulska bonusar.",
                 "Pick, Play, and": "Välj, Spela och",
-                "Get Your Treat": "Få din behandla"
+                "Get Your Treat": "Få din behandla",
+                "Midweek mischief!": "Veckans bus!",
+                "spin and win, if you dare!": "snurra och vinn, om du vågar!",
+                "Ends In": "Slutar i",
+                "A new week, a new scare": "En ny vecka, en ny skräck",
+                "—start your winning streak today!": "– påbörja din vinstsvit idag!",
+                "Ghastly surprises await you": "Skrämmande överraskningar väntar dig",
+                "—are you brave enough to claim them?": "- är du modig nog att hävda dem?",
+                "Feel the thrills of fortune": "Känn spänningen av lyckan",
+                "with today’s spooky surprise!": "med dagens läskiga överraskning!",
+                "Prepare for frightful": "Förbered dig för skräckinjagande",
+                "wins and eerie excitement!": "vinster och kuslig spänning!",
+                "Ghostly gains are just a": "Spöklika vinster är bara en",
+                "spin away—unlock today’s treat!": "snurra bort - lås upp dagens godsak!",
+                "Unveil today’s fright and": "Avslöja dagens skräck och",
+                "feel the chill of fortune!": "känn kylan av ödet!"
             }
         },
         sk: {
@@ -6210,7 +6450,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "PEKELNÉ VÍŤAZSTVO",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Odvážte sa ponoriť do hĺbok týchto strašidelne kasín ponúkajúcich najhorúcejšie pekelné výhry a diabolské bonusy.",
                 "Pick, Play, and": "Vyber, Hraj a",
-                "Get Your Treat": "Dostaň svoju odmenu"
+                "Get Your Treat": "Dostaň svoju odmenu",
+                "Midweek mischief!": "Stredotýždňové nezbednosti!",
+                "spin and win, if you dare!": "otoč a vyhraj, ak máš odvahu!",
+                "Ends In": "Končí v",
+                "A new week, a new scare": "Nový týždeň, nový strach",
+                "—start your winning streak today!": "Začnite dnes svoju výhernú sériu!",
+                "Ghastly surprises await you": "Desivé prekvapenia na vás čakajú",
+                "—are you brave enough to claim them?": "– máš dosť odvahy tvrdiť to?",
+                "Feel the thrills of fortune": "Cítiť vzrušenie šťastia",
+                "with today’s spooky surprise!": "s dnešným strašidelným prekvapením!",
+                "Prepare for frightful": "Pripravte sa na desivé",
+                "wins and eerie excitement!": "víťazstvá a strašidelné vzrušenie!",
+                "Ghostly gains are just a": "Duchovné zisky sú len také",
+                "spin away—unlock today’s treat!": "otočte sa preč - odomknite dnešnú odmenu!",
+                "Unveil today’s fright and": "Odhal dnešný strach",
+                "feel the chill of fortune!": "cítiť chlad šťastia!"
             }
         },
         tr: {
@@ -6563,7 +6818,22 @@ async function initializeI18n() {
                 "HELLISH WINS": "Cehennem Kazanır",
                 "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses.": "Bu lanetli casinoların derinliklerine dalma cesaretini göster, en sıcak cehennem kazançları ve şeytani bonuslar sunuyorlar.",
                 "Pick, Play, and": "Seç, Oyna ve",
-                "Get Your Treat": "Ödülünü Al"
+                "Get Your Treat": "Ödülünü Al",
+                "Midweek mischief!": "Hafta içi yaramazlık!",
+                "spin and win, if you dare!": "çevir ve kazan, cesaretin varsa!",
+                "Ends In": "Sonuçlanır",
+                "A new week, a new scare": "Yeni bir hafta, yeni bir korku",
+                "—start your winning streak today!": "—bugün kazanma serinizi başlatın!",
+                "Ghastly surprises await you": "Sizi korkunç sürprizler bekliyor",
+                "—are you brave enough to claim them?": "cesur musun onları iddia etmeye?",
+                "Feel the thrills of fortune": "Şansın heyecanını hissedin",
+                "with today’s spooky surprise!": "bugünün ürkütücü sürpriziyle!",
+                "Prepare for frightful": "Korkunç bir şekilde hazırlanın",
+                "wins and eerie excitement!": "kazançlar ve ürkütücü heyecan!",
+                "Ghostly gains are just a": "Ruhani kazançlar sadece bir",
+                "spin away—unlock today’s treat!": "uzaklaş—bugünün sürprizini aç!",
+                "Unveil today’s fright and": "Bugünün korkusunu açığa çıkar",
+                "feel the chill of fortune!": "kaderin soğukluğunu hissedin!"
             }
         }
     };

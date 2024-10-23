@@ -154,14 +154,14 @@
   color: #ff8f1f;
 }
 .emojis h3 {
-  font-size: 43px;
+  font-size: 33px;
   font-weight: 700;
   max-width: 286px;
   line-height: 60px;
 }
 .emojis h3 span {
   color: #ff8f1f;
-  font-size: 35px;
+  font-size: 28px;
 }
 
 .bg-main h2 {
@@ -10803,4 +10803,16 @@ main > .topbr {
   .refetch {
     display: none;
   }
+}
+
+.timer2 p {
+  font-size: 25px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0;
+}
+.timer2 span {
+  color: #ff8f1f;
+  font-size: 28px;
+  font-weight: 700;
 }
