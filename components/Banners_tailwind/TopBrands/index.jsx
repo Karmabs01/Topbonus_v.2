@@ -11,6 +11,7 @@ import { getBrands } from "../../getBrands/getBrands2";
 import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import Pickup from "./pickup";
+import useSWR from "swr";
 
 import "./styled.component.css";
 
@@ -21,8 +22,6 @@ const TopBrands = () => {
   const [brands, setBrands] = useState([]);
   const { language } = useLanguage();
   const { t } = useTranslation();
-
-  console.log("Component rendered with language:", language);
 
   const settings = useMemo(
     () => ({
@@ -106,58 +105,41 @@ const TopBrands = () => {
     }
   }, [language]);
 
-  const fetchAllBrands = useCallback(async () => {
-    console.log("Fetching all brands for language:", language);
-    setLoading(true);
-    try {
-      const data = await getBrands(language);
-      console.log("Fetched data:", data);
+  const categoryBrands = { key1: "Trendsetting", key2: "1" };
 
-      const filteredBrands = data.filter((brand) => {
-        return brand.Networks === "1" || brand.High_hybrid === "1";
-      });
-      console.log("Filtered brands:", filteredBrands);
 
-      setBrands(filteredBrands);
-    } catch (error) {
-      console.error("Error fetching brands:", error);
-    } finally {
+  const { data, error } = useSWR(
+    ["brands", language],
+    () => getBrands(language),
+    { initialData: brands }
+  );
+  useEffect(() => {
+    if (data) {
+      const filteredData = data.filter(
+        (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
+      );
+      setBrands(filteredData);
       setLoading(false);
     }
-  }, [language]);
+  }, [data, categoryBrands.key1, categoryBrands.key2]);
 
-  useEffect(() => {
-    console.log("useEffect to fetch brands triggered");
-    fetchAllBrands();
-  }, [fetchAllBrands]);
 
-  const shuffledBrands = useMemo(() => {
-    const shuffled = shuffle(brands);
-    console.log("Shuffled brands:", shuffled);
-    return shuffled;
-  }, [brands]);
 
-  const cards2 = useMemo(
-    () =>
-      shuffledBrands.slice(0, 6).map((brand) => ({
-        key: uuidv4(),
-        content: (
-          <Card
-            imagen={`/brands/${brand.CasinoBrand}.png`}
-            link={brand.GoBig}
-            bonus={brand.OurOfferContent}
-          />
-        ),
-      })),
-    [shuffledBrands]
-  );
+  const shuffledBrands = shuffle(brands);
+  const cards2 = shuffledBrands.slice(0, 6).map((brand) => ({
+    key: uuidv4(),
+    content: (
+      <Card
+        imagen={`/brands/${brand.CasinoBrand}.png`}
+        link={brand.GoBig}
+        bonus={brand.OurOfferContent}
+      />
+    ),
+  }));
 
-  const [currentBrandIndex, setCurrentBrandIndex] = useState(0);
   const [fade, setFade] = useState(true);
 
-  useEffect(() => {
-    console.log("Brands state updated:", brands);
-  }, [brands]);
+  console.log("SHHH", brands)
 
   return (
     <div className="topbr-tw">
