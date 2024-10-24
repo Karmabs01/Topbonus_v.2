@@ -88,8 +88,8 @@ export default function Banner_small() {
         <div className="main__container">
           <div className="flex flex-col face-mob">
             <h3 className="text-lg leading-6 ">
-              {t("Midweek mischief!")}
-              <span> {t("spin and win, if you dare!")}</span>
+            {t("Feel the thrills of fortune")}
+            <span> {t("with today’s spooky surprise!")}</span>
             </h3>
             <div className="timer2 text-lg mt-4 flex flex-col">
               <p>{t("Ends In")}:</p> <span>{timeLeft}</span>
