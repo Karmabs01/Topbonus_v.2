@@ -64,7 +64,7 @@
     font-family: "AA Duke";
     font-size: 33px;
     font-weight: 400;
-    max-width: 286px;
+    max-width: 446px;
     line-height: 50px;
   }
   .emojis h3 span {
@@ -164,8 +164,8 @@
 .emojis h3 {
   font-size: 33px !important;
   font-weight: 700;
-  max-width: 286px;
-  line-height: 50px !important;
+  max-width: 446px;
+  line-height: 40px !important;
 }
 .emojis h3 span {
   color: #fee000;
