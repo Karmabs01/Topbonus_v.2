@@ -54,14 +54,14 @@
   }
   .emojis h3 {
     font-family: "AA Duke";
-    font-size: 43px;
+    font-size: 33px;
     font-weight: 400;
     max-width: 286px;
     line-height: 40px;
   }
   .emojis h3 span {
     color: #ff8f1f;
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .bg-main h2 {
