@@ -162,10 +162,10 @@
   color: #fee000;
 }
 .emojis h3 {
-  font-size: 33px;
+  font-size: 33px !important;
   font-weight: 700;
   max-width: 286px;
-  line-height: 50px;
+  line-height: 50px !important;
 }
 .emojis h3 span {
   color: #fee000;
