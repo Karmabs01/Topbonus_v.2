@@ -2897,15 +2897,15 @@ select {
 
 .all .emojis h3 {
   font-family: AA Duke;
-  font-size: 43px;
+  font-size: 33px;
   font-weight: 400;
-  max-width: 286px;
+  max-width: 446px;
   line-height: 50px;
 }
 
 .all .emojis h3 span {
   color: #fee000;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 .all .bg-main h2 {
@@ -2958,13 +2958,13 @@ select {
 
   .all .emojis h3 {
     max-width: initial;
-    font-size: 42px;
+    font-size: 32px;
     line-height: 50px;
     text-align: center;
   }
 
   .all .emojis h3 span {
-    font-size: 38px;
+    font-size: 28px;
   }
 
   .all .bg-main h2 {
@@ -3014,10 +3014,10 @@ select {
 }
 
 .emojis h3 {
-  font-size: 38px;
   font-weight: 700;
-  max-width: 286px;
-  line-height: 50px;
+  max-width: 446px;
+  font-size: 33px !important;
+  line-height: 40px !important;
 }
 
 .emojis h3 span {
