@@ -6,7 +6,7 @@ const Marquee = () => {
   const { t } = useTranslation();
 
   const handleClick = () => {
-    const targetElement = document.getElementById("anchor-marque");
+    const targetElement = document.getElementById("real-block");
     if (targetElement) {
       const headerOffset = 50; 
       const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;

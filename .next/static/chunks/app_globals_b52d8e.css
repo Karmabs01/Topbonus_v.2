@@ -2337,15 +2337,15 @@ select {
 
 .all .emojis h3 {
   font-family: AA Duke;
-  font-size: 43px;
+  font-size: 47px;
   font-weight: 400;
   max-width: 286px;
-  line-height: 50px;
+  line-height: 55px;
 }
 
 .all .emojis h3 span {
   color: #ff8f1f;
-  font-size: 45px;
+  font-size: 43px;
 }
 
 .all .bg-main h2 {
@@ -2378,7 +2378,6 @@ select {
 }
 
 @media (width >= 320px) and (width <= 767px) {
-
   .all .background-slider h3 {
     font-size: 48px;
   }
@@ -2399,13 +2398,13 @@ select {
 
   .all .emojis h3 {
     max-width: initial;
-    font-size: 22px;
+    font-size: 28px;
     line-height: 50px;
     text-align: center;
   }
 
   .all .emojis h3 span {
-    font-size: 38px;
+    font-size: 25px;
   }
 
   .all .bg-main h2 {

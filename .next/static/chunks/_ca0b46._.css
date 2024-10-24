@@ -2893,15 +2893,15 @@ select {
 
 .all .emojis h3 {
   font-family: AA Duke;
-  font-size: 83px;
+  font-size: 47px;
   font-weight: 400;
   max-width: 286px;
-  line-height: 80px;
+  line-height: 55px;
 }
 
 .all .emojis h3 span {
   color: #ff8f1f;
-  font-size: 65px;
+  font-size: 43px;
 }
 
 .all .bg-main h2 {
@@ -2954,13 +2954,13 @@ select {
 
   .all .emojis h3 {
     max-width: initial;
-    font-size: 42px;
+    font-size: 28px;
     line-height: 50px;
     text-align: center;
   }
 
   .all .emojis h3 span {
-    font-size: 38px;
+    font-size: 25px;
   }
 
   .all .bg-main h2 {

@@ -31,10 +31,10 @@ export default async function Home() {
     <>
       <Three_part_gallery />
       <TopBrands />
+      <Banner_small />
       <Brands_double_carousel />
       <Next_event_banner />
       <Fortune_wheel />
-      <Banner_small />
       <Random_block />
 
       {/*    
