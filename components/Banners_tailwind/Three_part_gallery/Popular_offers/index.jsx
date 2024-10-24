@@ -102,7 +102,9 @@ export default function Popular_offers() {
     }
   }, [language]);
 
-  const categoryBrands = { key1: "Segment2", key2: "Sandbox" };
+  const categoryBrands = { key1: "Networks", key2: "1" };
+  const categoryBrands0 = { key1: "Networks", key2: "1 Premium" };
+
   const categoryBrands2 = { key1: "Video", key2: "hell" };
 
   const { data, error } = useSWR(
@@ -113,19 +115,22 @@ export default function Popular_offers() {
 
   useEffect(() => {
     if (data) {
-      const filteredData = data.filter(
-        (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
+      const filteredData = data.filter((rowData) =>
+        rowData[categoryBrands0.key1] === categoryBrands0.key2 ||
+        rowData[categoryBrands.key1] === categoryBrands.key2
       );
       const filteredData2 = data.filter(
         (rowData) => rowData[categoryBrands2.key1] === categoryBrands2.key2
       );
       setBrands(filteredData);
       setBrands2(filteredData2);
-      console.log("BRANDS@@@222", filteredData2)
+      console.log("BRANDS@@@222", filteredData)
 
       setLoading(false);
     }
-  }, [data, categoryBrands.key1, categoryBrands.key2]);
+  }, [data, categoryBrands.key1, categoryBrands.key2, categoryBrands0.key1, categoryBrands0.key2]);
+
+  
 
   const refetchBrands = () => {
     const shuffled = shuffle(brands);
@@ -145,7 +150,7 @@ export default function Popular_offers() {
       />
     ),
   }));
-  console.log("BRANDS@@@", brands2)
+
 
   return (
     <>
