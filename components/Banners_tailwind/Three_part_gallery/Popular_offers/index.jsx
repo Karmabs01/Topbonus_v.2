@@ -103,7 +103,7 @@ export default function Popular_offers() {
   }, [language]);
 
   const categoryBrands = { key1: "Networks", key2: "1" };
-  const categoryBrands0 = { key1: "Networks", key2: "1 Premium" };
+  const categoryBrands0 = { key1: "Networks", key2: "Premium" };
 
   const categoryBrands2 = { key1: "Video", key2: "hell" };
 
