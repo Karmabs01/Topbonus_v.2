@@ -88,8 +88,8 @@ export default function Banner_small() {
         <div className="main__container">
           <div className="flex flex-col face-mob">
             <h3 className="text-lg leading-6 ">
-              {t("Ghostly gains are just a")}
-              <span> {t("spin away—unlock today’s treat!")}</span>
+              {t("Unveil today’s fright and")}
+              <span> {t("feel the chill of fortune!")}</span>
             </h3>
             <div className="timer2 text-lg mt-4 flex flex-col">
               <p>{t("Ends In")}:</p> <span>{timeLeft}</span>
