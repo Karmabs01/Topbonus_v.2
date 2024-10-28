@@ -87,7 +87,7 @@ export default function Popular_offers() {
     }
   }, [language]);
 
-  const categoryBrands = { key1: "High_hybrid", key2: "1" };
+  const categoryBrands = { key1: "Segment2", key2: "Sandbox" };
   const { data, error } = useSWR(
     ["brands", language],
     () => getBrands(language),

@@ -60,7 +60,7 @@ export default function AllBrands({
   const { language } = useLanguage();
   const categoryBrandsAll = { key1: segment, key2: value };
 
-  const categoryBrands = { key1: "Video", key2: "1" };
+  const categoryBrands = { key1: "High_hybrid", key2: "1" };
   useEffect(() => {
     const fetchData = async () => {
       const brands2 = await getBrands(categoryBrands, language);
