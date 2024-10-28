@@ -584,7 +584,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Ghostly gains are just a",
                 "spin away—unlock today’s treat!": "spin away—unlock today’s treat!",
                 "Unveil today’s fright and": "Unveil today’s fright and",
-                "feel the chill of fortune!": "feel the chill of fortune!"
+                "feel the chill of fortune!": "feel the chill of fortune!",
+                "SPECIAL HALLOWEEN": "SPECIAL HALLOWEEN"
             }
         },
         pl: {
@@ -951,7 +952,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Nadprzyrodzone zyski są tylko",
                 "spin away—unlock today’s treat!": "kręć dalej - odblokuj dzisiejszą niespodziankę!",
                 "Unveil today’s fright and": "Ujawnij dzisiejszy strach",
-                "feel the chill of fortune!": "poczuj chłód fortuny!"
+                "feel the chill of fortune!": "poczuj chłód fortuny!",
+                "SPECIAL HALLOWEEN": "SPECJALNY HALLOWEEN"
             }
         },
         de: {
@@ -1319,7 +1321,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Geisterhafte Gewinne sind nur ein",
                 "spin away—unlock today’s treat!": "Los geht's - entdecke die heutige Überraschung!",
                 "Unveil today’s fright and": "Enthülle den Schrecken des heutigen Tages",
-                "feel the chill of fortune!": "Spüre die Kälte des Schicksals!"
+                "feel the chill of fortune!": "Spüre die Kälte des Schicksals!",
+                "SPECIAL HALLOWEEN": "SPEZIELLES HALLOWEEN"
             }
         },
         bg: {
@@ -1686,7 +1689,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Призрачните печалби са просто едно",
                 "spin away—unlock today’s treat!": "завъртете се - отключете днешното удоволствие!",
                 "Unveil today’s fright and": "Разкрий страха днес",
-                "feel the chill of fortune!": "почувствайте студа на късмета!"
+                "feel the chill of fortune!": "почувствайте студа на късмета!",
+                "SPECIAL HALLOWEEN": "СПЕЦИАЛЕН ХЕЛОУИН"
             }
         },
         cz: {
@@ -2053,7 +2057,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Záhadné zisky jsou jen",
                 "spin away—unlock today’s treat!": "Otočte pryč - odemkněte dnešní odměnu!",
                 "Unveil today’s fright and": "Odhal dnešní hrůzu",
-                "feel the chill of fortune!": "pocítit chlad štěstí!"
+                "feel the chill of fortune!": "pocítit chlad štěstí!",
+                "SPECIAL HALLOWEEN": "SPECIÁLNÍ HALLOWEEN"
             }
         },
         dk: {
@@ -2420,7 +2425,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Spøgelsesagtige gevinster er bare en",
                 "spin away—unlock today’s treat!": "spin away - lås op for dagens godbid!",
                 "Unveil today’s fright and": "Afslør dagens skræk og",
-                "feel the chill of fortune!": "føl kulden fra skæbnen!"
+                "feel the chill of fortune!": "føl kulden fra skæbnen!",
+                "SPECIAL HALLOWEEN": "SÆRLIG HALLOWEEN"
             }
         },
         nl: {
@@ -2787,7 +2793,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Spectrale winsten zijn slechts een",
                 "spin away—unlock today’s treat!": "draai weg - ontgrendel de traktatie van vandaag!",
                 "Unveil today’s fright and": "Onthul de angst van vandaag",
-                "feel the chill of fortune!": "voel de kilte van het lot!"
+                "feel the chill of fortune!": "voel de kilte van het lot!",
+                "SPECIAL HALLOWEEN": "SPECIALE HALLOWEEN"
             }
         },
         es: {
@@ -3154,7 +3161,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Ganancias fantasmales son solo eso",
                 "spin away—unlock today’s treat!": "¡Gira y desbloquea la sorpresa de hoy!",
                 "Unveil today’s fright and": "Descubre el miedo de hoy",
-                "feel the chill of fortune!": "siente el escalofrío de la fortuna!"
+                "feel the chill of fortune!": "siente el escalofrío de la fortuna!",
+                "SPECIAL HALLOWEEN": "ESPECIAL HALLOWEEN"
             }
         },
         fi: {
@@ -3521,7 +3529,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Aaveelliset voitot ovat vain aaveita",
                 "spin away—unlock today’s treat!": "pyöräytä pois - avaa päivän herkku!",
                 "Unveil today’s fright and": "Paljasta tämän päivän pelko ja",
-                "feel the chill of fortune!": "tunne kohtalon kylmyys!"
+                "feel the chill of fortune!": "tunne kohtalon kylmyys!",
+                "SPECIAL HALLOWEEN": "ERITYINEN HALLOWEEN"
             }
         },
         fr: {
@@ -3889,7 +3898,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Les gains fantomatiques ne sont qu'une illusion",
                 "spin away—unlock today’s treat!": "tournez et débloquez la surprise du jour!",
                 "Unveil today’s fright and": "Dévoile la frayeur d'aujourd'hui",
-                "feel the chill of fortune!": "sentez le frisson de la fortune!"
+                "feel the chill of fortune!": "sentez le frisson de la fortune!",
+                "SPECIAL HALLOWEEN": "HALLOWEEN SPÉCIAL"
             }
         },
         gr: {
@@ -4257,7 +4267,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Τα φαντασμαγορικά κέρδη είναι απλώς ένα",
                 "spin away—unlock today’s treat!": "ξεσπάστε - ξεκλειδώστε το σημερινό επιδόρπιο!",
                 "Unveil today’s fright and": "Αποκαλύψτε τον φόβο της σημερινής ημέρας",
-                "feel the chill of fortune!": "νιώστε την ψυχρασία της τύχης!"
+                "feel the chill of fortune!": "νιώστε την ψυχρασία της τύχης!",
+                "SPECIAL HALLOWEEN": "ΕΙΔΙΚΟ HALLOWEEN"
             }
         },
         hu: {
@@ -4625,7 +4636,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Szellemlényes nyereségek csak egyek",
                 "spin away—unlock today’s treat!": "pörögj el - nyisd ki a mai meglepetést!",
                 "Unveil today’s fright and": "Fedezze fel a mai rémületet",
-                "feel the chill of fortune!": "érzed a szerencse hidegét!"
+                "feel the chill of fortune!": "érzed a szerencse hidegét!",
+                "SPECIAL HALLOWEEN": "KÜLÖNLEGES HALLOWEEN"
             }
         },
         it: {
@@ -4993,7 +5005,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Guadagni spettrali sono solo un",
                 "spin away—unlock today’s treat!": "gira via - sblocca il regalo di oggi!",
                 "Unveil today’s fright and": "Svela la paura di oggi",
-                "feel the chill of fortune!": "sentire il freddo della fortuna!"
+                "feel the chill of fortune!": "sentire il freddo della fortuna!",
+                "SPECIAL HALLOWEEN": "SPECIALE HALLOWEEN"
             }
         },
         no: {
@@ -5361,7 +5374,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Spøkelsesaktige gevinster er bare en",
                 "spin away—unlock today’s treat!": "spinn bort - lås opp dagens godbit!",
                 "Unveil today’s fright and": "Avdekke dagens skrekk og",
-                "feel the chill of fortune!": "kjenne kulden av skjebnen!"
+                "feel the chill of fortune!": "kjenne kulden av skjebnen!",
+                "SPECIAL HALLOWEEN": "SPESIELL HALLOWEEN"
             }
         },
         pt: {
@@ -5729,7 +5743,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Os ganhos fantasmagóricos são apenas um",
                 "spin away—unlock today’s treat!": "rodar para longe - desbloquear a surpresa de hoje!",
                 "Unveil today’s fright and": "Revelar o medo de hoje",
-                "feel the chill of fortune!": "sinta o frio da fortuna!"
+                "feel the chill of fortune!": "sinta o frio da fortuna!",
+                "SPECIAL HALLOWEEN": "HALLOWEEN ESPECIAL"
             }
         },
         se: {
@@ -6097,7 +6112,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Spöklika vinster är bara en",
                 "spin away—unlock today’s treat!": "snurra bort - lås upp dagens godsak!",
                 "Unveil today’s fright and": "Avslöja dagens skräck och",
-                "feel the chill of fortune!": "känn kylan av ödet!"
+                "feel the chill of fortune!": "känn kylan av ödet!",
+                "SPECIAL HALLOWEEN": "SPECIELL HALLOWEEN"
             }
         },
         sk: {
@@ -6465,7 +6481,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Duchovné zisky sú len také",
                 "spin away—unlock today’s treat!": "otočte sa preč - odomknite dnešnú odmenu!",
                 "Unveil today’s fright and": "Odhal dnešný strach",
-                "feel the chill of fortune!": "cítiť chlad šťastia!"
+                "feel the chill of fortune!": "cítiť chlad šťastia!",
+                "SPECIAL HALLOWEEN": "ŠPECIÁLNY HALLOWEEN"
             }
         },
         tr: {
@@ -6833,7 +6850,8 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Ruhani kazançlar sadece bir",
                 "spin away—unlock today’s treat!": "uzaklaş—bugünün sürprizini aç!",
                 "Unveil today’s fright and": "Bugünün korkusunu açığa çıkar",
-                "feel the chill of fortune!": "kaderin soğukluğunu hissedin!"
+                "feel the chill of fortune!": "kaderin soğukluğunu hissedin!",
+                "SPECIAL HALLOWEEN": "ÖZEL CADILAR BAYRAMI"
             }
         }
     };

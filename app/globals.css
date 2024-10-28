@@ -11215,3 +11215,19 @@ resize: none;
   font-size: 28px;
   font-weight: 700;
 }
+
+
+.random-title {
+  font-size: 34px;
+  line-height: 44px;
+}
+
+.refetch.absolute {
+  bottom: 16px;
+  left: 16px;
+}
+@media(min-width: 320px) and (max-width: 767px) {
+  .popular-offers .main__container {
+    width: 100%;
+  }
+}

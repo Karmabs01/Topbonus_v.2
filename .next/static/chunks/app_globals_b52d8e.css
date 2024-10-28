@@ -754,6 +754,10 @@ select {
   margin-right: .5rem !important;
 }
 
+.\!mt-0 {
+  margin-top: 0 !important;
+}
+
 .\!mt-16 {
   margin-top: 4rem !important;
 }
@@ -13279,6 +13283,22 @@ ul.ul-list a {
   color: #fee000;
   font-size: 28px;
   font-weight: 700;
+}
+
+.random-title {
+  font-size: 34px;
+  line-height: 44px;
+}
+
+.refetch.absolute {
+  bottom: 16px;
+  left: 16px;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .popular-offers .main__container {
+    width: 100%;
+  }
 }
 
 .placeholder\:text-gray-300::-moz-placeholder {

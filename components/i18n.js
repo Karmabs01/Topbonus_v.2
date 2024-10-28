@@ -734,6 +734,8 @@ async function initializeI18n() {
         "spin away—unlock today’s treat!": "spin away—unlock today’s treat!",
         "Unveil today’s fright and": "Unveil today’s fright and",
         "feel the chill of fortune!": "feel the chill of fortune!",
+
+        "SPECIAL HALLOWEEN": "SPECIAL HALLOWEEN",
       },
     },
 
@@ -1255,6 +1257,8 @@ async function initializeI18n() {
           "kręć dalej - odblokuj dzisiejszą niespodziankę!",
         "Unveil today’s fright and": "Ujawnij dzisiejszy strach",
         "feel the chill of fortune!": "poczuj chłód fortuny!",
+
+        "SPECIAL HALLOWEEN": "SPECJALNY HALLOWEEN",
       },
     },
     de: {
@@ -1776,6 +1780,8 @@ async function initializeI18n() {
         "Unveil today’s fright and":
           "Enthülle den Schrecken des heutigen Tages",
         "feel the chill of fortune!": "Spüre die Kälte des Schicksals!",
+
+        "SPECIAL HALLOWEEN": "SPEZIELLES HALLOWEEN",
       },
     },
     bg: {
@@ -2289,6 +2295,8 @@ async function initializeI18n() {
           "завъртете се - отключете днешното удоволствие!",
         "Unveil today’s fright and": "Разкрий страха днес",
         "feel the chill of fortune!": "почувствайте студа на късмета!",
+
+        "SPECIAL HALLOWEEN": "СПЕЦИАЛЕН ХЕЛОУИН",
       },
     },
     cz: {
@@ -2802,6 +2810,8 @@ async function initializeI18n() {
           "Otočte pryč - odemkněte dnešní odměnu!",
         "Unveil today’s fright and": "Odhal dnešní hrůzu",
         "feel the chill of fortune!": "pocítit chlad štěstí!",
+
+        "SPECIAL HALLOWEEN": "SPECIÁLNÍ HALLOWEEN",
       },
     },
     dk: {
@@ -3315,6 +3325,8 @@ async function initializeI18n() {
           "spin away - lås op for dagens godbid!",
         "Unveil today’s fright and": "Afslør dagens skræk og",
         "feel the chill of fortune!": "føl kulden fra skæbnen!",
+
+        "SPECIAL HALLOWEEN": "SÆRLIG HALLOWEEN",
       },
     },
     nl: {
@@ -3832,6 +3844,8 @@ async function initializeI18n() {
           "draai weg - ontgrendel de traktatie van vandaag!",
         "Unveil today’s fright and": "Onthul de angst van vandaag",
         "feel the chill of fortune!": "voel de kilte van het lot!",
+
+        "SPECIAL HALLOWEEN": "SPECIALE HALLOWEEN",
       },
     },
     es: {
@@ -4348,6 +4362,8 @@ async function initializeI18n() {
           "¡Gira y desbloquea la sorpresa de hoy!",
         "Unveil today’s fright and": "Descubre el miedo de hoy",
         "feel the chill of fortune!": "siente el escalofrío de la fortuna!",
+
+        "SPECIAL HALLOWEEN": "ESPECIAL HALLOWEEN",
       },
     },
     fi: {
@@ -4860,6 +4876,8 @@ async function initializeI18n() {
           "pyöräytä pois - avaa päivän herkku!",
         "Unveil today’s fright and": "Paljasta tämän päivän pelko ja",
         "feel the chill of fortune!": "tunne kohtalon kylmyys!",
+
+        "SPECIAL HALLOWEEN": "ERITYINEN HALLOWEEN",
       },
     },
     fr: {
@@ -5378,6 +5396,8 @@ async function initializeI18n() {
           "tournez et débloquez la surprise du jour!",
         "Unveil today’s fright and": "Dévoile la frayeur d'aujourd'hui",
         "feel the chill of fortune!": "sentez le frisson de la fortune!",
+
+        "SPECIAL HALLOWEEN": "HALLOWEEN SPÉCIAL",
       },
     },
 
@@ -5892,6 +5912,8 @@ async function initializeI18n() {
           "ξεσπάστε - ξεκλειδώστε το σημερινό επιδόρπιο!",
         "Unveil today’s fright and": "Αποκαλύψτε τον φόβο της σημερινής ημέρας",
         "feel the chill of fortune!": "νιώστε την ψυχρασία της τύχης!",
+
+        "SPECIAL HALLOWEEN": "ΕΙΔΙΚΟ HALLOWEEN",
       },
     },
     hu: {
@@ -6406,6 +6428,8 @@ async function initializeI18n() {
           "pörögj el - nyisd ki a mai meglepetést!",
         "Unveil today’s fright and": "Fedezze fel a mai rémületet",
         "feel the chill of fortune!": "érzed a szerencse hidegét!",
+
+        "SPECIAL HALLOWEEN": "KÜLÖNLEGES HALLOWEEN",
       },
     },
     it: {
@@ -6923,6 +6947,8 @@ async function initializeI18n() {
           "gira via - sblocca il regalo di oggi!",
         "Unveil today’s fright and": "Svela la paura di oggi",
         "feel the chill of fortune!": "sentire il freddo della fortuna!",
+
+        "SPECIAL HALLOWEEN": "SPECIALE HALLOWEEN",
       },
     },
     no: {
@@ -7437,6 +7463,8 @@ async function initializeI18n() {
           "spinn bort - lås opp dagens godbit!",
         "Unveil today’s fright and": "Avdekke dagens skrekk og",
         "feel the chill of fortune!": "kjenne kulden av skjebnen!",
+
+        "SPECIAL HALLOWEEN": "SPESIELL HALLOWEEN",
       },
     },
     pt: {
@@ -7953,6 +7981,8 @@ async function initializeI18n() {
           "rodar para longe - desbloquear a surpresa de hoje!",
         "Unveil today’s fright and": "Revelar o medo de hoje",
         "feel the chill of fortune!": "sinta o frio da fortuna!",
+
+        "SPECIAL HALLOWEEN": "HALLOWEEN ESPECIAL",
       },
     },
     se: {
@@ -8467,6 +8497,8 @@ async function initializeI18n() {
           "snurra bort - lås upp dagens godsak!",
         "Unveil today’s fright and": "Avslöja dagens skräck och",
         "feel the chill of fortune!": "känn kylan av ödet!",
+
+        "SPECIAL HALLOWEEN": "SPECIELL HALLOWEEN",
       },
     },
     sk: {
@@ -8980,6 +9012,8 @@ async function initializeI18n() {
           "otočte sa preč - odomknite dnešnú odmenu!",
         "Unveil today’s fright and": "Odhal dnešný strach",
         "feel the chill of fortune!": "cítiť chlad šťastia!",
+
+        "SPECIAL HALLOWEEN": "ŠPECIÁLNY HALLOWEEN",
       },
     },
     tr: {
@@ -9493,6 +9527,8 @@ async function initializeI18n() {
         "spin away—unlock today’s treat!": "uzaklaş—bugünün sürprizini aç!",
         "Unveil today’s fright and": "Bugünün korkusunu açığa çıkar",
         "feel the chill of fortune!": "kaderin soğukluğunu hissedin!",
+
+        "SPECIAL HALLOWEEN": "ÖZEL CADILAR BAYRAMI",
       },
     },
   };
