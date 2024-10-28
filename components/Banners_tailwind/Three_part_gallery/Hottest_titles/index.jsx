@@ -10,6 +10,8 @@ import Card from "../../../slider/Card";
 import { useLanguage } from "../../../switcher/LanguageContext";
 import { getBrands } from "../../../getBrands/getBrands2";
 import { useTranslation } from "react-i18next";
+import refetch from "@/public/refetch.png";
+
 import Slider from "react-slick";
 
 // import "./styled.component.css"
@@ -104,7 +106,7 @@ export default function Popular_offers() {
   }, [data, categoryBrands.key1, categoryBrands.key2]);
 
   // Начало изменений
-  const specificBrandName = 'Betplays'; // Замените на нужный бренд
+  const specificBrandName = "Betplays"; // Замените на нужный бренд
 
   let brandsToDisplay = [];
 
@@ -183,7 +185,11 @@ export default function Popular_offers() {
 
   const number = brands.length > 5 ? 5 : brands.length;
 
-  console.log("HOTTEST", brands);
+  const refetchBrands = () => {
+    const shuffled = shuffle(brands);
+    setBrands(shuffled); // Перемешиваем и обновляем состояние с брендами
+  };
+
   return (
     <>
       <div className="fivehot">
@@ -207,7 +213,18 @@ export default function Popular_offers() {
                 role="list"
                 className="grid grid-cols-1 gap-5 sm:gap-6 ul-list"
               >
-                {brandsToDisplay.map((rowData, index) => (
+                <button
+                  className="refetch absolute"
+                  onClick={refetchBrands} // Обработчик клика
+                >
+                  <Image
+                    src={refetch}
+                    alt="refetch"
+                    width={40}
+                    loading="lazy"
+                  />
+                </button>
+                {brands.slice(0, 5).map((rowData, index) => (
                   <Link
                     className=""
                     href={`${rowData.GoBig}/${newUrl}&creative_id=Hottest_2`}
