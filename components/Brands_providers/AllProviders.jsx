@@ -57,7 +57,7 @@ export default function AllProviders({
   const { language } = useLanguage();
   const categoryBrandsAll = { key1: segment, key2: value };
 
-  const categoryBrands = { key1: "Video", key2: "1" };
+  const categoryBrands = { key1: "High_hybrid", key2: "1" };
 
   const [visible, setVisible] = useState(false);
   const { data, error } = useSWR(
