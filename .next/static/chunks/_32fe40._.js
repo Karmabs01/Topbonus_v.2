@@ -197,7 +197,7 @@ function Pickup({ newUrl }) {
                         lineNumber: 36,
                         columnNumber: 11
                     }, this),
-                    brands.length > 0 && brands.slice(4, 5).map((rowData, index)=>// <p className="p">{t("Click below to claim your magical reward!")}</p>
+                    brands.length > 0 && brands.slice(2, 3).map((rowData, index)=>// <p className="p">{t("Click below to claim your magical reward!")}</p>
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3250,7 +3250,7 @@ const __TURBOPACK__default__export__ = {
 })()),
 "[project]/public/newimages/coins.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
-__turbopack_export_value__("/_next/static/media/coins.cca564bc.png");
+__turbopack_export_value__("/_next/static/media/coins.15a866b1.png");
 })()),
 "[project]/public/newimages/coins.png.mjs { IMAGE => \"[project]/public/newimages/coins.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
 "use strict";
@@ -3265,7 +3265,7 @@ const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$newimages$2f$coins$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
     width: 1753,
     height: 93,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAALElEQVR42gEhAN7/AFYtRYFTK0aERiVCfEYkQYI9I0KBLyBEejMkRoYuH0KDmzUJTW2TMyQAAAAASUVORK5CYII=",
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAALElEQVR42gEhAN7/AFYtRYFGMVWEPCpPfDsqT4I3JkuBLyBEejMkRoYuH0KDnW8JbKTOyxMAAAAASUVORK5CYII=",
     blurWidth: 8,
     blurHeight: 1
 };
@@ -3369,11 +3369,11 @@ function Banner_small() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 className: "text-lg leading-6 ",
                                 children: [
-                                    t("Feel the thrills of fortune"),
+                                    t("A new week, a new scare"),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: [
                                             " ",
-                                            t("with today’s spooky surprise!")
+                                            t("—start your winning streak today!")
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
@@ -4046,7 +4046,7 @@ function Popular_offers() {
     };
     const categoryBrands0 = {
         key1: "Networks",
-        key2: "1 Premium"
+        key2: "Premium"
     };
     const categoryBrands2 = {
         key1: "Video",
@@ -5384,6 +5384,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
     ]);
     const vis = randomBrands.length > 0 ? randomBrands : filteredBrands;
     const vis2 = randomBrands2.length > 0 ? randomBrands2 : topBrands;
+    console.log("!!BRANDS!!", topBrands);
     const [isMobile, setIsMobile] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         setIsMobile(window.innerWidth < 768);
@@ -5429,7 +5430,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: isLoader ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$FilterLoader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
             fileName: "[project]/components/Brands_home/AllBrands.jsx",
-            lineNumber: 184,
+            lineNumber: 185,
             columnNumber: 9
         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex flex-wrap justify-between awesome",
@@ -5464,7 +5465,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                 className: "flex ml-1 mb-3"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                lineNumber: 226,
+                                                lineNumber: 227,
                                                 columnNumber: 23
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5478,7 +5479,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                         size: 40
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                        lineNumber: 228,
+                                                        lineNumber: 229,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5486,13 +5487,13 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                         children: brand.OurOfferContent
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                        lineNumber: 233,
+                                                        lineNumber: 234,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                lineNumber: 227,
+                                                lineNumber: 228,
                                                 columnNumber: 23
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5506,7 +5507,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                         size: 40
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                        lineNumber: 238,
+                                                        lineNumber: 239,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5521,24 +5522,24 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                    lineNumber: 247,
+                                                                    lineNumber: 248,
                                                                     columnNumber: 29
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                            lineNumber: 245,
+                                                            lineNumber: 246,
                                                             columnNumber: 27
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                        lineNumber: 244,
+                                                        lineNumber: 245,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                lineNumber: 237,
+                                                lineNumber: 238,
                                                 columnNumber: 23
                                             }, this),
                                             advantages && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5555,7 +5556,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                 size: 34
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 257,
+                                                                lineNumber: 258,
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5563,7 +5564,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                 children: t("Advantages")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 258,
+                                                                lineNumber: 259,
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CaretDown$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CaretDown$3e$__["CaretDown"], {
@@ -5574,13 +5575,13 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 259,
+                                                                lineNumber: 260,
                                                                 columnNumber: 29
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                        lineNumber: 256,
+                                                        lineNumber: 257,
                                                         columnNumber: 27
                                                     }, this),
                                                     isPlusesOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5592,23 +5593,23 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                     children: advantage.advantage
                                                                 }, index, false, {
                                                                     fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                    lineNumber: 269,
+                                                                    lineNumber: 270,
                                                                     columnNumber: 35
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                            lineNumber: 267,
+                                                            lineNumber: 268,
                                                             columnNumber: 31
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                        lineNumber: 266,
+                                                        lineNumber: 267,
                                                         columnNumber: 29
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                lineNumber: 252,
+                                                lineNumber: 253,
                                                 columnNumber: 25
                                             }, this),
                                             deposits && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5625,7 +5626,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                 size: 34
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 285,
+                                                                lineNumber: 286,
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5633,7 +5634,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                 children: t("Payment Methods")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 289,
+                                                                lineNumber: 290,
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CaretDown$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CaretDown$3e$__["CaretDown"], {
@@ -5644,13 +5645,13 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 292,
+                                                                lineNumber: 293,
                                                                 columnNumber: 29
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                        lineNumber: 284,
+                                                        lineNumber: 285,
                                                         columnNumber: 27
                                                     }, this),
                                                     isDepositsOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5665,23 +5666,23 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                     loading: "lazy"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                    lineNumber: 305,
+                                                                    lineNumber: 306,
                                                                     columnNumber: 35
                                                                 }, this)
                                                             }, index, false, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 301,
+                                                                lineNumber: 302,
                                                                 columnNumber: 33
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                        lineNumber: 299,
+                                                        lineNumber: 300,
                                                         columnNumber: 29
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                lineNumber: 280,
+                                                lineNumber: 281,
                                                 columnNumber: 25
                                             }, this),
                                             withdrawals && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5698,7 +5699,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                 size: 34
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 324,
+                                                                lineNumber: 325,
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5706,7 +5707,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                 children: t("Game Providers")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 328,
+                                                                lineNumber: 329,
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CaretDown$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CaretDown$3e$__["CaretDown"], {
@@ -5717,13 +5718,13 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 331,
+                                                                lineNumber: 332,
                                                                 columnNumber: 29
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                        lineNumber: 323,
+                                                        lineNumber: 324,
                                                         columnNumber: 27
                                                     }, this),
                                                     isWithdrawalOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5738,23 +5739,23 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                     loading: "lazy"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                    lineNumber: 344,
+                                                                    lineNumber: 345,
                                                                     columnNumber: 35
                                                                 }, this)
                                                             }, index, false, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 340,
+                                                                lineNumber: 341,
                                                                 columnNumber: 33
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                        lineNumber: 338,
+                                                        lineNumber: 339,
                                                         columnNumber: 29
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                lineNumber: 319,
+                                                lineNumber: 320,
                                                 columnNumber: 25
                                             }, this),
                                             restricted && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5771,7 +5772,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                 size: 34
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 363,
+                                                                lineNumber: 364,
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5779,7 +5780,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                 children: t("Restricted Countries")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 364,
+                                                                lineNumber: 365,
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CaretDown$2e$esm$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CaretDown$3e$__["CaretDown"], {
@@ -5790,13 +5791,13 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 367,
+                                                                lineNumber: 368,
                                                                 columnNumber: 29
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                        lineNumber: 362,
+                                                        lineNumber: 363,
                                                         columnNumber: 27
                                                     }, this),
                                                     isCountriesOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5811,42 +5812,42 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                             size: 18
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                            lineNumber: 381,
+                                                                            lineNumber: 382,
                                                                             columnNumber: 37
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             children: restrict.restrict
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                            lineNumber: 382,
+                                                                            lineNumber: 383,
                                                                             columnNumber: 37
                                                                         }, this)
                                                                     ]
                                                                 }, index, true, {
                                                                     fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                    lineNumber: 377,
+                                                                    lineNumber: 378,
                                                                     columnNumber: 35
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                            lineNumber: 375,
+                                                            lineNumber: 376,
                                                             columnNumber: 31
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                        lineNumber: 374,
+                                                        lineNumber: 375,
                                                         columnNumber: 29
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                lineNumber: 358,
+                                                lineNumber: 359,
                                                 columnNumber: 25
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                        lineNumber: 225,
+                                        lineNumber: 226,
                                         columnNumber: 21
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5867,17 +5868,17 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                         loading: "lazy"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                        lineNumber: 399,
+                                                        lineNumber: 400,
                                                         columnNumber: 27
                                                     }, this)
                                                 }, brand.id_brand, false, {
                                                     fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                    lineNumber: 393,
+                                                    lineNumber: 394,
                                                     columnNumber: 25
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                lineNumber: 392,
+                                                lineNumber: 393,
                                                 columnNumber: 23
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5895,13 +5896,13 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                         children: t("bonus?")
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                        lineNumber: 413,
+                                                                        lineNumber: 414,
                                                                         columnNumber: 47
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 412,
+                                                                lineNumber: 413,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5909,13 +5910,13 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                 children: t("Activate bonus in your casino account")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 415,
+                                                                lineNumber: 416,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                        lineNumber: 411,
+                                                        lineNumber: 412,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -5927,35 +5928,35 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                                 children: t("Play Now")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                                lineNumber: 425,
+                                                                lineNumber: 426,
                                                                 columnNumber: 29
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                            lineNumber: 424,
+                                                            lineNumber: 425,
                                                             columnNumber: 27
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                        lineNumber: 420,
+                                                        lineNumber: 421,
                                                         columnNumber: 25
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                lineNumber: 410,
+                                                lineNumber: 411,
                                                 columnNumber: 23
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                        lineNumber: 391,
+                                        lineNumber: 392,
                                         columnNumber: 21
                                     }, this)
                                 ]
                             }, brand.id_brand, true, {
                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                lineNumber: 221,
+                                lineNumber: 222,
                                 columnNumber: 19
                             }, this);
                         }),
@@ -5966,18 +5967,18 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                 children: t("Load More Brands")
                             }, void 0, false, {
                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                lineNumber: 436,
+                                lineNumber: 437,
                                 columnNumber: 17
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                            lineNumber: 435,
+                            lineNumber: 436,
                             columnNumber: 15
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                    lineNumber: 187,
+                    lineNumber: 188,
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6002,7 +6003,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                 className: "target-listing-brands"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                lineNumber: 455,
+                                                lineNumber: 456,
                                                 columnNumber: 25
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6010,18 +6011,18 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                 children: item.OurOfferContent
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                lineNumber: 463,
+                                                lineNumber: 464,
                                                 columnNumber: 25
                                             }, this)
                                         ]
                                     }, item.id_brand, true, {
                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                        lineNumber: 449,
+                                        lineNumber: 450,
                                         columnNumber: 23
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                    lineNumber: 448,
+                                    lineNumber: 449,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -6033,23 +6034,23 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                             children: t("Play Now")
                                         }, void 0, false, {
                                             fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                            lineNumber: 475,
+                                            lineNumber: 476,
                                             columnNumber: 25
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                        lineNumber: 474,
+                                        lineNumber: 475,
                                         columnNumber: 23
                                     }, this)
                                 }, item.id_brand, false, {
                                     fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                    lineNumber: 469,
+                                    lineNumber: 470,
                                     columnNumber: 21
                                 }, this)
                             ]
                         }, item.id_brand, true, {
                             fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                            lineNumber: 444,
+                            lineNumber: 445,
                             columnNumber: 19
                         }, this);
                     }) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LazySlider, {
@@ -6074,7 +6075,7 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                     loading: "lazy"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                    lineNumber: 496,
+                                                    lineNumber: 497,
                                                     columnNumber: 27
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6082,18 +6083,18 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                     children: item.OurOfferContent
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                    lineNumber: 504,
+                                                    lineNumber: 505,
                                                     columnNumber: 27
                                                 }, this)
                                             ]
                                         }, item.id_brand, true, {
                                             fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                            lineNumber: 490,
+                                            lineNumber: 491,
                                             columnNumber: 25
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                        lineNumber: 489,
+                                        lineNumber: 490,
                                         columnNumber: 23
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -6105,40 +6106,40 @@ function AllBrands({ creative, isLoader, segment, value, target, brands }) {
                                                 children: t("Play Now")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                                lineNumber: 515,
+                                                lineNumber: 516,
                                                 columnNumber: 25
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                            lineNumber: 514,
+                                            lineNumber: 515,
                                             columnNumber: 23
                                         }, this)
                                     }, item.id_brand, false, {
                                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                        lineNumber: 509,
+                                        lineNumber: 510,
                                         columnNumber: 23
                                     }, this)
                                 ]
                             }, item.id_brand, true, {
                                 fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                                lineNumber: 485,
+                                lineNumber: 486,
                                 columnNumber: 21
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                        lineNumber: 482,
+                        lineNumber: 483,
                         columnNumber: 15
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Brands_home/AllBrands.jsx",
-                    lineNumber: 440,
+                    lineNumber: 441,
                     columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Brands_home/AllBrands.jsx",
-            lineNumber: 186,
+            lineNumber: 187,
             columnNumber: 9
         }, this)
     }, void 0, false);

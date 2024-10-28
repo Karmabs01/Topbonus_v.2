@@ -128,6 +128,7 @@ export default function AllBrands({
 
   const vis = randomBrands.length > 0 ? randomBrands : filteredBrands;
   const vis2 = randomBrands2.length > 0 ? randomBrands2 : topBrands;
+  console.log("!!BRANDS!!", topBrands)
 
   const [isMobile, setIsMobile] = useState(false);
 

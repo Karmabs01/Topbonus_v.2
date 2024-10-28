@@ -2337,15 +2337,15 @@ select {
 
 .all .emojis h3 {
   font-family: AA Duke;
-  font-size: 33px;
   font-weight: 400;
   max-width: 446px;
   line-height: 50px;
+  font-size: 48px !important;
 }
 
 .all .emojis h3 span {
   color: #fee000;
-  font-size: 25px;
+  font-size: 45px !important;
 }
 
 .all .bg-main h2 {
