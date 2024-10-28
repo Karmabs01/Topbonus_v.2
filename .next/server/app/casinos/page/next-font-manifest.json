@@ -1,8 +1,6 @@
 {
   "pages": {},
-  "app": {
-    "[project]/app/casinos/page": []
-  },
+  "app": {},
   "appUsingSizeAdjust": false,
   "pagesUsingSizeAdjust": false
 }

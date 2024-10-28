@@ -607,6 +607,12 @@
     flex-basis: 100%;
   }
 
+  .slws .card-36 {
+    background: none !important;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+
   .slsk {
     max-width: 100%;
   }
@@ -781,13 +787,6 @@
 /* [project]/node_modules/slick-carousel/slick/slick-theme.css [app-client] (css) */
 .slick-loading .slick-list {
   background: #fff url("../media/ajax-loader.326aa633.gif") center no-repeat;
-}
-
-@font-face {
-  font-family: slick;
-  font-weight: normal;
-  font-style: normal;
-  src: url("../media/slick.a3496dc3.eot");
 }
 
 .slick-prev, .slick-next {

@@ -2012,6 +2012,12 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
     flex-basis: 100%;
   }
 
+  .slws .card-36 {
+    background: none !important;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
+  }
+
   .slsk {
     max-width: 100%;
   }

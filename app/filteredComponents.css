@@ -565,6 +565,11 @@
   .slws {
     max-width: 100%;
     flex-basis: 100%;
+    /* background: ; */
+  }
+  .slws .card-36 {
+    background: transparent !important;
+    backdrop-filter: none !important;
   }
   .slsk {
     max-width: 100%;
