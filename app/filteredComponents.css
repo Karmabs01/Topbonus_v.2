@@ -552,7 +552,10 @@
   line-height: 20px;
 }
 
-
+.slws.custom-list-itemб .slws .card-36 {
+  background: transparent !important;
+  backdrop-filter: none !important;
+}
 @media (min-width: 320px) and (max-width: 767px) {
   .card-brand-filtered {
     padding: 20px 10px;
@@ -567,7 +570,7 @@
     flex-basis: 100%;
     /* background: ; */
   }
-  .slws .card-36 {
+  .slws.custom-list-itemб .slws .card-36 {
     background: transparent !important;
     backdrop-filter: none !important;
   }
