@@ -10830,4 +10830,16 @@ main > .topbr {
   .popular-offers .main__container {
     width: 100%;
   }
+  .refetch.absolute {
+    display: block !important;
+    top: 16px;
+    left: initial;
+    right: 0;
+    width: 40px;
+    height: 40px;
+  }
+  .fivehot ul.ul-list {
+    position: relative;
+    padding: 56px 0 36px;
+  }
 }
