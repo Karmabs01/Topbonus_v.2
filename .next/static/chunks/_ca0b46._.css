@@ -13859,6 +13859,20 @@ ul.ul-list a {
   .popular-offers .main__container {
     width: 100%;
   }
+
+  .refetch.absolute {
+    top: 16px;
+    left: initial;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    display: block !important;
+  }
+
+  .fivehot ul.ul-list {
+    position: relative;
+    padding: 56px 0 36px;
+  }
 }
 
 .placeholder\:text-gray-300::-moz-placeholder {
