@@ -12,6 +12,8 @@ import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import Pickup from "./pickup";
 import useSWR from "swr";
+import { getUserData } from "@/components/getUser/getUser";
+
 
 import "./styled.component.css";
 
