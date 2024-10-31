@@ -26,6 +26,8 @@ const LazySlider = dynamic(() => import("react-slick"), {
 });
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { getUserData } from "@/components/getUser/getUser";
+
 
 export default function AllProviders({
   creative,
@@ -66,27 +68,101 @@ export default function AllProviders({
     { initialData: brands }
   );
 
+  let userId = "";
+  if (typeof window !== "undefined") {
+    userId = localStorage.getItem("user_id") || "";
+  }
   useEffect(() => {
-    if (data) {
-      setVisible(true);
-      const filteredData = data.filter((rowData) => {
-        return rowData[categoryBrandsAll.key1] === categoryBrandsAll.key2 &&
-          rowData.categories &&
-          rowData.categories.includes(currentText);
-      });
+    const fetchUserBrands = async () => {
+      try {
+        // Проверяем наличие данных брендов
+        if (!data) {
+          console.warn("Данные брендов отсутствуют");
+          setLoading(false);
+          return;
+        }
+        setVisible(true);
+        const filteredData = data.filter(
+          (rowData) =>
+            rowData[categoryBrandsAll.key1] === categoryBrandsAll.key2
+        );
+        const topData = data.filter(
+          (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
+        );
+        setTopBrands(topData);
+        setFilteredBrands(filteredData);
 
-      const topData = data.filter(
-        (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
-      );
-      setFilteredBrands(filteredData);
-      setTopBrands(topData);
-    }
+        // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
+        if (!userId) {
+          setTopBrands(topData);
+          setFilteredBrands(filteredData);
+          setLoading(false);
+          return;
+        }
+
+        // 2. Получаем данные пользователя
+        const dataUser = await getUserData(userId);
+        console.log("Полные данные пользователя:", dataUser);
+
+        let sales = dataUser.sales;
+
+        // Если sales — строка, пытаемся её распарсить
+        if (typeof sales === "string") {
+          try {
+            sales = JSON.parse(sales);
+            console.log("Sales после парсинга строки:", sales);
+          } catch (error) {
+            console.error("Ошибка при парсинге sales:", error);
+            sales = [];
+          }
+        }
+
+        // Проверяем, что sales — массив
+        if (!Array.isArray(sales)) {
+          console.warn("Поле sales не является массивом:", sales);
+          sales = [];
+        }
+
+        // 3. Извлекаем campaignId из sales
+        const salesCampaignIds = sales.map((sale) => sale.campaignId);
+        console.log("Sales Campaign IDs:", salesCampaignIds);
+
+        // 4. Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
+        const finalFilteredBrands = topData.filter(
+          (brand) =>
+            !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
+            !salesCampaignIds.includes(brand.KeitaroR2dID)
+        );
+        const finalFilteredBrands2 = filteredData.filter(
+          (brand) =>
+            !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
+            !salesCampaignIds.includes(brand.KeitaroR2dID)
+        );
+
+        console.log("Отфильтрованные бренды:", finalFilteredBrands);
+
+        // 5. Устанавливаем состояние с отфильтрованными брендами
+  
+        setTopBrands(finalFilteredBrands);
+        setFilteredBrands(finalFilteredBrands2);
+        setLoading(false);
+      } catch (error) {
+        console.error(
+          "Ошибка при получении данных пользователя или брендов:",
+          error
+        );
+        setLoading(false);
+      }
+    };
+
+    fetchUserBrands();
   }, [
     data,
+    userId,
     categoryBrandsAll.key1,
     categoryBrandsAll.key2,
     categoryBrands.key1,
-    categoryBrands.key2, currentText
+    categoryBrands.key2,
   ]);
 
   useEffect(() => {
@@ -109,33 +185,7 @@ export default function AllProviders({
     }
   }, []);
 
-  const [randomBrands, setRandomBrands] = useState([]);
-  const [randomBrands2, setRandomBrands2] = useState([]);
-  const [brandsGenerated, setBrandsGenerated] = useState(false);
 
-
-
-  useEffect(() => {
-    const generateRandomBrands = () => {
-      if (!brandsGenerated && filteredBrands.length > 0) {
-        const shuffledBrands = [...filteredBrands].sort(
-          () => Math.random() - 0.5
-        );
-        const shuffledBrands2 = [...topBrands].sort(
-          () => Math.random() - 0.5
-        );
-
-        setRandomBrands(shuffledBrands);
-        setRandomBrands2(shuffledBrands2);
-        setBrandsGenerated(true);
-      }
-    };
-
-    generateRandomBrands(); // Вызываем генерацию при первом рендере
-  }, [brandsGenerated, filteredBrands]); // Отслеживаем изменения brandsGenerated и filteredBrands
-
-  const vis = randomBrands.length > 0 ? randomBrands : filteredBrands;
-  const vis2 = randomBrands2.length > 0 ? randomBrands2 : topBrands;
 
   const [isMobile, setIsMobile] = useState(false);
 
@@ -191,7 +241,7 @@ export default function AllProviders({
       ) : (
         <div className="flex flex-wrap justify-between awesome">
           <div className="flex flex-col px-0 py-6 basis-[68%] slws">
-            {vis.slice(0, visibleBrands).map((brand) => {
+            {filteredBrands.slice(0, visibleBrands).map((brand) => {
               const advantages =
                 brand.advantages !== null
                   ? brand.advantages
@@ -450,9 +500,9 @@ export default function AllProviders({
               </div>
             )}
           </div>
-          <div className={`flex flex-col basis-[31%] py-6 slsk ${vis2.length < 2 ? 'w159' : ''}`}>
-          {!isMobile || vis2.length < 2 ? (
-              vis2.slice(0, visibleBrands2).map((item) => {
+          <div className={`flex flex-col basis-[31%] py-6 slsk ${topBrands.length < 2 ? 'w159' : ''}`}>
+          {!isMobile || topBrands.length < 2 ? (
+              topBrands.slice(0, visibleBrands2).map((item) => {
                 return (
                   <div
                     className="card-brand-banner mb-2 flex flex-col items-center pb-3"
@@ -493,7 +543,7 @@ export default function AllProviders({
               })
             ) : (
               <LazySlider {...settings}>
-                {vis2.map((item) => {
+                {topBrands.map((item) => {
                   return (
                     <div
                       className="card-brand-banner mb-2 flex flex-col items-center pb-3"
