@@ -197,7 +197,7 @@ function Pickup({ newUrl }) {
                         lineNumber: 36,
                         columnNumber: 11
                     }, this),
-                    brands.length > 0 && brands.slice(3, 4).map((rowData, index)=>// <p className="p">{t("Click below to claim your magical reward!")}</p>
+                    brands.length > 0 && brands.slice(0, 1).map((rowData, index)=>// <p className="p">{t("Click below to claim your magical reward!")}</p>
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3250,7 +3250,7 @@ const __TURBOPACK__default__export__ = {
 })()),
 "[project]/public/newimages/coins.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
-__turbopack_export_value__("/_next/static/media/coins.91a8b8b0.png");
+__turbopack_export_value__("/_next/static/media/coins.5267c4e2.png");
 })()),
 "[project]/public/newimages/coins.png.mjs { IMAGE => \"[project]/public/newimages/coins.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
 "use strict";
@@ -3265,7 +3265,7 @@ const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$newimages$2f$coins$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
     width: 1753,
     height: 93,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAALElEQVR42gEhAN7/AFYtRYFTLkSEPipNfDsqT4I3JkuBLyBEejMkRoYuH0KDnNQJZdr3S7oAAAAASUVORK5CYII=",
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAALElEQVR42gEhAN7/AFYtRYFTK0aERiVCfEcmQII+JUGBLyBEejMkRoYuH0KDm30JUaRz+qYAAAAASUVORK5CYII=",
     blurWidth: 8,
     blurHeight: 1
 };
@@ -3315,10 +3315,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$bannerhell$2e$png$
 var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$newimages$2f$coins$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$newimages$2f$coins$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/newimages/coins.png.mjs { IMAGE => "[project]/public/newimages/coins.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-slick/lib/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$refetch$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$refetch$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/refetch.png.mjs { IMAGE => "[project]/public/refetch.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getUser$2f$getUser$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/getUser/getUser.jsx [app-client] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
 var _s = __turbopack_refresh__.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -3477,14 +3479,66 @@ function Banner_small() {
     ], ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$getBrands2$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getBrands"])(language), {
         initialData: brands
     });
+    let userId = "";
+    if (typeof window !== "undefined") {
+        userId = localStorage.getItem("user_id") || "";
+    }
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        if (data) {
-            const filteredData2 = data.filter((rowData)=>rowData[categoryBrands2.key1] === categoryBrands2.key2);
-            setBrands2(filteredData2);
-            setLoading(false);
-        }
+        const fetchUserBrands = async ()=>{
+            try {
+                // Проверяем наличие данных брендов
+                if (!data) {
+                    console.warn("Данные брендов отсутствуют");
+                    setLoading(false);
+                    return;
+                }
+                // 1. Фильтрация брендов на основе категорий
+                const filteredByCategory = data.filter((brand)=>brand[categoryBrands2.key1] === categoryBrands2.key2);
+                // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
+                if (!userId) {
+                    setBrands2(filteredByCategory);
+                    setLoading(false);
+                    return;
+                }
+                // 2. Получаем данные пользователя
+                const dataUser = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getUser$2f$getUser$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getUserData"])(userId);
+                console.log("Полные данные пользователя:", dataUser);
+                let sales = dataUser.sales;
+                // Если sales — строка, пытаемся её распарсить
+                if (typeof sales === 'string') {
+                    try {
+                        sales = JSON.parse(sales);
+                        console.log("Sales после парсинга строки:", sales);
+                    } catch (error) {
+                        console.error("Ошибка при парсинге sales:", error);
+                        sales = [];
+                    }
+                }
+                // Проверяем, что sales — массив
+                if (!Array.isArray(sales)) {
+                    console.warn("Поле sales не является массивом:", sales);
+                    sales = [];
+                }
+                // 3. Извлекаем campaignId из sales
+                const salesCampaignIds = sales.map((sale)=>sale.campaignId);
+                console.log("Sales Campaign IDs:", salesCampaignIds);
+                // 4. Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
+                const finalFilteredBrands = filteredByCategory.filter((brand)=>!salesCampaignIds.includes(brand.KeitaroGoBigID) && !salesCampaignIds.includes(brand.KeitaroR2dID));
+                console.log("Отфильтрованные бренды:", finalFilteredBrands);
+                // 5. Устанавливаем состояние с отфильтрованными брендами
+                setBrands2(finalFilteredBrands);
+                setLoading(false);
+            } catch (error) {
+                console.error("Ошибка при получении данных пользователя или брендов:", error);
+                setLoading(false);
+            }
+        };
+        fetchUserBrands();
     }, [
-        data
+        data,
+        userId,
+        categoryBrands2.key1,
+        categoryBrands2.key2
     ]);
     const refetchBrands = ()=>{
         const shuffled = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lodash$2f$shuffle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(brands2);
@@ -3503,21 +3557,21 @@ function Banner_small() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 className: "text-lg leading-6 ",
                                 children: [
-                                    t("Ghastly surprises await you"),
+                                    t("Feel the thrills of fortune"),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: [
                                             " ",
-                                            t("—are you brave enough to claim them?")
+                                            t("with today’s spooky surprise!")
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                        lineNumber: 208,
+                                        lineNumber: 274,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                lineNumber: 206,
+                                lineNumber: 272,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3530,7 +3584,7 @@ function Banner_small() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                        lineNumber: 211,
+                                        lineNumber: 277,
                                         columnNumber: 15
                                     }, this),
                                     " ",
@@ -3538,13 +3592,13 @@ function Banner_small() {
                                         children: timeLeft
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                        lineNumber: 211,
+                                        lineNumber: 277,
                                         columnNumber: 38
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                lineNumber: 210,
+                                lineNumber: 276,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3556,28 +3610,28 @@ function Banner_small() {
                                     height: 150
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                    lineNumber: 214,
+                                    lineNumber: 280,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                lineNumber: 213,
+                                lineNumber: 279,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                        lineNumber: 205,
+                        lineNumber: 271,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                    lineNumber: 204,
+                    lineNumber: 270,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                lineNumber: 203,
+                lineNumber: 269,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3589,12 +3643,12 @@ function Banner_small() {
                     height: 150
                 }, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                    lineNumber: 221,
+                    lineNumber: 287,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                lineNumber: 220,
+                lineNumber: 286,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3609,13 +3663,13 @@ function Banner_small() {
                                 children: t("offers")
                             }, void 0, false, {
                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                lineNumber: 225,
+                                lineNumber: 291,
                                 columnNumber: 36
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                        lineNumber: 224,
+                        lineNumber: 290,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3628,18 +3682,18 @@ function Banner_small() {
                             loading: "lazy"
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                            lineNumber: 231,
+                            lineNumber: 297,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                        lineNumber: 227,
+                        lineNumber: 293,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                lineNumber: 223,
+                lineNumber: 289,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3664,17 +3718,17 @@ function Banner_small() {
                                                 className: " w-full object-contain object-center"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                                lineNumber: 243,
+                                                lineNumber: 309,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                            lineNumber: 239,
+                                            lineNumber: 305,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                        lineNumber: 238,
+                                        lineNumber: 304,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3684,18 +3738,18 @@ function Banner_small() {
                                             children: rowData.OurOfferContent
                                         }, void 0, false, {
                                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                            lineNumber: 254,
+                                            lineNumber: 320,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                        lineNumber: 253,
+                                        lineNumber: 319,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                lineNumber: 237,
+                                lineNumber: 303,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3707,23 +3761,23 @@ function Banner_small() {
                                     children: t("Play Now")
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                    lineNumber: 260,
+                                    lineNumber: 326,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                lineNumber: 259,
+                                lineNumber: 325,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, "Popular_offers" + index, true, {
                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                        lineNumber: 236,
+                        lineNumber: 302,
                         columnNumber: 11
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                lineNumber: 234,
+                lineNumber: 300,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3740,13 +3794,13 @@ function Banner_small() {
                                     children: t("offers")
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                    lineNumber: 274,
+                                    lineNumber: 340,
                                     columnNumber: 38
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                            lineNumber: 273,
+                            lineNumber: 339,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3771,17 +3825,17 @@ function Banner_small() {
                                                             className: "w-full object-contain object-center"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                                            lineNumber: 285,
+                                                            lineNumber: 351,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                                        lineNumber: 281,
+                                                        lineNumber: 347,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                                    lineNumber: 280,
+                                                    lineNumber: 346,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3792,7 +3846,7 @@ function Banner_small() {
                                                             children: rowData.CasinoBrand
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                                            lineNumber: 296,
+                                                            lineNumber: 362,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3800,19 +3854,19 @@ function Banner_small() {
                                                             children: rowData.OurOfferContent
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                                            lineNumber: 299,
+                                                            lineNumber: 365,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                                    lineNumber: 295,
+                                                    lineNumber: 361,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                            lineNumber: 279,
+                                            lineNumber: 345,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3824,34 +3878,34 @@ function Banner_small() {
                                                 children: t("Play Now")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                                lineNumber: 303,
+                                                lineNumber: 369,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                            lineNumber: 302,
+                                            lineNumber: 368,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                                    lineNumber: 278,
+                                    lineNumber: 344,
                                     columnNumber: 15
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                            lineNumber: 276,
+                            lineNumber: 342,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                    lineNumber: 272,
+                    lineNumber: 338,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
-                lineNumber: 271,
+                lineNumber: 337,
                 columnNumber: 7
             }, this)
         ]
@@ -4338,10 +4392,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/useTranslation.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-slick/lib/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$refetch$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$refetch$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__ = __turbopack_import__('[project]/public/refetch.png.mjs { IMAGE => "[project]/public/refetch.png [app-client] (static)" } [app-client] (structured image object, ecmascript)');
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getUser$2f$getUser$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/getUser/getUser.jsx [app-client] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
 var _s = __turbopack_refresh__.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -4483,7 +4539,7 @@ function Popular_offers() {
                 bonus: brand.OurOfferContent
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                lineNumber: 146,
+                lineNumber: 148,
                 columnNumber: 7
             }, this)
         }));
@@ -4494,7 +4550,7 @@ function Popular_offers() {
                 className: "main__container",
                 children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                    lineNumber: 160,
+                    lineNumber: 162,
                     columnNumber: 13
                 }, this) : cards2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "w-full",
@@ -4511,13 +4567,13 @@ function Popular_offers() {
                                             children: t("offers")
                                         }, void 0, false, {
                                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                            lineNumber: 203,
+                                            lineNumber: 205,
                                             columnNumber: 36
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                    lineNumber: 202,
+                                    lineNumber: 204,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -4530,18 +4586,18 @@ function Popular_offers() {
                                         loading: "lazy"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                        lineNumber: 209,
+                                        lineNumber: 211,
                                         columnNumber: 21
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                    lineNumber: 205,
+                                    lineNumber: 207,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                            lineNumber: 201,
+                            lineNumber: 203,
                             columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4568,17 +4624,17 @@ function Popular_offers() {
                                                                 className: " w-full object-contain object-center"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                                lineNumber: 227,
+                                                                lineNumber: 229,
                                                                 columnNumber: 31
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                            lineNumber: 223,
+                                                            lineNumber: 225,
                                                             columnNumber: 29
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                        lineNumber: 222,
+                                                        lineNumber: 224,
                                                         columnNumber: 27
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4589,7 +4645,7 @@ function Popular_offers() {
                                                                 children: rowData.CasinoBrand
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                                lineNumber: 238,
+                                                                lineNumber: 240,
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4597,19 +4653,19 @@ function Popular_offers() {
                                                                 children: rowData.OurOfferContent
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                                lineNumber: 241,
+                                                                lineNumber: 243,
                                                                 columnNumber: 29
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                        lineNumber: 237,
+                                                        lineNumber: 239,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                lineNumber: 221,
+                                                lineNumber: 223,
                                                 columnNumber: 25
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4621,28 +4677,28 @@ function Popular_offers() {
                                                     children: t("Play Now")
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                    lineNumber: 247,
+                                                    lineNumber: 249,
                                                     columnNumber: 27
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                lineNumber: 246,
+                                                lineNumber: 248,
                                                 columnNumber: 25
                                             }, this)
                                         ]
                                     }, "Popular_offers" + index, true, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                        lineNumber: 220,
+                                        lineNumber: 222,
                                         columnNumber: 23
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                lineNumber: 218,
+                                lineNumber: 220,
                                 columnNumber: 19
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                            lineNumber: 217,
+                            lineNumber: 219,
                             columnNumber: 17
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4659,13 +4715,13 @@ function Popular_offers() {
                                                 children: t("offers")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                lineNumber: 263,
+                                                lineNumber: 265,
                                                 columnNumber: 36
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                        lineNumber: 262,
+                                        lineNumber: 264,
                                         columnNumber: 21
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4690,17 +4746,17 @@ function Popular_offers() {
                                                                         className: "w-full object-contain object-center"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                                        lineNumber: 274,
+                                                                        lineNumber: 276,
                                                                         columnNumber: 33
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                                    lineNumber: 270,
+                                                                    lineNumber: 272,
                                                                     columnNumber: 31
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                                lineNumber: 269,
+                                                                lineNumber: 271,
                                                                 columnNumber: 29
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4711,7 +4767,7 @@ function Popular_offers() {
                                                                         children: rowData.CasinoBrand
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                                        lineNumber: 285,
+                                                                        lineNumber: 287,
                                                                         columnNumber: 31
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4719,19 +4775,19 @@ function Popular_offers() {
                                                                         children: rowData.OurOfferContent
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                                        lineNumber: 288,
+                                                                        lineNumber: 290,
                                                                         columnNumber: 31
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                                lineNumber: 284,
+                                                                lineNumber: 286,
                                                                 columnNumber: 29
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                        lineNumber: 268,
+                                                        lineNumber: 270,
                                                         columnNumber: 27
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4743,50 +4799,50 @@ function Popular_offers() {
                                                             children: t("Play Now")
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                            lineNumber: 294,
+                                                            lineNumber: 296,
                                                             columnNumber: 29
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                        lineNumber: 293,
+                                                        lineNumber: 295,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, index, true, {
                                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                                lineNumber: 267,
+                                                lineNumber: 269,
                                                 columnNumber: 25
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                        lineNumber: 265,
+                                        lineNumber: 267,
                                         columnNumber: 21
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                                lineNumber: 261,
+                                lineNumber: 263,
                                 columnNumber: 19
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                            lineNumber: 260,
+                            lineNumber: 262,
                             columnNumber: 17
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                    lineNumber: 163,
+                    lineNumber: 165,
                     columnNumber: 15
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-                lineNumber: 158,
+                lineNumber: 160,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Popular_offers/index.jsx",
-            lineNumber: 157,
+            lineNumber: 159,
             columnNumber: 7
         }, this)
     }, void 0, false);

@@ -13,6 +13,8 @@ import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import refetch from "@/public/refetch.png";
 import "./styled.component.css";
+import { getUserData } from "@/components/getUser/getUser";
+
 
 export default function Popular_offers() {
   const [newUrl, setNewUrl] = useState("");
