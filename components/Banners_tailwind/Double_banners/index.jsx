@@ -15,6 +15,8 @@ import classNames from "classnames";
 
 import banner1 from "@/public/newimages/luck1.png";
 import banner2 from "@/public/newimages/luck2.png";
+import { getUserData } from "@/components/getUser/getUser";
+
 
 export default function Double_banners() {
   const [newUrl, setNewUrl] = useState("");
@@ -87,30 +89,8 @@ export default function Double_banners() {
   const categoryBrands = { key1: "Segment2", key2: "Premium" };
   const categoryBrands2 = { key1: "High_hybrid", key2: "1" };
 
-  const { data, error } = useSWR(
-    ["brands", language],
-    () => getBrands(language),
-    { initialData: brands }
-  );
-  useEffect(() => {
-    if (data) {
-      const filteredData = data.filter(
-        (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
-      );
-      setBrands(filteredData);
-      setLoading(false);
-    }
-  }, [data, categoryBrands.key1, categoryBrands.key2]);
 
-  useEffect(() => {
-    if (data) {
-      const filteredData2 = data.filter(
-        (rowData) => rowData[categoryBrands2.key1] === categoryBrands2.key2
-      );
-      setBrands2(filteredData2);
-      setLoading(false);
-    }
-  }, [data, categoryBrands2.key1, categoryBrands2.key2]);
+
 
   const shuffledBrands = shuffle(brands);
   const cards2 = shuffledBrands.slice(0, 6).map((brand) => ({
