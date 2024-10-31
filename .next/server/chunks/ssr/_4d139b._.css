@@ -1659,6 +1659,12 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   line-height: 20px;
 }
 
+.slws.custom-list-itemб .slws .card-36 {
+  background: none !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
 @media (width >= 320px) and (width <= 767px) {
   .card-brand-filtered {
     padding: 20px 10px;
@@ -1674,6 +1680,12 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   .slws {
     max-width: 100%;
     flex-basis: 100%;
+  }
+
+  .slws.custom-list-itemб .slws .card-36 {
+    background: none !important;
+    -webkit-backdrop-filter: none !important;
+    backdrop-filter: none !important;
   }
 
   .slsk {

@@ -11,6 +11,8 @@ import { useLanguage } from "../../switcher/LanguageContext";
 import { getBrands } from "../../getBrands/getBrands2";
 import { useTranslation } from "react-i18next";
 import "./styled.component.css";
+import { getUserData } from "@/components/getUser/getUser";
+
 
 export default function Brands_double_carousel() {
   const [newUrl, setNewUrl] = useState("");
@@ -70,6 +72,9 @@ export default function Brands_double_carousel() {
   }, [language]);
 
   const categoryBrands = { key1: "High_hybrid", key2: "1" };
+  const categoryBrands2 = { key1: "Networks", key2: "1" };
+
+  
 
 
   const { data, error } = useSWR(
@@ -77,25 +82,95 @@ export default function Brands_double_carousel() {
     () => getBrands(language),
     { initialData: brands }
   );
-
+  let userId = "";
+  if (typeof window !== "undefined") {
+    userId = localStorage.getItem("user_id") || "";
+  }
   useEffect(() => {
-    if (data) {
-      const filteredData1 = data.filter(
-        (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
-      );
+    const fetchUserBrands = async () => {
+      try {
+        // Проверяем наличие данных брендов
+        if (!data) {
+          console.warn("Данные брендов отсутствуют");
+          setLoading(false);
+          return;
+        }
 
-      // Фильтрация по второму столбцу (добавьте нужные ключи)
-      const filteredData2 = data.filter(
-        (rowData) => rowData["Networks"] === "1"
-      );
+        const filteredData1 = data.filter(
+          (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
+        );
+  
+        // Фильтрация по второму столбцу (добавьте нужные ключи)
+        const filteredData2 = data.filter(
+          (rowData) => rowData[categoryBrands2.key1] === categoryBrands2.key2
+  
+        );
+  
+        // Объединение данных из двух фильтраций
+        const combinedData = [...filteredData1, ...filteredData2];
 
-      // Объединение данных из двух фильтраций
-      const combinedData = [...filteredData1, ...filteredData2];
+        // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
+        if (!userId) {
+          setBrands(shuffle(combinedData));
+          setLoading(false);
+          return;
+        }
 
-      setBrands(shuffle(combinedData));
-      setLoading(false);
-    }
-  }, [data, categoryBrands.key1, categoryBrands.key2]);
+        // 2. Получаем данные пользователя
+        const dataUser = await getUserData(userId);
+        console.log("Полные данные пользователя:", dataUser);
+
+        let sales = dataUser.sales;
+
+        // Если sales — строка, пытаемся её распарсить
+        if (typeof sales === 'string') {
+          try {
+            sales = JSON.parse(sales);
+            console.log("Sales после парсинга строки:", sales);
+          } catch (error) {
+            console.error("Ошибка при парсинге sales:", error);
+            sales = [];
+          }
+        }
+
+        // Проверяем, что sales — массив
+        if (!Array.isArray(sales)) {
+          console.warn("Поле sales не является массивом:", sales);
+          sales = [];
+        }
+
+        // 3. Извлекаем campaignId из sales
+        const salesCampaignIds = sales.map((sale) => sale.campaignId);
+        console.log("Sales Campaign IDs:", salesCampaignIds);
+
+        // 4. Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
+        const finalFilteredBrands = combinedData.filter((brand) => 
+          !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
+          !salesCampaignIds.includes(brand.KeitaroR2dID)
+        );
+
+        console.log("Отфильтрованные бренды:", finalFilteredBrands);
+
+        // 5. Устанавливаем состояние с отфильтрованными брендами
+        setBrands(finalFilteredBrands);
+        setLoading(false);
+      } catch (error) {
+        console.error("Ошибка при получении данных пользователя или брендов:", error);
+        setLoading(false);
+      }
+    };
+
+    fetchUserBrands();
+  }, [
+    data, 
+    userId, 
+    categoryBrands.key1, 
+    categoryBrands.key2, 
+  ]);
+
+
+
+
 
   useEffect(() => {
     const interval = setInterval(() => {

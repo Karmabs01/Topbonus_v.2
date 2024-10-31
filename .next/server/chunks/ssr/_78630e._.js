@@ -201,6 +201,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$Handshake$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Handshake$3e$__ = __turbopack_import__("[project]/node_modules/phosphor-react/dist/icons/Handshake.esm.js [app-ssr] (ecmascript) <export default as Handshake>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/switcher/LanguageContext.jsx [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/shared/lib/app-dynamic.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getUser$2f$getUser$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/getUser/getUser.jsx [app-ssr] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 "use client";
 ;
@@ -231,6 +232,7 @@ const LazySlider = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modu
 });
 ;
 ;
+;
 function AllBonuses({ creative, isLoader, segment, value, target, brands, currentText }) {
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useTranslation"])();
     const itemsPerPage = 2;
@@ -251,7 +253,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
         key2: value
     };
     const categoryBrands = {
-        key1: "Video",
+        key1: "High_hybrid",
         key2: "1"
     };
     const [visible, setVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
@@ -261,23 +263,74 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
     ], ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$getBrands2$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getBrands"])(language), {
         initialData: brands
     });
+    let userId = "";
+    if (typeof window !== "undefined") {
+        userId = localStorage.getItem("user_id") || "";
+    }
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        if (data) {
-            setVisible(true);
-            const filteredData = data.filter((rowData)=>{
-                return rowData[categoryBrandsAll.key1] === categoryBrandsAll.key2 && rowData.categories && rowData.categories.includes(currentText);
-            });
-            const topData = data.filter((rowData)=>rowData[categoryBrands.key1] === categoryBrands.key2);
-            setFilteredBrands(filteredData);
-            setTopBrands(topData);
-        }
+        const fetchUserBrands = async ()=>{
+            try {
+                // Проверяем наличие данных брендов
+                if (!data) {
+                    console.warn("Данные брендов отсутствуют");
+                    setLoading(false);
+                    return;
+                }
+                setVisible(true);
+                const filteredData = data.filter((rowData)=>rowData[categoryBrandsAll.key1] === categoryBrandsAll.key2);
+                const topData = data.filter((rowData)=>rowData[categoryBrands.key1] === categoryBrands.key2);
+                setTopBrands(topData);
+                setFilteredBrands(filteredData);
+                // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
+                if (!userId) {
+                    setTopBrands(topData);
+                    setFilteredBrands(filteredData);
+                    setLoading(false);
+                    return;
+                }
+                // 2. Получаем данные пользователя
+                const dataUser = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getUser$2f$getUser$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getUserData"])(userId);
+                console.log("Полные данные пользователя:", dataUser);
+                let sales = dataUser.sales;
+                // Если sales — строка, пытаемся её распарсить
+                if (typeof sales === "string") {
+                    try {
+                        sales = JSON.parse(sales);
+                        console.log("Sales после парсинга строки:", sales);
+                    } catch (error) {
+                        console.error("Ошибка при парсинге sales:", error);
+                        sales = [];
+                    }
+                }
+                // Проверяем, что sales — массив
+                if (!Array.isArray(sales)) {
+                    console.warn("Поле sales не является массивом:", sales);
+                    sales = [];
+                }
+                // 3. Извлекаем campaignId из sales
+                const salesCampaignIds = sales.map((sale)=>sale.campaignId);
+                console.log("Sales Campaign IDs:", salesCampaignIds);
+                // 4. Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
+                const finalFilteredBrands = topData.filter((brand)=>!salesCampaignIds.includes(brand.KeitaroGoBigID) && !salesCampaignIds.includes(brand.KeitaroR2dID));
+                const finalFilteredBrands2 = filteredData.filter((brand)=>!salesCampaignIds.includes(brand.KeitaroGoBigID) && !salesCampaignIds.includes(brand.KeitaroR2dID));
+                console.log("Отфильтрованные бренды:", finalFilteredBrands);
+                // 5. Устанавливаем состояние с отфильтрованными брендами
+                setTopBrands(finalFilteredBrands);
+                setFilteredBrands(finalFilteredBrands2);
+                setLoading(false);
+            } catch (error) {
+                console.error("Ошибка при получении данных пользователя или брендов:", error);
+                setLoading(false);
+            }
+        };
+        fetchUserBrands();
     }, [
         data,
+        userId,
         categoryBrandsAll.key1,
         categoryBrandsAll.key2,
         categoryBrands.key1,
-        categoryBrands.key2,
-        currentText
+        categoryBrands.key2
     ]);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         setHasMoreBrands(visibleBrands < filteredBrands.length);
@@ -297,30 +350,6 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
             setNewUrl(savedUrl);
         }
     }, []);
-    const [randomBrands, setRandomBrands] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
-    const [randomBrands2, setRandomBrands2] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
-    const [brandsGenerated, setBrandsGenerated] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        const generateRandomBrands = ()=>{
-            if (!brandsGenerated && filteredBrands.length > 0) {
-                const shuffledBrands = [
-                    ...filteredBrands
-                ].sort(()=>Math.random() - 0.5);
-                const shuffledBrands2 = [
-                    ...topBrands
-                ].sort(()=>Math.random() - 0.5);
-                setRandomBrands(shuffledBrands);
-                setRandomBrands2(shuffledBrands2);
-                setBrandsGenerated(true);
-            }
-        };
-        generateRandomBrands();
-    }, [
-        brandsGenerated,
-        filteredBrands
-    ]);
-    const vis = randomBrands.length > 0 ? randomBrands : filteredBrands;
-    const vis2 = randomBrands2.length > 0 ? randomBrands2 : topBrands;
     const [isMobile, setIsMobile] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         setIsMobile(window.innerWidth < 768);
@@ -362,10 +391,11 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
     const handleCountriesClick = (brandId)=>{
         setOpenCountriesId((prevId)=>prevId === brandId ? null : brandId);
     };
+    console.log("SHH", filteredBrands);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: isLoader ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$FilterLoader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
             fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-            lineNumber: 187,
+            lineNumber: 239,
             columnNumber: 9
         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex flex-wrap justify-between awesome",
@@ -373,7 +403,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex flex-col px-0 py-6 basis-[68%] slws",
                     children: [
-                        vis.slice(0, visibleBrands).map((brand)=>{
+                        filteredBrands.slice(0, visibleBrands).map((brand)=>{
                             const advantages = brand.advantages !== null ? brand.advantages.split(",").map((advantage)=>({
                                     advantage: advantage.trim()
                                 })) : "";
@@ -400,7 +430,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                 className: "flex ml-1 mb-3"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                lineNumber: 228,
+                                                lineNumber: 280,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -414,7 +444,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                         size: 40
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                        lineNumber: 230,
+                                                        lineNumber: 282,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -422,13 +452,13 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                         children: brand.OurOfferContent
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                        lineNumber: 235,
+                                                        lineNumber: 287,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                lineNumber: 229,
+                                                lineNumber: 281,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -442,7 +472,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                         size: 40
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                        lineNumber: 240,
+                                                        lineNumber: 292,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -457,24 +487,24 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                    lineNumber: 248,
+                                                                    lineNumber: 300,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                            lineNumber: 246,
+                                                            lineNumber: 298,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                        lineNumber: 245,
+                                                        lineNumber: 297,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                lineNumber: 239,
+                                                lineNumber: 291,
                                                 columnNumber: 21
                                             }, this),
                                             advantages && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -491,7 +521,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 size: 34
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 258,
+                                                                lineNumber: 310,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -499,7 +529,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 children: t("Advantages")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 259,
+                                                                lineNumber: 311,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CaretDown$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CaretDown$3e$__["CaretDown"], {
@@ -510,13 +540,13 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 260,
+                                                                lineNumber: 312,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                        lineNumber: 257,
+                                                        lineNumber: 309,
                                                         columnNumber: 25
                                                     }, this),
                                                     isPlusesOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -528,23 +558,23 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                     children: advantage.advantage
                                                                 }, index, false, {
                                                                     fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                    lineNumber: 270,
+                                                                    lineNumber: 322,
                                                                     columnNumber: 33
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                            lineNumber: 268,
+                                                            lineNumber: 320,
                                                             columnNumber: 29
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                        lineNumber: 267,
+                                                        lineNumber: 319,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                lineNumber: 253,
+                                                lineNumber: 305,
                                                 columnNumber: 23
                                             }, this),
                                             deposits && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -561,7 +591,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 size: 34
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 286,
+                                                                lineNumber: 338,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -569,7 +599,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 children: t("Payment Methods")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 290,
+                                                                lineNumber: 342,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CaretDown$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CaretDown$3e$__["CaretDown"], {
@@ -580,13 +610,13 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 293,
+                                                                lineNumber: 345,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                        lineNumber: 285,
+                                                        lineNumber: 337,
                                                         columnNumber: 25
                                                     }, this),
                                                     isDepositsOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -601,23 +631,23 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                     loading: "lazy"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                    lineNumber: 306,
+                                                                    lineNumber: 358,
                                                                     columnNumber: 33
                                                                 }, this)
                                                             }, index, false, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 302,
+                                                                lineNumber: 354,
                                                                 columnNumber: 31
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                        lineNumber: 300,
+                                                        lineNumber: 352,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                lineNumber: 281,
+                                                lineNumber: 333,
                                                 columnNumber: 23
                                             }, this),
                                             withdrawals && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -634,7 +664,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 size: 34
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 325,
+                                                                lineNumber: 377,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -642,7 +672,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 children: t("Game Providers")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 326,
+                                                                lineNumber: 378,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CaretDown$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CaretDown$3e$__["CaretDown"], {
@@ -653,13 +683,13 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 329,
+                                                                lineNumber: 381,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                        lineNumber: 324,
+                                                        lineNumber: 376,
                                                         columnNumber: 25
                                                     }, this),
                                                     isWithdrawalOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -674,23 +704,23 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                     loading: "lazy"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                    lineNumber: 342,
+                                                                    lineNumber: 394,
                                                                     columnNumber: 33
                                                                 }, this)
                                                             }, index, false, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 338,
+                                                                lineNumber: 390,
                                                                 columnNumber: 31
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                        lineNumber: 336,
+                                                        lineNumber: 388,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                lineNumber: 320,
+                                                lineNumber: 372,
                                                 columnNumber: 23
                                             }, this),
                                             restricted && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -707,7 +737,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 size: 34
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 361,
+                                                                lineNumber: 413,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -715,7 +745,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 children: t("Restricted Countries")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 362,
+                                                                lineNumber: 414,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$phosphor$2d$react$2f$dist$2f$icons$2f$CaretDown$2e$esm$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__CaretDown$3e$__["CaretDown"], {
@@ -726,13 +756,13 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 365,
+                                                                lineNumber: 417,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                        lineNumber: 360,
+                                                        lineNumber: 412,
                                                         columnNumber: 25
                                                     }, this),
                                                     isCountriesOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -747,42 +777,42 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                             size: 18
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                            lineNumber: 379,
+                                                                            lineNumber: 431,
                                                                             columnNumber: 35
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                             children: restrict.restrict
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                            lineNumber: 380,
+                                                                            lineNumber: 432,
                                                                             columnNumber: 35
                                                                         }, this)
                                                                     ]
                                                                 }, index, true, {
                                                                     fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                    lineNumber: 375,
+                                                                    lineNumber: 427,
                                                                     columnNumber: 33
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                            lineNumber: 373,
+                                                            lineNumber: 425,
                                                             columnNumber: 29
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                        lineNumber: 372,
+                                                        lineNumber: 424,
                                                         columnNumber: 27
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                lineNumber: 356,
+                                                lineNumber: 408,
                                                 columnNumber: 23
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                        lineNumber: 227,
+                                        lineNumber: 279,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -792,7 +822,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                 className: "brandImage p-3",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                     className: `${target}`,
-                                                    href: `${brand.GoBig}/${newUrl}&creative_id=Brands_Exit`,
+                                                    href: `${brand.GoBig}/${newUrl}&creative_id=Brands_Exit_2`,
                                                     target: "_blank",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                         src: `/brands/${brand.CasinoBrand}.png`,
@@ -803,17 +833,17 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                         className: `${target}`
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                        lineNumber: 397,
+                                                        lineNumber: 449,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, brand.id_brand, false, {
                                                     fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                    lineNumber: 391,
+                                                    lineNumber: 443,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                lineNumber: 390,
+                                                lineNumber: 442,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -830,13 +860,13 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                         children: "bonus?"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                        lineNumber: 411,
+                                                                        lineNumber: 463,
                                                                         columnNumber: 38
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 410,
+                                                                lineNumber: 462,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -844,17 +874,17 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 children: t("Activate bonus in your casino account")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 413,
+                                                                lineNumber: 465,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                        lineNumber: 409,
+                                                        lineNumber: 461,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: `${brand.GoBig}/${newUrl}&creative_id=Brands_Exit`,
+                                                        href: `${brand.GoBig}/${newUrl}&creative_id=Brands_Exit_2`,
                                                         target: "_blank",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "btn btn-new-mini",
@@ -862,35 +892,35 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                                 children: t("Play Now")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                                lineNumber: 422,
+                                                                lineNumber: 474,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                            lineNumber: 421,
+                                                            lineNumber: 473,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                        lineNumber: 417,
+                                                        lineNumber: 469,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                lineNumber: 408,
+                                                lineNumber: 460,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                        lineNumber: 389,
+                                        lineNumber: 441,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, brand.id_brand, true, {
                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                lineNumber: 223,
+                                lineNumber: 275,
                                 columnNumber: 17
                             }, this);
                         }),
@@ -901,23 +931,23 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                 children: t("Load More Brands")
                             }, void 0, false, {
                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                lineNumber: 433,
+                                lineNumber: 485,
                                 columnNumber: 17
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                            lineNumber: 432,
+                            lineNumber: 484,
                             columnNumber: 15
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                    lineNumber: 190,
+                    lineNumber: 242,
                     columnNumber: 11
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: `flex flex-col basis-[31%] py-6 slsk ${vis2.length < 2 ? 'w159' : ''}`,
-                    children: !isMobile || vis2.length < 2 ? vis2.slice(0, visibleBrands2).map((item)=>{
+                    className: `flex flex-col basis-[31%] py-6 slsk ${topBrands.length < 2 ? 'w159' : ''}`,
+                    children: !isMobile || topBrands.length < 2 ? topBrands.slice(0, visibleBrands2).map((item)=>{
                         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "card-brand-banner mb-2 flex flex-col items-center pb-3",
                             children: [
@@ -925,7 +955,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                     className: "brandImage p-3",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                         className: "flex justify-center flex-col items-center target-listing-brands",
-                                        href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands`,
+                                        href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`,
                                         target: "_blank",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -937,7 +967,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                 className: "target-listing-brands"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                lineNumber: 452,
+                                                lineNumber: 504,
                                                 columnNumber: 25
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -945,22 +975,22 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                 children: item.OurOfferContent
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                lineNumber: 460,
+                                                lineNumber: 512,
                                                 columnNumber: 25
                                             }, this)
                                         ]
                                     }, item.id_brand, true, {
                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                        lineNumber: 446,
+                                        lineNumber: 498,
                                         columnNumber: 23
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                    lineNumber: 445,
+                                    lineNumber: 497,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands`,
+                                    href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`,
                                     target: "_blank",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "btn btn-new-mini target-listing-brands",
@@ -968,28 +998,28 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                             children: t("Play Now")
                                         }, void 0, false, {
                                             fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                            lineNumber: 472,
+                                            lineNumber: 524,
                                             columnNumber: 25
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                        lineNumber: 471,
+                                        lineNumber: 523,
                                         columnNumber: 23
                                     }, this)
                                 }, item.id_brand, false, {
                                     fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                    lineNumber: 466,
+                                    lineNumber: 518,
                                     columnNumber: 21
                                 }, this)
                             ]
                         }, item.id_brand, true, {
                             fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                            lineNumber: 441,
+                            lineNumber: 493,
                             columnNumber: 19
                         }, this);
                     }) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(LazySlider, {
                         ...settings,
-                        children: vis2.map((item)=>{
+                        children: topBrands.map((item)=>{
                             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "card-brand-banner mb-2 flex flex-col items-center pb-3",
                                 children: [
@@ -997,7 +1027,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                         className: "brandImage p-3",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             className: "flex justify-center flex-col items-center target-listing-brands",
-                                            href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands`,
+                                            href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`,
                                             target: "_blank",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -1009,7 +1039,7 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                     className: "target-listing-brands"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                    lineNumber: 493,
+                                                    lineNumber: 545,
                                                     columnNumber: 27
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1017,22 +1047,22 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                     children: item.OurOfferContent
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                    lineNumber: 501,
+                                                    lineNumber: 553,
                                                     columnNumber: 27
                                                 }, this)
                                             ]
                                         }, item.id_brand, true, {
                                             fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                            lineNumber: 487,
+                                            lineNumber: 539,
                                             columnNumber: 25
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                        lineNumber: 486,
+                                        lineNumber: 538,
                                         columnNumber: 23
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                        href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands`,
+                                        href: `${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`,
                                         target: "_blank",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "btn btn-new-mini target-listing-brands",
@@ -1040,40 +1070,40 @@ function AllBonuses({ creative, isLoader, segment, value, target, brands, curren
                                                 children: t("Play Now")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                                lineNumber: 512,
+                                                lineNumber: 564,
                                                 columnNumber: 27
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                            lineNumber: 511,
+                                            lineNumber: 563,
                                             columnNumber: 25
                                         }, this)
                                     }, item.id_brand, false, {
                                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                        lineNumber: 506,
+                                        lineNumber: 558,
                                         columnNumber: 23
                                     }, this)
                                 ]
                             }, item.id_brand, true, {
                                 fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                                lineNumber: 482,
+                                lineNumber: 534,
                                 columnNumber: 21
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                        lineNumber: 479,
+                        lineNumber: 531,
                         columnNumber: 15
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-                    lineNumber: 437,
+                    lineNumber: 489,
                     columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Brands_bonuses/AllBonuses.jsx",
-            lineNumber: 189,
+            lineNumber: 241,
             columnNumber: 9
         }, this)
     }, void 0, false);

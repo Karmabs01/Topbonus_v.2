@@ -13,6 +13,7 @@ import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import refetch from "@/public/refetch.png";
 import "./styled.component.css";
+import { getUserData } from "@/components/getUser/getUser";
 
 export default function Popular_offers() {
   const [newUrl, setNewUrl] = useState("");
@@ -105,7 +106,7 @@ export default function Popular_offers() {
   const categoryBrands = { key1: "Networks", key2: "1" };
   const categoryBrands0 = { key1: "Networks", key2: "Premium" };
 
-  const categoryBrands2 = { key1: "Video", key2: "hell" };
+ 
 
   const { data, error } = useSWR(
     ["brands", language],
@@ -113,22 +114,89 @@ export default function Popular_offers() {
     { initialData: brands }
   );
 
+  let userId = "";
+  if (typeof window !== "undefined") {
+    userId = localStorage.getItem("user_id") || "";
+  }
   useEffect(() => {
-    if (data) {
-      const filteredData = data.filter((rowData) =>
-        rowData[categoryBrands0.key1] === categoryBrands0.key2 ||
-        rowData[categoryBrands.key1] === categoryBrands.key2
-      );
-      const filteredData2 = data.filter(
-        (rowData) => rowData[categoryBrands2.key1] === categoryBrands2.key2
-      );
-      setBrands(filteredData);
-      setBrands2(filteredData2);
-      console.log("BRANDS@@@222", filteredData)
+    const fetchUserBrands = async () => {
+      try {
+        // Проверяем наличие данных брендов
+        if (!data) {
+          console.warn("Данные брендов отсутствуют");
+          setLoading(false);
+          return;
+        }
 
-      setLoading(false);
-    }
-  }, [data, categoryBrands.key1, categoryBrands.key2, categoryBrands0.key1, categoryBrands0.key2]);
+        // 1. Фильтрация брендов на основе категорий
+        const filteredByCategory = data.filter((brand) =>
+          brand[categoryBrands0.key1] === categoryBrands0.key2 ||
+          brand[categoryBrands.key1] === categoryBrands.key2
+        );
+
+        // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
+        if (!userId) {
+          setBrands(filteredByCategory);
+          setLoading(false);
+          return;
+        }
+
+        // 2. Получаем данные пользователя
+        const dataUser = await getUserData(userId);
+        console.log("Полные данные пользователя:", dataUser);
+
+        let sales = dataUser.sales;
+
+        // Если sales — строка, пытаемся её распарсить
+        if (typeof sales === 'string') {
+          try {
+            sales = JSON.parse(sales);
+            console.log("Sales после парсинга строки:", sales);
+          } catch (error) {
+            console.error("Ошибка при парсинге sales:", error);
+            sales = [];
+          }
+        }
+
+        // Проверяем, что sales — массив
+        if (!Array.isArray(sales)) {
+          console.warn("Поле sales не является массивом:", sales);
+          sales = [];
+        }
+
+        // 3. Извлекаем campaignId из sales
+        const salesCampaignIds = sales.map((sale) => sale.campaignId);
+        console.log("Sales Campaign IDs:", salesCampaignIds);
+
+        // 4. Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
+        const finalFilteredBrands = filteredByCategory.filter((brand) => 
+          !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
+          !salesCampaignIds.includes(brand.KeitaroR2dID)
+        );
+
+        console.log("Отфильтрованные бренды:", finalFilteredBrands);
+
+        // 5. Устанавливаем состояние с отфильтрованными брендами
+        setBrands(finalFilteredBrands);
+        setLoading(false);
+      } catch (error) {
+        console.error("Ошибка при получении данных пользователя или брендов:", error);
+        setLoading(false);
+      }
+    };
+
+    fetchUserBrands();
+  }, [
+    data, 
+    userId, 
+    categoryBrands.key1, 
+    categoryBrands.key2, 
+    categoryBrands0.key1, 
+    categoryBrands0.key2
+  ]);
+  
+  
+  
 
   
 
@@ -138,7 +206,7 @@ export default function Popular_offers() {
   };
 
   const shuffledBrands = shuffle(brands);
-  const shuffledBrands2 = shuffle(brands2);
+
 
   const cards2 = shuffledBrands.slice(0, 6).map((brand) => ({
     key: uuidv4(),
@@ -151,6 +219,7 @@ export default function Popular_offers() {
     ),
   }));
 
+ 
 
   return (
     <>
@@ -161,43 +230,7 @@ export default function Popular_offers() {
           ) : (
             cards2 && (
               <div className="w-full">
-                {/* <div className="cards-thr mmm-none">
-                  {shuffledBrands2.slice(0, 3).map((rowData, index) => (
-                    <div key={"Popular_offers" + index} className="card-thr">
-                      <div className="relative">
-                        <div className="relative flex align-center justify-center">
-                          <Link
-                            href={`${rowData.GoBig}/${newUrl}&creative_id=Helloween`}
-                            target="_blank"
-                          >
-                            <Image
-                              src={`/brands/${rowData.CasinoBrand}.png`}
-                              alt={rowData.CasinoBrand}
-                              width={190}
-                              height={130}
-                              loading="lazy"
-                              className=" w-full object-contain object-center"
-                            />
-                          </Link>
-                        </div>
-                        <div className="relative mt-4 text-center">
-                          <p className="mt-1 text-sm text-gray-500 h-10">
-                            {rowData.OurOfferContent}
-                          </p>
-                        </div>
-                      </div>
-                      <div className="btn-crd">
-                        <Link
-                          href={`${rowData.GoBig}/${newUrl}&creative_id=Helloween`}
-                          target="_blank"
-                          className="relative flex items-center justify-center px-8 py-2 text-lg font-medium rounded-full text-white btn-blick overflow-hidden"
-                        >
-                          {t("Play Now")}
-                        </Link>
-                      </div>
-                    </div>
-                  ))}
-                </div> */}
+             
                 <div className="flex justify-between">
                   <h2 className="text-3xl font-bold tracking-tight text-white random-title mmm-none">
                     {t("POPULAR")} <span>{t("offers")}</span>

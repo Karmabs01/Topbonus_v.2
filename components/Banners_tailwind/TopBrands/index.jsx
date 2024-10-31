@@ -12,6 +12,8 @@ import { useTranslation } from "react-i18next";
 import Slider from "react-slick";
 import Pickup from "./pickup";
 import useSWR from "swr";
+import { getUserData } from "@/components/getUser/getUser";
+
 
 import "./styled.component.css";
 
@@ -113,15 +115,84 @@ const TopBrands = () => {
     () => getBrands(language),
     { initialData: brands }
   );
+  let userId = "";
+  if (typeof window !== "undefined") {
+    userId = localStorage.getItem("user_id") || "";
+  }
   useEffect(() => {
-    if (data) {
-      const filteredData = data.filter(
-        (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
-      );
-      setBrands(filteredData);
-      setLoading(false);
-    }
-  }, [data, categoryBrands.key1, categoryBrands.key2]);
+    const fetchUserBrands = async () => {
+      try {
+        // Проверяем наличие данных брендов
+        if (!data) {
+          console.warn("Данные брендов отсутствуют");
+          setLoading(false);
+          return;
+        }
+
+        // 1. Фильтрация брендов на основе категорий
+        const filteredByCategory = data.filter((brand) =>
+          brand[categoryBrands.key1] === categoryBrands.key2
+        );
+
+        // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
+        if (!userId) {
+          setBrands(filteredByCategory);
+          setLoading(false);
+          return;
+        }
+
+        // 2. Получаем данные пользователя
+        const dataUser = await getUserData(userId);
+        console.log("Полные данные пользователя:", dataUser);
+
+        let sales = dataUser.sales;
+
+        // Если sales — строка, пытаемся её распарсить
+        if (typeof sales === 'string') {
+          try {
+            sales = JSON.parse(sales);
+            console.log("Sales после парсинга строки:", sales);
+          } catch (error) {
+            console.error("Ошибка при парсинге sales:", error);
+            sales = [];
+          }
+        }
+
+        // Проверяем, что sales — массив
+        if (!Array.isArray(sales)) {
+          console.warn("Поле sales не является массивом:", sales);
+          sales = [];
+        }
+
+        // 3. Извлекаем campaignId из sales
+        const salesCampaignIds = sales.map((sale) => sale.campaignId);
+        console.log("Sales Campaign IDs:", salesCampaignIds);
+
+        // 4. Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
+        const finalFilteredBrands = filteredByCategory.filter((brand) => 
+          !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
+          !salesCampaignIds.includes(brand.KeitaroR2dID)
+        );
+
+        console.log("Отфильтрованные бренды:", finalFilteredBrands);
+
+        // 5. Устанавливаем состояние с отфильтрованными брендами
+        setBrands(finalFilteredBrands);
+        setLoading(false);
+      } catch (error) {
+        console.error("Ошибка при получении данных пользователя или брендов:", error);
+        setLoading(false);
+      }
+    };
+
+    fetchUserBrands();
+  }, [
+    data, 
+    userId, 
+    categoryBrands.key1, 
+    categoryBrands.key2, 
+  ]);
+  
 
 
 
@@ -139,7 +210,6 @@ const TopBrands = () => {
 
   const [fade, setFade] = useState(true);
 
-  console.log("SHHH", brands)
 
   return (
     <div className="topbr-tw">

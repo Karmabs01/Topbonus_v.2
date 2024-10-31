@@ -6,6 +6,8 @@ import { useTranslation } from "react-i18next";
 import { shuffle } from "lodash";
 import Image from "next/image";
 import Link from "next/link";
+import { getUserData } from "@/components/getUser/getUser";
+
 
 export default function Pickup({ newUrl }) {
   const [loading, setLoading] = useState(true);
@@ -19,24 +21,93 @@ export default function Pickup({ newUrl }) {
     () => getBrands(language),
     { initialData: brands }
   );
+  let userId = "";
+  if (typeof window !== "undefined") {
+    userId = localStorage.getItem("user_id") || "";
+  }
   useEffect(() => {
-    if (data) {
-      const filteredData = data.filter(
-        (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
-      );
-      console.log("FILTER", filteredData);
-      setBrands(filteredData);
-      setLoading(false);
-    }
-  }, [data, categoryBrands.key1, categoryBrands.key2]);
-  console.log("==============", brands)
+    const fetchUserBrands = async () => {
+      try {
+        // Проверяем наличие данных брендов
+        if (!data) {
+          console.warn("Данные брендов отсутствуют");
+          setLoading(false);
+          return;
+        }
+
+        // 1. Фильтрация брендов на основе категорий
+        const filteredByCategory = data.filter((brand) =>
+          brand[categoryBrands.key1] === categoryBrands.key2
+        );
+
+        // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
+        if (!userId) {
+          setBrands(filteredByCategory);
+          setLoading(false);
+          return;
+        }
+
+        // 2. Получаем данные пользователя
+        const dataUser = await getUserData(userId);
+        console.log("Полные данные пользователя:", dataUser);
+
+        let sales = dataUser.sales;
+
+        // Если sales — строка, пытаемся её распарсить
+        if (typeof sales === 'string') {
+          try {
+            sales = JSON.parse(sales);
+            console.log("Sales после парсинга строки:", sales);
+          } catch (error) {
+            console.error("Ошибка при парсинге sales:", error);
+            sales = [];
+          }
+        }
+
+        // Проверяем, что sales — массив
+        if (!Array.isArray(sales)) {
+          console.warn("Поле sales не является массивом:", sales);
+          sales = [];
+        }
+
+        // 3. Извлекаем campaignId из sales
+        const salesCampaignIds = sales.map((sale) => sale.campaignId);
+        console.log("Sales Campaign IDs:", salesCampaignIds);
+
+        // 4. Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
+        const finalFilteredBrands = filteredByCategory.filter((brand) => 
+          !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
+          !salesCampaignIds.includes(brand.KeitaroR2dID)
+        );
+
+        console.log("Отфильтрованные бренды:", finalFilteredBrands);
+
+        // 5. Устанавливаем состояние с отфильтрованными брендами
+        setBrands(finalFilteredBrands);
+        setLoading(false);
+      } catch (error) {
+        console.error("Ошибка при получении данных пользователя или брендов:", error);
+        setLoading(false);
+      }
+    };
+
+    fetchUserBrands();
+  }, [
+    data, 
+    userId, 
+    categoryBrands.key1, 
+    categoryBrands.key2, 
+  ]);
+
+
+
   return (
     <>
       <div className="flex items-center justify-end jins w-full">
         <div className="thrdjin">
           <h5 className="h5">{t("Premium Choice of the Day")}</h5>
           {brands.length > 0 &&
-            brands.slice(4, 5).map((rowData, index) => (
+            brands.slice(0, 1).map((rowData, index) => (
               // <p className="p">{t("Click below to claim your magical reward!")}</p>
               <div>
                 <div className="img-wrap">

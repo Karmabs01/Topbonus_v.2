@@ -12,6 +12,8 @@ import img from "@/public/bannerhell.png";
 import newimg from "@/public/newimages/coins.png";
 import Slider from "react-slick";
 import refetch from "@/public/refetch.png";
+import { getUserData } from "@/components/getUser/getUser";
+
 
 export default function Banner_small() {
   const [newUrl, setNewUrl] = useState("");
@@ -178,18 +180,84 @@ export default function Banner_small() {
     () => getBrands(language),
     { initialData: brands }
   );
-
+  let userId = "";
+  if (typeof window !== "undefined") {
+    userId = localStorage.getItem("user_id") || "";
+  }
   useEffect(() => {
-    if (data) {
-      const filteredData2 = data.filter(
-        (rowData) => rowData[categoryBrands2.key1] === categoryBrands2.key2
-      );
+    const fetchUserBrands = async () => {
+      try {
+        // Проверяем наличие данных брендов
+        if (!data) {
+          console.warn("Данные брендов отсутствуют");
+          setLoading(false);
+          return;
+        }
 
-      setBrands2(filteredData2);
+        // 1. Фильтрация брендов на основе категорий
+        const filteredByCategory = data.filter((brand) =>
+          brand[categoryBrands2.key1] === categoryBrands2.key2
+        );
 
-      setLoading(false);
-    }
-  }, [data]);
+        // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
+        if (!userId) {
+          setBrands2(filteredByCategory);
+          setLoading(false);
+          return;
+        }
+
+        // 2. Получаем данные пользователя
+        const dataUser = await getUserData(userId);
+        console.log("Полные данные пользователя:", dataUser);
+
+        let sales = dataUser.sales;
+
+        // Если sales — строка, пытаемся её распарсить
+        if (typeof sales === 'string') {
+          try {
+            sales = JSON.parse(sales);
+            console.log("Sales после парсинга строки:", sales);
+          } catch (error) {
+            console.error("Ошибка при парсинге sales:", error);
+            sales = [];
+          }
+        }
+
+        // Проверяем, что sales — массив
+        if (!Array.isArray(sales)) {
+          console.warn("Поле sales не является массивом:", sales);
+          sales = [];
+        }
+
+        // 3. Извлекаем campaignId из sales
+        const salesCampaignIds = sales.map((sale) => sale.campaignId);
+        console.log("Sales Campaign IDs:", salesCampaignIds);
+
+        // 4. Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
+        const finalFilteredBrands = filteredByCategory.filter((brand) => 
+          !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
+          !salesCampaignIds.includes(brand.KeitaroR2dID)
+        );
+
+        console.log("Отфильтрованные бренды:", finalFilteredBrands);
+
+        // 5. Устанавливаем состояние с отфильтрованными брендами
+        setBrands2(finalFilteredBrands);
+        setLoading(false);
+      } catch (error) {
+        console.error("Ошибка при получении данных пользователя или брендов:", error);
+        setLoading(false);
+      }
+    };
+
+    fetchUserBrands();
+  }, [
+    data, 
+    userId, 
+    categoryBrands2.key1, 
+    categoryBrands2.key2, 
+
+  ]);
 
   const refetchBrands = () => {
     const shuffled = shuffle(brands2);
@@ -204,8 +272,8 @@ export default function Banner_small() {
         <div className="main__container">
           <div className="flex flex-col face-mob">
             <h3 className="text-lg leading-6 ">
-              {t("Midweek mischief!")}
-              <span> {t("spin and win, if you dare!")}</span>
+              {t("Feel the thrills of fortune")}
+              <span> {t("with today’s spooky surprise!")}</span>
             </h3>
             <div className="timer2 text-lg mt-4 flex flex-col">
               <p>{t("Ends In")}:</p> <span>{timeLeft}</span>

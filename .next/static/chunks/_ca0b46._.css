@@ -1310,6 +1310,10 @@ select {
   margin-right: .5rem !important;
 }
 
+.\!mt-0 {
+  margin-top: 0 !important;
+}
+
 .\!mt-16 {
   margin-top: 4rem !important;
 }
@@ -13381,6 +13385,36 @@ main > .topbr {
   color: #ff8f1f;
   font-size: 28px;
   font-weight: 700;
+}
+
+.random-title {
+  font-size: 34px;
+  line-height: 44px;
+}
+
+.refetch.absolute {
+  bottom: 16px;
+  left: 16px;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .popular-offers .main__container {
+    width: 100%;
+  }
+
+  .refetch.absolute {
+    top: 16px;
+    left: initial;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    display: block !important;
+  }
+
+  .fivehot ul.ul-list {
+    position: relative;
+    padding: 56px 0 36px;
+  }
 }
 
 .placeholder\:text-gray-300::-moz-placeholder {
