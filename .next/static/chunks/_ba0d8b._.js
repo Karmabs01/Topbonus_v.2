@@ -736,10 +736,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$g
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/index.js [app-client] (ecmascript) <module evaluation>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/useTranslation.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-slick/lib/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getUser$2f$getUser$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/getUser/getUser.jsx [app-client] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
 var _s = __turbopack_refresh__.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -844,21 +846,70 @@ function Brands_carousel({ target, creative, categoryBrands }) {
     }, [
         language
     ]);
-    // const categoryBrands = { key1: "Segment2", key2: "Sandbox" };
     const { data, error } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swr$2f$dist$2f$core$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"])([
         "brands",
         language
     ], ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$getBrands2$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getBrands"])(language), {
         initialData: brands
     });
+    let userId = "";
+    if (typeof window !== "undefined") {
+        userId = localStorage.getItem("user_id") || "";
+    }
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        if (data) {
-            const filteredData = data.filter((rowData)=>rowData[categoryBrands.key1] === categoryBrands.key2);
-            setBrands(filteredData);
-            setLoading(false);
-        }
+        const fetchUserBrands = async ()=>{
+            try {
+                // Проверяем наличие данных брендов
+                if (!data) {
+                    console.warn("Данные брендов отсутствуют");
+                    setLoading(false);
+                    return;
+                }
+                // 1. Фильтрация брендов на основе категорий
+                const filteredByCategory = data.filter((brand)=>brand[categoryBrands.key1] === categoryBrands.key2);
+                // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
+                if (!userId) {
+                    setBrands(filteredByCategory);
+                    setLoading(false);
+                    return;
+                }
+                // 2. Получаем данные пользователя
+                const dataUser = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getUser$2f$getUser$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getUserData"])(userId);
+                console.log("Полные данные пользователя:", dataUser);
+                let sales = dataUser.sales;
+                // Если sales — строка, пытаемся её распарсить
+                if (typeof sales === 'string') {
+                    try {
+                        sales = JSON.parse(sales);
+                        console.log("Sales после парсинга строки:", sales);
+                    } catch (error) {
+                        console.error("Ошибка при парсинге sales:", error);
+                        sales = [];
+                    }
+                }
+                // Проверяем, что sales — массив
+                if (!Array.isArray(sales)) {
+                    console.warn("Поле sales не является массивом:", sales);
+                    sales = [];
+                }
+                // 3. Извлекаем campaignId из sales
+                const salesCampaignIds = sales.map((sale)=>sale.campaignId);
+                console.log("Sales Campaign IDs:", salesCampaignIds);
+                // 4. Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
+                const finalFilteredBrands = filteredByCategory.filter((brand)=>!salesCampaignIds.includes(brand.KeitaroGoBigID) && !salesCampaignIds.includes(brand.KeitaroR2dID));
+                console.log("Отфильтрованные бренды:", finalFilteredBrands);
+                // 5. Устанавливаем состояние с отфильтрованными брендами
+                setBrands(finalFilteredBrands);
+                setLoading(false);
+            } catch (error) {
+                console.error("Ошибка при получении данных пользователя или брендов:", error);
+                setLoading(false);
+            }
+        };
+        fetchUserBrands();
     }, [
         data,
+        userId,
         categoryBrands.key1,
         categoryBrands.key2
     ]);
@@ -881,7 +932,7 @@ function Brands_carousel({ target, creative, categoryBrands }) {
                 className: "main__container",
                 children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                    lineNumber: 142,
+                    lineNumber: 214,
                     columnNumber: 25
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -909,12 +960,12 @@ function Brands_carousel({ target, creative, categoryBrands }) {
                                                             className: `${target}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                                            lineNumber: 162,
+                                                            lineNumber: 234,
                                                             columnNumber: 65
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                                        lineNumber: 156,
+                                                        lineNumber: 228,
                                                         columnNumber: 61
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -924,53 +975,53 @@ function Brands_carousel({ target, creative, categoryBrands }) {
                                                         children: t("Play Now")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                                        lineNumber: 171,
+                                                        lineNumber: 243,
                                                         columnNumber: 61
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                                lineNumber: 155,
+                                                lineNumber: 227,
                                                 columnNumber: 57
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                            lineNumber: 154,
+                                            lineNumber: 226,
                                             columnNumber: 53
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                        lineNumber: 153,
+                                        lineNumber: 225,
                                         columnNumber: 49
                                     }, this)
                                 }, index, false, {
                                     fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                    lineNumber: 149,
+                                    lineNumber: 221,
                                     columnNumber: 45
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                            lineNumber: 146,
+                            lineNumber: 218,
                             columnNumber: 33
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                        lineNumber: 145,
+                        lineNumber: 217,
                         columnNumber: 29
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                    lineNumber: 144,
+                    lineNumber: 216,
                     columnNumber: 25
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                lineNumber: 140,
+                lineNumber: 212,
                 columnNumber: 17
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-            lineNumber: 139,
+            lineNumber: 211,
             columnNumber: 13
         }, this)
     }, void 0, false);
