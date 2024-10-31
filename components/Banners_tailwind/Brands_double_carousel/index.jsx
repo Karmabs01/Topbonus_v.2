@@ -13,7 +13,6 @@ import { useTranslation } from "react-i18next";
 import "./styled.component.css";
 import { getUserData } from "@/components/getUser/getUser";
 
-
 export default function Brands_double_carousel() {
   const [newUrl, setNewUrl] = useState("");
   const [source, setSource] = useState("");
@@ -40,7 +39,14 @@ export default function Brands_double_carousel() {
     searchParams.delete("brand");
     const currentKeyword = searchParams.get("keyword");
 
-    const partners = ["partner1039", "partner1043", "partner1044", "CLD_VIP", "partner1045_b1", "partner1046"];
+    const partners = [
+      "partner1039",
+      "partner1043",
+      "partner1044",
+      "CLD_VIP",
+      "partner1045_b1",
+      "partner1046",
+    ];
 
     function setPartnerSource(keyword) {
       const partner = partners.find((p) => keyword.includes(p));
@@ -74,9 +80,6 @@ export default function Brands_double_carousel() {
   const categoryBrands = { key1: "High_hybrid", key2: "1" };
   const categoryBrands2 = { key1: "Networks", key2: "1" };
 
-  
-
-
   const { data, error } = useSWR(
     ["brands", language],
     () => getBrands(language),
@@ -99,13 +102,12 @@ export default function Brands_double_carousel() {
         const filteredData1 = data.filter(
           (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
         );
-  
+
         // Фильтрация по второму столбцу (добавьте нужные ключи)
         const filteredData2 = data.filter(
           (rowData) => rowData[categoryBrands2.key1] === categoryBrands2.key2
-  
         );
-  
+
         // Объединение данных из двух фильтраций
         const combinedData = [...filteredData1, ...filteredData2];
 
@@ -123,7 +125,7 @@ export default function Brands_double_carousel() {
         let sales = dataUser.sales;
 
         // Если sales — строка, пытаемся её распарсить
-        if (typeof sales === 'string') {
+        if (typeof sales === "string") {
           try {
             sales = JSON.parse(sales);
             console.log("Sales после парсинга строки:", sales);
@@ -144,9 +146,10 @@ export default function Brands_double_carousel() {
         console.log("Sales Campaign IDs:", salesCampaignIds);
 
         // 4. Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
-        const finalFilteredBrands = combinedData.filter((brand) => 
-          !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
-          !salesCampaignIds.includes(brand.KeitaroR2dID)
+        const finalFilteredBrands = combinedData.filter(
+          (brand) =>
+            !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
+            !salesCampaignIds.includes(brand.KeitaroR2dID)
         );
 
         console.log("Отфильтрованные бренды:", finalFilteredBrands);
@@ -155,22 +158,16 @@ export default function Brands_double_carousel() {
         setBrands(finalFilteredBrands);
         setLoading(false);
       } catch (error) {
-        console.error("Ошибка при получении данных пользователя или брендов:", error);
+        console.error(
+          "Ошибка при получении данных пользователя или брендов:",
+          error
+        );
         setLoading(false);
       }
     };
 
     fetchUserBrands();
-  }, [
-    data, 
-    userId, 
-    categoryBrands.key1, 
-    categoryBrands.key2, 
-  ]);
-
-
-
-
+  }, [data, userId, categoryBrands.key1, categoryBrands.key2]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -184,10 +181,10 @@ export default function Brands_double_carousel() {
     return () => clearInterval(interval);
   }, [brands.length]);
 
-  const firstCut = (brands.length / 2) / 2
-  const secondCut = brands.length / 2
-  const thirdCut = firstCut + secondCut
-  const end = brands.length - 1
+  const firstCut = brands.length / 2 / 2;
+  const secondCut = brands.length / 2;
+  const thirdCut = firstCut + secondCut;
+  const end = brands.length - 1;
 
   return (
     <>
@@ -199,21 +196,21 @@ export default function Brands_double_carousel() {
             <div className="main__container relative mt-8">
               <div className="background-slider2 absolute">
                 <svg
+                  xmlns="http://www.w3.org/2000/svg"
                   width="1250"
                   height="559"
                   viewBox="0 0 1250 559"
                   fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g filter="url(#filter0_d_9_692)">
+                  <g filter="url(#filter0_d_96_3790)">
                     <path
                       d="M1225 480C1225 507.614 1202.61 530 1175 530L75 530C47.3857 530 25 507.614 25 480L25 223.395C25 195.781 47.3857 173.395 75 173.395L700.918 173.395C728.533 173.395 750.918 151.009 750.918 123.395L750.918 70.9999C750.918 43.3857 773.304 20.9999 800.918 20.9999L1175 20.9999C1202.61 20.9999 1225 43.3857 1225 70.9999L1225 480Z"
-                      fill="url(#paint0_linear_9_692)"
-                    />
+                      fill="url(#paint0_linear_96_3790)"
+                    ></path>
                   </g>
                   <defs>
                     <filter
-                      id="filter0_d_9_692"
+                      id="filter0_d_96_3790"
                       x="0"
                       y="0"
                       width="1250"
@@ -221,43 +218,45 @@ export default function Brands_double_carousel() {
                       filterUnits="userSpaceOnUse"
                       color-interpolation-filters="sRGB"
                     >
-                      <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                      <feFlood
+                        flood-opacity="0"
+                        result="BackgroundImageFix"
+                      ></feFlood>
                       <feColorMatrix
                         in="SourceAlpha"
                         type="matrix"
                         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
                         result="hardAlpha"
-                      />
-                      <feOffset dy="4" />
-                      <feGaussianBlur stdDeviation="12.5" />
-                      <feComposite in2="hardAlpha" operator="out" />
+                      ></feColorMatrix>
+                      <feOffset dy="4"></feOffset>
+                      <feGaussianBlur stdDeviation="12.5"></feGaussianBlur>
+                      <feComposite in2="hardAlpha" operator="out"></feComposite>
                       <feColorMatrix
                         type="matrix"
                         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.13 0"
-                      />
+                      ></feColorMatrix>
                       <feBlend
                         mode="normal"
                         in2="BackgroundImageFix"
-                        result="effect1_dropShadow_9_692"
-                      />
+                        result="effect1_dropShadow_96_3790"
+                      ></feBlend>
                       <feBlend
                         mode="normal"
                         in="SourceGraphic"
-                        in2="effect1_dropShadow_9_692"
+                        in2="effect1_dropShadow_96_3790"
                         result="shape"
-                      />
+                      ></feBlend>
                     </filter>
                     <linearGradient
-                      id="paint0_linear_9_692"
-                      x1="1196.25"
-                      y1="148.25"
-                      x2="326.892"
-                      y2="672.869"
+                      id="paint0_linear_96_3790"
+                      x1="1225"
+                      y1="530"
+                      x2="1122.82"
+                      y2="-154.575"
                       gradientUnits="userSpaceOnUse"
                     >
-                      <stop stop-color="#9D4EB3" />
-                      <stop offset="0.367467" stop-color="#6C37B1" />
-                      <stop offset="1" stop-color="#310877" />
+                      <stop stop-color="#088AF6"></stop>
+                      <stop offset="1" stop-color="#D992E6"></stop>
                     </linearGradient>
                   </defs>
                 </svg>
@@ -267,11 +266,14 @@ export default function Brands_double_carousel() {
                   <div className="mx-auto max-w-2xl pb-5 pt-5 sm:pb-5 lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8">
                     <div className="">
                       <h2 className="mt-4">
-                        {t("Best Halloween")}<span> {t("Offers")}</span>
+                        {t("Best Halloween")}
+                        <span> {t("Offers")}</span>
                       </h2>
                       <h3>{t("Best Halloween Offers")}</h3>
                       <p className="mt-4 text-gray-500">
-                        {t("Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!")}
+                        {t(
+                          "Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!"
+                        )}
                       </p>
                     </div>
                   </div>
@@ -283,170 +285,192 @@ export default function Brands_double_carousel() {
                         <div className="wrap">
                           <div className="items-wrap">
                             <div className="items marquee">
-                              {brands.slice(0, firstCut).map((rowData, index) => (
-                                <div className="item">
-                                  <Link
-                                    className=""
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
-                                    target="_blank"
-                                  >
-                                    <Image
-                                      src={`/brands/${rowData.CasinoBrand}.png`}
-                                      alt={rowData.CasinoBrand}
-                                      width={300}
-                                      height={100}
-                                      loading="lazy"
-                                      className="target-top-new-releases"
-                                    />
-                                  </Link>
-                                </div>
-                              ))}
+                              {brands
+                                .slice(0, firstCut)
+                                .map((rowData, index) => (
+                                  <div className="item">
+                                    <Link
+                                      className=""
+                                      href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
+                                      target="_blank"
+                                    >
+                                      <Image
+                                        src={`/brands/${rowData.CasinoBrand}.png`}
+                                        alt={rowData.CasinoBrand}
+                                        width={300}
+                                        height={100}
+                                        loading="lazy"
+                                        className="target-top-new-releases"
+                                      />
+                                    </Link>
+                                  </div>
+                                ))}
                             </div>
                             <div aria-hidden="true" class="items marquee">
-                              {brands.slice(0, firstCut).map((rowData, index) => (
-                                <div className="item">
-                                  <Link
-                                    className=""
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
-                                    target="_blank"
-                                  >
-                                    <Image
-                                      src={`/brands/${rowData.CasinoBrand}.png`}
-                                      alt={rowData.CasinoBrand}
-                                      width={300}
-                                      height={100}
-                                      loading="lazy"
-                                      className="target-top-new-releases"
-                                    />
-                                  </Link>
-                                </div>
-                              ))}
+                              {brands
+                                .slice(0, firstCut)
+                                .map((rowData, index) => (
+                                  <div className="item">
+                                    <Link
+                                      className=""
+                                      href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
+                                      target="_blank"
+                                    >
+                                      <Image
+                                        src={`/brands/${rowData.CasinoBrand}.png`}
+                                        alt={rowData.CasinoBrand}
+                                        width={300}
+                                        height={100}
+                                        loading="lazy"
+                                        className="target-top-new-releases"
+                                      />
+                                    </Link>
+                                  </div>
+                                ))}
                             </div>
                           </div>
                           <div class="items-wrap">
                             <div class="items marquee reverce">
-                              {brands.slice(firstCut, secondCut).map((rowData, index) => (
-                                <div className="item">
-                                  <Link
-                                    className=""
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
-                                    target="_blank"
-                                  >
-                                    <Image
-                                      src={`/brands/${rowData.CasinoBrand}.png`}
-                                      alt={rowData.CasinoBrand}
-                                      width={300}
-                                      height={100}
-                                      loading="lazy"
-                                      className="target-top-new-releases"
-                                    />
-                                  </Link>
-                                </div>
-                              ))}
+                              {brands
+                                .slice(firstCut, secondCut)
+                                .map((rowData, index) => (
+                                  <div className="item">
+                                    <Link
+                                      className=""
+                                      href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
+                                      target="_blank"
+                                    >
+                                      <Image
+                                        src={`/brands/${rowData.CasinoBrand}.png`}
+                                        alt={rowData.CasinoBrand}
+                                        width={300}
+                                        height={100}
+                                        loading="lazy"
+                                        className="target-top-new-releases"
+                                      />
+                                    </Link>
+                                  </div>
+                                ))}
                             </div>
-                            <div aria-hidden="true" class="items marquee reverce">
-                              {brands.slice(firstCut, secondCut).map((rowData, index) => (
-                                <div className="item">
-                                  <Link
-                                    className=""
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
-                                    target="_blank"
-                                  >
-                                    <Image
-                                      src={`/brands/${rowData.CasinoBrand}.png`}
-                                      alt={rowData.CasinoBrand}
-                                      width={300}
-                                      height={100}
-                                      loading="lazy"
-                                      className="target-top-new-releases"
-                                    />
-                                  </Link>
-                                </div>
-                              ))}
+                            <div
+                              aria-hidden="true"
+                              class="items marquee reverce"
+                            >
+                              {brands
+                                .slice(firstCut, secondCut)
+                                .map((rowData, index) => (
+                                  <div className="item">
+                                    <Link
+                                      className=""
+                                      href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
+                                      target="_blank"
+                                    >
+                                      <Image
+                                        src={`/brands/${rowData.CasinoBrand}.png`}
+                                        alt={rowData.CasinoBrand}
+                                        width={300}
+                                        height={100}
+                                        loading="lazy"
+                                        className="target-top-new-releases"
+                                      />
+                                    </Link>
+                                  </div>
+                                ))}
                             </div>
                           </div>
                           <div className="items-wrap">
                             <div className="items marquee">
-                              {brands.slice(secondCut, thirdCut).map((rowData, index) => (
-                                <div className="item">
-                                  <Link
-                                    className=""
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
-                                    target="_blank"
-                                  >
-                                    <Image
-                                      src={`/brands/${rowData.CasinoBrand}.png`}
-                                      alt={rowData.CasinoBrand}
-                                      width={300}
-                                      height={100}
-                                      loading="lazy"
-                                      className="target-top-new-releases"
-                                    />
-                                  </Link>
-                                </div>
-                              ))}
+                              {brands
+                                .slice(secondCut, thirdCut)
+                                .map((rowData, index) => (
+                                  <div className="item">
+                                    <Link
+                                      className=""
+                                      href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
+                                      target="_blank"
+                                    >
+                                      <Image
+                                        src={`/brands/${rowData.CasinoBrand}.png`}
+                                        alt={rowData.CasinoBrand}
+                                        width={300}
+                                        height={100}
+                                        loading="lazy"
+                                        className="target-top-new-releases"
+                                      />
+                                    </Link>
+                                  </div>
+                                ))}
                             </div>
                             <div aria-hidden="true" class="items marquee">
-                              {brands.slice(secondCut, thirdCut).map((rowData, index) => (
-                                <div className="item">
-                                  <Link
-                                    className=""
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
-                                    target="_blank"
-                                  >
-                                    <Image
-                                      src={`/brands/${rowData.CasinoBrand}.png`}
-                                      alt={rowData.CasinoBrand}
-                                      width={300}
-                                      height={100}
-                                      loading="lazy"
-                                      className="target-top-new-releases"
-                                    />
-                                  </Link>
-                                </div>
-                              ))}
+                              {brands
+                                .slice(secondCut, thirdCut)
+                                .map((rowData, index) => (
+                                  <div className="item">
+                                    <Link
+                                      className=""
+                                      href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
+                                      target="_blank"
+                                    >
+                                      <Image
+                                        src={`/brands/${rowData.CasinoBrand}.png`}
+                                        alt={rowData.CasinoBrand}
+                                        width={300}
+                                        height={100}
+                                        loading="lazy"
+                                        className="target-top-new-releases"
+                                      />
+                                    </Link>
+                                  </div>
+                                ))}
                             </div>
                           </div>
                           <div class="items-wrap">
                             <div class="items marquee reverce">
-                              {brands.slice(thirdCut, end).map((rowData, index) => (
-                                <div className="item">
-                                  <Link
-                                    className=""
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
-                                    target="_blank"
-                                  >
-                                    <Image
-                                      src={`/brands/${rowData.CasinoBrand}.png`}
-                                      alt={rowData.CasinoBrand}
-                                      width={300}
-                                      height={100}
-                                      loading="lazy"
-                                      className="target-top-new-releases"
-                                    />
-                                  </Link>
-                                </div>
-                              ))}
+                              {brands
+                                .slice(thirdCut, end)
+                                .map((rowData, index) => (
+                                  <div className="item">
+                                    <Link
+                                      className=""
+                                      href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
+                                      target="_blank"
+                                    >
+                                      <Image
+                                        src={`/brands/${rowData.CasinoBrand}.png`}
+                                        alt={rowData.CasinoBrand}
+                                        width={300}
+                                        height={100}
+                                        loading="lazy"
+                                        className="target-top-new-releases"
+                                      />
+                                    </Link>
+                                  </div>
+                                ))}
                             </div>
-                            <div aria-hidden="true" class="items marquee reverce">
-                              {brands.slice(thirdCut, end).map((rowData, index) => (
-                                <div className="item">
-                                  <Link
-                                    className=""
-                                    href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
-                                    target="_blank"
-                                  >
-                                    <Image
-                                      src={`/brands/${rowData.CasinoBrand}.png`}
-                                      alt={rowData.CasinoBrand}
-                                      width={300}
-                                      height={100}
-                                      loading="lazy"
-                                      className="target-top-new-releases"
-                                    />
-                                  </Link>
-                                </div>
-                              ))}
+                            <div
+                              aria-hidden="true"
+                              class="items marquee reverce"
+                            >
+                              {brands
+                                .slice(thirdCut, end)
+                                .map((rowData, index) => (
+                                  <div className="item">
+                                    <Link
+                                      className=""
+                                      href={`${rowData.GoBig}/${newUrl}&creative_id=Best_Payout_2`}
+                                      target="_blank"
+                                    >
+                                      <Image
+                                        src={`/brands/${rowData.CasinoBrand}.png`}
+                                        alt={rowData.CasinoBrand}
+                                        width={300}
+                                        height={100}
+                                        loading="lazy"
+                                        className="target-top-new-releases"
+                                      />
+                                    </Link>
+                                  </div>
+                                ))}
                             </div>
                           </div>
                         </div>
@@ -486,7 +510,6 @@ export default function Brands_double_carousel() {
                   </div>
                 )}
               </div>
-
             </div>
           </div>
         )
