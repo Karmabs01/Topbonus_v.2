@@ -13,6 +13,8 @@ import { useTranslation } from "react-i18next";
 import refetch from "@/public/refetch.png";
 
 import Slider from "react-slick";
+import { getUserData } from "@/components/getUser/getUser";
+
 
 // import "./styled.component.css"
 
