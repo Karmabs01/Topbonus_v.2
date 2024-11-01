@@ -736,6 +736,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "feel the chill of fortune!",
 
         "SPECIAL HALLOWEEN": "SPECIAL HALLOWEEN",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Pick a brand below, make first deposit, and spin to",
+        "win up to $1,000 cash!": "win up to $1,000 cash!",
+        "Best VIP Programs": "Best VIP Programs",
       },
     },
 
@@ -1259,6 +1264,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "poczuj chłód fortuny!",
 
         "SPECIAL HALLOWEEN": "SPECJALNY HALLOWEEN",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Wybierz poniższą markę, dokonaj pierwszej wpłaty i zakręć",
+        "win up to $1,000 cash!": "wygraj nawet do 1000 dolarów gotówki!",
+        "Best VIP Programs": "Najlepsze programy VIP",
       },
     },
     de: {
@@ -1782,6 +1792,12 @@ async function initializeI18n() {
         "feel the chill of fortune!": "Spüre die Kälte des Schicksals!",
 
         "SPECIAL HALLOWEEN": "SPEZIELLES HALLOWEEN",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Wählen Sie unten eine Marke aus, tätigen Sie die erste Einzahlung und drehen Sie",
+        "win up to $1,000 cash!":
+          "Gewinnen Sie bis zu 1.000 US-Dollar Bargeld!",
+        "Best VIP Programs": "Beste VIP-Programme",
       },
     },
     bg: {
@@ -2297,6 +2313,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "почувствайте студа на късмета!",
 
         "SPECIAL HALLOWEEN": "СПЕЦИАЛЕН ХЕЛОУИН",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Изберете марка по-долу, направете първи депозит и завъртете",
+        "win up to $1,000 cash!": "спечелете до 1 000 долара в брой!",
+        "Best VIP Programs": "Най-добрите VIP програми",
       },
     },
     cz: {
@@ -2812,6 +2833,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "pocítit chlad štěstí!",
 
         "SPECIAL HALLOWEEN": "SPECIÁLNÍ HALLOWEEN",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Vyberte značku níže, proveďte první vklad a zatočte",
+        "win up to $1,000 cash!": "vyhrajte až 1 000 $ hotově!",
+        "Best VIP Programs": "Nejlepší VIP programy",
       },
     },
     dk: {
@@ -3327,6 +3353,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "føl kulden fra skæbnen!",
 
         "SPECIAL HALLOWEEN": "SÆRLIG HALLOWEEN",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Vælg et mærke nedenfor, foretag første indbetaling, og spin til",
+        "win up to $1,000 cash!": "Vind op til $1.000 kontant!",
+        "Best VIP Programs": "Bedste VIP-programmer",
       },
     },
     nl: {
@@ -3846,6 +3877,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "voel de kilte van het lot!",
 
         "SPECIAL HALLOWEEN": "SPECIALE HALLOWEEN",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Kies hieronder een merk, maak een eerste storting en draai aan",
+        "win up to $1,000 cash!": "win tot $1,000 contant geld!",
+        "Best VIP Programs": "Beste VIP-programma's",
       },
     },
     es: {
@@ -4364,6 +4400,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "siente el escalofrío de la fortuna!",
 
         "SPECIAL HALLOWEEN": "ESPECIAL HALLOWEEN",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Elige una marca a continuación, haz el primer depósito y gira para",
+        "win up to $1,000 cash!": "¡Gana hasta $1,000 en efectivo!",
+        "Best VIP Programs": "Mejores programas VIP",
       },
     },
     fi: {
@@ -4878,6 +4919,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "tunne kohtalon kylmyys!",
 
         "SPECIAL HALLOWEEN": "ERITYINEN HALLOWEEN",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Valitse alla oleva brändi, tee ensimmäinen talletus ja pyöräytä",
+        "win up to $1,000 cash!": "voita jopa 1 000 dollaria käteistä!",
+        "Best VIP Programs": "Parhaat VIP-ohjelmat",
       },
     },
     fr: {
@@ -5398,6 +5444,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "sentez le frisson de la fortune!",
 
         "SPECIAL HALLOWEEN": "HALLOWEEN SPÉCIAL",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Choisissez une marque ci-dessous, effectuez un premier dépôt et tournez pour",
+        "win up to $1,000 cash!": "gagnez jusqu'à 1 000 $ en espèces !",
+        "Best VIP Programs": "Meilleurs programmes VIP",
       },
     },
 
@@ -5914,6 +5965,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "νιώστε την ψυχρασία της τύχης!",
 
         "SPECIAL HALLOWEEN": "ΕΙΔΙΚΟ HALLOWEEN",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Επιλέξτε μια μάρκα παρακάτω, κάντε την πρώτη κατάθεση και περιστρέψτε το",
+        "win up to $1,000 cash!": "κερδίστε μέχρι και 1.000 δολάρια μετρητά!",
+        "Best VIP Programs": "Καλύτερα προγράμματα VIP",
       },
     },
     hu: {
@@ -6430,6 +6486,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "érzed a szerencse hidegét!",
 
         "SPECIAL HALLOWEEN": "KÜLÖNLEGES HALLOWEEN",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Válasszon egy márkát lent, tegyen első befizetést, és pörögjön",
+        "win up to $1,000 cash!": "akár 1 000 dollár készpénzt nyerhet!",
+        "Best VIP Programs": "Legjobb VIP Programok",
       },
     },
     it: {
@@ -6949,6 +7010,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "sentire il freddo della fortuna!",
 
         "SPECIAL HALLOWEEN": "SPECIALE HALLOWEEN",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Scegli un marchio qui sotto, effettua il primo deposito e gira",
+        "win up to $1,000 cash!": "vinci fino a $1,000 in contanti!",
+        "Best VIP Programs": "I migliori programmi VIP",
       },
     },
     no: {
@@ -7465,6 +7531,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "kjenne kulden av skjebnen!",
 
         "SPECIAL HALLOWEEN": "SPESIELL HALLOWEEN",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Velg et merke nedenfor, gjør første innskudd, og snurr for å",
+        "win up to $1,000 cash!": "vinn opptil $1,000 i kontanter!",
+        "Best VIP Programs": "Beste VIP-programmer",
       },
     },
     pt: {
@@ -7983,6 +8054,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "sinta o frio da fortuna!",
 
         "SPECIAL HALLOWEEN": "HALLOWEEN ESPECIAL",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Escolha uma marca abaixo, faça o primeiro depósito e gire para",
+        "win up to $1,000 cash!": "ganhe até $1,000 em dinheiro!",
+        "Best VIP Programs": "Melhores Programas VIP",
       },
     },
     se: {
@@ -8499,6 +8575,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "känn kylan av ödet!",
 
         "SPECIAL HALLOWEEN": "SPECIELL HALLOWEEN",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Välj ett varumärke nedan, gör första insättningen och snurra för att",
+        "win up to $1,000 cash!": "vinn upp till $1,000 i kontanter!",
+        "Best VIP Programs": "Bästa VIP-programmen",
       },
     },
     sk: {
@@ -9014,6 +9095,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "cítiť chlad šťastia!",
 
         "SPECIAL HALLOWEEN": "ŠPECIÁLNY HALLOWEEN",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Vyberte značku nižšie, urobte prvý vklad a zatočte",
+        "win up to $1,000 cash!": "vyhrajte až 1 000 dolárov hotovosti!",
+        "Best VIP Programs": "Najlepšie VIP programy",
       },
     },
     tr: {
@@ -9529,6 +9615,11 @@ async function initializeI18n() {
         "feel the chill of fortune!": "kaderin soğukluğunu hissedin!",
 
         "SPECIAL HALLOWEEN": "ÖZEL CADILAR BAYRAMI",
+
+        "Pick a brand below, make first deposit, and spin to":
+          "Aşağıdaki markalardan birini seçin, ilk depozitonuzu yapın ve çevirin",
+        "win up to $1,000 cash!": "1.000 dolara kadar nakit kazanın!",
+        "Best VIP Programs": "En İyi VIP Programları",
       },
     },
   };
