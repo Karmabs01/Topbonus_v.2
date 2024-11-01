@@ -1,0 +1,103 @@
+/* [project]/components/Banners_tailwind/Fortune_wheel_page/styled.component.css [app-ssr] (css) */
+.background-roulete {
+  background: url("/newimages/banner-roulete.png") center no-repeat;
+  border-radius: 30px;
+  padding: 43px 0;
+}
+
+.bg-main {
+  border-radius: 30px;
+  border-top: 2.5px solid #fff6;
+  border-bottom: 2.5px solid #fff6;
+  background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
+  -webkit-backdrop-filter: blur(17.915px);
+  backdrop-filter: blur(17.915px);
+}
+
+.bg-main .p {
+  color: #9ca3af;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.bg-main h2 {
+  color: #fff;
+  line-height: normal;
+}
+
+.bg-main h5 {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.bg-main h5 span {
+  color: #ff8f1f;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .bg-main .p {
+    padding: 0 10px;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+  }
+
+  .mtt {
+    margin-top: 0;
+  }
+
+  .background-roulete {
+    background: url("/newimages/banner-roulete_small.png") center no-repeat;
+    background-size: cover;
+  }
+}
+
+
+/* [project]/components/Banners_tailwind/Brands_carousel/styled.component.css [app-ssr] (css) */
+.brand_carousel .slick-dots li.slick-active button:before {
+  color: #4f46e5 !important;
+}
+
+.brand_carousel .slick-dots li button:before {
+  font-size: 12px;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.btn-play {
+  border-radius: 0 0 30px 30px;
+  background: #ff8f1f;
+  box-shadow: 0 -5px 30px #ff8f1f4d;
+  padding: 12px 0;
+  width: 100%;
+  line-height: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.card-sl {
+  border: 2px solid #ffffff4d;
+  border-radius: 32px;
+  padding-top: 10px;
+}
+
+.card-sl > div > .mt-3 {
+  display: flex;
+  padding: 0 10px;
+}
+
+
+/*# sourceMappingURL=components_Banners_tailwind_bfdf24._.css.map*/
