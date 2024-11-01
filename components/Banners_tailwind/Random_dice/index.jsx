@@ -76,7 +76,7 @@ export default function Random_block() {
   return (
     <>
       <div className="dice fixed bottom-50 right-7">
-        <Link href={`${redirectUrl}/${newUrl}&creative_id=Try_Your_Luck_Dice`}>
+        <Link target="_blank" href={`${redirectUrl}/${newUrl}&creative_id=Try_Your_Luck_Dice`}>
           <Image
             src={dice}
             alt="random"

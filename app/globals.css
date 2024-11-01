@@ -10842,11 +10842,19 @@ main > .topbr {
     position: relative;
     padding: 56px 0 36px;
   }
+  .dice a img {
+    max-width: 37px;
+    max-height: 37px;
+  }
+  .dice {
+    right: 8px !important;
+    bottom: 10rem !important;
+  }
 }
 
 .bottom-50 {
   bottom: 12rem;
-  z-index: 999;
+  z-index: 99;
 }
 .btn-support {
   border-radius: 0 !important;
