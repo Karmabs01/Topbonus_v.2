@@ -1,7 +1,6 @@
 {
   "/page": "app/page.js",
-  "/api/geolocation/route": "app/api/geolocation/route.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/_not-found/page": "app/_not-found/page.js",
-  "/exclusive-bonuses/page": "app/exclusive-bonuses/page.js"
+  "/api/geolocation/route": "app/api/geolocation/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
