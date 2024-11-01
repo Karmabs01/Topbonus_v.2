@@ -12841,6 +12841,52 @@ main > .topbr {
   }
 }
 
+.bottom-50 {
+  bottom: 12rem;
+  z-index: 999;
+}
+
+.btn-support {
+  border-radius: 0 !important;
+}
+
+.slick-slider .slick-prev:before, .slick-slider .slick-next:before {
+  color: #ff8f1f !important;
+}
+
+.slick-next:before {
+  content: "→";
+  position: absolute;
+}
+
+.slick-prev:before {
+  content: "←";
+  position: absolute;
+}
+
+.page-fortune .slick-slider button {
+  display: block !important;
+  position: absolute !important;
+}
+
+.page-fortune .slick-prev, .page-fortune .slick-next {
+  color: #0000;
+  top: -40px !important;
+  left: initial !important;
+}
+
+.page-fortune .slick-prev {
+  right: 40px;
+}
+
+.page-fortune .slick-next {
+  right: 0;
+}
+
+.page-fortune .slick-slider {
+  position: relative;
+}
+
 .placeholder\:text-gray-300::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));

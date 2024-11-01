@@ -62,7 +62,7 @@ export default function Banner_small() {
                     {t("Fortune wheel")} <span>{t("brands")}</span>
                   </h2>
                   <h5 className="text-lg leading-8 text-gray-300 font-normal">
-                    {t("Pick a brand below, make first deposit and")} <span>{t("win real cash")}</span>
+                    {t("Pick a brand below, make first deposit, and spin to")} <span>{t("win up to $1,000 cash!")}</span>
                   </h5>
                   <div className="flex mt-4">
                     <Link href={`/fortune/?creative_id=FORTUNE_WHEEL_2`} target="_blank">

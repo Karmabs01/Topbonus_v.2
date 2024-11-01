@@ -4343,10 +4343,10 @@ function Popular_offers() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "md:hidden w-full mob-sl",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "cards-th !mt-0",
+                                className: "cards-th !mt-0 mmb-1",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-3xl font-bold tracking-tight text-white random-title mt-3 mb-3",
+                                        className: "text-3xl font-bold tracking-tight text-white random-title mt-3 mb-3 ",
                                         children: [
                                             t("POPULAR"),
                                             " ",
@@ -4598,14 +4598,14 @@ function Banner_small() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
                                                 className: "text-lg leading-8 text-gray-300 font-normal",
                                                 children: [
-                                                    t("Pick a brand below, make first deposit and"),
+                                                    t("Pick a brand below, make first deposit, and spin to"),
                                                     " ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        children: t("win real cash")
+                                                        children: t("win up to $1,000 cash!")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Fortune_wheel_banner/index.jsx",
                                                         lineNumber: 65,
-                                                        columnNumber: 71
+                                                        columnNumber: 80
                                                     }, this)
                                                 ]
                                             }, void 0, true, {

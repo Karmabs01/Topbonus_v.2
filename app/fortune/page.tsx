@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import Fortunes from "@/components/fortune";
+import Fortune_wheel_page from "@/components/Banners_tailwind/Fortune_wheel_page";
 import { getUserData } from "@/components/getUser/getUser";
 import Brands_carousel from "@/components/Banners_tailwind/Brands_carousel";
 
@@ -47,9 +47,9 @@ export default function Fortune() {
           height={iframeHeight}
         />
       </div>
-
+      <Fortune_wheel_page />
       {/* <Fortunes banner={banner} target={target} creative={creative} /> */}
-      <Brands_carousel target={target} creative={creative} categoryBrands={categoryBrands} />
+      {/* <Brands_carousel target={target} creative={creative} categoryBrands={categoryBrands} /> */}
     </div>
   );
 }

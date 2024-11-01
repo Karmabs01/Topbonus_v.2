@@ -137,6 +137,7 @@ const getBrands = async (categoryBrands, lng)=>{
     const api1043 = "https://bonusnumber1.com/api/brandsNew3/read.php";
     const api1044 = "https://bonusnumber1.com/api/brandsNew4/read.php";
     const apiCLD_VIP = "https://bonusnumber1.com/api/brandsNew5/read.php";
+    const api1045 = "https://bonusnumber1.com/api/brandsNew6/read.php";
     const availableLanguages = [
         {
             code: "au",
@@ -500,6 +501,128 @@ const getBrands = async (categoryBrands, lng)=>{
             flag: "🌍"
         }
     ];
+    const availableLanguages1045 = [
+        {
+            code: "au",
+            label: "Australia",
+            flag: "🇦🇺"
+        },
+        {
+            code: "at",
+            label: "Austria",
+            flag: "🇦🇹"
+        },
+        {
+            code: "be",
+            label: "Belgium",
+            flag: "🇧🇪"
+        },
+        {
+            code: "ca",
+            label: "Canada",
+            flag: "🇨🇦"
+        },
+        {
+            code: "ch",
+            label: "Switzerland",
+            flag: "🇨🇭"
+        },
+        {
+            code: "cz",
+            label: "The Czech Republic",
+            flag: "🇨🇿"
+        },
+        {
+            code: "de",
+            label: "Germany",
+            flag: "🇩🇪"
+        },
+        {
+            code: "dk",
+            label: "Denmark",
+            flag: "🇩🇰"
+        },
+        {
+            code: "fi",
+            label: "Finland",
+            flag: "🇫🇮"
+        },
+        {
+            code: "fr",
+            label: "France",
+            flag: "🇫🇷"
+        },
+        {
+            code: "gb",
+            label: "United Kingdom",
+            flag: "🇬🇧"
+        },
+        {
+            code: "gr",
+            label: "Greece",
+            flag: "🇬🇷"
+        },
+        {
+            code: "hu",
+            label: "Hungary",
+            flag: "🇭🇺"
+        },
+        {
+            code: "ie",
+            label: "Ireland",
+            flag: "🇮🇪"
+        },
+        {
+            code: "it",
+            label: "Italy",
+            flag: "🇮🇹"
+        },
+        {
+            code: "pt",
+            label: "Portugal",
+            flag: "🇵🇹"
+        },
+        {
+            code: "es",
+            label: "Spain",
+            flag: "🇪🇸"
+        },
+        {
+            code: "no",
+            label: "Norway",
+            flag: "🇳🇴"
+        },
+        {
+            code: "nl",
+            label: "Netherlands",
+            flag: "🇳🇱"
+        },
+        {
+            code: "nz",
+            label: "New Zealand",
+            flag: "🇳🇿"
+        },
+        {
+            code: "pl",
+            label: "Poland",
+            flag: "🇵🇱"
+        },
+        {
+            code: "se",
+            label: "Sweden",
+            flag: "🇸🇪"
+        },
+        {
+            code: "sk",
+            label: "Slovakia",
+            flag: "🇸🇰"
+        },
+        {
+            code: "all",
+            label: "World",
+            flag: "🌍"
+        }
+    ];
     const availableLanguagesCLD_VIP = [
         {
             code: "au",
@@ -616,6 +739,14 @@ const getBrands = async (categoryBrands, lng)=>{
             languages: availableLanguages1044
         },
         CLD_VIP: {
+            url: apiCLD_VIP,
+            languages: availableLanguagesCLD_VIP
+        },
+        partner1045_b1: {
+            url: api1045,
+            languages: availableLanguages1045
+        },
+        partner1046: {
             url: apiCLD_VIP,
             languages: availableLanguagesCLD_VIP
         },

@@ -3,11 +3,15 @@ import { Metadata } from "next";
 import TopBrands from "@/components/Banners_tailwind/TopBrands";
 import TopBrandsRandom from "@/components/TopBrandsRandom";
 import Banner_small from "@/components/Banners_tailwind/Banner_small";
+import Banner_small_vip from "@/components/Banners_tailwind/Banner_small_vip";
+
 // import Brands_carousel from "@/components/Banners_tailwind/Brands_carousel";
 import Brand_carousel_mobile from "@/components/Banners_tailwind/Brands_carousel_mobile";
 import Double_banners from "@/components/Banners_tailwind/Double_banners";
 import Brands_double_carousel from "@/components/Banners_tailwind/Brands_double_carousel";
 import Random_block from "@/components/Banners_tailwind/Random_block";
+import Random_dice from "@/components/Banners_tailwind/Random_dice";
+
 import Jackpot_banner from "@/components/Banners_tailwind/Jackpot_banner";
 import Next_event_banner from "@/components/Banners_tailwind/Next_event_banner";
 import Three_part_gallery from "@/components/Banners_tailwind/Three_part_gallery";
@@ -35,7 +39,9 @@ export default async function Home() {
       <Brands_double_carousel />
       <Next_event_banner />
       <Fortune_wheel />
-      <Random_block />
+      <Banner_small_vip />
+      {/* <Random_block /> */}
+      <Random_dice />
 
       {/*    
    <Brand_carousel_mobile/>

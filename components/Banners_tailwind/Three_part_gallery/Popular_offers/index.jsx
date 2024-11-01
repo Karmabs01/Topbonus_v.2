@@ -291,8 +291,8 @@ export default function Popular_offers() {
                 </div>
 
                 <div className="md:hidden w-full mob-sl">
-                  <div className="cards-th !mt-0">
-                    <h2 className="text-3xl font-bold tracking-tight text-white random-title mt-3 mb-3">
+                  <div className="cards-th !mt-0 mmb-1">
+                    <h2 className="text-3xl font-bold tracking-tight text-white random-title mt-3 mb-3 ">
                     {t("POPULAR")} <span>{t("offers")}</span>
                   </h2>
                     <Slider {...settings}>
