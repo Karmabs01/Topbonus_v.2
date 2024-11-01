@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import Fortunes from "@/components/fortune";
+import Fortune_wheel_page from "@/components/Banners_tailwind/Fortune_wheel_page";
 import { getUserData } from "@/components/getUser/getUser";
 import Brands_carousel from "@/components/Banners_tailwind/Brands_carousel";
 
@@ -35,7 +35,7 @@ export default function Fortune() {
 
   const categoryBrands = { key1: "FirstPriority", key2: "1" };
   const target = "target-fw-brands-wheel-page";
-  const creative = "FW_Brands_Wheel_Page";
+  const creative = "FW_Brands_Wheel_Page_2";
   return (
     <div className="page-fortune main__container">
       {/* <button onClick={() => updateUserDataIfNeeded(userData)}>On</button> */}
@@ -47,9 +47,9 @@ export default function Fortune() {
           height={iframeHeight}
         />
       </div>
-
+      <Fortune_wheel_page />
       {/* <Fortunes banner={banner} target={target} creative={creative} /> */}
-      <Brands_carousel target={target} creative={creative} categoryBrands={categoryBrands} />
+      {/* <Brands_carousel target={target} creative={creative} categoryBrands={categoryBrands} /> */}
     </div>
   );
 }
