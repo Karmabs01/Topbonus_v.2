@@ -14,6 +14,7 @@ import Slider from "react-slick";
 import refetch from "@/public/refetch.png";
 import { getUserData } from "@/components/getUser/getUser";
 
+
 export default function Banner_small() {
   const [newUrl, setNewUrl] = useState("");
   const [brands, setBrands] = useState([]);
@@ -173,6 +174,7 @@ export default function Banner_small() {
   }, [language]);
 
   const categoryBrands2 = { key1: "Video", key2: "hell" };
+
   const { data, error } = useSWR(
     ["brands", language],
     () => getBrands(language),
@@ -270,8 +272,8 @@ export default function Banner_small() {
         <div className="main__container">
           <div className="flex flex-col face-mob">
             <h3 className="text-lg leading-6 ">
-            {t("Prepare for frightful")}
-            <span> {t("wins and eerie excitement!")}</span>
+              {t("Ghostly gains are just a")}
+              <span> {t("spin away—unlock today’s treat!")}</span>
             </h3>
             <div className="timer2 text-lg mt-4 flex flex-col">
               <p>{t("Ends In")}:</p> <span>{timeLeft}</span>

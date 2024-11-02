@@ -105,7 +105,7 @@ export default function Pickup({ newUrl }) {
         <div className="thrdjin">
           <h5 className="h5">{t("Premium Choice of the Day")}</h5>
           {brands.length > 0 &&
-            brands.slice(1, 2).map((rowData, index) => (
+            brands.slice(2, 3).map((rowData, index) => (
               // <p className="p">{t("Click below to claim your magical reward!")}</p>
               <div>
                 <div className="img-wrap">
