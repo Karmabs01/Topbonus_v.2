@@ -741,7 +741,8 @@ async function initializeI18n() {
           "Pick a brand below, make first deposit, and spin to",
         "win up to $1,000 cash!": "win up to $1,000 cash!",
         "Best VIP Programs": "Best VIP Programs",
-        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support."
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.",
       },
     },
 
@@ -1270,6 +1271,9 @@ async function initializeI18n() {
           "Wybierz poniższą markę, dokonaj pierwszej wpłaty i zakręć",
         "win up to $1,000 cash!": "wygraj nawet do 1000 dolarów gotówki!",
         "Best VIP Programs": "Najlepsze programy VIP",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Te najlepsze kasyna oferują programy VIP z pełnym pakietem ekskluzywnych korzyści, od spersonalizowanych bonusów po specjalne nagrody i dedykowane wsparcie.",
       },
     },
     de: {
@@ -1799,6 +1803,9 @@ async function initializeI18n() {
         "win up to $1,000 cash!":
           "Gewinnen Sie bis zu 1.000 US-Dollar Bargeld!",
         "Best VIP Programs": "Beste VIP-Programme",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Diese Top-Casinos bieten VIP-Programme mit exklusiven Vorteilen, von personalisierten Boni bis hin zu besonderen Belohnungen und dediziertem Support.",
       },
     },
     bg: {
@@ -2319,6 +2326,9 @@ async function initializeI18n() {
           "Изберете марка по-долу, направете първи депозит и завъртете",
         "win up to $1,000 cash!": "спечелете до 1 000 долара в брой!",
         "Best VIP Programs": "Най-добрите VIP програми",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Тези водещи казина предлагат VIP програми, пълни с ексклузивни предимства, от персонализирани бонуси до специални награди и посветена подкрепа.",
       },
     },
     cz: {
@@ -2839,6 +2849,9 @@ async function initializeI18n() {
           "Vyberte značku níže, proveďte první vklad a zatočte",
         "win up to $1,000 cash!": "vyhrajte až 1 000 $ hotově!",
         "Best VIP Programs": "Nejlepší VIP programy",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Tato nejlepší kasina nabízejí VIP programy plné exkluzivních výhod, od personalizovaných bonusů po speciální odměny a věnovanou podporu.",
       },
     },
     dk: {
@@ -3359,6 +3372,9 @@ async function initializeI18n() {
           "Vælg et mærke nedenfor, foretag første indbetaling, og spin til",
         "win up to $1,000 cash!": "Vind op til $1.000 kontant!",
         "Best VIP Programs": "Bedste VIP-programmer",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Disse top casinoer tilbyder VIP-programmer fyldt med eksklusive fordele, fra personlige bonusser til særlige belønninger og dedikeret support.",
       },
     },
     nl: {
@@ -3883,6 +3899,9 @@ async function initializeI18n() {
           "Kies hieronder een merk, maak een eerste storting en draai aan",
         "win up to $1,000 cash!": "win tot $1,000 contant geld!",
         "Best VIP Programs": "Beste VIP-programma's",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Deze top casino's bieden VIP-programma's boordevol exclusieve voordelen, van gepersonaliseerde bonussen tot speciale beloningen en toegewijde ondersteuning.",
       },
     },
     es: {
@@ -4406,6 +4425,9 @@ async function initializeI18n() {
           "Elige una marca a continuación, haz el primer depósito y gira para",
         "win up to $1,000 cash!": "¡Gana hasta $1,000 en efectivo!",
         "Best VIP Programs": "Mejores programas VIP",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Estos casinos de primera categoría ofrecen programas VIP repletos de beneficios exclusivos, desde bonos personalizados hasta recompensas especiales y soporte dedicado.",
       },
     },
     fi: {
@@ -4925,6 +4947,9 @@ async function initializeI18n() {
           "Valitse alla oleva brändi, tee ensimmäinen talletus ja pyöräytä",
         "win up to $1,000 cash!": "voita jopa 1 000 dollaria käteistä!",
         "Best VIP Programs": "Parhaat VIP-ohjelmat",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Nämä huippukasinot tarjoavat VIP-ohjelmia, jotka ovat täynnä yksinoikeudella olevia etuja, henkilökohtaisista bonuksista erikoispalkintoihin ja omistettuun tukeen.",
       },
     },
     fr: {
@@ -5450,6 +5475,9 @@ async function initializeI18n() {
           "Choisissez une marque ci-dessous, effectuez un premier dépôt et tournez pour",
         "win up to $1,000 cash!": "gagnez jusqu'à 1 000 $ en espèces !",
         "Best VIP Programs": "Meilleurs programmes VIP",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Ces meilleurs casinos proposent des programmes VIP remplis d'avantages exclusifs, allant des bonus personnalisés aux récompenses spéciales et au support dédié.",
       },
     },
 
@@ -5971,6 +5999,9 @@ async function initializeI18n() {
           "Επιλέξτε μια μάρκα παρακάτω, κάντε την πρώτη κατάθεση και περιστρέψτε το",
         "win up to $1,000 cash!": "κερδίστε μέχρι και 1.000 δολάρια μετρητά!",
         "Best VIP Programs": "Καλύτερα προγράμματα VIP",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Αυτά τα κορυφαία καζίνο προσφέρουν προγράμματα VIP γεμάτα με αποκλειστικά προνόμια, από εξατομικευμένα μπόνους μέχρι ειδικές ανταμοιβές και αφιερωμένη υποστήριξη.",
       },
     },
     hu: {
@@ -6492,6 +6523,9 @@ async function initializeI18n() {
           "Válasszon egy márkát lent, tegyen első befizetést, és pörögjön",
         "win up to $1,000 cash!": "akár 1 000 dollár készpénzt nyerhet!",
         "Best VIP Programs": "Legjobb VIP Programok",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Ezek a legjobb kaszinók VIP programokat kínálnak, amelyek tele vannak kizárólagos juttatásokkal, személyre szabott bónuszoktól különleges jutalmakig és dedikált támogatásig.",
       },
     },
     it: {
@@ -7016,6 +7050,9 @@ async function initializeI18n() {
           "Scegli un marchio qui sotto, effettua il primo deposito e gira",
         "win up to $1,000 cash!": "vinci fino a $1,000 in contanti!",
         "Best VIP Programs": "I migliori programmi VIP",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Questi casinò di alto livello offrono programmi VIP ricchi di vantaggi esclusivi, da bonus personalizzati a premi speciali e supporto dedicato.",
       },
     },
     no: {
@@ -7537,6 +7574,9 @@ async function initializeI18n() {
           "Velg et merke nedenfor, gjør første innskudd, og snurr for å",
         "win up to $1,000 cash!": "vinn opptil $1,000 i kontanter!",
         "Best VIP Programs": "Beste VIP-programmer",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Disse toppcasinoene tilbyr VIP-programmer fylt med eksklusive fordeler, fra personlige bonuser til spesielle belønninger og dedikert støtte.",
       },
     },
     pt: {
@@ -8060,6 +8100,9 @@ async function initializeI18n() {
           "Escolha uma marca abaixo, faça o primeiro depósito e gire para",
         "win up to $1,000 cash!": "ganhe até $1,000 em dinheiro!",
         "Best VIP Programs": "Melhores Programas VIP",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Estes principais cassinos oferecem programas VIP repletos de vantagens exclusivas, desde bônus personalizados até recompensas especiais e suporte dedicado.",
       },
     },
     se: {
@@ -8581,6 +8624,9 @@ async function initializeI18n() {
           "Välj ett varumärke nedan, gör första insättningen och snurra för att",
         "win up to $1,000 cash!": "vinn upp till $1,000 i kontanter!",
         "Best VIP Programs": "Bästa VIP-programmen",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Dessa toppcasinon erbjuder VIP-program fyllda med exklusiva förmåner, från personliga bonusar till specialbelöningar och dedikerat stöd.",
       },
     },
     sk: {
@@ -9101,6 +9147,9 @@ async function initializeI18n() {
           "Vyberte značku nižšie, urobte prvý vklad a zatočte",
         "win up to $1,000 cash!": "vyhrajte až 1 000 dolárov hotovosti!",
         "Best VIP Programs": "Najlepšie VIP programy",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Tieto najlepšie kasína ponúkajú VIP programy plné exkluzívnych výhod, od personalizovaných bonusov po špeciálne odmeny a venovanú podporu.",
       },
     },
     tr: {
@@ -9621,6 +9670,9 @@ async function initializeI18n() {
           "Aşağıdaki markalardan birini seçin, ilk depozitonuzu yapın ve çevirin",
         "win up to $1,000 cash!": "1.000 dolara kadar nakit kazanın!",
         "Best VIP Programs": "En İyi VIP Programları",
+
+        "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.":
+          "Bu en iyi casinolar, kişiselleştirilmiş bonuslardan özel ödüllere ve özel destek hizmetlerine kadar dolu dolu VIP programlar sunar.",
       },
     },
   };
