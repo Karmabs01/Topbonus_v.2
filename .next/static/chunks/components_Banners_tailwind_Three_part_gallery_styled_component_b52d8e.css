@@ -222,7 +222,7 @@
 
 @media (width >= 320px) and (width <= 767px) {
   .fivehot-banner {
-    background: url("/newimages/beerfestmobile.png") center no-repeat;
+    background: url("/newimages/beerfest.png") center no-repeat;
     background-size: cover;
   }
 
