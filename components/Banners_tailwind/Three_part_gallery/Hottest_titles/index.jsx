@@ -11,10 +11,9 @@ import { useLanguage } from "../../../switcher/LanguageContext";
 import { getBrands } from "../../../getBrands/getBrands2";
 import { useTranslation } from "react-i18next";
 import refetch from "@/public/refetch.png";
-
-import Slider from "react-slick";
 import { getUserData } from "@/components/getUser/getUser";
 
+import Slider from "react-slick";
 
 // import "./styled.component.css"
 
@@ -176,6 +175,7 @@ export default function Popular_offers() {
 
   ]);
 
+
   // Начало изменений
   const specificBrandName = "Betplays"; // Замените на нужный бренд
 
@@ -223,36 +223,7 @@ export default function Popular_offers() {
     return () => clearInterval(interval);
   }, [brands.length]);
 
-  const projects = [
-    {
-      name: "Graph API",
-      initials: "GA",
-      href: "#",
-      members: 16,
-      bgColor: "bg-pink-600",
-    },
-    {
-      name: "Component Design",
-      initials: "CD",
-      href: "#",
-      members: 12,
-      bgColor: "bg-purple-600",
-    },
-    {
-      name: "Templates",
-      initials: "T",
-      href: "#",
-      members: 16,
-      bgColor: "bg-yellow-500",
-    },
-    {
-      name: "React Components",
-      initials: "RC",
-      href: "#",
-      members: 8,
-      bgColor: "bg-green-500",
-    },
-  ];
+
 
   const number = brands.length > 5 ? 5 : brands.length;
 
@@ -272,11 +243,11 @@ export default function Popular_offers() {
               <div className="fivehot-banner">
                 <h3>
                   {number} <span className="span-orange">{t("HOTTEST")}</span>{" "}
-                  <span>{t("HELLISH WINS")}</span>
+                  <span>{t("casinos")}</span>
                 </h3>
                 <p className="!text-xl mt-5">
                   {t(
-                    "Dare to dive into the depths of these haunted casinos offering the hottest hellish wins and devilish bonuses."
+                    "Discover the hottest casino brands trending right now!"
                   )}
                 </p>
               </div>
