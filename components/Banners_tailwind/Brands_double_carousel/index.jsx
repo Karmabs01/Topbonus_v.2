@@ -267,11 +267,11 @@ export default function Brands_double_carousel() {
                   <div className="mx-auto max-w-2xl pb-5 pt-5 sm:pb-5 lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8">
                     <div className="">
                       <h2 className="mt-4">
-                        {t("Best Halloween")}<span> {t("Offers")}</span>
+                        {t("Best Payout")}<span> {t("Casinos")}</span>
                       </h2>
-                      <h3>{t("Best Halloween Offers")}</h3>
+                      <h3>{t("Best payout casinos")}</h3>
                       <p className="mt-4 text-gray-500">
-                        {t("Knock on the doors of spooky casinos and claim your treats! Explore the Best Halloween Offers, where the biggest wins aren’t just tricks—they’re the treats waiting for you this season!")}
+                        {t("Enjoy high returns, fast withdrawals, and unbeatable odds. Ready to win big? Dive in now!")}
                       </p>
                     </div>
                   </div>

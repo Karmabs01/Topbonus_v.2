@@ -231,7 +231,7 @@ export default function Popular_offers() {
             cards2 && (
               <div className="w-full">
              
-                <div className="flex justify-between">
+                <div className="flex justify-between mt-16">
                   <h2 className="text-3xl font-bold tracking-tight text-white random-title mmm-none">
                     {t("POPULAR")} <span>{t("offers")}</span>
                   </h2>
@@ -249,7 +249,7 @@ export default function Popular_offers() {
                 </div>
                 <div className="mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8 hidden md:inline">
                   <div className="cards-thr">
-                    {shuffledBrands.slice(0, 3).map((rowData, index) => (
+                    {shuffledBrands.slice(0, 6).map((rowData, index) => (
                       <div key={"Popular_offers" + index} className="card-thr">
                         <div className="relative">
                           <div className="relative flex align-center justify-center">
