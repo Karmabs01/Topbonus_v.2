@@ -2482,6 +2482,10 @@ select {
   text-align: right;
 }
 
+.text-start {
+  text-align: start;
+}
+
 .align-middle {
   vertical-align: middle;
 }
@@ -13395,11 +13399,21 @@ main > .topbr {
     position: relative;
     padding: 56px 0 36px;
   }
+
+  .dice a img {
+    max-width: 37px;
+    max-height: 37px;
+  }
+
+  .dice {
+    right: 8px !important;
+    bottom: 10rem !important;
+  }
 }
 
 .bottom-50 {
   bottom: 12rem;
-  z-index: 999;
+  z-index: 99;
 }
 
 .btn-support {
@@ -13441,6 +13455,21 @@ main > .topbr {
 
 .page-fortune .slick-slider {
   position: relative;
+}
+
+.p-vip {
+  margin-top: 15px;
+  font-size: 16px !important;
+}
+
+@media (width >= 320px) and (width <= 1259px) {
+  .p-vip {
+    text-align: center !important;
+  }
+
+  .b-vip {
+    align-items: center !important;
+  }
 }
 
 .placeholder\:text-gray-300::-moz-placeholder {

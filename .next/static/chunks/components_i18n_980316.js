@@ -588,7 +588,8 @@ async function initializeI18n() {
                 "SPECIAL HALLOWEEN": "SPECIAL HALLOWEEN",
                 "Pick a brand below, make first deposit, and spin to": "Pick a brand below, make first deposit, and spin to",
                 "win up to $1,000 cash!": "win up to $1,000 cash!",
-                "Best VIP Programs": "Best VIP Programs"
+                "Best VIP Programs": "Best VIP Programs",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support."
             }
         },
         pl: {

@@ -248,7 +248,7 @@ function Pickup({ newUrl }) {
                         lineNumber: 108,
                         columnNumber: 11
                     }, this),
-                    brands.length > 0 && brands.slice(1, 2).map((rowData, index)=>// <p className="p">{t("Click below to claim your magical reward!")}</p>
+                    brands.length > 0 && brands.slice(0, 1).map((rowData, index)=>// <p className="p">{t("Click below to claim your magical reward!")}</p>
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1202,16 +1202,26 @@ function Banner_small() {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex items-center px-2 py-2.5 sm:px-3.5 rounded-md mt-10 flex-col sm:flex-row new-brands",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                className: "text-3xl font-bold tracking-tight text-white random-title",
-                                children: t("VIP program")
-                            }, void 0, false, {
-                                fileName: "[project]/components/Banners_tailwind/Banner_small_vip/index.jsx",
-                                lineNumber: 32,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
+                            className: "flex px-2 py-2.5 sm:px-3.5 rounded-md mt-10 flex-col new-brands flex-col items-start b-vip",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    className: "text-3xl font-bold tracking-tight text-white random-title text-start",
+                                    children: t("Best VIP Programs")
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Banners_tailwind/Banner_small_vip/index.jsx",
+                                    lineNumber: 32,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    className: "text-white p-vip",
+                                    children: t("These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.")
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Banners_tailwind/Banner_small_vip/index.jsx",
+                                    lineNumber: 35,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/Banner_small_vip/index.jsx",
                             lineNumber: 31,
                             columnNumber: 11
@@ -1236,7 +1246,7 @@ function Banner_small() {
                 creative: creative
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Banner_small_vip/index.jsx",
-                lineNumber: 39,
+                lineNumber: 40,
                 columnNumber: 7
             }, this)
         ]
@@ -2224,6 +2234,7 @@ function Random_block() {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "dice fixed bottom-50 right-7",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                target: "_blank",
                 href: `${redirectUrl}/${newUrl}&creative_id=Try_Your_Luck_Dice`,
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$newimages$2f$dice$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$public$2f$newimages$2f$dice$2e$png__$5b$app$2d$client$5d$__$28$static$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object$2c$__ecmascript$29$__["default"],
@@ -2833,7 +2844,7 @@ const __TURBOPACK__default__export__ = {
 })()),
 "[project]/public/newimages/coins.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
-__turbopack_export_value__("/_next/static/media/coins.4c9d30ff.png");
+__turbopack_export_value__("/_next/static/media/coins.15a866b1.png");
 })()),
 "[project]/public/newimages/coins.png.mjs { IMAGE => \"[project]/public/newimages/coins.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
 "use strict";
@@ -2848,7 +2859,7 @@ const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$newimages$2f$coins$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
     width: 1753,
     height: 93,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAALElEQVR42gEhAN7/AFYtRYFTK0aERiVCfEcmQIJCIjyBOBs3ejMkRoYuH0KDmv0JRGOtg8kAAAAASUVORK5CYII=",
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAALElEQVR42gEhAN7/AFYtRYFGMVWEPCpPfDsqT4I3JkuBLyBEejMkRoYuH0KDnW8JbKTOyxMAAAAASUVORK5CYII=",
     blurWidth: 8,
     blurHeight: 1
 };
@@ -3140,11 +3151,11 @@ function Banner_small() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 className: "text-lg leading-6 ",
                                 children: [
-                                    t("Prepare for frightful"),
+                                    t("A new week, a new scare"),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: [
                                             " ",
-                                            t("wins and eerie excitement!")
+                                            t("—start your winning streak today!")
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",

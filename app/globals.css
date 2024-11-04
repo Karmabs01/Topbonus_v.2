@@ -10890,3 +10890,15 @@ main > .topbr {
 .page-fortune .slick-slider {
   position: relative;
 }
+.p-vip {
+  font-size: 16px !important;
+  margin-top: 15px;
+}
+@media(min-width: 320px) and (max-width: 1259px) {
+  .p-vip {
+    text-align: center !important;
+  }
+  .b-vip {
+    align-items: center !important;
+  }
+}
