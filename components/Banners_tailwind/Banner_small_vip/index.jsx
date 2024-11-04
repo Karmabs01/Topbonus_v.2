@@ -28,10 +28,11 @@ export default function Banner_small() {
      <div>
       <div id="real-block" className="main__container">
         <div className="">
-          <div className="flex items-center px-2 py-2.5 sm:px-3.5 rounded-md mt-10 flex-col sm:flex-row new-brands">
-            <h2 className="text-3xl font-bold tracking-tight text-white random-title">
-              {t("Best VIP Programs")}
+          <div className="flex px-2 py-2.5 sm:px-3.5 rounded-md mt-10 flex-col new-brands flex-col items-start b-vip">
+            <h2 className="text-3xl font-bold tracking-tight text-white random-title text-start">
+            {t("Best VIP Programs")}
             </h2>
+            <p className="text-white p-vip">{t("These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.")}</p>
           </div>
         </div>
       </div>

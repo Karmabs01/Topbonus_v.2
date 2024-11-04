@@ -11298,3 +11298,12 @@ border-radius: 5px !important;
 .page-fortune .slick-slider {
   position: relative;
 }
+
+@media(min-width: 320px) and (max-width: 1259px) {
+  .p-vip {
+    text-align: center !important;
+  }
+  .b-vip {
+    align-items: center !important;
+  }
+}
