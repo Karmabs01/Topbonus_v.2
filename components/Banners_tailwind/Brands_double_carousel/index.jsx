@@ -88,6 +88,18 @@ export default function Brands_double_carousel() {
   }
   useEffect(() => {
     const fetchUserBrands = async () => {
+      const filteredData1 = data.filter(
+        (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
+      );
+
+      // Фильтрация по второму столбцу (добавьте нужные ключи)
+      const filteredData2 = data.filter(
+        (rowData) => rowData[categoryBrands2.key1] === categoryBrands2.key2
+
+      );
+
+      // Объединение данных из двух фильтраций
+      const combinedData = [...filteredData1, ...filteredData2];
       try {
         // Проверяем наличие данных брендов
         if (!data) {
@@ -96,18 +108,6 @@ export default function Brands_double_carousel() {
           return;
         }
 
-        const filteredData1 = data.filter(
-          (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
-        );
-  
-        // Фильтрация по второму столбцу (добавьте нужные ключи)
-        const filteredData2 = data.filter(
-          (rowData) => rowData[categoryBrands2.key1] === categoryBrands2.key2
-  
-        );
-  
-        // Объединение данных из двух фильтраций
-        const combinedData = [...filteredData1, ...filteredData2];
 
         // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
         if (!userId) {
@@ -155,6 +155,8 @@ export default function Brands_double_carousel() {
         setBrands(finalFilteredBrands);
         setLoading(false);
       } catch (error) {
+        setBrands(combinedData);
+
         console.error("Ошибка при получении данных пользователя или брендов:", error);
         setLoading(false);
       }

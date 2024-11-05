@@ -120,6 +120,11 @@ export default function Popular_offers() {
   }
   useEffect(() => {
     const fetchUserBrands = async () => {
+      // 1. Фильтрация брендов на основе категорий
+      const filteredByCategory = data.filter((brand) =>
+        brand[categoryBrands0.key1] === categoryBrands0.key2 ||
+        brand[categoryBrands.key1] === categoryBrands.key2
+      );
       try {
         // Проверяем наличие данных брендов
         if (!data) {
@@ -128,11 +133,6 @@ export default function Popular_offers() {
           return;
         }
 
-        // 1. Фильтрация брендов на основе категорий
-        const filteredByCategory = data.filter((brand) =>
-          brand[categoryBrands0.key1] === categoryBrands0.key2 ||
-          brand[categoryBrands.key1] === categoryBrands.key2
-        );
 
         // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
         if (!userId) {
@@ -180,6 +180,8 @@ export default function Popular_offers() {
         setBrands(finalFilteredBrands);
         setLoading(false);
       } catch (error) {
+        setBrands(filteredByCategory);
+
         console.error("Ошибка при получении данных пользователя или брендов:", error);
         setLoading(false);
       }
