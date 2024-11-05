@@ -121,6 +121,10 @@ const TopBrands = () => {
   }
   useEffect(() => {
     const fetchUserBrands = async () => {
+      // 1. Фильтрация брендов на основе категорий
+      const filteredByCategory = data.filter((brand) =>
+        brand[categoryBrands.key1] === categoryBrands.key2
+      );
       try {
         // Проверяем наличие данных брендов
         if (!data) {
@@ -129,10 +133,6 @@ const TopBrands = () => {
           return;
         }
 
-        // 1. Фильтрация брендов на основе категорий
-        const filteredByCategory = data.filter((brand) =>
-          brand[categoryBrands.key1] === categoryBrands.key2
-        );
 
         // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
         if (!userId) {
@@ -180,6 +180,7 @@ const TopBrands = () => {
         setBrands(finalFilteredBrands);
         setLoading(false);
       } catch (error) {
+        setBrands(filteredByCategory);
         console.error("Ошибка при получении данных пользователя или брендов:", error);
         setLoading(false);
       }
