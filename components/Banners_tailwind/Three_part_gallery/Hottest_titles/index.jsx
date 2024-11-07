@@ -179,7 +179,7 @@ export default function Popular_offers() {
 
 
   // Начало изменений
-  const specificBrandName = "Betplays"; // Замените на нужный бренд
+  const specificBrandName = "Erabet"; // Замените на нужный бренд
 
   let brandsToDisplay = [];
 
