@@ -268,7 +268,7 @@ export default function Popular_offers() {
                     loading="lazy"
                   />
                 </button>
-                {brands.slice(0, 5).map((rowData, index) => (
+                {brandsToDisplay.slice(0, 5).map((rowData, index) => (
                   <Link
                     className=""
                     href={`${rowData.GoBig}/${newUrl}&creative_id=Hottest_2`}
