@@ -234,7 +234,7 @@ export default function Popular_offers() {
     setBrands(shuffled); // Перемешиваем и обновляем состояние с брендами
   };
 
-  console.log("MMM", brandsToDisplay)
+
 
   return (
     <>
