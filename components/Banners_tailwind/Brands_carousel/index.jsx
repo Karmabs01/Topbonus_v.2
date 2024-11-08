@@ -132,6 +132,7 @@ export default function Brands_carousel({target, creative, categoryBrands}) {
           const filteredByCategory = data.filter((brand) =>
             brand[categoryBrands.key1] === categoryBrands.key2
           );
+          console.log("==BRANDS==", filteredByCategory, userId)
   
           // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
           if (!userId) {
@@ -192,7 +193,7 @@ export default function Brands_carousel({target, creative, categoryBrands}) {
       categoryBrands.key2, 
     ]);
   
-    
+    console.log("-==BRANDS==-", brands);
 
     useEffect(() => {
         const interval = setInterval(() => {
