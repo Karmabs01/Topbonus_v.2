@@ -13030,16 +13030,52 @@ main > .topbr {
     margin-left: auto;
     margin-right: auto;
   }
+
+  .min-h60 {
+    min-height: 60px;
+    max-height: 60px;
+    overflow: hidden;
+  }
+
+  .custom-bonuses.pt-10 {
+    padding-top: 0 !important;
+  }
+}
+
+.card-casinos {
+  background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
+  border-radius: 30px !important;
+}
+
+.card-casinos .content-text {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .inner-top-block {
   border-radius: 30px;
-  border-top: 2.5px solid #fff6;
-  border-bottom: 2.5px solid #fff6;
-  background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
-  -webkit-backdrop-filter: blur(17.915px);
-  backdrop-filter: blur(17.915px);
   flex-wrap: nowrap;
+  background: url("/paybg.png") center no-repeat !important;
+}
+
+.inner-top-block5 {
+  background: url("/paybg.png") center no-repeat !important;
+}
+
+.inner-top-block2 {
+  background: url("/paybg3.png") center no-repeat !important;
+}
+
+.inner-top-block3 {
+  background: url("/paybg2.png") center no-repeat !important;
+}
+
+@media (width >= 1260px) and (width <= 5000px) {
+  .inner-top-block {
+    min-height: 273px;
+    max-height: 273px;
+    overflow: hidden;
+  }
 }
 
 .text-orange {
@@ -13053,6 +13089,30 @@ main > .topbr {
 @media (width >= 320px) and (width <= 1050px) {
   .inner-image {
     width: 350px !important;
+  }
+
+  .inner-top-block2 {
+    background: url("/dyna2.png") center no-repeat !important;
+  }
+
+  .inner-top-block3 {
+    background: url("/dyna3.png") center no-repeat !important;
+  }
+
+  .inner-top-block5 {
+    background: url("/dyna4.png") center no-repeat !important;
+  }
+
+  .text-in-mobile * {
+    text-align: center !important;
+  }
+
+  .text-in-mobile {
+    padding-top: 1rem !important;
+  }
+
+  .inner-text-block {
+    padding: 16px 32px 160px !important;
   }
 }
 

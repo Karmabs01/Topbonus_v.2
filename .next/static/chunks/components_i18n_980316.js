@@ -196,6 +196,8 @@ async function initializeI18n() {
         newLng = availableLanguages1045;
     } else if (item === "partner1046") {
         newLng = availableLanguagesCLD_VIP;
+    } else if (item === "partner1047_b1") {
+        newLng = availableLanguagesCLD_VIP;
     } else {
         newLng = availableLanguages;
     }
@@ -589,7 +591,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Pick a brand below, make first deposit, and spin to",
                 "win up to $1,000 cash!": "win up to $1,000 cash!",
                 "Best VIP Programs": "Best VIP Programs",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.",
+                "Your Winning Choice": "Your Winning Choice",
+                "Starts Here": "Starts Here",
+                Bonus: "Bonus",
+                Payment: "Payment",
+                "Spin Your Way to Top Casino Picks 2024": "Spin Your Way to Top Casino Picks 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.",
+                "Unlock the Best Casino Bonuses of 2024!": "Unlock the Best Casino Bonuses of 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.",
+                "Find Your Best Payment Picks for 2024": "Find Your Best Payment Picks for 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!"
             }
         },
         pl: {
@@ -961,7 +973,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Wybierz poniższą markę, dokonaj pierwszej wpłaty i zakręć",
                 "win up to $1,000 cash!": "wygraj nawet do 1000 dolarów gotówki!",
                 "Best VIP Programs": "Najlepsze programy VIP",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Te najlepsze kasyna oferują programy VIP z pełnym pakietem ekskluzywnych korzyści, od spersonalizowanych bonusów po specjalne nagrody i dedykowane wsparcie."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Te najlepsze kasyna oferują programy VIP z pełnym pakietem ekskluzywnych korzyści, od spersonalizowanych bonusów po specjalne nagrody i dedykowane wsparcie",
+                "Your Winning Choice": "Twoje Zwycięskie Wybory",
+                "Starts Here": "Zaczyna się tutaj",
+                Bonus: "Premia",
+                Payment: "Płatność",
+                "Spin Your Way to Top Casino Picks 2024": "Kręć się do najlepszych wyborów kasynowych 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Cześć, entuzjasto automatów! To ja, twój ulubiony automat do gier, przychodzę, aby poprowadzić cię przez najbardziej ekscytujące piętra kasyn w 2024 roku. Pokażę ci świeżą kolekcję kasyn online, które właśnie trafiły na jackpot pod względem emocji, gier i ofert.",
+                "Unlock the Best Casino Bonuses of 2024!": "Odblokuj najlepsze bonusy kasynowe z 2024 roku!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Zgadnij co? To ja, pudełko z prezentem, gotowe do ujawnienia najlepszych bonusów specjalnie dla Ciebie! Rozpakuj bonusy, od ofert powitalnych po nagrody lojalnościowe, i wszystko, co jest pomiędzy.",
+                "Find Your Best Payment Picks for 2024": "Znajdź swoje najlepsze wybory płatności na 2024 rok",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Chau! Jestem Dogecoin, twoim wiernym przewodnikiem po najlepszych metodach płatności w kasynach w 2024 roku. Wyszukuję najszybsze, najbardziej niezawodne opcje, od kryptowalut po klasyczne karty, mam informacje o bezpiecznych płatnościach, które działają bezproblemowo. Zaczynajmy!"
             }
         },
         de: {
@@ -1334,7 +1356,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Wählen Sie unten eine Marke aus, tätigen Sie die erste Einzahlung und drehen Sie",
                 "win up to $1,000 cash!": "Gewinnen Sie bis zu 1.000 US-Dollar Bargeld!",
                 "Best VIP Programs": "Beste VIP-Programme",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Diese Top-Casinos bieten VIP-Programme mit exklusiven Vorteilen, von personalisierten Boni bis hin zu besonderen Belohnungen und dediziertem Support."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Diese Top-Casinos bieten VIP-Programme mit exklusiven Vorteilen, von personalisierten Boni bis hin zu besonderen Belohnungen und dediziertem Support.",
+                "Your Winning Choice": "Ihre Gewinnwahl",
+                "Starts Here": "Beginnt hier",
+                Bonus: "Bonus",
+                Payment: "Zahlung",
+                "Spin Your Way to Top Casino Picks 2024": "Wirbeln Sie sich zu den Top-Casino-Auswahlen 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Hallo, Slot-Enthusiast! Ich bin es, deine Lieblingsspielautomat, hier um dich durch die aufregendsten Casinoböden von 2024 zu führen. Ich werde dir eine frische Sammlung von Online-Casinos zeigen, die gerade den Jackpot in Bezug auf Spannung, Spiele und Angebote geknackt haben.",
+                "Unlock the Best Casino Bonuses of 2024!": "Entsperren Sie die besten Casino-Boni von 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Rate mal? Ich bin die Geschenkbox, bereit, die besten Boni nur für dich zu enthüllen! Entdecke Boni, von Willkommensangeboten bis hin zu Treuebelohnungen und allem dazwischen.",
+                "Find Your Best Payment Picks for 2024": "Finden Sie Ihre besten Zahlungsoptionen für 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Wuff! Ich bin Dogecoin, Ihr treuer Führer durch die besten Casino-Zahlungsmethoden von 2024. Ich spüre die schnellsten und zuverlässigsten Optionen auf, von Kryptowährungen bis zu klassischen Karten, ich habe den Überblick über sichere Zahlungen, die nahtlos funktionieren. Lass uns eintauchen!"
             }
         },
         bg: {
@@ -1706,7 +1738,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Изберете марка по-долу, направете първи депозит и завъртете",
                 "win up to $1,000 cash!": "спечелете до 1 000 долара в брой!",
                 "Best VIP Programs": "Най-добрите VIP програми",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Тези водещи казина предлагат VIP програми, пълни с ексклузивни предимства, от персонализирани бонуси до специални награди и посветена подкрепа."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Тези водещи казина предлагат VIP програми, пълни с ексклузивни предимства, от персонализирани бонуси до специални награди и посветена подкрепа.",
+                "Your Winning Choice": "Вашият печеливши избор",
+                "Starts Here": "Започва тук",
+                Bonus: "Бонус",
+                Payment: "Плащане",
+                "Spin Your Way to Top Casino Picks 2024": "Завъртете се към най-добрите казино избори за 2024 г.",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Здравейте, ентусиасте на слотовете! Аз съм тук, вашата любима слот машина, за да ви насоча към най-вълнуващите казино за 2024 година. Ще ви покажа свежа колекция от онлайн казина, които току-що са уцелили джакпота във вълнението, игрите и офертите.",
+                "Unlock the Best Casino Bonuses of 2024!": "Отключете най-добрите казино бонуси за 2024 г.!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Пс-пс... Познаваш ли какво? Аз съм кутията с подаръци, готова да разкрия най-добрите бонуси само за теб! Разкрий бонуси, от поздравителни оферти до лоялни награди и всичко между тях.",
+                "Find Your Best Payment Picks for 2024": "Намерете най-добрите си възможности за плащане за 2024 г.",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Вуф! Аз съм Догекойн, твоят надежден водач през най-добрите методи за плащане в казината през 2024 г. Откривам най-бързите, най-надеждните опции, от криптовалути до класически карти, имам информация за сигурни плащания, които работят безпроблемно. Да започнем!"
             }
         },
         cz: {
@@ -2078,7 +2120,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Vyberte značku níže, proveďte první vklad a zatočte",
                 "win up to $1,000 cash!": "vyhrajte až 1 000 $ hotově!",
                 "Best VIP Programs": "Nejlepší VIP programy",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Tato nejlepší kasina nabízejí VIP programy plné exkluzivních výhod, od personalizovaných bonusů po speciální odměny a věnovanou podporu."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Tato nejlepší kasina nabízejí VIP programy plné exkluzivních výhod, od personalizovaných bonusů po speciální odměny a věnovanou podporu.",
+                "Your Winning Choice": "Vaše vítězná volba",
+                "Starts Here": "Začíná tady",
+                Bonus: "Bonus",
+                Payment: "Platba",
+                "Spin Your Way to Top Casino Picks 2024": "Otočte se k nejlepším kasinovým výběrům 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Ahoj, milý nadšenče do automatů! Jsem tvoje oblíbená hrací automaty, tady abych tě provedla nejnapínavějšími kasiny roku 2024. Ukážu ti novou kolekci online kasin, která právě dosáhla jackpotu v oblasti vzrušení, her a nabídek.",
+                "Unlock the Best Casino Bonuses of 2024!": "Odemkněte nejlepší kasinové bonusy roku 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Uhodni co? Jsem já, dárková krabice, připravená odhalit ty nejlepší bonusy jen pro tebe! Rozbal bonusy, od uvítacích nabídek po věrnostní odměny a všechno mezi tím.",
+                "Find Your Best Payment Picks for 2024": "Najděte své nejlepší platební možnosti pro rok 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Haf! Jsem Dogecoin, tvůj spolehlivý průvodce nejlepšími platebními metodami kasina roku 2024. Vyhledávám nejrychlejší a nejspolehlivější možnosti, od kryptoměn po klasické karty, mám informace o bezpečných platebních metodách, které fungují bez problémů. Pojďme do toho!"
             }
         },
         dk: {
@@ -2450,7 +2502,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Vælg et mærke nedenfor, foretag første indbetaling, og spin til",
                 "win up to $1,000 cash!": "Vind op til $1.000 kontant!",
                 "Best VIP Programs": "Bedste VIP-programmer",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Disse top casinoer tilbyder VIP-programmer fyldt med eksklusive fordele, fra personlige bonusser til særlige belønninger og dedikeret support."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Disse top casinoer tilbyder VIP-programmer fyldt med eksklusive fordele, fra personlige bonusser til særlige belønninger og dedikeret support.",
+                "Your Winning Choice": "Dit vindende valg",
+                "Starts Here": "Starter her",
+                Bonus: "Bonus",
+                Payment: "Betaling",
+                "Spin Your Way to Top Casino Picks 2024": "Spin din vej til Top Casino Picks 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Hej der, slotentusiast! Det er mig, din yndlingsspillemaskine, her for at guide dig gennem de mest spændende kasinoetager i 2024. Jeg vil vise dig en frisk samling af online kasinoer, der lige har ramt jackpotten med hensyn til spænding, spil og tilbud.",
+                "Unlock the Best Casino Bonuses of 2024!": "Oplås de bedste casinobonusser i 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Gæt hvad? Det er mig, gaveæsken, klar til at afsløre de bedste bonusser kun for dig! Pak bonusser ud, fra velkomsttilbud til loyalitetsbelønninger, og alt derimellem.",
+                "Find Your Best Payment Picks for 2024": "Find dine bedste betalingsmuligheder for 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Vov! Jeg er Dogecoin, din pålidelige guide gennem de bedste casinobetalingsmetoder i 2024. Jeg snuser mig frem til de hurtigste, mest pålidelige muligheder, fra kryptovalutaer til klassiske kort. Jeg har styr på sikre betalinger, der fungerer problemfrit. Lad os gå i gang!"
             }
         },
         nl: {
@@ -2822,7 +2884,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Kies hieronder een merk, maak een eerste storting en draai aan",
                 "win up to $1,000 cash!": "win tot $1,000 contant geld!",
                 "Best VIP Programs": "Beste VIP-programma's",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Deze top casino's bieden VIP-programma's boordevol exclusieve voordelen, van gepersonaliseerde bonussen tot speciale beloningen en toegewijde ondersteuning."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Deze top casino's bieden VIP-programma's boordevol exclusieve voordelen, van gepersonaliseerde bonussen tot speciale beloningen en toegewijde ondersteuning.",
+                "Your Winning Choice": "Jouw Winnende Keuze",
+                "Starts Here": "Begint hier",
+                Bonus: "Bonus",
+                Payment: "Betaling",
+                "Spin Your Way to Top Casino Picks 2024": "Spin je weg naar de beste casinoselecties van 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Hallo daar, gokautomaat liefhebber! Ik ben het, jouw favoriete gokautomaat, hier om je door de meest opwindende casinovloeren van 2024 te leiden. Ik zal je een frisse collectie online casino's laten zien die zojuist de jackpot hebben gewonnen op het gebied van opwinding, spellen en aanbiedingen.",
+                "Unlock the Best Casino Bonuses of 2024!": "Ontgrendel de beste casinobonussen van 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Raad eens? Het ben ik, de cadeaubox, klaar om de beste bonussen speciaal voor jou te onthullen! Pak bonussen uit, van welkomstaanbiedingen tot loyaliteitsbeloningen, en alles daartussenin.",
+                "Find Your Best Payment Picks for 2024": "Vind uw beste betalingskeuzes voor 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Blaf! Ik ben Dogecoin, jouw betrouwbare gids door de beste casinobetalingsmethoden van 2024. Ik speur naar de snelste, meest betrouwbare opties, van cryptomunten tot klassieke kaarten, ik heb de inside informatie over veilige betalingen die naadloos werken. Laten we beginnen!"
             }
         },
         es: {
@@ -3194,7 +3266,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Elige una marca a continuación, haz el primer depósito y gira para",
                 "win up to $1,000 cash!": "¡Gana hasta $1,000 en efectivo!",
                 "Best VIP Programs": "Mejores programas VIP",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Estos casinos de primera categoría ofrecen programas VIP repletos de beneficios exclusivos, desde bonos personalizados hasta recompensas especiales y soporte dedicado."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Estos casinos de primera categoría ofrecen programas VIP repletos de beneficios exclusivos, desde bonos personalizados hasta recompensas especiales y soporte dedicado.",
+                "Your Winning Choice": "Tu elección ganadora",
+                "Starts Here": "Empieza aquí",
+                Bonus: "Bonificación",
+                Payment: "Pago",
+                "Spin Your Way to Top Casino Picks 2024": "Gira tu camino hacia las mejores selecciones de casinos 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "¡Hola, entusiasta de las tragamonedas! Soy yo, tu máquina tragamonedas favorita, aquí para guiarte a través de los pisos de casino más emocionantes de 2024. Te mostraré una nueva colección de casinos en línea que acaban de dar en el clavo en términos de emoción, juegos y ofertas.",
+                "Unlock the Best Casino Bonuses of 2024!": "¡Desbloquea los mejores bonos de casino del 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... ¿Adivina qué? Soy yo, la caja de regalo, lista para revelar los mejores bonos solo para ti! Desenvuelve bonos, desde ofertas de bienvenida hasta recompensas de lealtad, y todo lo que hay en medio.",
+                "Find Your Best Payment Picks for 2024": "Encuentra tus mejores opciones de pago para 2024.",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "¡Guau! Soy Dogecoin, tu fiel guía a través de los mejores métodos de pago de casino de 2024. Rastreando las opciones más rápidas y confiables, desde monedas criptográficas hasta tarjetas clásicas, tengo la primicia sobre pagos seguros que funcionan perfectamente. ¡Vamos a investigar!"
             }
         },
         fi: {
@@ -3566,7 +3648,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Valitse alla oleva brändi, tee ensimmäinen talletus ja pyöräytä",
                 "win up to $1,000 cash!": "voita jopa 1 000 dollaria käteistä!",
                 "Best VIP Programs": "Parhaat VIP-ohjelmat",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Nämä huippukasinot tarjoavat VIP-ohjelmia, jotka ovat täynnä yksinoikeudella olevia etuja, henkilökohtaisista bonuksista erikoispalkintoihin ja omistettuun tukeen."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Nämä huippukasinot tarjoavat VIP-ohjelmia, jotka ovat täynnä yksinoikeudella olevia etuja, henkilökohtaisista bonuksista erikoispalkintoihin ja omistettuun tukeen.",
+                "Your Winning Choice": "Voittava valintasi",
+                "Starts Here": "Alkaa tästä",
+                Bonus: "Bonus",
+                Payment: "Maksu",
+                "Spin Your Way to Top Casino Picks 2024": "Pyöritä tiellesi parhaat kasinovaihtoehdot 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Hei siellä, kolikkopelien ystävä! Olen minä, suosikkikolikkopelikoneesi, täällä opastamassa sinua vuoden 2024 jännittävimmillä kasinokerroilla. Näytän sinulle tuoreen valikoiman verkkokasinoita, jotka ovat juuri osuneet jättipottiin jännityksen, pelien ja tarjousten suhteen.",
+                "Unlock the Best Casino Bonuses of 2024!": "Avaa parhaat kasinobonukset vuodelle 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Arvaa mitä? Se olen minä, lahjalaatikko, valmiina paljastamaan parhaat bonukset juuri sinulle! Avaa bonuksia, tervetuliaisbonuksista uskollisuuspalkintoihin ja kaikkeen siltä väliltä.",
+                "Find Your Best Payment Picks for 2024": "Etsi parhaat maksuvaihtoehdot vuodelle 2024.",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Hau! Olen Dogecoin, luotettava oppaasi vuoden 2024 parhaiden kasinomaksutapojen läpi. Etsin nopeimmat ja luotettavimmat vaihtoehdot, kryptovaluutoista klassisiin kortteihin, minulla on tietoa turvallisista maksuista, jotka toimivat saumattomasti. Sukelletaan!"
             }
         },
         fr: {
@@ -3939,7 +4031,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Choisissez une marque ci-dessous, effectuez un premier dépôt et tournez pour",
                 "win up to $1,000 cash!": "gagnez jusqu'à 1 000 $ en espèces !",
                 "Best VIP Programs": "Meilleurs programmes VIP",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Ces meilleurs casinos proposent des programmes VIP remplis d'avantages exclusifs, allant des bonus personnalisés aux récompenses spéciales et au support dédié."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Ces meilleurs casinos proposent des programmes VIP remplis d'avantages exclusifs, allant des bonus personnalisés aux récompenses spéciales et au support dédié.",
+                "Your Winning Choice": "Votre choix gagnant",
+                "Starts Here": "Commence ici",
+                Bonus: "Bonus",
+                Payment: "paiement",
+                "Spin Your Way to Top Casino Picks 2024": "Faites tourner votre chemin vers les meilleurs choix de casino 2024.",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Salut, passionné de machines à sous ! C'est moi, ta machine à sous préférée, ici pour te guider à travers les sols de casino les plus palpitants de 2024. Je vais te montrer une nouvelle collection de casinos en ligne qui viennent de remporter le jackpot en termes d'excitation, de jeux et d'offres.",
+                "Unlock the Best Casino Bonuses of 2024!": "Débloquez les meilleurs bonus de casino de 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Devine quoi ? C'est moi, la boîte cadeau, prête à révéler les meilleurs bonus juste pour toi ! Déballe des bonus, des offres de bienvenue aux récompenses de fidélité, et tout ce qu'il y a entre les deux.",
+                "Find Your Best Payment Picks for 2024": "Trouvez vos meilleures options de paiement pour 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Woof! Je suis Dogecoin, votre guide de confiance à travers les meilleures méthodes de paiement de casino de 2024. En flairant les options les plus rapides et les plus fiables, des crypto-monnaies aux cartes classiques, j'ai les informations sur les paiements sécurisés qui fonctionnent parfaitement. Allons-y!"
             }
         },
         gr: {
@@ -4312,7 +4414,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Επιλέξτε μια μάρκα παρακάτω, κάντε την πρώτη κατάθεση και περιστρέψτε το",
                 "win up to $1,000 cash!": "κερδίστε μέχρι και 1.000 δολάρια μετρητά!",
                 "Best VIP Programs": "Καλύτερα προγράμματα VIP",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Αυτά τα κορυφαία καζίνο προσφέρουν προγράμματα VIP γεμάτα με αποκλειστικά προνόμια, από εξατομικευμένα μπόνους μέχρι ειδικές ανταμοιβές και αφιερωμένη υποστήριξη."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Αυτά τα κορυφαία καζίνο προσφέρουν προγράμματα VIP γεμάτα με αποκλειστικά προνόμια, από εξατομικευμένα μπόνους μέχρι ειδικές ανταμοιβές και αφιερωμένη υποστήριξη.",
+                "Your Winning Choice": "Η Επιλογή Σας για Νίκη",
+                "Starts Here": "Ξεκινάει Εδώ",
+                Bonus: "Μπόνους",
+                Payment: "Πληρωμή",
+                "Spin Your Way to Top Casino Picks 2024": "Περιστρέψτε τον δρόμο σας προς τις κορυφαίες επιλογές καζίνο 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Γεια εκεί, λάτρη των κουλοχέρηδων! Είμαι εγώ, η αγαπημένη σου κουλοχέρης, εδώ για να σε καθοδηγήσω στα πιο συναρπαστικά δάπεδα καζίνο του 2024. Θα σου δείξω μια φρέσκια συλλογή online καζίνο που μόλις έχουν χτυπήσει το τζάκποτ όσον αφορά τον ενθουσιασμό, τα παιχνίδια και τις προσφορές.",
+                "Unlock the Best Casino Bonuses of 2024!": "Ξεκλείδωσε τα Καλύτερα Μπόνους Καζίνο του 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Ψιτ… Μαντέψτε τι; Είμαι εγώ, το κουτί δώρου, έτοιμο να αποκαλύψω τα καλύτερα μπόνους μόνο για εσάς! Ξετυλίξτε μπόνους, από προσφορές καλωσορίσματος έως ανταμοιβές πιστότητας, και τα πάντα ενδιάμεσα.",
+                "Find Your Best Payment Picks for 2024": "Βρείτε τις καλύτερες επιλογές πληρωμής σας για το 2024.",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Γαβ! Είμαι το Dogecoin, ο αξιόπιστος οδηγός σας μέσω των κορυφαίων μεθόδων πληρωμής καζίνο του 2024. Ανιχνεύοντας τις γρηγορότερες, πιο αξιόπιστες επιλογές, από κρυπτονομίσματα έως κλασικές κάρτες, έχω τις πληροφορίες για ασφαλείς πληρωμές που λειτουργούν άψογα. Ας ξεκινήσουμε!"
             }
         },
         hu: {
@@ -4685,7 +4797,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Válasszon egy márkát lent, tegyen első befizetést, és pörögjön",
                 "win up to $1,000 cash!": "akár 1 000 dollár készpénzt nyerhet!",
                 "Best VIP Programs": "Legjobb VIP Programok",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Ezek a legjobb kaszinók VIP programokat kínálnak, amelyek tele vannak kizárólagos juttatásokkal, személyre szabott bónuszoktól különleges jutalmakig és dedikált támogatásig."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Ezek a legjobb kaszinók VIP programokat kínálnak, amelyek tele vannak kizárólagos juttatásokkal, személyre szabott bónuszoktól különleges jutalmakig és dedikált támogatásig.",
+                "Your Winning Choice": "A Nyertes Választásod",
+                "Starts Here": "Kezdés itt",
+                Bonus: "Bónusz",
+                Payment: "Fizetés",
+                "Spin Your Way to Top Casino Picks 2024": "Pörögj az 2024 legjobb kaszinóválasztásai felé",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Hé, slot rajongó! Itt vagyok, a kedvenc nyerőgéped, hogy vezesselek a legizgalmasabb kaszinók padlóin 2024-ben. Megmutatom neked az online kaszinók friss gyűjteményét, amelyek épp most nyerték meg a főnyereményt az izgalom, játékok és ajánlatok terén.",
+                "Unlock the Best Casino Bonuses of 2024!": "2024 legjobb kaszinó bónuszait oldja fel!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Kitalálod? Én vagyok, az ajándékdoboz, készen állok arra, hogy felfedjem a legjobb bónuszokat csak neked! Bontsd ki a bónuszokat, a köszöntő ajánlatoktól a hűségjutalmakig, és minden közte van.",
+                "Find Your Best Payment Picks for 2024": "Keresd meg a legjobb fizetési lehetőségeidet 2024-re",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Vau! Én vagyok a Dogecoin, a megbízható vezetőd a legjobb kaszinó fizetési módszerek között 2024-ben. Kiszagolom a leggyorsabb, legmegbízhatóbb lehetőségeket, a kriptovalutáktól a klasszikus kártyákig, és mindent tudok a biztonságos, zökkenőmentes működésű fizetésekről. Ugorjunk bele!"
             }
         },
         it: {
@@ -5058,7 +5180,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Scegli un marchio qui sotto, effettua il primo deposito e gira",
                 "win up to $1,000 cash!": "vinci fino a $1,000 in contanti!",
                 "Best VIP Programs": "I migliori programmi VIP",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Questi casinò di alto livello offrono programmi VIP ricchi di vantaggi esclusivi, da bonus personalizzati a premi speciali e supporto dedicato."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Questi casinò di alto livello offrono programmi VIP ricchi di vantaggi esclusivi, da bonus personalizzati a premi speciali e supporto dedicato.",
+                "Your Winning Choice": "La tua scelta vincente",
+                "Starts Here": "Inizia qui",
+                Bonus: "Bonus",
+                Payment: "Pagamento",
+                "Spin Your Way to Top Casino Picks 2024": "Gira verso le migliori scelte di casinò del 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Ehi là, appassionato di slot! Sono io, la tua slot machine preferita, qui per guidarti attraverso i pavimenti del casinò più emozionanti del 2024. Ti mostrerò una nuova collezione di casinò online che hanno appena centrato il jackpot in termini di emozione, giochi e offerte.",
+                "Unlock the Best Casino Bonuses of 2024!": "Sblocca i migliori bonus casinò del 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Indovina un po'? Sono io, la scatola regalo, pronta a svelare i migliori bonus solo per te! Scopri bonus, dalle offerte di benvenuto alle ricompense fedeltà, e tutto ciò che sta in mezzo.",
+                "Find Your Best Payment Picks for 2024": "Trova le tue migliori scelte di pagamento per il 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Baù! Sono Dogecoin, la tua affidabile guida attraverso i migliori metodi di pagamento dei casinò del 2024. Scovando le opzioni più veloci e affidabili, dalle criptovalute alle classiche carte, ho le informazioni sui pagamenti sicuri che funzionano in modo impeccabile. Scaviamo dentro!"
             }
         },
         no: {
@@ -5431,7 +5563,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Velg et merke nedenfor, gjør første innskudd, og snurr for å",
                 "win up to $1,000 cash!": "vinn opptil $1,000 i kontanter!",
                 "Best VIP Programs": "Beste VIP-programmer",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Disse toppcasinoene tilbyr VIP-programmer fylt med eksklusive fordeler, fra personlige bonuser til spesielle belønninger og dedikert støtte."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Disse toppcasinoene tilbyr VIP-programmer fylt med eksklusive fordeler, fra personlige bonuser til spesielle belønninger og dedikert støtte.",
+                "Your Winning Choice": "Ditt Vinnende Valg",
+                "Starts Here": "Starter her",
+                Bonus: "Bonus",
+                Payment: "Betaling",
+                "Spin Your Way to Top Casino Picks 2024": "Spinn deg til topp kasinoutvalg 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Hei der, spilleautomat-entusiast! Det er meg, din favoritt spilleautomat, her for å guide deg gjennom de mest spennende kasinoene i 2024. Jeg vil vise deg en fersk samling av nettkasinoer som nettopp har truffet jackpotten når det gjelder spenning, spill og tilbud.",
+                "Unlock the Best Casino Bonuses of 2024!": "Åpne de beste casinobonusene i 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Gjett hva? Det er meg, gaveesken, klar til å avsløre de beste bonusene bare for deg! Pakk opp bonuser, fra velkomsttilbud til lojalitetsbelønninger, og alt i mellom.",
+                "Find Your Best Payment Picks for 2024": "Finn dine beste betalingsvalg for 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Voff! Jeg er Dogecoin, din pålitelige guide gjennom de beste kasinobetalingsmetodene i 2024. Snuser ut de raskeste, mest pålitelige alternativene, fra kryptovalutaer til klassiske kort, jeg har innsidetips om sikre betalinger som fungerer sømløst. La oss grave inn!"
             }
         },
         pt: {
@@ -5804,7 +5946,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Escolha uma marca abaixo, faça o primeiro depósito e gire para",
                 "win up to $1,000 cash!": "ganhe até $1,000 em dinheiro!",
                 "Best VIP Programs": "Melhores Programas VIP",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Estes principais cassinos oferecem programas VIP repletos de vantagens exclusivas, desde bônus personalizados até recompensas especiais e suporte dedicado."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Estes principais cassinos oferecem programas VIP repletos de vantagens exclusivas, desde bônus personalizados até recompensas especiais e suporte dedicado.",
+                "Your Winning Choice": "Sua Escolha Vencedora",
+                "Starts Here": "Começa aqui",
+                Bonus: "Bônus",
+                Payment: "Pagamento",
+                "Spin Your Way to Top Casino Picks 2024": "Gire seu caminho para as principais escolhas de cassino 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Olá, entusiasta de caça-níqueis! Sou eu, sua máquina caça-níqueis favorita, aqui para guiá-lo pelos pisos de cassino mais emocionantes de 2024. Vou mostrar a você uma nova coleção de cassinos online que acabaram de acertar o jackpot em termos de emoção, jogos e ofertas.",
+                "Unlock the Best Casino Bonuses of 2024!": "Desbloqueie os Melhores Bônus de Cassino de 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Adivinha só? Sou eu, a caixa de presente, pronta para revelar os melhores bônus só para você! Desembrulhe bônus, desde ofertas de boas-vindas até recompensas de fidelidade, e tudo mais no meio.",
+                "Find Your Best Payment Picks for 2024": "Encontre suas melhores opções de pagamento para 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Uau! Eu sou Dogecoin, seu guia confiável pelos principais métodos de pagamento de cassino de 2024. Farejando as opções mais rápidas e confiáveis, desde moedas criptográficas até cartões clássicos, tenho as informações sobre pagamentos seguros que funcionam perfeitamente. Vamos lá!"
             }
         },
         se: {
@@ -6177,7 +6329,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Välj ett varumärke nedan, gör första insättningen och snurra för att",
                 "win up to $1,000 cash!": "vinn upp till $1,000 i kontanter!",
                 "Best VIP Programs": "Bästa VIP-programmen",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Dessa toppcasinon erbjuder VIP-program fyllda med exklusiva förmåner, från personliga bonusar till specialbelöningar och dedikerat stöd."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Dessa toppcasinon erbjuder VIP-program fyllda med exklusiva förmåner, från personliga bonusar till specialbelöningar och dedikerat stöd.",
+                "Your Winning Choice": "Ditt vinnande val",
+                "Starts Here": "Startar här",
+                Bonus: "Bonus",
+                Payment: "Betala",
+                "Spin Your Way to Top Casino Picks 2024": "Snurra dig till toppvalen för kasinon 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Hej där, slotentusiast! Det är jag, din favoritslotmaskin, här för att guida dig genom de mest spännande casinogolven år 2024. Jag ska visa dig en färsk samling onlinecasinon som precis har träffat jackpotten när det gäller spänning, spel och erbjudanden.",
+                "Unlock the Best Casino Bonuses of 2024!": "Lås upp de bästa kasinobonusarna år 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Gissa vad? Det är jag, presentasken, redo att avslöja de bästa bonusarna bara för dig! Packa upp bonusar, från välkomsterbjudanden till lojalitetsbelöningar, och allt däremellan.",
+                "Find Your Best Payment Picks for 2024": "Hitta dina bästa betalningsalternativ för 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Vov! Jag är Dogecoin, din pålitliga guide genom de bästa casinobetalningsmetoderna år 2024. Spårar upp de snabbaste, mest pålitliga alternativen, från kryptovalutor till klassiska kort, jag har koll på säkra betalningar som fungerar sömlöst. Låt oss gräva djupare!"
             }
         },
         sk: {
@@ -6550,7 +6712,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Vyberte značku nižšie, urobte prvý vklad a zatočte",
                 "win up to $1,000 cash!": "vyhrajte až 1 000 dolárov hotovosti!",
                 "Best VIP Programs": "Najlepšie VIP programy",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Tieto najlepšie kasína ponúkajú VIP programy plné exkluzívnych výhod, od personalizovaných bonusov po špeciálne odmeny a venovanú podporu."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Tieto najlepšie kasína ponúkajú VIP programy plné exkluzívnych výhod, od personalizovaných bonusov po špeciálne odmeny a venovanú podporu.",
+                "Your Winning Choice": "Vaša víťazná voľba",
+                "Starts Here": "Začína tu",
+                Bonus: "Bonus",
+                Payment: "Platba",
+                "Spin Your Way to Top Casino Picks 2024": "Otočte sa k najlepším kasínovým výberom 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Ahoj, nadšenec hracích automatov! Som tvoj obľúbený hrací automat, ktorý ťa bude sprevádzať po najnápadnejších kasínových podlahách roku 2024. Ukážem ti novú kolekciu online kasín, ktoré práve získali jackpot v zábave, hrách a ponukách.",
+                "Unlock the Best Casino Bonuses of 2024!": "Odomknite najlepšie kasínové bonusy roku 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Uhádni čo? Som ja, darčeková krabica, pripravená odhaliť najlepšie bonusy len pre teba! Rozbaľ bonusy, od uvítacích ponúk po vernostné odmeny a všetko medzi tým.",
+                "Find Your Best Payment Picks for 2024": "Nájdite svoje najlepšie platobné možnosti na rok 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Haf! Som Dogecoin, tvoj spoľahlivý sprievodca cez najlepšie kasínové platobné metódy roku 2024. Vyhľadávam najrýchlejšie, najspoľahlivejšie možnosti, od kryptomeny až po klasické karty, mám informácie o bezpečných platbách, ktoré fungujú bez problémov. Poďme sa do toho!"
             }
         },
         tr: {
@@ -6923,7 +7095,17 @@ async function initializeI18n() {
                 "Pick a brand below, make first deposit, and spin to": "Aşağıdaki markalardan birini seçin, ilk depozitonuzu yapın ve çevirin",
                 "win up to $1,000 cash!": "1.000 dolara kadar nakit kazanın!",
                 "Best VIP Programs": "En İyi VIP Programları",
-                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Bu en iyi casinolar, kişiselleştirilmiş bonuslardan özel ödüllere ve özel destek hizmetlerine kadar dolu dolu VIP programlar sunar."
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Bu en iyi casinolar, kişiselleştirilmiş bonuslardan özel ödüllere ve özel destek hizmetlerine kadar dolu dolu VIP programlar sunar.",
+                "Your Winning Choice": "Kazanan Seçiminiz",
+                "Starts Here": "Buradan Başlar",
+                Bonus: "Bonus",
+                Payment: "Ödeme",
+                "Spin Your Way to Top Casino Picks 2024": "2024 En İyi Casino Seçimlerine Ulaşın",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Merhaba, slot tutkunu! Benim, favori slot makineniz, sizi 2024'ün en heyecan verici kumarhane katlarında rehberlik etmek için buradayım. Size heyecan, oyunlar ve teklifler açısından büyük ikramiyeyi vuran yeni bir online kumarhane koleksiyonu göstereceğim.",
+                "Unlock the Best Casino Bonuses of 2024!": "2024'ün En İyi Casino Bonuslarını Açın!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Tahmin ne? Benim, hediye kutusu, sadece senin için en iyi bonusları açmaya hazırım! Hoş geldin tekliflerinden sadakat ödüllerine ve her şeyin arasındakilere kadar bonusları açın.",
+                "Find Your Best Payment Picks for 2024": "2024 için En İyi Ödeme Seçeneklerinizi Bulun",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Hav hav! Ben Dogecoin, 2024'ün en iyi kumarhane ödeme yöntemleri konusunda rehberinizim. En hızlı, en güvenilir seçenekleri araştırarak, kripto paralardan klasik kartlara kadar güvenli ödemeler hakkında bilgi sahibiyim. Hadi başlayalım!"
             }
         }
     };

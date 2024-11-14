@@ -6,7 +6,7 @@ import useNavigateBrands from "./Navigate";
 import AllCasinos from "./AllCasinos";
 import { useLanguage } from "@/components/switcher/LanguageContext";
 import classNames from "classnames";
-import "../../app/filteredComponents.css"
+import "../../app/filteredComponents.css";
 
 const FilteredCasinos = () => {
   const { t } = useTranslation();

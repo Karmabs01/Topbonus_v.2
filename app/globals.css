@@ -10468,21 +10468,44 @@ main > .topbr {
     margin-left: auto;
     margin-right: auto;
   }
+  .min-h60 {
+    min-height: 60px;
+    max-height: 60px;
+    overflow:hidden;
+  }
+  .custom-bonuses.pt-10 {
+    padding-top: 0 !important;
+  }
 }
-
+.card-casinos {
+  background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
+  border-radius: 30px !important;
+}
+.card-casinos .content-text {
+  padding-left: 5px;
+  padding-right: 5px;
+}
 .inner-top-block {
   border-radius: 30px;
-  border-top: 2.5px solid rgba(255, 255, 255, 0.4);
-  border-bottom: 2.5px solid rgba(255, 255, 255, 0.4);
-  background: linear-gradient(
-    161deg,
-    rgba(255, 255, 255, 0.1) 0%,
-    rgba(255, 255, 255, 0.05) 101.7%
-  );
-  backdrop-filter: blur(17.915000915527344px);
   flex-wrap: nowrap;
+  background: url(/paybg.png) no-repeat center !important;
 }
-
+.inner-top-block5 {
+  background: url(/paybg.png) no-repeat center !important;
+}
+.inner-top-block2 {
+  background: url(/paybg3.png) no-repeat center !important;
+}
+.inner-top-block3 {
+  background: url(/paybg2.png) no-repeat center !important;
+}
+@media(min-width: 1260px) and (max-width: 5000px) {
+  .inner-top-block {
+    min-height: 273px;
+    max-height: 273px;
+    overflow: hidden;
+  }
+}
 .text-orange {
   color: #ff8f1f;
 }
@@ -10494,6 +10517,24 @@ main > .topbr {
 @media (min-width: 320px) and (max-width: 1050px) {
   .inner-image {
     width: 350px !important;
+  }
+  .inner-top-block2 {
+    background: url(/dyna2.png) no-repeat center !important;
+  }
+  .inner-top-block3 {
+    background: url(/dyna3.png) no-repeat center !important;
+  }
+  .inner-top-block5 {
+    background: url(/dyna4.png) no-repeat center !important;
+  }
+  .text-in-mobile * {
+    text-align: center !important;
+  }
+  .text-in-mobile {
+    padding-top: 1rem !important;
+  }
+  .inner-text-block {
+    padding: 16px 32px 160px !important;
   }
 }
 
@@ -10773,7 +10814,6 @@ main > .topbr {
 }
 .refetch img {
   animation: rotate 2s linear infinite;
-
 }
 .refetch:hover img {
   animation: none;
@@ -10826,7 +10866,7 @@ main > .topbr {
   bottom: 16px;
   left: 16px;
 }
-@media(min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .popular-offers .main__container {
     width: 100%;
   }
@@ -10860,7 +10900,8 @@ main > .topbr {
   border-radius: 0 !important;
 }
 
-.slick-slider .slick-prev::before, .slick-slider .slick-next::before {
+.slick-slider .slick-prev::before,
+.slick-slider .slick-next::before {
   color: #ff8f1f !important;
 }
 .slick-next::before {
@@ -10876,7 +10917,8 @@ main > .topbr {
   position: absolute !important;
 }
 
-.page-fortune .slick-prev, .page-fortune .slick-next {
+.page-fortune .slick-prev,
+.page-fortune .slick-next {
   top: -40px !important;
   left: initial !important;
   color: transparent;
@@ -10894,7 +10936,7 @@ main > .topbr {
   font-size: 16px !important;
   margin-top: 15px;
 }
-@media(min-width: 320px) and (max-width: 1259px) {
+@media (min-width: 320px) and (max-width: 1259px) {
   .p-vip {
     text-align: center !important;
   }

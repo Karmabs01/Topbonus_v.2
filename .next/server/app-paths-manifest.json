@@ -1,6 +1,8 @@
 {
-  "/page": "app/page.js",
+  "/casinos/page": "app/casinos/page.js",
+  "/crypto-casinos/page": "app/crypto-casinos/page.js",
+  "/payments/page": "app/payments/page.js",
+  "/bonuses/page": "app/bonuses/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/casinos/page": "app/casinos/page.js"
+  "/page": "app/page.js"
 }

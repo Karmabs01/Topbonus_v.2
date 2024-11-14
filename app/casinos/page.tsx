@@ -1,6 +1,10 @@
 import { Metadata } from "next";
 
 import FilteredCasinos from "@/components/Brands_casinos/FilteredCasinos";
+import Casinos2 from "@/components/Brands_casinos/Casinos2";
+import Brands_carousel from "@/components/Banners_tailwind/Brands_carousel2/index";
+
+
 
 export const metadata: Metadata = {
   title: "Casinos | Bonus topbon.us",
@@ -9,10 +13,15 @@ export const metadata: Metadata = {
 };
 
 export default async function Casinos() {
+  const categoryBrands = { key1: "Segment2", key2: "Sandbox" };
+  const creative = "Page_Casinos";
+  const target = "Page_Casinos"
+
   return (
     <div className="page-bonuses">
       {/* <PreviewBonuses /> */}
-      {/* <TopBrandsOriginal /> */}
+      <Casinos2 />
+      <Brands_carousel target={target} categoryBrands={categoryBrands} creative={creative} />
       <FilteredCasinos />
       {/* <GuideSlotsPage /> */}
     </div>
