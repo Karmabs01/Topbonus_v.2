@@ -21,7 +21,7 @@ export const getBrands = async (categoryBrands, lng) => {
       url = api1044;
     } else if (source === "partner1045_b1") {
       url = api1045;
-    } else if (source === "CLD_VIP" || source === "partner1046") {
+    } else if (source === "CLD_VIP" || source === "partner1046" || source === "partner1047_b1") {
       url = apiCLD_VIP;
     } else {
       url = apiAll;
