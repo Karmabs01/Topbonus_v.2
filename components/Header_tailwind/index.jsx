@@ -119,7 +119,6 @@ const Header_tailwind = () => {
         "partner1045_b1",
         "partner1046",
         "partner1047_b1"
-
       ];
       partners.forEach((partner) => {
         if (data.includes(partner)) {
@@ -197,7 +196,7 @@ const Header_tailwind = () => {
 
   useEffect(() => {
     const handleMessage = (event) => {
-      if (event.origin !== "https://topbonuspicks.com") {
+      if (event.origin !== "https://topbon.us") {
         // console.error(
         //   "Received message from an unauthorized origin:",
         //   event.origin
@@ -290,7 +289,7 @@ const Header_tailwind = () => {
             <div className="absolute right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
               <button
                 type="button"
-                className="hidden md:flex relative rounded-full p-1 text-white  transition-colors duration-300 ease-in-ou mr-5"
+                className="hidden md:flex relative rounded-full p-1 text-white hover:text-gray-400 transition-colors duration-300 ease-in-ou mr-5"
               >
                 {load ? (
                   <Link
@@ -300,7 +299,7 @@ const Header_tailwind = () => {
                     <>
                       <CurrencyDollarIcon
                         aria-hidden="true"
-                        className="h-8 w-8 text-white transition-colors duration-300 ease-in-out  mr-2"
+                        className="h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-gray-400 mr-2"
                       />
                       {`${dataUser.balance}$`}
                     </>
@@ -312,7 +311,7 @@ const Header_tailwind = () => {
               <Link href={`/fortune`} className="hidden md:flex">
                 <button
                   type="button"
-                  className="relative rounded-full p-1 text-white  transition-colors duration-300 ease-in-ou mr-5"
+                  className="relative rounded-full p-1 text-white hover:text-gray-400 transition-colors duration-300 ease-in-ou mr-5"
                 >
                   <span className="absolute -inset-1.5" />
                   {load ? (
@@ -320,7 +319,7 @@ const Header_tailwind = () => {
                       <>
                         <TicketIcon
                           aria-hidden="true"
-                          className="h-8 w-8 text-white transition-colors duration-300 ease-in-out "
+                          className="h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-gray-400"
                         />
                       </>
                     </Badge>
