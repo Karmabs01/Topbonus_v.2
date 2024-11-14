@@ -246,7 +246,7 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
                                 {/* <h3 className="text-lg font-semibold text-white">
                                   {rowData.CasinoBrand}
                                 </h3> */}
-                                <p className="mt-1 text-sm text-white h-10 min-h60">
+                                <p className="mt-1 text-sm h-10 min-h60">
                                   {rowData.OurOfferContent}
                                 </p>
                               </div>
