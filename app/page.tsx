@@ -38,7 +38,7 @@ export default async function Home() {
       <Banner_small />
       <Brands_double_carousel />
       <Next_event_banner />
-      <Fortune_wheel />
+      {/* <Fortune_wheel /> */}
       <Banner_small_vip />
       {/* <Random_block /> */}
       <Random_dice />

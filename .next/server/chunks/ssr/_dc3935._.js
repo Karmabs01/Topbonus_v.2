@@ -750,6 +750,10 @@ const getBrands = async (categoryBrands, lng)=>{
             url: apiCLD_VIP,
             languages: availableLanguagesCLD_VIP
         },
+        partner1047_b1: {
+            url: apiCLD_VIP,
+            languages: availableLanguagesCLD_VIP
+        },
         default: {
             url: apiAll,
             languages: availableLanguages
@@ -3621,6 +3625,7 @@ __turbopack_esm__({
     "default": ()=>Personal
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/navigation.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Fetcher$2f$index$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/components/Fetcher/index.ts [app-ssr] (ecmascript) <module evaluation>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Fetcher$2f$Fetcher$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__Fetcher$3e$__ = __turbopack_import__("[project]/components/Fetcher/Fetcher.tsx [app-ssr] (ecmascript) <export default as Fetcher>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Loader.jsx [app-ssr] (ecmascript)");
@@ -3663,6 +3668,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$g
 ;
 ;
 ;
+;
 const DEFAULT_COIN = "USDTTRC20";
 const DEFAULT_STEP = 0;
 const BRAND_CATEGORIES = {
@@ -3670,6 +3676,11 @@ const BRAND_CATEGORIES = {
     key2: "Premium"
 };
 function Personal() {
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])(); // Инициализируем router
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        console.log("Fortune component mounted, redirecting...");
+        window.location.href = '/';
+    }, []);
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useTranslation"])();
     const { language } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLanguage"])();
     const [currentTab, setCurrentTab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
@@ -3742,7 +3753,7 @@ function Personal() {
                     getFeeAndEstimatedAmount: getFeeAndEstimatedAmount
                 }, void 0, false, {
                     fileName: "[project]/app/personal/page.tsx",
-                    lineNumber: 151,
+                    lineNumber: 157,
                     columnNumber: 11
                 }, this)
             },
@@ -3762,7 +3773,7 @@ function Personal() {
                     onFinish: onFinish
                 }, void 0, false, {
                     fileName: "[project]/app/personal/page.tsx",
-                    lineNumber: 171,
+                    lineNumber: 177,
                     columnNumber: 11
                 }, this)
             },
@@ -3773,7 +3784,7 @@ function Personal() {
                     brands: brands
                 }, void 0, false, {
                     fileName: "[project]/app/personal/page.tsx",
-                    lineNumber: 190,
+                    lineNumber: 196,
                     columnNumber: 18
                 }, this)
             }
@@ -3790,7 +3801,7 @@ function Personal() {
                     onChangePhoneNumber: onChangePhoneNumber
                 }, void 0, false, {
                     fileName: "[project]/app/personal/page.tsx",
-                    lineNumber: 201,
+                    lineNumber: 207,
                     columnNumber: 11
                 }, this)
             });
@@ -3801,7 +3812,7 @@ function Personal() {
         if (!user || !coins) {
             return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/personal/page.tsx",
-                lineNumber: 217,
+                lineNumber: 223,
                 columnNumber: 14
             }, this);
         }
@@ -3822,7 +3833,7 @@ function Personal() {
                                     className: "absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 "
                                 }, void 0, false, {
                                     fileName: "[project]/app/personal/page.tsx",
-                                    lineNumber: 237,
+                                    lineNumber: 243,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3837,17 +3848,17 @@ function Personal() {
                                                     className: "h-5 w-5 text-white"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/personal/page.tsx",
-                                                    lineNumber: 245,
+                                                    lineNumber: 251,
                                                     columnNumber: 25
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/personal/page.tsx",
-                                                lineNumber: 244,
+                                                lineNumber: 250,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/personal/page.tsx",
-                                            lineNumber: 243,
+                                            lineNumber: 249,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3857,18 +3868,18 @@ function Personal() {
                                                 children: item.label
                                             }, void 0, false, {
                                                 fileName: "[project]/app/personal/page.tsx",
-                                                lineNumber: 252,
+                                                lineNumber: 258,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/personal/page.tsx",
-                                            lineNumber: 251,
+                                            lineNumber: 257,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/personal/page.tsx",
-                                    lineNumber: 242,
+                                    lineNumber: 248,
                                     columnNumber: 19
                                 }, this)
                             ]
@@ -3880,7 +3891,7 @@ function Personal() {
                                     className: "absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-gray-300"
                                 }, void 0, false, {
                                     fileName: "[project]/app/personal/page.tsx",
-                                    lineNumber: 260,
+                                    lineNumber: 266,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3894,17 +3905,17 @@ function Personal() {
                                                     className: "h-2.5 w-2.5 rounded-full bg-or"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/personal/page.tsx",
-                                                    lineNumber: 268,
+                                                    lineNumber: 274,
                                                     columnNumber: 25
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/personal/page.tsx",
-                                                lineNumber: 267,
+                                                lineNumber: 273,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/personal/page.tsx",
-                                            lineNumber: 266,
+                                            lineNumber: 272,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3915,7 +3926,7 @@ function Personal() {
                                                     children: item.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/personal/page.tsx",
-                                                    lineNumber: 272,
+                                                    lineNumber: 278,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3923,19 +3934,19 @@ function Personal() {
                                                     children: item.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/personal/page.tsx",
-                                                    lineNumber: 275,
+                                                    lineNumber: 281,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/personal/page.tsx",
-                                            lineNumber: 271,
+                                            lineNumber: 277,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/personal/page.tsx",
-                                    lineNumber: 265,
+                                    lineNumber: 271,
                                     columnNumber: 19
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3943,7 +3954,7 @@ function Personal() {
                                     children: item.content
                                 }, void 0, false, {
                                     fileName: "[project]/app/personal/page.tsx",
-                                    lineNumber: 280,
+                                    lineNumber: 286,
                                     columnNumber: 19
                                 }, this)
                             ]
@@ -3955,7 +3966,7 @@ function Personal() {
                                     className: "absolute left-4 top-4 -ml-px mt-0.5 h-full w-0.5 bg-gray-300"
                                 }, void 0, false, {
                                     fileName: "[project]/app/personal/page.tsx",
-                                    lineNumber: 286,
+                                    lineNumber: 292,
                                     columnNumber: 21
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3969,17 +3980,17 @@ function Personal() {
                                                     className: "h-2.5 w-2.5 rounded-full bg-transparent "
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/personal/page.tsx",
-                                                    lineNumber: 294,
+                                                    lineNumber: 300,
                                                     columnNumber: 25
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/personal/page.tsx",
-                                                lineNumber: 293,
+                                                lineNumber: 299,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/personal/page.tsx",
-                                            lineNumber: 292,
+                                            lineNumber: 298,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3989,35 +4000,35 @@ function Personal() {
                                                 children: item.label
                                             }, void 0, false, {
                                                 fileName: "[project]/app/personal/page.tsx",
-                                                lineNumber: 298,
+                                                lineNumber: 304,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/personal/page.tsx",
-                                            lineNumber: 297,
+                                            lineNumber: 303,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/personal/page.tsx",
-                                    lineNumber: 291,
+                                    lineNumber: 297,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true)
                     }, index, false, {
                         fileName: "[project]/app/personal/page.tsx",
-                        lineNumber: 227,
+                        lineNumber: 233,
                         columnNumber: 13
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/personal/page.tsx",
-                lineNumber: 225,
+                lineNumber: 231,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/app/personal/page.tsx",
-            lineNumber: 224,
+            lineNumber: 230,
             columnNumber: 7
         }, this);
     }
@@ -4032,7 +4043,7 @@ function Personal() {
                 statusPayment: user ? user.status_payment : "null"
             }, "withdrawalHistory", false, {
                 fileName: "[project]/app/personal/page.tsx",
-                lineNumber: 317,
+                lineNumber: 323,
                 columnNumber: 9
             }, this)
         },
@@ -4043,7 +4054,7 @@ function Personal() {
                 onFinish: onFinish
             }, "cardShop", false, {
                 fileName: "[project]/app/personal/page.tsx",
-                lineNumber: 325,
+                lineNumber: 331,
                 columnNumber: 16
             }, this)
         }
@@ -4058,7 +4069,7 @@ function Personal() {
             loading: userLoading || coinsLoading,
             loader: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/personal/page.tsx",
-                lineNumber: 334,
+                lineNumber: 340,
                 columnNumber: 17
             }, void 0),
             error: userError || coinsError,
@@ -4087,22 +4098,22 @@ function Personal() {
                                                         children: tab.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/personal/page.tsx",
-                                                        lineNumber: 361,
+                                                        lineNumber: 367,
                                                         columnNumber: 27
                                                     }, void 0)
                                                 }, tab.name, false, {
                                                     fileName: "[project]/app/personal/page.tsx",
-                                                    lineNumber: 352,
+                                                    lineNumber: 358,
                                                     columnNumber: 25
                                                 }, void 0))
                                         }, void 0, false, {
                                             fileName: "[project]/app/personal/page.tsx",
-                                            lineNumber: 347,
+                                            lineNumber: 353,
                                             columnNumber: 21
                                         }, void 0)
                                     }, void 0, false, {
                                         fileName: "[project]/app/personal/page.tsx",
-                                        lineNumber: 346,
+                                        lineNumber: 352,
                                         columnNumber: 19
                                     }, void 0),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4117,19 +4128,19 @@ function Personal() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/personal/page.tsx",
-                                                lineNumber: 367,
+                                                lineNumber: 373,
                                                 columnNumber: 42
                                             }, void 0)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/personal/page.tsx",
-                                        lineNumber: 366,
+                                        lineNumber: 372,
                                         columnNumber: 19
                                     }, void 0)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/personal/page.tsx",
-                                lineNumber: 344,
+                                lineNumber: 350,
                                 columnNumber: 17
                             }, void 0),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4142,41 +4153,41 @@ function Personal() {
                                             children: tabs[currentTab].name
                                         }, void 0, false, {
                                             fileName: "[project]/app/personal/page.tsx",
-                                            lineNumber: 373,
+                                            lineNumber: 379,
                                             columnNumber: 21
                                         }, void 0),
                                         tabs[currentTab].content
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/personal/page.tsx",
-                                    lineNumber: 372,
+                                    lineNumber: 378,
                                     columnNumber: 19
                                 }, void 0)
                             }, void 0, false, {
                                 fileName: "[project]/app/personal/page.tsx",
-                                lineNumber: 370,
+                                lineNumber: 376,
                                 columnNumber: 17
                             }, void 0)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/personal/page.tsx",
-                        lineNumber: 343,
+                        lineNumber: 349,
                         columnNumber: 15
                     }, void 0)
                 }, void 0, false, {
                     fileName: "[project]/app/personal/page.tsx",
-                    lineNumber: 342,
+                    lineNumber: 348,
                     columnNumber: 13
                 }, void 0);
             }
         }, void 0, false, {
             fileName: "[project]/app/personal/page.tsx",
-            lineNumber: 331,
+            lineNumber: 337,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/personal/page.tsx",
-        lineNumber: 330,
+        lineNumber: 336,
         columnNumber: 5
     }, this);
 }

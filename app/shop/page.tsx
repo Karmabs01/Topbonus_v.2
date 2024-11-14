@@ -1,4 +1,5 @@
 "use client";
+import { useRouter } from 'next/navigation'; 
 
 import { Fetcher } from "@/components/Fetcher";
 import Loader from "@/components/Loader";
@@ -37,6 +38,13 @@ const DEFAULT_STEP = 0;
 const BRAND_CATEGORIES = { key1: "Segment2", key2: "Premium" };
 
 export default function Personal() {
+  const router = useRouter(); // Инициализируем router
+
+  useEffect(() => {
+    console.log("Fortune component mounted, redirecting...");
+    window.location.href = '/';
+  }, []);
+  
   const { t } = useTranslation();
   const { language } = useLanguage();
 
