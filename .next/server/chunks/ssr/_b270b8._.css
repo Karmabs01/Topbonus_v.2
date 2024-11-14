@@ -105,7 +105,7 @@
 }
 
 .flag-icon-gb {
-  background-position: -60px 0 !important;
+  background-position: -60px -20px !important;
 }
 
 .flag-icon-us {
@@ -116,10 +116,20 @@
   background-position: -60px -20px !important;
 }
 
+.country-flag .flag-icon-all {
+  width: 20px;
+  height: 20px;
+  float: left;
+  content: "";
+  padding: auto;
+  background-size: contain;
+  background: url("/world.png") no-repeat !important;
+}
+
 
 /* [project]/components/Header_tailwind/styled.component.css [app-ssr] (css) */
 header nav {
-  background-image: linear-gradient(76deg, #9d4eb3 7%, #6c37b1 35.92%, #310877 85.69%);
+  background-image: linear-gradient(76deg, #088af6 0%, #d992e6 101%);
   position: relative;
   filter: drop-shadow(0 4px 30px #d180ee33);
   border-radius: 30px;
@@ -163,7 +173,7 @@ header nav button {
   border-radius: 30px;
   border-top: 2.5px solid #fff6;
   border-bottom: 2.5px solid #fff6;
-  background: #0f0926e4 !important;
+  background: #321c89e4 !important;
 }
 
 .submenu-x a {
@@ -173,7 +183,7 @@ header nav button {
 }
 
 .submenu-x a:hover {
-  color: #ff8f1f;
+  color: #f44a7e;
 }
 
 .lang-menu {
@@ -203,26 +213,23 @@ header nav button {
 }
 
 .marquee-container {
-  position: relative;
-  display: flex;
   overflow: hidden;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
+  white-space: nowrap;
 }
 
 .marquee {
   display: flex;
+  justify-content: start;
   white-space: nowrap;
   animation: 60s linear infinite scroll;
+  will-change: transform;
 }
 
 .marquee span {
   font-size: 18px;
   font-weight: 600;
   display: inline-block;
-  color: #fff;
-  padding-right: 100%;
+  color: #35303a;
 }
 
 .marquee b {
@@ -312,9 +319,13 @@ header nav button {
 }
 
 @media (width >= 320px) and (width <= 767px) {
+  .pt-16 {
+    padding-top: 1rem !important;
+  }
+
   .wrap-line-text {
     padding: 12px 0;
-    background: #0f0926;
+    background: #e9edf1;
   }
 
   .mobmen {

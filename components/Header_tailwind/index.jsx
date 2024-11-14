@@ -49,7 +49,7 @@ import {
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import "./styled.component.css";
-import Mobile_tabs_navigation from "@/components/Mobile_tabs_navigation";
+// import Mobile_tabs_navigation from "@/components/Mobile_tabs_navigation";
 
 const Header_tailwind = () => {
   const { t } = useTranslation();
@@ -287,53 +287,13 @@ const Header_tailwind = () => {
               />
             </div>
             <div className="absolute right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-              <button
-                type="button"
-                className="hidden md:flex relative rounded-full p-1 text-white hover:text-gray-400 transition-colors duration-300 ease-in-ou mr-5"
-              >
-                {load ? (
-                  <Link
-                    href={`/personal`}
-                    className=" flex justify-center items-center text-xl"
-                  >
-                    <>
-                      <CurrencyDollarIcon
-                        aria-hidden="true"
-                        className="h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-gray-400 mr-2"
-                      />
-                      {`${dataUser.balance}$`}
-                    </>
-                  </Link>
-                ) : (
-                  ""
-                )}
-              </button>
-              <Link href={`/fortune`} className="hidden md:flex">
-                <button
-                  type="button"
-                  className="relative rounded-full p-1 text-white hover:text-gray-400 transition-colors duration-300 ease-in-ou mr-5"
-                >
-                  <span className="absolute -inset-1.5" />
-                  {load ? (
-                    <Badge badgeContent={`${dataUser.tickets}`} color="primary">
-                      <>
-                        <TicketIcon
-                          aria-hidden="true"
-                          className="h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-gray-400"
-                        />
-                      </>
-                    </Badge>
-                  ) : (
-                    ""
-                  )}
-                </button>
-              </Link>
+           
 
               <I18nextProvider i18n={i18n}>
                 <MenuLanguages />
               </I18nextProvider>
 
-              <Menu as="div" className="relative ml-3 hidden md:inline">
+              {/* <Menu as="div" className="relative ml-3 hidden md:inline">
                 <div>
                   <MenuButton className="relative flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 avatar-new">
                     <span className="absolute -inset-1.5" />
@@ -393,7 +353,7 @@ const Header_tailwind = () => {
                     </Link>
                   </MenuItem>
                 </MenuItems>
-              </Menu>
+              </Menu> */}
             </div>
           </nav>
           <Dialog
@@ -445,7 +405,7 @@ const Header_tailwind = () => {
                       </Disclosure>
                     ))}
                   </div>
-                  {load && dataUser && (
+                  {/* {load && dataUser && (
                     <div className="py-6 border-t border-gray-200 pb-3 pt-4">
                       <Disclosure as="div" className="-mx-3">
                         {userNavigation.map((item) => (
@@ -463,14 +423,14 @@ const Header_tailwind = () => {
                         ))}
                       </Disclosure>
                     </div>
-                  )}
+                  )} */}
                 </div>
               </div>
             </DialogPanel>
           </Dialog>
         </div>
       </header>
-      {load && dataUser && <Mobile_tabs_navigation dataUser={dataUser} />}
+      {/* {load && dataUser && <Mobile_tabs_navigation dataUser={dataUser} />} */}
     </>
   );
 };

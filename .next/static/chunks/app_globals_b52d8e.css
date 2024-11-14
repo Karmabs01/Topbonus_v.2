@@ -850,10 +850,6 @@ select {
   margin-right: .75rem;
 }
 
-.mr-5 {
-  margin-right: 1.25rem;
-}
-
 .mr-auto {
   margin-right: auto;
 }
@@ -1655,10 +1651,6 @@ select {
 
 .p-0 {
   padding: 0;
-}
-
-.p-1 {
-  padding: .25rem;
 }
 
 .p-2 {
@@ -13432,11 +13424,6 @@ ul.ul-list a {
 .hover\:text-indigo-600:hover {
   --tw-text-opacity: 1;
   color: rgb(79 70 229 / var(--tw-text-opacity));
-}
-
-.hover\:text-gray-400:hover {
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
 .focus\:outline-none:focus {
