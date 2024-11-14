@@ -73,6 +73,8 @@ const TopBrands = () => {
       "CLD_VIP",
       "partner1045_b1",
       "partner1046",
+      "partner1047_b1",
+
     ];
 
     const setPartnerSource = (keyword) => {

@@ -25,13 +25,6 @@ export default function Timestamp() {
   const { t } = useTranslation();
   const [source, setSource] = useState("");
 
-
-
-
-
-
-
-
   // useEffect(() => {
   //   const interval = setInterval(() => {
   //     setFade(false); // Start fade-out
@@ -50,18 +43,18 @@ export default function Timestamp() {
   // Инициализация состояний
   const [stage, setStage] = useState(() => {
     // Ensure code runs only on client-side
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       // Получаем текущее значение 'stage' из localStorage при первой загрузке
-      return localStorage.getItem('stage') || 'first-stage';
+      return localStorage.getItem("stage") || "first-stage";
     }
-    return 'first-stage'; // Default to 'first-stage' for SSR
+    return "first-stage"; // Default to 'first-stage' for SSR
   });
 
   const [timestamp, setTimestamp] = useState(() => {
     // Ensure code runs only on client-side
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       // Получаем текущее значение 'timestamp' из localStorage при первой загрузке
-      return localStorage.getItem('timestamp') || null;
+      return localStorage.getItem("timestamp") || null;
     }
     return null;
   });
@@ -70,9 +63,9 @@ export default function Timestamp() {
 
   // useEffect для инициализации состояния на клиенте
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       const storedStage = localStorage.getItem("stage") || "first-stage";
-    
+
       const storedTimestamp = localStorage.getItem("timestamp");
 
       setStage(storedStage);
@@ -91,7 +84,7 @@ export default function Timestamp() {
 
   // useEffect для установки URL перенаправления на основе source
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       let url = "";
       switch (source) {
         case "partner1039":
@@ -109,9 +102,12 @@ export default function Timestamp() {
         case "partner1045_b1":
           url = `https://link.gobig.finance/rnd1045/${newUrl}&creative_id=XXL_JIN`;
           break;
-          case "partner1046":
-            url = `https://link.bo-nus.com/rnd_cld/${newUrl}&creative_id=XXL_JIN`;
-            break;
+        case "partner1046":
+          url = `https://link.bo-nus.com/rnd_cld/${newUrl}&creative_id=XXL_JIN`;
+          break;
+        case "partner1047_b1":
+          url = `https://link.bo-nus.com/rnd_cld/${newUrl}&creative_id=XXL_JIN`;
+          break;
         default:
           url = `https://info.topbon.us/aurnd/${newUrl}&creative_id=XXL_JIN`;
       }
@@ -122,7 +118,7 @@ export default function Timestamp() {
 
   // useEffect для синхронизации stage с localStorage
   useEffect(() => {
-    if (typeof window !== 'undefined' && stage) {
+    if (typeof window !== "undefined" && stage) {
       localStorage.setItem("stage", stage);
       console.log("STAGE", stage);
     }
@@ -130,7 +126,11 @@ export default function Timestamp() {
 
   // useEffect для обновления оставшегося времени и перехода на третий этап
   useEffect(() => {
-    if (typeof window !== 'undefined' && stage === "second-stage" && timestamp) {
+    if (
+      typeof window !== "undefined" &&
+      stage === "second-stage" &&
+      timestamp
+    ) {
       const intervalId = setInterval(() => {
         const timeElapsed = Date.now() - timestamp;
         const newRemainingTime = ONE_DAY_IN_MS - timeElapsed;
@@ -147,12 +147,11 @@ export default function Timestamp() {
     }
   }, [stage, timestamp]);
 
-
   ///////////////////////////////////////////////
   const [customer, setCustomer] = useState();
   const [user, setUser] = useState();
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       // Извлечение строки из localStorage
       const userData = localStorage.getItem("userData");
 
@@ -192,7 +191,6 @@ export default function Timestamp() {
           }),
         }
       );
-      
 
       const result = await response.json();
 
@@ -250,53 +248,48 @@ export default function Timestamp() {
 
   return (
     <>
-
-              
-                {stage != null && (
-                  <div className="flex items-center justify-center jins">
-                    {stage === "first-stage" && (
-                      <div className="frstjin">
-                        <h5 className="h5">
-                          {t("Click Here to Unleash Your Magic Bonus!")}
-                        </h5>
-                        <p>{t("Get a bonus just for you tomorrow!")}</p>
-                        <button
-                          className="btn btn-primary btn-tournament"
-                          onClick={scndstage}
-                        >
-                          {t("Get Bonus")}
-                        </button>
-                      </div>
-                    )}
-                    {stage === "second-stage" && (
-                      <div className="scnjin">
-                        <h5 className="h5">
-                          {t("Thank you! Your Bonus Will Be Here Soon")}
-                        </h5>
-                        <p>
-                          {t("Come back after ")}
-                          <span className="goldie">
-                            {formatTime(remainingTime)}
-                          </span>{" "}
-                          {t("to collect it!")}
-                        </p>
-                      </div>
-                    )}
-                    {stage === "third-stage" && (
-                      <div className="thrdjin">
-                        <h5 className="h5">{t("Your Bonus is Ready!")}</h5>
-                        <p>{t("Click below to claim your magical reward!")}</p>
-                        <button
-                          className="btn btn-primary btn-tournament"
-                          onClick={resetToFirstStage}
-                        >
-                          {t("Bonus Ready!")}
-                        </button>
-                      </div>
-                    )}
-                  </div>
-                )}
-
+      {stage != null && (
+        <div className="flex items-center justify-center jins">
+          {stage === "first-stage" && (
+            <div className="frstjin">
+              <h5 className="h5">
+                {t("Click Here to Unleash Your Magic Bonus!")}
+              </h5>
+              <p>{t("Get a bonus just for you tomorrow!")}</p>
+              <button
+                className="btn btn-primary btn-tournament"
+                onClick={scndstage}
+              >
+                {t("Get Bonus")}
+              </button>
+            </div>
+          )}
+          {stage === "second-stage" && (
+            <div className="scnjin">
+              <h5 className="h5">
+                {t("Thank you! Your Bonus Will Be Here Soon")}
+              </h5>
+              <p>
+                {t("Come back after ")}
+                <span className="goldie">{formatTime(remainingTime)}</span>{" "}
+                {t("to collect it!")}
+              </p>
+            </div>
+          )}
+          {stage === "third-stage" && (
+            <div className="thrdjin">
+              <h5 className="h5">{t("Your Bonus is Ready!")}</h5>
+              <p>{t("Click below to claim your magical reward!")}</p>
+              <button
+                className="btn btn-primary btn-tournament"
+                onClick={resetToFirstStage}
+              >
+                {t("Bonus Ready!")}
+              </button>
+            </div>
+          )}
+        </div>
+      )}
     </>
   );
 }
