@@ -11,16 +11,14 @@ const Payments = () => {
   const { t } = useTranslation();
 
   return (
-    <div className="pt-16">
-      <div className="main__container flex justify-between items-center inner-top-block h-full relative">
+    <div className="pt-16 text-in-mobile">
+      <div className="main__container flex justify-between items-center inner-top-block inner-top-block5 h-full relative">
         <div className="flex flex-col lg:basis-[60%] inner-text-block ">
-          <h1 className="text-white">{t("Digital Casino Financial Transactions & Payment Selections")}</h1>
-          <p className="text-white mt-5">{t("Currently, there exist numerous methods for funding a gaming account. Listed below are internet casinos categorized by widely utilized payment options. Some casinos accommodate MasterCard, Visa, and digital currency, while others endorse less conventional avenues like Neteller and Skrill. The choice of your preferred payment mechanism lies in your hands.")}</p>
+          <h1 className="text-white">{t("Find Your Best Payment Picks for 2024")}</h1>
+          <p className="text-white mt-5">{t("Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!")}</p>
           {/* <Subscribe /> */}
         </div>
-        <div >
-          <Image src={Img} alt="Chip" width={450} loading="lazy" className="absolute bottom-0 right-0 inner-image -z-10 opacity-30 lg:opacity-100" />
-        </div>
+
       </div>
     </div>
   );

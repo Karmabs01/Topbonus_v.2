@@ -24,8 +24,9 @@ const LazySlider = dynamic(() => import("react-slick"), {
   loading: () => <p>Download...</p>,
 });
 import "slick-carousel/slick/slick.css";
-import { getUserData } from "@/components/getUser/getUser";
 import "slick-carousel/slick/slick-theme.css";
+import { getUserData } from "@/components/getUser/getUser";
+
 
 export default function AllBonuses({
   creative,
@@ -65,7 +66,6 @@ export default function AllBonuses({
     () => getBrands(language),
     { initialData: brands }
   );
-
   let userId = "";
   if (typeof window !== "undefined") {
     userId = localStorage.getItem("user_id") || "";
@@ -205,7 +205,7 @@ export default function AllBonuses({
   // }, [brandsGenerated, filteredBrands]);
 
   // const vis = randomBrands.length > 0 ? randomBrands : filteredBrands;
-  // const topBrands = randomBrands2.length > 0 ? randomBrands2 : topBrands;
+  // const vis2 = randomBrands2.length > 0 ? randomBrands2 : topBrands;
 
   const [isMobile, setIsMobile] = useState(false);
 
@@ -463,7 +463,7 @@ export default function AllBonuses({
                     <div className="brandImage p-3">
                       <Link
                         key={brand.id_brand}
-                        href={`${brand.GoBig}/${newUrl}&creative_id=Brands_Exit`}
+                        href={`${brand.GoBig}/${newUrl}&creative_id=Brands_Exit_2`}
                         className={`${target}`}
                         target="_blank"
                       >
@@ -488,7 +488,7 @@ export default function AllBonuses({
                         </p>
                       </div>
                       <Link
-                        href={`${brand.GoBig}/${newUrl}&creative_id=Brands_Exit`}
+                        href={`${brand.GoBig}/${newUrl}&creative_id=Brands_Exit_2`}
                         target="_blank"
                       >
                         <div className="btn btn-new-mini">
@@ -519,7 +519,7 @@ export default function AllBonuses({
                       <Link
                         className="flex justify-center flex-col items-center target-listing-brands"
                         key={item.id_brand}
-                        href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
+                        href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`}
                         target="_blank"
                       >
                         <Image
@@ -538,7 +538,7 @@ export default function AllBonuses({
 
                     <Link
                       key={item.id_brand}
-                      href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
+                      href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`}
                       target="_blank"
                     >
                       <div className="btn btn-new-mini target-listing-brands">
@@ -578,7 +578,7 @@ export default function AllBonuses({
                       </div>
                       <Link
                       key={item.id_brand}
-                      href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
+                      href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`}
                       target="_blank"
                     >
                       <div className="btn btn-new-mini target-listing-brands">
