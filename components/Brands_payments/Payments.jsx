@@ -10,6 +10,7 @@ import "@/app/filteredComponents.css"
 const Payments = () => {
   const { t } = useTranslation();
 
+  
   return (
     <div className="pt-16 text-in-mobile">
       <div className="main__container flex justify-between items-center inner-top-block inner-top-block5 h-full relative">
