@@ -1,13 +1,13 @@
 {
-  "components/Brands_casinos/AllCasinos.jsx -> react-slick": {
-    "id": "components/Brands_casinos/AllCasinos.jsx -> react-slick",
+  "components/Brands_home/UserBrands.jsx -> react-slick": {
+    "id": "components/Brands_home/UserBrands.jsx -> react-slick",
     "files": [
       "static/chunks/node_modules_288834._.js",
       "static/chunks/node_modules_react-slick_lib_index_a654d6.js"
     ]
   },
-  "components/Brands_payments/AllPayments.jsx -> react-slick": {
-    "id": "components/Brands_payments/AllPayments.jsx -> react-slick",
+  "components/Brands_home/AllBrands.jsx -> react-slick": {
+    "id": "components/Brands_home/AllBrands.jsx -> react-slick",
     "files": [
       "static/chunks/node_modules_288834._.js",
       "static/chunks/node_modules_react-slick_lib_index_a654d6.js"
@@ -19,22 +19,5 @@
       "static/chunks/node_modules_288834._.js",
       "static/chunks/node_modules_react-slick_lib_index_a654d6.js"
     ]
-  },
-  "components/Brands_home/UserBrands.jsx -> react-slick": {
-    "id": "components/Brands_home/UserBrands.jsx -> react-slick",
-    "files": [
-      "static/chunks/node_modules_288834._.js",
-      "static/chunks/node_modules_react-slick_lib_index_a654d6.js"
-    ]
-<<<<<<< HEAD
-=======
-  },
-  "components/Brands_home/AllBrands.jsx -> react-slick": {
-    "id": "components/Brands_home/AllBrands.jsx -> react-slick",
-    "files": [
-      "static/chunks/node_modules_288834._.js",
-      "static/chunks/node_modules_react-slick_lib_index_a654d6.js"
-    ]
->>>>>>> a1408ca731e9ece1e485d41c7e3e5f3bf01b7ab5
   }
 }
