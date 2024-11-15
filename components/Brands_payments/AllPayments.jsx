@@ -234,7 +234,6 @@ export default function AllPayments({
     setOpenCountriesId((prevId) => (prevId === brandId ? null : brandId));
   };
 
-
   return (
     <>
       {isLoader ? (
@@ -283,7 +282,7 @@ export default function AllPayments({
                       {/* <div className="filter-flag">{filtered.flag}</div> */}
                     </div>
                     <div className="flex mb-1">
-                      <Gift style={{ color: "#fee000" }}
+                      <Gift style={{ color: "#ff8f1f" }}
                         className="mr-1 w40"
                         size={40} />
                       <div className=" flex items-center review-bonus">
@@ -291,7 +290,7 @@ export default function AllPayments({
                       </div>
                     </div>
                     <div className="mb-2 withdrawal withdrawal-limits flex items-center">
-                      <Handshake style={{ color: "#fee000" }}
+                      <Handshake style={{ color: "#ff8f1f" }}
                         className="mr-1 mb-1 w40"
                         size={40} />
                       <div className="title mr-2">
@@ -312,7 +311,7 @@ export default function AllPayments({
                           <CaretDown
                             className="ml-auto"
                             size={20}
-                            style={{ color: "#fee000" }}
+                            style={{ color: "#ff8f1f" }}
                           />
                         </div>
                         {isPlusesOpen && (
@@ -345,7 +344,7 @@ export default function AllPayments({
                           <CaretDown
                             className="ml-auto"
                             size={20}
-                            style={{ color: "#fee000" }}
+                            style={{ color: "#ff8f1f" }}
                           />
                         </div>
                         {isDepositsOpen && (
@@ -384,7 +383,7 @@ export default function AllPayments({
                           <CaretDown
                             className="ml-auto"
                             size={20}
-                            style={{ color: "#fee000" }}
+                            style={{ color: "#ff8f1f" }}
                           />
                         </div>
                         {isWithdrawalOpen && (
@@ -420,7 +419,7 @@ export default function AllPayments({
                           <CaretDown
                             className="ml-auto"
                             size={20}
-                            style={{ color: "#fee000" }}
+                            style={{ color: "#ff8f1f" }}
                           />
                         </div>
                         {isCountriesOpen && (
@@ -447,7 +446,7 @@ export default function AllPayments({
                       <Link
                         className={`${target}`}
                         key={brand.id_brand}
-                        href={`${brand.GoBig}/${newUrl}&creative_id=Brand_Exit`}
+                        href={`${brand.GoBig}/${newUrl}&creative_id=Brand_Exit_2`}
                         target="_blank"
                       >
                         <Image
@@ -483,7 +482,7 @@ export default function AllPayments({
                         </p>
                       </div>
                       <Link
-                        href={`${brand.GoBig}/${newUrl}&creative_id=Brand_Exit`}
+                        href={`${brand.GoBig}/${newUrl}&creative_id=Brand_Exit_2`}
                         target="_blank"
                       >
                         <div className="btn btn-new-mini">
@@ -514,7 +513,7 @@ export default function AllPayments({
                       <Link
                         className="flex justify-center flex-col items-center target-listing-brands"
                         key={item.id_brand}
-                        href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
+                        href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`}
                         target="_blank"
                       >
                         <Image
@@ -533,7 +532,7 @@ export default function AllPayments({
 
                     <Link
                       key={item.id_brand}
-                      href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
+                      href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`}
                       target="_blank"
                     >
                       <div className="btn btn-new-mini target-listing-brands">
@@ -555,7 +554,7 @@ export default function AllPayments({
                         <Link
                           className="flex justify-center flex-col items-center target-listing-brands"
                           key={item.id_brand}
-                          href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
+                          href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`}
                           target="_blank"
                         >
                           <Image
@@ -573,7 +572,7 @@ export default function AllPayments({
                       </div>
                       <Link
                         key={item.id_brand}
-                        href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands`}
+                        href={`${item.GoBig}/${newUrl}&creative_id=Listing_Brands_2`}
                         target="_blank"
                       >
                         <div className="btn btn-new-mini target-listing-brands">

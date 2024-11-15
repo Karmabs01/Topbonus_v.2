@@ -1,6 +1,14 @@
 {
   "/page": "app/page.js",
+<<<<<<< HEAD
   "/personal/page": "app/personal/page.js",
   "/fortune/page": "app/fortune/page.js",
   "/shop/page": "app/shop/page.js"
+=======
+  "/bonuses/page": "app/bonuses/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/casinos/page": "app/casinos/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/payments/page": "app/payments/page.js"
+>>>>>>> 6b9c8d8884f9ae9d3ac8569006821137010144e0
 }

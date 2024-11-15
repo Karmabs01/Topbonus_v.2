@@ -12926,11 +12926,28 @@ main > .topbr {
 }
 
 .light .inner-top-block {
-  background: var(--BG, linear-gradient(161deg, #088af6 0%, #d992e6 101.7%));
   -webkit-backdrop-filter: blur(17.915px);
   backdrop-filter: blur(17.915px);
   border-radius: 30px;
   overflow: hidden;
+}
+
+.light .inner-top-block3 {
+  background: url("/newimageslight/paybg11.png") center no-repeat !important;
+}
+
+.light .inner-top-block2 {
+  background: url("/newimageslight/paybg12.png") center no-repeat !important;
+}
+
+.light .inner-top-block5 {
+  background: url("/newimageslight/paybg13.png") center no-repeat !important;
+}
+
+@media (width >= 1260px) and (width <= 5000px) {
+  .light .inner-top-block {
+    min-height: 273px;
+  }
 }
 
 .light .custom-bonuses h2, .light .custom-bonuses p {
@@ -13358,6 +13375,34 @@ ul.ul-list a {
 
   .b-vip {
     align-items: center !important;
+  }
+}
+
+.min-h60 {
+  min-height: 60px;
+  max-height: 60px;
+  overflow: hidden;
+}
+
+@media (width >= 320px) and (width <= 1259px) {
+  .inner-text-block {
+    padding: 16px 32px 160px !important;
+  }
+
+  .light .inner-top-block3 {
+    background: url("/newimageslight/dyna13.png") 50% no-repeat !important;
+  }
+
+  .light .inner-top-block2 {
+    background: url("/newimageslight/dyna12.png") 50% no-repeat !important;
+  }
+
+  .light .inner-top-block5 {
+    background: url("/newimageslight/dyna14.png") 50% no-repeat !important;
+  }
+
+  .text-in-mobile * {
+    text-align: center !important;
   }
 }
 
