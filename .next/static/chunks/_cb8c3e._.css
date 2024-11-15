@@ -1224,7 +1224,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .emojis {
-  background: url("/bannerhell.png") right -50px center no-repeat;
+  background: url("/bannerhell.png") center no-repeat;
   min-height: 329px;
   border-radius: 30px;
   padding: 38px 0 12px 44px;
@@ -1242,7 +1242,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   width: 91px;
   height: 51px;
   position: relative;
-  margin-right: 42px;
+  margin-right: 37px;
 }
 
 .btn-choose:after {

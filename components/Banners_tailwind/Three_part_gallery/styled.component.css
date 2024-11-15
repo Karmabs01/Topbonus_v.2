@@ -100,7 +100,7 @@
 }
 .emojis {
   /* background: url("/newimages/threeface.png") no-repeat center; */
-  background: url("/bannerhell.png") no-repeat center right -50px;
+  background: url("/bannerhell.png") no-repeat center;
   min-height: 329px;
   border-radius: 30px;
   padding: 38px 0 12px 44px;
@@ -118,7 +118,7 @@
   width: 91px;
   height: 51px;
   position: relative;
-  margin-right: 42px;
+  margin-right: 37px;
 }
 .btn-choose::after {
   content: "";

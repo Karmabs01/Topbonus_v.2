@@ -3,6 +3,7 @@ import { Metadata } from "next";
 import FilteredPayments from "@/components/Brands_payments/FilteredPayments";
 
 import Payments from "@/components/Brands_payments/Payments";
+import Brands_carousel from "@/components/Banners_tailwind/Brands_carousel2/index";
 
 export const metadata: Metadata = {
   title: "Payments | Bonus topbon.us",
@@ -11,9 +12,17 @@ export const metadata: Metadata = {
 };
 
 export default async function Bonuses() {
+  const categoryBrands = { key1: "Segment2", key2: "Sandbox" };
+  const creative = "Page_Payments";
+  const target = "Page_Payments";
   return (
     <div className="page-bonuses">
       <Payments />
+      <Brands_carousel
+        target={target}
+        categoryBrands={categoryBrands}
+        creative={creative}
+      />
       {/* <TopBrands /> */}
       <FilteredPayments />
       {/* <GuideSlotsPage /> */}

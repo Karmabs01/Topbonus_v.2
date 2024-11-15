@@ -53,7 +53,7 @@ export default function Banner_small() {
         <div className="main__container">
           <div className="flex justify-between items-center face-mob">
             <h3 className="text-lg leading-6 ">
-              {t("What is your choise")}<span> {t("for today?")}</span>
+              {t("Your Winning Choice")}<span> {t("Starts Here")}</span>
             </h3>
             <div className="mob-none">
               <Image src={img} alt={img} width={400} height={150} />
@@ -61,26 +61,26 @@ export default function Banner_small() {
             <div className="flex items-center justify-start btns-ch">
               <div className="h-20 w-20 btn-choose">
                 <Link
-                  href={`${redirectUrl}/${newUrl}&creative_id=Choice_Of_The_Day_2`}
+                  href={`/bonuses`}
                   target="_blank"
                 >
-                  {t("Choose")}
+                  {t("Bonus")}
                 </Link>
               </div>
               <div className="h-20 w-20 btn-choose">
                 <Link
-                  href={`${redirectUrl}/${newUrl}&creative_id=Choice_Of_The_Day_2`}
+                  href={`/casinos`}
                   target="_blank"
                 >
-                  {t("Choose")}
+                  {t("Casino")}
                 </Link>
               </div>
               <div className="h-20 w-20 btn-choose">
                 <Link
-                  href={`${redirectUrl}/${newUrl}&creative_id=Choice_Of_The_Day_2`}
+                  href={`/payments`}
                   target="_blank"
                 >
-                  {t("Choose")}
+                  {t("Payment")}
                 </Link>
               </div>
             </div>

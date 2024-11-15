@@ -196,6 +196,8 @@ async function initializeI18n() {
         newLng = availableLanguages1045;
     } else if (item === "partner1046") {
         newLng = availableLanguagesCLD_VIP;
+    } else if (item === "partner1047_b1") {
+        newLng = availableLanguagesCLD_VIP;
     } else {
         newLng = availableLanguages;
     }
@@ -584,7 +586,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Ghostly gains are just a",
                 "spin away—unlock today’s treat!": "spin away—unlock today’s treat!",
                 "Unveil today’s fright and": "Unveil today’s fright and",
-                "feel the chill of fortune!": "feel the chill of fortune!"
+                "feel the chill of fortune!": "feel the chill of fortune!",
+                "SPECIAL HALLOWEEN": "SPECIAL HALLOWEEN",
+                "Pick a brand below, make first deposit, and spin to": "Pick a brand below, make first deposit, and spin to",
+                "win up to $1,000 cash!": "win up to $1,000 cash!",
+                "Best VIP Programs": "Best VIP Programs",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.",
+                "Your Winning Choice": "Your Winning Choice",
+                "Starts Here": "Starts Here",
+                Bonus: "Bonus",
+                Payment: "Payment",
+                "Spin Your Way to Top Casino Picks 2024": "Spin Your Way to Top Casino Picks 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.",
+                "Unlock the Best Casino Bonuses of 2024!": "Unlock the Best Casino Bonuses of 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.",
+                "Find Your Best Payment Picks for 2024": "Find Your Best Payment Picks for 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!"
             }
         },
         pl: {
@@ -951,7 +968,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Nadprzyrodzone zyski są tylko",
                 "spin away—unlock today’s treat!": "kręć dalej - odblokuj dzisiejszą niespodziankę!",
                 "Unveil today’s fright and": "Ujawnij dzisiejszy strach",
-                "feel the chill of fortune!": "poczuj chłód fortuny!"
+                "feel the chill of fortune!": "poczuj chłód fortuny!",
+                "SPECIAL HALLOWEEN": "SPECJALNY HALLOWEEN",
+                "Pick a brand below, make first deposit, and spin to": "Wybierz poniższą markę, dokonaj pierwszej wpłaty i zakręć",
+                "win up to $1,000 cash!": "wygraj nawet do 1000 dolarów gotówki!",
+                "Best VIP Programs": "Najlepsze programy VIP",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Te najlepsze kasyna oferują programy VIP z pełnym pakietem ekskluzywnych korzyści, od spersonalizowanych bonusów po specjalne nagrody i dedykowane wsparcie",
+                "Your Winning Choice": "Twoje Zwycięskie Wybory",
+                "Starts Here": "Zaczyna się tutaj",
+                Bonus: "Premia",
+                Payment: "Płatność",
+                "Spin Your Way to Top Casino Picks 2024": "Kręć się do najlepszych wyborów kasynowych 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Cześć, entuzjasto automatów! To ja, twój ulubiony automat do gier, przychodzę, aby poprowadzić cię przez najbardziej ekscytujące piętra kasyn w 2024 roku. Pokażę ci świeżą kolekcję kasyn online, które właśnie trafiły na jackpot pod względem emocji, gier i ofert.",
+                "Unlock the Best Casino Bonuses of 2024!": "Odblokuj najlepsze bonusy kasynowe z 2024 roku!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Zgadnij co? To ja, pudełko z prezentem, gotowe do ujawnienia najlepszych bonusów specjalnie dla Ciebie! Rozpakuj bonusy, od ofert powitalnych po nagrody lojalnościowe, i wszystko, co jest pomiędzy.",
+                "Find Your Best Payment Picks for 2024": "Znajdź swoje najlepsze wybory płatności na 2024 rok",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Chau! Jestem Dogecoin, twoim wiernym przewodnikiem po najlepszych metodach płatności w kasynach w 2024 roku. Wyszukuję najszybsze, najbardziej niezawodne opcje, od kryptowalut po klasyczne karty, mam informacje o bezpiecznych płatnościach, które działają bezproblemowo. Zaczynajmy!"
             }
         },
         de: {
@@ -1319,7 +1351,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Geisterhafte Gewinne sind nur ein",
                 "spin away—unlock today’s treat!": "Los geht's - entdecke die heutige Überraschung!",
                 "Unveil today’s fright and": "Enthülle den Schrecken des heutigen Tages",
-                "feel the chill of fortune!": "Spüre die Kälte des Schicksals!"
+                "feel the chill of fortune!": "Spüre die Kälte des Schicksals!",
+                "SPECIAL HALLOWEEN": "SPEZIELLES HALLOWEEN",
+                "Pick a brand below, make first deposit, and spin to": "Wählen Sie unten eine Marke aus, tätigen Sie die erste Einzahlung und drehen Sie",
+                "win up to $1,000 cash!": "Gewinnen Sie bis zu 1.000 US-Dollar Bargeld!",
+                "Best VIP Programs": "Beste VIP-Programme",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Diese Top-Casinos bieten VIP-Programme mit exklusiven Vorteilen, von personalisierten Boni bis hin zu besonderen Belohnungen und dediziertem Support.",
+                "Your Winning Choice": "Ihre Gewinnwahl",
+                "Starts Here": "Beginnt hier",
+                Bonus: "Bonus",
+                Payment: "Zahlung",
+                "Spin Your Way to Top Casino Picks 2024": "Wirbeln Sie sich zu den Top-Casino-Auswahlen 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Hallo, Slot-Enthusiast! Ich bin es, deine Lieblingsspielautomat, hier um dich durch die aufregendsten Casinoböden von 2024 zu führen. Ich werde dir eine frische Sammlung von Online-Casinos zeigen, die gerade den Jackpot in Bezug auf Spannung, Spiele und Angebote geknackt haben.",
+                "Unlock the Best Casino Bonuses of 2024!": "Entsperren Sie die besten Casino-Boni von 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Rate mal? Ich bin die Geschenkbox, bereit, die besten Boni nur für dich zu enthüllen! Entdecke Boni, von Willkommensangeboten bis hin zu Treuebelohnungen und allem dazwischen.",
+                "Find Your Best Payment Picks for 2024": "Finden Sie Ihre besten Zahlungsoptionen für 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Wuff! Ich bin Dogecoin, Ihr treuer Führer durch die besten Casino-Zahlungsmethoden von 2024. Ich spüre die schnellsten und zuverlässigsten Optionen auf, von Kryptowährungen bis zu klassischen Karten, ich habe den Überblick über sichere Zahlungen, die nahtlos funktionieren. Lass uns eintauchen!"
             }
         },
         bg: {
@@ -1686,7 +1733,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Призрачните печалби са просто едно",
                 "spin away—unlock today’s treat!": "завъртете се - отключете днешното удоволствие!",
                 "Unveil today’s fright and": "Разкрий страха днес",
-                "feel the chill of fortune!": "почувствайте студа на късмета!"
+                "feel the chill of fortune!": "почувствайте студа на късмета!",
+                "SPECIAL HALLOWEEN": "СПЕЦИАЛЕН ХЕЛОУИН",
+                "Pick a brand below, make first deposit, and spin to": "Изберете марка по-долу, направете първи депозит и завъртете",
+                "win up to $1,000 cash!": "спечелете до 1 000 долара в брой!",
+                "Best VIP Programs": "Най-добрите VIP програми",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Тези водещи казина предлагат VIP програми, пълни с ексклузивни предимства, от персонализирани бонуси до специални награди и посветена подкрепа.",
+                "Your Winning Choice": "Вашият печеливши избор",
+                "Starts Here": "Започва тук",
+                Bonus: "Бонус",
+                Payment: "Плащане",
+                "Spin Your Way to Top Casino Picks 2024": "Завъртете се към най-добрите казино избори за 2024 г.",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Здравейте, ентусиасте на слотовете! Аз съм тук, вашата любима слот машина, за да ви насоча към най-вълнуващите казино за 2024 година. Ще ви покажа свежа колекция от онлайн казина, които току-що са уцелили джакпота във вълнението, игрите и офертите.",
+                "Unlock the Best Casino Bonuses of 2024!": "Отключете най-добрите казино бонуси за 2024 г.!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Пс-пс... Познаваш ли какво? Аз съм кутията с подаръци, готова да разкрия най-добрите бонуси само за теб! Разкрий бонуси, от поздравителни оферти до лоялни награди и всичко между тях.",
+                "Find Your Best Payment Picks for 2024": "Намерете най-добрите си възможности за плащане за 2024 г.",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Вуф! Аз съм Догекойн, твоят надежден водач през най-добрите методи за плащане в казината през 2024 г. Откривам най-бързите, най-надеждните опции, от криптовалути до класически карти, имам информация за сигурни плащания, които работят безпроблемно. Да започнем!"
             }
         },
         cz: {
@@ -2053,7 +2115,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Záhadné zisky jsou jen",
                 "spin away—unlock today’s treat!": "Otočte pryč - odemkněte dnešní odměnu!",
                 "Unveil today’s fright and": "Odhal dnešní hrůzu",
-                "feel the chill of fortune!": "pocítit chlad štěstí!"
+                "feel the chill of fortune!": "pocítit chlad štěstí!",
+                "SPECIAL HALLOWEEN": "SPECIÁLNÍ HALLOWEEN",
+                "Pick a brand below, make first deposit, and spin to": "Vyberte značku níže, proveďte první vklad a zatočte",
+                "win up to $1,000 cash!": "vyhrajte až 1 000 $ hotově!",
+                "Best VIP Programs": "Nejlepší VIP programy",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Tato nejlepší kasina nabízejí VIP programy plné exkluzivních výhod, od personalizovaných bonusů po speciální odměny a věnovanou podporu.",
+                "Your Winning Choice": "Vaše vítězná volba",
+                "Starts Here": "Začíná tady",
+                Bonus: "Bonus",
+                Payment: "Platba",
+                "Spin Your Way to Top Casino Picks 2024": "Otočte se k nejlepším kasinovým výběrům 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Ahoj, milý nadšenče do automatů! Jsem tvoje oblíbená hrací automaty, tady abych tě provedla nejnapínavějšími kasiny roku 2024. Ukážu ti novou kolekci online kasin, která právě dosáhla jackpotu v oblasti vzrušení, her a nabídek.",
+                "Unlock the Best Casino Bonuses of 2024!": "Odemkněte nejlepší kasinové bonusy roku 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Uhodni co? Jsem já, dárková krabice, připravená odhalit ty nejlepší bonusy jen pro tebe! Rozbal bonusy, od uvítacích nabídek po věrnostní odměny a všechno mezi tím.",
+                "Find Your Best Payment Picks for 2024": "Najděte své nejlepší platební možnosti pro rok 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Haf! Jsem Dogecoin, tvůj spolehlivý průvodce nejlepšími platebními metodami kasina roku 2024. Vyhledávám nejrychlejší a nejspolehlivější možnosti, od kryptoměn po klasické karty, mám informace o bezpečných platebních metodách, které fungují bez problémů. Pojďme do toho!"
             }
         },
         dk: {
@@ -2420,7 +2497,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Spøgelsesagtige gevinster er bare en",
                 "spin away—unlock today’s treat!": "spin away - lås op for dagens godbid!",
                 "Unveil today’s fright and": "Afslør dagens skræk og",
-                "feel the chill of fortune!": "føl kulden fra skæbnen!"
+                "feel the chill of fortune!": "føl kulden fra skæbnen!",
+                "SPECIAL HALLOWEEN": "SÆRLIG HALLOWEEN",
+                "Pick a brand below, make first deposit, and spin to": "Vælg et mærke nedenfor, foretag første indbetaling, og spin til",
+                "win up to $1,000 cash!": "Vind op til $1.000 kontant!",
+                "Best VIP Programs": "Bedste VIP-programmer",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Disse top casinoer tilbyder VIP-programmer fyldt med eksklusive fordele, fra personlige bonusser til særlige belønninger og dedikeret support.",
+                "Your Winning Choice": "Dit vindende valg",
+                "Starts Here": "Starter her",
+                Bonus: "Bonus",
+                Payment: "Betaling",
+                "Spin Your Way to Top Casino Picks 2024": "Spin din vej til Top Casino Picks 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Hej der, slotentusiast! Det er mig, din yndlingsspillemaskine, her for at guide dig gennem de mest spændende kasinoetager i 2024. Jeg vil vise dig en frisk samling af online kasinoer, der lige har ramt jackpotten med hensyn til spænding, spil og tilbud.",
+                "Unlock the Best Casino Bonuses of 2024!": "Oplås de bedste casinobonusser i 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Gæt hvad? Det er mig, gaveæsken, klar til at afsløre de bedste bonusser kun for dig! Pak bonusser ud, fra velkomsttilbud til loyalitetsbelønninger, og alt derimellem.",
+                "Find Your Best Payment Picks for 2024": "Find dine bedste betalingsmuligheder for 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Vov! Jeg er Dogecoin, din pålidelige guide gennem de bedste casinobetalingsmetoder i 2024. Jeg snuser mig frem til de hurtigste, mest pålidelige muligheder, fra kryptovalutaer til klassiske kort. Jeg har styr på sikre betalinger, der fungerer problemfrit. Lad os gå i gang!"
             }
         },
         nl: {
@@ -2787,7 +2879,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Spectrale winsten zijn slechts een",
                 "spin away—unlock today’s treat!": "draai weg - ontgrendel de traktatie van vandaag!",
                 "Unveil today’s fright and": "Onthul de angst van vandaag",
-                "feel the chill of fortune!": "voel de kilte van het lot!"
+                "feel the chill of fortune!": "voel de kilte van het lot!",
+                "SPECIAL HALLOWEEN": "SPECIALE HALLOWEEN",
+                "Pick a brand below, make first deposit, and spin to": "Kies hieronder een merk, maak een eerste storting en draai aan",
+                "win up to $1,000 cash!": "win tot $1,000 contant geld!",
+                "Best VIP Programs": "Beste VIP-programma's",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Deze top casino's bieden VIP-programma's boordevol exclusieve voordelen, van gepersonaliseerde bonussen tot speciale beloningen en toegewijde ondersteuning.",
+                "Your Winning Choice": "Jouw Winnende Keuze",
+                "Starts Here": "Begint hier",
+                Bonus: "Bonus",
+                Payment: "Betaling",
+                "Spin Your Way to Top Casino Picks 2024": "Spin je weg naar de beste casinoselecties van 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Hallo daar, gokautomaat liefhebber! Ik ben het, jouw favoriete gokautomaat, hier om je door de meest opwindende casinovloeren van 2024 te leiden. Ik zal je een frisse collectie online casino's laten zien die zojuist de jackpot hebben gewonnen op het gebied van opwinding, spellen en aanbiedingen.",
+                "Unlock the Best Casino Bonuses of 2024!": "Ontgrendel de beste casinobonussen van 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Raad eens? Het ben ik, de cadeaubox, klaar om de beste bonussen speciaal voor jou te onthullen! Pak bonussen uit, van welkomstaanbiedingen tot loyaliteitsbeloningen, en alles daartussenin.",
+                "Find Your Best Payment Picks for 2024": "Vind uw beste betalingskeuzes voor 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Blaf! Ik ben Dogecoin, jouw betrouwbare gids door de beste casinobetalingsmethoden van 2024. Ik speur naar de snelste, meest betrouwbare opties, van cryptomunten tot klassieke kaarten, ik heb de inside informatie over veilige betalingen die naadloos werken. Laten we beginnen!"
             }
         },
         es: {
@@ -3154,7 +3261,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Ganancias fantasmales son solo eso",
                 "spin away—unlock today’s treat!": "¡Gira y desbloquea la sorpresa de hoy!",
                 "Unveil today’s fright and": "Descubre el miedo de hoy",
-                "feel the chill of fortune!": "siente el escalofrío de la fortuna!"
+                "feel the chill of fortune!": "siente el escalofrío de la fortuna!",
+                "SPECIAL HALLOWEEN": "ESPECIAL HALLOWEEN",
+                "Pick a brand below, make first deposit, and spin to": "Elige una marca a continuación, haz el primer depósito y gira para",
+                "win up to $1,000 cash!": "¡Gana hasta $1,000 en efectivo!",
+                "Best VIP Programs": "Mejores programas VIP",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Estos casinos de primera categoría ofrecen programas VIP repletos de beneficios exclusivos, desde bonos personalizados hasta recompensas especiales y soporte dedicado.",
+                "Your Winning Choice": "Tu elección ganadora",
+                "Starts Here": "Empieza aquí",
+                Bonus: "Bonificación",
+                Payment: "Pago",
+                "Spin Your Way to Top Casino Picks 2024": "Gira tu camino hacia las mejores selecciones de casinos 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "¡Hola, entusiasta de las tragamonedas! Soy yo, tu máquina tragamonedas favorita, aquí para guiarte a través de los pisos de casino más emocionantes de 2024. Te mostraré una nueva colección de casinos en línea que acaban de dar en el clavo en términos de emoción, juegos y ofertas.",
+                "Unlock the Best Casino Bonuses of 2024!": "¡Desbloquea los mejores bonos de casino del 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... ¿Adivina qué? Soy yo, la caja de regalo, lista para revelar los mejores bonos solo para ti! Desenvuelve bonos, desde ofertas de bienvenida hasta recompensas de lealtad, y todo lo que hay en medio.",
+                "Find Your Best Payment Picks for 2024": "Encuentra tus mejores opciones de pago para 2024.",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "¡Guau! Soy Dogecoin, tu fiel guía a través de los mejores métodos de pago de casino de 2024. Rastreando las opciones más rápidas y confiables, desde monedas criptográficas hasta tarjetas clásicas, tengo la primicia sobre pagos seguros que funcionan perfectamente. ¡Vamos a investigar!"
             }
         },
         fi: {
@@ -3521,7 +3643,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Aaveelliset voitot ovat vain aaveita",
                 "spin away—unlock today’s treat!": "pyöräytä pois - avaa päivän herkku!",
                 "Unveil today’s fright and": "Paljasta tämän päivän pelko ja",
-                "feel the chill of fortune!": "tunne kohtalon kylmyys!"
+                "feel the chill of fortune!": "tunne kohtalon kylmyys!",
+                "SPECIAL HALLOWEEN": "ERITYINEN HALLOWEEN",
+                "Pick a brand below, make first deposit, and spin to": "Valitse alla oleva brändi, tee ensimmäinen talletus ja pyöräytä",
+                "win up to $1,000 cash!": "voita jopa 1 000 dollaria käteistä!",
+                "Best VIP Programs": "Parhaat VIP-ohjelmat",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Nämä huippukasinot tarjoavat VIP-ohjelmia, jotka ovat täynnä yksinoikeudella olevia etuja, henkilökohtaisista bonuksista erikoispalkintoihin ja omistettuun tukeen.",
+                "Your Winning Choice": "Voittava valintasi",
+                "Starts Here": "Alkaa tästä",
+                Bonus: "Bonus",
+                Payment: "Maksu",
+                "Spin Your Way to Top Casino Picks 2024": "Pyöritä tiellesi parhaat kasinovaihtoehdot 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Hei siellä, kolikkopelien ystävä! Olen minä, suosikkikolikkopelikoneesi, täällä opastamassa sinua vuoden 2024 jännittävimmillä kasinokerroilla. Näytän sinulle tuoreen valikoiman verkkokasinoita, jotka ovat juuri osuneet jättipottiin jännityksen, pelien ja tarjousten suhteen.",
+                "Unlock the Best Casino Bonuses of 2024!": "Avaa parhaat kasinobonukset vuodelle 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Arvaa mitä? Se olen minä, lahjalaatikko, valmiina paljastamaan parhaat bonukset juuri sinulle! Avaa bonuksia, tervetuliaisbonuksista uskollisuuspalkintoihin ja kaikkeen siltä väliltä.",
+                "Find Your Best Payment Picks for 2024": "Etsi parhaat maksuvaihtoehdot vuodelle 2024.",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Hau! Olen Dogecoin, luotettava oppaasi vuoden 2024 parhaiden kasinomaksutapojen läpi. Etsin nopeimmat ja luotettavimmat vaihtoehdot, kryptovaluutoista klassisiin kortteihin, minulla on tietoa turvallisista maksuista, jotka toimivat saumattomasti. Sukelletaan!"
             }
         },
         fr: {
@@ -3889,7 +4026,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Les gains fantomatiques ne sont qu'une illusion",
                 "spin away—unlock today’s treat!": "tournez et débloquez la surprise du jour!",
                 "Unveil today’s fright and": "Dévoile la frayeur d'aujourd'hui",
-                "feel the chill of fortune!": "sentez le frisson de la fortune!"
+                "feel the chill of fortune!": "sentez le frisson de la fortune!",
+                "SPECIAL HALLOWEEN": "HALLOWEEN SPÉCIAL",
+                "Pick a brand below, make first deposit, and spin to": "Choisissez une marque ci-dessous, effectuez un premier dépôt et tournez pour",
+                "win up to $1,000 cash!": "gagnez jusqu'à 1 000 $ en espèces !",
+                "Best VIP Programs": "Meilleurs programmes VIP",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Ces meilleurs casinos proposent des programmes VIP remplis d'avantages exclusifs, allant des bonus personnalisés aux récompenses spéciales et au support dédié.",
+                "Your Winning Choice": "Votre choix gagnant",
+                "Starts Here": "Commence ici",
+                Bonus: "Bonus",
+                Payment: "paiement",
+                "Spin Your Way to Top Casino Picks 2024": "Faites tourner votre chemin vers les meilleurs choix de casino 2024.",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Salut, passionné de machines à sous ! C'est moi, ta machine à sous préférée, ici pour te guider à travers les sols de casino les plus palpitants de 2024. Je vais te montrer une nouvelle collection de casinos en ligne qui viennent de remporter le jackpot en termes d'excitation, de jeux et d'offres.",
+                "Unlock the Best Casino Bonuses of 2024!": "Débloquez les meilleurs bonus de casino de 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Devine quoi ? C'est moi, la boîte cadeau, prête à révéler les meilleurs bonus juste pour toi ! Déballe des bonus, des offres de bienvenue aux récompenses de fidélité, et tout ce qu'il y a entre les deux.",
+                "Find Your Best Payment Picks for 2024": "Trouvez vos meilleures options de paiement pour 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Woof! Je suis Dogecoin, votre guide de confiance à travers les meilleures méthodes de paiement de casino de 2024. En flairant les options les plus rapides et les plus fiables, des crypto-monnaies aux cartes classiques, j'ai les informations sur les paiements sécurisés qui fonctionnent parfaitement. Allons-y!"
             }
         },
         gr: {
@@ -4257,7 +4409,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Τα φαντασμαγορικά κέρδη είναι απλώς ένα",
                 "spin away—unlock today’s treat!": "ξεσπάστε - ξεκλειδώστε το σημερινό επιδόρπιο!",
                 "Unveil today’s fright and": "Αποκαλύψτε τον φόβο της σημερινής ημέρας",
-                "feel the chill of fortune!": "νιώστε την ψυχρασία της τύχης!"
+                "feel the chill of fortune!": "νιώστε την ψυχρασία της τύχης!",
+                "SPECIAL HALLOWEEN": "ΕΙΔΙΚΟ HALLOWEEN",
+                "Pick a brand below, make first deposit, and spin to": "Επιλέξτε μια μάρκα παρακάτω, κάντε την πρώτη κατάθεση και περιστρέψτε το",
+                "win up to $1,000 cash!": "κερδίστε μέχρι και 1.000 δολάρια μετρητά!",
+                "Best VIP Programs": "Καλύτερα προγράμματα VIP",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Αυτά τα κορυφαία καζίνο προσφέρουν προγράμματα VIP γεμάτα με αποκλειστικά προνόμια, από εξατομικευμένα μπόνους μέχρι ειδικές ανταμοιβές και αφιερωμένη υποστήριξη.",
+                "Your Winning Choice": "Η Επιλογή Σας για Νίκη",
+                "Starts Here": "Ξεκινάει Εδώ",
+                Bonus: "Μπόνους",
+                Payment: "Πληρωμή",
+                "Spin Your Way to Top Casino Picks 2024": "Περιστρέψτε τον δρόμο σας προς τις κορυφαίες επιλογές καζίνο 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Γεια εκεί, λάτρη των κουλοχέρηδων! Είμαι εγώ, η αγαπημένη σου κουλοχέρης, εδώ για να σε καθοδηγήσω στα πιο συναρπαστικά δάπεδα καζίνο του 2024. Θα σου δείξω μια φρέσκια συλλογή online καζίνο που μόλις έχουν χτυπήσει το τζάκποτ όσον αφορά τον ενθουσιασμό, τα παιχνίδια και τις προσφορές.",
+                "Unlock the Best Casino Bonuses of 2024!": "Ξεκλείδωσε τα Καλύτερα Μπόνους Καζίνο του 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Ψιτ… Μαντέψτε τι; Είμαι εγώ, το κουτί δώρου, έτοιμο να αποκαλύψω τα καλύτερα μπόνους μόνο για εσάς! Ξετυλίξτε μπόνους, από προσφορές καλωσορίσματος έως ανταμοιβές πιστότητας, και τα πάντα ενδιάμεσα.",
+                "Find Your Best Payment Picks for 2024": "Βρείτε τις καλύτερες επιλογές πληρωμής σας για το 2024.",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Γαβ! Είμαι το Dogecoin, ο αξιόπιστος οδηγός σας μέσω των κορυφαίων μεθόδων πληρωμής καζίνο του 2024. Ανιχνεύοντας τις γρηγορότερες, πιο αξιόπιστες επιλογές, από κρυπτονομίσματα έως κλασικές κάρτες, έχω τις πληροφορίες για ασφαλείς πληρωμές που λειτουργούν άψογα. Ας ξεκινήσουμε!"
             }
         },
         hu: {
@@ -4625,7 +4792,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Szellemlényes nyereségek csak egyek",
                 "spin away—unlock today’s treat!": "pörögj el - nyisd ki a mai meglepetést!",
                 "Unveil today’s fright and": "Fedezze fel a mai rémületet",
-                "feel the chill of fortune!": "érzed a szerencse hidegét!"
+                "feel the chill of fortune!": "érzed a szerencse hidegét!",
+                "SPECIAL HALLOWEEN": "KÜLÖNLEGES HALLOWEEN",
+                "Pick a brand below, make first deposit, and spin to": "Válasszon egy márkát lent, tegyen első befizetést, és pörögjön",
+                "win up to $1,000 cash!": "akár 1 000 dollár készpénzt nyerhet!",
+                "Best VIP Programs": "Legjobb VIP Programok",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Ezek a legjobb kaszinók VIP programokat kínálnak, amelyek tele vannak kizárólagos juttatásokkal, személyre szabott bónuszoktól különleges jutalmakig és dedikált támogatásig.",
+                "Your Winning Choice": "A Nyertes Választásod",
+                "Starts Here": "Kezdés itt",
+                Bonus: "Bónusz",
+                Payment: "Fizetés",
+                "Spin Your Way to Top Casino Picks 2024": "Pörögj az 2024 legjobb kaszinóválasztásai felé",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Hé, slot rajongó! Itt vagyok, a kedvenc nyerőgéped, hogy vezesselek a legizgalmasabb kaszinók padlóin 2024-ben. Megmutatom neked az online kaszinók friss gyűjteményét, amelyek épp most nyerték meg a főnyereményt az izgalom, játékok és ajánlatok terén.",
+                "Unlock the Best Casino Bonuses of 2024!": "2024 legjobb kaszinó bónuszait oldja fel!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Kitalálod? Én vagyok, az ajándékdoboz, készen állok arra, hogy felfedjem a legjobb bónuszokat csak neked! Bontsd ki a bónuszokat, a köszöntő ajánlatoktól a hűségjutalmakig, és minden közte van.",
+                "Find Your Best Payment Picks for 2024": "Keresd meg a legjobb fizetési lehetőségeidet 2024-re",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Vau! Én vagyok a Dogecoin, a megbízható vezetőd a legjobb kaszinó fizetési módszerek között 2024-ben. Kiszagolom a leggyorsabb, legmegbízhatóbb lehetőségeket, a kriptovalutáktól a klasszikus kártyákig, és mindent tudok a biztonságos, zökkenőmentes működésű fizetésekről. Ugorjunk bele!"
             }
         },
         it: {
@@ -4993,7 +5175,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Guadagni spettrali sono solo un",
                 "spin away—unlock today’s treat!": "gira via - sblocca il regalo di oggi!",
                 "Unveil today’s fright and": "Svela la paura di oggi",
-                "feel the chill of fortune!": "sentire il freddo della fortuna!"
+                "feel the chill of fortune!": "sentire il freddo della fortuna!",
+                "SPECIAL HALLOWEEN": "SPECIALE HALLOWEEN",
+                "Pick a brand below, make first deposit, and spin to": "Scegli un marchio qui sotto, effettua il primo deposito e gira",
+                "win up to $1,000 cash!": "vinci fino a $1,000 in contanti!",
+                "Best VIP Programs": "I migliori programmi VIP",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Questi casinò di alto livello offrono programmi VIP ricchi di vantaggi esclusivi, da bonus personalizzati a premi speciali e supporto dedicato.",
+                "Your Winning Choice": "La tua scelta vincente",
+                "Starts Here": "Inizia qui",
+                Bonus: "Bonus",
+                Payment: "Pagamento",
+                "Spin Your Way to Top Casino Picks 2024": "Gira verso le migliori scelte di casinò del 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Ehi là, appassionato di slot! Sono io, la tua slot machine preferita, qui per guidarti attraverso i pavimenti del casinò più emozionanti del 2024. Ti mostrerò una nuova collezione di casinò online che hanno appena centrato il jackpot in termini di emozione, giochi e offerte.",
+                "Unlock the Best Casino Bonuses of 2024!": "Sblocca i migliori bonus casinò del 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Indovina un po'? Sono io, la scatola regalo, pronta a svelare i migliori bonus solo per te! Scopri bonus, dalle offerte di benvenuto alle ricompense fedeltà, e tutto ciò che sta in mezzo.",
+                "Find Your Best Payment Picks for 2024": "Trova le tue migliori scelte di pagamento per il 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Baù! Sono Dogecoin, la tua affidabile guida attraverso i migliori metodi di pagamento dei casinò del 2024. Scovando le opzioni più veloci e affidabili, dalle criptovalute alle classiche carte, ho le informazioni sui pagamenti sicuri che funzionano in modo impeccabile. Scaviamo dentro!"
             }
         },
         no: {
@@ -5361,7 +5558,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Spøkelsesaktige gevinster er bare en",
                 "spin away—unlock today’s treat!": "spinn bort - lås opp dagens godbit!",
                 "Unveil today’s fright and": "Avdekke dagens skrekk og",
-                "feel the chill of fortune!": "kjenne kulden av skjebnen!"
+                "feel the chill of fortune!": "kjenne kulden av skjebnen!",
+                "SPECIAL HALLOWEEN": "SPESIELL HALLOWEEN",
+                "Pick a brand below, make first deposit, and spin to": "Velg et merke nedenfor, gjør første innskudd, og snurr for å",
+                "win up to $1,000 cash!": "vinn opptil $1,000 i kontanter!",
+                "Best VIP Programs": "Beste VIP-programmer",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Disse toppcasinoene tilbyr VIP-programmer fylt med eksklusive fordeler, fra personlige bonuser til spesielle belønninger og dedikert støtte.",
+                "Your Winning Choice": "Ditt Vinnende Valg",
+                "Starts Here": "Starter her",
+                Bonus: "Bonus",
+                Payment: "Betaling",
+                "Spin Your Way to Top Casino Picks 2024": "Spinn deg til topp kasinoutvalg 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Hei der, spilleautomat-entusiast! Det er meg, din favoritt spilleautomat, her for å guide deg gjennom de mest spennende kasinoene i 2024. Jeg vil vise deg en fersk samling av nettkasinoer som nettopp har truffet jackpotten når det gjelder spenning, spill og tilbud.",
+                "Unlock the Best Casino Bonuses of 2024!": "Åpne de beste casinobonusene i 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Gjett hva? Det er meg, gaveesken, klar til å avsløre de beste bonusene bare for deg! Pakk opp bonuser, fra velkomsttilbud til lojalitetsbelønninger, og alt i mellom.",
+                "Find Your Best Payment Picks for 2024": "Finn dine beste betalingsvalg for 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Voff! Jeg er Dogecoin, din pålitelige guide gjennom de beste kasinobetalingsmetodene i 2024. Snuser ut de raskeste, mest pålitelige alternativene, fra kryptovalutaer til klassiske kort, jeg har innsidetips om sikre betalinger som fungerer sømløst. La oss grave inn!"
             }
         },
         pt: {
@@ -5729,7 +5941,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Os ganhos fantasmagóricos são apenas um",
                 "spin away—unlock today’s treat!": "rodar para longe - desbloquear a surpresa de hoje!",
                 "Unveil today’s fright and": "Revelar o medo de hoje",
-                "feel the chill of fortune!": "sinta o frio da fortuna!"
+                "feel the chill of fortune!": "sinta o frio da fortuna!",
+                "SPECIAL HALLOWEEN": "HALLOWEEN ESPECIAL",
+                "Pick a brand below, make first deposit, and spin to": "Escolha uma marca abaixo, faça o primeiro depósito e gire para",
+                "win up to $1,000 cash!": "ganhe até $1,000 em dinheiro!",
+                "Best VIP Programs": "Melhores Programas VIP",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Estes principais cassinos oferecem programas VIP repletos de vantagens exclusivas, desde bônus personalizados até recompensas especiais e suporte dedicado.",
+                "Your Winning Choice": "Sua Escolha Vencedora",
+                "Starts Here": "Começa aqui",
+                Bonus: "Bônus",
+                Payment: "Pagamento",
+                "Spin Your Way to Top Casino Picks 2024": "Gire seu caminho para as principais escolhas de cassino 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Olá, entusiasta de caça-níqueis! Sou eu, sua máquina caça-níqueis favorita, aqui para guiá-lo pelos pisos de cassino mais emocionantes de 2024. Vou mostrar a você uma nova coleção de cassinos online que acabaram de acertar o jackpot em termos de emoção, jogos e ofertas.",
+                "Unlock the Best Casino Bonuses of 2024!": "Desbloqueie os Melhores Bônus de Cassino de 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Adivinha só? Sou eu, a caixa de presente, pronta para revelar os melhores bônus só para você! Desembrulhe bônus, desde ofertas de boas-vindas até recompensas de fidelidade, e tudo mais no meio.",
+                "Find Your Best Payment Picks for 2024": "Encontre suas melhores opções de pagamento para 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Uau! Eu sou Dogecoin, seu guia confiável pelos principais métodos de pagamento de cassino de 2024. Farejando as opções mais rápidas e confiáveis, desde moedas criptográficas até cartões clássicos, tenho as informações sobre pagamentos seguros que funcionam perfeitamente. Vamos lá!"
             }
         },
         se: {
@@ -6097,7 +6324,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Spöklika vinster är bara en",
                 "spin away—unlock today’s treat!": "snurra bort - lås upp dagens godsak!",
                 "Unveil today’s fright and": "Avslöja dagens skräck och",
-                "feel the chill of fortune!": "känn kylan av ödet!"
+                "feel the chill of fortune!": "känn kylan av ödet!",
+                "SPECIAL HALLOWEEN": "SPECIELL HALLOWEEN",
+                "Pick a brand below, make first deposit, and spin to": "Välj ett varumärke nedan, gör första insättningen och snurra för att",
+                "win up to $1,000 cash!": "vinn upp till $1,000 i kontanter!",
+                "Best VIP Programs": "Bästa VIP-programmen",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Dessa toppcasinon erbjuder VIP-program fyllda med exklusiva förmåner, från personliga bonusar till specialbelöningar och dedikerat stöd.",
+                "Your Winning Choice": "Ditt vinnande val",
+                "Starts Here": "Startar här",
+                Bonus: "Bonus",
+                Payment: "Betala",
+                "Spin Your Way to Top Casino Picks 2024": "Snurra dig till toppvalen för kasinon 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Hej där, slotentusiast! Det är jag, din favoritslotmaskin, här för att guida dig genom de mest spännande casinogolven år 2024. Jag ska visa dig en färsk samling onlinecasinon som precis har träffat jackpotten när det gäller spänning, spel och erbjudanden.",
+                "Unlock the Best Casino Bonuses of 2024!": "Lås upp de bästa kasinobonusarna år 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Gissa vad? Det är jag, presentasken, redo att avslöja de bästa bonusarna bara för dig! Packa upp bonusar, från välkomsterbjudanden till lojalitetsbelöningar, och allt däremellan.",
+                "Find Your Best Payment Picks for 2024": "Hitta dina bästa betalningsalternativ för 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Vov! Jag är Dogecoin, din pålitliga guide genom de bästa casinobetalningsmetoderna år 2024. Spårar upp de snabbaste, mest pålitliga alternativen, från kryptovalutor till klassiska kort, jag har koll på säkra betalningar som fungerar sömlöst. Låt oss gräva djupare!"
             }
         },
         sk: {
@@ -6465,7 +6707,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Duchovné zisky sú len také",
                 "spin away—unlock today’s treat!": "otočte sa preč - odomknite dnešnú odmenu!",
                 "Unveil today’s fright and": "Odhal dnešný strach",
-                "feel the chill of fortune!": "cítiť chlad šťastia!"
+                "feel the chill of fortune!": "cítiť chlad šťastia!",
+                "SPECIAL HALLOWEEN": "ŠPECIÁLNY HALLOWEEN",
+                "Pick a brand below, make first deposit, and spin to": "Vyberte značku nižšie, urobte prvý vklad a zatočte",
+                "win up to $1,000 cash!": "vyhrajte až 1 000 dolárov hotovosti!",
+                "Best VIP Programs": "Najlepšie VIP programy",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Tieto najlepšie kasína ponúkajú VIP programy plné exkluzívnych výhod, od personalizovaných bonusov po špeciálne odmeny a venovanú podporu.",
+                "Your Winning Choice": "Vaša víťazná voľba",
+                "Starts Here": "Začína tu",
+                Bonus: "Bonus",
+                Payment: "Platba",
+                "Spin Your Way to Top Casino Picks 2024": "Otočte sa k najlepším kasínovým výberom 2024",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Ahoj, nadšenec hracích automatov! Som tvoj obľúbený hrací automat, ktorý ťa bude sprevádzať po najnápadnejších kasínových podlahách roku 2024. Ukážem ti novú kolekciu online kasín, ktoré práve získali jackpot v zábave, hrách a ponukách.",
+                "Unlock the Best Casino Bonuses of 2024!": "Odomknite najlepšie kasínové bonusy roku 2024!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Uhádni čo? Som ja, darčeková krabica, pripravená odhaliť najlepšie bonusy len pre teba! Rozbaľ bonusy, od uvítacích ponúk po vernostné odmeny a všetko medzi tým.",
+                "Find Your Best Payment Picks for 2024": "Nájdite svoje najlepšie platobné možnosti na rok 2024",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Haf! Som Dogecoin, tvoj spoľahlivý sprievodca cez najlepšie kasínové platobné metódy roku 2024. Vyhľadávam najrýchlejšie, najspoľahlivejšie možnosti, od kryptomeny až po klasické karty, mám informácie o bezpečných platbách, ktoré fungujú bez problémov. Poďme sa do toho!"
             }
         },
         tr: {
@@ -6833,7 +7090,22 @@ async function initializeI18n() {
                 "Ghostly gains are just a": "Ruhani kazançlar sadece bir",
                 "spin away—unlock today’s treat!": "uzaklaş—bugünün sürprizini aç!",
                 "Unveil today’s fright and": "Bugünün korkusunu açığa çıkar",
-                "feel the chill of fortune!": "kaderin soğukluğunu hissedin!"
+                "feel the chill of fortune!": "kaderin soğukluğunu hissedin!",
+                "SPECIAL HALLOWEEN": "ÖZEL CADILAR BAYRAMI",
+                "Pick a brand below, make first deposit, and spin to": "Aşağıdaki markalardan birini seçin, ilk depozitonuzu yapın ve çevirin",
+                "win up to $1,000 cash!": "1.000 dolara kadar nakit kazanın!",
+                "Best VIP Programs": "En İyi VIP Programları",
+                "These top casinos offer VIP programs packed with exclusive perks, from personalized bonuses to special rewards and dedicated support.": "Bu en iyi casinolar, kişiselleştirilmiş bonuslardan özel ödüllere ve özel destek hizmetlerine kadar dolu dolu VIP programlar sunar.",
+                "Your Winning Choice": "Kazanan Seçiminiz",
+                "Starts Here": "Buradan Başlar",
+                Bonus: "Bonus",
+                Payment: "Ödeme",
+                "Spin Your Way to Top Casino Picks 2024": "2024 En İyi Casino Seçimlerine Ulaşın",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "Merhaba, slot tutkunu! Benim, favori slot makineniz, sizi 2024'ün en heyecan verici kumarhane katlarında rehberlik etmek için buradayım. Size heyecan, oyunlar ve teklifler açısından büyük ikramiyeyi vuran yeni bir online kumarhane koleksiyonu göstereceğim.",
+                "Unlock the Best Casino Bonuses of 2024!": "2024'ün En İyi Casino Bonuslarını Açın!",
+                "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Tahmin ne? Benim, hediye kutusu, sadece senin için en iyi bonusları açmaya hazırım! Hoş geldin tekliflerinden sadakat ödüllerine ve her şeyin arasındakilere kadar bonusları açın.",
+                "Find Your Best Payment Picks for 2024": "2024 için En İyi Ödeme Seçeneklerinizi Bulun",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Hav hav! Ben Dogecoin, 2024'ün en iyi kumarhane ödeme yöntemleri konusunda rehberinizim. En hızlı, en güvenilir seçenekleri araştırarak, kripto paralardan klasik kartlara kadar güvenli ödemeler hakkında bilgi sahibiyim. Hadi başlayalım!"
             }
         }
     };
@@ -6919,6 +7191,9 @@ const Navigation = ({ navLinks, onLinkClick })=>{
             case "partner1046":
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
+            case "partner1047_b1":
+                url = "https://link.bo-nus.com/rnd_cld";
+                break;
             default:
                 url = "https://info.topbon.us/aurnd";
         }
@@ -6942,12 +7217,12 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                             children: link.label
                         }, void 0, false, {
                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                            lineNumber: 97,
+                            lineNumber: 100,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                        lineNumber: 96,
+                        lineNumber: 99,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$popover$2f$popover$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PopoverPanel"], {
@@ -6966,7 +7241,7 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                     children: subLink.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 112,
+                                                    lineNumber: 115,
                                                     columnNumber: 25
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6979,29 +7254,29 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                                 className: "absolute inset-0"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                                lineNumber: 121,
+                                                                lineNumber: 124,
                                                                 columnNumber: 29
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                        lineNumber: 116,
+                                                        lineNumber: 119,
                                                         columnNumber: 27
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 118,
                                                     columnNumber: 25
                                                 }, this)
                                             ]
                                         }, subLink.label, true, {
                                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                            lineNumber: 108,
+                                            lineNumber: 111,
                                             columnNumber: 23
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                    lineNumber: 105,
+                                    lineNumber: 108,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7017,12 +7292,12 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                         children: t("Try Your Luck!")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                        lineNumber: 130,
+                                                        lineNumber: 133,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 129,
+                                                    lineNumber: 132,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7030,13 +7305,13 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                     children: t("Feeling lucky? Discover random casino brands and test your fortune!")
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 137,
+                                                    lineNumber: 140,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                            lineNumber: 128,
+                                            lineNumber: 131,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7051,52 +7326,52 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                         children: t("Take a Chance!")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                        lineNumber: 149,
+                                                        lineNumber: 152,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 148,
+                                                    lineNumber: 151,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                lineNumber: 144,
+                                                lineNumber: 147,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                            lineNumber: 143,
+                                            lineNumber: 146,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                    lineNumber: 127,
+                                    lineNumber: 130,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                            lineNumber: 104,
+                            lineNumber: 107,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                        lineNumber: 100,
+                        lineNumber: 103,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$popover$2f$popover$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PopoverBackdrop"], {
                         className: "fixed inset-0 w-screen h-screen z-10 -top-20 -left-32"
                     }, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                        lineNumber: 156,
+                        lineNumber: 159,
                         columnNumber: 13
                     }, this)
                 ]
             }, link.label, true, {
                 fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                lineNumber: 95,
+                lineNumber: 98,
                 columnNumber: 11
             }, this);
         })
@@ -7597,6 +7872,9 @@ const LanguageSwitcher = ()=>{
         case "partner1046":
             newLng = availableLanguagesCLD_VIP;
             break;
+        case "partner1047_b1":
+            newLng = availableLanguagesCLD_VIP;
+            break;
         default:
             newLng = availableLanguages;
             break;
@@ -7605,7 +7883,7 @@ const LanguageSwitcher = ()=>{
         children: "Failed to load"
     }, void 0, false, {
         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-        lineNumber: 127,
+        lineNumber: 130,
         columnNumber: 21
     }, this);
     const changeLanguage = async (lng)=>{
@@ -7649,14 +7927,14 @@ const LanguageSwitcher = ()=>{
                                                             className: `mr-2 flag-icon flag-icon-${newLng.find((lang)=>lang.code === selectedLanguage)?.code}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                            lineNumber: 163,
+                                                            lineNumber: 166,
                                                             columnNumber: 23
                                                         }, this),
                                                         newLng.find((lang)=>lang.code === selectedLanguage)?.label
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 161,
+                                                    lineNumber: 164,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7666,18 +7944,18 @@ const LanguageSwitcher = ()=>{
                                                         className: "h-5 w-5 text-gray-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                        lineNumber: 175,
+                                                        lineNumber: 178,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 174,
+                                                    lineNumber: 177,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                            lineNumber: 160,
+                                            lineNumber: 163,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ListboxOptions"], {
@@ -7694,7 +7972,7 @@ const LanguageSwitcher = ()=>{
                                                                             className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                            lineNumber: 201,
+                                                                            lineNumber: 204,
                                                                             columnNumber: 31
                                                                         }, this),
                                                                         " ",
@@ -7702,7 +7980,7 @@ const LanguageSwitcher = ()=>{
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                    lineNumber: 193,
+                                                                    lineNumber: 196,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 selected && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -7712,57 +7990,57 @@ const LanguageSwitcher = ()=>{
                                                                         className: "h-5 w-5"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                        lineNumber: 208,
+                                                                        lineNumber: 211,
                                                                         columnNumber: 33
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                    lineNumber: 207,
+                                                                    lineNumber: 210,
                                                                     columnNumber: 31
                                                                 }, this)
                                                             ]
                                                         }, void 0, true)
                                                 }, language.code, false, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 184,
+                                                    lineNumber: 187,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                            lineNumber: 182,
+                                            lineNumber: 185,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                    lineNumber: 159,
+                                    lineNumber: 162,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false)
                     }, void 0, false, {
                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                        lineNumber: 146,
+                        lineNumber: 149,
                         columnNumber: 11
                     }, this),
                     isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                        lineNumber: 223,
+                        lineNumber: 226,
                         columnNumber: 25
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                lineNumber: 145,
+                lineNumber: 148,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-            lineNumber: 144,
+            lineNumber: 147,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-        lineNumber: 143,
+        lineNumber: 146,
         columnNumber: 5
     }, this);
 };
@@ -8521,6 +8799,8 @@ const BrandsSwitcher = ()=>{
         newLng = availableLanguages1045;
     } else if (item === "partner1046") {
         newLng = availableLanguagesCLD_VIP;
+    } else if (item === "partner1047_b1") {
+        newLng = availableLanguagesCLD_VIP;
     } else {
         newLng = availableLanguages;
     }
@@ -8561,14 +8841,14 @@ const BrandsSwitcher = ()=>{
                                                     className: `mr-2 flag-icon flag-icon-${selectedLanguage?.code}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                    lineNumber: 230,
+                                                    lineNumber: 232,
                                                     columnNumber: 23
                                                 }, this),
                                                 selectedLanguage?.label
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 229,
+                                            lineNumber: 231,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8578,18 +8858,18 @@ const BrandsSwitcher = ()=>{
                                                 className: "h-5 w-5 text-gray-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                lineNumber: 234,
+                                                lineNumber: 236,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 233,
+                                            lineNumber: 235,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 227,
+                                    lineNumber: 229,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ListboxOptions"], {
@@ -8606,7 +8886,7 @@ const BrandsSwitcher = ()=>{
                                                                     className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                    lineNumber: 253,
+                                                                    lineNumber: 255,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 " ",
@@ -8614,7 +8894,7 @@ const BrandsSwitcher = ()=>{
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 251,
+                                                            lineNumber: 253,
                                                             columnNumber: 23
                                                         }, this),
                                                         selected ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8624,47 +8904,47 @@ const BrandsSwitcher = ()=>{
                                                                 className: "h-5 w-5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                lineNumber: 257,
+                                                                lineNumber: 259,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 256,
+                                                            lineNumber: 258,
                                                             columnNumber: 25
                                                         }, this) : null
                                                     ]
                                                 }, void 0, true)
                                         }, language.code, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 242,
+                                            lineNumber: 244,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 238,
+                                    lineNumber: 240,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                            lineNumber: 226,
+                            lineNumber: 228,
                             columnNumber: 11
                         }, this)
                     }, void 0, false)
             }, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 215,
+                lineNumber: 217,
                 columnNumber: 5
             }, this),
             isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 269,
+                lineNumber: 271,
                 columnNumber: 19
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-        lineNumber: 214,
+        lineNumber: 216,
         columnNumber: 5
     }, this);
 };
@@ -10292,6 +10572,9 @@ function MultipleSelectPlaceholder() {
         case "partner1046":
             newFlag = flagsCLD_VIP;
             break;
+        case "partner1047_b1":
+            newFlag = flagsCLD_VIP;
+            break;
         default:
             newFlag = flags;
             break;
@@ -10306,7 +10589,7 @@ function MultipleSelectPlaceholder() {
                         className: `flag-icon flag-icon-${languageFlag}`
                     }, void 0, false, {
                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                        lineNumber: 229,
+                        lineNumber: 232,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
@@ -10314,13 +10597,13 @@ function MultipleSelectPlaceholder() {
                         children: lng ? lng.toUpperCase() : ""
                     }, void 0, false, {
                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                        lineNumber: 230,
+                        lineNumber: 233,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                lineNumber: 227,
+                lineNumber: 230,
                 columnNumber: 9
             }, this);
         }
@@ -10340,12 +10623,12 @@ function MultipleSelectPlaceholder() {
                                 children: renderValue(personName)
                             }, void 0, false, {
                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                lineNumber: 248,
+                                lineNumber: 251,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                            lineNumber: 247,
+                            lineNumber: 250,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$menu$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MenuItems"], {
@@ -10362,23 +10645,23 @@ function MultipleSelectPlaceholder() {
                                                         children: t("Your country of residence")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 261,
+                                                        lineNumber: 264,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$BrandsSwitcher$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 264,
+                                                        lineNumber: 267,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                lineNumber: 260,
+                                                lineNumber: 263,
                                                 columnNumber: 21
                                             }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                        lineNumber: 258,
+                                        lineNumber: 261,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$menu$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MenuItem"], {
@@ -10390,46 +10673,46 @@ function MultipleSelectPlaceholder() {
                                                         children: t("Website language")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 271,
+                                                        lineNumber: 274,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageSwitcher$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 274,
+                                                        lineNumber: 277,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                lineNumber: 270,
+                                                lineNumber: 273,
                                                 columnNumber: 21
                                             }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                        lineNumber: 268,
+                                        lineNumber: 271,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                lineNumber: 257,
+                                lineNumber: 260,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                            lineNumber: 252,
+                            lineNumber: 255,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true)
         }, void 0, false, {
             fileName: "[project]/components/header/MenuLanguages/index.jsx",
-            lineNumber: 244,
+            lineNumber: 247,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-        lineNumber: 243,
+        lineNumber: 246,
         columnNumber: 5
     }, this);
 }
@@ -11548,6 +11831,10 @@ const getBrands = async (lng)=>{
             url: apiCLD_VIP,
             languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["availableLanguagesCLD_VIP"]
         },
+        partner1047_b1: {
+            url: apiCLD_VIP,
+            languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["availableLanguagesCLD_VIP"]
+        },
         default: {
             url: apiAll,
             languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["availableLanguages"]
@@ -11603,7 +11890,7 @@ const Marquee = ()=>{
     _s();
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"])();
     const handleClick = ()=>{
-        const targetElement = document.getElementById("anchor-marque");
+        const targetElement = document.getElementById("real-block");
         if (targetElement) {
             const headerOffset = 50;
             const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
@@ -12126,7 +12413,8 @@ const Header_tailwind = ()=>{
                 "partner1044",
                 "CLD_VIP",
                 "partner1045_b1",
-                "partner1046"
+                "partner1046",
+                "partner1047_b1"
             ];
             partners.forEach((partner)=>{
                 if (data.includes(partner)) {
@@ -12239,7 +12527,7 @@ const Header_tailwind = ()=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$header$2f$Marque$2f$index$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                lineNumber: 250,
+                lineNumber: 251,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
@@ -12247,11 +12535,11 @@ const Header_tailwind = ()=>{
                 children: [
                     load ? dataUser.geo_approve === null || dataUser.geo_approve === "" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$geo$2d$identifier$2f$index$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                        lineNumber: 254,
+                        lineNumber: 255,
                         columnNumber: 13
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {}, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                        lineNumber: 256,
+                        lineNumber: 257,
                         columnNumber: 13
                     }, this) : "",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -12272,17 +12560,17 @@ const Header_tailwind = ()=>{
                                                 className: "h-6 w-6"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                lineNumber: 272,
+                                                lineNumber: 273,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 267,
+                                            lineNumber: 268,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                        lineNumber: 266,
+                                        lineNumber: 267,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -12296,17 +12584,17 @@ const Header_tailwind = ()=>{
                                                 loading: "lazy"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                lineNumber: 277,
+                                                lineNumber: 278,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 276,
+                                            lineNumber: 277,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                        lineNumber: 275,
+                                        lineNumber: 276,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -12318,12 +12606,12 @@ const Header_tailwind = ()=>{
                                                 }))
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 281,
+                                            lineNumber: 282,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                        lineNumber: 280,
+                                        lineNumber: 281,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -12342,7 +12630,7 @@ const Header_tailwind = ()=>{
                                                                 className: "h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-gray-400 mr-2"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                lineNumber: 299,
+                                                                lineNumber: 300,
                                                                 columnNumber: 23
                                                             }, this),
                                                             `${dataUser.balance}$`
@@ -12350,12 +12638,12 @@ const Header_tailwind = ()=>{
                                                     }, void 0, true)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                    lineNumber: 294,
+                                                    lineNumber: 295,
                                                     columnNumber: 19
                                                 }, this) : ""
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                lineNumber: 289,
+                                                lineNumber: 290,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -12369,7 +12657,7 @@ const Header_tailwind = ()=>{
                                                             className: "absolute -inset-1.5"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                            lineNumber: 315,
+                                                            lineNumber: 316,
                                                             columnNumber: 19
                                                         }, this),
                                                         load ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$mui$2f$material$2f$Badge$2f$Badge$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -12381,36 +12669,36 @@ const Header_tailwind = ()=>{
                                                                     className: "h-8 w-8 text-white transition-colors duration-300 ease-in-out hover:text-gray-400"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                    lineNumber: 319,
+                                                                    lineNumber: 320,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                            lineNumber: 317,
+                                                            lineNumber: 318,
                                                             columnNumber: 21
                                                         }, this) : ""
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                    lineNumber: 311,
+                                                    lineNumber: 312,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                lineNumber: 310,
+                                                lineNumber: 311,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$I18nextProvider$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["I18nextProvider"], {
                                                 i18n: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$i18n$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$header$2f$MenuLanguages$2f$index$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                    lineNumber: 332,
+                                                    lineNumber: 333,
                                                     columnNumber: 17
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                lineNumber: 331,
+                                                lineNumber: 332,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$menu$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Menu"], {
@@ -12425,25 +12713,25 @@ const Header_tailwind = ()=>{
                                                                     className: "absolute -inset-1.5"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                    lineNumber: 338,
+                                                                    lineNumber: 339,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 load ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                     className: "h-12 w-12 rounded-full text-4xl flex items-center justify-center text-blue-600"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                    lineNumber: 340,
+                                                                    lineNumber: 341,
                                                                     columnNumber: 23
                                                                 }, this) : ""
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                            lineNumber: 337,
+                                                            lineNumber: 338,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                        lineNumber: 336,
+                                                        lineNumber: 337,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$menu$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MenuItems"], {
@@ -12460,19 +12748,19 @@ const Header_tailwind = ()=>{
                                                                             className: "h-6 w-6 text-white transition-colors duration-300 ease-in-out mr-2"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                            lineNumber: 355,
+                                                                            lineNumber: 356,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         t("My wallet")
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                    lineNumber: 351,
+                                                                    lineNumber: 352,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                lineNumber: 350,
+                                                                lineNumber: 351,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$menu$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MenuItem"], {
@@ -12485,7 +12773,7 @@ const Header_tailwind = ()=>{
                                                                             className: "h-6 w-6 text-white transition-colors duration-300 ease-in-out mr-2"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                            lineNumber: 368,
+                                                                            lineNumber: 369,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         load ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -12497,31 +12785,31 @@ const Header_tailwind = ()=>{
                                                                                     children: user.tickets
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                                    lineNumber: 374,
+                                                                                    lineNumber: 375,
                                                                                     columnNumber: 48
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                            lineNumber: 373,
+                                                                            lineNumber: 374,
                                                                             columnNumber: 25
                                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                             className: "",
                                                                             children: t("Fortune wheel")
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                            lineNumber: 377,
+                                                                            lineNumber: 378,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                    lineNumber: 364,
+                                                                    lineNumber: 365,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                lineNumber: 363,
+                                                                lineNumber: 364,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$menu$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MenuItem"], {
@@ -12534,43 +12822,43 @@ const Header_tailwind = ()=>{
                                                                             className: "h-6 w-6 text-white transition-colors duration-300 ease-in-out mr-2"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                            lineNumber: 386,
+                                                                            lineNumber: 387,
                                                                             columnNumber: 23
                                                                         }, this),
                                                                         t("Cards shop")
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                    lineNumber: 382,
+                                                                    lineNumber: 383,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                lineNumber: 381,
+                                                                lineNumber: 382,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                        lineNumber: 346,
+                                                        lineNumber: 347,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                lineNumber: 335,
+                                                lineNumber: 336,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                        lineNumber: 288,
+                                        lineNumber: 289,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                lineNumber: 262,
+                                lineNumber: 263,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$dialog$2f$dialog$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Dialog"], {
@@ -12592,12 +12880,12 @@ const Header_tailwind = ()=>{
                                                         loading: "lazy"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                        lineNumber: 406,
+                                                        lineNumber: 407,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                    lineNumber: 405,
+                                                    lineNumber: 406,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -12609,18 +12897,18 @@ const Header_tailwind = ()=>{
                                                         className: "h-6 w-6"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                        lineNumber: 413,
+                                                        lineNumber: 414,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                    lineNumber: 408,
+                                                    lineNumber: 409,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 404,
+                                            lineNumber: 405,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -12642,7 +12930,7 @@ const Header_tailwind = ()=>{
                                                                                 children: item.icon
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                                lineNumber: 422,
+                                                                                lineNumber: 423,
                                                                                 columnNumber: 27
                                                                             }, this),
                                                                             item.label,
@@ -12651,13 +12939,13 @@ const Header_tailwind = ()=>{
                                                                                 className: "ml-2 h-5 w-5 flex-none group-data-[open]:rotate-180"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                                lineNumber: 426,
+                                                                                lineNumber: 427,
                                                                                 columnNumber: 27
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                        lineNumber: 421,
+                                                                        lineNumber: 422,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$disclosure$2f$disclosure$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DisclosurePanel"], {
@@ -12669,23 +12957,23 @@ const Header_tailwind = ()=>{
                                                                                 children: tab.label
                                                                             }, tab.label, false, {
                                                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                                lineNumber: 434,
+                                                                                lineNumber: 435,
                                                                                 columnNumber: 29
                                                                             }, this))
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                        lineNumber: 432,
+                                                                        lineNumber: 433,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, item.label, true, {
                                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                lineNumber: 420,
+                                                                lineNumber: 421,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                        lineNumber: 418,
+                                                        lineNumber: 419,
                                                         columnNumber: 19
                                                     }, this),
                                                     load && dataUser && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -12703,65 +12991,65 @@ const Header_tailwind = ()=>{
                                                                             children: item.icon
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                            lineNumber: 457,
+                                                                            lineNumber: 458,
                                                                             columnNumber: 29
                                                                         }, this),
                                                                         item.name
                                                                     ]
                                                                 }, item.name, true, {
                                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                    lineNumber: 451,
+                                                                    lineNumber: 452,
                                                                     columnNumber: 27
                                                                 }, this))
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                            lineNumber: 449,
+                                                            lineNumber: 450,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                        lineNumber: 448,
+                                                        lineNumber: 449,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                lineNumber: 417,
+                                                lineNumber: 418,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 416,
+                                            lineNumber: 417,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                    lineNumber: 403,
+                                    lineNumber: 404,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                lineNumber: 398,
+                                lineNumber: 399,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                        lineNumber: 261,
+                        lineNumber: 262,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                lineNumber: 251,
+                lineNumber: 252,
                 columnNumber: 7
             }, this),
             load && dataUser && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Mobile_tabs_navigation$2f$index$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                 dataUser: dataUser
             }, void 0, false, {
                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                lineNumber: 472,
+                lineNumber: 473,
                 columnNumber: 28
             }, this)
         ]

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "/page": "app/page.js",
   "/personal/page": "app/personal/page.js",
   "/_not-found/page": "app/_not-found/page.js",
@@ -6,4 +7,12 @@
   "/fortune/page": "app/fortune/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/brands/page": "app/brands/page.js"
+=======
+  "/casinos/page": "app/casinos/page.js",
+  "/crypto-casinos/page": "app/crypto-casinos/page.js",
+  "/payments/page": "app/payments/page.js",
+  "/bonuses/page": "app/bonuses/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js"
+>>>>>>> a1408ca731e9ece1e485d41c7e3e5f3bf01b7ab5
 }
