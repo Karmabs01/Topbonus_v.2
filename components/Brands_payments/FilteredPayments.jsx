@@ -7,7 +7,7 @@ import { useLanguage } from "@/components/switcher/LanguageContext";
 import classNames from "classnames";
 import "../../app/filteredComponents.css"
 
-const FilteredPayments = () => {
+const FilteredPayments = ({creative}) => {
   const { t } = useTranslation();
   const { language } = useLanguage();
   const [isLoader, setIsLoader] = useState(false);
@@ -59,7 +59,7 @@ const FilteredPayments = () => {
               currentTab === item.currentTab && (
                 <AllPayments
                   key={`${item.currentTab}-${language}`}
-                  creative={item.currentText}
+                  creative={creative}
                   isLoader={isLoader}
                   segment={item.segment}
                   value={item.value}

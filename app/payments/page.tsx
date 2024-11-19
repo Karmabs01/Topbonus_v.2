@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-import FilteredPayments from "@/components/Brands_payments/FilteredPayments";
+import FilteredPayments from "@/components/Brands_payments/FilteredPayments2";
 
 import Payments from "@/components/Brands_payments/Payments";
 import Brands_carousel from "@/components/Banners_tailwind/Brands_carousel2/index";
@@ -24,7 +24,7 @@ export default async function Bonuses() {
         creative={creative}
       />
       {/* <TopBrands /> */}
-      <FilteredPayments />
+      <FilteredPayments creative={creative} />
       {/* <GuideSlotsPage /> */}
     </div>
   );
