@@ -10918,6 +10918,12 @@ main > .topbr {
   overflow: hidden;
 
 }
+@media (min-width: 1260px) and (max-width: 5000px) {
+
+  .jins>div h5.h5 {
+    font-size: 29px !important;
+  }
+}
 .light .inner-top-block3 {
 
   background: url("/newimageslight/paybg11.png") center no-repeat !important;
