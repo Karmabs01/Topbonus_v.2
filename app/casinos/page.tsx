@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-import FilteredCasinos from "@/components/Brands_casinos/FilteredCasinos";
+import FilteredCasinos from "@/components/Brands_casinos/FilteredCasinos2";
 import Casinos2 from "@/components/Brands_casinos/Casinos2";
 import Brands_carousel from "@/components/Banners_tailwind/Brands_carousel2/index";
 
@@ -23,7 +23,7 @@ export default async function Casinos() {
       {/* <PreviewBonuses /> */}
       <Casinos2 />
       <Brands_carousel target={target} categoryBrands={categoryBrands} creative={creative} />
-      <FilteredCasinos />
+      <FilteredCasinos creative={creative} />
       {/* <GuideSlotsPage /> */}
     </div>
   );
