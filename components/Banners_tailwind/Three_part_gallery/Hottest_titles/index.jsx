@@ -247,12 +247,12 @@ export default function Popular_offers() {
             <div>
               <div className="fivehot-banner">
                 <h3>
-                  {number} <span className="span-orange">{t("HOTTEST")}</span>{" "}
-                  <span>{t("casinos")}</span>
+                {t("Top")} {number} <span className="span-orange">{t("Black Friday")}</span>{" "}
+                  <span>{t("Casino Deals!")}</span>
                 </h3>
                 <p className="!text-xl mt-5">
                   {t(
-                    "Discover the hottest casino brands trending right now!"
+                    "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!"
                   )}
                 </p>
               </div>

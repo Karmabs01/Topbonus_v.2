@@ -1589,7 +1589,7 @@ function MultipleSelectPlaceholder() {
         case "partner1046":
             newFlag = flagsCLD_VIP;
             break;
-        case "partner1047_b1":
+        case "partner1047":
             newFlag = flagsCLD_VIP;
             break;
         default:
