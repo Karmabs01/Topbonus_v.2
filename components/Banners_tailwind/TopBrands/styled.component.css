@@ -211,7 +211,10 @@
     margin-top: 20px;
     margin-right: 4%;
   }
-
+  .thrdjin {
+    background: url(/newimages/thrdjin-mob.png) no-repeat center;
+    background-size: cover;
+  }
   .jins > div .btn {
     margin-left: 15% !important;
     margin-top: 0;
@@ -250,6 +253,7 @@
   color: #ff8f1f;
 }
 .img-wrap {
+  margin: 10px 0;
   background: linear-gradient(
     161deg,
     rgba(255, 255, 255, 0.1) 0%,

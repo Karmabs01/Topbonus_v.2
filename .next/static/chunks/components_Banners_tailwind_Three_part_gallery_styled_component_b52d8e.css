@@ -48,6 +48,11 @@
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
+  background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
+  -webkit-backdrop-filter: blur(12.5px);
+  backdrop-filter: blur(12.5px);
+  padding: 10px;
+  border-radius: 15px;
 }
 
 .fivehot .ul-list {
@@ -256,12 +261,21 @@
     background-size: cover;
   }
 
+  .fivehot-banner h3, .fivehot-banner h3 .span-orange {
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+  }
+
   .fivehot-banner p {
     background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
     -webkit-backdrop-filter: blur(12.5px);
     backdrop-filter: blur(12.5px);
     padding: 10px;
     border-radius: 15px;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    text-align: center !important;
   }
 
   .right-c {

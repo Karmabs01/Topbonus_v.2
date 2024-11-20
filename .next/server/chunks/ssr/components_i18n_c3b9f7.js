@@ -601,7 +601,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "Unlock the Best Casino Bonuses of 2024!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.",
                 "Find Your Best Payment Picks for 2024": "Find Your Best Payment Picks for 2024",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!",
+                "Top": "Top",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Casino Deals!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!",
+                "Black Friday’s Premium Pic": "Black Friday’s Premium Pic"
             }
         },
         pl: {

@@ -205,8 +205,17 @@
 
 @media (width >= 320px) and (width <= 767px) {
   .jins > div .btn {
+    margin-left: 35%;
     margin-top: 20px;
     margin-right: 4%;
+  }
+
+  .thrdjin {
+    background: url("/newimages/thrdjin-mob.png") center no-repeat;
+    background-size: cover;
+  }
+
+  .jins > div .btn {
     margin-top: 0;
     margin-left: 15% !important;
   }
@@ -242,6 +251,7 @@
 }
 
 .img-wrap {
+  margin: 10px 0;
   background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
   -webkit-backdrop-filter: blur(12.5px);
   backdrop-filter: blur(12.5px);

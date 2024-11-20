@@ -312,8 +312,17 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
 @media (width >= 320px) and (width <= 767px) {
   .jins > div .btn {
+    margin-left: 35%;
     margin-top: 20px;
     margin-right: 4%;
+  }
+
+  .thrdjin {
+    background: url("/newimages/thrdjin-mob.png") center no-repeat;
+    background-size: cover;
+  }
+
+  .jins > div .btn {
     margin-top: 0;
     margin-left: 15% !important;
   }
@@ -349,6 +358,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .img-wrap {
+  margin: 10px 0;
   background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
   -webkit-backdrop-filter: blur(12.5px);
   backdrop-filter: blur(12.5px);
@@ -1171,6 +1181,11 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   font-style: normal;
   font-weight: 400;
   line-height: 25px;
+  background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
+  -webkit-backdrop-filter: blur(12.5px);
+  backdrop-filter: blur(12.5px);
+  padding: 10px;
+  border-radius: 15px;
 }
 
 .fivehot .ul-list {
@@ -1379,12 +1394,21 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
     background-size: cover;
   }
 
+  .fivehot-banner h3, .fivehot-banner h3 .span-orange {
+    font-size: 22px;
+    line-height: 25px;
+    text-align: center;
+  }
+
   .fivehot-banner p {
     background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
     -webkit-backdrop-filter: blur(12.5px);
     backdrop-filter: blur(12.5px);
     padding: 10px;
     border-radius: 15px;
+    font-size: 16px !important;
+    line-height: 20px !important;
+    text-align: center !important;
   }
 
   .right-c {
