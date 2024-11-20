@@ -1355,6 +1355,11 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
     background-size: cover;
   }
 
+  .fivehot-banner h3, .fivehot-banner h3 span {
+    font-size: 22px !important;
+    text-align: center !important;
+  }
+
   .fivehot .main__container {
     width: 100% !important;
   }
