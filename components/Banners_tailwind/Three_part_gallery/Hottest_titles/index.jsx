@@ -59,7 +59,7 @@ export default function Popular_offers() {
       "CLD_VIP",
       "partner1045_b1",
       "partner1046",
-      "partner1047_b1",
+      "partner1047",
     ];
 
     function setPartnerSource(keyword) {
