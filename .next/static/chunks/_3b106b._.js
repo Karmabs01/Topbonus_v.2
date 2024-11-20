@@ -423,7 +423,7 @@ const TopBrands = ()=>{
             "CLD_VIP",
             "partner1045_b1",
             "partner1046",
-            "partner1047_b1"
+            "partner1047"
         ];
         const setPartnerSource = (keyword)=>{
             const partner = partners.find((p)=>keyword.includes(p));
@@ -821,7 +821,7 @@ function Brands_carousel({ target, creative, categoryBrands }) {
             "CLD_VIP",
             "partner1045_b1",
             "partner1046",
-            "partner1047_b1"
+            "partner1047"
         ];
         function setPartnerSource(keyword) {
             const partner = partners.find((p)=>keyword.includes(p));
@@ -1334,7 +1334,7 @@ function Brands_double_carousel() {
             "CLD_VIP",
             "partner1045_b1",
             "partner1046",
-            "partner1047_b1"
+            "partner1047"
         ];
         function setPartnerSource(keyword) {
             const partner = partners.find((p)=>keyword.includes(p));
@@ -2205,7 +2205,7 @@ function Random_block() {
             case "partner1046":
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
-            case "partner1047_b1":
+            case "partner1047":
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
             default:
@@ -2898,7 +2898,7 @@ function Banner_small() {
             case "partner1046":
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
-            case "partner1047_b1":
+            case "partner1047":
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
             default:
@@ -3142,7 +3142,7 @@ function Popular_offers() {
             "CLD_VIP",
             "partner1045_b1",
             "partner1046",
-            "partner1047_b1"
+            "partner1047"
         ];
         function setPartnerSource(keyword) {
             const partner = partners.find((p)=>keyword && keyword.includes(p));
@@ -3244,7 +3244,7 @@ function Popular_offers() {
         categoryBrands.key2
     ]);
     // Начало изменений
-    const specificBrandName = "Erabet"; // Замените на нужный бренд
+    const specificBrandName = "WinWin.Bet"; // Замените на нужный бренд
     let brandsToDisplay = [];
     if (brands.length > 0) {
         // Находим конкретный бренд
@@ -3633,7 +3633,7 @@ function Popular_offers() {
             "CLD_VIP",
             "partner1045_b1",
             "partner1046",
-            "partner1047_b1"
+            "partner1047"
         ];
         function setPartnerSource(keyword) {
             const partner = partners.find((p)=>keyword.includes(p));

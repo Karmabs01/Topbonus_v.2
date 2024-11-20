@@ -196,7 +196,7 @@ async function initializeI18n() {
         newLng = availableLanguages1045;
     } else if (item === "partner1046") {
         newLng = availableLanguagesCLD_VIP;
-    } else if (item === "partner1047_b1") {
+    } else if (item === "partner1047") {
         newLng = availableLanguagesCLD_VIP;
     } else {
         newLng = availableLanguages;
@@ -601,7 +601,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "Unlock the Best Casino Bonuses of 2024!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.",
                 "Find Your Best Payment Picks for 2024": "Find Your Best Payment Picks for 2024",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!",
+                Top: "Top",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Casino Deals!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!",
+                "Black Friday’s Premium Pic": "Black Friday’s Premium Pick"
             }
         },
         pl: {
@@ -983,7 +988,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "Odblokuj najlepsze bonusy kasynowe z 2024 roku!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Zgadnij co? To ja, pudełko z prezentem, gotowe do ujawnienia najlepszych bonusów specjalnie dla Ciebie! Rozpakuj bonusy, od ofert powitalnych po nagrody lojalnościowe, i wszystko, co jest pomiędzy.",
                 "Find Your Best Payment Picks for 2024": "Znajdź swoje najlepsze wybory płatności na 2024 rok",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Chau! Jestem Dogecoin, twoim wiernym przewodnikiem po najlepszych metodach płatności w kasynach w 2024 roku. Wyszukuję najszybsze, najbardziej niezawodne opcje, od kryptowalut po klasyczne karty, mam informacje o bezpiecznych płatnościach, które działają bezproblemowo. Zaczynajmy!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Chau! Jestem Dogecoin, twoim wiernym przewodnikiem po najlepszych metodach płatności w kasynach w 2024 roku. Wyszukuję najszybsze, najbardziej niezawodne opcje, od kryptowalut po klasyczne karty, mam informacje o bezpiecznych płatnościach, które działają bezproblemowo. Zaczynajmy!",
+                Top: "Góra",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Oferty kasyn!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Skorzystaj z najgorętszych ofert kasynowych tego Black Friday – ograniczone czasowo promocje, których nie możesz przegapić!",
+                "Black Friday’s Premium Pic": "Premiowy wybór na Black Friday"
             }
         },
         de: {
@@ -1366,7 +1376,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "Entsperren Sie die besten Casino-Boni von 2024!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Rate mal? Ich bin die Geschenkbox, bereit, die besten Boni nur für dich zu enthüllen! Entdecke Boni, von Willkommensangeboten bis hin zu Treuebelohnungen und allem dazwischen.",
                 "Find Your Best Payment Picks for 2024": "Finden Sie Ihre besten Zahlungsoptionen für 2024",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Wuff! Ich bin Dogecoin, Ihr treuer Führer durch die besten Casino-Zahlungsmethoden von 2024. Ich spüre die schnellsten und zuverlässigsten Optionen auf, von Kryptowährungen bis zu klassischen Karten, ich habe den Überblick über sichere Zahlungen, die nahtlos funktionieren. Lass uns eintauchen!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Wuff! Ich bin Dogecoin, Ihr treuer Führer durch die besten Casino-Zahlungsmethoden von 2024. Ich spüre die schnellsten und zuverlässigsten Optionen auf, von Kryptowährungen bis zu klassischen Karten, ich habe den Überblick über sichere Zahlungen, die nahtlos funktionieren. Lass uns eintauchen!",
+                Top: "Oben",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Casino Angebote!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Sichern Sie sich die heißesten Casino-Angebote diesen Black Friday – zeitlich begrenzte Angebote, die Sie nicht verpassen sollten!",
+                "Black Friday’s Premium Pic": "Black Fridays Premiumauswahl"
             }
         },
         bg: {
@@ -1748,7 +1763,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "Отключете най-добрите казино бонуси за 2024 г.!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Пс-пс... Познаваш ли какво? Аз съм кутията с подаръци, готова да разкрия най-добрите бонуси само за теб! Разкрий бонуси, от поздравителни оферти до лоялни награди и всичко между тях.",
                 "Find Your Best Payment Picks for 2024": "Намерете най-добрите си възможности за плащане за 2024 г.",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Вуф! Аз съм Догекойн, твоят надежден водач през най-добрите методи за плащане в казината през 2024 г. Откривам най-бързите, най-надеждните опции, от криптовалути до класически карти, имам информация за сигурни плащания, които работят безпроблемно. Да започнем!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Вуф! Аз съм Догекойн, твоят надежден водач през най-добрите методи за плащане в казината през 2024 г. Откривам най-бързите, най-надеждните опции, от криптовалути до класически карти, имам информация за сигурни плащания, които работят безпроблемно. Да започнем!",
+                Top: "Връх",
+                "Black Friday": "Черен петък",
+                "Casino Deals!": "Казино оферти!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Възползвайте се от най-горещите казино оферти този Black Friday – оферти с ограничено време, които не искате да пропуснете!",
+                "Black Friday’s Premium Pic": "Премиум избор за Черен петък"
             }
         },
         cz: {
@@ -2130,7 +2150,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "Odemkněte nejlepší kasinové bonusy roku 2024!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Uhodni co? Jsem já, dárková krabice, připravená odhalit ty nejlepší bonusy jen pro tebe! Rozbal bonusy, od uvítacích nabídek po věrnostní odměny a všechno mezi tím.",
                 "Find Your Best Payment Picks for 2024": "Najděte své nejlepší platební možnosti pro rok 2024",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Haf! Jsem Dogecoin, tvůj spolehlivý průvodce nejlepšími platebními metodami kasina roku 2024. Vyhledávám nejrychlejší a nejspolehlivější možnosti, od kryptoměn po klasické karty, mám informace o bezpečných platebních metodách, které fungují bez problémů. Pojďme do toho!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Haf! Jsem Dogecoin, tvůj spolehlivý průvodce nejlepšími platebními metodami kasina roku 2024. Vyhledávám nejrychlejší a nejspolehlivější možnosti, od kryptoměn po klasické karty, mám informace o bezpečných platebních metodách, které fungují bez problémů. Pojďme do toho!",
+                Top: "Vrchol",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Kasinové nabídky!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Využijte nejžhavějších kasinových nabídek tento Black Friday – časově omezené akce, které si nesmíte nechat ujít!",
+                "Black Friday’s Premium Pic": "Prémiový výběr na Black Friday"
             }
         },
         dk: {
@@ -2512,7 +2537,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "Oplås de bedste casinobonusser i 2024!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Gæt hvad? Det er mig, gaveæsken, klar til at afsløre de bedste bonusser kun for dig! Pak bonusser ud, fra velkomsttilbud til loyalitetsbelønninger, og alt derimellem.",
                 "Find Your Best Payment Picks for 2024": "Find dine bedste betalingsmuligheder for 2024",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Vov! Jeg er Dogecoin, din pålidelige guide gennem de bedste casinobetalingsmetoder i 2024. Jeg snuser mig frem til de hurtigste, mest pålidelige muligheder, fra kryptovalutaer til klassiske kort. Jeg har styr på sikre betalinger, der fungerer problemfrit. Lad os gå i gang!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Vov! Jeg er Dogecoin, din pålidelige guide gennem de bedste casinobetalingsmetoder i 2024. Jeg snuser mig frem til de hurtigste, mest pålidelige muligheder, fra kryptovalutaer til klassiske kort. Jeg har styr på sikre betalinger, der fungerer problemfrit. Lad os gå i gang!",
+                Top: "Top",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Casino tilbud!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Få fat i de hotteste casino-tilbud denne Black Friday – tidsbegrænsede tilbud, du ikke vil gå glip af!",
+                "Black Friday’s Premium Pic": "Black Fridays Premiumvalg"
             }
         },
         nl: {
@@ -2894,7 +2924,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "Ontgrendel de beste casinobonussen van 2024!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Raad eens? Het ben ik, de cadeaubox, klaar om de beste bonussen speciaal voor jou te onthullen! Pak bonussen uit, van welkomstaanbiedingen tot loyaliteitsbeloningen, en alles daartussenin.",
                 "Find Your Best Payment Picks for 2024": "Vind uw beste betalingskeuzes voor 2024",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Blaf! Ik ben Dogecoin, jouw betrouwbare gids door de beste casinobetalingsmethoden van 2024. Ik speur naar de snelste, meest betrouwbare opties, van cryptomunten tot klassieke kaarten, ik heb de inside informatie over veilige betalingen die naadloos werken. Laten we beginnen!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Blaf! Ik ben Dogecoin, jouw betrouwbare gids door de beste casinobetalingsmethoden van 2024. Ik speur naar de snelste, meest betrouwbare opties, van cryptomunten tot klassieke kaarten, ik heb de inside informatie over veilige betalingen die naadloos werken. Laten we beginnen!",
+                Top: "Top",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Casino Deals!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Pak de heetste casinodeals deze Black Friday – tijdelijke aanbiedingen die je niet wilt missen!",
+                "Black Friday’s Premium Pic": "Black Friday’s Premiumkeuze"
             }
         },
         es: {
@@ -3276,7 +3311,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "¡Desbloquea los mejores bonos de casino del 2024!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... ¿Adivina qué? Soy yo, la caja de regalo, lista para revelar los mejores bonos solo para ti! Desenvuelve bonos, desde ofertas de bienvenida hasta recompensas de lealtad, y todo lo que hay en medio.",
                 "Find Your Best Payment Picks for 2024": "Encuentra tus mejores opciones de pago para 2024.",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "¡Guau! Soy Dogecoin, tu fiel guía a través de los mejores métodos de pago de casino de 2024. Rastreando las opciones más rápidas y confiables, desde monedas criptográficas hasta tarjetas clásicas, tengo la primicia sobre pagos seguros que funcionan perfectamente. ¡Vamos a investigar!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "¡Guau! Soy Dogecoin, tu fiel guía a través de los mejores métodos de pago de casino de 2024. Rastreando las opciones más rápidas y confiables, desde monedas criptográficas hasta tarjetas clásicas, tengo la primicia sobre pagos seguros que funcionan perfectamente. ¡Vamos a investigar!",
+                Top: "Superior",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Ofertas de casino!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Aprovecha las ofertas de casino más calientes este Black Friday: ¡promociones por tiempo limitado que no querrás perderte!",
+                "Black Friday’s Premium Pic": "Selección Premium de Black Friday"
             }
         },
         fi: {
@@ -3658,7 +3698,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "Avaa parhaat kasinobonukset vuodelle 2024!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Arvaa mitä? Se olen minä, lahjalaatikko, valmiina paljastamaan parhaat bonukset juuri sinulle! Avaa bonuksia, tervetuliaisbonuksista uskollisuuspalkintoihin ja kaikkeen siltä väliltä.",
                 "Find Your Best Payment Picks for 2024": "Etsi parhaat maksuvaihtoehdot vuodelle 2024.",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Hau! Olen Dogecoin, luotettava oppaasi vuoden 2024 parhaiden kasinomaksutapojen läpi. Etsin nopeimmat ja luotettavimmat vaihtoehdot, kryptovaluutoista klassisiin kortteihin, minulla on tietoa turvallisista maksuista, jotka toimivat saumattomasti. Sukelletaan!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Hau! Olen Dogecoin, luotettava oppaasi vuoden 2024 parhaiden kasinomaksutapojen läpi. Etsin nopeimmat ja luotettavimmat vaihtoehdot, kryptovaluutoista klassisiin kortteihin, minulla on tietoa turvallisista maksuista, jotka toimivat saumattomasti. Sukelletaan!",
+                Top: "Ylin",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Kasinotarjoukset!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Tartu kuumimpiin kasinotarjouksiin tänä Black Fridayna – rajoitetun ajan tarjoukset, joita et halua missata!",
+                "Black Friday’s Premium Pic": "Black Fridayn Premium-valinta"
             }
         },
         fr: {
@@ -4041,7 +4086,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "Débloquez les meilleurs bonus de casino de 2024!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Devine quoi ? C'est moi, la boîte cadeau, prête à révéler les meilleurs bonus juste pour toi ! Déballe des bonus, des offres de bienvenue aux récompenses de fidélité, et tout ce qu'il y a entre les deux.",
                 "Find Your Best Payment Picks for 2024": "Trouvez vos meilleures options de paiement pour 2024",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Woof! Je suis Dogecoin, votre guide de confiance à travers les meilleures méthodes de paiement de casino de 2024. En flairant les options les plus rapides et les plus fiables, des crypto-monnaies aux cartes classiques, j'ai les informations sur les paiements sécurisés qui fonctionnent parfaitement. Allons-y!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Woof! Je suis Dogecoin, votre guide de confiance à travers les meilleures méthodes de paiement de casino de 2024. En flairant les options les plus rapides et les plus fiables, des crypto-monnaies aux cartes classiques, j'ai les informations sur les paiements sécurisés qui fonctionnent parfaitement. Allons-y!",
+                Top: "Sommet",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Offres de casino!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Profitez des offres de casino les plus chaudes ce Black Friday – des offres limitées dans le temps à ne pas manquer !",
+                "Black Friday’s Premium Pic": "Sélection Premium du Black Friday"
             }
         },
         gr: {
@@ -4424,7 +4474,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "Ξεκλείδωσε τα Καλύτερα Μπόνους Καζίνο του 2024!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Ψιτ… Μαντέψτε τι; Είμαι εγώ, το κουτί δώρου, έτοιμο να αποκαλύψω τα καλύτερα μπόνους μόνο για εσάς! Ξετυλίξτε μπόνους, από προσφορές καλωσορίσματος έως ανταμοιβές πιστότητας, και τα πάντα ενδιάμεσα.",
                 "Find Your Best Payment Picks for 2024": "Βρείτε τις καλύτερες επιλογές πληρωμής σας για το 2024.",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Γαβ! Είμαι το Dogecoin, ο αξιόπιστος οδηγός σας μέσω των κορυφαίων μεθόδων πληρωμής καζίνο του 2024. Ανιχνεύοντας τις γρηγορότερες, πιο αξιόπιστες επιλογές, από κρυπτονομίσματα έως κλασικές κάρτες, έχω τις πληροφορίες για ασφαλείς πληρωμές που λειτουργούν άψογα. Ας ξεκινήσουμε!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Γαβ! Είμαι το Dogecoin, ο αξιόπιστος οδηγός σας μέσω των κορυφαίων μεθόδων πληρωμής καζίνο του 2024. Ανιχνεύοντας τις γρηγορότερες, πιο αξιόπιστες επιλογές, από κρυπτονομίσματα έως κλασικές κάρτες, έχω τις πληροφορίες για ασφαλείς πληρωμές που λειτουργούν άψογα. Ας ξεκινήσουμε!",
+                Top: "Κορυφή",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Προσφορές καζίνο!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Επωφεληθείτε από τις πιο καυτές προσφορές καζίνο αυτό το Black Friday – προσφορές περιορισμένου χρόνου που δεν θέλετε να χάσετε!",
+                "Black Friday’s Premium Pic": "Premium επιλογή για Black Friday"
             }
         },
         hu: {
@@ -4807,7 +4862,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "2024 legjobb kaszinó bónuszait oldja fel!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Kitalálod? Én vagyok, az ajándékdoboz, készen állok arra, hogy felfedjem a legjobb bónuszokat csak neked! Bontsd ki a bónuszokat, a köszöntő ajánlatoktól a hűségjutalmakig, és minden közte van.",
                 "Find Your Best Payment Picks for 2024": "Keresd meg a legjobb fizetési lehetőségeidet 2024-re",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Vau! Én vagyok a Dogecoin, a megbízható vezetőd a legjobb kaszinó fizetési módszerek között 2024-ben. Kiszagolom a leggyorsabb, legmegbízhatóbb lehetőségeket, a kriptovalutáktól a klasszikus kártyákig, és mindent tudok a biztonságos, zökkenőmentes működésű fizetésekről. Ugorjunk bele!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Vau! Én vagyok a Dogecoin, a megbízható vezetőd a legjobb kaszinó fizetési módszerek között 2024-ben. Kiszagolom a leggyorsabb, legmegbízhatóbb lehetőségeket, a kriptovalutáktól a klasszikus kártyákig, és mindent tudok a biztonságos, zökkenőmentes működésű fizetésekről. Ugorjunk bele!",
+                Top: "Felső",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Kaszinó ajánlatok!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Csapj le a legforróbb kaszinóajánlatokra ezen a Black Friday-en – időkorlátos ajánlatok, amiket nem érdemes kihagyni!",
+                "Black Friday’s Premium Pic": "Black Friday prémium ajánlata"
             }
         },
         it: {
@@ -5190,7 +5250,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "Sblocca i migliori bonus casinò del 2024!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Indovina un po'? Sono io, la scatola regalo, pronta a svelare i migliori bonus solo per te! Scopri bonus, dalle offerte di benvenuto alle ricompense fedeltà, e tutto ciò che sta in mezzo.",
                 "Find Your Best Payment Picks for 2024": "Trova le tue migliori scelte di pagamento per il 2024",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Baù! Sono Dogecoin, la tua affidabile guida attraverso i migliori metodi di pagamento dei casinò del 2024. Scovando le opzioni più veloci e affidabili, dalle criptovalute alle classiche carte, ho le informazioni sui pagamenti sicuri che funzionano in modo impeccabile. Scaviamo dentro!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Baù! Sono Dogecoin, la tua affidabile guida attraverso i migliori metodi di pagamento dei casinò del 2024. Scovando le opzioni più veloci e affidabili, dalle criptovalute alle classiche carte, ho le informazioni sui pagamenti sicuri che funzionano in modo impeccabile. Scaviamo dentro!",
+                Top: "Top",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Offerte del casinò!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Approfitta delle offerte casinò più calde di questo Black Friday – offerte a tempo limitato da non perdere!",
+                "Black Friday’s Premium Pic": "Scelta Premium del Black Friday"
             }
         },
         no: {
@@ -5573,7 +5638,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "Åpne de beste casinobonusene i 2024!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Gjett hva? Det er meg, gaveesken, klar til å avsløre de beste bonusene bare for deg! Pakk opp bonuser, fra velkomsttilbud til lojalitetsbelønninger, og alt i mellom.",
                 "Find Your Best Payment Picks for 2024": "Finn dine beste betalingsvalg for 2024",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Voff! Jeg er Dogecoin, din pålitelige guide gjennom de beste kasinobetalingsmetodene i 2024. Snuser ut de raskeste, mest pålitelige alternativene, fra kryptovalutaer til klassiske kort, jeg har innsidetips om sikre betalinger som fungerer sømløst. La oss grave inn!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Voff! Jeg er Dogecoin, din pålitelige guide gjennom de beste kasinobetalingsmetodene i 2024. Snuser ut de raskeste, mest pålitelige alternativene, fra kryptovalutaer til klassiske kort, jeg har innsidetips om sikre betalinger som fungerer sømløst. La oss grave inn!",
+                Top: "Topp",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Casino tilbud!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Få de hotteste casinotilbudene denne Black Friday – tidsbegrensede tilbud du ikke vil gå glipp av!",
+                "Black Friday’s Premium Pic": "Black Fridays Premiumvalg"
             }
         },
         pt: {
@@ -5956,7 +6026,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "Desbloqueie os Melhores Bônus de Cassino de 2024!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Adivinha só? Sou eu, a caixa de presente, pronta para revelar os melhores bônus só para você! Desembrulhe bônus, desde ofertas de boas-vindas até recompensas de fidelidade, e tudo mais no meio.",
                 "Find Your Best Payment Picks for 2024": "Encontre suas melhores opções de pagamento para 2024",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Uau! Eu sou Dogecoin, seu guia confiável pelos principais métodos de pagamento de cassino de 2024. Farejando as opções mais rápidas e confiáveis, desde moedas criptográficas até cartões clássicos, tenho as informações sobre pagamentos seguros que funcionam perfeitamente. Vamos lá!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Uau! Eu sou Dogecoin, seu guia confiável pelos principais métodos de pagamento de cassino de 2024. Farejando as opções mais rápidas e confiáveis, desde moedas criptográficas até cartões clássicos, tenho as informações sobre pagamentos seguros que funcionam perfeitamente. Vamos lá!",
+                Top: "Top",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Ofertas de Cassino!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Aproveite as ofertas de cassino mais quentes nesta Black Friday – promoções por tempo limitado que você não pode perder!",
+                "Black Friday’s Premium Pic": "Escolha Premium da Black Friday"
             }
         },
         se: {
@@ -6339,7 +6414,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "Lås upp de bästa kasinobonusarna år 2024!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst... Gissa vad? Det är jag, presentasken, redo att avslöja de bästa bonusarna bara för dig! Packa upp bonusar, från välkomsterbjudanden till lojalitetsbelöningar, och allt däremellan.",
                 "Find Your Best Payment Picks for 2024": "Hitta dina bästa betalningsalternativ för 2024",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Vov! Jag är Dogecoin, din pålitliga guide genom de bästa casinobetalningsmetoderna år 2024. Spårar upp de snabbaste, mest pålitliga alternativen, från kryptovalutor till klassiska kort, jag har koll på säkra betalningar som fungerar sömlöst. Låt oss gräva djupare!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Vov! Jag är Dogecoin, din pålitliga guide genom de bästa casinobetalningsmetoderna år 2024. Spårar upp de snabbaste, mest pålitliga alternativen, från kryptovalutor till klassiska kort, jag har koll på säkra betalningar som fungerar sömlöst. Låt oss gräva djupare!",
+                Top: "Top",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Casinoerbjudanden!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Ta del av de hetaste casinodealsen denna Black Friday – tidsbegränsade erbjudanden du inte vill missa!",
+                "Black Friday’s Premium Pic": "Black Fridays Premiumval"
             }
         },
         sk: {
@@ -6722,7 +6802,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "Odomknite najlepšie kasínové bonusy roku 2024!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Uhádni čo? Som ja, darčeková krabica, pripravená odhaliť najlepšie bonusy len pre teba! Rozbaľ bonusy, od uvítacích ponúk po vernostné odmeny a všetko medzi tým.",
                 "Find Your Best Payment Picks for 2024": "Nájdite svoje najlepšie platobné možnosti na rok 2024",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Haf! Som Dogecoin, tvoj spoľahlivý sprievodca cez najlepšie kasínové platobné metódy roku 2024. Vyhľadávam najrýchlejšie, najspoľahlivejšie možnosti, od kryptomeny až po klasické karty, mám informácie o bezpečných platbách, ktoré fungujú bez problémov. Poďme sa do toho!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Haf! Som Dogecoin, tvoj spoľahlivý sprievodca cez najlepšie kasínové platobné metódy roku 2024. Vyhľadávam najrýchlejšie, najspoľahlivejšie možnosti, od kryptomeny až po klasické karty, mám informácie o bezpečných platbách, ktoré fungujú bez problémov. Poďme sa do toho!",
+                Top: "Vrchol",
+                "Black Friday": "Black Friday",
+                "Casino Deals!": "Kazíno ponuky!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Zapojte sa do najhorúcejších kasínových ponúk tento Black Friday – časovo obmedzené ponuky, ktoré nechcete zmeškať!",
+                "Black Friday’s Premium Pic": "Prémiový výber na Black Friday"
             }
         },
         tr: {
@@ -7105,7 +7190,12 @@ async function initializeI18n() {
                 "Unlock the Best Casino Bonuses of 2024!": "2024'ün En İyi Casino Bonuslarını Açın!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "Pssst… Tahmin ne? Benim, hediye kutusu, sadece senin için en iyi bonusları açmaya hazırım! Hoş geldin tekliflerinden sadakat ödüllerine ve her şeyin arasındakilere kadar bonusları açın.",
                 "Find Your Best Payment Picks for 2024": "2024 için En İyi Ödeme Seçeneklerinizi Bulun",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Hav hav! Ben Dogecoin, 2024'ün en iyi kumarhane ödeme yöntemleri konusunda rehberinizim. En hızlı, en güvenilir seçenekleri araştırarak, kripto paralardan klasik kartlara kadar güvenli ödemeler hakkında bilgi sahibiyim. Hadi başlayalım!"
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "Hav hav! Ben Dogecoin, 2024'ün en iyi kumarhane ödeme yöntemleri konusunda rehberinizim. En hızlı, en güvenilir seçenekleri araştırarak, kripto paralardan klasik kartlara kadar güvenli ödemeler hakkında bilgi sahibiyim. Hadi başlayalım!",
+                Top: "Top",
+                "Black Friday": "Kara Cuma",
+                "Casino Deals!": "Kumarhane Fırsatları!",
+                "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Bu Black Friday'de en sıcak casino fırsatlarını yakalayın – kaçırmak istemeyeceğiniz sınırlı süreli teklifler!",
+                "Black Friday’s Premium Pic": "Black Friday’ın Premium Seçimi"
             }
         }
     };
