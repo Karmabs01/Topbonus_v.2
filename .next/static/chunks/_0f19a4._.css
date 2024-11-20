@@ -13475,6 +13475,12 @@ main > .topbr {
   font-size: 16px !important;
 }
 
+@media (width >= 1260px) and (width <= 5000px) {
+  .jins > div h5.h5 {
+    font-size: 29px !important;
+  }
+}
+
 @media (width >= 320px) and (width <= 1259px) {
   .p-vip {
     text-align: center !important;
