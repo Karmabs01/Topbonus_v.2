@@ -26,11 +26,11 @@ export default function Pickup({ newUrl }) {
     userId = localStorage.getItem("user_id") || "";
   }
   useEffect(() => {
+    // 1. Фильтрация брендов на основе категорий
+    const filteredByCategory = data.filter((brand) =>
+      brand[categoryBrands.key1] === categoryBrands.key2
+    );
     const fetchUserBrands = async () => {
-      // 1. Фильтрация брендов на основе категорий
-      const filteredByCategory = data.filter((brand) =>
-        brand[categoryBrands.key1] === categoryBrands.key2
-      );
       try {
         // Проверяем наличие данных брендов
         if (!data) {
@@ -87,7 +87,6 @@ export default function Pickup({ newUrl }) {
         setLoading(false);
       } catch (error) {
         setBrands(filteredByCategory);
-
         console.error("Ошибка при получении данных пользователя или брендов:", error);
         setLoading(false);
       }
@@ -99,20 +98,22 @@ export default function Pickup({ newUrl }) {
     userId, 
     categoryBrands.key1, 
     categoryBrands.key2, 
-
   ]);
+
+
+
   return (
     <>
       <div className="flex items-center justify-end jins w-full">
         <div className="thrdjin">
-          <h5 className="h5">{t("Premium Choice of the Day")}</h5>
+          <h5 className="h5">{t("Black Friday’s Premium Pic")}</h5>
           {brands.length > 0 &&
             brands.slice(0, 1).map((rowData, index) => (
               // <p className="p">{t("Click below to claim your magical reward!")}</p>
               <div>
                 <div className="img-wrap">
                   <Link
-                    href={`${rowData.GoBig}/${newUrl}&creative_id=Premium_Choice`}
+                    href={`${rowData.GoBig}/${newUrl}&creative_id=Premium_Choice_2`}
                     target="_blank"
                   >
                     <Image
@@ -128,7 +129,7 @@ export default function Pickup({ newUrl }) {
                 <p className="p">{rowData.OurOfferContent}</p>
                 <Link
                   className="btnscale btn btn-new"
-                  href={`${rowData.GoBig}/${newUrl}&creative_id=Premium_Choice`}
+                  href={`${rowData.GoBig}/${newUrl}&creative_id=Premium_Choice_2`}
                   target="_blank"
                 >
 
