@@ -1,3 +1,5 @@
 {
-  "/bonuses/page": "app/bonuses/page.js"
+  "/page": "app/page.js",
+  "/crypto-casinos/page": "app/crypto-casinos/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

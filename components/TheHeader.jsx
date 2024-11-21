@@ -24,7 +24,7 @@ import Badge from "@mui/material/Badge";
 import { updateGeo } from "@/components/getUser/updateGeo";
 import ResponsiveDialog from "@/components/geo-identifier";
 import BasicModal from "@/components/modal";
-import KeitaroIframe from "@/components/KeitaroIframe";
+
 import { getBrands } from "@/components/getBrands/getBrands2";
 import { useLanguage } from "@/components/switcher/LanguageContext";
 import { track } from '@vercel/analytics';

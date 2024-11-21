@@ -606,7 +606,11 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Casino Deals!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!",
-                "Black Friday’s Premium Pic": "Black Friday’s Premium Pick"
+                "Black Friday’s Premium Pic": "Black Friday’s Premium Pick",
+                "Don’t Miss Out on Your": "Don’t Miss Out on Your",
+                "Black Friday Fortune": "Black Friday Fortune",
+                "Time’s running out!": "Time’s running out!",
+                "Grab your exclusive casino deal before it disappears!": "Grab your exclusive casino deal before it disappears!"
             }
         },
         pl: {

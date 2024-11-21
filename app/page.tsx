@@ -11,6 +11,8 @@ import Double_banners from "@/components/Banners_tailwind/Double_banners";
 import Brands_double_carousel from "@/components/Banners_tailwind/Brands_double_carousel";
 import Random_block from "@/components/Banners_tailwind/Random_block";
 import Random_dice from "@/components/Banners_tailwind/Random_dice";
+import BasicModal from "@/components/modalFriday";
+
 
 import Jackpot_banner from "@/components/Banners_tailwind/Jackpot_banner";
 import Next_event_banner from "@/components/Banners_tailwind/Next_event_banner";
@@ -33,14 +35,14 @@ export default async function Home() {
   const creative = "FW_Brands_Main_Page_2";
   return (
     <>
+      <BasicModal />
       <Three_part_gallery />
       <TopBrands />
       <Banner_small />
       <Brands_double_carousel />
       <Next_event_banner />
-      {/* <Fortune_wheel /> */}
       <Banner_small_vip />
-      {/* <Random_block /> */}
+
       <Random_dice />
 
       {/*    
