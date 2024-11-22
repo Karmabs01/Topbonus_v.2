@@ -18,7 +18,7 @@ const BasicModal = () => {
     const lastShownDate = localStorage.getItem("modalShownDate");
 
 
-    if (lastShownDate == today) {
+    if (lastShownDate !== today) {
       const timeoutId = setTimeout(() => {
         setOpen(true);
         localStorage.setItem("modalShownDate", today); // Сохранение даты показа
@@ -210,7 +210,7 @@ const BasicModal = () => {
           cursor: pointer;
           z-index: 9;
           color: #fff !important;
-          background: #FEE000;
+          background: #FF8F1F;
           padding: 3px 5px;
           border-radius: 2px 2px 0 0;
 
@@ -228,7 +228,7 @@ const BasicModal = () => {
           color: #fff;
         }
         .custom-modal-title span {
-          color: #FEE000;
+          color: #FF8F1F;
         }
         .custom-modal-description {
           font-size: 14px;
@@ -237,7 +237,7 @@ const BasicModal = () => {
           font-style: italic;
         }
         .custom-modal-description span {
-          color: #FEE000 !important;
+          color: #FF8F1F !important;
         }
         .custom-modal-link {
           display: inline-block;

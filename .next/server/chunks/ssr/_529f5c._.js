@@ -5552,14 +5552,14 @@ const BasicModal = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             open && brands.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-9001a88eed8a0660" + " " + "custom-modal-overlay",
+                className: "jsx-7802ebdb62e22cca" + " " + "custom-modal-overlay",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-9001a88eed8a0660" + " " + "custom-modal",
+                    className: "jsx-7802ebdb62e22cca" + " " + "custom-modal",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: handleClose,
                             "aria-label": "Close modal",
-                            className: "jsx-9001a88eed8a0660" + " " + "custom-modal-close",
+                            className: "jsx-7802ebdb62e22cca" + " " + "custom-modal-close",
                             children: "×"
                         }, void 0, false, {
                             fileName: "[project]/components/modalFriday/index.jsx",
@@ -5567,15 +5567,15 @@ const BasicModal = ()=>{
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-9001a88eed8a0660" + " " + "custom-modal-content",
+                            className: "jsx-7802ebdb62e22cca" + " " + "custom-modal-content",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "jsx-9001a88eed8a0660" + " " + "custom-modal-title",
+                                    className: "jsx-7802ebdb62e22cca" + " " + "custom-modal-title",
                                     children: [
                                         t("Don’t Miss Out on Your"),
                                         " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "jsx-9001a88eed8a0660",
+                                            className: "jsx-7802ebdb62e22cca",
                                             children: t("Black Friday Fortune")
                                         }, void 0, false, {
                                             fileName: "[project]/components/modalFriday/index.jsx",
@@ -5589,10 +5589,10 @@ const BasicModal = ()=>{
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "jsx-9001a88eed8a0660" + " " + "custom-modal-description",
+                                    className: "jsx-7802ebdb62e22cca" + " " + "custom-modal-description",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "jsx-9001a88eed8a0660",
+                                            className: "jsx-7802ebdb62e22cca",
                                             children: t("Time’s running out!")
                                         }, void 0, false, {
                                             fileName: "[project]/components/modalFriday/index.jsx",
@@ -5600,7 +5600,7 @@ const BasicModal = ()=>{
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                            className: "jsx-9001a88eed8a0660"
+                                            className: "jsx-7802ebdb62e22cca"
                                         }, void 0, false, {
                                             fileName: "[project]/components/modalFriday/index.jsx",
                                             lineNumber: 138,
@@ -5614,7 +5614,7 @@ const BasicModal = ()=>{
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-9001a88eed8a0660",
+                                    className: "jsx-7802ebdb62e22cca",
                                     children: brands.length > 0 ? brands.slice(0, 3).map((rowData, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             className: "mt-3 flex items-center card-pop",
                                             // href={`${rowData.GoBig}/${newUrl}&creative_id=Black_Friday`}
@@ -5633,7 +5633,7 @@ const BasicModal = ()=>{
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-9001a88eed8a0660" + " " + "mt-1 text-sm text-gray-500 h-10 mw-163",
+                                                    className: "jsx-7802ebdb62e22cca" + " " + "mt-1 text-sm text-gray-500 h-10 mw-163",
                                                     children: rowData.OurOfferContent
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/modalFriday/index.jsx",
@@ -5641,9 +5641,9 @@ const BasicModal = ()=>{
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-9001a88eed8a0660" + " " + "btn-crd btn-crd-pop",
+                                                    className: "jsx-7802ebdb62e22cca" + " " + "btn-crd btn-crd-pop",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-9001a88eed8a0660" + " " + "relative flex items-center justify-center px-8 py-2 text-lg font-medium rounded-full text-white btn-blick overflow-hidden",
+                                                        className: "jsx-7802ebdb62e22cca" + " " + "relative flex items-center justify-center px-8 py-2 text-lg font-medium rounded-full text-white btn-blick overflow-hidden",
                                                         children: t("Play Now")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/modalFriday/index.jsx",
@@ -5661,7 +5661,7 @@ const BasicModal = ()=>{
                                             lineNumber: 145,
                                             columnNumber: 21
                                         }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "jsx-9001a88eed8a0660" + " " + "no-brands",
+                                        className: "jsx-7802ebdb62e22cca" + " " + "no-brands",
                                         children: t("No brands available")
                                     }, void 0, false, {
                                         fileName: "[project]/components/modalFriday/index.jsx",
@@ -5690,15 +5690,15 @@ const BasicModal = ()=>{
                 lineNumber: 122,
                 columnNumber: 9
             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-9001a88eed8a0660"
+                className: "jsx-7802ebdb62e22cca"
             }, void 0, false, {
                 fileName: "[project]/components/modalFriday/index.jsx",
                 lineNumber: 177,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "9001a88eed8a0660",
-                children: ".custom-modal-overlay.jsx-9001a88eed8a0660{z-index:1000;background:#00000080;justify-content:center;align-items:center;width:100vw;height:100vh;display:flex;position:fixed;top:0;left:0}.custom-modal.jsx-9001a88eed8a0660{text-align:center;background:url(/newimages/black.png) 50% no-repeat;border-radius:8px;width:400px;min-height:337px;padding:10px 20px;position:relative;box-shadow:0 4px 6px #0000001a}.custom-modal-close.jsx-9001a88eed8a0660{cursor:pointer;z-index:9;background:#fee000;border:none;border-radius:2px 2px 0 0;padding:3px 5px;font-size:30px;position:absolute;top:-26px;right:27px;color:#fff!important}.custom-modal-content.jsx-9001a88eed8a0660{margin-top:0}.custom-modal-title.jsx-9001a88eed8a0660{color:#fff;background:#ffffff1a;margin-bottom:10px;padding:10px 0;font-size:17px;font-weight:700;line-height:22px!important}.custom-modal-title.jsx-9001a88eed8a0660 span.jsx-9001a88eed8a0660{color:#fee000}.custom-modal-description.jsx-9001a88eed8a0660{margin-bottom:5px;font-size:14px;font-style:italic;color:#fff!important}.custom-modal-description.jsx-9001a88eed8a0660 span.jsx-9001a88eed8a0660{color:#fee000!important}.custom-modal-link.jsx-9001a88eed8a0660{color:#fff;background:#007bff;border-radius:4px;margin-top:10px;padding:10px 20px;text-decoration:none;display:inline-block}.custom-modal-link.jsx-9001a88eed8a0660:hover{background:#0056b3}"
+                id: "7802ebdb62e22cca",
+                children: ".custom-modal-overlay.jsx-7802ebdb62e22cca{z-index:1000;background:#00000080;justify-content:center;align-items:center;width:100vw;height:100vh;display:flex;position:fixed;top:0;left:0}.custom-modal.jsx-7802ebdb62e22cca{text-align:center;background:url(/newimages/black.png) 50% no-repeat;border-radius:8px;width:400px;min-height:337px;padding:10px 20px;position:relative;box-shadow:0 4px 6px #0000001a}.custom-modal-close.jsx-7802ebdb62e22cca{cursor:pointer;z-index:9;background:#ff8f1f;border:none;border-radius:2px 2px 0 0;padding:3px 5px;font-size:30px;position:absolute;top:-26px;right:27px;color:#fff!important}.custom-modal-content.jsx-7802ebdb62e22cca{margin-top:0}.custom-modal-title.jsx-7802ebdb62e22cca{color:#fff;background:#ffffff1a;margin-bottom:10px;padding:10px 0;font-size:17px;font-weight:700;line-height:22px!important}.custom-modal-title.jsx-7802ebdb62e22cca span.jsx-7802ebdb62e22cca{color:#ff8f1f}.custom-modal-description.jsx-7802ebdb62e22cca{margin-bottom:5px;font-size:14px;font-style:italic;color:#fff!important}.custom-modal-description.jsx-7802ebdb62e22cca span.jsx-7802ebdb62e22cca{color:#ff8f1f!important}.custom-modal-link.jsx-7802ebdb62e22cca{color:#fff;background:#007bff;border-radius:4px;margin-top:10px;padding:10px 20px;text-decoration:none;display:inline-block}.custom-modal-link.jsx-7802ebdb62e22cca:hover{background:#0056b3}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);
