@@ -160,7 +160,7 @@ const BasicModal = () => {
                       </p>
                       <div className="btn-crd btn-crd-pop">
                         <div className="relative flex items-center justify-center px-8 py-2 text-lg font-medium rounded-full text-white btn-blick overflow-hidden">
-                          {t("Play Now")}
+                          {t("Take")}
                         </div>
                       </div>
                     </Link>
