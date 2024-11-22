@@ -1998,6 +1998,10 @@ select {
   text-transform: uppercase;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .leading-5 {
   line-height: 1.25rem;
 }
@@ -12932,6 +12936,12 @@ main > .topbr {
   overflow: hidden;
 }
 
+@media (width >= 1260px) and (width <= 5000px) {
+  .jins > div h5.h5 {
+    font-size: 29px !important;
+  }
+}
+
 .light .inner-top-block3 {
   background: url("/newimageslight/paybg11.png") center no-repeat !important;
 }
@@ -13413,6 +13423,55 @@ ul.ul-list a {
 
   .text-in-mobile * {
     text-align: center !important;
+  }
+}
+
+.mw-163 {
+  max-width: 163px;
+  margin-left: 5px;
+  color: #fff !important;
+  text-align: left !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.btn-crd-pop {
+  margin-left: auto !important;
+}
+
+.btn-crd-pop > div {
+  font-size: 14px !important;
+  padding: 5px 15px !important;
+  background: #ff8f1f !important;
+  color: #000 !important;
+  font-weight: 700 !important;
+}
+
+.card-pop {
+  background: #ffffff1a;
+  padding: 5px;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .custom-modal {
+    padding: 15px 5px !important;
+    width: 95% !important;
+    max-width: 370px !important;
+    background-size: cover !important;
+    border-radius: 30px !important;
+  }
+
+  .btn-crd-pop > div {
+    font-size: 12px !important;
+  }
+
+  .custom-modal-title {
+    border-radius: 5px 5px 0 0;
+    font-size: 15px !important;
+  }
+
+  .btn-crd-pop > div {
+    font-size: 10px !important;
   }
 }
 
