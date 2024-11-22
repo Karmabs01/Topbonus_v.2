@@ -775,6 +775,7 @@ async function initializeI18n() {
         "Time’s running out!": "Time’s running out!",
         "Grab your exclusive casino deal before it disappears!":
           "Grab your exclusive casino deal before it disappears!",
+        Take: "Get",
       },
     },
 
@@ -1335,6 +1336,7 @@ async function initializeI18n() {
         "Time’s running out!": "Czas ucieka!",
         "Grab your exclusive casino deal before it disappears!":
           "Złap swoją ekskluzywną ofertę kasynową, zanim zniknie!",
+        Take: "Otrzymać",
       },
     },
     de: {
@@ -1896,6 +1898,7 @@ async function initializeI18n() {
         "Time’s running out!": "Die Zeit läuft ab!",
         "Grab your exclusive casino deal before it disappears!":
           "Holen Sie sich Ihr exklusives Casino-Angebot, bevor es verschwindet!",
+        Take: "Erhalten",
       },
     },
     bg: {
@@ -2448,6 +2451,7 @@ async function initializeI18n() {
         "Time’s running out!": "Времето изтича!",
         "Grab your exclusive casino deal before it disappears!":
           "Вземете своят ексклузивен казино договор, преди да изчезне!",
+        Take: "Вземи",
       },
     },
     cz: {
@@ -3000,6 +3004,7 @@ async function initializeI18n() {
         "Time’s running out!": "Čas se krátí!",
         "Grab your exclusive casino deal before it disappears!":
           "Využijte svou exkluzivní kasinovou nabídku, než zmizí!",
+        Take: "Dostat",
       },
     },
     dk: {
@@ -3552,6 +3557,7 @@ async function initializeI18n() {
         "Time’s running out!": "Tiden løber ud!",
         "Grab your exclusive casino deal before it disappears!":
           "Få fat i din eksklusive casinoaftale, før den forsvinder!",
+        Take: "Få",
       },
     },
     nl: {
@@ -4108,6 +4114,7 @@ async function initializeI18n() {
         "Time’s running out!": "De tijd dringt!",
         "Grab your exclusive casino deal before it disappears!":
           "Grijp je exclusieve casinodeal voordat het verdwijnt!",
+        Take: "Krijgen",
       },
     },
     es: {
@@ -4663,6 +4670,7 @@ async function initializeI18n() {
         "Time’s running out!": "¡Se está acabando el tiempo!",
         "Grab your exclusive casino deal before it disappears!":
           "¡Aprovecha tu oferta exclusiva de casino antes de que desaparezca!",
+        Take: "Obtener",
       },
     },
     fi: {
@@ -5214,6 +5222,7 @@ async function initializeI18n() {
         "Time’s running out!": "Aika loppuu!",
         "Grab your exclusive casino deal before it disappears!":
           "Nappaa yksinoikeudellinen kasinotarjous ennen kuin se katoaa!",
+        Take: "Hanki",
       },
     },
     fr: {
@@ -5771,6 +5780,7 @@ async function initializeI18n() {
         "Time’s running out!": "Le temps presse!",
         "Grab your exclusive casino deal before it disappears!":
           "Profitez de votre offre exclusive de casino avant qu'elle ne disparaisse!",
+        Take: "Obtenir",
       },
     },
 
@@ -6324,6 +6334,7 @@ async function initializeI18n() {
         "Time’s running out!": "Ο χρόνος τελειώνει!",
         "Grab your exclusive casino deal before it disappears!":
           "Αξιοποιήστε την αποκλειστική προσφορά καζίνο σας πριν εξαφανιστεί!",
+        Take: "Πάρε",
       },
     },
     hu: {
@@ -6877,6 +6888,7 @@ async function initializeI18n() {
         "Time’s running out!": "Az idő elfogy!",
         "Grab your exclusive casino deal before it disappears!":
           "Fogd meg az egyedi kaszinó ajánlatodat, mielőtt eltűnik!",
+        Take: "Kap",
       },
     },
     it: {
@@ -7433,6 +7445,7 @@ async function initializeI18n() {
         "Time’s running out!": "Il tempo sta finendo!",
         "Grab your exclusive casino deal before it disappears!":
           "Approfitta della tua offerta esclusiva del casinò prima che scompaia!",
+        Take: "Ottenere",
       },
     },
     no: {
@@ -7986,6 +7999,7 @@ async function initializeI18n() {
         "Time’s running out!": "Tiden renner ut!",
         "Grab your exclusive casino deal before it disappears!":
           "Få tak i din eksklusive casinotilbud før det forsvinner!",
+        Take: "Få",
       },
     },
     pt: {
@@ -8541,6 +8555,7 @@ async function initializeI18n() {
         "Time’s running out!": "O tempo está se esgotando!",
         "Grab your exclusive casino deal before it disappears!":
           "Aproveite sua oferta exclusiva de cassino antes que ela desapareça!",
+        Take: "Obter",
       },
     },
     se: {
@@ -9094,6 +9109,7 @@ async function initializeI18n() {
         "Time’s running out!": "Tiden håller på att rinna ut!",
         "Grab your exclusive casino deal before it disappears!":
           "Hämta ditt exklusiva casinopaket innan det försvinner!",
+        Take: "Få",
       },
     },
     sk: {
@@ -9646,6 +9662,7 @@ async function initializeI18n() {
         "Time’s running out!": "Čas sa kráti!",
         "Grab your exclusive casino deal before it disappears!":
           "Získajte svoju exkluzívnu kasínovú ponuku, kým nezmizne!",
+        Take: "Dostať",
       },
     },
     tr: {
@@ -10198,6 +10215,7 @@ async function initializeI18n() {
         "Time’s running out!": "Zaman tükeniyor!",
         "Grab your exclusive casino deal before it disappears!":
           "Kaybolmadan önce özel kumarhane fırsatınızı kapın!",
+        Take: "Almak",
       },
     },
   };
