@@ -13863,7 +13863,7 @@ ul.ul-list a {
 }
 
 .slick-slider .slick-prev:before, .slick-slider .slick-next:before {
-  color: #ff8f1f !important;
+  color: #fee000 !important;
 }
 
 .slick-next:before {
@@ -13953,7 +13953,7 @@ ul.ul-list a {
 .btn-crd-pop > div {
   font-size: 14px !important;
   padding: 5px 15px !important;
-  background: #ff8f1f !important;
+  background: #fee000 !important;
   color: #000 !important;
   font-weight: 700 !important;
 }

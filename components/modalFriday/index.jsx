@@ -209,7 +209,7 @@ const BasicModal = () => {
           cursor: pointer;
           z-index: 9;
           color: #fff !important;
-          background: #ff8f1f;
+          background: #FEE000;
           padding: 3px 5px;
           border-radius: 2px 2px 0 0;
 
@@ -227,7 +227,7 @@ const BasicModal = () => {
           color: #fff;
         }
         .custom-modal-title span {
-          color: #ff8f1f;
+          color: #FEE000;
         }
         .custom-modal-description {
           font-size: 14px;
@@ -236,7 +236,7 @@ const BasicModal = () => {
           font-style: italic;
         }
         .custom-modal-description span {
-          color: #ff8f1f !important;
+          color: #FEE000 !important;
         }
         .custom-modal-link {
           display: inline-block;

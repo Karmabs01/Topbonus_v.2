@@ -11301,7 +11301,7 @@ border-radius: 5px !important;
 
 .slick-slider .slick-prev::before,
 .slick-slider .slick-next::before {
-  color: #ff8f1f !important;
+  color: #FEE000!important;
 }
 .slick-next::before {
   content: "→";
@@ -11381,7 +11381,7 @@ border-radius: 5px !important;
 .btn-crd-pop>div {
   font-size: 14px !important;
   padding: 5px 15px !important;
-  background: #FF8F1F !important;
+  background: #FEE000!important;
   color: #000 !important;
   font-weight: 700 !important;
 }
