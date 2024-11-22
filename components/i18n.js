@@ -778,7 +778,6 @@ async function initializeI18n() {
         Take: "Get",
       },
     },
-
     pl: {
       translation: {
         "Casinos ▼": "Kasyna ▼",
