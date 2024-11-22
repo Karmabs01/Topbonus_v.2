@@ -59,7 +59,7 @@ export default function Popular_offers() {
       "CLD_VIP",
       "partner1045_b1",
       "partner1046",
-      "partner1047_b1",
+      "partner1047",
     ];
 
     function setPartnerSource(keyword) {
@@ -180,7 +180,7 @@ export default function Popular_offers() {
 
 
   // Начало изменений
-  const specificBrandName = "Erabet"; // Замените на нужный бренд
+  const specificBrandName = "WinWin.Bet"; // Замените на нужный бренд
 
   let brandsToDisplay = [];
 

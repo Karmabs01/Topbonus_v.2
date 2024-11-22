@@ -34,7 +34,7 @@ export default function Banner_small() {
       case "partner1046":
         url = "https://link.bo-nus.com/rnd_cld";
         break;
-        case "partner1047_b1":
+        case "partner1047":
           url = "https://link.bo-nus.com/rnd_cld";
           break;
       default:

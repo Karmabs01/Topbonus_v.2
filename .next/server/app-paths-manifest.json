@@ -1,4 +1,8 @@
 {
   "/page": "app/page.js",
+<<<<<<< HEAD
   "/_not-found/page": "app/_not-found/page.js"
+=======
+  "/bonuses/page": "app/bonuses/page.js"
+>>>>>>> 80fb5a371c6f4b94a0c4834577654a3a32302df8
 }

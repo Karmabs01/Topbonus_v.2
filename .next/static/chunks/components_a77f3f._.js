@@ -65,7 +65,7 @@ const Navigation = ({ navLinks, onLinkClick })=>{
             case "partner1046":
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
-            case "partner1047_b1":
+            case "partner1047":
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
             default:
@@ -421,7 +421,7 @@ const Header_tailwind = ()=>{
                 "CLD_VIP",
                 "partner1045_b1",
                 "partner1046",
-                "partner1047_b1"
+                "partner1047"
             ];
             partners.forEach((partner)=>{
                 if (data.includes(partner)) {
@@ -1269,7 +1269,7 @@ const LanguageSwitcher = ()=>{
         case "partner1046":
             newLng = availableLanguagesCLD_VIP;
             break;
-        case "partner1047_b1":
+        case "partner1047":
             newLng = availableLanguagesCLD_VIP;
             break;
         default:
@@ -2196,7 +2196,7 @@ const BrandsSwitcher = ()=>{
         newLng = availableLanguages1045;
     } else if (item === "partner1046") {
         newLng = availableLanguagesCLD_VIP;
-    } else if (item === "partner1047_b1") {
+    } else if (item === "partner1047") {
         newLng = availableLanguagesCLD_VIP;
     } else {
         newLng = availableLanguages;
@@ -3460,7 +3460,7 @@ const getBrands = async (lng)=>{
             url: apiCLD_VIP,
             languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["availableLanguagesCLD_VIP"]
         },
-        partner1047_b1: {
+        partner1047: {
             url: apiCLD_VIP,
             languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["availableLanguagesCLD_VIP"]
         },
