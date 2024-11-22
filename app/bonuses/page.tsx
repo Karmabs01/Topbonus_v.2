@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-import FilteredBonuses from "@/components/Brands_bonuses/FilteredBonuses";
+import FilteredBonuses from "@/components/Brands_bonuses/FilteredBonuses2";
 import Bonuses2 from "@/components/Brands_bonuses/Bonuses2";
 import Brands_carousel from "@/components/Banners_tailwind/Brands_carousel2/index";
 
@@ -19,7 +19,7 @@ export default async function Bonuses() {
       <Bonuses2 />
       <Brands_carousel target={target} categoryBrands={categoryBrands} creative={creative} />
       <div className="main__container">
-        <FilteredBonuses />
+        <FilteredBonuses creative={creative} />
       </div>
       {/* <PreviewBonuses /> */}
       {/* <GuideSlotsPage /> */}

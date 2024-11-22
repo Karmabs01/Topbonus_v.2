@@ -20,6 +20,7 @@ import Fortune_wheel from "@/components/Banners_tailwind/Fortune_wheel_banner";
 import FilteredHome from "@/components/Brands_home/FilteredHome";
 import Fortunes from "@/components/fortune";
 import NewArrivals from "@/components/newArrivals/NewArrivals";
+import BasicModal from "@/components/modalFriday";
 
 export const metadata: Metadata = {
   title: "topbon.us: Your Comprehensive Source for Casino Reviews and Insights",
@@ -33,6 +34,7 @@ export default async function Home() {
   const creative = "FW_Brands_Main_Page_2";
   return (
     <>
+    <BasicModal/>
       <Three_part_gallery />
       <TopBrands />
       <Banner_small />
