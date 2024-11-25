@@ -13008,7 +13008,7 @@ main > .topbr {
 .inner-top-block {
   border-radius: 30px;
   flex-wrap: nowrap;
-  background: url("/paybg.png") center no-repeat !important;
+  background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
 }
 
 .inner-top-block5 {

@@ -1418,7 +1418,11 @@ function Brands_carousel({ target, creative, categoryBrands }) {
             "CLD_VIP",
             "partner1045_b1",
             "partner1046",
+<<<<<<< HEAD
             "partner1047_b1"
+=======
+            "partner1047"
+>>>>>>> 4b945484ada3f056ad1d369873479e604969e372
         ];
         function setPartnerSource(keyword) {
             const partner = partners.find((p)=>keyword.includes(p));

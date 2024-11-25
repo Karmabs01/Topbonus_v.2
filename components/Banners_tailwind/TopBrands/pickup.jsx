@@ -105,7 +105,7 @@ export default function Pickup({ newUrl }) {
   return (
     <>
       <div className="flex items-center justify-end jins w-full">
-        <div className="thrdjin">
+        <div id="thrdjin" className="thrdjin">
           <h5 className="h5">{t("Black Friday’s Premium Pic")}</h5>
           {brands.length > 0 &&
             brands.slice(0, 1).map((rowData, index) => (
