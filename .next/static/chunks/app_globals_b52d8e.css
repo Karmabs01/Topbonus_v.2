@@ -12496,6 +12496,7 @@ main > .topbr {
   -webkit-backdrop-filter: blur(17.915px);
   backdrop-filter: blur(17.915px);
   flex-wrap: nowrap;
+  background: var(--BG, linear-gradient(161deg, #088af6 0, #d992e6 101.7%));
 }
 
 .text-orange {

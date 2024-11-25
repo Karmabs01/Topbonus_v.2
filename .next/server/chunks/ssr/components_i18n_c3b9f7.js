@@ -606,7 +606,12 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Casino Deals!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!",
-                "Black Friday’s Premium Pic": "Black Friday’s Premium Pick"
+                "Black Friday’s Premium Pic": "Black Friday’s Premium Pick",
+                "Don’t Miss Out on Your": "Don’t Miss Out on Your",
+                "Black Friday Fortune": "Black Friday Fortune",
+                "Time’s running out!": "Time’s running out!",
+                "Grab your exclusive casino deal before it disappears!": "Grab your exclusive casino deal before it disappears!",
+                Take: "Get"
             }
         },
         pl: {
@@ -993,7 +998,12 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Oferty kasyn!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Skorzystaj z najgorętszych ofert kasynowych tego Black Friday – ograniczone czasowo promocje, których nie możesz przegapić!",
-                "Black Friday’s Premium Pic": "Premiowy wybór na Black Friday"
+                "Black Friday’s Premium Pic": "Premiowy wybór na Black Friday",
+                "Don’t Miss Out on Your": "Nie przegap swojej szansy",
+                "Black Friday Fortune": "Czarna Piątek Fortuna",
+                "Time’s running out!": "Czas ucieka!",
+                "Grab your exclusive casino deal before it disappears!": "Złap swoją ekskluzywną ofertę kasynową, zanim zniknie!",
+                Take: "Otrzymać"
             }
         },
         de: {
@@ -1381,7 +1391,12 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Casino Angebote!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Sichern Sie sich die heißesten Casino-Angebote diesen Black Friday – zeitlich begrenzte Angebote, die Sie nicht verpassen sollten!",
-                "Black Friday’s Premium Pic": "Black Fridays Premiumauswahl"
+                "Black Friday’s Premium Pic": "Black Fridays Premiumauswahl",
+                "Don’t Miss Out on Your": "Verpassen Sie nicht Ihre",
+                "Black Friday Fortune": "Schwarzer Freitag Glück",
+                "Time’s running out!": "Die Zeit läuft ab!",
+                "Grab your exclusive casino deal before it disappears!": "Holen Sie sich Ihr exklusives Casino-Angebot, bevor es verschwindet!",
+                Take: "Erhalten"
             }
         },
         bg: {
@@ -1768,7 +1783,12 @@ async function initializeI18n() {
                 "Black Friday": "Черен петък",
                 "Casino Deals!": "Казино оферти!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Възползвайте се от най-горещите казино оферти този Black Friday – оферти с ограничено време, които не искате да пропуснете!",
-                "Black Friday’s Premium Pic": "Премиум избор за Черен петък"
+                "Black Friday’s Premium Pic": "Премиум избор за Черен петък",
+                "Don’t Miss Out on Your": "Не пропускайте своето",
+                "Black Friday Fortune": "Черно-Петъчно богатство",
+                "Time’s running out!": "Времето изтича!",
+                "Grab your exclusive casino deal before it disappears!": "Вземете своят ексклузивен казино договор, преди да изчезне!",
+                Take: "Вземи"
             }
         },
         cz: {
@@ -2155,7 +2175,12 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Kasinové nabídky!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Využijte nejžhavějších kasinových nabídek tento Black Friday – časově omezené akce, které si nesmíte nechat ujít!",
-                "Black Friday’s Premium Pic": "Prémiový výběr na Black Friday"
+                "Black Friday’s Premium Pic": "Prémiový výběr na Black Friday",
+                "Don’t Miss Out on Your": "Nenechte si ujít své",
+                "Black Friday Fortune": "Černopáteční štěstí",
+                "Time’s running out!": "Čas se krátí!",
+                "Grab your exclusive casino deal before it disappears!": "Využijte svou exkluzivní kasinovou nabídku, než zmizí!",
+                Take: "Dostat"
             }
         },
         dk: {
@@ -2542,7 +2567,12 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Casino tilbud!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Få fat i de hotteste casino-tilbud denne Black Friday – tidsbegrænsede tilbud, du ikke vil gå glip af!",
-                "Black Friday’s Premium Pic": "Black Fridays Premiumvalg"
+                "Black Friday’s Premium Pic": "Black Fridays Premiumvalg",
+                "Don’t Miss Out on Your": "Gå ikke glip af din",
+                "Black Friday Fortune": "Black Friday Fortune",
+                "Time’s running out!": "Tiden løber ud!",
+                "Grab your exclusive casino deal before it disappears!": "Få fat i din eksklusive casinoaftale, før den forsvinder!",
+                Take: "Få"
             }
         },
         nl: {
@@ -2929,7 +2959,12 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Casino Deals!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Pak de heetste casinodeals deze Black Friday – tijdelijke aanbiedingen die je niet wilt missen!",
-                "Black Friday’s Premium Pic": "Black Friday’s Premiumkeuze"
+                "Black Friday’s Premium Pic": "Black Friday’s Premiumkeuze",
+                "Don’t Miss Out on Your": "Mis het niet",
+                "Black Friday Fortune": "Zwarte Vrijdag Fortuin",
+                "Time’s running out!": "De tijd dringt!",
+                "Grab your exclusive casino deal before it disappears!": "Grijp je exclusieve casinodeal voordat het verdwijnt!",
+                Take: "Krijgen"
             }
         },
         es: {
@@ -3316,7 +3351,12 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Ofertas de casino!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Aprovecha las ofertas de casino más calientes este Black Friday: ¡promociones por tiempo limitado que no querrás perderte!",
-                "Black Friday’s Premium Pic": "Selección Premium de Black Friday"
+                "Black Friday’s Premium Pic": "Selección Premium de Black Friday",
+                "Don’t Miss Out on Your": "No te lo pierdas",
+                "Black Friday Fortune": "Fortuna del Viernes Negro",
+                "Time’s running out!": "¡Se está acabando el tiempo!",
+                "Grab your exclusive casino deal before it disappears!": "¡Aprovecha tu oferta exclusiva de casino antes de que desaparezca!",
+                Take: "Obtener"
             }
         },
         fi: {
@@ -3703,7 +3743,12 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Kasinotarjoukset!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Tartu kuumimpiin kasinotarjouksiin tänä Black Fridayna – rajoitetun ajan tarjoukset, joita et halua missata!",
-                "Black Friday’s Premium Pic": "Black Fridayn Premium-valinta"
+                "Black Friday’s Premium Pic": "Black Fridayn Premium-valinta",
+                "Don’t Miss Out on Your": "Älä jää paitsi",
+                "Black Friday Fortune": "Musta perjantai onni",
+                "Time’s running out!": "Aika loppuu!",
+                "Grab your exclusive casino deal before it disappears!": "Nappaa yksinoikeudellinen kasinotarjous ennen kuin se katoaa!",
+                Take: "Hanki"
             }
         },
         fr: {
@@ -4091,7 +4136,12 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Offres de casino!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Profitez des offres de casino les plus chaudes ce Black Friday – des offres limitées dans le temps à ne pas manquer !",
-                "Black Friday’s Premium Pic": "Sélection Premium du Black Friday"
+                "Black Friday’s Premium Pic": "Sélection Premium du Black Friday",
+                "Don’t Miss Out on Your": "Ne manquez pas votre",
+                "Black Friday Fortune": "Vendredi noir Fortune",
+                "Time’s running out!": "Le temps presse!",
+                "Grab your exclusive casino deal before it disappears!": "Profitez de votre offre exclusive de casino avant qu'elle ne disparaisse!",
+                Take: "Obtenir"
             }
         },
         gr: {
@@ -4479,7 +4529,12 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Προσφορές καζίνο!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Επωφεληθείτε από τις πιο καυτές προσφορές καζίνο αυτό το Black Friday – προσφορές περιορισμένου χρόνου που δεν θέλετε να χάσετε!",
-                "Black Friday’s Premium Pic": "Premium επιλογή για Black Friday"
+                "Black Friday’s Premium Pic": "Premium επιλογή για Black Friday",
+                "Don’t Miss Out on Your": "Μην το χάσετε",
+                "Black Friday Fortune": "Τύχη της Μαύρης Παρασκευής",
+                "Time’s running out!": "Ο χρόνος τελειώνει!",
+                "Grab your exclusive casino deal before it disappears!": "Αξιοποιήστε την αποκλειστική προσφορά καζίνο σας πριν εξαφανιστεί!",
+                Take: "Πάρε"
             }
         },
         hu: {
@@ -4867,7 +4922,12 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Kaszinó ajánlatok!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Csapj le a legforróbb kaszinóajánlatokra ezen a Black Friday-en – időkorlátos ajánlatok, amiket nem érdemes kihagyni!",
-                "Black Friday’s Premium Pic": "Black Friday prémium ajánlata"
+                "Black Friday’s Premium Pic": "Black Friday prémium ajánlata",
+                "Don’t Miss Out on Your": "Ne hagyja ki",
+                "Black Friday Fortune": "Fekete Péntek Szerencse",
+                "Time’s running out!": "Az idő elfogy!",
+                "Grab your exclusive casino deal before it disappears!": "Fogd meg az egyedi kaszinó ajánlatodat, mielőtt eltűnik!",
+                Take: "Kap"
             }
         },
         it: {
@@ -5255,7 +5315,12 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Offerte del casinò!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Approfitta delle offerte casinò più calde di questo Black Friday – offerte a tempo limitato da non perdere!",
-                "Black Friday’s Premium Pic": "Scelta Premium del Black Friday"
+                "Black Friday’s Premium Pic": "Scelta Premium del Black Friday",
+                "Don’t Miss Out on Your": "Non perdere l'occasione",
+                "Black Friday Fortune": "Fortuna del Black Friday",
+                "Time’s running out!": "Il tempo sta finendo!",
+                "Grab your exclusive casino deal before it disappears!": "Approfitta della tua offerta esclusiva del casinò prima che scompaia!",
+                Take: "Ottenere"
             }
         },
         no: {
@@ -5643,7 +5708,12 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Casino tilbud!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Få de hotteste casinotilbudene denne Black Friday – tidsbegrensede tilbud du ikke vil gå glipp av!",
-                "Black Friday’s Premium Pic": "Black Fridays Premiumvalg"
+                "Black Friday’s Premium Pic": "Black Fridays Premiumvalg",
+                "Don’t Miss Out on Your": "Gå ikke glipp av din",
+                "Black Friday Fortune": "Black Friday-formue",
+                "Time’s running out!": "Tiden renner ut!",
+                "Grab your exclusive casino deal before it disappears!": "Få tak i din eksklusive casinotilbud før det forsvinner!",
+                Take: "Få"
             }
         },
         pt: {
@@ -6031,7 +6101,12 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Ofertas de Cassino!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Aproveite as ofertas de cassino mais quentes nesta Black Friday – promoções por tempo limitado que você não pode perder!",
-                "Black Friday’s Premium Pic": "Escolha Premium da Black Friday"
+                "Black Friday’s Premium Pic": "Escolha Premium da Black Friday",
+                "Don’t Miss Out on Your": "Não perca a sua",
+                "Black Friday Fortune": "Fortuna da Black Friday",
+                "Time’s running out!": "O tempo está se esgotando!",
+                "Grab your exclusive casino deal before it disappears!": "Aproveite sua oferta exclusiva de cassino antes que ela desapareça!",
+                Take: "Obter"
             }
         },
         se: {
@@ -6419,7 +6494,12 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Casinoerbjudanden!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Ta del av de hetaste casinodealsen denna Black Friday – tidsbegränsade erbjudanden du inte vill missa!",
-                "Black Friday’s Premium Pic": "Black Fridays Premiumval"
+                "Black Friday’s Premium Pic": "Black Fridays Premiumval",
+                "Don’t Miss Out on Your": "Missa inte din",
+                "Black Friday Fortune": "Black Friday-förmögenhet",
+                "Time’s running out!": "Tiden håller på att rinna ut!",
+                "Grab your exclusive casino deal before it disappears!": "Hämta ditt exklusiva casinopaket innan det försvinner!",
+                Take: "Få"
             }
         },
         sk: {
@@ -6807,7 +6887,12 @@ async function initializeI18n() {
                 "Black Friday": "Black Friday",
                 "Casino Deals!": "Kazíno ponuky!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Zapojte sa do najhorúcejších kasínových ponúk tento Black Friday – časovo obmedzené ponuky, ktoré nechcete zmeškať!",
-                "Black Friday’s Premium Pic": "Prémiový výber na Black Friday"
+                "Black Friday’s Premium Pic": "Prémiový výber na Black Friday",
+                "Don’t Miss Out on Your": "Nezmeškaj svoje",
+                "Black Friday Fortune": "Black Friday šťastie",
+                "Time’s running out!": "Čas sa kráti!",
+                "Grab your exclusive casino deal before it disappears!": "Získajte svoju exkluzívnu kasínovú ponuku, kým nezmizne!",
+                Take: "Dostať"
             }
         },
         tr: {
@@ -7195,7 +7280,12 @@ async function initializeI18n() {
                 "Black Friday": "Kara Cuma",
                 "Casino Deals!": "Kumarhane Fırsatları!",
                 "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!": "Bu Black Friday'de en sıcak casino fırsatlarını yakalayın – kaçırmak istemeyeceğiniz sınırlı süreli teklifler!",
-                "Black Friday’s Premium Pic": "Black Friday’ın Premium Seçimi"
+                "Black Friday’s Premium Pic": "Black Friday’ın Premium Seçimi",
+                "Don’t Miss Out on Your": "Şansınızı Kaçırmayın",
+                "Black Friday Fortune": "Kara Cuma Serveti",
+                "Time’s running out!": "Zaman tükeniyor!",
+                "Grab your exclusive casino deal before it disappears!": "Kaybolmadan önce özel kumarhane fırsatınızı kapın!",
+                Take: "Almak"
             }
         }
     };

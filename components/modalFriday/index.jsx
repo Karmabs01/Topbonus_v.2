@@ -12,10 +12,60 @@ const BasicModal = () => {
   const TIMEOUT_DELAY = 10000; // 10 секунд
   const { language } = useLanguage();
   const [newUrl, setNewUrl] = useState("");
+  useEffect(() => {
+    const currentUrl = window.location.href;
+    const indexOfQuestionMark = currentUrl.indexOf("?");
+    const newUrl2 =
+      indexOfQuestionMark !== -1
+        ? currentUrl.substring(0, indexOfQuestionMark)
+        : currentUrl;
+    window.history.replaceState({}, document.title, newUrl2);
 
+    const urlObj = new URL(currentUrl);
+    const searchParams = new URLSearchParams(urlObj.search);
+    searchParams.delete("brand");
+    const currentKeyword = searchParams.get("keyword");
+
+    const partners = [
+      "partner1039",
+      "partner1043",
+      "partner1044",
+      "CLD_VIP",
+      "partner1045_b1",
+      "partner1046",
+      "partner1047",
+
+    ];
+
+    function setPartnerSource(keyword) {
+      const partner = partners.find((p) => keyword.includes(p));
+      if (partner) {
+        localStorage.setItem("source", partner);
+        setSource(partner);
+        searchParams.set("source", partner);
+      } else {
+        setSource("0");
+        const sourceFound = localStorage.getItem("source");
+        if (!partners.includes(sourceFound)) {
+          localStorage.setItem("source", "0");
+          searchParams.set("source", "0");
+        }
+      }
+    }
+
+    if (currentKeyword) {
+      setPartnerSource(currentKeyword);
+    }
+
+    const savedUrl = localStorage.getItem("savedUrl");
+    if (savedUrl) {
+      setNewUrl(savedUrl);
+    }
+  }, [language]);
   useEffect(() => {
     const today = new Date().toISOString().split("T")[0]; // Текущая дата
     const lastShownDate = localStorage.getItem("modalShownDate");
+
 
     if (lastShownDate !== today) {
       const timeoutId = setTimeout(() => {
@@ -51,14 +101,14 @@ const BasicModal = () => {
         // Проверяем наличие данных брендов
         if (!data) {
           console.warn("Данные брендов отсутствуют");
-          setLoading(false);
+
           return;
         }
 
         // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
         if (!userId) {
           setBrands(filteredByCategory);
-          setLoading(false);
+  
           return;
         }
 
@@ -100,14 +150,14 @@ const BasicModal = () => {
 
         // 5. Устанавливаем состояние с отфильтрованными брендами
         setBrands(finalFilteredBrands);
-        setLoading(false);
+
       } catch (error) {
         setBrands(filteredByCategory);
         console.error(
           "Ошибка при получении данных пользователя или брендов:",
           error
         );
-        setLoading(false);
+  
       }
     };
 
@@ -145,7 +195,7 @@ const BasicModal = () => {
                       key={index} // Добавляем уникальный ключ для каждого элемента
                       className="mt-3 flex items-center card-pop"
                       // href={`${rowData.GoBig}/${newUrl}&creative_id=Black_Friday`}
-                      href={"/"}
+                      href={`${rowData.GoBig}/${newUrl}&creative_id=Popup_BF`}
                       target="_blank"
                     >
                       <Image
@@ -160,7 +210,7 @@ const BasicModal = () => {
                       </p>
                       <div className="btn-crd btn-crd-pop">
                         <div className="relative flex items-center justify-center px-8 py-2 text-lg font-medium rounded-full text-white btn-blick overflow-hidden">
-                          {t("Take")}
+                          {t("Play Now")}
                         </div>
                       </div>
                     </Link>
@@ -209,7 +259,7 @@ const BasicModal = () => {
           cursor: pointer;
           z-index: 9;
           color: #fff !important;
-          background: #FEE000;
+          background: #fee000;
           padding: 3px 5px;
           border-radius: 2px 2px 0 0;
 
@@ -227,7 +277,7 @@ const BasicModal = () => {
           color: #fff;
         }
         .custom-modal-title span {
-          color: #FEE000;
+          color: #fee000;
         }
         .custom-modal-description {
           font-size: 14px;
@@ -236,7 +286,7 @@ const BasicModal = () => {
           font-style: italic;
         }
         .custom-modal-description span {
-          color: #FEE000 !important;
+          color: #fee000 !important;
         }
         .custom-modal-link {
           display: inline-block;

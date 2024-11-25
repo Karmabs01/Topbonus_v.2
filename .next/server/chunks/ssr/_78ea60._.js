@@ -226,6 +226,7 @@ function Pickup({ newUrl }) {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "flex items-center justify-end jins w-full",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                id: "thrdjin",
                 className: "thrdjin",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
@@ -398,7 +399,7 @@ const TopBrands = ()=>{
             "CLD_VIP",
             "partner1045_b1",
             "partner1046",
-            "partner1047_b1"
+            "partner1047"
         ];
         const setPartnerSource = (keyword)=>{
             const partner = partners.find((p)=>keyword.includes(p));
@@ -784,7 +785,7 @@ function Brands_carousel({ target, creative, categoryBrands }) {
             "CLD_VIP",
             "partner1045_b1",
             "partner1046",
-            "partner1047_b1"
+            "partner1047"
         ];
         function setPartnerSource(keyword) {
             const partner = partners.find((p)=>keyword.includes(p));
@@ -1265,7 +1266,7 @@ function Brands_double_carousel() {
             "CLD_VIP",
             "partner1045_b1",
             "partner1046",
-            "partner1047_b1"
+            "partner1047"
         ];
         function setPartnerSource(keyword) {
             const partner = partners.find((p)=>keyword.includes(p));
@@ -2124,7 +2125,7 @@ function Random_block() {
             case "partner1046":
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
-            case "partner1047_b1":
+            case "partner1047":
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
             default:
@@ -2782,7 +2783,7 @@ function Banner_small() {
             case "partner1046":
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
-            case "partner1047_b1":
+            case "partner1047":
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
             default:
@@ -3016,7 +3017,7 @@ function Popular_offers() {
             "CLD_VIP",
             "partner1045_b1",
             "partner1046",
-            "partner1047_b1"
+            "partner1047"
         ];
         function setPartnerSource(keyword) {
             const partner = partners.find((p)=>keyword && keyword.includes(p));
@@ -3118,7 +3119,7 @@ function Popular_offers() {
         categoryBrands.key2
     ]);
     // Начало изменений
-    const specificBrandName = "Erabet"; // Замените на нужный бренд
+    const specificBrandName = "WinWin.Bet"; // Замените на нужный бренд
     let brandsToDisplay = [];
     if (brands.length > 0) {
         // Находим конкретный бренд
@@ -3495,7 +3496,7 @@ function Popular_offers() {
             "CLD_VIP",
             "partner1045_b1",
             "partner1046",
-            "partner1047_b1"
+            "partner1047"
         ];
         function setPartnerSource(keyword) {
             const partner = partners.find((p)=>keyword.includes(p));
@@ -3956,9 +3957,52 @@ const BasicModal = ()=>{
     const { language } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLanguage"])();
     const [newUrl, setNewUrl] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("");
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const currentUrl = window.location.href;
+        const indexOfQuestionMark = currentUrl.indexOf("?");
+        const newUrl2 = indexOfQuestionMark !== -1 ? currentUrl.substring(0, indexOfQuestionMark) : currentUrl;
+        window.history.replaceState({}, document.title, newUrl2);
+        const urlObj = new URL(currentUrl);
+        const searchParams = new URLSearchParams(urlObj.search);
+        searchParams.delete("brand");
+        const currentKeyword = searchParams.get("keyword");
+        const partners = [
+            "partner1039",
+            "partner1043",
+            "partner1044",
+            "CLD_VIP",
+            "partner1045_b1",
+            "partner1046",
+            "partner1047"
+        ];
+        function setPartnerSource(keyword) {
+            const partner = partners.find((p)=>keyword.includes(p));
+            if (partner) {
+                localStorage.setItem("source", partner);
+                setSource(partner);
+                searchParams.set("source", partner);
+            } else {
+                setSource("0");
+                const sourceFound = localStorage.getItem("source");
+                if (!partners.includes(sourceFound)) {
+                    localStorage.setItem("source", "0");
+                    searchParams.set("source", "0");
+                }
+            }
+        }
+        if (currentKeyword) {
+            setPartnerSource(currentKeyword);
+        }
+        const savedUrl = localStorage.getItem("savedUrl");
+        if (savedUrl) {
+            setNewUrl(savedUrl);
+        }
+    }, [
+        language
+    ]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const today = new Date().toISOString().split("T")[0]; // Текущая дата
         const lastShownDate = localStorage.getItem("modalShownDate");
-        if (lastShownDate == today) {
+        if (lastShownDate !== today) {
             const timeoutId = setTimeout(()=>{
                 setOpen(true);
                 localStorage.setItem("modalShownDate", today); // Сохранение даты показа
@@ -3990,13 +4034,11 @@ const BasicModal = ()=>{
                 // Проверяем наличие данных брендов
                 if (!data) {
                     console.warn("Данные брендов отсутствуют");
-                    setLoading(false);
                     return;
                 }
                 // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
                 if (!userId) {
                     setBrands(filteredByCategory);
-                    setLoading(false);
                     return;
                 }
                 // 2. Получаем данные пользователя
@@ -4026,11 +4068,9 @@ const BasicModal = ()=>{
                 console.log("Отфильтрованные бренды:", finalFilteredBrands);
                 // 5. Устанавливаем состояние с отфильтрованными брендами
                 setBrands(finalFilteredBrands);
-                setLoading(false);
             } catch (error) {
                 setBrands(filteredByCategory);
                 console.error("Ошибка при получении данных пользователя или брендов:", error);
-                setLoading(false);
             }
         };
         fetchUserBrands();
@@ -4043,73 +4083,73 @@ const BasicModal = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             open && brands.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-9001a88eed8a0660" + " " + "custom-modal-overlay",
+                className: "jsx-7802ebdb62e22cca" + " " + "custom-modal-overlay",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-9001a88eed8a0660" + " " + "custom-modal",
+                    className: "jsx-7802ebdb62e22cca" + " " + "custom-modal",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: handleClose,
                             "aria-label": "Close modal",
-                            className: "jsx-9001a88eed8a0660" + " " + "custom-modal-close",
+                            className: "jsx-7802ebdb62e22cca" + " " + "custom-modal-close",
                             children: "×"
                         }, void 0, false, {
                             fileName: "[project]/components/modalFriday/index.jsx",
-                            lineNumber: 123,
+                            lineNumber: 173,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-9001a88eed8a0660" + " " + "custom-modal-content",
+                            className: "jsx-7802ebdb62e22cca" + " " + "custom-modal-content",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "jsx-9001a88eed8a0660" + " " + "custom-modal-title",
+                                    className: "jsx-7802ebdb62e22cca" + " " + "custom-modal-title",
                                     children: [
                                         t("Don’t Miss Out on Your"),
                                         " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "jsx-9001a88eed8a0660",
+                                            className: "jsx-7802ebdb62e22cca",
                                             children: t("Black Friday Fortune")
                                         }, void 0, false, {
                                             fileName: "[project]/components/modalFriday/index.jsx",
-                                            lineNumber: 133,
+                                            lineNumber: 183,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                    lineNumber: 131,
+                                    lineNumber: 181,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "jsx-9001a88eed8a0660" + " " + "custom-modal-description",
+                                    className: "jsx-7802ebdb62e22cca" + " " + "custom-modal-description",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "jsx-9001a88eed8a0660",
+                                            className: "jsx-7802ebdb62e22cca",
                                             children: t("Time’s running out!")
                                         }, void 0, false, {
                                             fileName: "[project]/components/modalFriday/index.jsx",
-                                            lineNumber: 136,
+                                            lineNumber: 186,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                            className: "jsx-9001a88eed8a0660"
+                                            className: "jsx-7802ebdb62e22cca"
                                         }, void 0, false, {
                                             fileName: "[project]/components/modalFriday/index.jsx",
-                                            lineNumber: 137,
+                                            lineNumber: 187,
                                             columnNumber: 17
                                         }, this),
                                         t("Grab your exclusive casino deal before it disappears!")
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                    lineNumber: 135,
+                                    lineNumber: 185,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-9001a88eed8a0660",
+                                    className: "jsx-7802ebdb62e22cca",
                                     children: brands.length > 0 ? brands.slice(0, 3).map((rowData, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             className: "mt-3 flex items-center card-pop",
                                             // href={`${rowData.GoBig}/${newUrl}&creative_id=Black_Friday`}
-                                            href: "/",
+                                            href: `${rowData.GoBig}/${newUrl}&creative_id=Popup_BF`,
                                             target: "_blank",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -4120,76 +4160,76 @@ const BasicModal = ()=>{
                                                     loading: "lazy"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                                    lineNumber: 151,
+                                                    lineNumber: 201,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-9001a88eed8a0660" + " " + "mt-1 text-sm text-gray-500 h-10 mw-163",
+                                                    className: "jsx-7802ebdb62e22cca" + " " + "mt-1 text-sm text-gray-500 h-10 mw-163",
                                                     children: rowData.OurOfferContent
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                                    lineNumber: 158,
+                                                    lineNumber: 208,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-9001a88eed8a0660" + " " + "btn-crd btn-crd-pop",
+                                                    className: "jsx-7802ebdb62e22cca" + " " + "btn-crd btn-crd-pop",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-9001a88eed8a0660" + " " + "relative flex items-center justify-center px-8 py-2 text-lg font-medium rounded-full text-white btn-blick overflow-hidden",
+                                                        className: "jsx-7802ebdb62e22cca" + " " + "relative flex items-center justify-center px-8 py-2 text-lg font-medium rounded-full text-white btn-blick overflow-hidden",
                                                         children: t("Play Now")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/modalFriday/index.jsx",
-                                                        lineNumber: 162,
+                                                        lineNumber: 212,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                                    lineNumber: 161,
+                                                    lineNumber: 211,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/modalFriday/index.jsx",
-                                            lineNumber: 144,
+                                            lineNumber: 194,
                                             columnNumber: 21
                                         }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "jsx-9001a88eed8a0660" + " " + "no-brands",
+                                        className: "jsx-7802ebdb62e22cca" + " " + "no-brands",
                                         children: t("No brands available")
                                     }, void 0, false, {
                                         fileName: "[project]/components/modalFriday/index.jsx",
-                                        lineNumber: 169,
+                                        lineNumber: 219,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                    lineNumber: 141,
+                                    lineNumber: 191,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/modalFriday/index.jsx",
-                            lineNumber: 130,
+                            lineNumber: 180,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/modalFriday/index.jsx",
-                    lineNumber: 122,
+                    lineNumber: 172,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/modalFriday/index.jsx",
-                lineNumber: 121,
+                lineNumber: 171,
                 columnNumber: 9
             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-9001a88eed8a0660"
+                className: "jsx-7802ebdb62e22cca"
             }, void 0, false, {
                 fileName: "[project]/components/modalFriday/index.jsx",
-                lineNumber: 176,
+                lineNumber: 226,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "9001a88eed8a0660",
-                children: ".custom-modal-overlay.jsx-9001a88eed8a0660{z-index:1000;background:#00000080;justify-content:center;align-items:center;width:100vw;height:100vh;display:flex;position:fixed;top:0;left:0}.custom-modal.jsx-9001a88eed8a0660{text-align:center;background:url(/newimages/black.png) 50% no-repeat;border-radius:8px;width:400px;min-height:337px;padding:10px 20px;position:relative;box-shadow:0 4px 6px #0000001a}.custom-modal-close.jsx-9001a88eed8a0660{cursor:pointer;z-index:9;background:#fee000;border:none;border-radius:2px 2px 0 0;padding:3px 5px;font-size:30px;position:absolute;top:-26px;right:27px;color:#fff!important}.custom-modal-content.jsx-9001a88eed8a0660{margin-top:0}.custom-modal-title.jsx-9001a88eed8a0660{color:#fff;background:#ffffff1a;margin-bottom:10px;padding:10px 0;font-size:17px;font-weight:700;line-height:22px!important}.custom-modal-title.jsx-9001a88eed8a0660 span.jsx-9001a88eed8a0660{color:#fee000}.custom-modal-description.jsx-9001a88eed8a0660{margin-bottom:5px;font-size:14px;font-style:italic;color:#fff!important}.custom-modal-description.jsx-9001a88eed8a0660 span.jsx-9001a88eed8a0660{color:#fee000!important}.custom-modal-link.jsx-9001a88eed8a0660{color:#fff;background:#007bff;border-radius:4px;margin-top:10px;padding:10px 20px;text-decoration:none;display:inline-block}.custom-modal-link.jsx-9001a88eed8a0660:hover{background:#0056b3}"
+                id: "7802ebdb62e22cca",
+                children: ".custom-modal-overlay.jsx-7802ebdb62e22cca{z-index:1000;background:#00000080;justify-content:center;align-items:center;width:100vw;height:100vh;display:flex;position:fixed;top:0;left:0}.custom-modal.jsx-7802ebdb62e22cca{text-align:center;background:url(/newimages/black.png) 50% no-repeat;border-radius:8px;width:400px;min-height:337px;padding:10px 20px;position:relative;box-shadow:0 4px 6px #0000001a}.custom-modal-close.jsx-7802ebdb62e22cca{cursor:pointer;z-index:9;background:#ff8f1f;border:none;border-radius:2px 2px 0 0;padding:3px 5px;font-size:30px;position:absolute;top:-26px;right:27px;color:#fff!important}.custom-modal-content.jsx-7802ebdb62e22cca{margin-top:0}.custom-modal-title.jsx-7802ebdb62e22cca{color:#fff;background:#ffffff1a;margin-bottom:10px;padding:10px 0;font-size:17px;font-weight:700;line-height:22px!important}.custom-modal-title.jsx-7802ebdb62e22cca span.jsx-7802ebdb62e22cca{color:#ff8f1f}.custom-modal-description.jsx-7802ebdb62e22cca{margin-bottom:5px;font-size:14px;font-style:italic;color:#fff!important}.custom-modal-description.jsx-7802ebdb62e22cca span.jsx-7802ebdb62e22cca{color:#ff8f1f!important}.custom-modal-link.jsx-7802ebdb62e22cca{color:#fff;background:#007bff;border-radius:4px;margin-top:10px;padding:10px 20px;text-decoration:none;display:inline-block}.custom-modal-link.jsx-7802ebdb62e22cca:hover{background:#0056b3}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);
