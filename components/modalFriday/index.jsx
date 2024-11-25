@@ -12,7 +12,56 @@ const BasicModal = () => {
   const TIMEOUT_DELAY = 10000; // 10 секунд
   const { language } = useLanguage();
   const [newUrl, setNewUrl] = useState("");
+  useEffect(() => {
+    const currentUrl = window.location.href;
+    const indexOfQuestionMark = currentUrl.indexOf("?");
+    const newUrl2 =
+      indexOfQuestionMark !== -1
+        ? currentUrl.substring(0, indexOfQuestionMark)
+        : currentUrl;
+    window.history.replaceState({}, document.title, newUrl2);
 
+    const urlObj = new URL(currentUrl);
+    const searchParams = new URLSearchParams(urlObj.search);
+    searchParams.delete("brand");
+    const currentKeyword = searchParams.get("keyword");
+
+    const partners = [
+      "partner1039",
+      "partner1043",
+      "partner1044",
+      "CLD_VIP",
+      "partner1045_b1",
+      "partner1046",
+      "partner1047",
+
+    ];
+
+    function setPartnerSource(keyword) {
+      const partner = partners.find((p) => keyword.includes(p));
+      if (partner) {
+        localStorage.setItem("source", partner);
+        setSource(partner);
+        searchParams.set("source", partner);
+      } else {
+        setSource("0");
+        const sourceFound = localStorage.getItem("source");
+        if (!partners.includes(sourceFound)) {
+          localStorage.setItem("source", "0");
+          searchParams.set("source", "0");
+        }
+      }
+    }
+
+    if (currentKeyword) {
+      setPartnerSource(currentKeyword);
+    }
+
+    const savedUrl = localStorage.getItem("savedUrl");
+    if (savedUrl) {
+      setNewUrl(savedUrl);
+    }
+  }, [language]);
   useEffect(() => {
     const today = new Date().toISOString().split("T")[0]; // Текущая дата
     const lastShownDate = localStorage.getItem("modalShownDate");
@@ -52,14 +101,14 @@ const BasicModal = () => {
         // Проверяем наличие данных брендов
         if (!data) {
           console.warn("Данные брендов отсутствуют");
-          setLoading(false);
+
           return;
         }
 
         // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
         if (!userId) {
           setBrands(filteredByCategory);
-          setLoading(false);
+  
           return;
         }
 
@@ -101,14 +150,14 @@ const BasicModal = () => {
 
         // 5. Устанавливаем состояние с отфильтрованными брендами
         setBrands(finalFilteredBrands);
-        setLoading(false);
+
       } catch (error) {
         setBrands(filteredByCategory);
         console.error(
           "Ошибка при получении данных пользователя или брендов:",
           error
         );
-        setLoading(false);
+  
       }
     };
 
@@ -146,7 +195,7 @@ const BasicModal = () => {
                       key={index} // Добавляем уникальный ключ для каждого элемента
                       className="mt-3 flex items-center card-pop"
                       // href={`${rowData.GoBig}/${newUrl}&creative_id=Black_Friday`}
-                      href={"/"}
+                      href={`${rowData.GoBig}/${newUrl}&creative_id=Popup_BF`}
                       target="_blank"
                     >
                       <Image

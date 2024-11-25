@@ -1,9 +1,6 @@
 {
-<<<<<<< HEAD
-=======
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/crypto-casinos/page": "app/crypto-casinos/page.js",
->>>>>>> 4b945484ada3f056ad1d369873479e604969e372
-  "/casinos/page": "app/casinos/page.js"
+  "/live-casinos/page": "app/live-casinos/page.js",
+  "/casinos/page": "app/casinos/page.js",
+  "/crypto-casinos/page": "app/crypto-casinos/page.js"
 }

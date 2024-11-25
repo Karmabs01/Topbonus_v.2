@@ -610,7 +610,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Don’t Miss Out on Your",
                 "Black Friday Fortune": "Black Friday Fortune",
                 "Time’s running out!": "Time’s running out!",
-                "Grab your exclusive casino deal before it disappears!": "Grab your exclusive casino deal before it disappears!"
+                "Grab your exclusive casino deal before it disappears!": "Grab your exclusive casino deal before it disappears!",
+                Take: "Get"
             }
         },
         pl: {
@@ -1001,7 +1002,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Nie przegap swojej szansy",
                 "Black Friday Fortune": "Czarna Piątek Fortuna",
                 "Time’s running out!": "Czas ucieka!",
-                "Grab your exclusive casino deal before it disappears!": "Złap swoją ekskluzywną ofertę kasynową, zanim zniknie!"
+                "Grab your exclusive casino deal before it disappears!": "Złap swoją ekskluzywną ofertę kasynową, zanim zniknie!",
+                Take: "Otrzymać"
             }
         },
         de: {
@@ -1393,7 +1395,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Verpassen Sie nicht Ihre",
                 "Black Friday Fortune": "Schwarzer Freitag Glück",
                 "Time’s running out!": "Die Zeit läuft ab!",
-                "Grab your exclusive casino deal before it disappears!": "Holen Sie sich Ihr exklusives Casino-Angebot, bevor es verschwindet!"
+                "Grab your exclusive casino deal before it disappears!": "Holen Sie sich Ihr exklusives Casino-Angebot, bevor es verschwindet!",
+                Take: "Erhalten"
             }
         },
         bg: {
@@ -1784,7 +1787,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Не пропускайте своето",
                 "Black Friday Fortune": "Черно-Петъчно богатство",
                 "Time’s running out!": "Времето изтича!",
-                "Grab your exclusive casino deal before it disappears!": "Вземете своят ексклузивен казино договор, преди да изчезне!"
+                "Grab your exclusive casino deal before it disappears!": "Вземете своят ексклузивен казино договор, преди да изчезне!",
+                Take: "Вземи"
             }
         },
         cz: {
@@ -2175,7 +2179,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Nenechte si ujít své",
                 "Black Friday Fortune": "Černopáteční štěstí",
                 "Time’s running out!": "Čas se krátí!",
-                "Grab your exclusive casino deal before it disappears!": "Využijte svou exkluzivní kasinovou nabídku, než zmizí!"
+                "Grab your exclusive casino deal before it disappears!": "Využijte svou exkluzivní kasinovou nabídku, než zmizí!",
+                Take: "Dostat"
             }
         },
         dk: {
@@ -2566,7 +2571,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Gå ikke glip af din",
                 "Black Friday Fortune": "Black Friday Fortune",
                 "Time’s running out!": "Tiden løber ud!",
-                "Grab your exclusive casino deal before it disappears!": "Få fat i din eksklusive casinoaftale, før den forsvinder!"
+                "Grab your exclusive casino deal before it disappears!": "Få fat i din eksklusive casinoaftale, før den forsvinder!",
+                Take: "Få"
             }
         },
         nl: {
@@ -2957,7 +2963,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Mis het niet",
                 "Black Friday Fortune": "Zwarte Vrijdag Fortuin",
                 "Time’s running out!": "De tijd dringt!",
-                "Grab your exclusive casino deal before it disappears!": "Grijp je exclusieve casinodeal voordat het verdwijnt!"
+                "Grab your exclusive casino deal before it disappears!": "Grijp je exclusieve casinodeal voordat het verdwijnt!",
+                Take: "Krijgen"
             }
         },
         es: {
@@ -3348,7 +3355,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "No te lo pierdas",
                 "Black Friday Fortune": "Fortuna del Viernes Negro",
                 "Time’s running out!": "¡Se está acabando el tiempo!",
-                "Grab your exclusive casino deal before it disappears!": "¡Aprovecha tu oferta exclusiva de casino antes de que desaparezca!"
+                "Grab your exclusive casino deal before it disappears!": "¡Aprovecha tu oferta exclusiva de casino antes de que desaparezca!",
+                Take: "Obtener"
             }
         },
         fi: {
@@ -3739,7 +3747,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Älä jää paitsi",
                 "Black Friday Fortune": "Musta perjantai onni",
                 "Time’s running out!": "Aika loppuu!",
-                "Grab your exclusive casino deal before it disappears!": "Nappaa yksinoikeudellinen kasinotarjous ennen kuin se katoaa!"
+                "Grab your exclusive casino deal before it disappears!": "Nappaa yksinoikeudellinen kasinotarjous ennen kuin se katoaa!",
+                Take: "Hanki"
             }
         },
         fr: {
@@ -4131,7 +4140,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Ne manquez pas votre",
                 "Black Friday Fortune": "Vendredi noir Fortune",
                 "Time’s running out!": "Le temps presse!",
-                "Grab your exclusive casino deal before it disappears!": "Profitez de votre offre exclusive de casino avant qu'elle ne disparaisse!"
+                "Grab your exclusive casino deal before it disappears!": "Profitez de votre offre exclusive de casino avant qu'elle ne disparaisse!",
+                Take: "Obtenir"
             }
         },
         gr: {
@@ -4523,7 +4533,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Μην το χάσετε",
                 "Black Friday Fortune": "Τύχη της Μαύρης Παρασκευής",
                 "Time’s running out!": "Ο χρόνος τελειώνει!",
-                "Grab your exclusive casino deal before it disappears!": "Αξιοποιήστε την αποκλειστική προσφορά καζίνο σας πριν εξαφανιστεί!"
+                "Grab your exclusive casino deal before it disappears!": "Αξιοποιήστε την αποκλειστική προσφορά καζίνο σας πριν εξαφανιστεί!",
+                Take: "Πάρε"
             }
         },
         hu: {
@@ -4915,7 +4926,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Ne hagyja ki",
                 "Black Friday Fortune": "Fekete Péntek Szerencse",
                 "Time’s running out!": "Az idő elfogy!",
-                "Grab your exclusive casino deal before it disappears!": "Fogd meg az egyedi kaszinó ajánlatodat, mielőtt eltűnik!"
+                "Grab your exclusive casino deal before it disappears!": "Fogd meg az egyedi kaszinó ajánlatodat, mielőtt eltűnik!",
+                Take: "Kap"
             }
         },
         it: {
@@ -5307,7 +5319,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Non perdere l'occasione",
                 "Black Friday Fortune": "Fortuna del Black Friday",
                 "Time’s running out!": "Il tempo sta finendo!",
-                "Grab your exclusive casino deal before it disappears!": "Approfitta della tua offerta esclusiva del casinò prima che scompaia!"
+                "Grab your exclusive casino deal before it disappears!": "Approfitta della tua offerta esclusiva del casinò prima che scompaia!",
+                Take: "Ottenere"
             }
         },
         no: {
@@ -5699,7 +5712,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Gå ikke glipp av din",
                 "Black Friday Fortune": "Black Friday-formue",
                 "Time’s running out!": "Tiden renner ut!",
-                "Grab your exclusive casino deal before it disappears!": "Få tak i din eksklusive casinotilbud før det forsvinner!"
+                "Grab your exclusive casino deal before it disappears!": "Få tak i din eksklusive casinotilbud før det forsvinner!",
+                Take: "Få"
             }
         },
         pt: {
@@ -6091,7 +6105,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Não perca a sua",
                 "Black Friday Fortune": "Fortuna da Black Friday",
                 "Time’s running out!": "O tempo está se esgotando!",
-                "Grab your exclusive casino deal before it disappears!": "Aproveite sua oferta exclusiva de cassino antes que ela desapareça!"
+                "Grab your exclusive casino deal before it disappears!": "Aproveite sua oferta exclusiva de cassino antes que ela desapareça!",
+                Take: "Obter"
             }
         },
         se: {
@@ -6483,7 +6498,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Missa inte din",
                 "Black Friday Fortune": "Black Friday-förmögenhet",
                 "Time’s running out!": "Tiden håller på att rinna ut!",
-                "Grab your exclusive casino deal before it disappears!": "Hämta ditt exklusiva casinopaket innan det försvinner!"
+                "Grab your exclusive casino deal before it disappears!": "Hämta ditt exklusiva casinopaket innan det försvinner!",
+                Take: "Få"
             }
         },
         sk: {
@@ -6875,7 +6891,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Nezmeškaj svoje",
                 "Black Friday Fortune": "Black Friday šťastie",
                 "Time’s running out!": "Čas sa kráti!",
-                "Grab your exclusive casino deal before it disappears!": "Získajte svoju exkluzívnu kasínovú ponuku, kým nezmizne!"
+                "Grab your exclusive casino deal before it disappears!": "Získajte svoju exkluzívnu kasínovú ponuku, kým nezmizne!",
+                Take: "Dostať"
             }
         },
         tr: {
@@ -7267,7 +7284,8 @@ async function initializeI18n() {
                 "Don’t Miss Out on Your": "Şansınızı Kaçırmayın",
                 "Black Friday Fortune": "Kara Cuma Serveti",
                 "Time’s running out!": "Zaman tükeniyor!",
-                "Grab your exclusive casino deal before it disappears!": "Kaybolmadan önce özel kumarhane fırsatınızı kapın!"
+                "Grab your exclusive casino deal before it disappears!": "Kaybolmadan önce özel kumarhane fırsatınızı kapın!",
+                Take: "Almak"
             }
         }
     };
