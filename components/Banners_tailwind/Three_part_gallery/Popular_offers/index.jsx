@@ -105,7 +105,7 @@ export default function Popular_offers() {
     }
   }, [language]);
 
-  const categoryBrands = { key1: "Networks", key2: "1" };
+
   const categoryBrands0 = { key1: "Networks", key2: "Premium" };
 
  
@@ -124,8 +124,7 @@ export default function Popular_offers() {
     const fetchUserBrands = async () => {
       // 1. Фильтрация брендов на основе категорий
       const filteredByCategory = data.filter((brand) =>
-        brand[categoryBrands0.key1] === categoryBrands0.key2 ||
-        brand[categoryBrands.key1] === categoryBrands.key2
+        brand[categoryBrands0.key1] === categoryBrands0.key2 
       );
       try {
         // Проверяем наличие данных брендов
@@ -193,8 +192,6 @@ export default function Popular_offers() {
   }, [
     data, 
     userId, 
-    categoryBrands.key1, 
-    categoryBrands.key2, 
     categoryBrands0.key1, 
     categoryBrands0.key2
   ]);
