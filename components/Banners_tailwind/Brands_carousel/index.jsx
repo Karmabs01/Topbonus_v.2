@@ -21,6 +21,7 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
   const { language } = useLanguage();
   const { t } = useTranslation();
 
+  
   const settings = {
     infinite: true,
     dots: false,
