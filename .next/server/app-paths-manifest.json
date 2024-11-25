@@ -1,5 +1,6 @@
 {
   "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/api/geolocation/route": "app/api/geolocation/route.js"
+  "/crypto-casinos/page": "app/crypto-casinos/page.js",
+  "/casinos/page": "app/casinos/page.js"
 }
