@@ -8,7 +8,7 @@ import Brands_carousel from "@/components/Banners_tailwind/Brands_carousel";
 
 export default function Next_event_banner() {
 
-  const categoryBrands = { key1: "Segment2", key2: "Sandbox" };
+  const categoryBrands = { key1: "Networks", key2: "1" };
    const creative = "Uncover_latest"
   const { t } = useTranslation();
 
