@@ -179,40 +179,61 @@ export default function Popular_offers() {
   ]);
 
 
-  // Начало изменений
-  const specificBrandName = "WinWin.Bet"; // Замените на нужный бренд
 
-  let brandsToDisplay = [];
+// Начало изменений
+const specificBrandName1 = "WinWin.Bet"; // Первый конкретный бренд
+const specificBrandName2 = "Erabet";     // Второй конкретный бренд
 
-  if (brands.length > 0) {
-    // Находим конкретный бренд
-    const specificBrand = brands.find(
-      (brand) => brand.CasinoBrand === specificBrandName
+let brandsToDisplay = [];
+
+if (brands.length > 0) {
+  // Находим конкретные бренды
+  const specificBrand1 = brands.find(
+    (brand) => brand.CasinoBrand === specificBrandName1
+  );
+  const specificBrand2 = brands.find(
+    (brand) => brand.CasinoBrand === specificBrandName2
+  );
+
+  // Убираем эти бренды из списка, чтобы избежать дубликатов
+  let otherBrands = brands;
+  if (specificBrand1 || specificBrand2) {
+    otherBrands = brands.filter(
+      (brand) =>
+        brand.CasinoBrand !== specificBrandName1 &&
+        brand.CasinoBrand !== specificBrandName2
     );
-
-    // Убираем этот бренд из списка, чтобы избежать дубликатов
-    let otherBrands = brands;
-    if (specificBrand) {
-      otherBrands = brands.filter(
-        (brand) => brand.CasinoBrand !== specificBrandName
-      );
-    }
-
-    // Перемешиваем оставшиеся бренды
-    const shuffledOtherBrands = shuffle(otherBrands);
-
-    // Получаем 4 или 5 случайных брендов
-    const numberOfRandomBrands = specificBrand ? 4 : 5;
-    const randomBrands = shuffledOtherBrands.slice(0, numberOfRandomBrands);
-
-    // Формируем итоговый массив брендов для отображения
-    if (specificBrand) {
-      brandsToDisplay = [specificBrand, ...randomBrands];
-    } else {
-      brandsToDisplay = randomBrands;
-    }
   }
-  // Конец изменений
+
+  // Перемешиваем оставшиеся бренды
+  const shuffledOtherBrands = shuffle(otherBrands);
+
+  // Вычисляем количество конкретных брендов, которые существуют
+  let numberOfSpecificBrands = 0;
+  if (specificBrand1) numberOfSpecificBrands++;
+  if (specificBrand2) numberOfSpecificBrands++;
+
+  // Получаем необходимое количество случайных брендов, чтобы общее число было 5
+  const numberOfRandomBrands = 5 - numberOfSpecificBrands;
+  const randomBrands = shuffledOtherBrands.slice(0, numberOfRandomBrands);
+  
+  // Формируем итоговый массив брендов для отображения
+  brandsToDisplay = [];
+  if (specificBrand1) {
+    brandsToDisplay.push(specificBrand1);
+  }
+  if (specificBrand2) {
+    brandsToDisplay.push(specificBrand2);
+  }
+  brandsToDisplay = brandsToDisplay.concat(randomBrands);
+}
+// Конец изменений
+
+// Не забудьте определить функцию shuffle
+function shuffle(array) {
+  return array.sort(() => Math.random() - 0.5);
+}
+
 
   useEffect(() => {
     const interval = setInterval(() => {
