@@ -1,5 +1,7 @@
 // Loader.jsx
 import React from "react";
+import slot from "@/public/newimages/slot.gif";
+import Image from "next/image";
 
 const Loader = () => {
   return (
@@ -20,7 +22,8 @@ const Loader = () => {
       <div className="loader-line-wrap">
         <div className="loader-line"></div>
       </div> */}
-        <div class="dot-spinner">
+      <Image src={slot} alt="slot" width={300} height={300}/>
+        {/* <div class="dot-spinner">
           <div class="dot-spinner__dot"></div>
           <div class="dot-spinner__dot"></div>
           <div class="dot-spinner__dot"></div>
@@ -29,7 +32,7 @@ const Loader = () => {
           <div class="dot-spinner__dot"></div>
           <div class="dot-spinner__dot"></div>
           <div class="dot-spinner__dot"></div>
-        </div>
+        </div> */}
       </div>
     </div>
 
