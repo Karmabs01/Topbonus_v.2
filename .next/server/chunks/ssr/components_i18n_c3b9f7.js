@@ -611,7 +611,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Black Friday Fortune",
                 "Time’s running out!": "Time’s running out!",
                 "Grab your exclusive casino deal before it disappears!": "Grab your exclusive casino deal before it disappears!",
-                Take: "Get"
+                Take: "Get",
+                "Your bonuses are on the way, one moment..": "Your bonuses are on the way, one moment.."
             }
         },
         pl: {

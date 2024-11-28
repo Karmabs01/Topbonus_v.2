@@ -21,6 +21,7 @@ import FilteredHome from "@/components/Brands_home/FilteredHome";
 import Fortunes from "@/components/fortune";
 import NewArrivals from "@/components/newArrivals/NewArrivals";
 import BasicModal from "@/components/modalFriday";
+// import Loader from "@/components/Loader";
 
 export const metadata: Metadata = {
   title: "topbon.us: Your Comprehensive Source for Casino Reviews and Insights",
@@ -35,6 +36,7 @@ export default async function Home() {
   return (
     <>
     <BasicModal/>
+    {/* <Loader /> */}
       <Three_part_gallery />
       <TopBrands />
       <Banner_small />

@@ -776,6 +776,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Grab your exclusive casino deal before it disappears!",
         Take: "Get",
+        "Your bonuses are on the way, one moment..":
+        "Your bonuses are on the way, one moment..",
       },
     },
 
