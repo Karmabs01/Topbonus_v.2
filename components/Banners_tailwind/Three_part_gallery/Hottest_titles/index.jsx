@@ -252,10 +252,10 @@ function shuffle(array) {
   const number = brands.length > 5 ? 5 : brands.length;
 
   const refetchBrands = () => {
-    const shuffled = shuffle(brands);
-    setBrands(shuffled); // Перемешиваем и обновляем состояние с брендами
+    // const shuffled = shuffle(brands);
+    // setBrands(shuffled); // Перемешиваем и обновляем состояние с брендами
+    setBrands((prevBrands) => [...prevBrands]);
   };
-
 
 
   return (
