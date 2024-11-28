@@ -2,11 +2,14 @@
 import React from "react";
 import slot from "@/public/newimages/slot.gif";
 import Image from "next/image";
+import { useTranslation } from "react-i18next";
 
 const Loader = () => {
+  const { t } = useTranslation();
+
   return (
-    <div className="loader">
-      <div className="loader-inner flex items-center justify-center">
+    <div className="loader loaderslot">
+      <div className="loader-inner flex flex-col items-center justify-center">
         {/* <div className="loader-line-wrap">
         <div className="loader-line"></div>
       </div>
@@ -22,7 +25,10 @@ const Loader = () => {
       <div className="loader-line-wrap">
         <div className="loader-line"></div>
       </div> */}
-      <Image src={slot} alt="slot" width={300} height={300}/>
+        <Image src={slot} alt="slot" width={120} height={120} />
+        <p className="text-white text-center mt-2 flex">
+          {t("Your bonuses are on the way, one moment..")}
+        </p>
         {/* <div class="dot-spinner">
           <div class="dot-spinner__dot"></div>
           <div class="dot-spinner__dot"></div>
@@ -35,8 +41,6 @@ const Loader = () => {
         </div> */}
       </div>
     </div>
-
-
   );
 };
 
