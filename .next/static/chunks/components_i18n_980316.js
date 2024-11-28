@@ -611,7 +611,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Black Friday Fortune",
                 "Time’s running out!": "Time’s running out!",
                 "Grab your exclusive casino deal before it disappears!": "Grab your exclusive casino deal before it disappears!",
-                Take: "Get"
+                Take: "Get",
+                "Your bonuses are on the way, one moment..": "Your bonuses are on the way, one moment.."
             }
         },
         pl: {
@@ -1003,7 +1004,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Czarna Piątek Fortuna",
                 "Time’s running out!": "Czas ucieka!",
                 "Grab your exclusive casino deal before it disappears!": "Złap swoją ekskluzywną ofertę kasynową, zanim zniknie!",
-                Take: "Otrzymać"
+                Take: "Otrzymać",
+                "Your bonuses are on the way, one moment..": "Twoje bonusy są w drodze, chwileczkę.."
             }
         },
         de: {
@@ -1396,7 +1398,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Schwarzer Freitag Glück",
                 "Time’s running out!": "Die Zeit läuft ab!",
                 "Grab your exclusive casino deal before it disappears!": "Holen Sie sich Ihr exklusives Casino-Angebot, bevor es verschwindet!",
-                Take: "Erhalten"
+                Take: "Erhalten",
+                "Your bonuses are on the way, one moment..": "Ihre Boni sind unterwegs, einen Moment bitte.."
             }
         },
         bg: {
@@ -1788,7 +1791,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Черно-Петъчно богатство",
                 "Time’s running out!": "Времето изтича!",
                 "Grab your exclusive casino deal before it disappears!": "Вземете своят ексклузивен казино договор, преди да изчезне!",
-                Take: "Вземи"
+                Take: "Вземи",
+                "Your bonuses are on the way, one moment..": "Вашите бонуси са на път, моля изчакайте.."
             }
         },
         cz: {
@@ -2180,7 +2184,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Černopáteční štěstí",
                 "Time’s running out!": "Čas se krátí!",
                 "Grab your exclusive casino deal before it disappears!": "Využijte svou exkluzivní kasinovou nabídku, než zmizí!",
-                Take: "Dostat"
+                Take: "Dostat",
+                "Your bonuses are on the way, one moment..": "Vaše bonusy jsou na cestě, vydržte chvíli.."
             }
         },
         dk: {
@@ -2572,7 +2577,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Black Friday Fortune",
                 "Time’s running out!": "Tiden løber ud!",
                 "Grab your exclusive casino deal before it disappears!": "Få fat i din eksklusive casinoaftale, før den forsvinder!",
-                Take: "Få"
+                Take: "Få",
+                "Your bonuses are on the way, one moment..": "Dine bonusser er på vej, et øjeblik.."
             }
         },
         nl: {
@@ -2964,7 +2970,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Zwarte Vrijdag Fortuin",
                 "Time’s running out!": "De tijd dringt!",
                 "Grab your exclusive casino deal before it disappears!": "Grijp je exclusieve casinodeal voordat het verdwijnt!",
-                Take: "Krijgen"
+                Take: "Krijgen",
+                "Your bonuses are on the way, one moment..": "Jouw bonussen zijn onderweg, een ogenblik.."
             }
         },
         es: {
@@ -3356,7 +3363,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Fortuna del Viernes Negro",
                 "Time’s running out!": "¡Se está acabando el tiempo!",
                 "Grab your exclusive casino deal before it disappears!": "¡Aprovecha tu oferta exclusiva de casino antes de que desaparezca!",
-                Take: "Obtener"
+                Take: "Obtener",
+                "Your bonuses are on the way, one moment..": "Tus bonos están en camino, un momento.."
             }
         },
         fi: {
@@ -3748,7 +3756,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Musta perjantai onni",
                 "Time’s running out!": "Aika loppuu!",
                 "Grab your exclusive casino deal before it disappears!": "Nappaa yksinoikeudellinen kasinotarjous ennen kuin se katoaa!",
-                Take: "Hanki"
+                Take: "Hanki",
+                "Your bonuses are on the way, one moment..": "Bonuksesi ovat matkalla, hetki vain.."
             }
         },
         fr: {
@@ -4141,7 +4150,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Vendredi noir Fortune",
                 "Time’s running out!": "Le temps presse!",
                 "Grab your exclusive casino deal before it disappears!": "Profitez de votre offre exclusive de casino avant qu'elle ne disparaisse!",
-                Take: "Obtenir"
+                Take: "Obtenir",
+                "Your bonuses are on the way, one moment..": "Vos bonus sont en route, un instant.."
             }
         },
         gr: {
@@ -4534,7 +4544,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Τύχη της Μαύρης Παρασκευής",
                 "Time’s running out!": "Ο χρόνος τελειώνει!",
                 "Grab your exclusive casino deal before it disappears!": "Αξιοποιήστε την αποκλειστική προσφορά καζίνο σας πριν εξαφανιστεί!",
-                Take: "Πάρε"
+                Take: "Πάρε",
+                "Your bonuses are on the way, one moment..": "Τα μπόνους σας έρχονται, παρακαλώ περιμένετε λίγο.."
             }
         },
         hu: {
@@ -4927,7 +4938,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Fekete Péntek Szerencse",
                 "Time’s running out!": "Az idő elfogy!",
                 "Grab your exclusive casino deal before it disappears!": "Fogd meg az egyedi kaszinó ajánlatodat, mielőtt eltűnik!",
-                Take: "Kap"
+                Take: "Kap",
+                "Your bonuses are on the way, one moment..": "A bónuszok úton vannak, egy pillanat.."
             }
         },
         it: {
@@ -5320,7 +5332,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Fortuna del Black Friday",
                 "Time’s running out!": "Il tempo sta finendo!",
                 "Grab your exclusive casino deal before it disappears!": "Approfitta della tua offerta esclusiva del casinò prima che scompaia!",
-                Take: "Ottenere"
+                Take: "Ottenere",
+                "Your bonuses are on the way, one moment..": "I tuoi bonus sono in arrivo, un attimo.."
             }
         },
         no: {
@@ -5713,7 +5726,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Black Friday-formue",
                 "Time’s running out!": "Tiden renner ut!",
                 "Grab your exclusive casino deal before it disappears!": "Få tak i din eksklusive casinotilbud før det forsvinner!",
-                Take: "Få"
+                Take: "Få",
+                "Your bonuses are on the way, one moment..": "Bonusene dine er på vei, et øyeblikk.."
             }
         },
         pt: {
@@ -6106,7 +6120,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Fortuna da Black Friday",
                 "Time’s running out!": "O tempo está se esgotando!",
                 "Grab your exclusive casino deal before it disappears!": "Aproveite sua oferta exclusiva de cassino antes que ela desapareça!",
-                Take: "Obter"
+                Take: "Obter",
+                "Your bonuses are on the way, one moment..": "Seus bônus estão a caminho, um momento.."
             }
         },
         se: {
@@ -6499,7 +6514,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Black Friday-förmögenhet",
                 "Time’s running out!": "Tiden håller på att rinna ut!",
                 "Grab your exclusive casino deal before it disappears!": "Hämta ditt exklusiva casinopaket innan det försvinner!",
-                Take: "Få"
+                Take: "Få",
+                "Your bonuses are on the way, one moment..": "Dina bonusar är på väg, ett ögonblick.."
             }
         },
         sk: {
@@ -6892,7 +6908,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Black Friday šťastie",
                 "Time’s running out!": "Čas sa kráti!",
                 "Grab your exclusive casino deal before it disappears!": "Získajte svoju exkluzívnu kasínovú ponuku, kým nezmizne!",
-                Take: "Dostať"
+                Take: "Dostať",
+                "Your bonuses are on the way, one moment..": "Vaše bonusy sú na ceste, chvíľku počkajte.."
             }
         },
         tr: {
@@ -7285,7 +7302,8 @@ async function initializeI18n() {
                 "Black Friday Fortune": "Kara Cuma Serveti",
                 "Time’s running out!": "Zaman tükeniyor!",
                 "Grab your exclusive casino deal before it disappears!": "Kaybolmadan önce özel kumarhane fırsatınızı kapın!",
-                Take: "Almak"
+                Take: "Almak",
+                "Your bonuses are on the way, one moment..": "Bonuslarınız yolda, lütfen bir dakika.."
             }
         }
     };
