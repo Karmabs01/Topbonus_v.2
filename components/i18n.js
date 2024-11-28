@@ -776,8 +776,11 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Grab your exclusive casino deal before it disappears!",
         Take: "Get",
+        "Your bonuses are on the way, one moment..":
+          "Your bonuses are on the way, one moment..",
       },
     },
+
     pl: {
       translation: {
         "Casinos ▼": "Kasyna ▼",
@@ -1336,6 +1339,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Złap swoją ekskluzywną ofertę kasynową, zanim zniknie!",
         Take: "Otrzymać",
+        "Your bonuses are on the way, one moment..":
+          "Twoje bonusy są w drodze, chwileczkę..",
       },
     },
     de: {
@@ -1898,6 +1903,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Holen Sie sich Ihr exklusives Casino-Angebot, bevor es verschwindet!",
         Take: "Erhalten",
+        "Your bonuses are on the way, one moment..":
+          "Ihre Boni sind unterwegs, einen Moment bitte..",
       },
     },
     bg: {
@@ -2451,6 +2458,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Вземете своят ексклузивен казино договор, преди да изчезне!",
         Take: "Вземи",
+        "Your bonuses are on the way, one moment..":
+          "Вашите бонуси са на път, моля изчакайте..",
       },
     },
     cz: {
@@ -3004,6 +3013,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Využijte svou exkluzivní kasinovou nabídku, než zmizí!",
         Take: "Dostat",
+        "Your bonuses are on the way, one moment..":
+          "Vaše bonusy jsou na cestě, vydržte chvíli..",
       },
     },
     dk: {
@@ -3557,6 +3568,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Få fat i din eksklusive casinoaftale, før den forsvinder!",
         Take: "Få",
+        "Your bonuses are on the way, one moment..":
+          "Dine bonusser er på vej, et øjeblik..",
       },
     },
     nl: {
@@ -4114,6 +4127,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Grijp je exclusieve casinodeal voordat het verdwijnt!",
         Take: "Krijgen",
+        "Your bonuses are on the way, one moment..":
+          "Jouw bonussen zijn onderweg, een ogenblik..",
       },
     },
     es: {
@@ -4670,6 +4685,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "¡Aprovecha tu oferta exclusiva de casino antes de que desaparezca!",
         Take: "Obtener",
+        "Your bonuses are on the way, one moment..":
+          "Tus bonos están en camino, un momento..",
       },
     },
     fi: {
@@ -5222,6 +5239,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Nappaa yksinoikeudellinen kasinotarjous ennen kuin se katoaa!",
         Take: "Hanki",
+        "Your bonuses are on the way, one moment..":
+          "Bonuksesi ovat matkalla, hetki vain..",
       },
     },
     fr: {
@@ -5780,6 +5799,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Profitez de votre offre exclusive de casino avant qu'elle ne disparaisse!",
         Take: "Obtenir",
+        "Your bonuses are on the way, one moment..":
+          "Vos bonus sont en route, un instant..",
       },
     },
 
@@ -6334,6 +6355,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Αξιοποιήστε την αποκλειστική προσφορά καζίνο σας πριν εξαφανιστεί!",
         Take: "Πάρε",
+        "Your bonuses are on the way, one moment..":
+          "Τα μπόνους σας έρχονται, παρακαλώ περιμένετε λίγο..",
       },
     },
     hu: {
@@ -6888,6 +6911,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Fogd meg az egyedi kaszinó ajánlatodat, mielőtt eltűnik!",
         Take: "Kap",
+        "Your bonuses are on the way, one moment..":
+          "A bónuszok úton vannak, egy pillanat..",
       },
     },
     it: {
@@ -7445,6 +7470,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Approfitta della tua offerta esclusiva del casinò prima che scompaia!",
         Take: "Ottenere",
+        "Your bonuses are on the way, one moment..":
+          "I tuoi bonus sono in arrivo, un attimo..",
       },
     },
     no: {
@@ -7999,6 +8026,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Få tak i din eksklusive casinotilbud før det forsvinner!",
         Take: "Få",
+        "Your bonuses are on the way, one moment..":
+          "Bonusene dine er på vei, et øyeblikk..",
       },
     },
     pt: {
@@ -8555,6 +8584,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Aproveite sua oferta exclusiva de cassino antes que ela desapareça!",
         Take: "Obter",
+        "Your bonuses are on the way, one moment..":
+          "Seus bônus estão a caminho, um momento..",
       },
     },
     se: {
@@ -9109,6 +9140,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Hämta ditt exklusiva casinopaket innan det försvinner!",
         Take: "Få",
+        "Your bonuses are on the way, one moment..":
+          "Dina bonusar är på väg, ett ögonblick..",
       },
     },
     sk: {
@@ -9662,6 +9695,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Získajte svoju exkluzívnu kasínovú ponuku, kým nezmizne!",
         Take: "Dostať",
+        "Your bonuses are on the way, one moment..":
+          "Vaše bonusy sú na ceste, chvíľku počkajte..",
       },
     },
     tr: {
@@ -10215,6 +10250,8 @@ async function initializeI18n() {
         "Grab your exclusive casino deal before it disappears!":
           "Kaybolmadan önce özel kumarhane fırsatınızı kapın!",
         Take: "Almak",
+        "Your bonuses are on the way, one moment..":
+          "Bonuslarınız yolda, lütfen bir dakika..",
       },
     },
   };
