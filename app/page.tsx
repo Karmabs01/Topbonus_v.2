@@ -16,7 +16,7 @@ import Jackpot_banner from "@/components/Banners_tailwind/Jackpot_banner";
 import Next_event_banner from "@/components/Banners_tailwind/Next_event_banner";
 import Three_part_gallery from "@/components/Banners_tailwind/Three_part_gallery";
 import Fortune_wheel from "@/components/Banners_tailwind/Fortune_wheel_banner";
-import BasicModal from "@/components/modalFriday";
+// import BasicModal from "@/components/modalFriday";
 import FilteredHome from "@/components/Brands_home/FilteredHome";
 import Fortunes from "@/components/fortune";
 import NewArrivals from "@/components/newArrivals/NewArrivals";
@@ -33,7 +33,7 @@ export default async function Home() {
   const creative = "FW_Brands_Main_Page_2";
   return (
     <>
-      <BasicModal />
+      {/* <BasicModal /> */}
       <Three_part_gallery />
       <TopBrands />
       <Banner_small />
