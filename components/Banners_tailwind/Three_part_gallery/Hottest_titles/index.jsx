@@ -179,6 +179,7 @@ export default function Popular_offers() {
   ]);
 
 
+
 // Начало изменений
 const specificBrandName1 = "WinWin.Bet"; // Первый конкретный бренд
 const specificBrandName2 = "Erabet";     // Второй конкретный бренд
@@ -234,7 +235,6 @@ function shuffle(array) {
 }
 
 
-
   useEffect(() => {
     const interval = setInterval(() => {
       setFade(false); // Start fade-out
@@ -268,10 +268,9 @@ function shuffle(array) {
             <div>
               <div className="fivehot-banner">
                 <h3>
-                {t("Top")} {number} <span className="span-orange">{t("Black Friday")}</span>{" "}
-                  <span>{t("Casino Deals")}</span>
+                {t("Top")} {number} <span className="span-orange">{t("HOTTEST")}</span>{" "}
+                  <span>{t("casinos")}</span>
                 </h3>
-       
                 <p className="!text-xl mt-5">
                   {t(
                     "Discover the hottest casino brands trending right now!"
