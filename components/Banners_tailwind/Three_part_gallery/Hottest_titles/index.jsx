@@ -268,12 +268,12 @@ function shuffle(array) {
             <div>
               <div className="fivehot-banner">
                 <h3>
-                {t("Top")} {number} <span className="span-orange">{t("Black Friday")}</span>{" "}
-                  <span>{t("Casino Deals!")}</span>
+                {t("Top")} {number} <span className="span-orange">{t("HOTTEST")}</span>{" "}
+                  <span>{t("casinos")}</span>
                 </h3>
                 <p className="!text-xl mt-5">
                   {t(
-                    "Get in on the hottest casino deals this Black Friday – limited-time offers you don’t want to miss!"
+                    "Discover the hottest casino brands trending right now!"
                   )}
                 </p>
               </div>
