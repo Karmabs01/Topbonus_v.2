@@ -210,6 +210,8 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
     return () => clearInterval(interval);
   }, [brands.length]);
 
+  console.log("HHHH", brands)
+
   return (
     <>
       <div className="sm:mt-10 mt-5 mb-5 mob-mt10">

@@ -1285,6 +1285,10 @@ select {
   margin-bottom: 2.5rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .mb-2 {
   margin-bottom: .5rem;
 }
@@ -1696,6 +1700,10 @@ select {
 
 .basis-\[17\%\] {
   flex-basis: 17%;
+}
+
+.basis-\[18\%\] {
+  flex-basis: 18%;
 }
 
 .basis-\[19\%\] {
