@@ -38,6 +38,16 @@
   padding: 0 10px;
 }
 
+.advnt {
+  border-radius: 30px;
+  border-top: 2.5px solid #ffffff4d;
+  border-bottom: 2.5px solid #ffffff4d;
+  background: linear-gradient(161deg, #ffffff1a, #ffffff0d 101.7%);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  padding: 28px !important;
+}
+
 .dated {
   position: absolute;
   color: #fff;

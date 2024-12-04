@@ -32,7 +32,19 @@
   display: flex;
   padding: 0 10px;
 }
-
+.advnt {
+  border-radius: 30px;
+  border-top: 2.5px solid hsla(0, 0%, 100%, 0.3);
+  border-bottom: 2.5px solid hsla(0, 0%, 100%, 0.3);
+  background: linear-gradient(
+    161deg,
+    hsla(0, 0%, 100%, 0.1),
+    hsla(0, 0%, 100%, 0.05) 101.7%
+  );
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  padding: 28px !important;
+}
 .dated {
   position: absolute;
   color: #fff;
@@ -82,7 +94,6 @@
   color: #444548;
   background: #dcdcdd;
 }
-
 
 .opennow {
   background: rgba(252, 253, 255, 0.852);

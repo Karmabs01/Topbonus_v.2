@@ -187,11 +187,19 @@ export default function Brands_carousel() {
   return (
     <>
       <div className="sm:mt-10 mt-5 mb-5 mob-mt10 advent mb-16">
-        <div className="main__container">
+        <div className="main__container advnt">
           {loading ? (
             <Loader />
           ) : (
             <div>
+              <h2 className="text-3xl font-bold tracking-tight text-white random-title mb-3 text-center">
+                Christmas Calendar
+              </h2>
+              <p className="mb-3 text-center text-white">
+                Join us for 15 days of festive surprises! Unlock exclusive
+                bonuses, free spins, and exciting offers from top online casinos
+                - one new deal every day from December 1st to 15th!
+              </p>
               <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap">
                 {brands.length > 0 &&
                   brands.slice(0, 15).map((rowData, index) => {
@@ -235,7 +243,6 @@ export default function Brands_carousel() {
                                   >
                                     {t("Play Now")}
                                   </Link>
-                                  
                                 </div>
                               ) : isOpened ? (
                                 // Состояние, когда isOpened === true, но isActivated === false
