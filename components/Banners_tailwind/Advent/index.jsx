@@ -235,6 +235,7 @@ export default function Brands_carousel() {
                                   >
                                     {t("Play Now")}
                                   </Link>
+                                  
                                 </div>
                               ) : isOpened ? (
                                 // Состояние, когда isOpened === true, но isActivated === false
