@@ -287,7 +287,7 @@ export default function Popular_offers() {
                       {shuffledBrands.map((rowData, index) => (
                         <div
                           key={index}
-                          className={`overflow-hidden card-thr popular-${rowData.QuickSignUp} popular-christmas`}
+                          className={`overflow-hidden card-thr popular-${rowData.QuickSignUp}`}
                         >
                           <div className="pm10">
                             <div className="imgp">
