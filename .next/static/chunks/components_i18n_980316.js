@@ -612,7 +612,10 @@ async function initializeI18n() {
                 "Time’s running out!": "Time’s running out!",
                 "Grab your exclusive casino deal before it disappears!": "Grab your exclusive casino deal before it disappears!",
                 Take: "Get",
-                "Your bonuses are on the way, one moment..": "Your bonuses are on the way, one moment.."
+                "Your bonuses are on the way, one moment..": "Your bonuses are on the way, one moment..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Your Christmas Gift Awaits Start Your Fortune!",
+                Festive: "Festive",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!"
             }
         },
         pl: {
@@ -1005,7 +1008,10 @@ async function initializeI18n() {
                 "Time’s running out!": "Czas ucieka!",
                 "Grab your exclusive casino deal before it disappears!": "Złap swoją ekskluzywną ofertę kasynową, zanim zniknie!",
                 Take: "Otrzymać",
-                "Your bonuses are on the way, one moment..": "Twoje bonusy są w drodze, chwileczkę.."
+                "Your bonuses are on the way, one moment..": "Twoje bonusy są w drodze, chwileczkę..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Twój prezent świąteczny czeka Zacznij swoje szczęście!",
+                Festive: "Świąteczny",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Poczuj magię sezonu z najgorętszymi markami kasyn—odkryj ekscytujące niespodzianki i świąteczne nagrody!"
             }
         },
         de: {
@@ -1399,7 +1405,10 @@ async function initializeI18n() {
                 "Time’s running out!": "Die Zeit läuft ab!",
                 "Grab your exclusive casino deal before it disappears!": "Holen Sie sich Ihr exklusives Casino-Angebot, bevor es verschwindet!",
                 Take: "Erhalten",
-                "Your bonuses are on the way, one moment..": "Ihre Boni sind unterwegs, einen Moment bitte.."
+                "Your bonuses are on the way, one moment..": "Ihre Boni sind unterwegs, einen Moment bitte..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Ihr Weihnachtsgeschenk erwartet Sie Starten Sie Ihr Vermögen!",
+                Festive: "Festlich",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Erleben Sie die Magie der Saison mit den heißesten Casinobrands – packen Sie spannende Überraschungen und festliche Belohnungen aus!"
             }
         },
         bg: {
@@ -1792,7 +1801,10 @@ async function initializeI18n() {
                 "Time’s running out!": "Времето изтича!",
                 "Grab your exclusive casino deal before it disappears!": "Вземете своят ексклузивен казино договор, преди да изчезне!",
                 Take: "Вземи",
-                "Your bonuses are on the way, one moment..": "Вашите бонуси са на път, моля изчакайте.."
+                "Your bonuses are on the way, one moment..": "Вашите бонуси са на път, моля изчакайте..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Вашият коледен подарък ви очаква. Започнете вашето богатство!",
+                Festive: "Празничен",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Изживейте магията на сезона с най-горещите казино марки—разопаковайте вълнуващи изненади и празнични награди!"
             }
         },
         cz: {
@@ -2185,7 +2197,10 @@ async function initializeI18n() {
                 "Time’s running out!": "Čas se krátí!",
                 "Grab your exclusive casino deal before it disappears!": "Využijte svou exkluzivní kasinovou nabídku, než zmizí!",
                 Take: "Dostat",
-                "Your bonuses are on the way, one moment..": "Vaše bonusy jsou na cestě, vydržte chvíli.."
+                "Your bonuses are on the way, one moment..": "Vaše bonusy jsou na cestě, vydržte chvíli..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Váš vánoční dárek čeká, začněte své štěstí!",
+                Festive: "Sváteční",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Zažijte kouzlo sezóny s nejžhavějšími kasinovými značkami—rozbalte vzrušující překvapení a sváteční odměny!"
             }
         },
         dk: {
@@ -2578,7 +2593,10 @@ async function initializeI18n() {
                 "Time’s running out!": "Tiden løber ud!",
                 "Grab your exclusive casino deal before it disappears!": "Få fat i din eksklusive casinoaftale, før den forsvinder!",
                 Take: "Få",
-                "Your bonuses are on the way, one moment..": "Dine bonusser er på vej, et øjeblik.."
+                "Your bonuses are on the way, one moment..": "Dine bonusser er på vej, et øjeblik..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Din julegave venter Start din formue!",
+                Festive: "Festlig",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Oplev sæsonens magi med de hotteste casinobrands—åbn spændende overraskelser og festlige belønninger!"
             }
         },
         nl: {
@@ -2971,7 +2989,10 @@ async function initializeI18n() {
                 "Time’s running out!": "De tijd dringt!",
                 "Grab your exclusive casino deal before it disappears!": "Grijp je exclusieve casinodeal voordat het verdwijnt!",
                 Take: "Krijgen",
-                "Your bonuses are on the way, one moment..": "Jouw bonussen zijn onderweg, een ogenblik.."
+                "Your bonuses are on the way, one moment..": "Jouw bonussen zijn onderweg, een ogenblik..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Je kerstcadeau wacht op je Begin je fortuin!",
+                Festive: "Feestelijk",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Beleef de magie van het seizoen met de populairste casinomerken—ontdek spannende verrassingen en feestelijke beloningen!"
             }
         },
         es: {
@@ -3364,7 +3385,10 @@ async function initializeI18n() {
                 "Time’s running out!": "¡Se está acabando el tiempo!",
                 "Grab your exclusive casino deal before it disappears!": "¡Aprovecha tu oferta exclusiva de casino antes de que desaparezca!",
                 Take: "Obtener",
-                "Your bonuses are on the way, one moment..": "Tus bonos están en camino, un momento.."
+                "Your bonuses are on the way, one moment..": "Tus bonos están en camino, un momento..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Tu regalo de Navidad te espera, ¡comienza tu fortuna!",
+                Festive: "Festivo",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Experimenta la magia de la temporada con las marcas de casino más populares: ¡descubre sorpresas emocionantes y recompensas festivas!"
             }
         },
         fi: {
@@ -3757,7 +3781,10 @@ async function initializeI18n() {
                 "Time’s running out!": "Aika loppuu!",
                 "Grab your exclusive casino deal before it disappears!": "Nappaa yksinoikeudellinen kasinotarjous ennen kuin se katoaa!",
                 Take: "Hanki",
-                "Your bonuses are on the way, one moment..": "Bonuksesi ovat matkalla, hetki vain.."
+                "Your bonuses are on the way, one moment..": "Bonuksesi ovat matkalla, hetki vain..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Joululahjasi odottaa, aloita onnesi!",
+                Festive: "Juhlava",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Koe kauden taika kuumimpien kasinobrändien kanssa—avaa jännittäviä yllätyksiä ja juhlavia palkintoja!"
             }
         },
         fr: {
@@ -4151,7 +4178,10 @@ async function initializeI18n() {
                 "Time’s running out!": "Le temps presse!",
                 "Grab your exclusive casino deal before it disappears!": "Profitez de votre offre exclusive de casino avant qu'elle ne disparaisse!",
                 Take: "Obtenir",
-                "Your bonuses are on the way, one moment..": "Vos bonus sont en route, un instant.."
+                "Your bonuses are on the way, one moment..": "Vos bonus sont en route, un instant..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Votre cadeau de Noël vous attend, commencez votre fortune !",
+                Festive: "Festif",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Découvrez la magie de la saison avec les marques de casino les plus en vogue—dévoilez des surprises palpitantes et des récompenses festives !"
             }
         },
         gr: {
@@ -4545,7 +4575,10 @@ async function initializeI18n() {
                 "Time’s running out!": "Ο χρόνος τελειώνει!",
                 "Grab your exclusive casino deal before it disappears!": "Αξιοποιήστε την αποκλειστική προσφορά καζίνο σας πριν εξαφανιστεί!",
                 Take: "Πάρε",
-                "Your bonuses are on the way, one moment..": "Τα μπόνους σας έρχονται, παρακαλώ περιμένετε λίγο.."
+                "Your bonuses are on the way, one moment..": "Τα μπόνους σας έρχονται, παρακαλώ περιμένετε λίγο..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Το Χριστουγεννιάτικο Δώρο σας Περιμένει Ξεκινήστε την Τύχη σας!",
+                Festive: "Εορταστικός",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Ζήστε τη μαγεία της εποχής με τα πιο καυτά εμπορικά σήματα καζίνο—ξετυλίξτε συναρπαστικές εκπλήξεις και εορταστικές ανταμοιβές!"
             }
         },
         hu: {
@@ -4939,7 +4972,10 @@ async function initializeI18n() {
                 "Time’s running out!": "Az idő elfogy!",
                 "Grab your exclusive casino deal before it disappears!": "Fogd meg az egyedi kaszinó ajánlatodat, mielőtt eltűnik!",
                 Take: "Kap",
-                "Your bonuses are on the way, one moment..": "A bónuszok úton vannak, egy pillanat.."
+                "Your bonuses are on the way, one moment..": "A bónuszok úton vannak, egy pillanat..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Karácsonyi ajándékod vár, kezd el a szerencséd!",
+                Festive: "Ünnepi",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Éld át az évszak varázsát a legmenőbb kaszinómárkákkal—bontsd ki az izgalmas meglepetéseket és ünnepi jutalmakat!"
             }
         },
         it: {
@@ -5333,7 +5369,10 @@ async function initializeI18n() {
                 "Time’s running out!": "Il tempo sta finendo!",
                 "Grab your exclusive casino deal before it disappears!": "Approfitta della tua offerta esclusiva del casinò prima che scompaia!",
                 Take: "Ottenere",
-                "Your bonuses are on the way, one moment..": "I tuoi bonus sono in arrivo, un attimo.."
+                "Your bonuses are on the way, one moment..": "I tuoi bonus sono in arrivo, un attimo..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Il tuo regalo di Natale ti aspetta inizia la tua fortuna!",
+                Festive: "Festoso",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Vivi la magia della stagione con i marchi di casinò più caldi—scopri sorprese emozionanti e premi festivi!"
             }
         },
         no: {
@@ -5727,7 +5766,10 @@ async function initializeI18n() {
                 "Time’s running out!": "Tiden renner ut!",
                 "Grab your exclusive casino deal before it disappears!": "Få tak i din eksklusive casinotilbud før det forsvinner!",
                 Take: "Få",
-                "Your bonuses are on the way, one moment..": "Bonusene dine er på vei, et øyeblikk.."
+                "Your bonuses are on the way, one moment..": "Bonusene dine er på vei, et øyeblikk..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Din julegave venter Start din formue!",
+                Festive: "Festlig",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Opplev sesongens magi med de hotteste casinomerkevarene—pakk opp spennende overraskelser og festlige belønninger!"
             }
         },
         pt: {
@@ -6121,7 +6163,10 @@ async function initializeI18n() {
                 "Time’s running out!": "O tempo está se esgotando!",
                 "Grab your exclusive casino deal before it disappears!": "Aproveite sua oferta exclusiva de cassino antes que ela desapareça!",
                 Take: "Obter",
-                "Your bonuses are on the way, one moment..": "Seus bônus estão a caminho, um momento.."
+                "Your bonuses are on the way, one moment..": "Seus bônus estão a caminho, um momento..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Seu Presente de Natal Aguarda Comece Sua Fortuna!",
+                Festive: "Festivo",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Experimente a magia da temporada com as marcas de cassino mais quentes—desembrulhe surpresas emocionantes e recompensas festivas!"
             }
         },
         se: {
@@ -6515,7 +6560,10 @@ async function initializeI18n() {
                 "Time’s running out!": "Tiden håller på att rinna ut!",
                 "Grab your exclusive casino deal before it disappears!": "Hämta ditt exklusiva casinopaket innan det försvinner!",
                 Take: "Få",
-                "Your bonuses are on the way, one moment..": "Dina bonusar är på väg, ett ögonblick.."
+                "Your bonuses are on the way, one moment..": "Dina bonusar är på väg, ett ögonblick..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Din julklapp väntar Börja ditt äventyr!",
+                Festive: "Festlig",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Upplev säsongens magi med de hetaste casinovarumärkena—öppna spännande överraskningar och festliga belöningar!"
             }
         },
         sk: {
@@ -6909,7 +6957,10 @@ async function initializeI18n() {
                 "Time’s running out!": "Čas sa kráti!",
                 "Grab your exclusive casino deal before it disappears!": "Získajte svoju exkluzívnu kasínovú ponuku, kým nezmizne!",
                 Take: "Dostať",
-                "Your bonuses are on the way, one moment..": "Vaše bonusy sú na ceste, chvíľku počkajte.."
+                "Your bonuses are on the way, one moment..": "Vaše bonusy sú na ceste, chvíľku počkajte..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Váš vianočný darček čaká, začnite svoje šťastie!",
+                Festive: "Sviatočný",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Zažite kúzlo sezóny s najhorúcejšími kasínovými značkami—rozbaľte vzrušujúce prekvapenia a sviatočné odmeny!"
             }
         },
         tr: {
@@ -7303,7 +7354,10 @@ async function initializeI18n() {
                 "Time’s running out!": "Zaman tükeniyor!",
                 "Grab your exclusive casino deal before it disappears!": "Kaybolmadan önce özel kumarhane fırsatınızı kapın!",
                 Take: "Almak",
-                "Your bonuses are on the way, one moment..": "Bonuslarınız yolda, lütfen bir dakika.."
+                "Your bonuses are on the way, one moment..": "Bonuslarınız yolda, lütfen bir dakika..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Noel Hediyeniz Sizi Bekliyor Şansınızı Başlatın!",
+                Festive: "Şenlikli",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Sezonun büyüsünü en popüler casino markalarıyla yaşayın—heyecan verici sürprizler ve festivallik ödüllerle tanışın!"
             }
         }
     };
