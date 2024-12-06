@@ -2,7 +2,7 @@
 
 "[project]/public/logo3.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
-__turbopack_export_value__("/_next/static/media/logo3.08258534.png");
+__turbopack_export_value__("/_next/static/media/logo3.e00ca3e3.png");
 })()),
 "[project]/public/logo3.png.mjs { IMAGE => \"[project]/public/logo3.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
 "use strict";
@@ -15,11 +15,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$logo3$2e$png__$5b$
 ;
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$logo3$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 431,
-    height: 103,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAYAAABllJ3tAAAATUlEQVR42gFCAL3/AEFBQThCQkI5R0M+QH9gQHyDY0OAimpKiIprTYYuJBorAENDQzlBQUE4TEZARYVkQoKNa0mJjGpIiYlpSYUqIRcop70VCKp5GEgAAAAASUVORK5CYII=",
+    width: 386,
+    height: 63,
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAALElEQVR42gEhAN7/AEMmJkJVMDBSWjQ0WapXV727XFzRu2Rkz8BwcNGxZGTBwcYOSjlox2AAAAAASUVORK5CYII=",
     blurWidth: 8,
-    blurHeight: 2
+    blurHeight: 1
 };
 
 })()),
