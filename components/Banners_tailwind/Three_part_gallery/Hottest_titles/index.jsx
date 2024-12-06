@@ -258,6 +258,7 @@ function shuffle(array) {
   };
 
 
+
   return (
     <>
       <div className="fivehot">
@@ -294,7 +295,7 @@ function shuffle(array) {
                 </button>
                 {brandsToDisplay.slice(0, 5).map((rowData, index) => (
                   <Link
-                    className=""
+                    className={`round-${rowData.QuickSignUp}`}
                     href={`${rowData.GoBig}/${newUrl}&creative_id=Hottest_2`}
                     target="_blank"
                   >

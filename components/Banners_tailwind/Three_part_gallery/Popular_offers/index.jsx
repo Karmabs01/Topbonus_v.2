@@ -76,7 +76,6 @@ export default function Popular_offers() {
       "partner1045_b1",
       "partner1046",
       "partner1047",
-
     ];
 
     function setPartnerSource(keyword) {
@@ -105,10 +104,7 @@ export default function Popular_offers() {
     }
   }, [language]);
 
-
   const categoryBrands0 = { key1: "Networks", key2: "Premium" };
-
- 
 
   const { data, error } = useSWR(
     ["brands", language],
@@ -123,8 +119,8 @@ export default function Popular_offers() {
   useEffect(() => {
     const fetchUserBrands = async () => {
       // 1. Фильтрация брендов на основе категорий
-      const filteredByCategory = data.filter((brand) =>
-        brand[categoryBrands0.key1] === categoryBrands0.key2
+      const filteredByCategory = data.filter(
+        (brand) => brand[categoryBrands0.key1] === categoryBrands0.key2
       );
       try {
         // Проверяем наличие данных брендов
@@ -133,7 +129,6 @@ export default function Popular_offers() {
           setLoading(false);
           return;
         }
-
 
         // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
         if (!userId) {
@@ -149,7 +144,7 @@ export default function Popular_offers() {
         let sales = dataUser.sales;
 
         // Если sales — строка, пытаемся её распарсить
-        if (typeof sales === 'string') {
+        if (typeof sales === "string") {
           try {
             sales = JSON.parse(sales);
             console.log("Sales после парсинга строки:", sales);
@@ -170,9 +165,10 @@ export default function Popular_offers() {
         console.log("Sales Campaign IDs:", salesCampaignIds);
 
         // 4. Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
-        const finalFilteredBrands = filteredByCategory.filter((brand) => 
-          !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
-          !salesCampaignIds.includes(brand.KeitaroR2dID)
+        const finalFilteredBrands = filteredByCategory.filter(
+          (brand) =>
+            !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
+            !salesCampaignIds.includes(brand.KeitaroR2dID)
         );
 
         console.log("Отфильтрованные бренды:", finalFilteredBrands);
@@ -182,23 +178,16 @@ export default function Popular_offers() {
         setLoading(false);
       } catch (error) {
         setBrands(filteredByCategory);
-        console.error("Ошибка при получении данных пользователя или брендов:", error);
+        console.error(
+          "Ошибка при получении данных пользователя или брендов:",
+          error
+        );
         setLoading(false);
       }
     };
 
     fetchUserBrands();
-  }, [
-    data, 
-    userId, 
-    categoryBrands0.key1, 
-    categoryBrands0.key2
-  ]);
-  
-  
-  
-
-  
+  }, [data, userId, categoryBrands0.key1, categoryBrands0.key2]);
 
   const refetchBrands = () => {
     const shuffled = shuffle(brands);
@@ -206,7 +195,6 @@ export default function Popular_offers() {
   };
 
   const shuffledBrands = shuffle(brands);
-
 
   const cards2 = shuffledBrands.slice(0, 6).map((brand) => ({
     key: uuidv4(),
@@ -219,8 +207,6 @@ export default function Popular_offers() {
     ),
   }));
 
-
-
   return (
     <>
       <div className="popular-offers">
@@ -230,7 +216,6 @@ export default function Popular_offers() {
           ) : (
             cards2 && (
               <div className="w-full">
-             
                 <div className="flex justify-between mt-16">
                   <h2 className="text-3xl font-bold tracking-tight text-white random-title mmm-none">
                     {t("POPULAR")} <span>{t("offers")}</span>
@@ -250,7 +235,10 @@ export default function Popular_offers() {
                 <div className="mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8 hidden md:inline">
                   <div className="cards-thr">
                     {shuffledBrands.slice(0, 6).map((rowData, index) => (
-                      <div key={"Popular_offers" + index} className="card-thr">
+                      <div
+                        key={"Popular_offers" + index}
+                        className={`card-thr popular-${rowData.QuickSignUp}`}
+                      >
                         <div className="relative">
                           <div className="relative flex align-center justify-center">
                             <Link
@@ -293,11 +281,14 @@ export default function Popular_offers() {
                 <div className="md:hidden w-full mob-sl">
                   <div className="cards-th !mt-0 mmb-1">
                     <h2 className="text-3xl font-bold tracking-tight text-white random-title mt-3 mb-3 ">
-                    {t("POPULAR")} <span>{t("offers")}</span>
-                  </h2>
+                      {t("POPULAR")} <span>{t("offers")}</span>
+                    </h2>
                     <Slider {...settings}>
                       {shuffledBrands.map((rowData, index) => (
-                        <div key={index} className="overflow-hidden card-thr">
+                        <div
+                          key={index}
+                          className={`overflow-hidden card-thr popular-${rowData.QuickSignUp} popular-christmas`}
+                        >
                           <div className="pm10">
                             <div className="imgp">
                               <Link
