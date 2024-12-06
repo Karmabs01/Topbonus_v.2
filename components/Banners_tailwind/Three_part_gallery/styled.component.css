@@ -213,7 +213,7 @@
 @media (min-width: 320px) and (max-width: 767px) {
   .fivehot-banner {
 
-    background: url("/newimages/beerfest.png") no-repeat center;
+    background: url("/newimages/beerfest-mob.png") no-repeat center;
     background-size: cover;
   }
   .fivehot-banner h3, .fivehot-banner h3 span {
@@ -304,5 +304,61 @@
   .imgp {
     margin-left: 10px;
     margin-right: 10px;
+  }
+}
+
+
+.fivehot-banner h3 .span-orange {
+  color: #fee000 !important;
+}
+.round-christmas .li-img {
+  position: relative;
+}
+.round-christmas .li-img:after {
+  content: "";
+  position: absolute;
+  background: url("/newimages/round-christmas.png") center no-repeat;
+  background-size: auto;
+  background-size: auto;
+  width: 85px;
+  height: 97px;
+  background-size: cover;
+  left: -9px;
+  top: -21px;
+}
+.popular-christmas {
+  background-image: url("/newimages/popular-christmas.png");
+  border-top: none;
+  border-bottom: none;
+}
+.popular-christmas .btn-crd {
+  background: #ff1212;
+  box-shadow: 0 -5px 30px #ff121241;
+}
+.carousel-christmas {
+  background-image: url("/newimages/carousel-christmas.png");
+}
+.carousel-christmas .card-sl {
+  border: none !important;
+}
+.carousel-christmas .btn-play {
+  background: #ff1212;
+  box-shadow: 0 -5px 30px #ff121241;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .popular-christmas {
+    background-image: url("/newimages/popular-christmas-mob.png");
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .carousel-christmas {
+    background-image: url("/newimages/carousel-christmas-mob.png");
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 29px;
+
   }
 }

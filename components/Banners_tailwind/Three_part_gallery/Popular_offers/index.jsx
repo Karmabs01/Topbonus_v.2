@@ -251,7 +251,7 @@ export default function Popular_offers() {
                 <div className="mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8 hidden md:inline">
                   <div className="cards-thr">
                     {shuffledBrands.slice(0, 6).map((rowData, index) => (
-                      <div key={"Popular_offers" + index} className="card-thr">
+                      <div key={"Popular_offers" + index} className={`card-thr popular-${rowData.QuickSignUp}`}>
                         <div className="relative">
                           <div className="relative flex align-center justify-center">
                             <Link
@@ -298,7 +298,7 @@ export default function Popular_offers() {
                   </h2>
                     <Slider {...settings}>
                       {shuffledBrands.map((rowData, index) => (
-                        <div key={index} className="overflow-hidden card-thr">
+                        <div key={index} className={`overflow-hidden card-thr popular-${rowData.QuickSignUp}`}>
                           <div className="pm10">
                             <div className="imgp">
                               <Link
