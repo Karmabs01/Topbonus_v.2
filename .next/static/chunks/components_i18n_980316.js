@@ -612,7 +612,10 @@ async function initializeI18n() {
                 "Time’s running out!": "Time’s running out!",
                 "Grab your exclusive casino deal before it disappears!": "Grab your exclusive casino deal before it disappears!",
                 Take: "Get",
-                "Your bonuses are on the way, one moment..": "Your bonuses are on the way, one moment.."
+                "Your bonuses are on the way, one moment..": "Your bonuses are on the way, one moment..",
+                "Your Christmas Gift Awaits Start Your Fortune!": "Your Christmas Gift Awaits Start Your Fortune!",
+                "Festive": "Festive",
+                " Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": " Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!"
             }
         },
         pl: {
