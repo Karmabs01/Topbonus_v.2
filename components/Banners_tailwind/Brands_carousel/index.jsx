@@ -224,7 +224,7 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
                     brands.map((rowData, index) => (
                       <div
                         key={index}
-                        className={`overflow-hidden rounded-xl flex flex-col justify-between carousel-${rowData.QuickSignUp} carousel-christmas`}
+                        className={`overflow-hidden rounded-xl flex flex-col justify-between carousel-${rowData.QuickSignUp}`}
                       >
                         <div className="mx-auto max-w-7xl flex flex-col ">
                           <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row card-sl">
