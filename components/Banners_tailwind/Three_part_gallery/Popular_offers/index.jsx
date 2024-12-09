@@ -255,6 +255,7 @@ export default function Popular_offers() {
                               />
                             </Link>
                           </div>
+                          
                           <div className="relative mt-4 text-center">
                             <h3 className="text-lg font-semibold text-gray-900">
                               {rowData.CasinoBrand}
