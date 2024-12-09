@@ -248,6 +248,7 @@ export default function Popular_offers() {
                     />
                   </button>
                 </div>
+                
                 <div className="mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8 hidden md:inline">
                   <div className="cards-thr">
                     {shuffledBrands.slice(0, 6).map((rowData, index) => (
