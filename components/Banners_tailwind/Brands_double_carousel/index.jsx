@@ -40,7 +40,7 @@ export default function Brands_double_carousel() {
     searchParams.delete("brand");
     const currentKeyword = searchParams.get("keyword");
 
-    const partners = ["partner1039", "partner1043", "partner1044", "CLD_VIP", "partner1045_b1", "partner1046", "partner1047"];
+    const partners = ["partner1039", "partner1043", "partner1044", "CLD_VIP", "partner1045_b1", "partner1046", "partner1047", "partner1049"];
 
     function setPartnerSource(keyword) {
       const partner = partners.find((p) => keyword.includes(p));

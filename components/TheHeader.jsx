@@ -84,7 +84,7 @@ if (typeof window !== "undefined") {
     async function updateUserData(data) {
       localStorage.setItem("user_id", data);
 
-      const partners = ["partner1039", "partner1043", "partner1044", "CLD_VIP", "partner1045_b1", "partner1046", "partner1047"];
+      const partners = ["partner1039", "partner1043", "partner1044", "CLD_VIP", "partner1045_b1", "partner1046", "partner1047", "partner1049"];
       partners.forEach((partner) => {
         if (data.includes(partner)) {
           localStorage.setItem("source", partner);
