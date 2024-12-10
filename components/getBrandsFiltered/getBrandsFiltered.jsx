@@ -24,7 +24,8 @@ export const getBrandsFiltered = async (filtered, lng) => {
     } else if (
       source === "CLD_VIP" ||
       source === "partner1046" ||
-      source === "partner1047"
+      source === "partner1047" ||
+      source === "partner1049"
     ) {
       url = apiCLD_VIP;
     } else {

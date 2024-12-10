@@ -45,6 +45,7 @@ export default function TopBrandsRandom() {
       "CLD_VIP",
       "partner1045_b1",
       "partner1046",
+      "partner1049",
       "partner1047",
     ];
 
@@ -117,6 +118,9 @@ export default function TopBrandsRandom() {
       case "partner1046":
         url = "https://link.bo-nus.com/rnd_cld";
         break;
+        case "partner1049":
+          url = "https://link.bo-nus.com/rnd_cld";
+          break;
       case "partner1047":
         url = "https://link.bo-nus.com/rnd_cld";
         break;
