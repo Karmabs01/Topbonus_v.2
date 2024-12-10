@@ -358,19 +358,19 @@
 .round-christmas .li-img:after {
   content: "";
   position: absolute;
-  background: url("/newimages/round-christmas.png") center no-repeat;
   background-size: auto;
   width: 85px;
   height: 97px;
-  background-size: cover;
   left: -9px;
   top: -21px;
+  background: url("/newimages/round-christmas.png") center no-repeat !important;
+  background-size: cover !important;
 }
 
 .popular-christmas {
-  background-image: url("/newimages/popular-christmas.png");
   border-top: none;
   border-bottom: none;
+  background-image: url("/newimages/popular-christmas.png") !important;
 }
 
 .popular-christmas .btn-crd {
@@ -379,7 +379,7 @@
 }
 
 .carousel-christmas {
-  background-image: url("/newimages/carousel-christmas.png");
+  background-image: url("/newimages/carousel-christmas.png") !important;
 }
 
 .carousel-christmas .card-sl {
@@ -393,18 +393,18 @@
 
 @media (width >= 320px) and (width <= 767px) {
   .popular-christmas {
-    background-image: url("/newimages/popular-christmas-mob.png");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+    background-image: url("/newimages/popular-christmas-mob.png") !important;
   }
 
   .carousel-christmas {
-    background-image: url("/newimages/carousel-christmas-mob.png");
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     border-radius: 29px;
+    background-image: url("/newimages/carousel-christmas-mob.png") !important;
   }
 }
 

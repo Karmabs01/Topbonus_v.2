@@ -1,0 +1,57 @@
+.otp-m h2, .otp-v h2 {
+  font-weight: 700 !important;
+  font-size: 25px !important;
+  text-align: center !important;
+  line-height: 30px;
+  margin-top: 20px;
+}
+.otp-m p, .otp-v p {
+  color: #777;
+  font-size: 15px !important;
+  text-align: center !important;
+  line-height: 20px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+.otp-m, .otp-v {
+  max-width: 384px;
+  width: 100%;
+}
+.otp-m form, .otp-v form {
+  width: 100%;
+}
+.otp-m form input::placeholder,
+.otp-m form input {
+  text-align: center;
+}
+.otp-m form input {
+    color: #1464f5;
+    font-weight: 700;
+  }
+.otp-m form button, .otp-v form button {
+  margin-top: 50px;
+  background: #1464f5;
+  border: 2px solid transparent;
+}
+.otp-m form button {
+  margin-top: 20px;
+
+}
+.otp-m form button:hover, .otp-v form button:hover {
+  margin-top: 50px;
+  background: transparent;
+  border: 2px solid #1464f5;
+  color: #1464f5;
+}
+.otp-m form button:hover {
+  margin-top: 20px;
+
+}
+.otp-v p span {
+    color: #1464f5;
+    font-weight: 700;
+}
+span.resend {
+    cursor: pointer;
+    margin-top: 15px;
+}
