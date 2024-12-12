@@ -38,38 +38,19 @@ export default async function Home() {
   const creative = "FW_Brands_Main_Page_2";
   return (
     <>
-      {/* <BasicModal/> */}
-      {/* <Loader /> */}
+
       <Otp />
       <Three_part_gallery />
-      <TopBrands />
+      {/* <TopBrands />
       <Banner_small />
-      {/* <Brands_double_carousel /> */}
+
       <Next_event_banner />
-      {/* <Fortune_wheel /> */}
-      <Banner_small_vip />
-      {/* <Random_block /> */}
-      {/* <Random_dice /> */}
 
-      {/*    
-   <Brand_carousel_mobile/>
-   */}
+      <Banner_small_vip /> */}
 
-      {/* <div className="main__container mt-3">
-        <UserBrands />
-      </div>
-      <TopBrandsRandom />
 
-      <NewArrivals />
-       */}
 
-      {/* <div className="main__container">
-        <Fortunes banner={banner} target={target} creative={creative} />
-      </div> */}
-
-      {/* <div className="background-block">
-        <FilteredHome />
-      </div> */}
+ 
     </>
   );
 }

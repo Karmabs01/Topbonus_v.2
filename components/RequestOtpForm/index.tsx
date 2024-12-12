@@ -63,18 +63,18 @@ const RequestOtpForm: React.FC<Props> = ({ onOtpRequested }) => {
   return (
     <div className="flex flex-col items-center otp-m">
       {/* <Image src={otp} width={70} height={70} alt={t("otpVerificationAlt")} loading="lazy" /> */}
-      <h2>{t("enterEmailForOtp")}</h2>
-      <p className="font-semibold mb-4 text-center">{t("otpAccessMessage")}</p>
+      <h2>{t("Otp verification")}</h2>
+      <p className="font-semibold mb-4 text-center">{t("Please enter your Email")}</p>
       <form onSubmit={handleRequestOtp}>
         <div className="mb-4">
           <input
             type="email"
             id="email"
-            placeholder={t("enterYourEmail")}
+            placeholder={t("Email")}
             value={email}
             required
             onChange={(e) => setEmail(e.target.value)}
-            className="w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-3 py-2 border rounded-md right-1 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
         </div>
         {error && <p className="text-red-500 text-sm mb-4">{error}</p>}
@@ -84,9 +84,9 @@ const RequestOtpForm: React.FC<Props> = ({ onOtpRequested }) => {
           disabled={loading}
           className="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition-colors disabled:opacity-50 flex items-center justify-center"
         >
-          {loading ? "loading": t("sendOtp")}
+          {loading ? "loading": t("Send otp")}
         </button>
-        <p>By leaving your email address, you agree to <Link target="_blank" className="text-[#1464f5] hover:text-sky-400 duration-300" href={'/terms-and-conditions'}>Terms and Conditions</Link> and <Link target="_blank" className="text-[#1464f5] hover:text-sky-400 duration-300" href={'/privacy-policy'}>Privacy Policy</Link></p>
+ 
       </form>
     </div>
   );

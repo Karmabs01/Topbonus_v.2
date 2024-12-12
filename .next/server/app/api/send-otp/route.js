@@ -1,12 +1,5 @@
 const CHUNK_PUBLIC_PATH = "server/app/api/send-otp/route.js";
 const runtime = require("../../../chunks/[turbopack]_runtime.js");
-runtime.loadChunk("server/chunks/node_modules_next_316923._.js");
-runtime.loadChunk("server/chunks/node_modules_nodemailer_a9f338._.js");
-runtime.loadChunk("server/chunks/node_modules_knex_3ab6e8._.js");
-runtime.loadChunk("server/chunks/node_modules_lodash_72a6ba._.js");
-runtime.loadChunk("server/chunks/node_modules_mysql2_4c745e._.js");
-runtime.loadChunk("server/chunks/node_modules_aws-ssl-profiles_lib_a90e16._.js");
-runtime.loadChunk("server/chunks/node_modules_iconv-lite_1d546d._.js");
-runtime.loadChunk("server/chunks/node_modules_8de806._.js");
-runtime.loadChunk("server/chunks/_af9991._.js");
+runtime.loadChunk("server/chunks/node_modules_5c64aa._.js");
+runtime.loadChunk("server/chunks/app_c11d7c._.js");
 module.exports = runtime.getOrInstantiateRuntimeModule("[project]/node_modules/next/dist/esm/build/templates/app-route.js { INNER_APP_ROUTE => \"[project]/app/api/send-otp/route.ts [app-route] (ecmascript)\" } [app-route] (ecmascript)", CHUNK_PUBLIC_PATH).exports;

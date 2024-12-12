@@ -1,30 +1,5 @@
-// const { BundleAnalyzerPlugin } = require('webpack-bundle-analyzer');
+// next.config.js
 
-// const nextConfig = {
-//   images: {
-//     formats: ['image/avif', 'image/webp'],
-//     domains: ['hotoffers.casino'],
-//   },
-//   swcMinify: true,
-//   analyze: process.env.NODE_ENV === 'production' && process.env.ANALYZE === 'true',
-// };
-
-// module.exports = nextConfig;
-
-// // Добавляем анализ только в режиме продакшн
-// if (nextConfig.analyze) {
-//   module.exports.webpack = (config, { isServer }) => {
-//     if (!isServer) {
-//       config.plugins.push(new BundleAnalyzerPlugin({
-//         analyzerMode: 'server',
-//         analyzerPort: 8888,
-//         openAnalyzer: true,
-//       }));
-//     }
-
-//     return config;
-//   };
-// }
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -32,6 +7,26 @@ const nextConfig = {
     domains: ['hotoffers.casino', 'gobig.finance', 'trckln.com'],
   },
   swcMinify: true,
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      // Исключаем модули, которые Knex пытается загрузить на клиенте
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        fs: false,
+        net: false,
+        tls: false,
+        oracledb: false,
+        pg: false,
+        'pg-query-stream': false,
+        sqlite3: false,
+        tedious: false,
+        better_sqlite3: false,
+        mysql: false,
+      };
+    }
+
+    return config;
+  },
 }
 
 module.exports = nextConfig;

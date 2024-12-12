@@ -1,7 +1,8 @@
-// global.d.ts
-
-import knex from 'knex';
+import { Knex } from 'knex';
 
 declare global {
-  var knexInstance: knex | undefined;
+  // eslint-disable-next-line no-var
+  var knexInstance: Knex | undefined;
 }
+
+export {};

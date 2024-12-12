@@ -3367,7 +3367,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$VerifyOtpForm$
 ;
 ;
 ;
-const OtpModal = ({ onClose })=>{
+const OtpModal = ()=>{
     const [otpId, setOtpId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     const [email, setEmail] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('');
     const [keyword2, setKeyword2] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
@@ -3377,7 +3377,7 @@ const OtpModal = ({ onClose })=>{
     };
     const handleOtpVerified = (keyword)=>{
         setKeyword2(keyword);
-        onClose();
+    // onClose();
     };
     const handleChangeEmail = ()=>{
         // Сброс состояния OTP и email для возврата к вводу email
@@ -3390,7 +3390,7 @@ const OtpModal = ({ onClose })=>{
             className: "bg-white p-6 rounded-lg shadow-lg w-96 relative",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                    onClick: onClose,
+                    // onClick={onClose}
                     className: "absolute top-4 right-4 text-gray-500 hover:text-gray-700 cursor-pointer",
                     children: "×"
                 }, void 0, false, {

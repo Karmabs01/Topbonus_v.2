@@ -24,6 +24,8 @@
     }
   },
   "include": [
+    "scripts/**/*", "app/**/*",
+    "global.d.ts",
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
@@ -34,7 +36,12 @@
     "components/TheHeader.jsx",
     "app/layout.tsx",
     "components/BrandSearchContainer.jsx",
-    "app/search/page.jsx"
-, "components/posts/PostContent.jsx", "components/switcher/LanguageSwitcher.jsx", "app/api/brands/route.ts", "components/header/MenuPages/index.js", "components/Brands_home/UserBrands.jsx"  ],
+    "app/search/page.jsx",
+    "components/posts/PostContent.jsx",
+    "components/switcher/LanguageSwitcher.jsx",
+    "app/api/brands/route.ts",
+    "components/header/MenuPages/index.js",
+    "components/Brands_home/UserBrands.jsx"
+  ],
   "exclude": ["node_modules"]
 }
