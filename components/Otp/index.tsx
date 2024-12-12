@@ -51,6 +51,7 @@ const OtpModal: React.FC<OtpModalProps> = ({ onClose }) => {
       </div>
     </div>
   );
+  
 };
 
 export default OtpModal;
