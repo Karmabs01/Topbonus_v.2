@@ -41,12 +41,12 @@ export default async function Home() {
 
       {/* <Otp /> */}
       <Three_part_gallery />
-      {/* <TopBrands />
+      <TopBrands />
       <Banner_small />
 
       <Next_event_banner />
 
-      <Banner_small_vip /> */}
+      <Banner_small_vip />
 
 
 
