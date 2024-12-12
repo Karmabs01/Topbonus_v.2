@@ -39,6 +39,7 @@ const OtpModal: React.FC<OtpModalProps> = ({ onClose }) => {
         >
           &times;
         </span>
+        
         {!otpId ? (
           <RequestOtpForm onOtpRequested={handleOtpRequested} />
         ) : (
