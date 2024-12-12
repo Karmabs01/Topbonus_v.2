@@ -63,7 +63,7 @@ const RequestOtpForm: React.FC<Props> = ({ onOtpRequested }) => {
   return (
     <div className="flex flex-col items-center otp-m">
       {/* <Image src={otp} width={70} height={70} alt={t("otpVerificationAlt")} loading="lazy" /> */}
-      <h2>{t("Otp verification")}</h2>
+      <h2>{t("Email verification")}</h2>
       <p className="font-semibold mb-4 text-center">{t("Please enter your Email")}</p>
       <form onSubmit={handleRequestOtp}>
         <div className="mb-4">
@@ -84,7 +84,7 @@ const RequestOtpForm: React.FC<Props> = ({ onOtpRequested }) => {
           disabled={loading}
           className="w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition-colors disabled:opacity-50 flex items-center justify-center welldone"
         >
-          {loading ? "loading": t("Send otp")}
+          {loading ? "Loading": t("Verify")}
         </button>
  
       </form>
