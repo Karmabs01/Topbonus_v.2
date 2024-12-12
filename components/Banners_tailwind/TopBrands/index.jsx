@@ -215,7 +215,7 @@ const TopBrands = () => {
 
 
   return (
-    <div className="topbr-tw">
+    <div className="topbr-tw otp-ver-if">
       <div className="main__container">
         {loading ? (
           <Loader />

@@ -6,7 +6,7 @@ import PinInput from "react-pin-input";
 import Image from "next/image";
 // import otp from "@/public/images_site/otp-ver.png";
 import { useTranslation } from "react-i18next";
-import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 
 interface Props {
   otpId: string;
@@ -46,7 +46,9 @@ const VerifyOtpForm: React.FC<Props> = ({ otpId, email, onChangeEmail }) => {
         // Сохранение статуса авторизации в localStorage
         localStorage.setItem('authorized', JSON.stringify({ email, otpVerified: true }));
         // Перенаправление пользователя на главную страницу или другую целевую страницу
-        router.push('/'); // Используем useRouter для перенаправления
+        // router.push('/'); // Используем useRouter для перенаправления
+        // router.refresh(); 
+        window.location.href = '/';
       } else {
         setError(data.message || t("Error when verifying OTP."));
         setAttempts((prev) => prev + 1);
@@ -104,7 +106,7 @@ const VerifyOtpForm: React.FC<Props> = ({ otpId, email, onChangeEmail }) => {
         <button
           type="submit"
           disabled={loading}
-          className="w-full bg-green-500 text-white py-2 px-4 rounded-md hover:bg-green-600 transition-colors disabled:opacity-50 flex items-center justify-center"
+          className="w-full bg-green-500 text-white py-2 px-4 rounded-md hover:bg-green-600 transition-colors disabled:opacity-50 flex items-center justify-center welldone"
         >
           {loading ? "loading" : t("SUBMIT")}
         </button>

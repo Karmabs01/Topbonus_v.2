@@ -283,7 +283,7 @@ function shuffle(array) {
                 className="grid grid-cols-1 gap-5 sm:gap-6 ul-list"
               >
                 <button
-                  className="refetch absolute"
+                  className="refetch absolute "
                   onClick={refetchBrands} // Обработчик клика
                 >
                   <Image

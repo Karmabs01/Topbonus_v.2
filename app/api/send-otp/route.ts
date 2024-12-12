@@ -10,20 +10,24 @@ export async function POST(request: Request) {
     const { email } = await request.json();
     console.log(`Received OTP request for email: ${email}`);
 
-    // Проверка email
     if (!email || typeof email !== 'string') {
       console.error('Invalid format:', email);
       return NextResponse.json(
-        { success: false, message: 'Invalid format' },
+        { success: false, message: 'Invalid email format.' },
         { status: 400 }
       );
     }
 
-    // Генерация и сохранение OTP
-    const otpCode = Math.floor(100000 + Math.random() * 900000).toString(); // 6 цифр
+    const otpCode = Math.floor(100000 + Math.random() * 900000).toString();
     const otpId = uuidv4();
-    const expiresAt = new Date(Date.now() + 5 * 60 * 1000); // 5 минут
+    const expiresAt = new Date(Date.now() + 5 * 60 * 1000);
 
+    // Удаляем старые OTP для этого email
+    await prisma.otps.deleteMany({
+      where: { email },
+    });
+
+    // Сохраняем новый OTP
     await prisma.otps.create({
       data: {
         id: otpId,
@@ -33,14 +37,14 @@ export async function POST(request: Request) {
       },
     });
 
-    // Отправка OTP по электронной почте
-    await sendEmail(email, 'One-time code for topbon.us', `Your code for topbon.us: ${otpCode}`);
+    await sendEmail(email, 'One-time code for topbon.us', `Your code: ${otpCode}`);
+    console.log(`OTP successfully sent to ${email}`);
 
     return NextResponse.json({ success: true, otpId });
   } catch (error) {
     console.error('Error processing send-otp request:', error);
     return NextResponse.json(
-      { success: false, message: 'Failed to send OTP' },
+      { success: false, message: 'Failed to send OTP.' },
       { status: 500 }
     );
   }

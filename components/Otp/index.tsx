@@ -9,7 +9,7 @@ interface OtpModalProps {
   onClose: () => void;
 }
 
-const OtpModal: React.FC<OtpModalProps> = () => {
+const OtpModal: React.FC<OtpModalProps> = ({ onClose }) => {
   const [otpId, setOtpId] = useState<string | null>(null);
   const [email, setEmail] = useState('');
   const [keyword2, setKeyword2] = useState<string | null>(null);
@@ -23,7 +23,7 @@ const OtpModal: React.FC<OtpModalProps> = () => {
     setKeyword2(keyword);
 
 
-    // onClose();
+    onClose();
   };
   const handleChangeEmail = () => {
     // Сброс состояния OTP и email для возврата к вводу email
@@ -35,9 +35,9 @@ const OtpModal: React.FC<OtpModalProps> = () => {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-      <div className="bg-white p-6 rounded-lg shadow-lg w-96 relative">
+      <div className="bg-white p-6 rounded-lg shadow-lg w-96 relative bg-otp">
         <span
-          // onClick={onClose}
+          onClick={onClose}
           className="absolute top-4 right-4 text-gray-500 hover:text-gray-700 cursor-pointer"
         >
           &times;

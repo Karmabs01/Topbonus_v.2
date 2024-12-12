@@ -2,12 +2,15 @@ import nodemailer from 'nodemailer';
 
 // Создание транспортера с использованием SMTP
 const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST, // Хост SMTP сервера
-  port: parseInt(process.env.SMTP_PORT || '465'), // Порт
-  secure: true, // true для порта 465, false для других портов
+  host: process.env.SMTP_HOST,
+  port: parseInt(process.env.SMTP_PORT || '587'),
+  secure: false, // Используем false для STARTTLS
   auth: {
-    user: process.env.SMTP_USER, // Пользователь SMTP
-    pass: process.env.SMTP_PASS, // Пароль SMTP
+    user: process.env.SMTP_USER,
+    pass: process.env.SMTP_PASS,
+  },
+  tls: {
+    rejectUnauthorized: false, // Если SSL-сертификат самоподписан
   },
 });
 
@@ -15,7 +18,7 @@ export const sendEmail = async (to: string, subject: string, text: string) => {
   console.log(`Trying to send email to ${to} with subject "${subject}"`);
 
   const mailOptions = {
-    from: `"Topbonus" <bounce@bubenbot.com>`, // Отправитель
+    from: `"Topbonus" <info@bubenbot.com>`, // Отправитель
     to, // Получатель
     subject, // Тема письма
     text, // Текст письма

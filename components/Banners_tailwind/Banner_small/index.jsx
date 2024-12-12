@@ -26,7 +26,7 @@ export default function Banner_small() {
   return (
     <>
      <div>
-      <div id="real-block" className="main__container">
+      <div id="real-block" className="main__container otp-ver-if">
         <div className="">
           <div className="flex items-center px-2 py-2.5 sm:px-3.5 rounded-md mt-10 flex-col sm:flex-row new-brands">
             <h2 className="text-3xl font-bold tracking-tight text-white random-title">

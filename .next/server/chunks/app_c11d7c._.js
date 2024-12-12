@@ -12,17 +12,20 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$nodemailer$2
 // Создание транспортера с использованием SMTP
 const transporter = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$nodemailer$2f$lib$2f$nodemailer$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"].createTransport({
     host: process.env.SMTP_HOST,
-    port: parseInt(process.env.SMTP_PORT || '465'),
-    secure: true,
+    port: parseInt(process.env.SMTP_PORT || '587'),
+    secure: false,
     auth: {
         user: process.env.SMTP_USER,
         pass: process.env.SMTP_PASS
+    },
+    tls: {
+        rejectUnauthorized: false
     }
 });
 const sendEmail = async (to, subject, text)=>{
     console.log(`Trying to send email to ${to} with subject "${subject}"`);
     const mailOptions = {
-        from: `"AA" <admin@luckyhotei.com>`,
+        from: `"Topbonus" <info@bubenbot.com>`,
         to,
         subject,
         text
@@ -74,20 +77,25 @@ async function POST(request) {
     try {
         const { email } = await request.json();
         console.log(`Received OTP request for email: ${email}`);
-        // Проверка email
         if (!email || typeof email !== 'string') {
             console.error('Invalid format:', email);
             return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
                 success: false,
-                message: 'Invalid format'
+                message: 'Invalid email format.'
             }, {
                 status: 400
             });
         }
-        // Генерация и сохранение OTP
-        const otpCode = Math.floor(100000 + Math.random() * 900000).toString(); // 6 цифр
+        const otpCode = Math.floor(100000 + Math.random() * 900000).toString();
         const otpId = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$uuid$2f$dist$2f$esm$2d$node$2f$v4$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__$3c$export__default__as__v4$3e$__["v4"])();
-        const expiresAt = new Date(Date.now() + 5 * 60 * 1000); // 5 минут
+        const expiresAt = new Date(Date.now() + 5 * 60 * 1000);
+        // Удаляем старые OTP для этого email
+        await __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$utils$2f$db$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"].otps.deleteMany({
+            where: {
+                email
+            }
+        });
+        // Сохраняем новый OTP
         await __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$utils$2f$db$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["default"].otps.create({
             data: {
                 id: otpId,
@@ -96,8 +104,8 @@ async function POST(request) {
                 expires_at: expiresAt
             }
         });
-        // Отправка OTP по электронной почте
-        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$utils$2f$mailer$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["sendEmail"])(email, 'One-time code for topbon.us', `Your code for topbon.us: ${otpCode}`);
+        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$utils$2f$mailer$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["sendEmail"])(email, 'One-time code for topbon.us', `Your code: ${otpCode}`);
+        console.log(`OTP successfully sent to ${email}`);
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
             success: true,
             otpId
@@ -106,7 +114,7 @@ async function POST(request) {
         console.error('Error processing send-otp request:', error);
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
             success: false,
-            message: 'Failed to send OTP'
+            message: 'Failed to send OTP.'
         }, {
             status: 500
         });

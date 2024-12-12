@@ -1137,6 +1137,10 @@ select {
   right: 0;
 }
 
+.right-1 {
+  right: .25rem;
+}
+
 .right-2 {
   right: .5rem;
 }
@@ -1167,10 +1171,6 @@ select {
 
 .top-4 {
   top: 1rem;
-}
-
-.right-1 {
-  right: .25rem;
 }
 
 .isolate {
@@ -2573,11 +2573,6 @@ select {
 .\!text-gray-500 {
   --tw-text-opacity: 1 !important;
   color: rgb(107 114 128 / var(--tw-text-opacity, 1)) !important;
-}
-
-.text-\[\#1464f5\] {
-  --tw-text-opacity: 1;
-  color: rgb(20 100 245 / var(--tw-text-opacity, 1));
 }
 
 .text-black {
@@ -13681,11 +13676,6 @@ main > .topbr {
 .hover\:text-indigo-600:hover {
   --tw-text-opacity: 1;
   color: rgb(79 70 229 / var(--tw-text-opacity, 1));
-}
-
-.hover\:text-sky-400:hover {
-  --tw-text-opacity: 1;
-  color: rgb(56 189 248 / var(--tw-text-opacity, 1));
 }
 
 .focus\:outline-none:focus {

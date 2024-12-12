@@ -1,1 +1,16 @@
-{}
+{
+  "components/Brands_payments/AllPayments2.jsx -> react-slick": {
+    "id": "components/Brands_payments/AllPayments2.jsx -> react-slick",
+    "files": [
+      "static/chunks/node_modules_288834._.js",
+      "static/chunks/node_modules_react-slick_lib_index_a654d6.js"
+    ]
+  },
+  "components/Brands_bonuses/AllBonuses2.jsx -> react-slick": {
+    "id": "components/Brands_bonuses/AllBonuses2.jsx -> react-slick",
+    "files": [
+      "static/chunks/node_modules_288834._.js",
+      "static/chunks/node_modules_react-slick_lib_index_a654d6.js"
+    ]
+  }
+}

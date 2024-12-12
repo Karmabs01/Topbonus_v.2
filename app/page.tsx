@@ -21,7 +21,7 @@ import FilteredHome from "@/components/Brands_home/FilteredHome";
 import Fortunes from "@/components/fortune";
 import NewArrivals from "@/components/newArrivals/NewArrivals";
 
-import Otp from "@/components/Otp";
+// import Otp from "@/components/Otp";
 
 // import BasicModal from "@/components/modalFriday";
 // import Loader from "@/components/Loader";
@@ -39,7 +39,7 @@ export default async function Home() {
   return (
     <>
 
-      <Otp />
+      {/* <Otp /> */}
       <Three_part_gallery />
       {/* <TopBrands />
       <Banner_small />

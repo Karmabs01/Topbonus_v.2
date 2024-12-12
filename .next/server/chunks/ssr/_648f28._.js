@@ -1485,7 +1485,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$pin$2d$input$2f$dist$2f$bundle$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-pin-input/dist/bundle.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$index$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/index.js [app-ssr] (ecmascript) <module evaluation>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/useTranslation.js [app-ssr] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/router.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/navigation.js [app-ssr] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 "use client";
 ;
@@ -1495,7 +1495,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$rout
 ;
 const VerifyOtpForm = ({ otpId, email, onChangeEmail })=>{
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useTranslation"])();
-    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$router$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
     const [code, setCode] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("");
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [error, setError] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
@@ -1528,7 +1528,9 @@ const VerifyOtpForm = ({ otpId, email, onChangeEmail })=>{
                     otpVerified: true
                 }));
                 // Перенаправление пользователя на главную страницу или другую целевую страницу
-                router.push('/'); // Используем useRouter для перенаправления
+                // router.push('/'); // Используем useRouter для перенаправления
+                // router.refresh(); 
+                window.location.href = '/';
             } else {
                 setError(data.message || t("Error when verifying OTP."));
                 setAttempts((prev)=>prev + 1);
@@ -1550,7 +1552,7 @@ const VerifyOtpForm = ({ otpId, email, onChangeEmail })=>{
                     children: t("Maximum Attempts Exceeded")
                 }, void 0, false, {
                     fileName: "[project]/components/VerifyOtpForm/index.tsx",
-                    lineNumber: 66,
+                    lineNumber: 68,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1558,13 +1560,13 @@ const VerifyOtpForm = ({ otpId, email, onChangeEmail })=>{
                     children: t("Please request OTP again.")
                 }, void 0, false, {
                     fileName: "[project]/components/VerifyOtpForm/index.tsx",
-                    lineNumber: 67,
+                    lineNumber: 69,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/VerifyOtpForm/index.tsx",
-            lineNumber: 65,
+            lineNumber: 67,
             columnNumber: 7
         }, this);
     }
@@ -1575,7 +1577,7 @@ const VerifyOtpForm = ({ otpId, email, onChangeEmail })=>{
                 children: t("Please enter the code")
             }, void 0, false, {
                 fileName: "[project]/components/VerifyOtpForm/index.tsx",
-                lineNumber: 75,
+                lineNumber: 77,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1588,13 +1590,13 @@ const VerifyOtpForm = ({ otpId, email, onChangeEmail })=>{
                         children: email
                     }, void 0, false, {
                         fileName: "[project]/components/VerifyOtpForm/index.tsx",
-                        lineNumber: 77,
+                        lineNumber: 79,
                         columnNumber: 38
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/VerifyOtpForm/index.tsx",
-                lineNumber: 76,
+                lineNumber: 78,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -1627,12 +1629,12 @@ const VerifyOtpForm = ({ otpId, email, onChangeEmail })=>{
                             autoSelect: true
                         }, void 0, false, {
                             fileName: "[project]/components/VerifyOtpForm/index.tsx",
-                            lineNumber: 82,
+                            lineNumber: 84,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/VerifyOtpForm/index.tsx",
-                        lineNumber: 81,
+                        lineNumber: 83,
                         columnNumber: 9
                     }, this),
                     error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1640,7 +1642,7 @@ const VerifyOtpForm = ({ otpId, email, onChangeEmail })=>{
                         children: error
                     }, void 0, false, {
                         fileName: "[project]/components/VerifyOtpForm/index.tsx",
-                        lineNumber: 103,
+                        lineNumber: 105,
                         columnNumber: 19
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1650,7 +1652,7 @@ const VerifyOtpForm = ({ otpId, email, onChangeEmail })=>{
                         children: loading ? "loading" : t("SUBMIT")
                     }, void 0, false, {
                         fileName: "[project]/components/VerifyOtpForm/index.tsx",
-                        lineNumber: 104,
+                        lineNumber: 106,
                         columnNumber: 9
                     }, this),
                     attempts > 0 && attempts < maxAttempts && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1666,7 +1668,7 @@ const VerifyOtpForm = ({ otpId, email, onChangeEmail })=>{
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/VerifyOtpForm/index.tsx",
-                        lineNumber: 112,
+                        lineNumber: 114,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1680,26 +1682,26 @@ const VerifyOtpForm = ({ otpId, email, onChangeEmail })=>{
                                 children: t("resend the code")
                             }, void 0, false, {
                                 fileName: "[project]/components/VerifyOtpForm/index.tsx",
-                                lineNumber: 119,
+                                lineNumber: 121,
                                 columnNumber: 11
                             }, this),
                             "."
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/VerifyOtpForm/index.tsx",
-                        lineNumber: 117,
+                        lineNumber: 119,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/VerifyOtpForm/index.tsx",
-                lineNumber: 80,
+                lineNumber: 82,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/VerifyOtpForm/index.tsx",
-        lineNumber: 73,
+        lineNumber: 75,
         columnNumber: 5
     }, this);
 };

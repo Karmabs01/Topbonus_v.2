@@ -19,7 +19,7 @@ export default async function Casinos() {
 
   
   return (
-    <div className="page-bonuses">
+    <div className="page-bonuses otp-ver-if">
       {/* <PreviewBonuses /> */}
       <Casinos2 />
       <Brands_carousel target={target} categoryBrands={categoryBrands} creative={creative} />

@@ -15,7 +15,7 @@ export default async function Bonuses() {
   const creative = "Page_Bonuses";
   const target = "Page_Bonuses";
   return (
-    <div className="page-bonuses">
+    <div className="page-bonuses otp-ver-if">
       <Bonuses2 />
       <Brands_carousel target={target} categoryBrands={categoryBrands} creative={creative} />
       <div className="main__container">

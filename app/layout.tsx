@@ -1,25 +1,25 @@
-import Head from 'next/head';
-import { Analytics } from '@vercel/analytics/react';
-import { TheHeader } from '@/components/TheHeader';
-import { Header_tailwind } from '@/components/Header_tailwind';
-import { Footer_tailwind } from '@/components/Footer_tailwind';
+import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
+import { TheHeader } from "@/components/TheHeader";
+import { Header_tailwind } from "@/components/Header_tailwind";
+import { Footer_tailwind } from "@/components/Footer_tailwind";
 import Chat from "@/components/Chat_support";
 
-import BackToTopButton from '@/components/BackToTopButton';
-import './globals.css';
-import type { Metadata } from 'next';
-import { TheFooter } from '@/components/TheFooter';
-import { LanguageProvider } from '@/components/switcher/LanguageContext';
-import RandomWindow from '@/components/random/RandomWindow';
-import Marque from '@/components/Marque';
-import Script from 'next/script';
-import MainWrapper from '@/components/MainWrapper'; // Импортируем клиентский компонент
-
+import BackToTopButton from "@/components/BackToTopButton";
+import "./globals.css";
+import type { Metadata } from "next";
+import { TheFooter } from "@/components/TheFooter";
+import { LanguageProvider } from "@/components/switcher/LanguageContext";
+import RandomWindow from "@/components/random/RandomWindow";
+import Marque from "@/components/Marque";
+import Script from "next/script";
+import MainWrapper from "@/components/MainWrapper"; // Импортируем клиентский компонент
+import { OtpProvider } from "@/context/OtpContext";
 export const metadata: Metadata = {
   title:
-    'Bonus topbon.us: Your Comprehensive Source for Casino Reviews and Insights',
+    "Bonus topbon.us: Your Comprehensive Source for Casino Reviews and Insights",
   description:
-    'Welcome to Bonus topbon.us, your ultimate destination for comprehensive casino reviews and invaluable insights...',
+    "Welcome to Bonus topbon.us, your ultimate destination for comprehensive casino reviews and invaluable insights...",
 };
 
 export default function RootLayout({
@@ -34,7 +34,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
           rel="stylesheet"
         />
-     <Script
+        <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-LTL641RYK9"
           strategy="afterInteractive"
         />
@@ -47,15 +47,17 @@ export default function RootLayout({
           `}
         </Script>
       </head>
-      <body>
+      <body className="">
         <LanguageProvider>
-          <Header_tailwind />
-          <Chat />
-          <MainWrapper>
-            {children}
-            <Analytics />
-          </MainWrapper>
-          <Footer_tailwind />
+          <OtpProvider>
+            <Header_tailwind />
+            <Chat />
+            <MainWrapper>
+              {children}
+              <Analytics />
+            </MainWrapper>
+            <Footer_tailwind />
+          </OtpProvider>
         </LanguageProvider>
         <BackToTopButton />
 
@@ -75,7 +77,7 @@ export default function RootLayout({
           src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js"
           defer
         ></Script> */}
-            {/* <Script id="ladesc" strategy="afterInteractive">
+        {/* <Script id="ladesc" strategy="afterInteractive">
           {`
             (function (d, src, c) {
               var t = d.scripts[d.scripts.length - 1],
