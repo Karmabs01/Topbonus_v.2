@@ -205,7 +205,7 @@ const UserBrands = () => {
 
 
   return (
-    <div className="main__container thisis">
+    <div className="main__container thisis otp-ver-if">
       {brands.length > 0 ? (
         <div className="flex flex-col mt-10 mob-mt10">
           <div className="w-full brand_carousel rounded-md">
