@@ -11,7 +11,7 @@ interface OtpModalProps {
 
 const OtpModal: React.FC<OtpModalProps> = ({ onClose }) => {
   const [otpId, setOtpId] = useState<string | null>(null);
-  const [email, setEmail] = useState('');
+  const [email, setEmail] = useState("");
   const [keyword2, setKeyword2] = useState<string | null>(null);
 
   const handleOtpRequested = (id: string, email: string) => {
@@ -21,17 +21,14 @@ const OtpModal: React.FC<OtpModalProps> = ({ onClose }) => {
 
   const handleOtpVerified = (keyword: string) => {
     setKeyword2(keyword);
-
-
     onClose();
   };
+
   const handleChangeEmail = () => {
     // Сброс состояния OTP и email для возврата к вводу email
     setOtpId(null);
-    setEmail('');
+    setEmail("");
   };
-
-
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
