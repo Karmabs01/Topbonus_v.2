@@ -45,7 +45,6 @@ const OtpModal: React.FC<OtpModalProps> = ({ onClose }) => {
           <VerifyOtpForm
             otpId={otpId}
             email={email}
-            onSuccess={handleOtpVerified}
             onChangeEmail={handleChangeEmail} // Передача обработчика изменения email
           />
         )}
