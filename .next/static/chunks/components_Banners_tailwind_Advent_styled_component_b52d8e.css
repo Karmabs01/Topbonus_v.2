@@ -51,7 +51,7 @@
 .dated {
   position: absolute;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
   max-width: 50px;
   width: 100%;
   left: calc(50% - 25px);
@@ -96,7 +96,61 @@
 
 .closed {
   background: #989ba5;
+  background: url("/newimages/notact.png") top no-repeat;
   border-radius: 32px;
+}
+
+.nonoact {
+  width: 192px;
+  height: 96px;
+}
+
+.card-advent:first-child .dated, .card-advent:nth-child(2) .dated, .card-advent:nth-child(3) .dated, .card-advent:nth-child(4) .dated, .card-advent:nth-child(5) .dated {
+  background: linear-gradient(161deg, #5aa148, #3b702e);
+}
+
+.card-advent:first-child .btn-play, .card-advent:nth-child(2) .btn-play, .card-advent:nth-child(3) .btn-play, .card-advent:nth-child(4) .btn-play, .card-advent:nth-child(5) .btn-play {
+  background: linear-gradient(161deg, #5aa148, #3b702e);
+}
+
+.card-advent:nth-child(6) .dated, .card-advent:nth-child(7) .dated, .card-advent:nth-child(8) .dated, .card-advent:nth-child(9) .dated, .card-advent:nth-child(10) .dated {
+  background: linear-gradient(161deg, #6c37b1, #310877);
+}
+
+.card-advent:nth-child(6) .btn-play, .card-advent:nth-child(7) .btn-play, .card-advent:nth-child(8) .btn-play, .card-advent:nth-child(9) .btn-play, .card-advent:nth-child(10) .btn-play {
+  background: linear-gradient(161deg, #6c37b1, #310877);
+}
+
+.card-advent:nth-child(11) .dated, .card-advent:nth-child(12) .dated, .card-advent:nth-child(13) .dated, .card-advent:nth-child(14) .dated, .card-advent:nth-child(15) .dated {
+  background: linear-gradient(161deg, #088af6, #568df0);
+}
+
+.card-advent:nth-child(11) .btn-play, .card-advent:nth-child(12) .btn-play, .card-advent:nth-child(13) .btn-play, .card-advent:nth-child(14) .btn-play, .card-advent:nth-child(15) .btn-play {
+  background: linear-gradient(161deg, #088af6, #568df0);
+}
+
+.activate .btn-play {
+  background: #ff8f1f !important;
+}
+
+.opened {
+  background: url("/newimages/yesact.png") top no-repeat;
+}
+
+.card-advent:nth-child(3n+1) .nonoact {
+  background: url("/newimages/box_1_dark.png") top no-repeat;
+}
+
+.card-advent:nth-child(3n+2) .nonoact {
+  background: url("/newimages/box_2_dark.png") top no-repeat;
+}
+
+.card-advent:nth-child(3n+3) .nonoact {
+  background: url("/newimages/box_3_dark.png") top no-repeat;
+}
+
+.closed .btn-play {
+  opacity: .5;
 }
 
 .closed .dated {

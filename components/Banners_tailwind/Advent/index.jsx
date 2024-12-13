@@ -193,12 +193,10 @@ export default function Brands_carousel() {
           ) : (
             <div>
               <h2 className="text-3xl font-bold tracking-tight text-white random-title mb-3 text-center">
-                Christmas Calendar
+                {t("Christmas Calendar")}
               </h2>
               <p className="mb-3 text-center text-white">
-                Join us for 15 days of festive surprises! Unlock exclusive
-                bonuses, free spins, and exciting offers from top online casinos
-                - one new deal every day from December 1st to 15th!
+                {t("Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!")}"
               </p>
               <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap">
                 {brands.length > 0 &&
@@ -209,7 +207,7 @@ export default function Brands_carousel() {
                     return (
                       <div
                         key={index}
-                        className={`rounded-xl flex flex-col justify-between basis-[18%] relative mt-16 ${
+                        className={`card-advent rounded-xl flex flex-col justify-between basis-[18%] relative mt-16 ${
                           isOpened ? "opened" : "closed"
                         } ${isActivated ? "activate" : ""}`}
                       >
@@ -247,17 +245,11 @@ export default function Brands_carousel() {
                               ) : isOpened ? (
                                 // Состояние, когда isOpened === true, но isActivated === false
                                 <div className="flex flex-col items-center">
-                                  <div className="mt-3 mb-2 opennow">
-                                    <Image
-                                      src={star2} // Путь к заглушке или альтернативному изображению
-                                      alt="Placeholder"
-                                      width={192}
-                                      height={96}
-                                      loading="lazy"
-                                    />
+                                  <div className="mt-3 mb-2 opennow nonoact">
+                                   
                                   </div>
                                   <p className="!m-0">
-                                    {t("Available to Activate")}
+                                    {t("Ready to Activate")}
                                   </p>
                                   <button
                                     className="relative btn-play btn-blick overflow-hidden"
@@ -269,14 +261,8 @@ export default function Brands_carousel() {
                               ) : (
                                 // Состояние, когда ни isActivated, ни isOpened не равны true
                                 <div className="flex flex-col items-center">
-                                  <div className="mt-3 mb-2">
-                                    <Image
-                                      src={cs} // Путь к заглушке или альтернативному изображению
-                                      alt="Placeholder"
-                                      width={192}
-                                      height={96}
-                                      loading="lazy"
-                                    />
+                                  <div className="mt-3 mb-2 nonoact">
+                                 
                                   </div>
                                   <p className="!m-0">
                                     {t("Not Yet Available")}

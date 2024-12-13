@@ -612,7 +612,23 @@ async function initializeI18n() {
                 "Time’s running out!": "Time’s running out!",
                 "Grab your exclusive casino deal before it disappears!": "Grab your exclusive casino deal before it disappears!",
                 Take: "Get",
-                "Your bonuses are on the way, one moment..": "Your bonuses are on the way, one moment.."
+                "Your bonuses are on the way, one moment..": "Your bonuses are on the way, one moment..",
+                "Christmas Calendar": "Christmas Calendar",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!",
+                "Ready to Activate": "Ready to Activate",
+                "Activate": "Activate",
+                "Not Yet Available": "Not Yet Available",
+                "Not Yet": "Not Yet",
+                "TOP": "TOP",
+                "New Releases": "New Releases",
+                "Discover the hottest new arrivals and start playing today!": "Discover the hottest new arrivals and start playing today!",
+                "Best": "",
+                "VIP Programs": "VIP Programs",
+                "": "",
+                "": "",
+                "": "",
+                "": "",
+                "": ""
             }
         },
         pl: {
