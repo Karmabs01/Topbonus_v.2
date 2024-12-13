@@ -188,6 +188,8 @@ async function initializeI18n() {
     newLng = availableLanguagesCLD_VIP;
   } else if (item === "partner1049") {
     newLng = availableLanguagesCLD_VIP;
+  } else if (item === "partner1050") {
+    newLng = availableLanguagesCLD_VIP;
   } else if (item === "partner1047") {
     newLng = availableLanguagesCLD_VIP;
   } else {

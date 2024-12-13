@@ -84,6 +84,7 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
       "CLD_VIP",
       "partner1045_b1",
       "partner1046",
+      "partner1050",
       "partner1049",
       "partner1047",
     ];
