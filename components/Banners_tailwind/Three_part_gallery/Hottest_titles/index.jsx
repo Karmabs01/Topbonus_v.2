@@ -55,6 +55,8 @@ export default function Popular_offers() {
     const partners = [
       "partner1039",
       "partner1043",
+      "partner1050",
+
       "partner1044",
       "CLD_VIP",
       "partner1045_b1",

@@ -181,6 +181,8 @@ const BrandsSwitcher = () => {
     newLng = availableLanguages1039;
   } else if (item === "partner1043") {
     newLng = availableLanguages1043;
+  } else if (item === "partner1050") {
+    newLng = availableLanguages1043;
   } else if (item === "partner1044") {
     newLng = availableLanguages1044;
   } else if (item === "CLD_VIP") {

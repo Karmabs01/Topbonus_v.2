@@ -85,6 +85,8 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
       "partner1046",
       "partner1049",
       "partner1047",
+      "partner1050",
+
     ];
 
     function setPartnerSource(keyword) {

@@ -41,6 +41,7 @@ export default function TopBrandsRandom() {
     const partners = [
       "partner1039",
       "partner1043",
+      "partner1050",
       "partner1044",
       "CLD_VIP",
       "partner1045_b1",
@@ -106,6 +107,9 @@ export default function TopBrandsRandom() {
       case "partner1043":
         url = "https://info.topbon.us/rnd1043";
         break;
+        case "partner1050":
+          url = "https://info.topbon.us/rnd1043";
+          break;
       case "partner1044":
         url = "https://link.gobig.finance/rnd1044";
         break;

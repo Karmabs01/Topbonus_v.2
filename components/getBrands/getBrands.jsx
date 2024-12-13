@@ -138,6 +138,8 @@ export const getBrands = async (categoryBrands, lng) => {
   const partners = {
     partner1039: { url: api1039, languages: availableLanguages1039 },
     partner1043: { url: api1043, languages: availableLanguages1043 },
+    partner1050: { url: api1043, languages: availableLanguages1043 },
+
     partner1044: { url: api1044, languages: availableLanguages1044 },
     CLD_VIP: { url: apiCLD_VIP, languages: availableLanguagesCLD_VIP },
     partner1045_b1: { url: api1045, languages: availableLanguages1045 },

@@ -65,6 +65,9 @@ export default function Timestamp() {
         case "partner1043":
           url = `https://info.topbon.us/rnd1043/${newUrl}&creative_id=XXL_JIN`;
           break;
+          case "partner1050":
+            url = `https://info.topbon.us/rnd1043/${newUrl}&creative_id=XXL_JIN`;
+            break;
         case "partner1044":
           url = `https://info.topbon.us/rnd1044/${newUrl}&creative_id=XXL_JIN`;
           break;

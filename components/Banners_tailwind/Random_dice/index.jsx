@@ -23,6 +23,9 @@ export default function Random_block() {
       case "partner1043":
         url = "https://info.topbon.us/rnd1043";
         break;
+        case "partner1050":
+          url = "https://info.topbon.us/rnd1043";
+          break;
       case "partner1044":
         url = "https://link.gobig.finance/rnd1044";
         break;

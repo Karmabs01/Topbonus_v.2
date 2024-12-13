@@ -196,6 +196,9 @@ export default function MultipleSelectPlaceholder() {
     case "partner1043":
       newFlag = flags1043;
       break;
+      case "partner1050":
+        newFlag = flags1043;
+        break;
     case "partner1044":
       newFlag = flags1044;
       break;
