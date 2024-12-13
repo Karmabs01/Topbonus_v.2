@@ -120,7 +120,7 @@ const LanguageSwitcher = () => {
       newLng = availableLanguagesCLD_VIP;
       break;
       case "partner1050":
-        newLng = availableLanguagesCLD_VIP;
+        newLng = availableLanguages1043;
         break;
       case "partner1049":
         newLng = availableLanguagesCLD_VIP;
