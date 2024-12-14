@@ -988,6 +988,50 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   border-radius: 15px;
 }
 
+.advnt {
+  background-image: url("/newimages/adventcalendar_dark.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  border: 2.5px solid #ffffff4d;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .card-advent {
+    flex-basis: 48% !important;
+  }
+
+  .advnt {
+    background: url("/newimages/bgmomob2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding: 12px !important;
+  }
+
+  .opened, .closed {
+    background-size: contain;
+    border-radius: 30px !important;
+  }
+
+  .nonoact {
+    max-width: 192px;
+    max-height: 96px;
+    width: 146px;
+    height: 73px;
+  }
+
+  .card-advent img {
+    width: 146px;
+    height: 73px;
+  }
+
+  .card-sl {
+    width: 100%;
+    border-radius: 30px !important;
+  }
+}
+
 
 /* [project]/node_modules/slick-carousel/slick/slick.css [app-ssr] (css) */
 .slick-slider {

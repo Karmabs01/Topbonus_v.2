@@ -38,14 +38,14 @@ export default async function Home() {
   return (
     <>
 
-      {/* <Three_part_gallery /> */}
-      {/* <TopBrands /> */}
+      <Three_part_gallery />
       <Advent />
-      {/* <Banner_small />
+      <TopBrands />
+      <Banner_small />
 
       <Next_event_banner />
 
-      <Banner_small_vip /> */}
+      <Banner_small_vip />
   
     </>
   );
