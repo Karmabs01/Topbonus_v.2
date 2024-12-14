@@ -7,7 +7,6 @@ import Link from "next/link";
 import { useLanguage } from "../../switcher/LanguageContext";
 import { getBrands } from "../../getBrands/getBrands2";
 import { useTranslation } from "react-i18next";
-import Slider from "react-slick";
 import "./styled.component.css";
 import { getUserData } from "@/components/getUser/getUser";
 import cs from "@/public/newimages/cs.png";
@@ -24,12 +23,18 @@ export default function Brands_carousel() {
 
   const { language } = useLanguage();
   const { t } = useTranslation();
-  const categoryBrands = { key1: "Video", key2: "VIP" };
-  const creative = "Advent";
 
+  // Основная категория (важная)
+  const categoryBrands = { key1: "Video", key2: "Advent" };
+  // Вторая категория для массовки
+  const categoryBrands2 = { key1: "Segment2", key2: "Premium" };
+
+  const creative = "Advent";
   const today = new Date().getDate();
 
-  // Восстанавливаем состояние activate из localStorage
+  // Приоритетные бренды
+  const priorityBrands = ["Fairspin", "Trip2vip", "GreenLuck"];
+
   useEffect(() => {
     const savedActivatedBrands = localStorage.getItem("activatedBrands");
     if (savedActivatedBrands) {
@@ -37,7 +42,6 @@ export default function Brands_carousel() {
     }
   }, []);
 
-  // Сохраняем состояние activate в localStorage при каждом изменении
   useEffect(() => {
     if (activatedBrands.length > 0) {
       localStorage.setItem("activatedBrands", JSON.stringify(activatedBrands));
@@ -69,7 +73,7 @@ export default function Brands_carousel() {
     ];
 
     function setPartnerSource(keyword) {
-      const partner = partners.find((p) => keyword.includes(p));
+      const partner = partners.find((p) => keyword && keyword.includes(p));
       if (partner) {
         localStorage.setItem("source", partner);
         setSource(partner);
@@ -88,8 +92,6 @@ export default function Brands_carousel() {
       setPartnerSource(currentKeyword);
     }
 
-    const ad_campaign = localStorage.getItem("ad_campaign_id");
-
     const savedUrl = localStorage.getItem("savedUrl");
     if (savedUrl) {
       setNewUrl(savedUrl);
@@ -101,6 +103,7 @@ export default function Brands_carousel() {
     () => getBrands(language),
     { initialData: brands }
   );
+
   let userId = "";
   if (typeof window !== "undefined") {
     userId = localStorage.getItem("user_id") || "";
@@ -108,63 +111,178 @@ export default function Brands_carousel() {
 
   useEffect(() => {
     const fetchUserBrands = async () => {
-      const filteredByCategory = data.filter(
-        (brand) => brand[categoryBrands.key1] === categoryBrands.key2
-      );
       try {
-        if (!data) {
+        if (!data || data.length === 0) {
           console.warn("Данные брендов отсутствуют");
           setLoading(false);
           return;
         }
 
-        if (!userId) {
-          setBrands(filteredByCategory);
-          setLoading(false);
-          return;
+        // 1. Фильтруем основную категорию (Video: Advent)
+        const mainCategoryData = data.filter(
+          (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
+        );
+
+        // 2. Вторая категория для массовки
+        const secondaryCategoryData = data.filter(
+          (rowData) => rowData[categoryBrands2.key1] === categoryBrands2.key2
+        );
+
+        // Объединяем результаты: сначала главная категория, потом массовка
+        let finalFilteredBrands = [...mainCategoryData, ...secondaryCategoryData];
+
+        let salesCampaignIds = [];
+        if (userId) {
+          // Фильтрация по продажам
+          const dataUser = await getUserData(userId);
+          let sales = dataUser.sales;
+          if (typeof sales === 'string') {
+            try {
+              sales = JSON.parse(sales);
+            } catch (error) {
+              console.error("Ошибка при парсинге sales:", error);
+              sales = [];
+            }
+          }
+          if (!Array.isArray(sales)) {
+            sales = [];
+          }
+          salesCampaignIds = sales.map((sale) => sale.campaignId);
+
+          finalFilteredBrands = finalFilteredBrands.filter(
+            (brand) =>
+              !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
+              !salesCampaignIds.includes(brand.KeitaroR2dID)
+          );
         }
 
-        const dataUser = await getUserData(userId);
-        console.log("Полные данные пользователя:", dataUser);
+        // Проверяем, сколько брендов получилось
+        if (finalFilteredBrands.length < 15) {
+          const needed = 15 - finalFilteredBrands.length;
+          const usedBrands = new Set(finalFilteredBrands.map(b => b.CasinoBrand));
 
-        let sales = dataUser.sales;
-
-        if (typeof sales === "string") {
-          try {
-            sales = JSON.parse(sales);
-          } catch (error) {
-            console.error("Ошибка при парсинге sales:", error);
-            sales = [];
+          // Добираем из всех data бренды, которых нет и которые не в sales
+          let additional = data.filter((brand) =>
+            !usedBrands.has(brand.CasinoBrand) &&
+            !(salesCampaignIds.includes(brand.KeitaroGoBigID) || salesCampaignIds.includes(brand.KeitaroR2dID))
+          );
+          if (additional.length > 0) {
+            finalFilteredBrands = finalFilteredBrands.concat(additional.slice(0, needed));
           }
         }
 
-        if (!Array.isArray(sales)) {
-          console.warn("Поле sales не является массивом:", sales);
-          sales = [];
+        // Если всё ещё меньше 15, просто берём первые 15 из data (fallback)
+        if (finalFilteredBrands.length < 15) {
+          finalFilteredBrands = data.slice(0, 15);
         }
 
-        const salesCampaignIds = sales.map((sale) => sale.campaignId);
+        // Теперь гарантируем, что приоритетные бренды есть в списке, если они есть в data.
+        // Иначе берём их напрямую из data без фильтров.
+        const ensureBrandInList = (brandName) => {
+          const existsInFinal = finalFilteredBrands.some(
+            (b) => (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
+          );
+          if (!existsInFinal) {
+            // Пытаемся найти в data
+            const fromData = data.find(
+              (b) => (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
+            );
+            if (fromData) {
+              // Добавляем бренд в список, если его там не было
+              finalFilteredBrands.push(fromData);
+            }
+          }
+        };
 
-        const finalFilteredBrands = filteredByCategory.filter(
-          (brand) =>
-            !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
-            !salesCampaignIds.includes(brand.KeitaroR2dID)
-        );
+        // Гарантируем присутствие приоритетных брендов
+        priorityBrands.forEach((brandName) => ensureBrandInList(brandName));
+
+        // Если после добавления приоритетных брендов стало больше 15,
+        // обрежем до 15, т.к. главный приоритет — гарантировать их присутствие.
+        if (finalFilteredBrands.length > 15) {
+          // Но нам важно сохранить приоритетный порядок.
+          // Поэтому сначала переставим, потом обрежем.
+        }
+
+        // Функция для перемещения бренда на определенный индекс
+        const moveBrandToIndex = (array, brandName, targetIndex) => {
+          const index = array.findIndex(
+            (b) => (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
+          );
+          if (index > -1 && index !== targetIndex) {
+            const [brandObj] = array.splice(index, 1);
+            if (targetIndex >= array.length) {
+              array.push(brandObj);
+            } else {
+              array.splice(targetIndex, 0, brandObj);
+            }
+          }
+        };
+
+        // Перемещаем бренды в нужный порядок:
+        // Fairspin -> индекс 0
+        // Trip2vip -> индекс 1
+        // GreenLuck -> индекс 2
+        moveBrandToIndex(finalFilteredBrands, "Fairspin", 0);
+        moveBrandToIndex(finalFilteredBrands, "Trip2vip", 1);
+        moveBrandToIndex(finalFilteredBrands, "GreenLuck", 2);
+
+        // Теперь обрежем до 15 брендов
+        finalFilteredBrands = finalFilteredBrands.slice(0, 15);
 
         setBrands(finalFilteredBrands);
         setLoading(false);
       } catch (error) {
-        setBrands(filteredByCategory);
-        console.error(
-          "Ошибка при получении данных пользователя или брендов:",
-          error
-        );
+        console.error("Ошибка при получении данных пользователя или брендов:", error);
+        // Если ошибка, fallback: просто первые 15 из data
+        let fallbackBrands = data.slice(0, 15);
+
+        // Гарантируем приоритетные бренды из data
+        priorityBrands.forEach((brandName) => {
+          const inFallback = fallbackBrands.some((b) => (b.CasinoBrand||"").toLowerCase()===brandName.toLowerCase());
+          if(!inFallback){
+            const fromData = data.find((b)=>(b.CasinoBrand||"").toLowerCase()===brandName.toLowerCase());
+            if(fromData){
+              fallbackBrands.push(fromData);
+            }
+          }
+        });
+
+        // Перемещаем приоритет
+        const moveBrandToIndex = (array, brandName, targetIndex) => {
+          const index = array.findIndex(
+            (b) => (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
+          );
+          if (index > -1 && index !== targetIndex) {
+            const [brandObj] = array.splice(index, 1);
+            if (targetIndex >= array.length) {
+              array.push(brandObj);
+            } else {
+              array.splice(targetIndex, 0, brandObj);
+            }
+          }
+        };
+
+        moveBrandToIndex(fallbackBrands, "Fairspin", 0);
+        moveBrandToIndex(fallbackBrands, "Trip2vip", 1);
+        moveBrandToIndex(fallbackBrands, "GreenLuck", 2);
+
+        fallbackBrands = fallbackBrands.slice(0, 15);
+
+        setBrands(fallbackBrands);
         setLoading(false);
       }
     };
 
     fetchUserBrands();
-  }, [data, userId, categoryBrands.key1, categoryBrands.key2]);
+  }, [
+    data,
+    userId,
+    categoryBrands.key1,
+    categoryBrands.key2,
+    categoryBrands2.key1,
+    categoryBrands2.key2
+  ]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -184,6 +302,8 @@ export default function Brands_carousel() {
     }
   };
 
+  console.log("Final brands order:", brands.map(b => b.CasinoBrand));
+
   return (
     <>
       <div className="sm:mt-10 mt-5 mb-5 mob-mt10 advent mb-16">
@@ -196,11 +316,11 @@ export default function Brands_carousel() {
                 {t("Christmas Calendar")}
               </h2>
               <p className="mb-3 text-center text-white">
-                {t("Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!")}"
+                {t("Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!")}
               </p>
               <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap">
                 {brands.length > 0 &&
-                  brands.slice(0, 15).map((rowData, index) => {
+                  brands.map((rowData, index) => {
                     const isOpened = index + 1 <= today;
                     const isActivated = activatedBrands.includes(index);
 
@@ -216,7 +336,6 @@ export default function Brands_carousel() {
                           <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row card-sl">
                             <div className="w-full">
                               {isActivated ? (
-                                // Состояние, когда isActivated === true
                                 <div className="flex flex-col items-center">
                                   <Link
                                     className="mt-3 mb-2"
@@ -243,11 +362,8 @@ export default function Brands_carousel() {
                                   </Link>
                                 </div>
                               ) : isOpened ? (
-                                // Состояние, когда isOpened === true, но isActivated === false
                                 <div className="flex flex-col items-center">
-                                  <div className="mt-3 mb-2 opennow nonoact">
-                                   
-                                  </div>
+                                  <div className="mt-3 mb-2 opennow nonoact"></div>
                                   <p className="!m-0">
                                     {t("Ready to Activate")}
                                   </p>
@@ -259,11 +375,8 @@ export default function Brands_carousel() {
                                   </button>
                                 </div>
                               ) : (
-                                // Состояние, когда ни isActivated, ни isOpened не равны true
                                 <div className="flex flex-col items-center">
-                                  <div className="mt-3 mb-2 nonoact">
-                                 
-                                  </div>
+                                  <div className="mt-3 mb-2 nonoact"></div>
                                   <p className="!m-0">
                                     {t("Not Yet Available")}
                                   </p>
@@ -281,6 +394,12 @@ export default function Brands_carousel() {
                       </div>
                     );
                   })}
+
+                {brands.length === 0 && (
+                  <div className="text-white text-center">
+                    {t("No Brands Available")}
+                  </div>
+                )}
               </div>
             </div>
           )}

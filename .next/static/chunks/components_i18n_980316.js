@@ -622,13 +622,9 @@ async function initializeI18n() {
                 "TOP": "TOP",
                 "New Releases": "New Releases",
                 "Discover the hottest new arrivals and start playing today!": "Discover the hottest new arrivals and start playing today!",
-                "Best": "",
+                "Best": "Best",
                 "VIP Programs": "VIP Programs",
-                "": "",
-                "": "",
-                "": "",
-                "": "",
-                "": ""
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Enjoy exclusive bonuses, special rewards, and premium support!"
             }
         },
         pl: {

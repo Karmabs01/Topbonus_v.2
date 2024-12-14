@@ -210,7 +210,7 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
     return () => clearInterval(interval);
   }, [brands.length]);
 
-  console.log("HHHH", brands)
+
 
   return (
     <>
