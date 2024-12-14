@@ -63,6 +63,12 @@ const Navigation = ({ navLinks, onLinkClick })=>{
             case "partner1046":
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
+            case "partner1050":
+                url = "https://info.topbon.us/rnd1043";
+                break;
+            case "partner1049":
+                url = "https://link.bo-nus.com/rnd_cld";
+                break;
             case "partner1047":
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
@@ -89,12 +95,12 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                             children: link.label
                         }, void 0, false, {
                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                            lineNumber: 100,
+                            lineNumber: 106,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                        lineNumber: 99,
+                        lineNumber: 105,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$popover$2f$popover$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PopoverPanel"], {
@@ -113,7 +119,7 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                     children: subLink.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 121,
                                                     columnNumber: 25
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -126,29 +132,29 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                                 className: "absolute inset-0"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                                lineNumber: 124,
+                                                                lineNumber: 130,
                                                                 columnNumber: 29
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                        lineNumber: 119,
+                                                        lineNumber: 125,
                                                         columnNumber: 27
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 118,
+                                                    lineNumber: 124,
                                                     columnNumber: 25
                                                 }, this)
                                             ]
                                         }, subLink.label, true, {
                                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                            lineNumber: 111,
+                                            lineNumber: 117,
                                             columnNumber: 23
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                    lineNumber: 108,
+                                    lineNumber: 114,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -164,12 +170,12 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                         children: t("Try Your Luck!")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                        lineNumber: 133,
+                                                        lineNumber: 139,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 132,
+                                                    lineNumber: 138,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -177,13 +183,13 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                     children: t("Feeling lucky? Discover random casino brands and test your fortune!")
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 140,
+                                                    lineNumber: 146,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                            lineNumber: 131,
+                                            lineNumber: 137,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -198,52 +204,52 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                         children: t("Take a Chance!")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                        lineNumber: 152,
+                                                        lineNumber: 158,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 151,
+                                                    lineNumber: 157,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                lineNumber: 147,
+                                                lineNumber: 153,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                            lineNumber: 146,
+                                            lineNumber: 152,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                    lineNumber: 130,
+                                    lineNumber: 136,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                            lineNumber: 107,
+                            lineNumber: 113,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                        lineNumber: 103,
+                        lineNumber: 109,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$popover$2f$popover$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["PopoverBackdrop"], {
                         className: "fixed inset-0 w-screen h-screen z-10 -top-20 -left-32"
                     }, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                        lineNumber: 159,
+                        lineNumber: 165,
                         columnNumber: 13
                     }, this)
                 ]
             }, link.label, true, {
                 fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                lineNumber: 98,
+                lineNumber: 104,
                 columnNumber: 11
             }, this);
         })
@@ -408,6 +414,8 @@ const Header_tailwind = ()=>{
                 "CLD_VIP",
                 "partner1045_b1",
                 "partner1046",
+                "partner1050",
+                "partner1049",
                 "partner1047"
             ];
             partners.forEach((partner)=>{
@@ -521,7 +529,7 @@ const Header_tailwind = ()=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$header$2f$Marque$2f$index$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                lineNumber: 251,
+                lineNumber: 253,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
@@ -529,11 +537,11 @@ const Header_tailwind = ()=>{
                 children: [
                     load ? dataUser.geo_approve === null || dataUser.geo_approve === "" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$geo$2d$identifier$2f$index$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                        lineNumber: 255,
+                        lineNumber: 257,
                         columnNumber: 13
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {}, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                        lineNumber: 257,
+                        lineNumber: 259,
                         columnNumber: 13
                     }, this) : "",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -554,17 +562,17 @@ const Header_tailwind = ()=>{
                                                 className: "h-6 w-6"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                lineNumber: 273,
+                                                lineNumber: 275,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 268,
+                                            lineNumber: 270,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                        lineNumber: 267,
+                                        lineNumber: 269,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -578,17 +586,17 @@ const Header_tailwind = ()=>{
                                                 loading: "lazy"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                lineNumber: 278,
+                                                lineNumber: 280,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 277,
+                                            lineNumber: 279,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                        lineNumber: 276,
+                                        lineNumber: 278,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -600,12 +608,12 @@ const Header_tailwind = ()=>{
                                                 }))
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 282,
+                                            lineNumber: 284,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                        lineNumber: 281,
+                                        lineNumber: 283,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -614,23 +622,23 @@ const Header_tailwind = ()=>{
                                             i18n: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$i18n$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"],
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$header$2f$MenuLanguages$2f$index$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                lineNumber: 293,
+                                                lineNumber: 295,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 292,
+                                            lineNumber: 294,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                        lineNumber: 289,
+                                        lineNumber: 291,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                lineNumber: 263,
+                                lineNumber: 265,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$dialog$2f$dialog$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Dialog"], {
@@ -652,12 +660,12 @@ const Header_tailwind = ()=>{
                                                         loading: "lazy"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                        lineNumber: 367,
+                                                        lineNumber: 369,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                    lineNumber: 366,
+                                                    lineNumber: 368,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -669,18 +677,18 @@ const Header_tailwind = ()=>{
                                                         className: "h-6 w-6"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                        lineNumber: 374,
+                                                        lineNumber: 376,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                    lineNumber: 369,
+                                                    lineNumber: 371,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 365,
+                                            lineNumber: 367,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -701,7 +709,7 @@ const Header_tailwind = ()=>{
                                                                             children: item.icon
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                            lineNumber: 383,
+                                                                            lineNumber: 385,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         item.label,
@@ -710,13 +718,13 @@ const Header_tailwind = ()=>{
                                                                             className: "ml-2 h-5 w-5 flex-none group-data-[open]:rotate-180"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                            lineNumber: 387,
+                                                                            lineNumber: 389,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                    lineNumber: 382,
+                                                                    lineNumber: 384,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$disclosure$2f$disclosure$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["DisclosurePanel"], {
@@ -728,56 +736,56 @@ const Header_tailwind = ()=>{
                                                                             children: tab.label
                                                                         }, tab.label, false, {
                                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                            lineNumber: 395,
+                                                                            lineNumber: 397,
                                                                             columnNumber: 29
                                                                         }, this))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                    lineNumber: 393,
+                                                                    lineNumber: 395,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, item.label, true, {
                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                            lineNumber: 381,
+                                                            lineNumber: 383,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                    lineNumber: 379,
+                                                    lineNumber: 381,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                lineNumber: 378,
+                                                lineNumber: 380,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 377,
+                                            lineNumber: 379,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                    lineNumber: 364,
+                                    lineNumber: 366,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                lineNumber: 359,
+                                lineNumber: 361,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                        lineNumber: 262,
+                        lineNumber: 264,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                lineNumber: 252,
+                lineNumber: 254,
                 columnNumber: 7
             }, this)
         ]
@@ -1204,6 +1212,12 @@ const LanguageSwitcher = ()=>{
         case "partner1046":
             newLng = availableLanguagesCLD_VIP;
             break;
+        case "partner1050":
+            newLng = availableLanguages1043;
+            break;
+        case "partner1049":
+            newLng = availableLanguagesCLD_VIP;
+            break;
         case "partner1047":
             newLng = availableLanguagesCLD_VIP;
             break;
@@ -1215,7 +1229,7 @@ const LanguageSwitcher = ()=>{
         children: "Failed to load"
     }, void 0, false, {
         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-        lineNumber: 130,
+        lineNumber: 136,
         columnNumber: 21
     }, this);
     const changeLanguage = async (lng)=>{
@@ -1259,14 +1273,14 @@ const LanguageSwitcher = ()=>{
                                                             className: `mr-2 flag-icon flag-icon-${newLng.find((lang)=>lang.code === selectedLanguage)?.code}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                            lineNumber: 166,
+                                                            lineNumber: 172,
                                                             columnNumber: 23
                                                         }, this),
                                                         newLng.find((lang)=>lang.code === selectedLanguage)?.label
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 164,
+                                                    lineNumber: 170,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1276,18 +1290,18 @@ const LanguageSwitcher = ()=>{
                                                         className: "h-5 w-5 text-gray-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                        lineNumber: 178,
+                                                        lineNumber: 184,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 177,
+                                                    lineNumber: 183,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                            lineNumber: 163,
+                                            lineNumber: 169,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ListboxOptions"], {
@@ -1304,7 +1318,7 @@ const LanguageSwitcher = ()=>{
                                                                             className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                            lineNumber: 204,
+                                                                            lineNumber: 210,
                                                                             columnNumber: 31
                                                                         }, this),
                                                                         " ",
@@ -1312,7 +1326,7 @@ const LanguageSwitcher = ()=>{
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                    lineNumber: 196,
+                                                                    lineNumber: 202,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 selected && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1322,57 +1336,57 @@ const LanguageSwitcher = ()=>{
                                                                         className: "h-5 w-5"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                        lineNumber: 211,
+                                                                        lineNumber: 217,
                                                                         columnNumber: 33
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                    lineNumber: 210,
+                                                                    lineNumber: 216,
                                                                     columnNumber: 31
                                                                 }, this)
                                                             ]
                                                         }, void 0, true)
                                                 }, language.code, false, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 187,
+                                                    lineNumber: 193,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                            lineNumber: 185,
+                                            lineNumber: 191,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                    lineNumber: 162,
+                                    lineNumber: 168,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false)
                     }, void 0, false, {
                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                        lineNumber: 149,
+                        lineNumber: 155,
                         columnNumber: 11
                     }, this),
                     isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                        lineNumber: 226,
+                        lineNumber: 232,
                         columnNumber: 25
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                lineNumber: 148,
+                lineNumber: 154,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-            lineNumber: 147,
+            lineNumber: 153,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-        lineNumber: 146,
+        lineNumber: 152,
         columnNumber: 5
     }, this);
 };
@@ -2110,6 +2124,10 @@ const BrandsSwitcher = ()=>{
         newLng = availableLanguages1045;
     } else if (item === "partner1046") {
         newLng = availableLanguagesCLD_VIP;
+    } else if (item === "partner1050") {
+        newLng = availableLanguages1043;
+    } else if (item === "partner1049") {
+        newLng = availableLanguagesCLD_VIP;
     } else if (item === "partner1047") {
         newLng = availableLanguagesCLD_VIP;
     } else {
@@ -2152,14 +2170,14 @@ const BrandsSwitcher = ()=>{
                                                     className: `mr-2 flag-icon flag-icon-${selectedLanguage?.code}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                    lineNumber: 232,
+                                                    lineNumber: 236,
                                                     columnNumber: 23
                                                 }, this),
                                                 selectedLanguage?.label
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 231,
+                                            lineNumber: 235,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2169,18 +2187,18 @@ const BrandsSwitcher = ()=>{
                                                 className: "h-5 w-5 text-gray-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                lineNumber: 236,
+                                                lineNumber: 240,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 235,
+                                            lineNumber: 239,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 229,
+                                    lineNumber: 233,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ListboxOptions"], {
@@ -2197,7 +2215,7 @@ const BrandsSwitcher = ()=>{
                                                                     className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                    lineNumber: 255,
+                                                                    lineNumber: 259,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 " ",
@@ -2205,7 +2223,7 @@ const BrandsSwitcher = ()=>{
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 253,
+                                                            lineNumber: 257,
                                                             columnNumber: 23
                                                         }, this),
                                                         selected ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2215,47 +2233,47 @@ const BrandsSwitcher = ()=>{
                                                                 className: "h-5 w-5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                lineNumber: 259,
+                                                                lineNumber: 263,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 258,
+                                                            lineNumber: 262,
                                                             columnNumber: 25
                                                         }, this) : null
                                                     ]
                                                 }, void 0, true)
                                         }, language.code, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 244,
+                                            lineNumber: 248,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 240,
+                                    lineNumber: 244,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                            lineNumber: 228,
+                            lineNumber: 232,
                             columnNumber: 11
                         }, this)
                     }, void 0, false)
             }, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 217,
+                lineNumber: 221,
                 columnNumber: 5
             }, this),
             isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 271,
+                lineNumber: 275,
                 columnNumber: 19
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-        lineNumber: 216,
+        lineNumber: 220,
         columnNumber: 5
     }, this);
 };
@@ -3341,6 +3359,14 @@ const getBrands = async (lng)=>{
             languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["availableLanguages1045"]
         },
         partner1046: {
+            url: apiCLD_VIP,
+            languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["availableLanguagesCLD_VIP"]
+        },
+        partner1050: {
+            url: api1043,
+            languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["availableLanguages1043"]
+        },
+        partner1049: {
             url: apiCLD_VIP,
             languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["availableLanguagesCLD_VIP"]
         },

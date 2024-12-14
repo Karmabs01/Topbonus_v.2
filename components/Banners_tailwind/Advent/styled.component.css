@@ -115,35 +115,35 @@
 .card-advent:nth-child(8) .dated,
 .card-advent:nth-child(9) .dated,
 .card-advent:nth-child(10) .dated {
-  background: linear-gradient(161deg, #6C37B1, #310877);
+  background: linear-gradient(161deg, #6c37b1, #310877);
 }
 .card-advent:nth-child(6) .btn-play,
 .card-advent:nth-child(7) .btn-play,
 .card-advent:nth-child(8) .btn-play,
 .card-advent:nth-child(9) .btn-play,
 .card-advent:nth-child(10) .btn-play {
-  background: linear-gradient(161deg, #6C37B1, #310877);
+  background: linear-gradient(161deg, #6c37b1, #310877);
 }
 .card-advent:nth-child(11) .dated,
 .card-advent:nth-child(12) .dated,
 .card-advent:nth-child(13) .dated,
 .card-advent:nth-child(14) .dated,
 .card-advent:nth-child(15) .dated {
-  background: linear-gradient(161deg, #088AF6, #568DF0);
+  background: linear-gradient(161deg, #088af6, #568df0);
 }
 .card-advent:nth-child(11) .btn-play,
 .card-advent:nth-child(12) .btn-play,
 .card-advent:nth-child(13) .btn-play,
 .card-advent:nth-child(14) .btn-play,
 .card-advent:nth-child(15) .btn-play {
-  background: linear-gradient(161deg, #088AF6, #568DF0);
+  background: linear-gradient(161deg, #088af6, #568df0);
 }
 .card-advent:nth-child(11) .btn-play,
 .card-advent:nth-child(12) .btn-play,
 .card-advent:nth-child(13) .btn-play,
 .card-advent:nth-child(14) .btn-play,
 .card-advent:nth-child(15) .btn-play {
-  background: linear-gradient(161deg, #088AF6, #568DF0);
+  background: linear-gradient(161deg, #088af6, #568df0);
 }
 .activate .btn-play {
   background: #ff8f1f !important;
@@ -172,4 +172,46 @@
 .opennow {
   background: rgba(252, 253, 255, 0.852);
   border-radius: 15px;
+}
+.advnt {
+  background-image: url(/newimages/adventcalendar_dark.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  border: 2.5px solid #ffffff4d;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .card-advent {
+    flex-basis: 48% !important;
+    /* overflow: hidden; */
+  }
+  .advnt {
+    padding: 12px !important;
+    background: url(/newimages/bgmomob2.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+  }
+  .opened,
+  .closed {
+    /* background: url("/newimages/mob-frame.png") top no-repeat; */
+    background-size: contain;
+    border-radius: 30px !important;
+  }
+  .nonoact {
+    max-width: 192px;
+    max-height: 96px;
+
+    width: 146px;
+    height: 73px;
+  }
+  .card-advent img {
+    width: 146px;
+    height: 73px;
+  }
+  .card-sl {
+    border-radius: 30px !important;
+    width: 100%;
+  }
 }

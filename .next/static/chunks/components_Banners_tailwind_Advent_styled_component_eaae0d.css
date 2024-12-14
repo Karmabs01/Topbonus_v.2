@@ -38,10 +38,20 @@
   padding: 0 10px;
 }
 
+.advnt {
+  border-radius: 30px;
+  border-top: 2.5px solid #ffffff4d;
+  border-bottom: 2.5px solid #ffffff4d;
+  background: linear-gradient(161deg, #ffffff1a, #ffffff0d 101.7%);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  padding: 28px !important;
+}
+
 .dated {
   position: absolute;
   color: #fff;
-  border-radius: 5px;
+  border-radius: 5px 5px 0 0;
   max-width: 50px;
   width: 100%;
   left: calc(50% - 25px);
@@ -86,7 +96,61 @@
 
 .closed {
   background: #989ba5;
+  background: url("/newimages/notact.png") top no-repeat;
   border-radius: 32px;
+}
+
+.nonoact {
+  width: 192px;
+  height: 96px;
+}
+
+.card-advent:first-child .dated, .card-advent:nth-child(2) .dated, .card-advent:nth-child(3) .dated, .card-advent:nth-child(4) .dated, .card-advent:nth-child(5) .dated {
+  background: linear-gradient(161deg, #5aa148, #3b702e);
+}
+
+.card-advent:first-child .btn-play, .card-advent:nth-child(2) .btn-play, .card-advent:nth-child(3) .btn-play, .card-advent:nth-child(4) .btn-play, .card-advent:nth-child(5) .btn-play {
+  background: linear-gradient(161deg, #5aa148, #3b702e);
+}
+
+.card-advent:nth-child(6) .dated, .card-advent:nth-child(7) .dated, .card-advent:nth-child(8) .dated, .card-advent:nth-child(9) .dated, .card-advent:nth-child(10) .dated {
+  background: linear-gradient(161deg, #6c37b1, #310877);
+}
+
+.card-advent:nth-child(6) .btn-play, .card-advent:nth-child(7) .btn-play, .card-advent:nth-child(8) .btn-play, .card-advent:nth-child(9) .btn-play, .card-advent:nth-child(10) .btn-play {
+  background: linear-gradient(161deg, #6c37b1, #310877);
+}
+
+.card-advent:nth-child(11) .dated, .card-advent:nth-child(12) .dated, .card-advent:nth-child(13) .dated, .card-advent:nth-child(14) .dated, .card-advent:nth-child(15) .dated {
+  background: linear-gradient(161deg, #088af6, #568df0);
+}
+
+.card-advent:nth-child(11) .btn-play, .card-advent:nth-child(12) .btn-play, .card-advent:nth-child(13) .btn-play, .card-advent:nth-child(14) .btn-play, .card-advent:nth-child(15) .btn-play {
+  background: linear-gradient(161deg, #088af6, #568df0);
+}
+
+.activate .btn-play {
+  background: #ff8f1f !important;
+}
+
+.opened {
+  background: url("/newimages/yesact.png") top no-repeat;
+}
+
+.card-advent:nth-child(3n+1) .nonoact {
+  background: url("/newimages/box_1_dark.png") top no-repeat;
+}
+
+.card-advent:nth-child(3n+2) .nonoact {
+  background: url("/newimages/box_2_dark.png") top no-repeat;
+}
+
+.card-advent:nth-child(3n+3) .nonoact {
+  background: url("/newimages/box_3_dark.png") top no-repeat;
+}
+
+.closed .btn-play {
+  opacity: .5;
 }
 
 .closed .dated {
@@ -97,6 +161,50 @@
 .opennow {
   background: #fcfdffd9;
   border-radius: 15px;
+}
+
+.advnt {
+  background-image: url("/newimages/adventcalendar_dark.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  border: 2.5px solid #ffffff4d;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .card-advent {
+    flex-basis: 48% !important;
+  }
+
+  .advnt {
+    background: url("/newimages/bgmomob2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding: 12px !important;
+  }
+
+  .opened, .closed {
+    background-size: contain;
+    border-radius: 30px !important;
+  }
+
+  .nonoact {
+    max-width: 192px;
+    max-height: 96px;
+    width: 146px;
+    height: 73px;
+  }
+
+  .card-advent img {
+    width: 146px;
+    height: 73px;
+  }
+
+  .card-sl {
+    width: 100%;
+    border-radius: 30px !important;
+  }
 }
 
 

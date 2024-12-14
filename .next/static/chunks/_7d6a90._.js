@@ -4,9 +4,17 @@
 "use strict";
 
 // i18n.js
-import i18n from "i18next";
-import LanguageDetector from "i18next-browser-languagedetector";
-import { initReactI18next } from "react-i18next";
+__turbopack_esm__({
+    "default": ()=>__TURBOPACK__default__export__
+});
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$i18next$2f$dist$2f$esm$2f$i18next$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/i18next/dist/esm/i18next.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$i18next$2d$browser$2d$languagedetector$2f$dist$2f$esm$2f$i18nextBrowserLanguageDetector$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/i18next-browser-languagedetector/dist/esm/i18nextBrowserLanguageDetector.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/index.js [app-client] (ecmascript) <module evaluation>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$initReactI18next$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/initReactI18next.js [app-client] (ecmascript)");
+"__TURBOPACK__ecmascript__hoisting__location__";
+;
+;
+;
 async function initializeI18n() {
     let defLng;
     try {
@@ -608,19 +616,15 @@ async function initializeI18n() {
                 "Christmas Calendar": "Christmas Calendar",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!",
                 "Ready to Activate": "Ready to Activate",
-                "Activate": "Activate",
+                Activate: "Activate",
                 "Not Yet Available": "Not Yet Available",
                 "Not Yet": "Not Yet",
-                "TOP": "TOP",
+                TOP: "TOP",
                 "New Releases": "New Releases",
                 "Discover the hottest new arrivals and start playing today!": "Discover the hottest new arrivals and start playing today!",
-                "Best VIP Programs": "",
-                "": "",
-                "": "",
-                "": "",
-                "": "",
-                "": "",
-                "": ""
+                Best: "Best",
+                "VIP Programs": "VIP Programs",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Enjoy exclusive bonuses, special rewards, and premium support!"
             }
         },
         pl: {
@@ -1013,7 +1017,19 @@ async function initializeI18n() {
                 "Time’s running out!": "Czas ucieka!",
                 "Grab your exclusive casino deal before it disappears!": "Złap swoją ekskluzywną ofertę kasynową, zanim zniknie!",
                 Take: "Otrzymać",
-                "Your bonuses are on the way, one moment..": "Twoje bonusy są w drodze, chwileczkę.."
+                "Your bonuses are on the way, one moment..": "Twoje bonusy są w drodze, chwileczkę..",
+                "Christmas Calendar": "Kalendarz Bożonarodzeniowy",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Dołącz do nas na 15 dni świątecznych niespodzianek! Odkryj ekskluzywne bonusy, darmowe spiny i ekscytujące oferty od najlepszych kasyn online - jedna nowa oferta każdego dnia od 1 do 15 grudnia!",
+                "Ready to Activate": "Gotowy do aktywacji",
+                Activate: "Aktywuj",
+                "Not Yet Available": "Jeszcze niedostępne",
+                "Not Yet": "Jeszcze nie",
+                TOP: "NAJLEPSZY",
+                "New Releases": "Nowości",
+                "Discover the hottest new arrivals and start playing today!": "Odkryj najgorętsze nowości i zacznij grać już dziś!",
+                Best: "Najlepszy",
+                "VIP Programs": "Programy VIP",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Ciesz się ekskluzywnymi bonusami, specjalnymi nagrodami i wsparciem premium!"
             }
         },
         de: {
@@ -1407,7 +1423,19 @@ async function initializeI18n() {
                 "Time’s running out!": "Die Zeit läuft ab!",
                 "Grab your exclusive casino deal before it disappears!": "Holen Sie sich Ihr exklusives Casino-Angebot, bevor es verschwindet!",
                 Take: "Erhalten",
-                "Your bonuses are on the way, one moment..": "Ihre Boni sind unterwegs, einen Moment bitte.."
+                "Your bonuses are on the way, one moment..": "Ihre Boni sind unterwegs, einen Moment bitte..",
+                "Christmas Calendar": "Weihnachtskalender",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Begleiten Sie uns zu 15 Tagen voller festlicher Überraschungen! Entsperren Sie exklusive Boni, Freispiele und spannende Angebote von führenden Online-Casinos - jeden Tag ein neues Angebot vom 1. bis 15. Dezember!",
+                "Ready to Activate": "Bereit zur Aktivierung",
+                Activate: "Aktivieren",
+                "Not Yet Available": "Noch nicht verfügbar",
+                "Not Yet": "Noch nicht",
+                TOP: "OBEN",
+                "New Releases": "Neuerscheinungen",
+                "Discover the hottest new arrivals and start playing today!": "Entdecken Sie die heißesten Neuankömmlinge und beginnen Sie noch heute zu spielen!",
+                Best: "Beste",
+                "VIP Programs": "VIP-Programme",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Genießen Sie exklusive Boni, spezielle Belohnungen und Premium-Support!"
             }
         },
         bg: {
@@ -1800,7 +1828,19 @@ async function initializeI18n() {
                 "Time’s running out!": "Времето изтича!",
                 "Grab your exclusive casino deal before it disappears!": "Вземете своят ексклузивен казино договор, преди да изчезне!",
                 Take: "Вземи",
-                "Your bonuses are on the way, one moment..": "Вашите бонуси са на път, моля изчакайте.."
+                "Your bonuses are on the way, one moment..": "Вашите бонуси са на път, моля изчакайте..",
+                "Christmas Calendar": "Коледен календар",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Присъединете се към нас за 15 дни на празнични изненади! Отключете ексклузивни бонуси, безплатни завъртания и вълнуващи оферти от водещи онлайн казина - нова сделка всеки ден от 1-ви до 15-ти декември!",
+                "Ready to Activate": "Готов за активиране",
+                Activate: "Активирай",
+                "Not Yet Available": "Все още не е налично",
+                "Not Yet": "Все още не",
+                TOP: "ТОП",
+                "New Releases": "Нови издания",
+                "Discover the hottest new arrivals and start playing today!": "Открийте най-новите горещи предложения и започнете да играете днес!",
+                Best: "Най-добър",
+                "VIP Programs": "VIP програми",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Насладете се на ексклузивни бонуси, специални награди и премиум поддръжка!"
             }
         },
         cz: {
@@ -2193,7 +2233,19 @@ async function initializeI18n() {
                 "Time’s running out!": "Čas se krátí!",
                 "Grab your exclusive casino deal before it disappears!": "Využijte svou exkluzivní kasinovou nabídku, než zmizí!",
                 Take: "Dostat",
-                "Your bonuses are on the way, one moment..": "Vaše bonusy jsou na cestě, vydržte chvíli.."
+                "Your bonuses are on the way, one moment..": "Vaše bonusy jsou na cestě, vydržte chvíli..",
+                "Christmas Calendar": "Vánoční kalendář",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Připojte se k nám na 15 dní plných svátečních překvapení! Odemkněte exkluzivní bonusy, volné otočky a vzrušující nabídky od nejlepších online kasin - každý den nová nabídka od 1. do 15. prosince!",
+                "Ready to Activate": "Připraveno k aktivaci",
+                Activate: "Aktivovat",
+                "Not Yet Available": "Ještě není k dispozici",
+                "Not Yet": "Ještě ne",
+                TOP: "NEJLEPŠÍ",
+                "New Releases": "Novinky",
+                "Discover the hottest new arrivals and start playing today!": "Objevte nejžhavější novinky a začněte hrát ještě dnes!",
+                Best: "Nejlepší",
+                "VIP Programs": "Programy VIP",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Užijte si exkluzivní bonusy, speciální odměny a prémiovou podporu!"
             }
         },
         dk: {
@@ -2586,7 +2638,19 @@ async function initializeI18n() {
                 "Time’s running out!": "Tiden løber ud!",
                 "Grab your exclusive casino deal before it disappears!": "Få fat i din eksklusive casinoaftale, før den forsvinder!",
                 Take: "Få",
-                "Your bonuses are on the way, one moment..": "Dine bonusser er på vej, et øjeblik.."
+                "Your bonuses are on the way, one moment..": "Dine bonusser er på vej, et øjeblik..",
+                "Christmas Calendar": "Julekalender",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Deltag i 15 dage med festlige overraskelser! Lås op for eksklusive bonusser, gratis spins og spændende tilbud fra de bedste online casinoer - en ny aftale hver dag fra 1. til 15. december!",
+                "Ready to Activate": "Klar til at aktivere",
+                Activate: "Aktiver",
+                "Not Yet Available": "Ikke tilgængelig endnu",
+                "Not Yet": "Ikke endnu",
+                TOP: "TOP",
+                "New Releases": "Nye udgivelser",
+                "Discover the hottest new arrivals and start playing today!": "Opdag de hotteste nye ankomster og begynd at spille i dag!",
+                Best: "Bedst",
+                "VIP Programs": "VIP-programmer",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Nyd eksklusive bonusser, særlige belønninger og premium support!"
             }
         },
         nl: {
@@ -2979,7 +3043,19 @@ async function initializeI18n() {
                 "Time’s running out!": "De tijd dringt!",
                 "Grab your exclusive casino deal before it disappears!": "Grijp je exclusieve casinodeal voordat het verdwijnt!",
                 Take: "Krijgen",
-                "Your bonuses are on the way, one moment..": "Jouw bonussen zijn onderweg, een ogenblik.."
+                "Your bonuses are on the way, one moment..": "Jouw bonussen zijn onderweg, een ogenblik..",
+                "Christmas Calendar": "Kerstkalender",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Doe mee aan 15 dagen vol feestelijke verrassingen! Ontgrendel exclusieve bonussen, gratis spins en spannende aanbiedingen van top online casino's - elke dag een nieuwe deal van 1 tot 15 december!",
+                "Ready to Activate": "Klaar om te activeren",
+                Activate: "Activeren",
+                "Not Yet Available": "Nog niet beschikbaar",
+                "Not Yet": "Nog niet",
+                TOP: "TOP",
+                "New Releases": "Nieuwe releases",
+                "Discover the hottest new arrivals and start playing today!": "Ontdek de nieuwste en populairste aankomsten en begin vandaag nog met spelen!",
+                Best: "Beste",
+                "VIP Programs": "VIP-programma's",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Geniet van exclusieve bonussen, speciale beloningen en premium ondersteuning!"
             }
         },
         es: {
@@ -3372,7 +3448,19 @@ async function initializeI18n() {
                 "Time’s running out!": "¡Se está acabando el tiempo!",
                 "Grab your exclusive casino deal before it disappears!": "¡Aprovecha tu oferta exclusiva de casino antes de que desaparezca!",
                 Take: "Obtener",
-                "Your bonuses are on the way, one moment..": "Tus bonos están en camino, un momento.."
+                "Your bonuses are on the way, one moment..": "Tus bonos están en camino, un momento..",
+                "Christmas Calendar": "Calendario de Navidad",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Únase a nosotros para 15 días de sorpresas festivas. Desbloquee bonos exclusivos, giros gratis y ofertas emocionantes de los mejores casinos en línea: ¡una nueva oferta cada día del 1 al 15 de diciembre!",
+                "Ready to Activate": "Listo para activar",
+                Activate: "Activar",
+                "Not Yet Available": "Aún no disponible",
+                "Not Yet": "Todavía no",
+                TOP: "SUPERIOR",
+                "New Releases": "Nuevos lanzamientos",
+                "Discover the hottest new arrivals and start playing today!": "Descubre las novedades más candentes y comienza a jugar hoy.",
+                Best: "Mejor",
+                "VIP Programs": "Programas VIP",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Disfruta de bonos exclusivos, recompensas especiales y soporte premium."
             }
         },
         fi: {
@@ -3765,7 +3853,19 @@ async function initializeI18n() {
                 "Time’s running out!": "Aika loppuu!",
                 "Grab your exclusive casino deal before it disappears!": "Nappaa yksinoikeudellinen kasinotarjous ennen kuin se katoaa!",
                 Take: "Hanki",
-                "Your bonuses are on the way, one moment..": "Bonuksesi ovat matkalla, hetki vain.."
+                "Your bonuses are on the way, one moment..": "Bonuksesi ovat matkalla, hetki vain..",
+                "Christmas Calendar": "Joulukalenteri",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Liity seuraamme 15 päivän juhlallisiin yllätyksiin! Avaa eksklusiivisia bonuksia, ilmaispyöräytyksiä ja jännittäviä tarjouksia huippu nettikasinoilta - yksi uusi tarjous joka päivä 1.-15. joulukuuta!",
+                "Ready to Activate": "Valmis aktivoitavaksi",
+                Activate: "Aktivoi",
+                "Not Yet Available": "Ei vielä saatavilla",
+                "Not Yet": "Ei vielä",
+                TOP: "HUIPPU",
+                "New Releases": "Uudet julkaisut",
+                "Discover the hottest new arrivals and start playing today!": "Löydä kuumimmat uutuudet ja aloita pelaaminen jo tänään!",
+                Best: "Paras",
+                "VIP Programs": "VIP-ohjelmat",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Nauti eksklusiivisista bonuksista, erityisistä palkinnoista ja ensiluokkaisesta tuesta!"
             }
         },
         fr: {
@@ -4159,7 +4259,19 @@ async function initializeI18n() {
                 "Time’s running out!": "Le temps presse!",
                 "Grab your exclusive casino deal before it disappears!": "Profitez de votre offre exclusive de casino avant qu'elle ne disparaisse!",
                 Take: "Obtenir",
-                "Your bonuses are on the way, one moment..": "Vos bonus sont en route, un instant.."
+                "Your bonuses are on the way, one moment..": "Vos bonus sont en route, un instant..",
+                "Christmas Calendar": "Calendrier de Noël",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Rejoignez-nous pour 15 jours de surprises festives ! Débloquez des bonus exclusifs, des tours gratuits et des offres excitantes des meilleurs casinos en ligne - une nouvelle offre chaque jour du 1er au 15 décembre !",
+                "Ready to Activate": "Prêt à activer",
+                Activate: "Activer",
+                "Not Yet Available": "Pas encore disponible",
+                "Not Yet": "Pas encore",
+                TOP: "HAUT",
+                "New Releases": "Nouveautés",
+                "Discover the hottest new arrivals and start playing today!": "Découvrez les nouveautés les plus en vogue et commencez à jouer dès aujourd'hui !",
+                Best: "Meilleur",
+                "VIP Programs": "Programmes VIP",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Profitez de bonus exclusifs, de récompenses spéciales et d'un support premium !"
             }
         },
         gr: {
@@ -4553,7 +4665,19 @@ async function initializeI18n() {
                 "Time’s running out!": "Ο χρόνος τελειώνει!",
                 "Grab your exclusive casino deal before it disappears!": "Αξιοποιήστε την αποκλειστική προσφορά καζίνο σας πριν εξαφανιστεί!",
                 Take: "Πάρε",
-                "Your bonuses are on the way, one moment..": "Τα μπόνους σας έρχονται, παρακαλώ περιμένετε λίγο.."
+                "Your bonuses are on the way, one moment..": "Τα μπόνους σας έρχονται, παρακαλώ περιμένετε λίγο..",
+                "Christmas Calendar": "Χριστουγεννιάτικο Ημερολόγιο",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Ελάτε μαζί μας για 15 ημέρες γιορτινών εκπλήξεων! Ξεκλειδώστε αποκλειστικά μπόνους, δωρεάν περιστροφές και συναρπαστικές προσφορές από κορυφαία διαδικτυακά καζίνο - μία νέα προσφορά κάθε μέρα από την 1η έως την 15η Δεκεμβρίου!",
+                "Ready to Activate": "Έτοιμοι για Ενεργοποίηση",
+                Activate: "Ενεργοποίηση",
+                "Not Yet Available": "Ακόμα Δεν Διατίθεται",
+                "Not Yet": "Όχι ακόμα",
+                TOP: "ΚΟΡΥΦΗ",
+                "New Releases": "Νέες Κυκλοφορίες",
+                "Discover the hottest new arrivals and start playing today!": "Ανακαλύψτε τις πιο καυτές νέες αφίξεις και ξεκινήστε να παίζετε σήμερα!",
+                Best: "Καλύτερο",
+                "VIP Programs": "Προγράμματα VIP",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Απολαύστε αποκλειστικά μπόνους, ειδικές ανταμοιβές και υποστήριξη υψηλής ποιότητας!"
             }
         },
         hu: {
@@ -4947,7 +5071,19 @@ async function initializeI18n() {
                 "Time’s running out!": "Az idő elfogy!",
                 "Grab your exclusive casino deal before it disappears!": "Fogd meg az egyedi kaszinó ajánlatodat, mielőtt eltűnik!",
                 Take: "Kap",
-                "Your bonuses are on the way, one moment..": "A bónuszok úton vannak, egy pillanat.."
+                "Your bonuses are on the way, one moment..": "A bónuszok úton vannak, egy pillanat..",
+                "Christmas Calendar": "Karácsonyi naptár",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Csatlakozz hozzánk 15 napos ünnepi meglepetésekre! Oldj fel exkluzív bónuszokat, ingyenes pörgetéseket és izgalmas ajánlatokat a legjobb online kaszinóktól - minden nap egy új ajánlat december 1-től 15-ig!",
+                "Ready to Activate": "Készen áll az aktiválásra",
+                Activate: "Aktiválás",
+                "Not Yet Available": "Még nem elérhető",
+                "Not Yet": "Még nem",
+                TOP: "CSÚCS",
+                "New Releases": "Új megjelenések",
+                "Discover the hottest new arrivals and start playing today!": "Fedezd fel a legújabb érkezéseket és kezdj el játszani még ma!",
+                Best: "Legjobb",
+                "VIP Programs": "VIP programok",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Élvezze az exkluzív bónuszokat, különleges jutalmakat és prémium támogatást!"
             }
         },
         it: {
@@ -5341,7 +5477,19 @@ async function initializeI18n() {
                 "Time’s running out!": "Il tempo sta finendo!",
                 "Grab your exclusive casino deal before it disappears!": "Approfitta della tua offerta esclusiva del casinò prima che scompaia!",
                 Take: "Ottenere",
-                "Your bonuses are on the way, one moment..": "I tuoi bonus sono in arrivo, un attimo.."
+                "Your bonuses are on the way, one moment..": "I tuoi bonus sono in arrivo, un attimo..",
+                "Christmas Calendar": "Calendario di Natale",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Unisciti a noi per 15 giorni di sorprese festive! Sblocca bonus esclusivi, giri gratuiti e offerte entusiasmanti dai migliori casinò online - un nuovo affare ogni giorno dal 1° al 15 dicembre!",
+                "Ready to Activate": "Pronto per attivare",
+                Activate: "Attiva",
+                "Not Yet Available": "Non ancora disponibile",
+                "Not Yet": "Non ancora",
+                TOP: "IN ALTO",
+                "New Releases": "Nuove uscite",
+                "Discover the hottest new arrivals and start playing today!": "Scopri le novità più calde e inizia a giocare oggi!",
+                Best: "Migliore",
+                "VIP Programs": "Programmi VIP",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Goditi bonus esclusivi, ricompense speciali e supporto premium!"
             }
         },
         no: {
@@ -5735,7 +5883,19 @@ async function initializeI18n() {
                 "Time’s running out!": "Tiden renner ut!",
                 "Grab your exclusive casino deal before it disappears!": "Få tak i din eksklusive casinotilbud før det forsvinner!",
                 Take: "Få",
-                "Your bonuses are on the way, one moment..": "Bonusene dine er på vei, et øyeblikk.."
+                "Your bonuses are on the way, one moment..": "Bonusene dine er på vei, et øyeblikk..",
+                "Christmas Calendar": "Julekalender",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Bli med oss i 15 dager med festlige overraskelser! Lås opp eksklusive bonuser, gratisspinn og spennende tilbud fra topp online kasinoer - en ny avtale hver dag fra 1. til 15. desember!",
+                "Ready to Activate": "Klar til å aktivere",
+                Activate: "Aktiver",
+                "Not Yet Available": "Ikke tilgjengelig ennå",
+                "Not Yet": "Ikke ennå",
+                TOP: "TOP",
+                "New Releases": "Nye utgivelser",
+                "Discover the hottest new arrivals and start playing today!": "Oppdag de hotteste nyhetene og begynn å spille i dag!",
+                Best: "Beste",
+                "VIP Programs": "VIP-programmer",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Nyt eksklusive bonuser, spesielle belønninger og premium støtte!"
             }
         },
         pt: {
@@ -6129,7 +6289,19 @@ async function initializeI18n() {
                 "Time’s running out!": "O tempo está se esgotando!",
                 "Grab your exclusive casino deal before it disappears!": "Aproveite sua oferta exclusiva de cassino antes que ela desapareça!",
                 Take: "Obter",
-                "Your bonuses are on the way, one moment..": "Seus bônus estão a caminho, um momento.."
+                "Your bonuses are on the way, one moment..": "Seus bônus estão a caminho, um momento..",
+                "Christmas Calendar": "Calendário de Natal",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Junte-se a nós para 15 dias de surpresas festivas! Desbloqueie bônus exclusivos, rodadas grátis e ofertas emocionantes dos melhores cassinos online - uma nova oferta todos os dias de 1 a 15 de dezembro!",
+                "Ready to Activate": "Pronto para Ativar",
+                Activate: "Ativar",
+                "Not Yet Available": "Ainda não disponível",
+                "Not Yet": "Ainda não",
+                TOP: "TOPO",
+                "New Releases": "Novos Lançamentos",
+                "Discover the hottest new arrivals and start playing today!": "Descubra as novidades mais quentes e comece a jogar hoje!",
+                Best: "Melhor",
+                "VIP Programs": "Programas VIP",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Aproveite bônus exclusivos, recompensas especiais e suporte premium!"
             }
         },
         se: {
@@ -6523,7 +6695,19 @@ async function initializeI18n() {
                 "Time’s running out!": "Tiden håller på att rinna ut!",
                 "Grab your exclusive casino deal before it disappears!": "Hämta ditt exklusiva casinopaket innan det försvinner!",
                 Take: "Få",
-                "Your bonuses are on the way, one moment..": "Dina bonusar är på väg, ett ögonblick.."
+                "Your bonuses are on the way, one moment..": "Dina bonusar är på väg, ett ögonblick..",
+                "Christmas Calendar": "Julkalender",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Delta med oss i 15 dagar av festliga överraskningar! Lås upp exklusiva bonusar, gratissnurr och spännande erbjudanden från de bästa onlinekasinona - ett nytt erbjudande varje dag från 1 till 15 december!",
+                "Ready to Activate": "Redo att aktivera",
+                Activate: "Aktivera",
+                "Not Yet Available": "Inte tillgänglig än",
+                "Not Yet": "Inte än",
+                TOP: "Topp",
+                "New Releases": "Nya utgåvor",
+                "Discover the hottest new arrivals and start playing today!": "Upptäck de hetaste nyheterna och börja spela idag!",
+                Best: "Bästa",
+                "VIP Programs": "VIP-program",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Njut av exklusiva bonusar, speciella belöningar och premiumsupport!"
             }
         },
         sk: {
@@ -6917,7 +7101,19 @@ async function initializeI18n() {
                 "Time’s running out!": "Čas sa kráti!",
                 "Grab your exclusive casino deal before it disappears!": "Získajte svoju exkluzívnu kasínovú ponuku, kým nezmizne!",
                 Take: "Dostať",
-                "Your bonuses are on the way, one moment..": "Vaše bonusy sú na ceste, chvíľku počkajte.."
+                "Your bonuses are on the way, one moment..": "Vaše bonusy sú na ceste, chvíľku počkajte..",
+                "Christmas Calendar": "Vianočný kalendár",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Pridajte sa k nám na 15 dní plných sviatočných prekvapení! Odomknite exkluzívne bonusy, voľné točenia a vzrušujúce ponuky od najlepších online kasín - každý deň nová ponuka od 1. do 15. decembra!",
+                "Ready to Activate": "Pripravený na aktiváciu",
+                Activate: "Aktivovať",
+                "Not Yet Available": "Ešte nie je k dispozícii",
+                "Not Yet": "Ešte nie",
+                TOP: "NAJLEPŠIE",
+                "New Releases": "Nové vydania",
+                "Discover the hottest new arrivals and start playing today!": "Objavte najhorúcejšie novinky a začnite hrať už dnes!",
+                Best: "Najlepší",
+                "VIP Programs": "VIP programy",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Užite si exkluzívne bonusy, špeciálne odmeny a prémiovú podporu!"
             }
         },
         tr: {
@@ -7311,7 +7507,19 @@ async function initializeI18n() {
                 "Time’s running out!": "Zaman tükeniyor!",
                 "Grab your exclusive casino deal before it disappears!": "Kaybolmadan önce özel kumarhane fırsatınızı kapın!",
                 Take: "Almak",
-                "Your bonuses are on the way, one moment..": "Bonuslarınız yolda, lütfen bir dakika.."
+                "Your bonuses are on the way, one moment..": "Bonuslarınız yolda, lütfen bir dakika..",
+                "Christmas Calendar": "Noel Takvimi",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Bize 15 günlük festival sürprizlerine katılın! 1 Aralık'tan 15 Aralık'a kadar her gün yeni bir fırsatla en iyi online casinoların özel bonuslarını, bedava dönüşlerini ve heyecan verici tekliflerini açın!",
+                "Ready to Activate": "Etkinleştirmeye Hazır",
+                Activate: "Etkinleştir",
+                "Not Yet Available": "Henüz Mevcut Değil",
+                "Not Yet": "Henüz Değil",
+                TOP: "ÜST",
+                "New Releases": "Yeni Çıkanlar",
+                "Discover the hottest new arrivals and start playing today!": "En yeni ve en popüler ürünleri keşfedin ve bugün oynamaya başlayın!",
+                Best: "En iyi",
+                "VIP Programs": "VIP Programları",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Özel bonusların, özel ödüllerin ve premium desteğin keyfini çıkarın!"
             }
         }
     };
@@ -7320,7 +7528,7 @@ async function initializeI18n() {
         source = localStorage.getItem("source");
     }
     // Инициализация i18n
-    await i18n.use(LanguageDetector).use(initReactI18next).init({
+    await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$i18next$2f$dist$2f$esm$2f$i18next$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].use(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$i18next$2d$browser$2d$languagedetector$2f$dist$2f$esm$2f$i18nextBrowserLanguageDetector$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]).use(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$initReactI18next$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["initReactI18next"]).init({
         resources,
         lng: matchedLanguage,
         interpolation: {
@@ -7329,7 +7537,7 @@ async function initializeI18n() {
     });
 }
 initializeI18n();
-export default i18n;
+const __TURBOPACK__default__export__ = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$i18next$2f$dist$2f$esm$2f$i18next$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"];
 
 })()),
 "[project]/components/Header_tailwind/Navigation_tw.tsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
@@ -7397,6 +7605,12 @@ const Navigation = ({ navLinks, onLinkClick })=>{
             case "partner1046":
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
+            case "partner1050":
+                url = "https://info.topbon.us/rnd1043";
+                break;
+            case "partner1049":
+                url = "https://link.bo-nus.com/rnd_cld";
+                break;
             case "partner1047":
                 url = "https://link.bo-nus.com/rnd_cld";
                 break;
@@ -7423,12 +7637,12 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                             children: link.label
                         }, void 0, false, {
                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                            lineNumber: 100,
+                            lineNumber: 106,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                        lineNumber: 99,
+                        lineNumber: 105,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$popover$2f$popover$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PopoverPanel"], {
@@ -7447,7 +7661,7 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                     children: subLink.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 115,
+                                                    lineNumber: 121,
                                                     columnNumber: 25
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7460,29 +7674,29 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                                 className: "absolute inset-0"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                                lineNumber: 124,
+                                                                lineNumber: 130,
                                                                 columnNumber: 29
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                        lineNumber: 119,
+                                                        lineNumber: 125,
                                                         columnNumber: 27
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 118,
+                                                    lineNumber: 124,
                                                     columnNumber: 25
                                                 }, this)
                                             ]
                                         }, subLink.label, true, {
                                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                            lineNumber: 111,
+                                            lineNumber: 117,
                                             columnNumber: 23
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                    lineNumber: 108,
+                                    lineNumber: 114,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7498,12 +7712,12 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                         children: t("Try Your Luck!")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                        lineNumber: 133,
+                                                        lineNumber: 139,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 132,
+                                                    lineNumber: 138,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7511,13 +7725,13 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                     children: t("Feeling lucky? Discover random casino brands and test your fortune!")
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 140,
+                                                    lineNumber: 146,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                            lineNumber: 131,
+                                            lineNumber: 137,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7532,52 +7746,52 @@ const Navigation = ({ navLinks, onLinkClick })=>{
                                                         children: t("Take a Chance!")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                        lineNumber: 152,
+                                                        lineNumber: 158,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                    lineNumber: 151,
+                                                    lineNumber: 157,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                                lineNumber: 147,
+                                                lineNumber: 153,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                            lineNumber: 146,
+                                            lineNumber: 152,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                                    lineNumber: 130,
+                                    lineNumber: 136,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                            lineNumber: 107,
+                            lineNumber: 113,
                             columnNumber: 15
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                        lineNumber: 103,
+                        lineNumber: 109,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$popover$2f$popover$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PopoverBackdrop"], {
                         className: "fixed inset-0 w-screen h-screen z-10 -top-20 -left-32"
                     }, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                        lineNumber: 159,
+                        lineNumber: 165,
                         columnNumber: 13
                     }, this)
                 ]
             }, link.label, true, {
                 fileName: "[project]/components/Header_tailwind/Navigation_tw.tsx",
-                lineNumber: 98,
+                lineNumber: 104,
                 columnNumber: 11
             }, this);
         })
@@ -7597,7 +7811,7 @@ __turbopack_refresh__.register(_c, "Navigation");
 })()),
 "[project]/public/logo3.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
-__turbopack_export_value__("/_next/static/media/logo3.08258534.png");
+__turbopack_export_value__("/_next/static/media/logo3.e00ca3e3.png");
 })()),
 "[project]/public/logo3.png.mjs { IMAGE => \"[project]/public/logo3.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
 "use strict";
@@ -7610,11 +7824,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$logo3$2e$png__$5b$
 ;
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$logo3$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 431,
-    height: 103,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAYAAABllJ3tAAAATUlEQVR42gFCAL3/AEFBQThCQkI5R0M+QH9gQHyDY0OAimpKiIprTYYuJBorAENDQzlBQUE4TEZARYVkQoKNa0mJjGpIiYlpSYUqIRcop70VCKp5GEgAAAAASUVORK5CYII=",
+    width: 386,
+    height: 63,
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAALElEQVR42gEhAN7/AEMmJkJVMDBSWjQ0WapXV727XFzRu2Rkz8BwcNGxZGTBwcYOSjlox2AAAAAASUVORK5CYII=",
     blurWidth: 8,
-    blurHeight: 2
+    blurHeight: 1
 };
 
 })()),
@@ -8071,6 +8285,12 @@ const LanguageSwitcher = ()=>{
         case "partner1046":
             newLng = availableLanguagesCLD_VIP;
             break;
+        case "partner1050":
+            newLng = availableLanguages1043;
+            break;
+        case "partner1049":
+            newLng = availableLanguagesCLD_VIP;
+            break;
         case "partner1047":
             newLng = availableLanguagesCLD_VIP;
             break;
@@ -8082,7 +8302,7 @@ const LanguageSwitcher = ()=>{
         children: "Failed to load"
     }, void 0, false, {
         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-        lineNumber: 130,
+        lineNumber: 136,
         columnNumber: 21
     }, this);
     const changeLanguage = async (lng)=>{
@@ -8126,14 +8346,14 @@ const LanguageSwitcher = ()=>{
                                                             className: `mr-2 flag-icon flag-icon-${newLng.find((lang)=>lang.code === selectedLanguage)?.code}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                            lineNumber: 166,
+                                                            lineNumber: 172,
                                                             columnNumber: 23
                                                         }, this),
                                                         newLng.find((lang)=>lang.code === selectedLanguage)?.label
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 164,
+                                                    lineNumber: 170,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8143,18 +8363,18 @@ const LanguageSwitcher = ()=>{
                                                         className: "h-5 w-5 text-gray-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                        lineNumber: 178,
+                                                        lineNumber: 184,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 177,
+                                                    lineNumber: 183,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                            lineNumber: 163,
+                                            lineNumber: 169,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ListboxOptions"], {
@@ -8171,7 +8391,7 @@ const LanguageSwitcher = ()=>{
                                                                             className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                            lineNumber: 204,
+                                                                            lineNumber: 210,
                                                                             columnNumber: 31
                                                                         }, this),
                                                                         " ",
@@ -8179,7 +8399,7 @@ const LanguageSwitcher = ()=>{
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                    lineNumber: 196,
+                                                                    lineNumber: 202,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 selected && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8189,57 +8409,57 @@ const LanguageSwitcher = ()=>{
                                                                         className: "h-5 w-5"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                        lineNumber: 211,
+                                                                        lineNumber: 217,
                                                                         columnNumber: 33
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                    lineNumber: 210,
+                                                                    lineNumber: 216,
                                                                     columnNumber: 31
                                                                 }, this)
                                                             ]
                                                         }, void 0, true)
                                                 }, language.code, false, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 187,
+                                                    lineNumber: 193,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                            lineNumber: 185,
+                                            lineNumber: 191,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                    lineNumber: 162,
+                                    lineNumber: 168,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false)
                     }, void 0, false, {
                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                        lineNumber: 149,
+                        lineNumber: 155,
                         columnNumber: 11
                     }, this),
                     isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                        lineNumber: 226,
+                        lineNumber: 232,
                         columnNumber: 25
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                lineNumber: 148,
+                lineNumber: 154,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-            lineNumber: 147,
+            lineNumber: 153,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-        lineNumber: 146,
+        lineNumber: 152,
         columnNumber: 5
     }, this);
 };
@@ -8998,6 +9218,10 @@ const BrandsSwitcher = ()=>{
         newLng = availableLanguages1045;
     } else if (item === "partner1046") {
         newLng = availableLanguagesCLD_VIP;
+    } else if (item === "partner1050") {
+        newLng = availableLanguages1043;
+    } else if (item === "partner1049") {
+        newLng = availableLanguagesCLD_VIP;
     } else if (item === "partner1047") {
         newLng = availableLanguagesCLD_VIP;
     } else {
@@ -9040,14 +9264,14 @@ const BrandsSwitcher = ()=>{
                                                     className: `mr-2 flag-icon flag-icon-${selectedLanguage?.code}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                    lineNumber: 232,
+                                                    lineNumber: 236,
                                                     columnNumber: 23
                                                 }, this),
                                                 selectedLanguage?.label
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 231,
+                                            lineNumber: 235,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -9057,18 +9281,18 @@ const BrandsSwitcher = ()=>{
                                                 className: "h-5 w-5 text-gray-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                lineNumber: 236,
+                                                lineNumber: 240,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 235,
+                                            lineNumber: 239,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 229,
+                                    lineNumber: 233,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ListboxOptions"], {
@@ -9085,7 +9309,7 @@ const BrandsSwitcher = ()=>{
                                                                     className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                    lineNumber: 255,
+                                                                    lineNumber: 259,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 " ",
@@ -9093,7 +9317,7 @@ const BrandsSwitcher = ()=>{
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 253,
+                                                            lineNumber: 257,
                                                             columnNumber: 23
                                                         }, this),
                                                         selected ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -9103,47 +9327,47 @@ const BrandsSwitcher = ()=>{
                                                                 className: "h-5 w-5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                lineNumber: 259,
+                                                                lineNumber: 263,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 258,
+                                                            lineNumber: 262,
                                                             columnNumber: 25
                                                         }, this) : null
                                                     ]
                                                 }, void 0, true)
                                         }, language.code, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 244,
+                                            lineNumber: 248,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 240,
+                                    lineNumber: 244,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                            lineNumber: 228,
+                            lineNumber: 232,
                             columnNumber: 11
                         }, this)
                     }, void 0, false)
             }, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 217,
+                lineNumber: 221,
                 columnNumber: 5
             }, this),
             isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 271,
+                lineNumber: 275,
                 columnNumber: 19
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-        lineNumber: 216,
+        lineNumber: 220,
         columnNumber: 5
     }, this);
 };
@@ -10771,6 +10995,12 @@ function MultipleSelectPlaceholder() {
         case "partner1046":
             newFlag = flagsCLD_VIP;
             break;
+        case "partner1050":
+            newFlag = flags1043;
+            break;
+        case "partner1049":
+            newFlag = flagsCLD_VIP;
+            break;
         case "partner1047":
             newFlag = flagsCLD_VIP;
             break;
@@ -10788,7 +11018,7 @@ function MultipleSelectPlaceholder() {
                         className: `flag-icon flag-icon-${languageFlag}`
                     }, void 0, false, {
                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                        lineNumber: 232,
+                        lineNumber: 238,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
@@ -10796,13 +11026,13 @@ function MultipleSelectPlaceholder() {
                         children: lng ? lng.toUpperCase() : ""
                     }, void 0, false, {
                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                        lineNumber: 233,
+                        lineNumber: 239,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                lineNumber: 230,
+                lineNumber: 236,
                 columnNumber: 9
             }, this);
         }
@@ -10822,12 +11052,12 @@ function MultipleSelectPlaceholder() {
                                 children: renderValue(personName)
                             }, void 0, false, {
                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                lineNumber: 251,
+                                lineNumber: 257,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                            lineNumber: 250,
+                            lineNumber: 256,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$menu$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MenuItems"], {
@@ -10844,23 +11074,23 @@ function MultipleSelectPlaceholder() {
                                                         children: t("Your country of residence")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 264,
+                                                        lineNumber: 270,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$BrandsSwitcher$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 267,
+                                                        lineNumber: 273,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                lineNumber: 263,
+                                                lineNumber: 269,
                                                 columnNumber: 21
                                             }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                        lineNumber: 261,
+                                        lineNumber: 267,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$menu$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["MenuItem"], {
@@ -10872,46 +11102,46 @@ function MultipleSelectPlaceholder() {
                                                         children: t("Website language")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 274,
+                                                        lineNumber: 280,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageSwitcher$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 277,
+                                                        lineNumber: 283,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                lineNumber: 273,
+                                                lineNumber: 279,
                                                 columnNumber: 21
                                             }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                        lineNumber: 271,
+                                        lineNumber: 277,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                lineNumber: 260,
+                                lineNumber: 266,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                            lineNumber: 255,
+                            lineNumber: 261,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true)
         }, void 0, false, {
             fileName: "[project]/components/header/MenuLanguages/index.jsx",
-            lineNumber: 247,
+            lineNumber: 253,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-        lineNumber: 246,
+        lineNumber: 252,
         columnNumber: 5
     }, this);
 }
@@ -12030,6 +12260,14 @@ const getBrands = async (lng)=>{
             url: apiCLD_VIP,
             languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["availableLanguagesCLD_VIP"]
         },
+        partner1050: {
+            url: api1043,
+            languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["availableLanguages1043"]
+        },
+        partner1049: {
+            url: apiCLD_VIP,
+            languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["availableLanguagesCLD_VIP"]
+        },
         partner1047: {
             url: apiCLD_VIP,
             languages: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$languages$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["availableLanguagesCLD_VIP"]
@@ -12391,6 +12629,8 @@ const Header_tailwind = ()=>{
                 "CLD_VIP",
                 "partner1045_b1",
                 "partner1046",
+                "partner1050",
+                "partner1049",
                 "partner1047"
             ];
             partners.forEach((partner)=>{
@@ -12504,7 +12744,7 @@ const Header_tailwind = ()=>{
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$header$2f$Marque$2f$index$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                lineNumber: 251,
+                lineNumber: 253,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
@@ -12512,11 +12752,11 @@ const Header_tailwind = ()=>{
                 children: [
                     load ? dataUser.geo_approve === null || dataUser.geo_approve === "" ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$geo$2d$identifier$2f$index$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                        lineNumber: 255,
+                        lineNumber: 257,
                         columnNumber: 13
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {}, void 0, false, {
                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                        lineNumber: 257,
+                        lineNumber: 259,
                         columnNumber: 13
                     }, this) : "",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -12537,17 +12777,17 @@ const Header_tailwind = ()=>{
                                                 className: "h-6 w-6"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                lineNumber: 273,
+                                                lineNumber: 275,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 268,
+                                            lineNumber: 270,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                        lineNumber: 267,
+                                        lineNumber: 269,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -12561,17 +12801,17 @@ const Header_tailwind = ()=>{
                                                 loading: "lazy"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                lineNumber: 278,
+                                                lineNumber: 280,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 277,
+                                            lineNumber: 279,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                        lineNumber: 276,
+                                        lineNumber: 278,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -12583,12 +12823,12 @@ const Header_tailwind = ()=>{
                                                 }))
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 282,
+                                            lineNumber: 284,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                        lineNumber: 281,
+                                        lineNumber: 283,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -12597,23 +12837,23 @@ const Header_tailwind = ()=>{
                                             i18n: __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$i18n$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"],
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$header$2f$MenuLanguages$2f$index$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                lineNumber: 293,
+                                                lineNumber: 295,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 292,
+                                            lineNumber: 294,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                        lineNumber: 289,
+                                        lineNumber: 291,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                lineNumber: 263,
+                                lineNumber: 265,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$dialog$2f$dialog$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Dialog"], {
@@ -12635,12 +12875,12 @@ const Header_tailwind = ()=>{
                                                         loading: "lazy"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                        lineNumber: 367,
+                                                        lineNumber: 369,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                    lineNumber: 366,
+                                                    lineNumber: 368,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -12652,18 +12892,18 @@ const Header_tailwind = ()=>{
                                                         className: "h-6 w-6"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                        lineNumber: 374,
+                                                        lineNumber: 376,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                    lineNumber: 369,
+                                                    lineNumber: 371,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 365,
+                                            lineNumber: 367,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -12684,7 +12924,7 @@ const Header_tailwind = ()=>{
                                                                             children: item.icon
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                            lineNumber: 383,
+                                                                            lineNumber: 385,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         item.label,
@@ -12693,13 +12933,13 @@ const Header_tailwind = ()=>{
                                                                             className: "ml-2 h-5 w-5 flex-none group-data-[open]:rotate-180"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                            lineNumber: 387,
+                                                                            lineNumber: 389,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                    lineNumber: 382,
+                                                                    lineNumber: 384,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$disclosure$2f$disclosure$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["DisclosurePanel"], {
@@ -12711,56 +12951,56 @@ const Header_tailwind = ()=>{
                                                                             children: tab.label
                                                                         }, tab.label, false, {
                                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                            lineNumber: 395,
+                                                                            lineNumber: 397,
                                                                             columnNumber: 29
                                                                         }, this))
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                                    lineNumber: 393,
+                                                                    lineNumber: 395,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, item.label, true, {
                                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                            lineNumber: 381,
+                                                            lineNumber: 383,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                    lineNumber: 379,
+                                                    lineNumber: 381,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                                lineNumber: 378,
+                                                lineNumber: 380,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Header_tailwind/index.jsx",
-                                            lineNumber: 377,
+                                            lineNumber: 379,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Header_tailwind/index.jsx",
-                                    lineNumber: 364,
+                                    lineNumber: 366,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                                lineNumber: 359,
+                                lineNumber: 361,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Header_tailwind/index.jsx",
-                        lineNumber: 262,
+                        lineNumber: 264,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Header_tailwind/index.jsx",
-                lineNumber: 252,
+                lineNumber: 254,
                 columnNumber: 7
             }, this)
         ]

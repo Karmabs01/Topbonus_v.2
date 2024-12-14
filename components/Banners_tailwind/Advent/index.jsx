@@ -9,8 +9,7 @@ import { getBrands } from "../../getBrands/getBrands2";
 import { useTranslation } from "react-i18next";
 import "./styled.component.css";
 import { getUserData } from "@/components/getUser/getUser";
-import cs from "@/public/newimages/cs.png";
-import star2 from "@/public/newimages/star2.png";
+
 
 export default function Brands_carousel() {
   const [newUrl, setNewUrl] = useState("");
@@ -288,7 +287,7 @@ export default function Brands_carousel() {
     const interval = setInterval(() => {
       setFade(false);
       setTimeout(() => {
-        setCurrentBrandIndex((prevIndex) => (prevIndex + 1) % brands.length);
+        setCurrentBrandIndex((prevIndex) => (prevIndex + 15) % brands.length);
         setFade(true);
       }, 500);
     }, 5000000);
@@ -297,7 +296,7 @@ export default function Brands_carousel() {
   }, [brands.length]);
 
   const handleActivate = (index) => {
-    if (index + 1 <= today && !activatedBrands.includes(index)) {
+    if (index + 15 <= today && !activatedBrands.includes(index)) {
       setActivatedBrands((prev) => [...prev, index]);
     }
   };
@@ -321,7 +320,7 @@ export default function Brands_carousel() {
               <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap">
                 {brands.length > 0 &&
                   brands.map((rowData, index) => {
-                    const isOpened = index + 1 <= today;
+                    const isOpened = index + 15 <= today;
                     const isActivated = activatedBrands.includes(index);
 
                     return (
@@ -331,7 +330,7 @@ export default function Brands_carousel() {
                           isOpened ? "opened" : "closed"
                         } ${isActivated ? "activate" : ""}`}
                       >
-                        <div className="dated">{index + 1}</div>
+                        <div className="dated">{index + 15}</div>
                         <div className="mx-auto max-w-7xl flex flex-col w-full">
                           <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row card-sl">
                             <div className="w-full">
