@@ -59,6 +59,8 @@ export default function Popular_offers() {
       "CLD_VIP",
       "partner1045_b1",
       "partner1046",
+      "partner1050",
+      "partner1049",
       "partner1047",
     ];
 
@@ -258,6 +260,7 @@ function shuffle(array) {
   };
 
 
+
   return (
     <>
       <div className="fivehot">
@@ -268,12 +271,12 @@ function shuffle(array) {
             <div>
               <div className="fivehot-banner">
                 <h3>
-                {t("Top")} {number} <span className="span-orange">{t("HOTTEST")}</span>{" "}
+                {t("Top")} {number} <span className="span-orange">{t("Festive")}</span>{" "}
                   <span>{t("casinos")}</span>
                 </h3>
                 <p className="!text-xl mt-5">
                   {t(
-                    "Discover the hottest casino brands trending right now!"
+                    "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!"
                   )}
                 </p>
               </div>
@@ -294,7 +297,7 @@ function shuffle(array) {
                 </button>
                 {brandsToDisplay.slice(0, 5).map((rowData, index) => (
                   <Link
-                    className=""
+                    className={`round-${rowData.QuickSignUp}`}
                     href={`${rowData.GoBig}/${newUrl}&creative_id=Hottest_2`}
                     target="_blank"
                   >

@@ -84,6 +84,8 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
       "CLD_VIP",
       "partner1045_b1",
       "partner1046",
+      "partner1050",
+      "partner1049",
       "partner1047",
     ];
 
@@ -226,7 +228,7 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
                     brands.map((rowData, index) => (
                       <div
                         key={index}
-                        className="overflow-hidden rounded-xl flex flex-col justify-between"
+                        className={`overflow-hidden rounded-xl flex flex-col justify-between carousel-${rowData.QuickSignUp}`}
                       >
                         <div className="mx-auto max-w-7xl flex flex-col ">
                           <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row card-sl">

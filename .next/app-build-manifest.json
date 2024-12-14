@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "pages": {
     "/_not-found/page": [
       "static/chunks/components_i18n_980316.js",
@@ -66,4 +67,7 @@
       "static/chunks/node_modules_next_dist_esm_build_templates_app-page_d5ed91.js"
     ]
   }
+=======
+  "pages": {}
+>>>>>>> 7c78a5997b916b2e78193dd8f5729353ac1ebb29
 }
