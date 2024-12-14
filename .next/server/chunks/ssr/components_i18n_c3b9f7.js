@@ -188,6 +188,8 @@ async function initializeI18n() {
         newLng = availableLanguages1039;
     } else if (item === "partner1043") {
         newLng = availableLanguages1043;
+    } else if (item === "partner1050") {
+        newLng = availableLanguages1043;
     } else if (item === "partner1044") {
         newLng = availableLanguages1044;
     } else if (item === "CLD_VIP") {
@@ -195,6 +197,8 @@ async function initializeI18n() {
     } else if (item === "partner1045_b1") {
         newLng = availableLanguages1045;
     } else if (item === "partner1046") {
+        newLng = availableLanguagesCLD_VIP;
+    } else if (item === "partner1049") {
         newLng = availableLanguagesCLD_VIP;
     } else if (item === "partner1047") {
         newLng = availableLanguagesCLD_VIP;

@@ -16,10 +16,14 @@ import Jackpot_banner from "@/components/Banners_tailwind/Jackpot_banner";
 import Next_event_banner from "@/components/Banners_tailwind/Next_event_banner";
 import Three_part_gallery from "@/components/Banners_tailwind/Three_part_gallery";
 import Fortune_wheel from "@/components/Banners_tailwind/Fortune_wheel_banner";
-// import BasicModal from "@/components/modalFriday";
+import Advent from "@/components/Banners_tailwind/Advent";
+
+
 import FilteredHome from "@/components/Brands_home/FilteredHome";
 import Fortunes from "@/components/fortune";
 import NewArrivals from "@/components/newArrivals/NewArrivals";
+// import BasicModal from "@/components/modalFriday";
+// import Loader from "@/components/Loader";
 
 export const metadata: Metadata = {
   title: "topbon.us: Your Comprehensive Source for Casino Reviews and Insights",
@@ -33,36 +37,16 @@ export default async function Home() {
   const creative = "FW_Brands_Main_Page_2";
   return (
     <>
-      {/* <BasicModal /> */}
+
       <Three_part_gallery />
+      <Advent />
       <TopBrands />
       <Banner_small />
-      {/* <Brands_double_carousel /> */}
+
       <Next_event_banner />
-      {/* <Fortune_wheel /> */}
+
       <Banner_small_vip />
-      {/* <Random_block /> */}
-      {/* <Random_dice /> */}
-
-      {/*    
-   <Brand_carousel_mobile/>
-   */}
-
-      {/* <div className="main__container mt-3">
-        <UserBrands />
-      </div>
-      <TopBrandsRandom />
-
-      <NewArrivals />
-       */}
-
-      {/* <div className="main__container">
-        <Fortunes banner={banner} target={target} creative={creative} />
-      </div> */}
-
-      {/* <div className="background-block">
-        <FilteredHome />
-      </div> */}
+  
     </>
   );
 }
