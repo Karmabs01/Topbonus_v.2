@@ -781,7 +781,7 @@ async function initializeI18n() {
 
         "Christmas Calendar": "Christmas Calendar",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
-          "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!",
+          "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15th to 29th!",
         "Ready to Activate": "Ready to Activate",
         Activate: "Activate",
         "Not Yet Available": "Not Yet Available",
