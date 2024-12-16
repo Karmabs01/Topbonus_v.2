@@ -305,7 +305,7 @@ export default function Brands_carousel() {
 
   return (
     <>
-      <div className="sm:mt-10 mt-5 mb-5 mob-mt10 advent mb-16">
+      <div id="advent" className="sm:mt-10 mt-5 mb-5 mob-mt10 advent mb-16">
         <div className="main__container advnt">
           {loading ? (
             <Loader />
