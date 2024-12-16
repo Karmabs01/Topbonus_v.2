@@ -19,8 +19,8 @@ export default function Popular_offers() {
   const [newUrl, setNewUrl] = useState("");
   const [source, setSource] = useState("");
   const [loading, setLoading] = useState(true);
-  const [brands, setBrands] = useState([]);
-  const [brands2, setBrands2] = useState([]);
+  const [pinnedBrand, setPinnedBrand] = useState(null);
+  const [otherBrands, setOtherBrands] = useState([]);
 
   const { language } = useLanguage();
   const { t } = useTranslation();
@@ -111,30 +111,30 @@ export default function Popular_offers() {
   const { data, error } = useSWR(
     ["brands", language],
     () => getBrands(language),
-    { initialData: brands }
+    { initialData: [] } // Инициализируем пустым массивом
   );
 
   let userId = "";
   if (typeof window !== "undefined") {
     userId = localStorage.getItem("user_id") || "";
   }
+
   useEffect(() => {
     const fetchUserBrands = async () => {
       // 1. Фильтрация брендов на основе категорий
       const filteredByCategory = data.filter(
         (brand) => brand[categoryBrands0.key1] === categoryBrands0.key2
       );
+
       try {
-        // Проверяем наличие данных брендов
         if (!data) {
           console.warn("Данные брендов отсутствуют");
           setLoading(false);
           return;
         }
 
-        // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
         if (!userId) {
-          setBrands(filteredByCategory);
+          handlePinnedAndOtherBrands(filteredByCategory);
           setLoading(false);
           return;
         }
@@ -145,7 +145,6 @@ export default function Popular_offers() {
 
         let sales = dataUser.sales;
 
-        // Если sales — строка, пытаемся её распарсить
         if (typeof sales === "string") {
           try {
             sales = JSON.parse(sales);
@@ -156,7 +155,6 @@ export default function Popular_offers() {
           }
         }
 
-        // Проверяем, что sales — массив
         if (!Array.isArray(sales)) {
           console.warn("Поле sales не является массивом:", sales);
           sales = [];
@@ -175,11 +173,11 @@ export default function Popular_offers() {
 
         console.log("Отфильтрованные бренды:", finalFilteredBrands);
 
-        // 5. Устанавливаем состояние с отфильтрованными брендами
-        setBrands(finalFilteredBrands);
+        // 5. Обработка закрепленного бренда и остальных
+        handlePinnedAndOtherBrands(finalFilteredBrands);
         setLoading(false);
       } catch (error) {
-        setBrands(filteredByCategory);
+        handlePinnedAndOtherBrands(filteredByCategory);
         console.error(
           "Ошибка при получении данных пользователя или брендов:",
           error
@@ -188,26 +186,35 @@ export default function Popular_offers() {
       }
     };
 
+    const handlePinnedAndOtherBrands = (brandsArray) => {
+      const pinned = brandsArray.find(
+        (brand) => brand.CasinoBrand === "FairPari"
+      );
+      if (pinned) {
+        const others = brandsArray.filter(
+          (brand) => brand.CasinoBrand !== "FairPari"
+        );
+        setPinnedBrand(pinned);
+        setOtherBrands(others);
+      } else {
+        setPinnedBrand(null);
+        setOtherBrands(brandsArray);
+      }
+    };
+
     fetchUserBrands();
   }, [data, userId, categoryBrands0.key1, categoryBrands0.key2]);
 
   const refetchBrands = () => {
-    const shuffled = shuffle(brands);
-    setBrands(shuffled); // Перемешиваем и обновляем состояние с брендами
+    const shuffled = shuffle(otherBrands);
+    setOtherBrands(shuffled);
   };
 
-  const shuffledBrands = shuffle(brands);
-
-  const cards2 = shuffledBrands.slice(0, 6).map((brand) => ({
-    key: uuidv4(),
-    content: (
-      <Card
-        imagen={`/brands/${brand.CasinoBrand}.png`}
-        link={brand.GoBig}
-        bonus={brand.OurOfferContent}
-      />
-    ),
-  }));
+  // Перемешиваем только остальные бренды
+  const shuffledOtherBrands = shuffle(otherBrands);
+  const combinedBrands = pinnedBrand
+    ? [pinnedBrand, ...shuffledOtherBrands]
+    : shuffledOtherBrands;
 
   return (
     <>
@@ -216,7 +223,7 @@ export default function Popular_offers() {
           {loading ? (
             <Loader />
           ) : (
-            cards2 && (
+            combinedBrands && (
               <div className="w-full">
                 <div className="flex justify-between mt-16">
                   <h2 className="text-3xl font-bold tracking-tight text-white random-title mmm-none">
@@ -236,7 +243,7 @@ export default function Popular_offers() {
                 </div>
                 <div className="mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8 hidden md:inline">
                   <div className="cards-thr">
-                    {shuffledBrands.slice(0, 6).map((rowData, index) => (
+                    {combinedBrands.slice(0, 6).map((rowData, index) => (
                       <div
                         key={"Popular_offers" + index}
                         className={`card-thr popular-${rowData.QuickSignUp}`}
@@ -257,7 +264,7 @@ export default function Popular_offers() {
                               />
                             </Link>
                           </div>
-                          
+
                           <div className="relative mt-4 text-center">
                             <h3 className="text-lg font-semibold text-gray-900">
                               {rowData.CasinoBrand}
@@ -287,7 +294,7 @@ export default function Popular_offers() {
                       {t("POPULAR")} <span>{t("offers")}</span>
                     </h2>
                     <Slider {...settings}>
-                      {shuffledBrands.map((rowData, index) => (
+                      {combinedBrands.map((rowData, index) => (
                         <div
                           key={index}
                           className={`overflow-hidden card-thr popular-${rowData.QuickSignUp}`}
