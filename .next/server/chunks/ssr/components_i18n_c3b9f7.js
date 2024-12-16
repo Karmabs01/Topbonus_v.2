@@ -188,8 +188,6 @@ async function initializeI18n() {
         newLng = availableLanguages1039;
     } else if (item === "partner1043") {
         newLng = availableLanguages1043;
-    } else if (item === "partner1050") {
-        newLng = availableLanguages1043;
     } else if (item === "partner1044") {
         newLng = availableLanguages1044;
     } else if (item === "CLD_VIP") {
@@ -197,8 +195,6 @@ async function initializeI18n() {
     } else if (item === "partner1045_b1") {
         newLng = availableLanguages1045;
     } else if (item === "partner1046") {
-        newLng = availableLanguagesCLD_VIP;
-    } else if (item === "partner1049") {
         newLng = availableLanguagesCLD_VIP;
     } else if (item === "partner1047") {
         newLng = availableLanguagesCLD_VIP;
@@ -617,9 +613,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Grab your exclusive casino deal before it disappears!",
                 Take: "Get",
                 "Your bonuses are on the way, one moment..": "Your bonuses are on the way, one moment..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Your Christmas Gift Awaits Start Your Fortune!",
-                Festive: "Festive",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!"
+                "Christmas Calendar": "Christmas Calendar",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15th to 29th!",
+                "Ready to Activate": "Ready to Activate",
+                Activate: "Activate",
+                "Not Yet Available": "Not Yet Available",
+                "Not Yet": "Not Yet",
+                TOP: "TOP",
+                "New Releases": "New Releases",
+                "Discover the hottest new arrivals and start playing today!": "Discover the hottest new arrivals and start playing today!",
+                Best: "Best",
+                "VIP Programs": "VIP Programs",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Enjoy exclusive bonuses, special rewards, and premium support!"
             }
         },
         pl: {
@@ -1013,9 +1018,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Złap swoją ekskluzywną ofertę kasynową, zanim zniknie!",
                 Take: "Otrzymać",
                 "Your bonuses are on the way, one moment..": "Twoje bonusy są w drodze, chwileczkę..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Twój prezent świąteczny czeka Zacznij swoje szczęście!",
-                Festive: "Świąteczny",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Poczuj magię sezonu z najgorętszymi markami kasyn—odkryj ekscytujące niespodzianki i świąteczne nagrody!"
+                "Christmas Calendar": "Kalendarz Bożonarodzeniowy",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Dołącz do nas na 15 dni świątecznych niespodzianek! Odkryj ekskluzywne bonusy, darmowe spiny i ekscytujące oferty od najlepszych kasyn online - jedna nowa oferta każdego dnia od 1 do 15 grudnia!",
+                "Ready to Activate": "Gotowy do aktywacji",
+                Activate: "Aktywuj",
+                "Not Yet Available": "Jeszcze niedostępne",
+                "Not Yet": "Jeszcze nie",
+                TOP: "NAJLEPSZY",
+                "New Releases": "Nowości",
+                "Discover the hottest new arrivals and start playing today!": "Odkryj najgorętsze nowości i zacznij grać już dziś!",
+                Best: "Najlepszy",
+                "VIP Programs": "Programy VIP",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Ciesz się ekskluzywnymi bonusami, specjalnymi nagrodami i wsparciem premium!"
             }
         },
         de: {
@@ -1410,9 +1424,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Holen Sie sich Ihr exklusives Casino-Angebot, bevor es verschwindet!",
                 Take: "Erhalten",
                 "Your bonuses are on the way, one moment..": "Ihre Boni sind unterwegs, einen Moment bitte..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Ihr Weihnachtsgeschenk erwartet Sie Starten Sie Ihr Vermögen!",
-                Festive: "Festlich",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Erleben Sie die Magie der Saison mit den heißesten Casinobrands – packen Sie spannende Überraschungen und festliche Belohnungen aus!"
+                "Christmas Calendar": "Weihnachtskalender",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Begleiten Sie uns zu 15 Tagen voller festlicher Überraschungen! Entsperren Sie exklusive Boni, Freispiele und spannende Angebote von führenden Online-Casinos - jeden Tag ein neues Angebot vom 1. bis 15. Dezember!",
+                "Ready to Activate": "Bereit zur Aktivierung",
+                Activate: "Aktivieren",
+                "Not Yet Available": "Noch nicht verfügbar",
+                "Not Yet": "Noch nicht",
+                TOP: "OBEN",
+                "New Releases": "Neuerscheinungen",
+                "Discover the hottest new arrivals and start playing today!": "Entdecken Sie die heißesten Neuankömmlinge und beginnen Sie noch heute zu spielen!",
+                Best: "Beste",
+                "VIP Programs": "VIP-Programme",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Genießen Sie exklusive Boni, spezielle Belohnungen und Premium-Support!"
             }
         },
         bg: {
@@ -1806,9 +1829,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Вземете своят ексклузивен казино договор, преди да изчезне!",
                 Take: "Вземи",
                 "Your bonuses are on the way, one moment..": "Вашите бонуси са на път, моля изчакайте..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Вашият коледен подарък ви очаква. Започнете вашето богатство!",
-                Festive: "Празничен",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Изживейте магията на сезона с най-горещите казино марки—разопаковайте вълнуващи изненади и празнични награди!"
+                "Christmas Calendar": "Коледен календар",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Присъединете се към нас за 15 дни на празнични изненади! Отключете ексклузивни бонуси, безплатни завъртания и вълнуващи оферти от водещи онлайн казина - нова сделка всеки ден от 1-ви до 15-ти декември!",
+                "Ready to Activate": "Готов за активиране",
+                Activate: "Активирай",
+                "Not Yet Available": "Все още не е налично",
+                "Not Yet": "Все още не",
+                TOP: "ТОП",
+                "New Releases": "Нови издания",
+                "Discover the hottest new arrivals and start playing today!": "Открийте най-новите горещи предложения и започнете да играете днес!",
+                Best: "Най-добър",
+                "VIP Programs": "VIP програми",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Насладете се на ексклузивни бонуси, специални награди и премиум поддръжка!"
             }
         },
         cz: {
@@ -2202,9 +2234,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Využijte svou exkluzivní kasinovou nabídku, než zmizí!",
                 Take: "Dostat",
                 "Your bonuses are on the way, one moment..": "Vaše bonusy jsou na cestě, vydržte chvíli..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Váš vánoční dárek čeká, začněte své štěstí!",
-                Festive: "Sváteční",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Zažijte kouzlo sezóny s nejžhavějšími kasinovými značkami—rozbalte vzrušující překvapení a sváteční odměny!"
+                "Christmas Calendar": "Vánoční kalendář",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Připojte se k nám na 15 dní plných svátečních překvapení! Odemkněte exkluzivní bonusy, volné otočky a vzrušující nabídky od nejlepších online kasin - každý den nová nabídka od 1. do 15. prosince!",
+                "Ready to Activate": "Připraveno k aktivaci",
+                Activate: "Aktivovat",
+                "Not Yet Available": "Ještě není k dispozici",
+                "Not Yet": "Ještě ne",
+                TOP: "NEJLEPŠÍ",
+                "New Releases": "Novinky",
+                "Discover the hottest new arrivals and start playing today!": "Objevte nejžhavější novinky a začněte hrát ještě dnes!",
+                Best: "Nejlepší",
+                "VIP Programs": "Programy VIP",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Užijte si exkluzivní bonusy, speciální odměny a prémiovou podporu!"
             }
         },
         dk: {
@@ -2598,9 +2639,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Få fat i din eksklusive casinoaftale, før den forsvinder!",
                 Take: "Få",
                 "Your bonuses are on the way, one moment..": "Dine bonusser er på vej, et øjeblik..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Din julegave venter Start din formue!",
-                Festive: "Festlig",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Oplev sæsonens magi med de hotteste casinobrands—åbn spændende overraskelser og festlige belønninger!"
+                "Christmas Calendar": "Julekalender",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Deltag i 15 dage med festlige overraskelser! Lås op for eksklusive bonusser, gratis spins og spændende tilbud fra de bedste online casinoer - en ny aftale hver dag fra 1. til 15. december!",
+                "Ready to Activate": "Klar til at aktivere",
+                Activate: "Aktiver",
+                "Not Yet Available": "Ikke tilgængelig endnu",
+                "Not Yet": "Ikke endnu",
+                TOP: "TOP",
+                "New Releases": "Nye udgivelser",
+                "Discover the hottest new arrivals and start playing today!": "Opdag de hotteste nye ankomster og begynd at spille i dag!",
+                Best: "Bedst",
+                "VIP Programs": "VIP-programmer",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Nyd eksklusive bonusser, særlige belønninger og premium support!"
             }
         },
         nl: {
@@ -2994,9 +3044,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Grijp je exclusieve casinodeal voordat het verdwijnt!",
                 Take: "Krijgen",
                 "Your bonuses are on the way, one moment..": "Jouw bonussen zijn onderweg, een ogenblik..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Je kerstcadeau wacht op je Begin je fortuin!",
-                Festive: "Feestelijk",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Beleef de magie van het seizoen met de populairste casinomerken—ontdek spannende verrassingen en feestelijke beloningen!"
+                "Christmas Calendar": "Kerstkalender",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Doe mee aan 15 dagen vol feestelijke verrassingen! Ontgrendel exclusieve bonussen, gratis spins en spannende aanbiedingen van top online casino's - elke dag een nieuwe deal van 1 tot 15 december!",
+                "Ready to Activate": "Klaar om te activeren",
+                Activate: "Activeren",
+                "Not Yet Available": "Nog niet beschikbaar",
+                "Not Yet": "Nog niet",
+                TOP: "TOP",
+                "New Releases": "Nieuwe releases",
+                "Discover the hottest new arrivals and start playing today!": "Ontdek de nieuwste en populairste aankomsten en begin vandaag nog met spelen!",
+                Best: "Beste",
+                "VIP Programs": "VIP-programma's",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Geniet van exclusieve bonussen, speciale beloningen en premium ondersteuning!"
             }
         },
         es: {
@@ -3390,9 +3449,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "¡Aprovecha tu oferta exclusiva de casino antes de que desaparezca!",
                 Take: "Obtener",
                 "Your bonuses are on the way, one moment..": "Tus bonos están en camino, un momento..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Tu regalo de Navidad te espera, ¡comienza tu fortuna!",
-                Festive: "Festivo",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Experimenta la magia de la temporada con las marcas de casino más populares: ¡descubre sorpresas emocionantes y recompensas festivas!"
+                "Christmas Calendar": "Calendario de Navidad",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Únase a nosotros para 15 días de sorpresas festivas. Desbloquee bonos exclusivos, giros gratis y ofertas emocionantes de los mejores casinos en línea: ¡una nueva oferta cada día del 1 al 15 de diciembre!",
+                "Ready to Activate": "Listo para activar",
+                Activate: "Activar",
+                "Not Yet Available": "Aún no disponible",
+                "Not Yet": "Todavía no",
+                TOP: "SUPERIOR",
+                "New Releases": "Nuevos lanzamientos",
+                "Discover the hottest new arrivals and start playing today!": "Descubre las novedades más candentes y comienza a jugar hoy.",
+                Best: "Mejor",
+                "VIP Programs": "Programas VIP",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Disfruta de bonos exclusivos, recompensas especiales y soporte premium."
             }
         },
         fi: {
@@ -3786,9 +3854,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Nappaa yksinoikeudellinen kasinotarjous ennen kuin se katoaa!",
                 Take: "Hanki",
                 "Your bonuses are on the way, one moment..": "Bonuksesi ovat matkalla, hetki vain..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Joululahjasi odottaa, aloita onnesi!",
-                Festive: "Juhlava",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Koe kauden taika kuumimpien kasinobrändien kanssa—avaa jännittäviä yllätyksiä ja juhlavia palkintoja!"
+                "Christmas Calendar": "Joulukalenteri",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Liity seuraamme 15 päivän juhlallisiin yllätyksiin! Avaa eksklusiivisia bonuksia, ilmaispyöräytyksiä ja jännittäviä tarjouksia huippu nettikasinoilta - yksi uusi tarjous joka päivä 1.-15. joulukuuta!",
+                "Ready to Activate": "Valmis aktivoitavaksi",
+                Activate: "Aktivoi",
+                "Not Yet Available": "Ei vielä saatavilla",
+                "Not Yet": "Ei vielä",
+                TOP: "HUIPPU",
+                "New Releases": "Uudet julkaisut",
+                "Discover the hottest new arrivals and start playing today!": "Löydä kuumimmat uutuudet ja aloita pelaaminen jo tänään!",
+                Best: "Paras",
+                "VIP Programs": "VIP-ohjelmat",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Nauti eksklusiivisista bonuksista, erityisistä palkinnoista ja ensiluokkaisesta tuesta!"
             }
         },
         fr: {
@@ -4183,9 +4260,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Profitez de votre offre exclusive de casino avant qu'elle ne disparaisse!",
                 Take: "Obtenir",
                 "Your bonuses are on the way, one moment..": "Vos bonus sont en route, un instant..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Votre cadeau de Noël vous attend, commencez votre fortune !",
-                Festive: "Festif",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Découvrez la magie de la saison avec les marques de casino les plus en vogue—dévoilez des surprises palpitantes et des récompenses festives !"
+                "Christmas Calendar": "Calendrier de Noël",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Rejoignez-nous pour 15 jours de surprises festives ! Débloquez des bonus exclusifs, des tours gratuits et des offres excitantes des meilleurs casinos en ligne - une nouvelle offre chaque jour du 1er au 15 décembre !",
+                "Ready to Activate": "Prêt à activer",
+                Activate: "Activer",
+                "Not Yet Available": "Pas encore disponible",
+                "Not Yet": "Pas encore",
+                TOP: "HAUT",
+                "New Releases": "Nouveautés",
+                "Discover the hottest new arrivals and start playing today!": "Découvrez les nouveautés les plus en vogue et commencez à jouer dès aujourd'hui !",
+                Best: "Meilleur",
+                "VIP Programs": "Programmes VIP",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Profitez de bonus exclusifs, de récompenses spéciales et d'un support premium !"
             }
         },
         gr: {
@@ -4580,9 +4666,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Αξιοποιήστε την αποκλειστική προσφορά καζίνο σας πριν εξαφανιστεί!",
                 Take: "Πάρε",
                 "Your bonuses are on the way, one moment..": "Τα μπόνους σας έρχονται, παρακαλώ περιμένετε λίγο..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Το Χριστουγεννιάτικο Δώρο σας Περιμένει Ξεκινήστε την Τύχη σας!",
-                Festive: "Εορταστικός",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Ζήστε τη μαγεία της εποχής με τα πιο καυτά εμπορικά σήματα καζίνο—ξετυλίξτε συναρπαστικές εκπλήξεις και εορταστικές ανταμοιβές!"
+                "Christmas Calendar": "Χριστουγεννιάτικο Ημερολόγιο",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Ελάτε μαζί μας για 15 ημέρες γιορτινών εκπλήξεων! Ξεκλειδώστε αποκλειστικά μπόνους, δωρεάν περιστροφές και συναρπαστικές προσφορές από κορυφαία διαδικτυακά καζίνο - μία νέα προσφορά κάθε μέρα από την 1η έως την 15η Δεκεμβρίου!",
+                "Ready to Activate": "Έτοιμοι για Ενεργοποίηση",
+                Activate: "Ενεργοποίηση",
+                "Not Yet Available": "Ακόμα Δεν Διατίθεται",
+                "Not Yet": "Όχι ακόμα",
+                TOP: "ΚΟΡΥΦΗ",
+                "New Releases": "Νέες Κυκλοφορίες",
+                "Discover the hottest new arrivals and start playing today!": "Ανακαλύψτε τις πιο καυτές νέες αφίξεις και ξεκινήστε να παίζετε σήμερα!",
+                Best: "Καλύτερο",
+                "VIP Programs": "Προγράμματα VIP",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Απολαύστε αποκλειστικά μπόνους, ειδικές ανταμοιβές και υποστήριξη υψηλής ποιότητας!"
             }
         },
         hu: {
@@ -4977,9 +5072,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Fogd meg az egyedi kaszinó ajánlatodat, mielőtt eltűnik!",
                 Take: "Kap",
                 "Your bonuses are on the way, one moment..": "A bónuszok úton vannak, egy pillanat..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Karácsonyi ajándékod vár, kezd el a szerencséd!",
-                Festive: "Ünnepi",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Éld át az évszak varázsát a legmenőbb kaszinómárkákkal—bontsd ki az izgalmas meglepetéseket és ünnepi jutalmakat!"
+                "Christmas Calendar": "Karácsonyi naptár",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Csatlakozz hozzánk 15 napos ünnepi meglepetésekre! Oldj fel exkluzív bónuszokat, ingyenes pörgetéseket és izgalmas ajánlatokat a legjobb online kaszinóktól - minden nap egy új ajánlat december 1-től 15-ig!",
+                "Ready to Activate": "Készen áll az aktiválásra",
+                Activate: "Aktiválás",
+                "Not Yet Available": "Még nem elérhető",
+                "Not Yet": "Még nem",
+                TOP: "CSÚCS",
+                "New Releases": "Új megjelenések",
+                "Discover the hottest new arrivals and start playing today!": "Fedezd fel a legújabb érkezéseket és kezdj el játszani még ma!",
+                Best: "Legjobb",
+                "VIP Programs": "VIP programok",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Élvezze az exkluzív bónuszokat, különleges jutalmakat és prémium támogatást!"
             }
         },
         it: {
@@ -5374,9 +5478,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Approfitta della tua offerta esclusiva del casinò prima che scompaia!",
                 Take: "Ottenere",
                 "Your bonuses are on the way, one moment..": "I tuoi bonus sono in arrivo, un attimo..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Il tuo regalo di Natale ti aspetta inizia la tua fortuna!",
-                Festive: "Festoso",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Vivi la magia della stagione con i marchi di casinò più caldi—scopri sorprese emozionanti e premi festivi!"
+                "Christmas Calendar": "Calendario di Natale",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Unisciti a noi per 15 giorni di sorprese festive! Sblocca bonus esclusivi, giri gratuiti e offerte entusiasmanti dai migliori casinò online - un nuovo affare ogni giorno dal 1° al 15 dicembre!",
+                "Ready to Activate": "Pronto per attivare",
+                Activate: "Attiva",
+                "Not Yet Available": "Non ancora disponibile",
+                "Not Yet": "Non ancora",
+                TOP: "IN ALTO",
+                "New Releases": "Nuove uscite",
+                "Discover the hottest new arrivals and start playing today!": "Scopri le novità più calde e inizia a giocare oggi!",
+                Best: "Migliore",
+                "VIP Programs": "Programmi VIP",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Goditi bonus esclusivi, ricompense speciali e supporto premium!"
             }
         },
         no: {
@@ -5771,9 +5884,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Få tak i din eksklusive casinotilbud før det forsvinner!",
                 Take: "Få",
                 "Your bonuses are on the way, one moment..": "Bonusene dine er på vei, et øyeblikk..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Din julegave venter Start din formue!",
-                Festive: "Festlig",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Opplev sesongens magi med de hotteste casinomerkevarene—pakk opp spennende overraskelser og festlige belønninger!"
+                "Christmas Calendar": "Julekalender",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Bli med oss i 15 dager med festlige overraskelser! Lås opp eksklusive bonuser, gratisspinn og spennende tilbud fra topp online kasinoer - en ny avtale hver dag fra 1. til 15. desember!",
+                "Ready to Activate": "Klar til å aktivere",
+                Activate: "Aktiver",
+                "Not Yet Available": "Ikke tilgjengelig ennå",
+                "Not Yet": "Ikke ennå",
+                TOP: "TOP",
+                "New Releases": "Nye utgivelser",
+                "Discover the hottest new arrivals and start playing today!": "Oppdag de hotteste nyhetene og begynn å spille i dag!",
+                Best: "Beste",
+                "VIP Programs": "VIP-programmer",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Nyt eksklusive bonuser, spesielle belønninger og premium støtte!"
             }
         },
         pt: {
@@ -6168,9 +6290,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Aproveite sua oferta exclusiva de cassino antes que ela desapareça!",
                 Take: "Obter",
                 "Your bonuses are on the way, one moment..": "Seus bônus estão a caminho, um momento..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Seu Presente de Natal Aguarda Comece Sua Fortuna!",
-                Festive: "Festivo",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Experimente a magia da temporada com as marcas de cassino mais quentes—desembrulhe surpresas emocionantes e recompensas festivas!"
+                "Christmas Calendar": "Calendário de Natal",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Junte-se a nós para 15 dias de surpresas festivas! Desbloqueie bônus exclusivos, rodadas grátis e ofertas emocionantes dos melhores cassinos online - uma nova oferta todos os dias de 1 a 15 de dezembro!",
+                "Ready to Activate": "Pronto para Ativar",
+                Activate: "Ativar",
+                "Not Yet Available": "Ainda não disponível",
+                "Not Yet": "Ainda não",
+                TOP: "TOPO",
+                "New Releases": "Novos Lançamentos",
+                "Discover the hottest new arrivals and start playing today!": "Descubra as novidades mais quentes e comece a jogar hoje!",
+                Best: "Melhor",
+                "VIP Programs": "Programas VIP",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Aproveite bônus exclusivos, recompensas especiais e suporte premium!"
             }
         },
         se: {
@@ -6565,9 +6696,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Hämta ditt exklusiva casinopaket innan det försvinner!",
                 Take: "Få",
                 "Your bonuses are on the way, one moment..": "Dina bonusar är på väg, ett ögonblick..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Din julklapp väntar Börja ditt äventyr!",
-                Festive: "Festlig",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Upplev säsongens magi med de hetaste casinovarumärkena—öppna spännande överraskningar och festliga belöningar!"
+                "Christmas Calendar": "Julkalender",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Delta med oss i 15 dagar av festliga överraskningar! Lås upp exklusiva bonusar, gratissnurr och spännande erbjudanden från de bästa onlinekasinona - ett nytt erbjudande varje dag från 1 till 15 december!",
+                "Ready to Activate": "Redo att aktivera",
+                Activate: "Aktivera",
+                "Not Yet Available": "Inte tillgänglig än",
+                "Not Yet": "Inte än",
+                TOP: "Topp",
+                "New Releases": "Nya utgåvor",
+                "Discover the hottest new arrivals and start playing today!": "Upptäck de hetaste nyheterna och börja spela idag!",
+                Best: "Bästa",
+                "VIP Programs": "VIP-program",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Njut av exklusiva bonusar, speciella belöningar och premiumsupport!"
             }
         },
         sk: {
@@ -6962,9 +7102,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Získajte svoju exkluzívnu kasínovú ponuku, kým nezmizne!",
                 Take: "Dostať",
                 "Your bonuses are on the way, one moment..": "Vaše bonusy sú na ceste, chvíľku počkajte..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Váš vianočný darček čaká, začnite svoje šťastie!",
-                Festive: "Sviatočný",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Zažite kúzlo sezóny s najhorúcejšími kasínovými značkami—rozbaľte vzrušujúce prekvapenia a sviatočné odmeny!"
+                "Christmas Calendar": "Vianočný kalendár",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Pridajte sa k nám na 15 dní plných sviatočných prekvapení! Odomknite exkluzívne bonusy, voľné točenia a vzrušujúce ponuky od najlepších online kasín - každý deň nová ponuka od 1. do 15. decembra!",
+                "Ready to Activate": "Pripravený na aktiváciu",
+                Activate: "Aktivovať",
+                "Not Yet Available": "Ešte nie je k dispozícii",
+                "Not Yet": "Ešte nie",
+                TOP: "NAJLEPŠIE",
+                "New Releases": "Nové vydania",
+                "Discover the hottest new arrivals and start playing today!": "Objavte najhorúcejšie novinky a začnite hrať už dnes!",
+                Best: "Najlepší",
+                "VIP Programs": "VIP programy",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Užite si exkluzívne bonusy, špeciálne odmeny a prémiovú podporu!"
             }
         },
         tr: {
@@ -7359,9 +7508,18 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "Kaybolmadan önce özel kumarhane fırsatınızı kapın!",
                 Take: "Almak",
                 "Your bonuses are on the way, one moment..": "Bonuslarınız yolda, lütfen bir dakika..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "Noel Hediyeniz Sizi Bekliyor Şansınızı Başlatın!",
-                Festive: "Şenlikli",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Sezonun büyüsünü en popüler casino markalarıyla yaşayın—heyecan verici sürprizler ve festivallik ödüllerle tanışın!"
+                "Christmas Calendar": "Noel Takvimi",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Bize 15 günlük festival sürprizlerine katılın! 1 Aralık'tan 15 Aralık'a kadar her gün yeni bir fırsatla en iyi online casinoların özel bonuslarını, bedava dönüşlerini ve heyecan verici tekliflerini açın!",
+                "Ready to Activate": "Etkinleştirmeye Hazır",
+                Activate: "Etkinleştir",
+                "Not Yet Available": "Henüz Mevcut Değil",
+                "Not Yet": "Henüz Değil",
+                TOP: "ÜST",
+                "New Releases": "Yeni Çıkanlar",
+                "Discover the hottest new arrivals and start playing today!": "En yeni ve en popüler ürünleri keşfedin ve bugün oynamaya başlayın!",
+                Best: "En iyi",
+                "VIP Programs": "VIP Programları",
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Özel bonusların, özel ödüllerin ve premium desteğin keyfini çıkarın!"
             }
         }
     };
