@@ -18,9 +18,9 @@ export default function Next_event_banner() {
         <div className="">
           <div className="flex flex-col items-center justify-center gap-x-6 banner-event px-6 py-2.5 sm:px-3.5">
             <h3 className="text-xl sm:text-xl leading-6 text-white uppercase">
-              {t("Uncover the latest casinos")}
+              {t("Explore Exclusive Games")}
             </h3>
-            <p className="banner-event-p">{t("and be among the")} <span>{t("first to play!")}</span></p>
+            <p className="banner-event-p">{t("Dive into thrilling adventures and claim top rewards!")}</p>
           </div>
         </div>
       </div>
