@@ -10471,7 +10471,7 @@ main > .topbr {
   .min-h60 {
     min-height: 60px;
     max-height: 60px;
-    overflow:hidden;
+    overflow: hidden;
   }
   .custom-bonuses.pt-10 {
     padding-top: 0 !important;
@@ -10480,7 +10480,7 @@ main > .topbr {
 .min-h60 {
   min-height: 60px;
   max-height: 60px;
-  overflow:hidden;
+  overflow: hidden;
 }
 .card-casinos {
   background: linear-gradient(161deg, #ffffff1a 0%, #ffffff0d 101.7%);
@@ -10504,7 +10504,7 @@ main > .topbr {
 .inner-top-block3 {
   background: url(/paybg2.png) no-repeat center !important;
 }
-@media(min-width: 1260px) and (max-width: 5000px) {
+@media (min-width: 1260px) and (max-width: 5000px) {
   .inner-top-block {
     min-height: 273px;
     max-height: 273px;
@@ -10942,8 +10942,7 @@ main > .topbr {
   margin-top: 15px;
 }
 @media (min-width: 1260px) and (max-width: 5000px) {
-
-  .jins>div h5.h5 {
+  .jins > div h5.h5 {
     font-size: 29px !important;
   }
 }
@@ -10956,7 +10955,6 @@ main > .topbr {
   }
 }
 
-
 .mw-163 {
   max-width: 163px;
   color: #fff !important;
@@ -10964,16 +10962,14 @@ main > .topbr {
   margin-left: 5px;
   margin-top: 0px !important;
   margin-bottom: 0px !important;
-
 }
 .btn-crd-pop {
   margin-left: auto !important;
-
 }
-.btn-crd-pop>div {
+.btn-crd-pop > div {
   font-size: 14px !important;
   padding: 5px 15px !important;
-  background: #FF8F1F!important;
+  background: #ff8f1f !important;
   color: #000 !important;
   font-weight: 700 !important;
 }
@@ -10982,10 +10978,10 @@ main > .topbr {
   padding: 5px;
 }
 
-@media(min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .custom-modal {
     padding: 15px 5px !important;
-    width: 95% !important; 
+    width: 95% !important;
     max-width: 370px !important;
     background-size: cover !important;
     border-radius: 30px !important;
@@ -11002,3 +10998,56 @@ main > .topbr {
   }
 }
 
+.green .new-brands {
+  background: url(/newimages/bgnewreal.png) no-repeat top center !important;
+  min-height: 189px;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.violet .new-brands {
+  background: url(/newimages/violetbg2.png) no-repeat top center !important;
+  min-height: 189px;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.green .btn-play {
+  background: #458836;
+}
+.green .btn-play:hover {
+  background: #90eb7b;
+}
+.violet .btn-play {
+  background: #6935ae;
+}
+.violet .btn-play:hover {
+  background: #9566d3;
+}
+
+.green .new-brands h2,
+.green .new-brands p {
+  text-align: center !important;
+}
+.green .new-brands h2 span {
+  color: #f0953f !important;
+}
+.green .new-brands p {
+  color: #fff !important;
+  margin-top: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .green .new-brands {
+    background: url(/newimages/greenbgmob.png) no-repeat top center !important;
+    background-size: cover !important;
+  }
+  .violet .new-brands {
+    background: url(/newimages/violetbgmob.png) no-repeat top center !important;
+    background-size: cover !important;
+  }
+}

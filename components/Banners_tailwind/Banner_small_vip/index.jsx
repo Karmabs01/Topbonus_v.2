@@ -25,7 +25,7 @@ export default function Banner_small() {
 
   return (
     <>
-     <div className="mb-8">
+     <div className="mb-8 violet">
       <div id="vip" className="main__container">
         <div className="">
           <div className="flex px-2 py-2.5 sm:px-3.5 rounded-md mt-10 flex-col new-brands flex-col items-start b-vip">

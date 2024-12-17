@@ -10,7 +10,6 @@ import { useTranslation } from "react-i18next";
 import "./styled.component.css";
 import { getUserData } from "@/components/getUser/getUser";
 
-
 export default function Brands_carousel() {
   const [newUrl, setNewUrl] = useState("");
   const [source, setSource] = useState("");
@@ -32,7 +31,13 @@ export default function Brands_carousel() {
   const today = new Date().getDate();
 
   // Приоритетные бренды
-  const priorityBrands = ["Fairspin", "Trip2vip", "GreenLuck"];
+  const priorityBrands = [
+    "Fairspin",
+    "Trip2vip",
+    "GreenLuck",
+    "FairPari",
+    "Primebetz",
+  ];
 
   useEffect(() => {
     const savedActivatedBrands = localStorage.getItem("activatedBrands");
@@ -128,14 +133,17 @@ export default function Brands_carousel() {
         );
 
         // Объединяем результаты: сначала главная категория, потом массовка
-        let finalFilteredBrands = [...mainCategoryData, ...secondaryCategoryData];
+        let finalFilteredBrands = [
+          ...mainCategoryData,
+          ...secondaryCategoryData,
+        ];
 
         let salesCampaignIds = [];
         if (userId) {
           // Фильтрация по продажам
           const dataUser = await getUserData(userId);
           let sales = dataUser.sales;
-          if (typeof sales === 'string') {
+          if (typeof sales === "string") {
             try {
               sales = JSON.parse(sales);
             } catch (error) {
@@ -158,15 +166,23 @@ export default function Brands_carousel() {
         // Проверяем, сколько брендов получилось
         if (finalFilteredBrands.length < 15) {
           const needed = 15 - finalFilteredBrands.length;
-          const usedBrands = new Set(finalFilteredBrands.map(b => b.CasinoBrand));
+          const usedBrands = new Set(
+            finalFilteredBrands.map((b) => b.CasinoBrand)
+          );
 
           // Добираем из всех data бренды, которых нет и которые не в sales
-          let additional = data.filter((brand) =>
-            !usedBrands.has(brand.CasinoBrand) &&
-            !(salesCampaignIds.includes(brand.KeitaroGoBigID) || salesCampaignIds.includes(brand.KeitaroR2dID))
+          let additional = data.filter(
+            (brand) =>
+              !usedBrands.has(brand.CasinoBrand) &&
+              !(
+                salesCampaignIds.includes(brand.KeitaroGoBigID) ||
+                salesCampaignIds.includes(brand.KeitaroR2dID)
+              )
           );
           if (additional.length > 0) {
-            finalFilteredBrands = finalFilteredBrands.concat(additional.slice(0, needed));
+            finalFilteredBrands = finalFilteredBrands.concat(
+              additional.slice(0, needed)
+            );
           }
         }
 
@@ -179,12 +195,14 @@ export default function Brands_carousel() {
         // Иначе берём их напрямую из data без фильтров.
         const ensureBrandInList = (brandName) => {
           const existsInFinal = finalFilteredBrands.some(
-            (b) => (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
+            (b) =>
+              (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
           );
           if (!existsInFinal) {
             // Пытаемся найти в data
             const fromData = data.find(
-              (b) => (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
+              (b) =>
+                (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
             );
             if (fromData) {
               // Добавляем бренд в список, если его там не было
@@ -206,7 +224,8 @@ export default function Brands_carousel() {
         // Функция для перемещения бренда на определенный индекс
         const moveBrandToIndex = (array, brandName, targetIndex) => {
           const index = array.findIndex(
-            (b) => (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
+            (b) =>
+              (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
           );
           if (index > -1 && index !== targetIndex) {
             const [brandObj] = array.splice(index, 1);
@@ -225,6 +244,8 @@ export default function Brands_carousel() {
         moveBrandToIndex(finalFilteredBrands, "Fairspin", 0);
         moveBrandToIndex(finalFilteredBrands, "Trip2vip", 1);
         moveBrandToIndex(finalFilteredBrands, "GreenLuck", 2);
+        moveBrandToIndex(finalFilteredBrands, "FairPari", 3);
+        moveBrandToIndex(finalFilteredBrands, "Primebetz", 4);
 
         // Теперь обрежем до 15 брендов
         finalFilteredBrands = finalFilteredBrands.slice(0, 15);
@@ -232,16 +253,25 @@ export default function Brands_carousel() {
         setBrands(finalFilteredBrands);
         setLoading(false);
       } catch (error) {
-        console.error("Ошибка при получении данных пользователя или брендов:", error);
+        console.error(
+          "Ошибка при получении данных пользователя или брендов:",
+          error
+        );
         // Если ошибка, fallback: просто первые 15 из data
         let fallbackBrands = data.slice(0, 15);
 
         // Гарантируем приоритетные бренды из data
         priorityBrands.forEach((brandName) => {
-          const inFallback = fallbackBrands.some((b) => (b.CasinoBrand||"").toLowerCase()===brandName.toLowerCase());
-          if(!inFallback){
-            const fromData = data.find((b)=>(b.CasinoBrand||"").toLowerCase()===brandName.toLowerCase());
-            if(fromData){
+          const inFallback = fallbackBrands.some(
+            (b) =>
+              (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
+          );
+          if (!inFallback) {
+            const fromData = data.find(
+              (b) =>
+                (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
+            );
+            if (fromData) {
               fallbackBrands.push(fromData);
             }
           }
@@ -250,7 +280,8 @@ export default function Brands_carousel() {
         // Перемещаем приоритет
         const moveBrandToIndex = (array, brandName, targetIndex) => {
           const index = array.findIndex(
-            (b) => (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
+            (b) =>
+              (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
           );
           if (index > -1 && index !== targetIndex) {
             const [brandObj] = array.splice(index, 1);
@@ -265,6 +296,8 @@ export default function Brands_carousel() {
         moveBrandToIndex(fallbackBrands, "Fairspin", 0);
         moveBrandToIndex(fallbackBrands, "Trip2vip", 1);
         moveBrandToIndex(fallbackBrands, "GreenLuck", 2);
+        moveBrandToIndex(fallbackBrands, "FairPari", 3);
+        moveBrandToIndex(fallbackBrands, "Primebetz", 4);
 
         fallbackBrands = fallbackBrands.slice(0, 15);
 
@@ -280,7 +313,7 @@ export default function Brands_carousel() {
     categoryBrands.key1,
     categoryBrands.key2,
     categoryBrands2.key1,
-    categoryBrands2.key2
+    categoryBrands2.key2,
   ]);
 
   useEffect(() => {
@@ -301,7 +334,10 @@ export default function Brands_carousel() {
     }
   };
 
-  console.log("Final brands order:", brands.map(b => b.CasinoBrand));
+  console.log(
+    "Final brands order:",
+    brands.map((b) => b.CasinoBrand)
+  );
 
   return (
     <>
@@ -315,7 +351,9 @@ export default function Brands_carousel() {
                 {t("Christmas Calendar")}
               </h2>
               <p className="mb-3 text-center text-white">
-                {t("Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!")}
+                {t(
+                  "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!"
+                )}
               </p>
               <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap">
                 {brands.length > 0 &&

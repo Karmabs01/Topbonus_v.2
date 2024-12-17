@@ -24,7 +24,7 @@ export default function Banner_small() {
   }, []);
 
   return (
-    <>
+    <div className="green">
      <div>
       <div id="real-block" className="main__container">
         <div className="">
@@ -32,11 +32,12 @@ export default function Banner_small() {
             <h2 className="text-3xl font-bold tracking-tight text-white random-title">
               {t("TOP NEW")} <span>{t("releases")}</span>
             </h2>
+            <p>{t("Discover the hottest new arrivals and start playing today!")}</p>
           </div>
         </div>
       </div>
     </div>
       <Brands_carousel categoryBrands={categoryBrands} creative={creative} />
-    </>
+    </div>
   );
 }

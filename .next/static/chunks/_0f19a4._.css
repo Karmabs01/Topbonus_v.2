@@ -13554,6 +13554,65 @@ main > .topbr {
   }
 }
 
+.green .new-brands {
+  min-height: 189px;
+  background: url("/newimages/bgnewreal.png") top no-repeat !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.violet .new-brands {
+  min-height: 189px;
+  background: url("/newimages/violetbg2.png") top no-repeat !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.green .btn-play {
+  background: #458836;
+}
+
+.green .btn-play:hover {
+  background: #90eb7b;
+}
+
+.violet .btn-play {
+  background: #6935ae;
+}
+
+.violet .btn-play:hover {
+  background: #9566d3;
+}
+
+.green .new-brands h2, .green .new-brands p {
+  text-align: center !important;
+}
+
+.green .new-brands h2 span {
+  color: #f0953f !important;
+}
+
+.green .new-brands p {
+  margin-top: 15px;
+  color: #fff !important;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .green .new-brands {
+    background: url("/newimages/greenbgmob.png") top no-repeat !important;
+    background-size: cover !important;
+  }
+
+  .violet .new-brands {
+    background: url("/newimages/violetbgmob.png") top no-repeat !important;
+    background-size: cover !important;
+  }
+}
+
 .placeholder\:text-gray-300::-moz-placeholder {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity, 1));
