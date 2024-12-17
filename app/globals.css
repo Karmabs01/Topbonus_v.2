@@ -10505,7 +10505,7 @@ main > .topbr {
   );
   backdrop-filter: blur(17.915000915527344px);
   flex-wrap: nowrap;
-  background: var(--BG,linear-gradient(161deg,#088af6 0,#d992e6 101.7%));
+  background: var(--BG, linear-gradient(161deg, #088af6 0, #d992e6 101.7%));
 }
 
 .text-orange {
@@ -10917,24 +10917,19 @@ main > .topbr {
   backdrop-filter: blur(17.915000915527344px);
   border-radius: 30px;
   overflow: hidden;
-
 }
 @media (min-width: 1260px) and (max-width: 5000px) {
-
-  .jins>div h5.h5 {
+  .jins > div h5.h5 {
     font-size: 29px !important;
   }
 }
 .light .inner-top-block3 {
-
   background: url("/newimageslight/paybg11.png") center no-repeat !important;
 }
 .light .inner-top-block2 {
-
   background: url("/newimageslight/paybg12.png") center no-repeat !important;
 }
 .light .inner-top-block5 {
-
   background: url("/newimageslight/paybg13.png") center no-repeat !important;
 }
 @media (min-width: 1260px) and (max-width: 5000px) {
@@ -10943,7 +10938,6 @@ main > .topbr {
   }
 }
 @media (min-width: 320px) and (max-width: 1259px) {
-
   .light .thrdjin {
     background: url("/newimageslight/thrdjin.png") center no-repeat;
   }
@@ -11303,7 +11297,7 @@ border-radius: 5px !important;
 
 .slick-slider .slick-prev::before,
 .slick-slider .slick-next::before {
-  color: #FEE000!important;
+  color: #fee000 !important;
 }
 .slick-next::before {
   content: "→";
@@ -11365,8 +11359,6 @@ border-radius: 5px !important;
   }
 }
 
-
-
 .mw-163 {
   max-width: 163px;
   color: #fff !important;
@@ -11374,16 +11366,14 @@ border-radius: 5px !important;
   margin-left: 5px;
   margin-top: 0px !important;
   margin-bottom: 0px !important;
-
 }
 .btn-crd-pop {
   margin-left: auto !important;
-
 }
-.btn-crd-pop>div {
+.btn-crd-pop > div {
   font-size: 14px !important;
   padding: 5px 15px !important;
-  background: #FEE000!important;
+  background: #fee000 !important;
   color: #000 !important;
   font-weight: 700 !important;
 }
@@ -11392,10 +11382,10 @@ border-radius: 5px !important;
   padding: 5px;
 }
 
-@media(min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .custom-modal {
     padding: 15px 5px !important;
-    width: 95% !important; 
+    width: 95% !important;
     max-width: 370px !important;
     background-size: cover !important;
     border-radius: 30px !important;
@@ -11410,4 +11400,8 @@ border-radius: 5px !important;
   .btn-crd-pop > div {
     font-size: 10px !important;
   }
+}
+
+.card-sl {
+  border: 2px solid hsla(0, 0%, 76%, 0.485) !important;
 }

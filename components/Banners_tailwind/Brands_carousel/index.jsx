@@ -21,6 +21,7 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
   const { language } = useLanguage();
   const { t } = useTranslation();
 
+  
   const settings = {
     infinite: true,
     dots: false,
@@ -83,10 +84,9 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
       "CLD_VIP",
       "partner1045_b1",
       "partner1046",
+      "partner1050",
       "partner1049",
       "partner1047",
-      "partner1050",
-
     ];
 
     function setPartnerSource(keyword) {
@@ -129,6 +129,10 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
   }
   useEffect(() => {
     const fetchUserBrands = async () => {
+      // 1. Фильтрация брендов на основе категорий
+      const filteredByCategory = data.filter(
+        (brand) => brand[categoryBrands.key1] === categoryBrands.key2
+      );
       try {
         // Проверяем наличие данных брендов
         if (!data) {
@@ -137,20 +141,8 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
           return;
         }
 
-        // 1. Фильтрация брендов на основе категорий
-        const filteredByCategory = data.filter(
-          (brand) => brand[categoryBrands.key1] === categoryBrands.key2
-        );
-        console.log("==BRANDS==", filteredByCategory, userId);
-
         // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
-        if (
-          !userId ||
-          userId === null ||
-          userId === undefined ||
-          userId === "null" ||
-          userId === "undefined"
-        ) {
+        if (!userId) {
           setBrands(filteredByCategory);
           setLoading(false);
           return;
@@ -196,6 +188,7 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
         setBrands(finalFilteredBrands);
         setLoading(false);
       } catch (error) {
+        setBrands(filteredByCategory);
         console.error(
           "Ошибка при получении данных пользователя или брендов:",
           error
@@ -206,8 +199,6 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
 
     fetchUserBrands();
   }, [data, userId, categoryBrands.key1, categoryBrands.key2]);
-
-  console.log("-==BRANDS==-", brands);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -220,6 +211,8 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
 
     return () => clearInterval(interval);
   }, [brands.length]);
+
+
 
   return (
     <>
