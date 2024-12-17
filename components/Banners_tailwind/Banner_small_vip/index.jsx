@@ -24,7 +24,7 @@ export default function Banner_small() {
   }, []);
 
   return (
-    <>
+    <div className="violet">
      <div>
       <div id="vip" className="main__container">
         <div className="">
@@ -38,6 +38,6 @@ export default function Banner_small() {
       </div>
     </div>
       <Brands_carousel categoryBrands={categoryBrands} creative={creative} />
-    </>
+    </div>
   );
 }

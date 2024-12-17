@@ -11405,3 +11405,58 @@ border-radius: 5px !important;
 .card-sl {
   border: 2px solid hsla(0, 0%, 76%, 0.485) !important;
 }
+
+
+.green .new-brands {
+  background: url(/newimages/bgnewreal.png) no-repeat top center !important;
+  min-height: 189px;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.violet .new-brands {
+  background: url(/newimages/violetbg2.png) no-repeat top center !important;
+  min-height: 189px;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.green .btn-play {
+  background: #458836;
+}
+.green .btn-play:hover {
+  background: #90eb7b;
+}
+.violet .btn-play {
+  background: #468CF1;
+}
+.violet .btn-play:hover {
+  background: #66a0f0;
+}
+
+.green .new-brands h2,
+.green .new-brands p {
+  text-align: center !important;
+}
+.green .new-brands h2 span {
+  color: #f0953f !important;
+}
+.green .new-brands p {
+  color: #fff !important;
+  margin-top: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .green .new-brands {
+    background: url(/newimages/greenbgmob.png) no-repeat top center !important;
+    background-size: cover !important;
+  }
+  .violet .new-brands {
+    background: url(/newimages/violetbgmob.png) no-repeat top center !important;
+    background-size: cover !important;
+  }
+}
