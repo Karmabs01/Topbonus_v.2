@@ -37,6 +37,7 @@ export default function Brands_carousel() {
     "GreenLuck",
     "FairPari",
     "Primebetz",
+    "Blockbets",
   ];
 
   useEffect(() => {
@@ -186,7 +187,7 @@ export default function Brands_carousel() {
           }
         }
 
-        // Если всё ещё меньше 15, просто берём первые 15 из data (fallback)
+
         if (finalFilteredBrands.length < 15) {
           finalFilteredBrands = data.slice(0, 15);
         }
@@ -214,8 +215,7 @@ export default function Brands_carousel() {
         // Гарантируем присутствие приоритетных брендов
         priorityBrands.forEach((brandName) => ensureBrandInList(brandName));
 
-        // Если после добавления приоритетных брендов стало больше 15,
-        // обрежем до 15, т.к. главный приоритет — гарантировать их присутствие.
+
         if (finalFilteredBrands.length > 15) {
           // Но нам важно сохранить приоритетный порядок.
           // Поэтому сначала переставим, потом обрежем.
@@ -246,6 +246,8 @@ export default function Brands_carousel() {
         moveBrandToIndex(finalFilteredBrands, "GreenLuck", 2);
         moveBrandToIndex(finalFilteredBrands, "FairPari", 3);
         moveBrandToIndex(finalFilteredBrands, "Primebetz", 4);
+        moveBrandToIndex(finalFilteredBrands, "Blockbets", 5);
+
 
         // Теперь обрежем до 15 брендов
         finalFilteredBrands = finalFilteredBrands.slice(0, 15);
@@ -257,7 +259,7 @@ export default function Brands_carousel() {
           "Ошибка при получении данных пользователя или брендов:",
           error
         );
-        // Если ошибка, fallback: просто первые 15 из data
+   
         let fallbackBrands = data.slice(0, 15);
 
         // Гарантируем приоритетные бренды из data
@@ -298,6 +300,8 @@ export default function Brands_carousel() {
         moveBrandToIndex(fallbackBrands, "GreenLuck", 2);
         moveBrandToIndex(fallbackBrands, "FairPari", 3);
         moveBrandToIndex(fallbackBrands, "Primebetz", 4);
+        moveBrandToIndex(fallbackBrands, "Blockbets", 5);
+
 
         fallbackBrands = fallbackBrands.slice(0, 15);
 
@@ -352,7 +356,7 @@ export default function Brands_carousel() {
               </h2>
               <p className="mb-3 text-center text-white">
                 {t(
-                  "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!"
+                  "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!"
                 )}
               </p>
               <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap">

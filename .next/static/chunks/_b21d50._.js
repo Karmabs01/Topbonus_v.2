@@ -1770,6 +1770,7 @@ function Next_event_banner() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                id: "uncover",
                 className: "main__container !mt-24",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "",
@@ -1778,7 +1779,7 @@ function Next_event_banner() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 className: "text-xl sm:text-xl leading-6 text-white uppercase",
-                                children: t("Uncover the latest casinos")
+                                children: t("Explore Exclusive Games")
                             }, void 0, false, {
                                 fileName: "[project]/components/Banners_tailwind/Next_event_banner/index.jsx",
                                 lineNumber: 20,
@@ -1786,18 +1787,8 @@ function Next_event_banner() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "banner-event-p",
-                                children: [
-                                    t("and be among the"),
-                                    " ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        children: t("first to play!")
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/Banners_tailwind/Next_event_banner/index.jsx",
-                                        lineNumber: 23,
-                                        columnNumber: 67
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                children: t("Dive into thrilling adventures and claim top rewards!")
+                            }, void 0, false, {
                                 fileName: "[project]/components/Banners_tailwind/Next_event_banner/index.jsx",
                                 lineNumber: 23,
                                 columnNumber: 13
@@ -3163,7 +3154,8 @@ function Brands_carousel() {
         "Trip2vip",
         "GreenLuck",
         "FairPari",
-        "Primebetz"
+        "Primebetz",
+        "Blockbets"
     ];
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const savedActivatedBrands = localStorage.getItem("activatedBrands");
@@ -3277,7 +3269,6 @@ function Brands_carousel() {
                         finalFilteredBrands = finalFilteredBrands.concat(additional.slice(0, needed));
                     }
                 }
-                // Если всё ещё меньше 15, просто берём первые 15 из data (fallback)
                 if (finalFilteredBrands.length < 15) {
                     finalFilteredBrands = data.slice(0, 15);
                 }
@@ -3296,8 +3287,6 @@ function Brands_carousel() {
                 };
                 // Гарантируем присутствие приоритетных брендов
                 priorityBrands.forEach((brandName)=>ensureBrandInList(brandName));
-                // Если после добавления приоритетных брендов стало больше 15,
-                // обрежем до 15, т.к. главный приоритет — гарантировать их присутствие.
                 if (finalFilteredBrands.length > 15) {
                 // Но нам важно сохранить приоритетный порядок.
                 // Поэтому сначала переставим, потом обрежем.
@@ -3323,13 +3312,13 @@ function Brands_carousel() {
                 moveBrandToIndex(finalFilteredBrands, "GreenLuck", 2);
                 moveBrandToIndex(finalFilteredBrands, "FairPari", 3);
                 moveBrandToIndex(finalFilteredBrands, "Primebetz", 4);
+                moveBrandToIndex(finalFilteredBrands, "Blockbets", 5);
                 // Теперь обрежем до 15 брендов
                 finalFilteredBrands = finalFilteredBrands.slice(0, 15);
                 setBrands(finalFilteredBrands);
                 setLoading(false);
             } catch (error) {
                 console.error("Ошибка при получении данных пользователя или брендов:", error);
-                // Если ошибка, fallback: просто первые 15 из data
                 let fallbackBrands = data.slice(0, 15);
                 // Гарантируем приоритетные бренды из data
                 priorityBrands.forEach((brandName)=>{
@@ -3358,6 +3347,7 @@ function Brands_carousel() {
                 moveBrandToIndex(fallbackBrands, "GreenLuck", 2);
                 moveBrandToIndex(fallbackBrands, "FairPari", 3);
                 moveBrandToIndex(fallbackBrands, "Primebetz", 4);
+                moveBrandToIndex(fallbackBrands, "Blockbets", 5);
                 fallbackBrands = fallbackBrands.slice(0, 15);
                 setBrands(fallbackBrands);
                 setLoading(false);
@@ -3401,7 +3391,7 @@ function Brands_carousel() {
                 className: "main__container advnt",
                 children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                    lineNumber: 347,
+                    lineNumber: 351,
                     columnNumber: 13
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     children: [
@@ -3410,15 +3400,15 @@ function Brands_carousel() {
                             children: t("Christmas Calendar")
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                            lineNumber: 350,
+                            lineNumber: 354,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "mb-3 text-center text-white",
-                            children: t("Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!")
+                            children: t("Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!")
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                            lineNumber: 353,
+                            lineNumber: 357,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3435,7 +3425,7 @@ function Brands_carousel() {
                                                 children: index + 15
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                lineNumber: 371,
+                                                lineNumber: 375,
                                                 columnNumber: 25
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3459,12 +3449,12 @@ function Brands_carousel() {
                                                                         loading: "lazy"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                        lineNumber: 382,
+                                                                        lineNumber: 386,
                                                                         columnNumber: 37
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 377,
+                                                                    lineNumber: 381,
                                                                     columnNumber: 35
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3472,7 +3462,7 @@ function Brands_carousel() {
                                                                     children: rowData.OurOfferContent
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 390,
+                                                                    lineNumber: 394,
                                                                     columnNumber: 35
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3482,13 +3472,13 @@ function Brands_carousel() {
                                                                     children: t("Play Now")
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 393,
+                                                                    lineNumber: 397,
                                                                     columnNumber: 35
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                            lineNumber: 376,
+                                                            lineNumber: 380,
                                                             columnNumber: 33
                                                         }, this) : isOpened ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex flex-col items-center",
@@ -3497,7 +3487,7 @@ function Brands_carousel() {
                                                                     className: "mt-3 mb-2 opennow nonoact"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 403,
+                                                                    lineNumber: 407,
                                                                     columnNumber: 35
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3505,7 +3495,7 @@ function Brands_carousel() {
                                                                     children: t("Ready to Activate")
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 404,
+                                                                    lineNumber: 408,
                                                                     columnNumber: 35
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3514,13 +3504,13 @@ function Brands_carousel() {
                                                                     children: t("Activate")
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 407,
+                                                                    lineNumber: 411,
                                                                     columnNumber: 35
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                            lineNumber: 402,
+                                                            lineNumber: 406,
                                                             columnNumber: 33
                                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex flex-col items-center",
@@ -3529,7 +3519,7 @@ function Brands_carousel() {
                                                                     className: "mt-3 mb-2 nonoact"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 416,
+                                                                    lineNumber: 420,
                                                                     columnNumber: 35
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3537,7 +3527,7 @@ function Brands_carousel() {
                                                                     children: t("Not Yet Available")
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 417,
+                                                                    lineNumber: 421,
                                                                     columnNumber: 35
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3546,34 +3536,34 @@ function Brands_carousel() {
                                                                     children: t("Not Yet")
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 420,
+                                                                    lineNumber: 424,
                                                                     columnNumber: 35
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                            lineNumber: 415,
+                                                            lineNumber: 419,
                                                             columnNumber: 33
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                        lineNumber: 374,
+                                                        lineNumber: 378,
                                                         columnNumber: 29
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                    lineNumber: 373,
+                                                    lineNumber: 377,
                                                     columnNumber: 27
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                lineNumber: 372,
+                                                lineNumber: 376,
                                                 columnNumber: 25
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                        lineNumber: 365,
+                                        lineNumber: 369,
                                         columnNumber: 23
                                     }, this);
                                 }),
@@ -3582,29 +3572,29 @@ function Brands_carousel() {
                                     children: t("No Brands Available")
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                    lineNumber: 436,
+                                    lineNumber: 440,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                            lineNumber: 358,
+                            lineNumber: 362,
                             columnNumber: 15
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                    lineNumber: 349,
+                    lineNumber: 353,
                     columnNumber: 13
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                lineNumber: 345,
+                lineNumber: 349,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-            lineNumber: 344,
+            lineNumber: 348,
             columnNumber: 7
         }, this)
     }, void 0, false);

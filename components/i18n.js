@@ -780,8 +780,7 @@ async function initializeI18n() {
           "Your bonuses are on the way, one moment..",
 
         "Christmas Calendar": "Christmas Calendar",
-        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
-          "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15th to 29th!",
+
         "Ready to Activate": "Ready to Activate",
         Activate: "Activate",
         "Not Yet Available": "Not Yet Available",
@@ -797,6 +796,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Dive into thrilling adventures and claim top rewards!",
         "Explore Exclusive Games": "Explore Exclusive Games",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!",
       },
     },
 
@@ -1379,6 +1380,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Zanurz się w ekscytujące przygody i zgarnij najlepsze nagrody!",
         "Explore Exclusive Games": "Odkryj ekskluzywne gry",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "Dołącz do nas na 15 dni świątecznych niespodzianek! Odkryj ekskluzywne bonusy, darmowe spiny i ekscytujące oferty od najlepszych kasyn online - jedna nowa oferta każdego dnia od 15 do 29 grudnia!",
       },
     },
     de: {
@@ -1962,6 +1965,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Tauche in aufregende Abenteuer ein und sichere dir Top-Belohnungen!",
         "Explore Exclusive Games": "Entdecke exklusive Spiele",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "Begleiten Sie uns für 15 Tage voller festlicher Überraschungen! Entdecken Sie exklusive Boni, Freispiele und spannende Angebote von Top-Online-Casinos – jeden Tag ein neuer Deal vom 15. bis 29. Dezember!",
       },
     },
     bg: {
@@ -2536,6 +2541,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Потопете се в вълнуващи приключения и спечелете топ награди!",
         "Explore Exclusive Games": "Разгледайте ексклузивни игри",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "Присъединете се към нас за 15 дни празнични изненади! Отключете ексклузивни бонуси, безплатни завъртания и вълнуващи оферти от най-добрите онлайн казина – по една нова оферта всеки ден от 15 до 29 декември!",
       },
     },
     cz: {
@@ -3110,6 +3117,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Ponořte se do vzrušujících dobrodružství a získejte špičkové odměny!",
         "Explore Exclusive Games": "Prozkoumejte exkluzivní hry",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "Připojte se k nám na 15 dní plných svátečních překvapení! Odemkněte exkluzivní bonusy, volné otočky a vzrušující nabídky od nejlepších online kasin – každý den nová nabídka od 15. do 29. prosince!",
       },
     },
     dk: {
@@ -3684,6 +3693,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Dyk ned i spændende eventyr og hent de bedste belønninger!",
         "Explore Exclusive Games": "Udforsk eksklusive spil",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "Vær med i 15 dage med festlige overraskelser! Lås op for eksklusive bonusser, gratis spins og spændende tilbud fra de bedste online casinoer – ét nyt tilbud hver dag fra den 15. til den 29. december!",
       },
     },
     nl: {
@@ -4262,6 +4273,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Duik in spannende avonturen en claim de beste beloningen!",
         "Explore Exclusive Games": "Ontdek exclusieve spellen",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "Sluit je aan bij ons voor 15 dagen vol feestelijke verrassingen! Ontgrendel exclusieve bonussen, gratis spins en spannende aanbiedingen van de beste online casino's – elke dag een nieuwe deal van 15 tot en met 29 december!",
       },
     },
     es: {
@@ -4839,6 +4852,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Sumérgete en emocionantes aventuras y reclama las mejores recompensas!",
         "Explore Exclusive Games": "Explora juegos exclusivos",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "¡Únete a nosotros durante 15 días de sorpresas festivas! Desbloquea bonos exclusivos, giros gratis y emocionantes ofertas de los mejores casinos en línea: una nueva oferta cada día del 15 al 29 de diciembre.",
       },
     },
     fi: {
@@ -5412,6 +5427,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Sukella jännittäviin seikkailuihin ja lunasta huippupalkinnot!",
         "Explore Exclusive Games": "Tutustu eksklusiivisiin peleihin",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "Liity mukaan 15 päivään juhlavia yllätyksiä! Avaa eksklusiivisia bonuksia, ilmaispyöräytyksiä ja jännittäviä tarjouksia huippuluokan nettikasinoilta – yksi uusi tarjous joka päivä 15.–29. joulukuuta!",
       },
     },
     fr: {
@@ -5991,6 +6008,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Plongez dans des aventures palpitantes et réclamez vos meilleures récompenses !",
         "Explore Exclusive Games": "Explorez des jeux exclusifs",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "Rejoignez-nous pour 15 jours de surprises festives ! Débloquez des bonus exclusifs, des tours gratuits et des offres passionnantes des meilleurs casinos en ligne - une nouvelle offre chaque jour du 15 au 29 décembre !",
       },
     },
 
@@ -6566,6 +6585,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Βυθιστείτε σε συναρπαστικές περιπέτειες και διεκδικήστε κορυφαίες ανταμοιβές!",
         "Explore Exclusive Games": "Εξερευνήστε αποκλειστικά παιχνίδια",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "Γίνετε μέλος μας για 15 ημέρες γιορτινών εκπλήξεων! Ξεκλειδώστε αποκλειστικά μπόνους, δωρεάν περιστροφές και συναρπαστικές προσφορές από τα κορυφαία online καζίνο - μία νέα προσφορά κάθε μέρα από τις 15 έως τις 29 Δεκεμβρίου!",
       },
     },
     hu: {
@@ -7141,6 +7162,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Merülj el izgalmas kalandokban, és szerezd meg a legjobb jutalmakat!",
         "Explore Exclusive Games": "Fedezd fel az exkluzív játékokat",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "Csatlakozz hozzánk 15 napnyi ünnepi meglepetésért! Oldj fel exkluzív bónuszokat, ingyenes pörgetéseket és izgalmas ajánlatokat a legjobb online kaszinóktól – minden nap egy új ajánlat december 15-től 29-ig!",
       },
     },
     it: {
@@ -7719,6 +7742,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Immergiti in avventure emozionanti e richiedi le migliori ricompense!",
         "Explore Exclusive Games": "Esplora giochi esclusivi",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "Unisciti a noi per 15 giorni di sorprese festive! Sblocca bonus esclusivi, giri gratuiti e offerte entusiasmanti dai migliori casinò online - una nuova offerta ogni giorno dal 15 al 29 dicembre!",
       },
     },
     no: {
@@ -8294,6 +8319,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Dykk ned i spennende eventyr og hent topp belønninger!",
         "Explore Exclusive Games": "Utforsk eksklusive spill",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "Bli med oss i 15 dager med festlige overraskelser! Lås opp eksklusive bonuser, gratisspinn og spennende tilbud fra topp nettkasinoer – en ny avtale hver dag fra 15. til 29. desember!",
       },
     },
     pt: {
@@ -8871,6 +8898,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Mergulhe em aventuras emocionantes e conquiste as melhores recompensas!",
         "Explore Exclusive Games": "Explore jogos exclusivos",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "Junte-se a nós para 15 dias de surpresas festivas! Desbloqueie bônus exclusivos, rodadas grátis e ofertas emocionantes dos melhores cassinos online - uma nova oferta por dia de 15 a 29 de dezembro!",
       },
     },
     se: {
@@ -9446,6 +9475,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Ge dig ut på spännande äventyr och hämta de bästa belöningarna!",
         "Explore Exclusive Games": "Utforska exklusiva spel",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "Delta i 15 dagar av festliga överraskningar! Lås upp exklusiva bonusar, gratissnurr och spännande erbjudanden från toppkasinon online – ett nytt erbjudande varje dag från 15 till 29 december!",
       },
     },
     sk: {
@@ -10020,6 +10051,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Ponorte sa do vzrušujúcich dobrodružstiev a získajte špičkové odmeny!",
         "Explore Exclusive Games": "Preskúmajte exkluzívne hry",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "Pridajte sa k nám na 15 dní plných sviatočných prekvapení! Odomknite exkluzívne bonusy, voľné točenia a vzrušujúce ponuky od najlepších online kasín – každý deň nová ponuka od 15. do 29. decembra!",
       },
     },
     tr: {
@@ -10594,6 +10627,8 @@ async function initializeI18n() {
         "Dive into thrilling adventures and claim top rewards!":
           "Heyecan dolu maceralara dalın ve en iyi ödülleri kazanın!",
         "Explore Exclusive Games": "Özel oyunları keşfedin",
+        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
+          "15 gün boyunca festivallere özel sürprizlere katılın! En iyi online casinolardan özel bonuslar, ücretsiz dönüşler ve heyecan verici teklifler kazanın – 15 Aralık'tan 29 Aralık'a kadar her gün yeni bir fırsat!",
       },
     },
   };

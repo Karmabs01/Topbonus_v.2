@@ -614,7 +614,6 @@ async function initializeI18n() {
                 Take: "Get",
                 "Your bonuses are on the way, one moment..": "Your bonuses are on the way, one moment..",
                 "Christmas Calendar": "Christmas Calendar",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15th to 29th!",
                 "Ready to Activate": "Ready to Activate",
                 Activate: "Activate",
                 "Not Yet Available": "Not Yet Available",
@@ -624,7 +623,10 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Discover the hottest new arrivals and start playing today!",
                 Best: "Best",
                 "VIP Programs": "VIP Programs",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Enjoy exclusive bonuses, special rewards, and premium support!"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Enjoy exclusive bonuses, special rewards, and premium support!",
+                "Dive into thrilling adventures and claim top rewards!": "Dive into thrilling adventures and claim top rewards!",
+                "Explore Exclusive Games": "Explore Exclusive Games",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!"
             }
         },
         pl: {
@@ -1029,7 +1031,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Odkryj najgorętsze nowości i zacznij grać już dziś!",
                 Best: "Najlepszy",
                 "VIP Programs": "Programy VIP",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Ciesz się ekskluzywnymi bonusami, specjalnymi nagrodami i wsparciem premium!"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Ciesz się ekskluzywnymi bonusami, specjalnymi nagrodami i wsparciem premium!",
+                "Dive into thrilling adventures and claim top rewards!": "Zanurz się w ekscytujące przygody i zgarnij najlepsze nagrody!",
+                "Explore Exclusive Games": "Odkryj ekskluzywne gry"
             }
         },
         de: {
@@ -1435,7 +1439,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Entdecken Sie die heißesten Neuankömmlinge und beginnen Sie noch heute zu spielen!",
                 Best: "Beste",
                 "VIP Programs": "VIP-Programme",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Genießen Sie exklusive Boni, spezielle Belohnungen und Premium-Support!"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Genießen Sie exklusive Boni, spezielle Belohnungen und Premium-Support!",
+                "Dive into thrilling adventures and claim top rewards!": "Tauche in aufregende Abenteuer ein und sichere dir Top-Belohnungen!",
+                "Explore Exclusive Games": "Entdecke exklusive Spiele"
             }
         },
         bg: {
@@ -1840,7 +1846,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Открийте най-новите горещи предложения и започнете да играете днес!",
                 Best: "Най-добър",
                 "VIP Programs": "VIP програми",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Насладете се на ексклузивни бонуси, специални награди и премиум поддръжка!"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Насладете се на ексклузивни бонуси, специални награди и премиум поддръжка!",
+                "Dive into thrilling adventures and claim top rewards!": "Потопете се в вълнуващи приключения и спечелете топ награди!",
+                "Explore Exclusive Games": "Разгледайте ексклузивни игри"
             }
         },
         cz: {
@@ -2245,7 +2253,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Objevte nejžhavější novinky a začněte hrát ještě dnes!",
                 Best: "Nejlepší",
                 "VIP Programs": "Programy VIP",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Užijte si exkluzivní bonusy, speciální odměny a prémiovou podporu!"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Užijte si exkluzivní bonusy, speciální odměny a prémiovou podporu!",
+                "Dive into thrilling adventures and claim top rewards!": "Ponořte se do vzrušujících dobrodružství a získejte špičkové odměny!",
+                "Explore Exclusive Games": "Prozkoumejte exkluzivní hry"
             }
         },
         dk: {
@@ -2650,7 +2660,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Opdag de hotteste nye ankomster og begynd at spille i dag!",
                 Best: "Bedst",
                 "VIP Programs": "VIP-programmer",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Nyd eksklusive bonusser, særlige belønninger og premium support!"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Nyd eksklusive bonusser, særlige belønninger og premium support!",
+                "Dive into thrilling adventures and claim top rewards!": "Dyk ned i spændende eventyr og hent de bedste belønninger!",
+                "Explore Exclusive Games": "Udforsk eksklusive spil"
             }
         },
         nl: {
@@ -3055,7 +3067,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Ontdek de nieuwste en populairste aankomsten en begin vandaag nog met spelen!",
                 Best: "Beste",
                 "VIP Programs": "VIP-programma's",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Geniet van exclusieve bonussen, speciale beloningen en premium ondersteuning!"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Geniet van exclusieve bonussen, speciale beloningen en premium ondersteuning!",
+                "Dive into thrilling adventures and claim top rewards!": "Duik in spannende avonturen en claim de beste beloningen!",
+                "Explore Exclusive Games": "Ontdek exclusieve spellen"
             }
         },
         es: {
@@ -3460,7 +3474,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Descubre las novedades más candentes y comienza a jugar hoy.",
                 Best: "Mejor",
                 "VIP Programs": "Programas VIP",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Disfruta de bonos exclusivos, recompensas especiales y soporte premium."
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Disfruta de bonos exclusivos, recompensas especiales y soporte premium!",
+                "Dive into thrilling adventures and claim top rewards!": "Sumérgete en emocionantes aventuras y reclama las mejores recompensas!",
+                "Explore Exclusive Games": "Explora juegos exclusivos"
             }
         },
         fi: {
@@ -3865,7 +3881,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Löydä kuumimmat uutuudet ja aloita pelaaminen jo tänään!",
                 Best: "Paras",
                 "VIP Programs": "VIP-ohjelmat",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Nauti eksklusiivisista bonuksista, erityisistä palkinnoista ja ensiluokkaisesta tuesta!"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Nauti eksklusiivisista bonuksista, erityisistä palkinnoista ja ensiluokkaisesta tuesta!",
+                "Dive into thrilling adventures and claim top rewards!": "Sukella jännittäviin seikkailuihin ja lunasta huippupalkinnot!",
+                "Explore Exclusive Games": "Tutustu eksklusiivisiin peleihin"
             }
         },
         fr: {
@@ -4271,7 +4289,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Découvrez les nouveautés les plus en vogue et commencez à jouer dès aujourd'hui !",
                 Best: "Meilleur",
                 "VIP Programs": "Programmes VIP",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Profitez de bonus exclusifs, de récompenses spéciales et d'un support premium !"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Profitez de bonus exclusifs, de récompenses spéciales et d'un support premium !",
+                "Dive into thrilling adventures and claim top rewards!": "Plongez dans des aventures palpitantes et réclamez vos meilleures récompenses !",
+                "Explore Exclusive Games": "Explorez des jeux exclusifs"
             }
         },
         gr: {
@@ -4677,7 +4697,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Ανακαλύψτε τις πιο καυτές νέες αφίξεις και ξεκινήστε να παίζετε σήμερα!",
                 Best: "Καλύτερο",
                 "VIP Programs": "Προγράμματα VIP",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Απολαύστε αποκλειστικά μπόνους, ειδικές ανταμοιβές και υποστήριξη υψηλής ποιότητας!"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Απολαύστε αποκλειστικά μπόνους, ειδικές ανταμοιβές και υποστήριξη υψηλής ποιότητας!",
+                "Dive into thrilling adventures and claim top rewards!": "Βυθιστείτε σε συναρπαστικές περιπέτειες και διεκδικήστε κορυφαίες ανταμοιβές!",
+                "Explore Exclusive Games": "Εξερευνήστε αποκλειστικά παιχνίδια"
             }
         },
         hu: {
@@ -5083,7 +5105,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Fedezd fel a legújabb érkezéseket és kezdj el játszani még ma!",
                 Best: "Legjobb",
                 "VIP Programs": "VIP programok",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Élvezze az exkluzív bónuszokat, különleges jutalmakat és prémium támogatást!"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Élvezze az exkluzív bónuszokat, különleges jutalmakat és prémium támogatást!",
+                "Dive into thrilling adventures and claim top rewards!": "Merülj el izgalmas kalandokban, és szerezd meg a legjobb jutalmakat!",
+                "Explore Exclusive Games": "Fedezd fel az exkluzív játékokat"
             }
         },
         it: {
@@ -5489,7 +5513,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Scopri le novità più calde e inizia a giocare oggi!",
                 Best: "Migliore",
                 "VIP Programs": "Programmi VIP",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Goditi bonus esclusivi, ricompense speciali e supporto premium!"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Goditi bonus esclusivi, ricompense speciali e supporto premium!",
+                "Dive into thrilling adventures and claim top rewards!": "Immergiti in avventure emozionanti e richiedi le migliori ricompense!",
+                "Explore Exclusive Games": "Esplora giochi esclusivi"
             }
         },
         no: {
@@ -5895,7 +5921,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Oppdag de hotteste nyhetene og begynn å spille i dag!",
                 Best: "Beste",
                 "VIP Programs": "VIP-programmer",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Nyt eksklusive bonuser, spesielle belønninger og premium støtte!"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Nyt eksklusive bonuser, spesielle belønninger og premium støtte!",
+                "Dive into thrilling adventures and claim top rewards!": "Dykk ned i spennende eventyr og hent topp belønninger!",
+                "Explore Exclusive Games": "Utforsk eksklusive spill"
             }
         },
         pt: {
@@ -6301,7 +6329,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Descubra as novidades mais quentes e comece a jogar hoje!",
                 Best: "Melhor",
                 "VIP Programs": "Programas VIP",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Aproveite bônus exclusivos, recompensas especiais e suporte premium!"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Aproveite bônus exclusivos, recompensas especiais e suporte premium!",
+                "Dive into thrilling adventures and claim top rewards!": "Mergulhe em aventuras emocionantes e conquiste as melhores recompensas!",
+                "Explore Exclusive Games": "Explore jogos exclusivos"
             }
         },
         se: {
@@ -6707,7 +6737,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Upptäck de hetaste nyheterna och börja spela idag!",
                 Best: "Bästa",
                 "VIP Programs": "VIP-program",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Njut av exklusiva bonusar, speciella belöningar och premiumsupport!"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Njut av exklusiva bonusar, speciella belöningar och premiumsupport!",
+                "Dive into thrilling adventures and claim top rewards!": "Ge dig ut på spännande äventyr och hämta de bästa belöningarna!",
+                "Explore Exclusive Games": "Utforska exklusiva spel"
             }
         },
         sk: {
@@ -7113,7 +7145,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "Objavte najhorúcejšie novinky a začnite hrať už dnes!",
                 Best: "Najlepší",
                 "VIP Programs": "VIP programy",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Užite si exkluzívne bonusy, špeciálne odmeny a prémiovú podporu!"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Užite si exkluzívne bonusy, špeciálne odmeny a prémiovú podporu!",
+                "Dive into thrilling adventures and claim top rewards!": "Ponorte sa do vzrušujúcich dobrodružstiev a získajte špičkové odmeny!",
+                "Explore Exclusive Games": "Preskúmajte exkluzívne hry"
             }
         },
         tr: {
@@ -7519,7 +7553,9 @@ async function initializeI18n() {
                 "Discover the hottest new arrivals and start playing today!": "En yeni ve en popüler ürünleri keşfedin ve bugün oynamaya başlayın!",
                 Best: "En iyi",
                 "VIP Programs": "VIP Programları",
-                "Enjoy exclusive bonuses, special rewards, and premium support!": "Özel bonusların, özel ödüllerin ve premium desteğin keyfini çıkarın!"
+                "Enjoy exclusive bonuses, special rewards, and premium support!": "Özel bonusların, özel ödüllerin ve premium desteğin keyfini çıkarın!",
+                "Dive into thrilling adventures and claim top rewards!": "Heyecan dolu maceralara dalın ve en iyi ödülleri kazanın!",
+                "Explore Exclusive Games": "Özel oyunları keşfedin"
             }
         }
     };
