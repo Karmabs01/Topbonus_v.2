@@ -54,7 +54,7 @@ async function sendBidVertiserPostback(aid: string, bvClickId: string, revenue: 
     ver: '1.0',
     AID: aid, // Динамический AID из параметров
     CLICKID: bvClickId,
-    revenue: revenue.toString(),
+    revenue: "1",
   };
 
   const urlWithParams = `${postbackUrl}?${new URLSearchParams(params).toString()}`;
