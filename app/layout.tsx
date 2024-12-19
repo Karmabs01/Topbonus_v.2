@@ -1,10 +1,11 @@
+// app/layout.tsx
+
 import Head from "next/head";
 import { Analytics } from "@vercel/analytics/react";
 import { TheHeader } from "@/components/TheHeader";
 import { Header_tailwind } from "@/components/Header_tailwind";
 import { Footer_tailwind } from "@/components/Footer_tailwind";
 import Chat from "@/components/Chat_support";
-
 import BackToTopButton from "@/components/BackToTopButton";
 import "./globals.css";
 import type { Metadata } from "next";
@@ -15,6 +16,8 @@ import Marque from "@/components/Marque";
 import Script from "next/script";
 import MainWrapper from "@/components/MainWrapper"; // Импортируем клиентский компонент
 import { OtpProvider } from "@/context/OtpContext";
+import CaptureParams from "@/components/CaptureParams"; // Импортируем наш клиентский компонент
+
 export const metadata: Metadata = {
   title:
     "Bonus topbon.us: Your Comprehensive Source for Casino Reviews and Insights",
@@ -29,11 +32,30 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
+      <Head>
         <link
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
           rel="stylesheet"
         />
+      </Head>
+      <body className="">
+        {/* Включаем LanguageProvider и OtpProvider */}
+        <LanguageProvider>
+          <OtpProvider>
+            {/* Включаем наш клиентский компонент для захвата параметров */}
+            <CaptureParams />
+            <Header_tailwind />
+            <Chat />
+            <MainWrapper>
+              {children}
+              <Analytics />
+            </MainWrapper>
+            <Footer_tailwind />
+          </OtpProvider>
+        </LanguageProvider>
+        <BackToTopButton />
+
+        {/* Включаем сторонние скрипты */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-LTL641RYK9"
           strategy="afterInteractive"
@@ -46,20 +68,6 @@ export default function RootLayout({
             gtag('config', 'G-LTL641RYK9');
           `}
         </Script>
-      </head>
-      <body className="">
-        <LanguageProvider>
-          <OtpProvider>
-            <Header_tailwind />
-            <Chat />
-            <MainWrapper>
-              {children}
-              <Analytics />
-            </MainWrapper>
-            <Footer_tailwind />
-          </OtpProvider>
-        </LanguageProvider>
-        <BackToTopButton />
 
         <Script id="hotjar" strategy="afterInteractive">
           {`
@@ -73,31 +81,6 @@ export default function RootLayout({
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
           `}
         </Script>
-        {/* <Script
-          src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js"
-          defer
-        ></Script> */}
-        {/* <Script id="ladesc" strategy="afterInteractive">
-          {`
-            (function (d, src, c) {
-              var t = d.scripts[d.scripts.length - 1],
-                s = d.createElement("script");
-              s.id = "la_x2s6df8d";
-              s.defer = true;
-              s.src = src;
-              s.onload = s.onreadystatechange = function () {
-                var rs = this.readyState;
-                if (rs && rs != "complete" && rs != "loaded") {
-                  return;
-                }
-                c(this);
-              };
-              t.parentElement.insertBefore(s, t.nextSibling);
-            })(document, "https://maw.ladesk.com/scripts/track.js", function (e) {
-              LiveAgent.createButton("32wx1d8n", e);
-            });
-          `}
-        </Script> */}
       </body>
     </html>
   );

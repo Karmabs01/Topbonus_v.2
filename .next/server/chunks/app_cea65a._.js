@@ -24,7 +24,9 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/server.js [app-route] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$utils$2f$db$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/app/utils/db.ts [app-route] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$headers$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/headers.js [app-route] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
+;
 ;
 ;
 // Функция для отправки события в Customer.io
@@ -57,10 +59,34 @@ async function sendCustomerIOEvent(customerId, email) {
             const errorText = await response.text();
             console.error(`Failed to send event to Customer.io: ${response.status} ${errorText}`);
         } else {
-            console.log('Event ppc_reg successfully sent to Customer.io.');
+            console.log('Event ppc_reg успешно отправлен в Customer.io.');
         }
     } catch (error) {
-        console.error('Error sending event to Customer.io:', error);
+        console.error('Ошибка при отправке события в Customer.io:', error);
+    }
+}
+// Функция для отправки постбека в BidVertiser
+async function sendBidVertiserPostback(aid, bvClickId, revenue) {
+    const postbackUrl = 'https://secure.bidvertiser.com/performance/pc.dbm'; // Используем HTTPS
+    const params = {
+        ver: '1.0',
+        AID: aid,
+        CLICKID: bvClickId,
+        revenue: revenue.toString()
+    };
+    const urlWithParams = `${postbackUrl}?${new URLSearchParams(params).toString()}`;
+    try {
+        const response = await fetch(urlWithParams, {
+            method: 'GET'
+        });
+        if (!response.ok) {
+            const errorText = await response.text();
+            console.error(`Failed to send postback to BidVertiser: ${response.status} ${errorText}`);
+        } else {
+            console.log('Postback успешно отправлен в BidVertiser.');
+        }
+    } catch (error) {
+        console.error('Ошибка при отправке постбека в BidVertiser:', error);
     }
 }
 async function POST(request) {
@@ -143,6 +169,21 @@ async function POST(request) {
         });
         // Отправка события в Customer.io после успешного создания пользователя
         await sendCustomerIOEvent(id, email);
+        // Извлечение параметров из cookies
+        const cookieStore = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$headers$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["cookies"])();
+        const aid = cookieStore.get('AID')?.value;
+        const bvClickId = cookieStore.get('CLICKID')?.value; // Исправлено на 'CLICKID'
+        // Дополнительные параметры, если необходимо:
+        // const bvSrcId = cookieStore.get('BV_SRCID')?.value;
+        // const bvCampId = cookieStore.get('BV_CAMPID')?.value;
+        // const bvGeo = cookieStore.get('BV_GEO')?.value;
+        if (aid && bvClickId) {
+            const revenue = 1; // Согласно документации, для тестирования используем revenue=1
+            // Отправка постбека в BidVertiser после успешного создания пользователя
+            await sendBidVertiserPostback(aid, bvClickId, revenue);
+        } else {
+            console.warn('AID или CLICKID не найдены в cookies. Постбек в BidVertiser не отправлен.');
+        }
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
             success: true,
             message: 'OTP verified and user created.'

@@ -2,6 +2,7 @@
 
 import { NextResponse } from 'next/server';
 import prisma from '@/app/utils/db';
+import { cookies } from 'next/headers'; // Для Next.js 13+
 
 // Функция для отправки события в Customer.io
 async function sendCustomerIOEvent(customerId: string, email: string) {
@@ -39,10 +40,39 @@ async function sendCustomerIOEvent(customerId: string, email: string) {
       const errorText = await response.text();
       console.error(`Failed to send event to Customer.io: ${response.status} ${errorText}`);
     } else {
-      console.log('Event ppc_reg successfully sent to Customer.io.');
+      console.log('Event ppc_reg успешно отправлен в Customer.io.');
     }
   } catch (error) {
-    console.error('Error sending event to Customer.io:', error);
+    console.error('Ошибка при отправке события в Customer.io:', error);
+  }
+}
+
+// Функция для отправки постбека в BidVertiser
+async function sendBidVertiserPostback(aid: string, bvClickId: string, revenue: number) {
+  const postbackUrl = 'https://secure.bidvertiser.com/performance/pc.dbm'; // Используем HTTPS
+  const params = {
+    ver: '1.0',
+    AID: aid, // Динамический AID из параметров
+    CLICKID: bvClickId,
+    revenue: revenue.toString(),
+  };
+
+  const urlWithParams = `${postbackUrl}?${new URLSearchParams(params).toString()}`;
+
+  try {
+    const response = await fetch(urlWithParams, {
+      method: 'GET',
+      // Примечание: fetch API в Node.js не поддерживает таймаут напрямую. Можно использовать AbortController для этого.
+    });
+
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error(`Failed to send postback to BidVertiser: ${response.status} ${errorText}`);
+    } else {
+      console.log('Postback успешно отправлен в BidVertiser.');
+    }
+  } catch (error) {
+    console.error('Ошибка при отправке постбека в BidVertiser:', error);
   }
 }
 
@@ -114,6 +144,24 @@ export async function POST(request: Request) {
 
     // Отправка события в Customer.io после успешного создания пользователя
     await sendCustomerIOEvent(id, email);
+
+    // Извлечение параметров из cookies
+    const cookieStore = cookies();
+    const aid = cookieStore.get('AID')?.value;
+    const bvClickId = cookieStore.get('CLICKID')?.value; // Исправлено на 'CLICKID'
+    // Дополнительные параметры, если необходимо:
+    // const bvSrcId = cookieStore.get('BV_SRCID')?.value;
+    // const bvCampId = cookieStore.get('BV_CAMPID')?.value;
+    // const bvGeo = cookieStore.get('BV_GEO')?.value;
+
+    if (aid && bvClickId) { // Отправляем постбек только если AID и CLICKID существуют
+      const revenue = 1; // Согласно документации, для тестирования используем revenue=1
+
+      // Отправка постбека в BidVertiser после успешного создания пользователя
+      await sendBidVertiserPostback(aid, bvClickId, revenue);
+    } else {
+      console.warn('AID или CLICKID не найдены в cookies. Постбек в BidVertiser не отправлен.');
+    }
 
     return NextResponse.json({ success: true, message: 'OTP verified and user created.' });
   } catch (error) {

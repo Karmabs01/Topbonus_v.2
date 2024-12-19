@@ -1,9 +1,7 @@
 {
   "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/api/send-otp/route": "app/api/send-otp/route.js",
-  "/api/verify-otp/route": "app/api/verify-otp/route.js",
-  "/payments/page": "app/payments/page.js",
-  "/bonuses/page": "app/bonuses/page.js",
-  "/_not-found/page": "app/_not-found/page.js"
+  "/api/verify-otp/route": "app/api/verify-otp/route.js"
 }

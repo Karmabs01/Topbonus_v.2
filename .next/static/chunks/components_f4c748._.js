@@ -4412,7 +4412,7 @@ const RequestOtpForm = ({ onOtpRequested })=>{
         className: "flex flex-col items-center otp-m",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                children: t("Otp verification")
+                children: t("Email verification")
             }, void 0, false, {
                 fileName: "[project]/components/RequestOtpForm/index.tsx",
                 lineNumber: 66,
@@ -4469,7 +4469,7 @@ const RequestOtpForm = ({ onOtpRequested })=>{
                         type: "submit",
                         disabled: loading,
                         className: "w-full bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition-colors disabled:opacity-50 flex items-center justify-center welldone",
-                        children: loading ? "loading" : t("Send otp")
+                        children: loading ? "Loading" : t("Verify")
                     }, void 0, false, {
                         fileName: "[project]/components/RequestOtpForm/index.tsx",
                         lineNumber: 82,
@@ -4765,7 +4765,7 @@ var _s = __turbopack_refresh__.signature();
 const OtpModal = ({ onClose })=>{
     _s();
     const [otpId, setOtpId] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
-    const [email, setEmail] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
+    const [email, setEmail] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
     const [keyword2, setKeyword2] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const handleOtpRequested = (id, email)=>{
         setOtpId(id);
@@ -4778,7 +4778,7 @@ const OtpModal = ({ onClose })=>{
     const handleChangeEmail = ()=>{
         // Сброс состояния OTP и email для возврата к вводу email
         setOtpId(null);
-        setEmail('');
+        setEmail("");
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50",
@@ -4791,38 +4791,37 @@ const OtpModal = ({ onClose })=>{
                     children: "×"
                 }, void 0, false, {
                     fileName: "[project]/components/Otp/index.tsx",
-                    lineNumber: 39,
+                    lineNumber: 36,
                     columnNumber: 9
                 }, this),
                 !otpId ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$RequestOtpForm$2f$index$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     onOtpRequested: handleOtpRequested
                 }, void 0, false, {
                     fileName: "[project]/components/Otp/index.tsx",
-                    lineNumber: 46,
+                    lineNumber: 44,
                     columnNumber: 11
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$VerifyOtpForm$2f$index$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                     otpId: otpId,
                     email: email,
-                    onSuccess: handleOtpVerified,
                     onChangeEmail: handleChangeEmail
                 }, void 0, false, {
                     fileName: "[project]/components/Otp/index.tsx",
-                    lineNumber: 48,
+                    lineNumber: 46,
                     columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Otp/index.tsx",
-            lineNumber: 38,
+            lineNumber: 35,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Otp/index.tsx",
-        lineNumber: 37,
+        lineNumber: 34,
         columnNumber: 5
     }, this);
 };
-_s(OtpModal, "uJN0Cx+KZZ1riYAbrmAtiy38VZI=");
+_s(OtpModal, "6pLxA0txNZJWHIOnQPBhM5Vc1Hg=");
 _c = OtpModal;
 const __TURBOPACK__default__export__ = OtpModal;
 var _c;
