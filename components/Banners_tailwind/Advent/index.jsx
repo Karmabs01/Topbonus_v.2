@@ -38,6 +38,10 @@ export default function Brands_carousel() {
     "FairPari",
     "Primebetz",
     "Blockbets",
+    "SpinFest",
+    "Erabet",
+    "MyEmpire",
+    "RollingSlots",
   ];
 
   useEffect(() => {
@@ -187,7 +191,6 @@ export default function Brands_carousel() {
           }
         }
 
-
         if (finalFilteredBrands.length < 15) {
           finalFilteredBrands = data.slice(0, 15);
         }
@@ -214,7 +217,6 @@ export default function Brands_carousel() {
 
         // Гарантируем присутствие приоритетных брендов
         priorityBrands.forEach((brandName) => ensureBrandInList(brandName));
-
 
         if (finalFilteredBrands.length > 15) {
           // Но нам важно сохранить приоритетный порядок.
@@ -248,6 +250,10 @@ export default function Brands_carousel() {
         moveBrandToIndex(finalFilteredBrands, "Primebetz", 4);
         moveBrandToIndex(finalFilteredBrands, "Blockbets", 5);
 
+        moveBrandToIndex(finalFilteredBrands, "SpinFest", 6);
+        moveBrandToIndex(finalFilteredBrands, "Erabet", 7);
+        moveBrandToIndex(finalFilteredBrands, "MyEmpire", 8);
+        moveBrandToIndex(finalFilteredBrands, "RollingSlots", 9);
 
         // Теперь обрежем до 15 брендов
         finalFilteredBrands = finalFilteredBrands.slice(0, 15);
@@ -259,7 +265,7 @@ export default function Brands_carousel() {
           "Ошибка при получении данных пользователя или брендов:",
           error
         );
-   
+
         let fallbackBrands = data.slice(0, 15);
 
         // Гарантируем приоритетные бренды из data
@@ -302,6 +308,10 @@ export default function Brands_carousel() {
         moveBrandToIndex(fallbackBrands, "Primebetz", 4);
         moveBrandToIndex(fallbackBrands, "Blockbets", 5);
 
+        moveBrandToIndex(fallbackBrands, "SpinFest", 6);
+        moveBrandToIndex(fallbackBrands, "Erabet", 7);
+        moveBrandToIndex(fallbackBrands, "MyEmpire", 8);
+        moveBrandToIndex(fallbackBrands, "RollingSlots", 9);
 
         fallbackBrands = fallbackBrands.slice(0, 15);
 
