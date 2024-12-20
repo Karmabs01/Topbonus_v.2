@@ -8,17 +8,17 @@ import Cookies from 'js-cookie';
 const CaptureParams = () => {
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
-    const paramsToCapture = ['AID', 'CLICKID'];
 
-    paramsToCapture.forEach((param) => {
-      const value = urlParams.get(param);
+    // Вместо ограниченного списка параметров, просто итерируемся по всем параметрам
+    urlParams.forEach((value, key) => {
       if (value) {
-        Cookies.set(param, value, { expires: 30 }); // Сохраняем на 30 дней
+        // Сохраняем каждый параметр в cookie с таким же именем, что и ключ параметра
+        Cookies.set(key, value, { expires: 30 });
       }
     });
   }, []);
 
-  return null; // Этот компонент не рендерит ничего на UI
+  return null; // Компонент не отрисовывает UI
 };
 
 export default CaptureParams;
