@@ -183,8 +183,8 @@ export default function Popular_offers() {
 
 
 // Начало изменений
-const specificBrandName1 = "WinWin.Bet"; // Первый конкретный бренд
-const specificBrandName2 = "Erabet";     // Второй конкретный бренд
+const specificBrandName1 = "Fairspin"; // Первый конкретный бренд
+const specificBrandName2 = "WinWin.Bet";     // Второй конкретный бренд
 
 let brandsToDisplay = [];
 
