@@ -85,6 +85,7 @@ async function initializeI18n() {
     "bg",
     "pt",
     "tr",
+    "us",
     "all",
   ];
   const availableLanguages1043 = ["ca", "us"];

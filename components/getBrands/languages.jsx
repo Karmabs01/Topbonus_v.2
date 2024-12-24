@@ -48,6 +48,8 @@ export const availableLanguages1039 = [
   { code: "ch", label: "Switzerland", flag: "🇨🇭" },
   { code: "tr", label: "Turkey", flag: "🇹🇷" },
   { code: "gb", label: "United Kingdom", flag: "🇬🇧" },
+  { code: "us", label: "United States", flag: "🇺🇸" },
+
   { code: "all", label: "World", flag: "🌍" },
 ];
 export const availableLanguages1043 = [
