@@ -311,7 +311,9 @@ export default function Brands_carousel() {
         moveBrandToIndex(fallbackBrands, "SpinFest", 6);
         moveBrandToIndex(fallbackBrands, "Erabet", 7);
         moveBrandToIndex(fallbackBrands, "MyEmpire", 8);
-        moveBrandToIndex(fallbackBrands, "RollingSlots", 9);
+        moveBrandToIndex(fallbackBrands, "Rolling slots", 9);
+        moveBrandToIndex(fallbackBrands, "WinWin.Bet", 9);
+
 
         fallbackBrands = fallbackBrands.slice(0, 15);
 
