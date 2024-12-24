@@ -784,6 +784,7 @@ async function initializeI18n() {
         Festive: "Festive",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!",
+          "Check your spam folder": "Check your spam folder"
       },
     },
 

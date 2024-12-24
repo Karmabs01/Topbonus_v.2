@@ -80,7 +80,7 @@ const VerifyOtpForm: React.FC<Props> = ({ otpId, email, onChangeEmail }) => {
       </p>
 
       <form onSubmit={handleVerifyOtp} className="w-full">
-        <div className="flex space-x-2 mb-4 justify-center">
+        <div className="flex space-x-2 mb-4 justify-center flex-col">
           <PinInput
             length={6}
             initialValue=""
@@ -101,6 +101,7 @@ const VerifyOtpForm: React.FC<Props> = ({ otpId, email, onChangeEmail }) => {
             }}
             autoSelect={true}
           />
+        <p>{t("Check your spam folder")}</p>
         </div>
         {error && <p className="text-red-500 text-sm mb-4">{error}</p>}
         <button
@@ -110,6 +111,7 @@ const VerifyOtpForm: React.FC<Props> = ({ otpId, email, onChangeEmail }) => {
         >
           {loading ? "loading" : t("SUBMIT")}
         </button>
+
         {attempts > 0 && attempts < maxAttempts && (
           <p className="text-red-500 text-sm mt-4 text-center">
             {t("Attempts:")} {attempts} {t("of")} {maxAttempts}

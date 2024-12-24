@@ -37,7 +37,7 @@ export async function POST(request: Request) {
       },
     });
 
-    await sendEmail(email, 'One-time code for topbon.us', `Your code: ${otpCode}`);
+    await sendEmail(email, 'One-time code for easybon.us', `Your code: ${otpCode}`);
     console.log(`OTP successfully sent to ${email}`);
 
     return NextResponse.json({ success: true, otpId });
