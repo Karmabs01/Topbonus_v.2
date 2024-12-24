@@ -62,6 +62,7 @@ async function initializeI18n() {
     "au",
     "ca",
     "de",
+    "us",
     "ie",
     "nz",
     "no",
