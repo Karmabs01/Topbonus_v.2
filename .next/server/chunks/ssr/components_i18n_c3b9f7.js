@@ -69,6 +69,7 @@ async function initializeI18n() {
     const availableLanguages1039 = [
         "au",
         "ca",
+        "us",
         "de",
         "ie",
         "nz",
@@ -204,7 +205,7 @@ async function initializeI18n() {
     if (defLng == "at" || defLng == "ch") {
         defLng = "de";
     }
-    if (defLng == "au" || defLng == "gb" || defLng == "ca" || defLng == "ie" || defLng == "nz") {
+    if (defLng == "au" || defLng == "gb" || defLng == "ca" || defLng == "ie" || defLng == "nz" || defLng == "us") {
         defLng = "all";
     }
     if (defLng == "be") {

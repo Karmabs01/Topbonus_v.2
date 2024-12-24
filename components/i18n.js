@@ -61,6 +61,7 @@ async function initializeI18n() {
   const availableLanguages1039 = [
     "au",
     "ca",
+    "us",
     "de",
     "ie",
     "nz",
@@ -200,7 +201,8 @@ async function initializeI18n() {
     defLng == "gb" ||
     defLng == "ca" ||
     defLng == "ie" ||
-    defLng == "nz"
+    defLng == "nz" ||
+    defLng == "us"
   ) {
     defLng = "all";
   }
