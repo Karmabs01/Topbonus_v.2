@@ -42,6 +42,8 @@ export default function Brands_carousel() {
     "Erabet",
     "MyEmpire",
     "RollingSlots",
+    "WinWin.Bet",
+    "Casinia",
   ];
 
   useEffect(() => {
@@ -254,6 +256,9 @@ export default function Brands_carousel() {
         moveBrandToIndex(finalFilteredBrands, "Erabet", 7);
         moveBrandToIndex(finalFilteredBrands, "MyEmpire", 8);
         moveBrandToIndex(finalFilteredBrands, "RollingSlots", 9);
+        moveBrandToIndex(fallbackBrands, "WinWin.Bet", 10);
+        moveBrandToIndex(finalFilteredBrands, "Casinia", 11);
+
 
         // Теперь обрежем до 15 брендов
         finalFilteredBrands = finalFilteredBrands.slice(0, 15);
@@ -312,7 +317,9 @@ export default function Brands_carousel() {
         moveBrandToIndex(fallbackBrands, "Erabet", 7);
         moveBrandToIndex(fallbackBrands, "MyEmpire", 8);
         moveBrandToIndex(fallbackBrands, "Rolling slots", 9);
-        moveBrandToIndex(fallbackBrands, "WinWin.Bet", 9);
+        moveBrandToIndex(fallbackBrands, "WinWin.Bet", 10);
+        moveBrandToIndex(fallbackBrands, "Casinia", 11);
+
 
         fallbackBrands = fallbackBrands.slice(0, 15);
 
