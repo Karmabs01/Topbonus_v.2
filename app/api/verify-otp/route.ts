@@ -15,7 +15,7 @@ async function sendCustomerIOEvent(customerId: string, email: string) {
   const url = `https://track.customer.io/api/v1/customers/${encodeURIComponent(customerId)}/events`;
   const payload = {
     name: 'ppc_reg',
-    data: { keyword: customerId, email: email },
+    data: { id: customerId, email: email },
   };
   const auth = Buffer.from(`${siteId}:${apiKey}`).toString('base64');
 
