@@ -36,7 +36,8 @@ async function sendCustomerIOEvent(customerId: string, email: string) {
     console.error('Ошибка при отправке события в Customer.io:', error);
   }
 }
-
+// $CUSTOMERIO_GURU_SITE_ID='b0e62a74234c966830e3'
+// $CUSTOMERIO_GURU_API_KEY='8603e3e2dbd3bac74072'
 // Функция для отправки постбека в BidVertiser
 async function sendBidVertiserPostback(bvClickId: string) {
   // AID фиксирован = 398733285
