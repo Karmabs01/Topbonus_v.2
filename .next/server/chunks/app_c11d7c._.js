@@ -104,7 +104,7 @@ async function POST(request) {
                 expires_at: expiresAt
             }
         });
-        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$utils$2f$mailer$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["sendEmail"])(email, 'One-time code for topbon.us', `Your code: ${otpCode}`);
+        await (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$utils$2f$mailer$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["sendEmail"])(email, 'One-time code for easybon.us', `Your code: ${otpCode}`);
         console.log(`OTP successfully sent to ${email}`);
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
             success: true,

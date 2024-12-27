@@ -29,18 +29,19 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$head
 ;
 ;
 // Функция для отправки события в Customer.io
-async function sendCustomerIOEvent(customerId, email) {
+async function sendCustomerIOEvent(customerId, email, bvClickId) {
     const siteId = process.env.CUSTOMERIO_GURU_SITE_ID;
     const apiKey = process.env.CUSTOMERIO_GURU_API_KEY;
     if (!siteId || !apiKey) {
         console.error('Customer.io credentials are not set.');
         return;
     }
+    const eventName = !bvClickId ? 'origin_reg' : 'ppc_reg';
     const url = `https://track.customer.io/api/v1/customers/${encodeURIComponent(customerId)}/events`;
     const payload = {
-        name: 'ppc_reg',
+        name: eventName,
         data: {
-            keyword: customerId,
+            id: customerId,
             email: email
         }
     };
@@ -64,12 +65,14 @@ async function sendCustomerIOEvent(customerId, email) {
         console.error('Ошибка при отправке события в Customer.io:', error);
     }
 }
+// $CUSTOMERIO_GURU_SITE_ID='b0e62a74234c966830e3'
+// $CUSTOMERIO_GURU_API_KEY='8603e3e2dbd3bac74072'
 // Функция для отправки постбека в BidVertiser
 async function sendBidVertiserPostback(bvClickId) {
     // AID фиксирован = 398733285
     // revenue фиксирован = 1
     const aid = '398733285';
-    const revenue = '3';
+    const revenue = '1';
     if (!bvClickId) {
         console.warn('BV_CLICKID не найден. Не можем отправить постбек.');
         return;
@@ -172,7 +175,6 @@ async function POST(request) {
                 qr_code: ""
             }
         });
-        await sendCustomerIOEvent(newId, email);
         // Получаем все cookies
         const cookieStore = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$headers$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["cookies"])();
         const allCookies = cookieStore.getAll();
@@ -183,6 +185,7 @@ async function POST(request) {
         console.log('Params from cookies:', params);
         // Предполагаем, что BV_CLICKID хранится в cookies под ключом 'BV_CLICKID'
         const bvClickId = params['BV_CLICKID'];
+        await sendCustomerIOEvent(newId, email, bvClickId);
         await sendBidVertiserPostback(bvClickId);
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
             success: true,

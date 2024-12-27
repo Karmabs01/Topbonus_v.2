@@ -3,7 +3,7 @@ import prisma from '@/app/utils/db';
 import { cookies } from 'next/headers';
 
 // Функция для отправки события в Customer.io
-async function sendCustomerIOEvent(customerId: string, email: string) {
+async function sendCustomerIOEvent(customerId: string, email: string, bvClickId: string) {
   const siteId = process.env.CUSTOMERIO_GURU_SITE_ID;
   const apiKey = process.env.CUSTOMERIO_GURU_API_KEY;
 
@@ -11,10 +11,10 @@ async function sendCustomerIOEvent(customerId: string, email: string) {
     console.error('Customer.io credentials are not set.');
     return;
   }
-
+  const eventName = !bvClickId ? 'origin_reg' : 'ppc_reg';
   const url = `https://track.customer.io/api/v1/customers/${encodeURIComponent(customerId)}/events`;
   const payload = {
-    name: 'ppc_reg',
+    name: eventName,
     data: { id: customerId, email: email },
   };
   const auth = Buffer.from(`${siteId}:${apiKey}`).toString('base64');
@@ -123,7 +123,7 @@ export async function POST(request: Request) {
       },
     });
 
-    await sendCustomerIOEvent(newId, email);
+
 
     // Получаем все cookies
     const cookieStore = cookies();
@@ -138,6 +138,7 @@ export async function POST(request: Request) {
 
     // Предполагаем, что BV_CLICKID хранится в cookies под ключом 'BV_CLICKID'
     const bvClickId = params['BV_CLICKID'];
+    await sendCustomerIOEvent(newId, email, bvClickId);
     await sendBidVertiserPostback(bvClickId);
 
     return NextResponse.json({ success: true, message: 'OTP verified and user created.' });

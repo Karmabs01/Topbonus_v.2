@@ -1012,7 +1012,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "Twoje bonusy są w drodze, chwileczkę..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Twój prezent świąteczny czeka Zacznij swoje szczęście!",
                 Festive: "Świąteczny",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Poczuj magię sezonu z najgorętszymi markami kasyn—odkryj ekscytujące niespodzianki i świąteczne nagrody!"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Poczuj magię sezonu z najgorętszymi markami kasyn—odkryj ekscytujące niespodzianki i świąteczne nagrody!",
+                "Check your spam folder": "Sprawdź folder spam"
             }
         },
         de: {
@@ -1409,7 +1410,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "Ihre Boni sind unterwegs, einen Moment bitte..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Ihr Weihnachtsgeschenk erwartet Sie Starten Sie Ihr Vermögen!",
                 Festive: "Festlich",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Erleben Sie die Magie der Saison mit den heißesten Casinobrands – packen Sie spannende Überraschungen und festliche Belohnungen aus!"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Erleben Sie die Magie der Saison mit den heißesten Casinobrands – packen Sie spannende Überraschungen und festliche Belohnungen aus!",
+                "Check your spam folder": "Überprüfen Sie Ihren Spam-Ordner"
             }
         },
         bg: {
@@ -1805,7 +1807,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "Вашите бонуси са на път, моля изчакайте..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Вашият коледен подарък ви очаква. Започнете вашето богатство!",
                 Festive: "Празничен",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Изживейте магията на сезона с най-горещите казино марки—разопаковайте вълнуващи изненади и празнични награди!"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Изживейте магията на сезона с най-горещите казино марки—разопаковайте вълнуващи изненади и празнични награди!",
+                "Check your spam folder": "Проверете папката със спам"
             }
         },
         cz: {
@@ -2201,7 +2204,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "Vaše bonusy jsou na cestě, vydržte chvíli..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Váš vánoční dárek čeká, začněte své štěstí!",
                 Festive: "Sváteční",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Zažijte kouzlo sezóny s nejžhavějšími kasinovými značkami—rozbalte vzrušující překvapení a sváteční odměny!"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Zažijte kouzlo sezóny s nejžhavějšími kasinovými značkami—rozbalte vzrušující překvapení a sváteční odměny!",
+                "Check your spam folder": "Zkontrolujte složku spam"
             }
         },
         dk: {
@@ -2597,7 +2601,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "Dine bonusser er på vej, et øjeblik..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Din julegave venter Start din formue!",
                 Festive: "Festlig",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Oplev sæsonens magi med de hotteste casinobrands—åbn spændende overraskelser og festlige belønninger!"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Oplev sæsonens magi med de hotteste casinobrands—åbn spændende overraskelser og festlige belønninger!",
+                "Check your spam folder": "Tjek din spam-mappe"
             }
         },
         nl: {
@@ -2993,7 +2998,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "Jouw bonussen zijn onderweg, een ogenblik..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Je kerstcadeau wacht op je Begin je fortuin!",
                 Festive: "Feestelijk",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Beleef de magie van het seizoen met de populairste casinomerken—ontdek spannende verrassingen en feestelijke beloningen!"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Beleef de magie van het seizoen met de populairste casinomerken—ontdek spannende verrassingen en feestelijke beloningen!",
+                "Check your spam folder": "Controleer je spammap"
             }
         },
         es: {
@@ -3389,7 +3395,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "Tus bonos están en camino, un momento..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Tu regalo de Navidad te espera, ¡comienza tu fortuna!",
                 Festive: "Festivo",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Experimenta la magia de la temporada con las marcas de casino más populares: ¡descubre sorpresas emocionantes y recompensas festivas!"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Experimenta la magia de la temporada con las marcas de casino más populares: ¡descubre sorpresas emocionantes y recompensas festivas!",
+                "Check your spam folder": "Revisa tu carpeta de spam"
             }
         },
         fi: {
@@ -3785,7 +3792,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "Bonuksesi ovat matkalla, hetki vain..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Joululahjasi odottaa, aloita onnesi!",
                 Festive: "Juhlava",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Koe kauden taika kuumimpien kasinobrändien kanssa—avaa jännittäviä yllätyksiä ja juhlavia palkintoja!"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Koe kauden taika kuumimpien kasinobrändien kanssa—avaa jännittäviä yllätyksiä ja juhlavia palkintoja!",
+                "Check your spam folder": "Tarkista roskapostikansiosi"
             }
         },
         fr: {
@@ -4182,7 +4190,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "Vos bonus sont en route, un instant..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Votre cadeau de Noël vous attend, commencez votre fortune !",
                 Festive: "Festif",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Découvrez la magie de la saison avec les marques de casino les plus en vogue—dévoilez des surprises palpitantes et des récompenses festives !"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Découvrez la magie de la saison avec les marques de casino les plus en vogue—dévoilez des surprises palpitantes et des récompenses festives !",
+                "Check your spam folder": "Vérifiez votre dossier spam"
             }
         },
         gr: {
@@ -4579,7 +4588,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "Τα μπόνους σας έρχονται, παρακαλώ περιμένετε λίγο..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Το Χριστουγεννιάτικο Δώρο σας Περιμένει Ξεκινήστε την Τύχη σας!",
                 Festive: "Εορταστικός",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Ζήστε τη μαγεία της εποχής με τα πιο καυτά εμπορικά σήματα καζίνο—ξετυλίξτε συναρπαστικές εκπλήξεις και εορταστικές ανταμοιβές!"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Ζήστε τη μαγεία της εποχής με τα πιο καυτά εμπορικά σήματα καζίνο—ξετυλίξτε συναρπαστικές εκπλήξεις και εορταστικές ανταμοιβές!",
+                "Check your spam folder": "Ελέγξτε τον φάκελο ανεπιθύμητων"
             }
         },
         hu: {
@@ -4976,7 +4986,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "A bónuszok úton vannak, egy pillanat..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Karácsonyi ajándékod vár, kezd el a szerencséd!",
                 Festive: "Ünnepi",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Éld át az évszak varázsát a legmenőbb kaszinómárkákkal—bontsd ki az izgalmas meglepetéseket és ünnepi jutalmakat!"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Éld át az évszak varázsát a legmenőbb kaszinómárkákkal—bontsd ki az izgalmas meglepetéseket és ünnepi jutalmakat!",
+                "Check your spam folder": "Ellenőrizze a spam mappát"
             }
         },
         it: {
@@ -5373,7 +5384,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "I tuoi bonus sono in arrivo, un attimo..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Il tuo regalo di Natale ti aspetta inizia la tua fortuna!",
                 Festive: "Festoso",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Vivi la magia della stagione con i marchi di casinò più caldi—scopri sorprese emozionanti e premi festivi!"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Vivi la magia della stagione con i marchi di casinò più caldi—scopri sorprese emozionanti e premi festivi!",
+                "Check your spam folder": "Controlla la cartella spam"
             }
         },
         no: {
@@ -5770,7 +5782,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "Bonusene dine er på vei, et øyeblikk..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Din julegave venter Start din formue!",
                 Festive: "Festlig",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Opplev sesongens magi med de hotteste casinomerkevarene—pakk opp spennende overraskelser og festlige belønninger!"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Opplev sesongens magi med de hotteste casinomerkevarene—pakk opp spennende overraskelser og festlige belønninger!",
+                "Check your spam folder": "Sjekk spam-mappen din"
             }
         },
         pt: {
@@ -6167,7 +6180,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "Seus bônus estão a caminho, um momento..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Seu Presente de Natal Aguarda Comece Sua Fortuna!",
                 Festive: "Festivo",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Experimente a magia da temporada com as marcas de cassino mais quentes—desembrulhe surpresas emocionantes e recompensas festivas!"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Experimente a magia da temporada com as marcas de cassino mais quentes—desembrulhe surpresas emocionantes e recompensas festivas!",
+                "Check your spam folder": "Verifique a pasta de spam"
             }
         },
         se: {
@@ -6564,7 +6578,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "Dina bonusar är på väg, ett ögonblick..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Din julklapp väntar Börja ditt äventyr!",
                 Festive: "Festlig",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Upplev säsongens magi med de hetaste casinovarumärkena—öppna spännande överraskningar och festliga belöningar!"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Upplev säsongens magi med de hetaste casinovarumärkena—öppna spännande överraskningar och festliga belöningar!",
+                "Check your spam folder": "Kontrollera din skräppostmapp"
             }
         },
         sk: {
@@ -6961,7 +6976,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "Vaše bonusy sú na ceste, chvíľku počkajte..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Váš vianočný darček čaká, začnite svoje šťastie!",
                 Festive: "Sviatočný",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Zažite kúzlo sezóny s najhorúcejšími kasínovými značkami—rozbaľte vzrušujúce prekvapenia a sviatočné odmeny!"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Zažite kúzlo sezóny s najhorúcejšími kasínovými značkami—rozbaľte vzrušujúce prekvapenia a sviatočné odmeny!",
+                "Check your spam folder": "Skontrolujte priečinok so spamom"
             }
         },
         tr: {
@@ -7358,7 +7374,8 @@ async function initializeI18n() {
                 "Your bonuses are on the way, one moment..": "Bonuslarınız yolda, lütfen bir dakika..",
                 "Your Christmas Gift Awaits Start Your Fortune!": "Noel Hediyeniz Sizi Bekliyor Şansınızı Başlatın!",
                 Festive: "Şenlikli",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Sezonun büyüsünü en popüler casino markalarıyla yaşayın—heyecan verici sürprizler ve festivallik ödüllerle tanışın!"
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Sezonun büyüsünü en popüler casino markalarıyla yaşayın—heyecan verici sürprizler ve festivallik ödüllerle tanışın!",
+                "Check your spam folder": "Spam klasörünü kontrol edin"
             }
         }
     };
