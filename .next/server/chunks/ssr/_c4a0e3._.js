@@ -128,37 +128,22 @@ const OtpProvider = ({ children })=>{
             window.removeEventListener('storage', handleStorageChange);
         };
     }, []);
+    // Новый useEffect для открытия модалки через 7 секунд после загрузки
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        const handleClick = (e)=>{
-            const target = e.target;
-            console.log('Clicked element:', target);
-            const otpLink = target.closest('.otp-ver-if');
-            if (otpLink) {
-                // Проверяем наличие класса 'welldone' у элемента или его предков
-                const hasWelldone = otpLink.classList.contains('welldone');
-                if (hasWelldone) {
-                    console.log('Element has welldone class, ignoring OTP logic.');
-                    return; // Игнорируем элементы с классом 'welldone'
-                }
-                if (!isAuthorized) {
-                    console.log('User not authorized, opening modal');
-                    e.preventDefault(); // Отменяем переход или стандартное действие
-                    e.stopPropagation(); // Останавливаем дальнейшую обработку события
-                    openModal(); // Открываем OTP модалку
-                } else {
-                    console.log('User authorized, allowing navigation');
-                // Не предотвращаем стандартное поведение, позволяя ссылке перейти
-                }
+        // Устанавливаем таймер на 7 секунд
+        const timer = setTimeout(()=>{
+            if (!isAuthorized) {
+                console.log('User not authorized, opening modal after 7 seconds');
+                openModal();
+            } else {
+                console.log('User already authorized, modal will not open');
             }
-        };
-        document.addEventListener('click', handleClick);
-        return ()=>{
-            document.removeEventListener('click', handleClick);
-        };
+        }, 7000); // 7000 миллисекунд = 7 секунд
+        // Очищаем таймер при размонтировании компонента
+        return ()=>clearTimeout(timer);
     }, [
-        isAuthorized,
-        router
-    ]); // Обновляем обработчик, если изменится состояние isAuthorized
+        isAuthorized
+    ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(OtpContext.Provider, {
         value: {
             openModal,
@@ -170,13 +155,13 @@ const OtpProvider = ({ children })=>{
                 onClose: closeModal
             }, void 0, false, {
                 fileName: "[project]/context/OtpContext.tsx",
-                lineNumber: 100,
+                lineNumber: 81,
                 columnNumber: 23
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/context/OtpContext.tsx",
-        lineNumber: 98,
+        lineNumber: 79,
         columnNumber: 5
     }, this);
 };

@@ -59,40 +59,21 @@ export const OtpProvider = ({ children }: { children: ReactNode }) => {
     };
   }, []);
 
+  // Новый useEffect для открытия модалки через 7 секунд после загрузки
   useEffect(() => {
-    const handleClick = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
-      console.log('Clicked element:', target);
-
-      const otpLink = target.closest('.otp-ver-if');
-
-      if (otpLink) {
-        // Проверяем наличие класса 'welldone' у элемента или его предков
-        const hasWelldone = otpLink.classList.contains('welldone');
-
-        if (hasWelldone) {
-          console.log('Element has welldone class, ignoring OTP logic.');
-          return; // Игнорируем элементы с классом 'welldone'
-        }
-
-        if (!isAuthorized) {
-          console.log('User not authorized, opening modal');
-          e.preventDefault(); // Отменяем переход или стандартное действие
-          e.stopPropagation(); // Останавливаем дальнейшую обработку события
-          openModal(); // Открываем OTP модалку
-        } else {
-          console.log('User authorized, allowing navigation');
-          // Не предотвращаем стандартное поведение, позволяя ссылке перейти
-        }
+    // Устанавливаем таймер на 7 секунд
+    const timer = setTimeout(() => {
+      if (!isAuthorized) {
+        console.log('User not authorized, opening modal after 7 seconds');
+        openModal();
+      } else {
+        console.log('User already authorized, modal will not open');
       }
-    };
+    }, 7000); // 7000 миллисекунд = 7 секунд
 
-    document.addEventListener('click', handleClick);
-
-    return () => {
-      document.removeEventListener('click', handleClick);
-    };
-  }, [isAuthorized, router]); // Обновляем обработчик, если изменится состояние isAuthorized
+    // Очищаем таймер при размонтировании компонента
+    return () => clearTimeout(timer);
+  }, [isAuthorized]);
 
   return (
     <OtpContext.Provider value={{ openModal, closeModal }}>

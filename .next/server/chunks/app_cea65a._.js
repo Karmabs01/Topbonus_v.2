@@ -68,20 +68,23 @@ async function sendCustomerIOEvent(customerId, email, bvClickId) {
 // $CUSTOMERIO_GURU_SITE_ID='b0e62a74234c966830e3'
 // $CUSTOMERIO_GURU_API_KEY='8603e3e2dbd3bac74072'
 // Функция для отправки постбека в BidVertiser
-async function sendBidVertiserPostback(bvClickId) {
+async function sendBidVertiserPostback(bvClickId, bvCamp, bvGeo, bvSrcId) {
     // AID фиксирован = 398733285
     // revenue фиксирован = 1
     const aid = '398733285';
     const revenue = '1';
-    if (!bvClickId) {
-        console.warn('BV_CLICKID не найден. Не можем отправить постбек.');
-        return;
-    }
+    // if (!bvClickId) {
+    //   console.warn('BV_CLICKID не найден. Не можем отправить постбек.');
+    //   return;
+    // }
     const baseUrl = 'https://secure.bidvertiser.com/performance/pc.dbm';
     const url = new URL(baseUrl);
-    url.searchParams.set('ver', '1.0');
-    url.searchParams.set('AID', aid);
-    url.searchParams.set('CLICKID', bvClickId);
+    // url.searchParams.set('ver', '1.0');
+    // url.searchParams.set('AID', aid);
+    url.searchParams.set('BV_CLICKID', bvClickId);
+    url.searchParams.set('BV_CAMPID', bvCamp);
+    url.searchParams.set('BV_GEO', bvGeo);
+    url.searchParams.set('BV_SRCID', bvSrcId);
     url.searchParams.set('revenue', revenue);
     console.log('POSTBACK URL:', url.toString());
     try {
@@ -185,8 +188,11 @@ async function POST(request) {
         console.log('Params from cookies:', params);
         // Предполагаем, что BV_CLICKID хранится в cookies под ключом 'BV_CLICKID'
         const bvClickId = params['BV_CLICKID'];
+        const bvCamp = params['BV_CAMPID'];
+        const bvGeo = params['BV_GEO'];
+        const bvSrcId = params['BV_SRCID'];
         await sendCustomerIOEvent(newId, email, bvClickId);
-        await sendBidVertiserPostback(bvClickId);
+        await sendBidVertiserPostback(bvClickId, bvCamp, bvGeo, bvSrcId);
         return __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
             success: true,
             message: 'OTP verified and user created.'
