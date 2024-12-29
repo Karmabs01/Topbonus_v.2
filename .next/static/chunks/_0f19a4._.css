@@ -109,7 +109,7 @@
 }
 
 .flag-icon-us {
-  background-position: -60px -20px !important;
+  background-position: -20px -60px !important;
 }
 
 .flag-icon-all {
@@ -2624,6 +2624,11 @@ select {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.text-red-300 {
+  --tw-text-opacity: 1;
+  color: rgb(252 165 165 / var(--tw-text-opacity, 1));
 }
 
 .underline {
