@@ -45,7 +45,8 @@ export default function Brands_carousel() {
     "WinWin.Bet",
     "Casinia",
     "Luckychoo",
-    "Goldencrown"
+    "Goldencrown",
+    "Spinsup"
   ];
 
   useEffect(() => {
@@ -262,6 +263,9 @@ export default function Brands_carousel() {
         moveBrandToIndex(finalFilteredBrands, "Casinia", 11);
         moveBrandToIndex(fallbackBrands, "SpinFest", 12);
         moveBrandToIndex(finalFilteredBrands, "Goldencrown", 13);
+        moveBrandToIndex(finalFilteredBrands, "Spinsup", 14);
+
+        
 
 
         // Теперь обрежем до 15 брендов
@@ -325,7 +329,9 @@ export default function Brands_carousel() {
         moveBrandToIndex(fallbackBrands, "Casinia", 11);
         moveBrandToIndex(fallbackBrands, "SpinFest", 12);
         moveBrandToIndex(fallbackBrands, "Goldencrown", 13);
+        moveBrandToIndex(fallbackBrands, "Spinsup", 14);
 
+        
         fallbackBrands = fallbackBrands.slice(0, 15);
 
         setBrands(fallbackBrands);
