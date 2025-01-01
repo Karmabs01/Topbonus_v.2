@@ -153,6 +153,11 @@ export default function Brands_carousel() {
     "Goldencrown",
     "Spinsup",
     "Smokace",
+    "Legiano",
+    "HeroSpin",
+    "RocketSpin",
+  
+
   ];
 
   // Основные категории, как в вашем коде
@@ -287,7 +292,11 @@ export default function Brands_carousel() {
         moveBrandToIndex(finalFilteredBrands, "Goldencrown", 13);
         moveBrandToIndex(finalFilteredBrands, "Spinsup", 14);
         moveBrandToIndex(finalFilteredBrands, "Smokace", 15);
+        moveBrandToIndex(finalFilteredBrands, "Legiano", 16);
+        moveBrandToIndex(finalFilteredBrands, "HeroSpin", 17);
+        moveBrandToIndex(finalFilteredBrands, "RocketSpin", 18);
 
+ 
         
         finalFilteredBrands = finalFilteredBrands.slice(0, 24);
 
@@ -349,7 +358,11 @@ export default function Brands_carousel() {
         moveBrandToIndex(fallbackBrands, "Spinsup", 14);
         moveBrandToIndex(fallbackBrands, "Smokace", 15);
 
-        
+        moveBrandToIndex(fallbackBrands, "Legiano", 16);
+        moveBrandToIndex(fallbackBrands, "HeroSpin", 17);
+        moveBrandToIndex(fallbackBrands, "RocketSpin", 18);
+
+
         fallbackBrands = fallbackBrands.slice(0, 24);
 
         setBrands(fallbackBrands);
