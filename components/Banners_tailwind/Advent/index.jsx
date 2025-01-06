@@ -159,6 +159,8 @@ export default function Brands_carousel() {
     "Winbay",
     "Trino",
     "Betplays",
+    "Spinarium",
+    "Bitstake",
 
 
   
@@ -303,9 +305,12 @@ export default function Brands_carousel() {
         moveBrandToIndex(finalFilteredBrands, "Winbay", 19);
         moveBrandToIndex(finalFilteredBrands, "Trino", 20);
         moveBrandToIndex(finalFilteredBrands, "Betplays", 21);
+        moveBrandToIndex(finalFilteredBrands, "Spinarium", 22);
+        moveBrandToIndex(finalFilteredBrands, "Bitstake", 23);
 
 
 
+  
  
         
         finalFilteredBrands = finalFilteredBrands.slice(0, 24);
@@ -374,7 +379,8 @@ export default function Brands_carousel() {
         moveBrandToIndex(fallbackBrands, "Winbay", 19);
         moveBrandToIndex(fallbackBrands, "Trino", 20);
         moveBrandToIndex(fallbackBrands, "Betplays", 21);
-
+        moveBrandToIndex(fallbackBrands, "Spinarium", 22);
+        moveBrandToIndex(fallbackBrands, "Bitstake", 23);
 
 
 
