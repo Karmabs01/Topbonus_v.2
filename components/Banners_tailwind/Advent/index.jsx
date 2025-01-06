@@ -157,6 +157,10 @@ export default function Brands_carousel() {
     "HeroSpin",
     "RocketSpin",
     "Winbay",
+    "Trino",
+    "Betplays",
+
+
   
 
   ];
@@ -297,8 +301,11 @@ export default function Brands_carousel() {
         moveBrandToIndex(finalFilteredBrands, "HeroSpin", 17);
         moveBrandToIndex(finalFilteredBrands, "RocketSpin", 18);
         moveBrandToIndex(finalFilteredBrands, "Winbay", 19);
+        moveBrandToIndex(finalFilteredBrands, "Trino", 20);
+        moveBrandToIndex(finalFilteredBrands, "Betplays", 21);
 
-        
+
+
  
         
         finalFilteredBrands = finalFilteredBrands.slice(0, 24);
@@ -365,8 +372,10 @@ export default function Brands_carousel() {
         moveBrandToIndex(fallbackBrands, "HeroSpin", 17);
         moveBrandToIndex(fallbackBrands, "RocketSpin", 18);
         moveBrandToIndex(fallbackBrands, "Winbay", 19);
+        moveBrandToIndex(fallbackBrands, "Trino", 20);
+        moveBrandToIndex(fallbackBrands, "Betplays", 21);
 
-        
+
 
 
         fallbackBrands = fallbackBrands.slice(0, 24);
