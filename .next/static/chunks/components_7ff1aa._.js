@@ -1653,6 +1653,11 @@ const BrandsSwitcher = ()=>{
             flag: "🇧🇬"
         },
         {
+            code: "us",
+            label: "United States",
+            flag: "🇺🇸"
+        },
+        {
             code: "all",
             label: "World",
             flag: "🌍"
@@ -2231,14 +2236,14 @@ const BrandsSwitcher = ()=>{
                                                     className: `mr-2 flag-icon flag-icon-${selectedLanguage?.code}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                    lineNumber: 237,
+                                                    lineNumber: 238,
                                                     columnNumber: 23
                                                 }, this),
                                                 selectedLanguage?.label
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 236,
+                                            lineNumber: 237,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2248,18 +2253,18 @@ const BrandsSwitcher = ()=>{
                                                 className: "h-5 w-5 text-gray-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                lineNumber: 241,
+                                                lineNumber: 242,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 240,
+                                            lineNumber: 241,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 234,
+                                    lineNumber: 235,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ListboxOptions"], {
@@ -2276,7 +2281,7 @@ const BrandsSwitcher = ()=>{
                                                                     className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                    lineNumber: 260,
+                                                                    lineNumber: 261,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 " ",
@@ -2284,7 +2289,7 @@ const BrandsSwitcher = ()=>{
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 258,
+                                                            lineNumber: 259,
                                                             columnNumber: 23
                                                         }, this),
                                                         selected ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2294,47 +2299,47 @@ const BrandsSwitcher = ()=>{
                                                                 className: "h-5 w-5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                lineNumber: 264,
+                                                                lineNumber: 265,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 263,
+                                                            lineNumber: 264,
                                                             columnNumber: 25
                                                         }, this) : null
                                                     ]
                                                 }, void 0, true)
                                         }, language.code, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 249,
+                                            lineNumber: 250,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 245,
+                                    lineNumber: 246,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                            lineNumber: 233,
+                            lineNumber: 234,
                             columnNumber: 11
                         }, this)
                     }, void 0, false)
             }, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 222,
+                lineNumber: 223,
                 columnNumber: 5
             }, this),
             isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 276,
+                lineNumber: 277,
                 columnNumber: 19
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-        lineNumber: 221,
+        lineNumber: 222,
         columnNumber: 5
     }, this);
 };
