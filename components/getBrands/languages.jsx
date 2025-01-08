@@ -20,6 +20,7 @@ export const availableLanguages = [
   { code: "nl", label: "Netherlands", flag: "🇳🇱" },
   { code: "hu", label: "Hungary", flag: "🇭🇺" },
   { code: "bg", label: "Bulgaria", flag: "🇧🇬" },
+  { code: "us", label: "United States", flag: "🇺🇸" },
   { code: "all", label: "World", flag: "🌍" }
 ];
 export const availableLanguages1039 = [
