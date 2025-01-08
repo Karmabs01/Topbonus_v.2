@@ -1,0 +1,463 @@
+Casino brand	Current Status	Source	GEO	The type of a deal	CPA	RS	BL/Qualif	Offer content	Our offer content	Affiliate Link	Our Link
+JohnVegas	Stop	Direct	AU	Hybrid	230	45	21	Up to 10000 AU$ + 500 FS, min.dep 30 AU$	Up to 10000 AU$ + 500 FS, min.dep 42 AU$	https://johnvaff.com/j42cf0699	https://go.luckyhotei.com/johnvegas
+JohnVegas	Stop	Direct	CA	Hybrid	230	45	21	Up to 10000 AU$ + 500 FS, min.dep 30 AU$	Up to 7000 CA$ + 500 FS, min.dep 36 CA$	https://johnvaff.com/j42cf0699	https://go.luckyhotei.com/johnvegas
+JohnVegas	Stop	Direct	DE	Hybrid	230	45	21	Up to 10000 AU$ + 500 FS, min.dep 30 AU$	Bis zu 5000€ + 500 Freispiele, mindesteinzahlung 25€	https://johnvaff.com/j42cf0699	https://go.luckyhotei.com/johnvegas
+7Bit	Ongoing	Direct	AU	Hybrid	100	50	20	Up to 5000€ + 100 FS, min.dep 10€	Up to 8000 AUD + 100 FS, min.dep 16 AUD	https://7bit.partners/p1ba41bcf	https://go.luckyhotei.com/7Bit
+7Bit	Ongoing	Direct	CA	Hybrid	100	50	20	Up to 5000€ + 100 FS, min.dep 10€	Up to 7250 CAD + 100 FS, min.dep 15 CAD	https://7bit.partners/p1ba41bcf	https://go.luckyhotei.com/7Bit
+7Bit	Ongoing	Direct	DE	Hybrid	100	50	20	Up to 5000€ + 100 FS, min.dep 10€	Bis zu 5000€ + 100 FS, min. Einzahlung 10€	https://7bit.partners/p1ba41bcf	https://go.luckyhotei.com/7Bit
+7Bit	Ongoing	Direct	FR	Hybrid	100	50	20	Up to 5000€ + 100 FS, min.dep 10€	Jusqu'à 5000€ + 100 FS, dépôt min. 10€	https://7bit.partners/p1ba41bcf	https://go.luckyhotei.com/7Bit
+7Bit	Ongoing	Direct	IT	Hybrid	100	50	20	Up to 5000€ + 100 FS, min.dep 10€	Fino a 5000€ + 100 FS, deposito minimo 10€	https://7bit.partners/p1ba41bcf	https://go.luckyhotei.com/7Bit
+Mirax	Ongoing	Direct	AU	Hybrid	100	50	20	Up to 1425€ + 150 FS, min.dep 10€	Up to 2280 AUD + 150 FS, min.dep 16 AUD	https://mirax.partners/pba974a16	https://go.luckyhotei.com/mirax
+Mirax	Ongoing	Direct	CA	Hybrid	100	50	20	Up to 1425€ + 150 FS, min.dep 10€	Up to 2068 CAD + 150 FS, min.dep 15 CAD	https://mirax.partners/pba974a16	https://go.luckyhotei.com/mirax
+Mirax	Ongoing	Direct	DE	Hybrid	100	50	20	Up to 1425€ + 150 FS, min.dep 10€	Bis zu 1425€ + 150 FS, min. Einzahlung 10€	https://mirax.partners/pba974a16	https://go.luckyhotei.com/mirax
+Mirax	Ongoing	Direct	FR	Hybrid	100	50	20	Up to 1425€ + 150 FS, min.dep 10€	Jusqu'à 1425€ + 150 FS, dépôt min. 10€	https://mirax.partners/pba974a16	https://go.luckyhotei.com/mirax
+Mirax	Ongoing	Direct	IT	Hybrid	100	50	20	Up to 1425€ + 150 FS, min.dep 10€	Fino a 1425€ + 150 FS, deposito minimo 10€	https://mirax.partners/pba974a16	https://go.luckyhotei.com/mirax
+Katsubet	Ongoing	Direct	AU	Hybrid	100	50	20	Up to 6000€ + 200 FS, min.dep 10€	Up to 9600 AUD + 200 FS, min.dep 16 AUD	https://katsubet.partners/pe025074c	https://go.luckyhotei.com/katsubet
+Katsubet	Ongoing	Direct	CA	Hybrid	100	50	20	Up to 6000€ + 200 FS, min.dep 10€	Up to 8700 CAD + 200 FS, min.dep 15 CAD	https://katsubet.partners/pe025074c	https://go.luckyhotei.com/katsubet
+Katsubet	Ongoing	Direct	DE	Hybrid	100	50	20	Up to 6000€ + 200 FS, min.dep 10€	Bis zu 6000€ + 200 FS, min. Einzahlung 10€	https://katsubet.partners/pe025074c	https://go.luckyhotei.com/katsubet
+Katsubet	Ongoing	Direct	FR	Hybrid	100	50	20	Up to 6000€ + 200 FS, min.dep 10€	Jusqu'à 6000€ + 200 FS, dépôt min. 10€	https://katsubet.partners/pe025074c	https://go.luckyhotei.com/katsubet
+Katsubet	Ongoing	Direct	IT	Hybrid	100	50	20	Up to 6000€ + 200 FS, min.dep 10€	Fino a 6000€ + 200 FS, deposito minimo 10€	https://katsubet.partners/pe025074c	https://go.luckyhotei.com/katsubet
+Betzard	Ongoing	Direct	AU	Hybrid	100	50	20	300% up to 1200€ + 300 FS, min.dep 20€	300% up to 1920 AUD + 300 FS, min.dep 32 AUD	https://betzrd.com/p23eb86e8	https://go.luckyhotei.com/bitzard
+Betzard	Ongoing	Direct	CA	Hybrid	100	50	20	300% up to 1200€ + 300 FS, min.dep 20€	300% up to 1740 CAD + 300 FS, min.dep 30 CAD	https://betzrd.com/p23eb86e8	https://go.luckyhotei.com/bitzard
+Betzard	Ongoing	Direct	DE	Hybrid	100	50	20	300% up to 1200€ + 300 FS, min.dep 20€	300% bis zu 1200€ + 300 Freispiele, Mindesteinzahlung 20€	https://betzrd.com/p23eb86e8	https://go.luckyhotei.com/bitzard
+Betzard	Ongoing	Direct	FR	Hybrid	100	50	20	300% up to 1200€ + 300 FS, min.dep 20€	300% jusqu'à 1200€ + 300 FS, dépôt min. 20€	https://betzrd.com/p23eb86e8	https://go.luckyhotei.com/bitzard
+Betzard	Ongoing	Direct	IT	Hybrid	100	50	20	300% up to 1200€ + 300 FS, min.dep 20€	300% fino a 1200€ + 300 FS, deposito minimo 20€	https://betzrd.com/p23eb86e8	https://go.luckyhotei.com/bitzard
+LuckyDreams	Ongoing	Alfaleads	AU	CPA	190		190	275% up to 4000€ + 300FS, min. dep 20€	275% up to 6200 AU$ + 300 FS, min.dep. 42 AU$	https://a.gambburj.com/click?pid=169930&offer_id=8775&l=1700729443	https://go.luckyhotei.com/LuckyDreams
+LuckyDreams	Ongoing	Alfaleads	CA	CPA	190		190	275% up to 4000€ + 300FS, min. dep 20€	275% up to 5700 CA$ + 300 FS, min.dep 36 CA$	https://a.gambburj.com/click?pid=169930&offer_id=8775&l=1700729443	https://go.luckyhotei.com/LuckyDreams
+LuckyDreams	Ongoing	Alfaleads	DE	CPA	190		190	275% up to 4000€ + 300FS, min. dep 20€	275% up to 4000€ + 300FS, min. dep 20€	https://a.gambburj.com/click?pid=169930&offer_id=8775&l=1700729443	https://go.luckyhotei.com/LuckyDreams
+LuckyDreams	Ongoing	Alfaleads	CA	CPA	190		190	275% up to 4000€ + 300FS, min. dep 20€	275% up to 4000€ + 300FS, min. dep 20€	https://a.gambburj.com/click?pid=169930&offer_id=8775&l=1700729443	https://go.luckyhotei.com/LuckyDreams
+LuckyDreams	Ongoing	Alfaleads	OU	CPA	190		190	275% up to 4000€ + 300FS, min. dep 20€	275% up to 4000€ + 300FS, min. dep 20€	https://a.gambburj.com/click?pid=169930&offer_id=8775&l=1700729443	https://go.luckyhotei.com/LuckyDreams
+LuckyHunter	Ongoing	Direct	AU	Hybrid	190	30	20	100% up to $4,000 + 244 FS		https://luckyhunter.media/n15ef5331b	https://go.luckyhotei.com/luckyhunter
+Retrobet	Ongoing	Direct	CA	Hybrid	190	30	20	100% up to €1000 + 100 FS		https://retrobetmedia.com/n137ed7374	https://go.luckyhotei.com/retrobet
+RollXO	Ongoing	Direct	IT	Hybrid	190	30	20	350% up to 15000€ + 350 FS, min.dep 20€		https://rollxo.media/n1590769ae	https://go.luckyhotei.com/rollxo
+SpicyJackpots	Stop	Direct	AU	Hybrid	200	40	20	400% up 2000€+ 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5412	https://go.luckyhotei.com/spicyjackpots
+SpicyJackpots	Stop	Direct	CA	Hybrid	200	40	20	400% up 2000€+ 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5412	https://go.luckyhotei.com/spicyjackpots
+SpicyJackpots	Stop	Direct	DE	Hybrid	200	40	20	400% up 2000€+ 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5412	https://go.luckyhotei.com/spicyjackpots
+SpicyJackpots	Stop	Direct	FR	Hybrid	200	40	20	400% up 2000€+ 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5412	https://go.luckyhotei.com/spicyjackpots
+SpicyJackpots	Stop	Direct	IT	Hybrid	200	40	20	400% up 2000€+ 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5412	https://go.luckyhotei.com/spicyjackpots
+SpicyJackpots	Ongoing	Direct	NL	Hybrid	200	40	20	400% up 2000€+ 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5412	https://go.luckyhotei.com/spicyjackpots
+Bigwins	Stop	Direct	AU	Hybrid	200	40	20	400% up to 2000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5413	https://go.luckyhotei.com/bigwins
+Bigwins	Stop	Direct	CA	Hybrid	200	40	20	400% up to 2000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5413	https://go.luckyhotei.com/bigwins
+Bigwins	Stop	Direct	DE	Hybrid	200	40	20	400% up to 2000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5413	https://go.luckyhotei.com/bigwins
+Bigwins	Stop	Direct	FR	Hybrid	200	40	20	400% up to 2000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5413	https://go.luckyhotei.com/bigwins
+Bigwins	Stop	Direct	IT	Hybrid	200	40	20	400% up to 2000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5413	https://go.luckyhotei.com/bigwins
+Bigwins	Ongoing	Direct	NL	Hybrid	200	40	20	400% up to 2000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5413	https://go.luckyhotei.com/bigwins
+Spinland	Stop	Direct	AU	Hybrid	200	40	20	300% up to 1000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5506	https://go.luckyhotei.com/spinland
+Spinland	Stop	Direct	CA	Hybrid	200	40	20	300% up to 1000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5506	https://go.luckyhotei.com/spinland
+Spinland	Stop	Direct	DE	Hybrid	200	40	20	300% up to 1000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5506	https://go.luckyhotei.com/spinland
+Spinland	Stop	Direct	FR	Hybrid	200	40	20	300% up to 1000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5506	https://go.luckyhotei.com/spinland
+Spinland	Stop	Direct	IT	Hybrid	200	40	20	300% up to 1000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5506	https://go.luckyhotei.com/spinland
+Spinland	Ongoing	Direct	NL	Hybrid	200	40	20	300% up to 1000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5506	https://go.luckyhotei.com/spinland
+OceanBreeze	Stop	Direct	AU	Hybrid	200	40	20	400% up to 2000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5507	https://go.luckyhotei.com/oceanbreeze
+OceanBreeze	Stop	Direct	CA	Hybrid	200	40	20	400% up to 2000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5507	https://go.luckyhotei.com/oceanbreeze
+OceanBreeze	Stop	Direct	DE	Hybrid	200	40	20	400% up to 2000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5507	https://go.luckyhotei.com/oceanbreeze
+OceanBreeze	Stop	Direct	FR	Hybrid	200	40	20	400% up to 2000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5507	https://go.luckyhotei.com/oceanbreeze
+OceanBreeze	Stop	Direct	IT	Hybrid	200	40	20	400% up to 2000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5507	https://go.luckyhotei.com/oceanbreeze
+OceanBreeze	Ongoing	Direct	NL	Hybrid	200	40	20	400% up to 2000€ + 100 FS		https://go.partnerbreeze.com/visit/?bta=35959&nci=5507	https://go.luckyhotei.com/oceanbreeze
+CosmicSlot	Ongoing	Direct	DE	Hybrid	120	40	20	252% up to €3500 + 200 FS		https://m.media13aff.com/Redirect.aspx?mid=23&sid=6677&cid=&pid=&affid=1573	https://go.luckyhotei.com/cosmicslot
+CosmicSlot	Ongoing	Direct	CA	Hybrid	120	40	20	252% up to €3500 + 200 FS		https://m.media13aff.com/Redirect.aspx?mid=68&sid=6676&cid=&pid=&affid=1573	https://go.luckyhotei.com/cosmicslot
+CosmicSlot	Ongoing	Direct	IT	Hybrid	120	40	20	252% up to €3500 + 200 FS		https://m.media13aff.com/Redirect.aspx?mid=158&sid=6678&cid=&pid=&affid=1573	https://go.luckyhotei.com/cosmicslot
+CosmicSlot	Ongoing	Direct	AT	Hybrid	120	40	20	252% up to €3500 + 200 FS		https://m.media13aff.com/Redirect.aspx?mid=59&sid=6780&cid=&pid=&affid=1573cid={subid}&pid=&affid=1573&keyword={keyword}&origin_click={origin_click}	https://go.luckyhotei.com/cosmicslot
+SpinsBro	Ongoing	Direct	DE	Hybrid	120	40	20	240% up to €1200  + 225 FS		https://m.media13aff.com/Redirect.aspx?mid=77&sid=6680&cid=&pid=&affid=1573	https://go.luckyhotei.com/spinsbro
+SpinsBro	Ongoing	Direct	CA	Hybrid	120	40	20	240% up to €1200  + 225 FS		https://m.media13aff.com/Redirect.aspx?mid=100&sid=6679&cid=&pid=&affid=1573	https://go.luckyhotei.com/spinsbro
+SpinsBro	Ongoing	Direct	IT	Hybrid	120	40	20	240% up to €1200  + 225 FS		https://m.media13aff.com/Redirect.aspx?mid=73&sid=6681&cid=&pid=&affid=1573	https://go.luckyhotei.com/spinsbro
+Gangsta	Ongoing	Direct	DE	Hybrid	120	40	20	225% up to 2500€ + 250 FS, min.dep 20€		https://gangstacasinoplay.com/da7ae758a	https://go.luckyhotei.com/gangsta
+Gangsta	Ongoing	Direct	CA	Hybrid	120	40	20	225% up to 2500€ + 250 FS, min.dep 20€		https://gangstacasinoplay.com/d8e6aace1	https://go.luckyhotei.com/gangsta
+Gangsta	Ongoing	Direct	IT	Hybrid	120	40	20	225% up to 2500€ + 250 FS, min.dep 20€		https://gangstacasinoplay.com/d7cd49b31	https://go.luckyhotei.com/gangsta
+SlotsGallery	Ongoing	Direct	AU	Hybrid	180	40	25	225% up to €600 + 225 FS		https://slotsaff.com/abc3f0697	https://go.luckyhotei.com/slotsgallery
+SlotsGallery	Ongoing	Direct	CA	Hybrid	180	40	25	225% up to €600 + 225 FS		https://slotsaff.com/abc3f0697	https://go.luckyhotei.com/slotsgallery
+SlotsGallery	Ongoing	Direct	DE	Hybrid	180	40	25	225% up to €600 + 225 FS		https://slotsaff.com/abc3f0697	https://go.luckyhotei.com/slotsgallery
+SlotsGallery	Ongoing	Direct	FR	Hybrid	180	40	25	225% up to €600 + 225 FS		https://slotsaff.com/abc3f0697	https://go.luckyhotei.com/slotsgallery
+SlotsGallery	Ongoing	Direct	IT	Hybrid	180	40	25	225% up to €600 + 225 FS		https://slotsaff.com/abc3f0697	https://go.luckyhotei.com/slotsgallery
+SlotsGallery	Ongoing	Direct	AT	Hybrid	180	40	25	225% up to €600 + 225 FS		https://slotsaff.com/abc3f0697	https://go.luckyhotei.com/slotsgallery
+SlotsGallery	Ongoing	Direct	NZ	Hybrid	180	40	25	225% up to €600 + 225 FS		https://slotsaff.com/abc3f0697	https://go.luckyhotei.com/slotsgallery
+Boho	Ongoing	Direct	AU	Hybrid	180	40	25	150% up to 150€ + 100 FS		https://bohoaff.com/aa853108d	https://go.luckyhotei.com/boho
+Boho	Ongoing	Direct	CA	Hybrid	180	40	25	150% up to 150€ + 100 FS		https://bohoaff.com/aa853108d	https://go.luckyhotei.com/boho
+Boho	Ongoing	Direct	DE	Hybrid	180	40	25	150% up to 150€ + 100 FS		https://bohoaff.com/aa853108d	https://go.luckyhotei.com/boho
+Boho	Ongoing	Direct	FR	Hybrid	180	40	25	150% up to 150€ + 100 FS		https://bohoaff.com/aa853108d	https://go.luckyhotei.com/boho
+Boho	Ongoing	Direct	IT	Hybrid	180	40	25	150% up to 150€ + 100 FS		https://bohoaff.com/aa853108d	https://go.luckyhotei.com/boho
+Boho	Ongoing	Direct	AT	Hybrid	180	40	25	150% up to 150€ + 100 FS		https://bohoaff.com/aa853108d	https://go.luckyhotei.com/boho
+Boho	Ongoing	Direct	NZ	Hybrid	180	40	25	150% up to 150€ + 100 FS		https://bohoaff.com/aa853108d	https://go.luckyhotei.com/boho
+StayCasino	Ongoing	Direct	AU	Hybrid	120	40	25	400% up to €5000 + 300 Free Spins		https://stay-l.ink/a1fe644cb 	https://go.luckyhotei.com/staycasino
+StayCasino	Ongoing	Direct	CA	Hybrid	120	40	25	400% up to €5000 + 300 Free Spins		https://stay-l.ink/a1fe644cb 	https://go.luckyhotei.com/staycasino
+StayCasino	Ongoing	Direct	DE	Hybrid	120	40	25	400% up to €5000 + 300 Free Spins		https://stay-l.ink/a1fe644cb 	https://go.luckyhotei.com/staycasino
+StayCasino	Ongoing	Direct	IT	Hybrid	120	40	25	400% up to €5000 + 300 Free Spins		https://stay-l.ink/a1fe644cb 	https://go.luckyhotei.com/staycasino
+											
+											
+											
+											
+											
+Richard	Ongoing	Direct	AU	Hybrid	120	40	25	225% up to 5000$ + 300 FS		https://www.rich-l.ink/afa93d6cc	https://go.luckyhotei.com/richard
+Richard	Ongoing	Direct	CA	Hybrid	120	40	25	225% up to 5000$ + 300 FS		https://www.rich-l.ink/afa93d6cc	https://go.luckyhotei.com/richard
+Richard	Ongoing	Direct	DE	Hybrid	120	40	25	225% up to 5000$ + 300 FS		https://www.rich-l.ink/afa93d6cc	https://go.luckyhotei.com/richard
+Richard	Ongoing	Direct	IT	Hybrid	120	40	25	225% up to 5000$ + 300 FS		https://www.rich-l.ink/afa93d6cc	https://go.luckyhotei.com/richard
+Slotozen	Ongoing	Direct	AU	Hybrid	120	40	25	440% up to €2500 + 250 Free Spins		https://zelinks.net/adbfccbef	https://go.luckyhotei.com/slotozen
+Slotozen	Ongoing	Direct	CA	Hybrid	120	40	25	440% up to €2500 + 250 Free Spins		https://zelinks.net/adbfccbef	https://go.luckyhotei.com/slotozen
+Slotozen	Ongoing	Direct	DE	Hybrid	120	40	25	440% up to €2500 + 250 Free Spins		https://zelinks.net/adbfccbef	https://go.luckyhotei.com/slotozen
+Slotozen	Ongoing	Direct	IT	Hybrid	120	40	25	440% up to €2500 + 250 Free Spins		https://zelinks.net/adbfccbef	https://go.luckyhotei.com/slotozen
+Slotozen	Ongoing	Direct	AT	Hybrid	120	40	25	440% up to €2500 + 250 Free Spins		https://zelinks.net/adbfccbef	https://go.luckyhotei.com/slotozen
+Slotozen	Ongoing	Direct	NZ	Hybrid	120	40	25	440% up to €2500 + 250 Free Spins		https://zelinks.net/adbfccbef	https://go.luckyhotei.com/slotozen
+Slotozen	Ongoing	Direct	DK	Hybrid	120	40	25	440% up to €2500 + 250 Free Spins		https://zelinks.net/adbfccbef	https://go.luckyhotei.com/slotozen
+Slotozen	Ongoing	Direct	FI	Hybrid	120	40	25	440% up to €2500 + 250 Free Spins		https://zelinks.net/adbfccbef	https://go.luckyhotei.com/slotozen
+Slotozen	Ongoing	Direct	NO	Hybrid	120	40	25	440% up to €2500 + 250 Free Spins		https://zelinks.net/adbfccbef	https://go.luckyhotei.com/slotozen
+WantedWin	Ongoing	Direct	AU	Hybrid	120	40	25	225% up to 5000$ + 300 FS		https://want-l.ink/a1e59a60a	https://go.luckyhotei.com/wantedwin
+WantedWin	Ongoing	Direct	CA	Hybrid	120	40	25	225% up to 5000$ + 300 FS		https://want-l.ink/a1e59a60a	https://go.luckyhotei.com/wantedwin
+WantedWin	Ongoing	Direct	DE	Hybrid	120	40	25	225% up to 5000$ + 300 FS		https://want-l.ink/a1e59a60a	https://go.luckyhotei.com/wantedwin
+WantedWin	Ongoing	Direct	IT	Hybrid	120	40	25	225% up to 5000$ + 300 FS		https://want-l.ink/a1e59a60a	https://go.luckyhotei.com/wantedwin
+WantedWin	Ongoing	Direct	AT	Hybrid	120	40	25	225% up to 5000$ + 300 FS		https://want-l.ink/a1e59a60a	https://go.luckyhotei.com/wantedwin
+WantedWin	Ongoing	Direct	NZ	Hybrid	120	40	25	225% up to 5000$ + 300 FS		https://want-l.ink/a1e59a60a	https://go.luckyhotei.com/wantedwin
+WantedWin	Ongoing	Direct	DK	Hybrid	120	40	25	225% up to 5000$ + 300 FS		https://want-l.ink/a1e59a60a	https://go.luckyhotei.com/wantedwin
+WantedWin	Ongoing	Direct	FI	Hybrid	120	40	25	225% up to 5000$ + 300 FS		https://want-l.ink/a1e59a60a	https://go.luckyhotei.com/wantedwin
+WantedWin	Ongoing	Direct	NO	Hybrid	120	40	25	225% up to 5000$ + 300 FS		https://want-l.ink/a1e59a60a	https://go.luckyhotei.com/wantedwin
+Granawin	Ongoing	Alfaleads	CA	CPA	180		180			https://a.univerns.com/click?pid=169930&offer_id=11503&l=1723564065&sub2=2418 	https://go.luckyhotei.com/granawin
+Granawin	Ongoing	Alfaleads	DE	CPA	200		200			https://a.gambburj.com/click?pid=169930&offer_id=11700&l=1725620443&sub2=2419	https://go.luckyhotei.com/granawin
+Megawin	Ongoing	Alfaleads	AU	CPA	180		180			https://a.univerns.com/click?pid=169930&offer_id=10552&l=1712227553 	https://go.luckyhotei.com/megawin
+Megawin	Ongoing	Alfaleads	CA	CPA	180		180			https://a.univerns.com/click?pid=169930&offer_id=10552&l=1712227553 	https://go.luckyhotei.com/megawin
+Megawin	Ongoing	Alfaleads	IT	CPA	180		180			https://a.univerns.com/click?pid=169930&offer_id=10552&l=1712227556 	https://go.luckyhotei.com/megawin
+Incognito	Ongoing	Alfaleads	FR	CPA	250		250				
+Batery	Ongoing	Alfaleads	CA	CPA	180		180			https://a.univerns.com/click?pid=169930&offer_id=10095&l=1708534369	https://go.luckyhotei.com/batery
+Batery	Ongoing	Alfaleads	AU	CPA	180		180			https://a.univerns.com/click?pid=169930&offer_id=10095&l=1708534369	https://go.luckyhotei.com/batery
+Batery	Ongoing	Alfaleads	DE	CPA	180		180			https://a.univerns.com/click?pid=169930&offer_id=10095&l=1708534369	https://go.luckyhotei.com/batery
+Batery	Ongoing	Alfaleads	FR	CPA	180		180			https://a.univerns.com/click?pid=169930&offer_id=10095&l=1708534369	https://go.luckyhotei.com/batery
+Batery	Ongoing	Alfaleads	IT	CPA	180		180			https://a.univerns.com/click?pid=169930&offer_id=10095&l=1708534369	https://go.luckyhotei.com/batery
+Winit	Ongoing	Alfaleads	FR	CPA	250		250			https://a.gambburj.com/click?pid=169930&offer_id=11372&l=1721889992	https://go.luckyhotei.com/winit
+Winit	Ongoing	Alfaleads	CA	CPA	250		250			https://a.gambburj.com/click?pid=169930&offer_id=11372&l=1721889992	https://go.luckyhotei.com/winit
+Winit	Ongoing	Alfaleads	DE	CPA	250		250			https://a.gambburj.com/click?pid=169930&offer_id=11372&l=1721889992	https://go.luckyhotei.com/winit
+GoldenStar	Ongoing	Liberty	AU	CPA	290		290			https://trk.libertypartners.pro/click?o=965&a=169&link_id=2007 	
+GoldenStar	Ongoing	Liberty	CA	CPA	310		310			https://trk.libertypartners.pro/click?o=965&a=169&link_id=2005 	
+GoldenStar	Ongoing	Liberty	DE	CPA	270		270			https://trk.libertypartners.pro/click?o=965&a=169&link_id=2006 	
+GoldenStar	Ongoing	Liberty	IT	CPA	270		270			https://trk.libertypartners.pro/click?o=965&a=169 	
+MoonWin	Stop	Direct	AU	Hybrid	150	40	10			https://clickmoonpart.com/a49ca7cd2	https://go.luckyhotei.com/moonwin
+MoonWin	Stop	Direct	CA	Hybrid	150	40	10			https://clickmoonpart.com/a49ca7cd2	https://go.luckyhotei.com/moonwin
+MoonWin	Stop	Direct	DE	Hybrid	150	40	10			https://clickmoonpart.com/a49ca7cd2	https://go.luckyhotei.com/moonwin
+MoonWin	Stop	Direct	IT	Hybrid	150	40	10			https://clickmoonpart.com/a49ca7cd2	https://go.luckyhotei.com/moonwin
+MoonWin	Stop	Direct	AT	Hybrid	150	40	10			https://clickmoonpart.com/a49ca7cd2	https://go.luckyhotei.com/moonwin
+Jeetcity	Stop	Direct	AU	Hybrid	150	40	10			https://clickjeetcitypartners.com/a294ce7af	https://go.luckyhotei.com/jeetcity
+Jeetcity	Stop	Direct	CA	Hybrid	150	40	10			https://clickjeetcitypartners.com/a294ce7af	https://go.luckyhotei.com/jeetcity
+Jeetcity	Stop	Direct	DE	Hybrid	150	40	10			https://clickjeetcitypartners.com/a294ce7af	https://go.luckyhotei.com/jeetcity
+Jeetcity	Stop	Direct	IT	Hybrid	150	40	10			https://clickjeetcitypartners.com/a294ce7af	https://go.luckyhotei.com/jeetcity
+Jeetcity	Stop	Direct	AT	Hybrid	150	40	10			https://clickjeetcitypartners.com/a294ce7af	https://go.luckyhotei.com/jeetcity
+Spinanga	Ongoing	CPA RIP	AU	CPA	120		120			https://track-w.com/click?o=3705&a=5865&link_id=12367&aff_click_id={subid}&aff_param1={keyword}&origin_click={origin_click}	https://go.luckyhotei.com/spinanga
+Spinanga	Ongoing	CPA RIP	DE	CPA	160		160			https://track-w.com/click?o=3777&a=5865&link_id=12571&aff_click_id={subid}&aff_param1={keyword}&origin_click={origin_click}	https://go.luckyhotei.com/spinanga
+Spinanga	Ongoing	CPA RIP	FR	CPA	160		160			https://track-w.com/click?o=3778&a=5865&link_id=12573&aff_click_id={subid}&aff_param1={keyword}&origin_click={origin_click}	https://go.luckyhotei.com/spinanga
+Spinanga	Ongoing	CPA RIP	IT	CPA	160		160			https://track-w.com/click?o=3779&a=5865&link_id=12575&aff_click_id={subid}&aff_param1={keyword}&origin_click={origin_click}	https://go.luckyhotei.com/spinanga
+Casinia	Ongoing	CPA RIP	CA	CPA	140		140			https://track-w.com/click?o=3706&a=5865&link_id=12375&aff_click_id={subid}&aff_param1={keyword}&origin_click={origin_click}	https://go.luckyhotei.com/casinia
+Casinia	Ongoing	CPA RIP	DE	CPA	160		160			https://track-w.com/click?o=3781&a=5865&link_id=12579&aff_click_id={subid}&aff_param1={keyword}&origin_click={origin_click}	https://go.luckyhotei.com/casinia
+Casinia	Ongoing	CPA RIP	FR	CPA	160		160			https://track-w.com/click?o=3780&a=5865&link_id=12577&aff_click_id={subid}&aff_param1={keyword}&origin_click={origin_click}	https://go.luckyhotei.com/casinia
+Casinia	Ongoing	CPA RIP	IT	CPA	160		160			https://track-w.com/click?o=3776&a=5865&link_id=12569&aff_click_id={subid}&aff_param1={keyword}&origin_click={origin_click}	https://go.luckyhotei.com/casinia
+FatPirate 	Ongoing	CPA RIP	CA	CPA	160		160			https://track-w.com/click?o=3788&a=5865	https://go.luckyhotei.com/fatpirate
+FatPirate 	Ongoing	CPA RIP	AU	CPA	160		160			https://track-w.com/click?o=3787&a=5865	https://go.luckyhotei.com/fatpirate
+FatPirate 	Ongoing	CPA RIP	DE	CPA	150		150			https://track-w.com/click?o=3786&a=5865	https://go.luckyhotei.com/fatpirate
+FatPirate 	Ongoing	CPA RIP	FR	CPA	150		150			https://track-w.com/click?o=3785&a=5865	https://go.luckyhotei.com/fatpirate
+FatPirate 	Ongoing	CPA RIP	NL	CPA	150		150			https://track-w.com/click?o=3784&a=5865	https://go.luckyhotei.com/fatpirate
+FatPirate 	Ongoing	CPA RIP	IT	CPA	150		150			https://track-w.com/click?o=3783&a=5865	https://go.luckyhotei.com/fatpirate
+Club House	Ongoing	LGaming	AU	CPA	250		250			https://lgamifly.com/2RFVJ?sub1={subid}	https://go.luckyhotei.com/PRVrTF
+Club House	Ongoing	LGaming	AT	CPA	250		250			https://lgamifeed.com/8RFVJ?sub1={subid}	https://go.luckyhotei.com/PRVrTF
+Club House	Ongoing	LGaming	DE	CPA	250		250			https://lgamifeed.com/8RFVJ?sub1={subid}	https://go.luckyhotei.com/PRVrTF
+Lucky Treasure	Ongoing	LGaming	AU	CPA	250		250			https://lgamicurrent.com/ZRFVJ?sub1={subid}	https://go.luckyhotei.com/luckytreasure
+Lucky Treasure	Ongoing	LGaming	CA	CPA	250		250			https://lgamicurrent.com/ZRFVJ?sub1={subid}	https://go.luckyhotei.com/luckytreasure
+Lucky Treasure	Ongoing	LGaming	DE	CPA	250		250			https://lgamicurrent.com/ZRFVJ?sub1={subid}	https://go.luckyhotei.com/luckytreasure
+Lucky Treasure	Ongoing	LGaming	FR	CPA	250		250			https://lgamicurrent.com/ZRFVJ?sub1={subid}	https://go.luckyhotei.com/luckytreasure
+Lucky Treasure	Ongoing	LGaming	IT	CPA	250		250			https://lgamicurrent.com/ZRFVJ?sub1={subid}	https://go.luckyhotei.com/luckytreasure
+RobyCasino	Ongoing	LGaming	AU	CPA	145		145			https://lgamifly.com/lnFVJ?sub1={subid}	https://go.luckyhotei.com/robycasino
+RobyCasino	Ongoing	LGaming	CA	CPA	145		145			https://lgamifly.com/lnFVJ?sub1={subid}	https://go.luckyhotei.com/robycasino
+RobyCasino	Ongoing	LGaming	DE	CPA	145		145			https://lgamifly.com/lnFVJ?sub1={subid}	https://go.luckyhotei.com/robycasino
+RobyCasino	Ongoing	LGaming	FR	CPA	145		145			https://lgamifly.com/lnFVJ?sub1={subid}	https://go.luckyhotei.com/robycasino
+RobyCasino	Ongoing	LGaming	IT	CPA	145		145			https://lgamifly.com/lnFVJ?sub1={subid}	https://go.luckyhotei.com/robycasino
+Betflare	Ongoing	Direct	AU	Hybrid	210	40	25			https://record.joinaff.com/_LFBF10rGqu14x0ynqBPR4WNd7ZgqdRLk/5/	https://go.luckyhotei.com/betflare
+Betflare	Ongoing	Direct	CA	Hybrid	210	40	25			https://record.joinaff.com/_LFBF10rGqu0Sj4LQ_MWLf2Nd7ZgqdRLk/3/	https://go.luckyhotei.com/betflare
+Betflare	Ongoing	Direct	DE	Hybrid	210	40	25			https://record.joinaff.com/_LFBF10rGqu3nqXQCX1W2lWNd7ZgqdRLk/1/	https://go.luckyhotei.com/betflare
+Betflare	Ongoing	Direct	AT	Hybrid	210	40	25			https://record.joinaff.com/_LFBF10rGqu3nqXQCX1W2lWNd7ZgqdRLk/2/	https://go.luckyhotei.com/betflare
+Betflare	Ongoing	Direct	IT	Hybrid	210	40	25			https://record.joinaff.com/_LFBF10rGqu3oKQ0offjfsWNd7ZgqdRLk/4/	https://go.luckyhotei.com/betflare
+Betflare	Ongoing	Direct	NO	Hybrid	210	40	25			https://record.joinaff.com/_LFBF10rGqu2gQBcWp-6O8GNd7ZgqdRLk/1/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/betflare
+Betflare	Ongoing	Direct	NZ	Hybrid	210	40	25			https://record.joinaff.com/_LFBF10rGqu08-jQB0bQCG2Nd7ZgqdRLk/1/?payload={subid}&s2s.req_id={keyword}
+	https://go.luckyhotei.com/betflare
+Betflare	Ongoing	Direct	FI	Hybrid	210	40	25			https://record.joinaff.com/_LFBF10rGqu1JGr6ILQXEAGNd7ZgqdRLk/1/?payload={subid}&s2s.req_id={keyword}
+	https://go.luckyhotei.com/betflare
+Betflare	Ongoing	Direct	SE	Hybrid	210	40	25			https://record.joinaff.com/_LFBF10rGqu1Dng0AQCvfQGNd7ZgqdRLk/1/?payload={subid}&s2s.req_id={keyword}
+	https://go.luckyhotei.com/betflare
+Win Legends	Ongoing	Direct	AU	Hybrid	210	40	25			https://record.joinaff.com/_0bGkp8hnra8fxN97YwkR1WNd7ZgqdRLk/5/	https://go.luckyhotei.com/winlegends
+Win Legends	Ongoing	Direct	CA	Hybrid	210	40	25			https://record.joinaff.com/_0bGkp8hnra8InZnwGN1cD2Nd7ZgqdRLk/3/	https://go.luckyhotei.com/winlegends
+Win Legends	Ongoing	Direct	DE	Hybrid	210	40	25			https://record.joinaff.com/_0bGkp8hnra-8v7wYph56w2Nd7ZgqdRLk/1/	https://go.luckyhotei.com/winlegends
+Win Legends	Ongoing	Direct	AT	Hybrid	210	40	25			https://record.joinaff.com/_0bGkp8hnra-8v7wYph56w2Nd7ZgqdRLk/2/	https://go.luckyhotei.com/winlegends
+Win Legends	Ongoing	Direct	IT	Hybrid	210	40	25			https://record.joinaff.com/_0bGkp8hnra_a2_C467rnyWNd7ZgqdRLk/4/	https://go.luckyhotei.com/winlegends
+Smokace	Ongoing	Direct	AU	Hybrid	210	40	25			https://record.joinaff.com/_0bGkp8hnra-H9CpP1T1RvWNd7ZgqdRLk/5/	https://go.luckyhotei.com/smokace
+Smokace	Ongoing	Direct	CA	Hybrid	210	40	25			https://record.joinaff.com/_0bGkp8hnra9Xj8bgQ-rdhWNd7ZgqdRLk/3/	https://go.luckyhotei.com/smokace
+Smokace	Ongoing	Direct	DE	Hybrid	210	40	25			https://record.joinaff.com/_0bGkp8hnra8utUNMe03lr2Nd7ZgqdRLk/1/	https://go.luckyhotei.com/smokace
+Smokace	Ongoing	Direct	AT	Hybrid	210	40	25			https://record.joinaff.com/_0bGkp8hnra8utUNMe03lr2Nd7ZgqdRLk/2/	https://go.luckyhotei.com/smokace
+Smokace	Ongoing	Direct	IT	Hybrid	210	40	25			https://record.joinaff.com/_0bGkp8hnra8yISMcQt2_0mNd7ZgqdRLk/4/	https://go.luckyhotei.com/smokace
+Smokace	Ongoing	Direct	NZ	Hybrid	210	40	25			https://record.joinaff.com/_LFBF10rGqu1oZiEtOfHDE2Nd7ZgqdRLk/1/?payload={subid}&s2s.req_id={keyword}
+	https://go.luckyhotei.com/smokace
+Smokace	Ongoing	Direct	FI	Hybrid	210	40	25			https://record.joinaff.com/_LFBF10rGqu0Qii3_-zHRAGNd7ZgqdRLk/1/?payload={subid}&s2s.req_id={keyword}
+	https://go.luckyhotei.com/smokace
+Smokace	Ongoing	Direct	NO	Hybrid	210	40	25			https://record.joinaff.com/_LFBF10rGqu3Df4lhdW4o3mNd7ZgqdRLk/1/?payload={subid}&s2s.req_id={keyword}
+	https://go.luckyhotei.com/smokace
+Stelario	Ongoing	Direct	AU	Hybrid	210	40	25	275% up to €1200 + 275 Free Spins	"Welcome Pack:
+
+1st Deposit: 125% up to 300€ + 125 FS 
+2nd Deposit: 50% up to 600€ + 50 FS  
+3rd Deposit: 100% up to 300€ + 100 FS"	https://record.joinaff.com/_0bGkp8hnra_ABa8v4kUGqGNd7ZgqdRLk/5/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/stelario
+Stelario	Ongoing	Direct	CA	Hybrid	210	40	25	275% up to €1200 + 275 Free Spins		https://record.joinaff.com/_0bGkp8hnra_bUp4a8n9O4GNd7ZgqdRLk/3/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/stelario
+Stelario	Ongoing	Direct	DE	Hybrid	210	40	25	275% up to €1200 + 275 Free Spins		https://record.joinaff.com/_0bGkp8hnra_qQdfe-FlxkGNd7ZgqdRLk/1/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/stelario
+Stelario	Ongoing	Direct	AT	Hybrid	210	40	25	275% up to €1200 + 275 Free Spins		https://record.joinaff.com/_0bGkp8hnra_qQdfe-FlxkGNd7ZgqdRLk/2/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/stelario
+Stelario	Ongoing	Direct	IT	Hybrid	210	40	25	275% up to €1200 + 275 Free Spins		https://record.joinaff.com/_0bGkp8hnra-nMd4BJjTdCGNd7ZgqdRLk/4/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/stelario
+Icebet	Ongoing	Direct	AU	Hybrid	210	40	25	300% up to €1200 + 300 Free Spins	"Welcome Pack:
+
+1st Deposit: 125% up to 300€ + 125 FS 
+2nd Deposit: 50% up to 600€ + 50 FS  
+3rd Deposit: 125% up to 300€ + 125 FS"	https://record.joinaff.com/_0bGkp8hnra_ekWawIQ7wB2Nd7ZgqdRLk/5/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/icebet
+Icebet	Ongoing	Direct	CA	Hybrid	210	40	25	300% up to €1200 + 300 Free Spins		https://record.joinaff.com/_0bGkp8hnra9C_hAIbLYC3WNd7ZgqdRLk/3/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/icebet
+Icebet	Ongoing	Direct	DE	Hybrid	210	40	25	300% up to €1200 + 300 Free Spins		https://record.joinaff.com/_0bGkp8hnra8GPfN86jfclWNd7ZgqdRLk/1/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/icebet
+Icebet	Ongoing	Direct	AT	Hybrid	210	40	25	300% up to €1200 + 300 Free Spins		https://record.joinaff.com/_0bGkp8hnra8GPfN86jfclWNd7ZgqdRLk/2/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/icebet
+Icebet	Ongoing	Direct	IT	Hybrid	210	40	25	300% up to €1200 + 300 Free Spins		https://record.joinaff.com/_0bGkp8hnra8cjxImqtEJZWNd7ZgqdRLk/4/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/icebet
+Windetta	Ongoing	Direct	AU	Hybrid	210	40	25	255% up to €2000	"Welcome Pack:
+
+1st Deposit: 125% up to 500€
+2nd Deposit: 50% up to 1000€ 
+3rd Deposit: 80% up to 500€"	https://record.joinaff.com/_0bGkp8hnra8TcDd73ILQ1WNd7ZgqdRLk/5/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/windetta
+Windetta	Ongoing	Direct	CA	Hybrid	210	40	25	255% up to €2000		https://record.joinaff.com/_0bGkp8hnra9jvyqECO2zcmNd7ZgqdRLk/3/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/windetta
+Windetta	Ongoing	Direct	DE	Hybrid	210	40	25	255% up to €2000		https://record.joinaff.com/_0bGkp8hnra_Xv1vJGjPvZWNd7ZgqdRLk/1/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/windetta
+Windetta	Ongoing	Direct	AT	Hybrid	210	40	25	255% up to €2000		https://record.joinaff.com/_0bGkp8hnra_Xv1vJGjPvZWNd7ZgqdRLk/2/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/windetta
+Windetta	Ongoing	Direct	IT	Hybrid	210	40	25	255% up to €2000		https://record.joinaff.com/_0bGkp8hnra9pdUWpQm86DGNd7ZgqdRLk/4/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/windetta
+Lunubet	Ongoing	Direct	AU	Hybrid	130	35	25	100% up to €500 + 200 Free Spins		https://lunubetplay.com/j855699b6?subid={subid}&keyword={keyword}&origin_click={origin_click}	https://go.luckyhotei.com/lunubet
+Lunubet	Ongoing	Direct	CA	Hybrid	130	35	25	100% up to €500 + 200 Free Spins		https://lunubetplay.com/j853755dd?subid={subid}&keyword={keyword}&origin_click={origin_click}	https://go.luckyhotei.com/lunubet
+Lunubet	Ongoing	Direct	DE	Hybrid	130	35	25	100% up to €500 + 200 Free Spins		https://lunubetplay.com/j7f828a50?subid={subid}&keyword={keyword}&origin_click={origin_click}	https://go.luckyhotei.com/lunubet
+Lunubet	Ongoing	Direct	IT	Hybrid	130	35	25	100% up to €500 + 200 Free Spins		https://lunubetplay.com/j677c6c07?subid={subid}&keyword={keyword}&origin_click={origin_click}	https://go.luckyhotei.com/lunubet
+Lunubet	Ongoing	Direct	FR	Hybrid	130	35	25	100% up to €500 + 200 Free Spins		https://lunubetplay.com/j005dfc92?subid={subid}&keyword={keyword}&origin_click={origin_click}	https://go.luckyhotei.com/lunubet
+Betybet	Ongoing	Direct	NL	Hybrid	130	35	25	100% up to €2000 + 200 Free Spins		https://betybetplay.com/j4b50035d?subid={subid}&keyword={keyword}&origin_click={origin_click}	https://go.luckyhotei.com/betybet
+CorgiSlot	Ongoing	Direct	NL	Hybrid	175	40	0	300% up to €10,000 + 1,000 Free Spins		https://corgislot.link/t61669eb3?subid={subid}	https://go.luckyhotei.com/corgislot
+CorgiSlot	Ongoing	Direct	DE	Hybrid	175	40	0	300% up to €10,000 + 1,000 Free Spins		https://corgislot.link/ta5428dcd?subid={subid}	https://go.luckyhotei.com/corgislot
+CorgiSlot	Ongoing	Direct	AT	Hybrid	175	40	0	300% up to €10,000 + 1,000 Free Spins		https://corgislot.link/ta5428dcd?subid={subid}	https://go.luckyhotei.com/corgislot
+Hit’N’Spin Casino	Ongoing	Advertiser	DE	CPA	310		310	350% up to €800 + 200 Free Spins		https://adoffer.pro/go/9ed910f75f16426be07ee4242aaa9b3e365b64d1eb0a0b0b/?tid={subid}	https://go.luckyhotei.com/hitnspin
+Cloverspin Casino	Ongoing	Advertiser	FR	CPA	200		200	100% up to €500 + 50 Free Spins		https://adoffer.pro/go/9ed910f7f628426b275be4242aaa9b3e365b64d1eb0a0b0b/?tid={subid}	https://go.luckyhotei.com/cloverspin
+FastPay Casino	Ongoing	Advertiser	AU	CPA	210		210	175% up to €150 + 100 Free Spins		https://adoffer.pro/go/9ed910f7b416426b157ae4242aaa9b3e365b64d1eb0a0b0b/?tid={subid}	https://go.luckyhotei.com/fastpay
+TipTop	Ongoing	Direct	NL	Hybrid	130	35	0	225% up to €1500		https://tip-topplay.com/jf42469dd?subid={subid}	https://go.luckyhotei.com/tiptop
+888casino	Ongoing	Advertiser	IT	CPA	250		250	125% up to €500 + 88 Free Spins		https://adoffer.pro/go/9ed910f79a17426b656be4242aaa9b3e365b64d1eb0a0b0b/?tid={subid}	https://go.luckyhotei.com/888casino
+NineCasino	Ongoing	Direct	AU	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=5716&afp={subid}	https://go.luckyhotei.com/ninecasino
+NineCasino	Ongoing	Direct	CA	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=5716&afp={subid}	https://go.luckyhotei.com/ninecasino
+NineCasino	Ongoing	Direct	NZ	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=5716&afp={subid}	https://go.luckyhotei.com/ninecasino
+NineCasino	Ongoing	Direct	DE	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=5716&afp={subid}	https://go.luckyhotei.com/ninecasino
+NineCasino	Ongoing	Direct	FR	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=5716&afp={subid}	https://go.luckyhotei.com/ninecasino
+NineCasino	Ongoing	Direct	IT	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=5716&afp={subid}	https://go.luckyhotei.com/ninecasino
+NineCasino	Ongoing	Direct	AT	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=5716&afp={subid}	https://go.luckyhotei.com/ninecasino
+NineCasino	Ongoing	Direct	FI	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=5716&afp={subid}	https://go.luckyhotei.com/ninecasino
+NineCasino	Ongoing	Direct	NO	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=5716&afp={subid}	https://go.luckyhotei.com/ninecasino
+NineCasino	Ongoing	Direct	DK	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=5716&afp={subid}	https://go.luckyhotei.com/ninecasino
+NineCasino	Ongoing	Direct	SE	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=5716&afp={subid}	https://go.luckyhotei.com/ninecasino
+BDM Bet	Ongoing	Direct	AU	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=6048&afp={subid}	https://go.luckyhotei.com/bdmbet
+BDM Bet	Ongoing	Direct	CA	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=6048&afp={subid}	https://go.luckyhotei.com/bdmbet
+BDM Bet	Ongoing	Direct	NZ	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=6048&afp={subid}	https://go.luckyhotei.com/bdmbet
+BDM Bet	Ongoing	Direct	DE	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=6048&afp={subid}	https://go.luckyhotei.com/bdmbet
+BDM Bet	Ongoing	Direct	FR	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=6048&afp={subid}	https://go.luckyhotei.com/bdmbet
+BDM Bet	Ongoing	Direct	IT	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=6048&afp={subid}	https://go.luckyhotei.com/bdmbet
+BDM Bet	Ongoing	Direct	AT	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=6048&afp={subid}	https://go.luckyhotei.com/bdmbet
+BDM Bet	Ongoing	Direct	FI	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=6048&afp={subid}	https://go.luckyhotei.com/bdmbet
+BDM Bet	Ongoing	Direct	NO	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=6048&afp={subid}	https://go.luckyhotei.com/bdmbet
+BDM Bet	Ongoing	Direct	DK	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=6048&afp={subid}	https://go.luckyhotei.com/bdmbet
+BDM Bet	Ongoing	Direct	SE	Hybrid	160	30	20	255% up to €450 + 250 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=6048&afp={subid}	https://go.luckyhotei.com/bdmbet
+Candyspinz	Ongoing	Direct	DE	Hybrid	160	30	20	225% up to €1500 + 300 Free Spins		https://www.ontrklnk.com/visit/?bta=48705&nci=6442&afp={subid}	https://go.luckyhotei.com/candyspinz
+NeedForSpin	Ongoing	Direct	AU	Hybrid	120	40	20	250% up to €1500 + 250 Free Spins		https://n4sredirect.com/dc2efd556?subid={subid}	https://go.luckyhotei.com/needforspin
+NeedForSpin	Ongoing	Direct	CA	Hybrid	120	40	20	250% up to €1500 + 250 Free Spins		https://n4sredirect.com/d3b7f5ae4?subid={subid}	https://go.luckyhotei.com/needforspin
+NeedForSpin	Ongoing	Direct	DE	Hybrid	120	40	20	250% up to €1500 + 250 Free Spins		https://n4sredirect.com/d61def405?subid={subid}	https://go.luckyhotei.com/needforspin
+NeedForSpin	Ongoing	Direct	AT	Hybrid	120	40	20	250% up to €1500 + 250 Free Spins		https://n4sredirect.com/d61def405?subid={subid}	https://go.luckyhotei.com/needforspin
+NeedForSpin	Ongoing	Direct	IT	Hybrid	120	40	20	250% up to €1500 + 250 Free Spins		https://n4sredirect.com/db131dcc0?subid={subid}	https://go.luckyhotei.com/needforspin
+NeedForSpin	Ongoing	Direct	FI	Hybrid	120	40	20	250% up to €1500 + 250 Free Spins		https://n4sredirect.com/d455e6773?subid={subid}	https://go.luckyhotei.com/needforspin
+NeedForSpin	Ongoing	Direct	NO	Hybrid	120	40	20	250% up to €1500 + 250 Free Spins		https://n4sredirect.com/d67783dde?subid={subid}	https://go.luckyhotei.com/needforspin
+NeedForSpin	Ongoing	Direct	DK	Hybrid	120	40	20	250% up to €1500 + 250 Free Spins		https://n4sredirect.com/db3a70007?subid={subid}	https://go.luckyhotei.com/needforspin
+NeedForSpin	Ongoing	Direct	SE	Hybrid	120	40	20	250% up to €1500 + 250 Free Spins		https://n4sredirect.com/da043ae21?subid={subid}	https://go.luckyhotei.com/needforspin
+RollingSlots	Ongoing	Direct	AU	Hybrid	120	40	20	260% up to €2600 + 260 Free Spins		https://rlsredirect.com/da5346d92?subid={subid}	https://go.luckyhotei.com/rollingslots
+RollingSlots	Ongoing	Direct	CA	Hybrid	120	40	20	260% up to €2600 + 260 Free Spins		https://rlsredirect.com/dc1ffb9f9?subid={subid}	https://go.luckyhotei.com/rollingslots
+RollingSlots	Ongoing	Direct	DE	Hybrid	120	40	20	260% up to €2600 + 260 Free Spins		https://rlsredirect.com/d79ca1330?subid={subid}	https://go.luckyhotei.com/rollingslots
+RollingSlots	Ongoing	Direct	AT	Hybrid	120	40	20	260% up to €2600 + 260 Free Spins		https://rlsredirect.com/d79ca1330?subid={subid}	https://go.luckyhotei.com/rollingslots
+RollingSlots	Ongoing	Direct	IT	Hybrid	120	40	20	260% up to €2600 + 260 Free Spins		https://rlsredirect.com/de18ad900?subid={subid}	https://go.luckyhotei.com/rollingslots
+RollingSlots	Ongoing	Direct	FI	Hybrid	120	40	20	260% up to €2600 + 260 Free Spins		https://rlsredirect.com/ddf7fd287?subid={subid}	https://go.luckyhotei.com/rollingslots
+RollingSlots	Ongoing	Direct	NO	Hybrid	120	40	20	260% up to €2600 + 260 Free Spins		https://rlsredirect.com/d5440244c?subid={subid}	https://go.luckyhotei.com/rollingslots
+RollingSlots	Ongoing	Direct	DK	Hybrid	120	40	20	260% up to €2600 + 260 Free Spins		https://rlsredirect.com/d48bbc678?subid={subid}	https://go.luckyhotei.com/rollingslots
+RollingSlots	Ongoing	Direct	SE	Hybrid	120	40	20	260% up to €2600 + 260 Free Spins		https://rlsredirect.com/d85662b60?subid={subid}	https://go.luckyhotei.com/rollingslots
+WildTokyo	Ongoing	Direct	AU	Hybrid	120	40	20	210% up to €500 + 250 Free Spins		https://wildredirect.com/d683c3045?subid={subid}	https://go.luckyhotei.com/wildtokyo
+WildTokyo	Ongoing	Direct	CA	Hybrid	120	40	20	210% up to €500 + 250 Free Spins		https://wildredirect.com/d2e03f32f?subid={subid}	https://go.luckyhotei.com/wildtokyo
+WildTokyo	Ongoing	Direct	DE	Hybrid	120	40	20	210% up to €500 + 250 Free Spins		https://wildredirect.com/d5c3411d0?subid={subid}	https://go.luckyhotei.com/wildtokyo
+WildTokyo	Ongoing	Direct	AT	Hybrid	120	40	20	210% up to €500 + 250 Free Spins		https://wildredirect.com/d5c3411d0?subid={subid}	https://go.luckyhotei.com/wildtokyo
+WildTokyo	Ongoing	Direct	IT	Hybrid	120	40	20	210% up to €500 + 250 Free Spins		https://wildredirect.com/d09777820?subid={subid}	https://go.luckyhotei.com/wildtokyo
+WildTokyo	Ongoing	Direct	FI	Hybrid	120	40	20	210% up to €500 + 250 Free Spins		https://wildredirect.com/d5a08aafe?subid={subid}	https://go.luckyhotei.com/wildtokyo
+WildTokyo	Ongoing	Direct	NO	Hybrid	120	40	20	210% up to €500 + 250 Free Spins		https://wildredirect.com/d01bf3113?subid={subid}	https://go.luckyhotei.com/wildtokyo
+WildTokyo	Ongoing	Direct	DK	Hybrid	120	40	20	210% up to €500 + 250 Free Spins		https://wildredirect.com/d76203e78?subid={subid}	https://go.luckyhotei.com/wildtokyo
+WildTokyo	Ongoing	Direct	SE	Hybrid	120	40	20	210% up to €500 + 250 Free Spins		https://wildredirect.com/df9f5f451?subid={subid}	https://go.luckyhotei.com/wildtokyo
+Verde	Ongoing	Advertiser	IT	CPA	170		170	520% up to €1,200 + 220 Free Spins		https://adoffer.pro/go/9ed910f7b613426b166de4242aaa9b3e365b64d1eb0a0b0b/?tid={subid}	https://go.luckyhotei.com/verde
+Crusino	Ongoing	Direct	AU	Hybrid	120	40	25	200% up to €5000 + 300 Free Spins		https://cru-l.ink/a6149b049?subid={subid}	https://go.luckyhotei.com/crusino
+Crusino	Ongoing	Direct	CA	Hybrid	120	40	25	200% up to €5000 + 300 Free Spins		https://cru-l.ink/a6149b049?subid={subid}	https://go.luckyhotei.com/crusino
+Crusino	Ongoing	Direct	NZ	Hybrid	120	40	25	200% up to €5000 + 300 Free Spins		https://cru-l.ink/a6149b049?subid={subid}	https://go.luckyhotei.com/crusino
+Crusino	Ongoing	Direct	DE	Hybrid	120	40	25	200% up to €5000 + 300 Free Spins		https://cru-l.ink/a6149b049?subid={subid}	https://go.luckyhotei.com/crusino
+Crusino	Ongoing	Direct	IT	Hybrid	120	40	25	200% up to €5000 + 300 Free Spins		https://cru-l.ink/a6149b049?subid={subid}	https://go.luckyhotei.com/crusino
+Crusino	Ongoing	Direct	NO	Hybrid	120	40	25	200% up to €5000 + 300 Free Spins		https://cru-l.ink/a6149b049?subid={subid}	https://go.luckyhotei.com/crusino
+Crusino	Ongoing	Direct	DK	Hybrid	120	40	25	200% up to €5000 + 300 Free Spins		https://cru-l.ink/a6149b049?subid={subid}	https://go.luckyhotei.com/crusino
+Crusino	Ongoing	Direct	FI	Hybrid	120	40	25	200% up to €5000 + 300 Free Spins		https://cru-l.ink/a6149b049?subid={subid}	https://go.luckyhotei.com/crusino
+AmunRa	Ongoing	Advertiser	FR	CPA	210		210	150% up to €500 + 200 Free Spins		https://adoffer.pro/go/9ed910f78e15426ba62ee4242aaa9b3e365b64d1eb0a0b0b/?tid={subid}	https://go.luckyhotei.com/amunra
+Erabet	Ongoing	Direct	AU	Hybrid	140	40	10	225% up to €3000 + 95 Free Spins		https://eraplay.io/j9cdb1b13?subid={subid}	https://go.luckyhotei.com/erabet
+Erabet	Ongoing	Direct	CA	Hybrid	140	40	10	225% up to €3000 + 95 Free Spins		https://eraplay.io/jcbb6630d?subid={subid}	https://go.luckyhotei.com/erabet
+Erabet	Ongoing	Direct	NZ	Hybrid	140	40	10	225% up to €3000 + 95 Free Spins		https://eraplay.io/jed72a42b?subid={subid}	https://go.luckyhotei.com/erabet
+Gomblingo	Ongoing	Direct	DK	Hybrid	160	40	20	350 % up to €1300 + 275 Free Spins		https://track.affshares.com/visit/?bta=656711&nci=5653&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/gomblingo
+Gomblingo	Ongoing	Direct	SE	Hybrid	160	40	20	350 % up to €1300 + 275 Free Spins		https://track.affshares.com/visit/?bta=656711&nci=5653&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/gomblingo
+Gomblingo	Ongoing	Direct	CA	Hybrid	160	40	20	350 % up to €1300 + 275 Free Spins		https://track.affshares.com/visit/?bta=656711&nci=5653&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/gomblingo
+Gomblingo	Ongoing	Direct	DE	Hybrid	160	40	20	350 % up to €1300 + 275 Free Spins		https://track.affshares.com/visit/?bta=656711&nci=5653&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/gomblingo
+Gomblingo	Ongoing	Direct	IT	Hybrid	160	40	20	350 % up to €1300 + 275 Free Spins		https://track.affshares.com/visit/?bta=656711&nci=5653&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/gomblingo
+Gomblingo	Ongoing	Direct	NO	Hybrid	160	40	20	350 % up to €1300 + 275 Free Spins		https://track.affshares.com/visit/?bta=656711&nci=5653&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/gomblingo
+Cazimbo	Ongoing	Direct	AU	Hybrid	160	40	20	100% up to 500 EUR + 200 Free Spins 		https://track.affilirise.com/visit/?bta=656711&brand=cazimbo&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/cazimbo
+Cazimbo	Ongoing	Direct	CA	Hybrid	160	40	20	100% up to 500 EUR + 200 Free Spins 		https://track.affilirise.com/visit/?bta=656711&brand=cazimbo&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/cazimbo
+Cazimbo	Ongoing	Direct	DE	Hybrid	160	40	20	100% up to 500 EUR + 200 Free Spins 		https://track.affilirise.com/visit/?bta=656711&brand=cazimbo&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/cazimbo
+Cazimbo	Ongoing	Direct	FR	Hybrid	160	40	20	100% up to 500 EUR + 200 Free Spins 		https://track.affilirise.com/visit/?bta=656711&brand=cazimbo&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/cazimbo
+Cazimbo	Ongoing	Direct	IT	Hybrid	160	40	20	100% up to 500 EUR + 200 Free Spins 		https://track.affilirise.com/visit/?bta=656711&brand=cazimbo&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/cazimbo
+Cazimbo	Ongoing	Direct	NO	Hybrid	160	40	20	100% up to 500 EUR + 200 Free Spins 		https://track.affilirise.com/visit/?bta=656711&brand=cazimbo&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/cazimbo
+Cazimbo	Ongoing	Direct	FI	Hybrid	160	40	20	100% up to 500 EUR + 200 Free Spins 		https://track.affilirise.com/visit/?bta=656711&brand=cazimbo&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/cazimbo
+Spinrollz	Ongoing	Direct	AU	Hybrid	160	40	20	100% up to 500 EUR + 200 Free Spins 		https://track.affilirise.com/visit/?bta=656711&brand=spinrollz&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/spinrollz
+Spinrollz	Ongoing	Direct	CA	Hybrid	160	40	20	100% up to 500 EUR + 200 Free Spins 		https://track.affilirise.com/visit/?bta=656711&brand=spinrollz&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/spinrollz
+Spinrollz	Ongoing	Direct	DE	Hybrid	160	40	20	100% up to 500 EUR + 200 Free Spins 		https://track.affilirise.com/visit/?bta=656711&brand=spinrollz&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/spinrollz
+Spinrollz	Ongoing	Direct	FR	Hybrid	160	40	20	100% up to 500 EUR + 200 Free Spins 		https://track.affilirise.com/visit/?bta=656711&brand=spinrollz&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/spinrollz
+Spinrollz	Ongoing	Direct	IT	Hybrid	160	40	20	100% up to 500 EUR + 200 Free Spins 		https://track.affilirise.com/visit/?bta=656711&brand=spinrollz&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/spinrollz
+Spinrollz	Ongoing	Direct	NO	Hybrid	160	40	20	100% up to 500 EUR + 200 Free Spins 		https://track.affilirise.com/visit/?bta=656711&brand=spinrollz&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/spinrollz
+Spinrollz	Ongoing	Direct	FI	Hybrid	160	40	20	100% up to 500 EUR + 200 Free Spins 		https://track.affilirise.com/visit/?bta=656711&brand=spinrollz&afp=&afp={subid}&afp1=pubID&keyword={keyword}	https://go.luckyhotei.com/spinrollz
+Felixspin	Ongoing	LGaming	DE	CPA	330		330	100% up to 250€ + 150 Free Spins		https://lgamifly.com/fVdVJ?sub1={subid}	https://go.luckyhotei.com/felixspin
+Felixspin	Ongoing	LGaming	AT	CPA	330		330	100% up to 250€ + 150 Free Spins		https://lgamifly.com/fVdVJ?sub1={subid}	https://go.luckyhotei.com/felixspin
+Vivatbet	Ongoing	LGaming	FI	CPA	170		170	200% up to 1500€+ 150 Free Spins		https://lgamifly.com/TXdVJ?sub1={subid}	https://go.luckyhotei.com/vivatbet
+BetSofa	Ongoing	Direct	AU	Hybrid	120	60	20			https://preloadup.com/d5f0c93d6?subid={subid}	https://go.luckyhotei.com/betsofa
+BetSofa	Ongoing	Direct	CA	Hybrid	120	60	20			https://preloadup.com/d5f0c93d6?subid={subid}	https://go.luckyhotei.com/betsofa
+BetSofa	Ongoing	Direct	NZ	Hybrid	120	60	20			https://preloadup.com/d5f0c93d6?subid={subid}	https://go.luckyhotei.com/betsofa
+BetSofa	Ongoing	Direct	FI	Hybrid	120	60	20			https://preloadup.com/d5f0c93d6?subid={subid}	https://go.luckyhotei.com/betsofa
+BetSofa	Ongoing	Direct	NO	Hybrid	120	60	20			https://preloadup.com/d5f0c93d6?subid={subid}	https://go.luckyhotei.com/betsofa
+BetSofa	Ongoing	Direct	DK	Hybrid	120	60	20			https://preloadup.com/d5f0c93d6?subid={subid}	https://go.luckyhotei.com/betsofa
+Luckyreels	Ongoing	Direct	AU	Hybrid	120	60	20			https://prlimited.click/dfa081e94?subid={subid}	https://go.luckyhotei.com/luckyreels
+Luckyreels	Ongoing	Direct	CA	Hybrid	120	60	20			https://prlimited.click/dfa081e94?subid={subid}	https://go.luckyhotei.com/luckyreels
+Luckyreels	Ongoing	Direct	NZ	Hybrid	120	60	20			https://prlimited.click/dfa081e94?subid={subid}	https://go.luckyhotei.com/luckyreels
+Luckyreels	Ongoing	Direct	FI	Hybrid	120	60	20			https://prlimited.click/dfa081e94?subid={subid}	https://go.luckyhotei.com/luckyreels
+Luckyreels	Ongoing	Direct	NO	Hybrid	120	60	20			https://prlimited.click/dfa081e94?subid={subid}	https://go.luckyhotei.com/luckyreels
+Luckyreels	Ongoing	Direct	DK	Hybrid	120	60	20			https://prlimited.click/dfa081e94?subid={subid}	https://go.luckyhotei.com/luckyreels
+Kingamo	Ongoing	Direct	AU	Hybrid	120	60	20			https://kingbro.tech/d8a91a256?subid={subid}	https://go.luckyhotei.com/kingamo
+Kingamo	Ongoing	Direct	CA	Hybrid	120	60	20			https://kingbro.tech/d8a91a256?subid={subid}	https://go.luckyhotei.com/kingamo
+Kingamo	Ongoing	Direct	NZ	Hybrid	120	60	20			https://kingbro.tech/d8a91a256?subid={subid}	https://go.luckyhotei.com/kingamo
+Kingamo	Ongoing	Direct	FI	Hybrid	120	60	20			https://kingbro.tech/d8a91a256?subid={subid}	https://go.luckyhotei.com/kingamo
+Kingamo	Ongoing	Direct	NO	Hybrid	120	60	20			https://kingbro.tech/d8a91a256?subid={subid}	https://go.luckyhotei.com/kingamo
+Kingamo	Ongoing	Direct	DK	Hybrid	120	60	20			https://kingbro.tech/d8a91a256?subid={subid}	https://go.luckyhotei.com/kingamo
+Puma	Ongoing	Direct	AU	Hybrid	120	60	20			https://easysetup.fun/d55f8d583?subid={subid}	https://go.luckyhotei.com/puma
+Puma	Ongoing	Direct	CA	Hybrid	120	60	20			https://easysetup.fun/d55f8d583?subid={subid}	https://go.luckyhotei.com/puma
+Puma	Ongoing	Direct	NZ	Hybrid	120	60	20			https://easysetup.fun/d55f8d583?subid={subid}	https://go.luckyhotei.com/puma
+Puma	Ongoing	Direct	FI	Hybrid	120	60	20			https://easysetup.fun/d55f8d583?subid={subid}	https://go.luckyhotei.com/puma
+Puma	Ongoing	Direct	NO	Hybrid	120	60	20			https://easysetup.fun/d55f8d583?subid={subid}	https://go.luckyhotei.com/puma
+Puma	Ongoing	Direct	DK	Hybrid	120	60	20			https://easysetup.fun/d55f8d583?subid={subid}	https://go.luckyhotei.com/puma
+Rocketwin	Ongoing	Direct	AU	Hybrid	120	60	20			https://clockom.xyz/de4b3905e?subid={subid}	https://go.luckyhotei.com/rocketwin
+Rocketwin	Ongoing	Direct	CA	Hybrid	120	60	20			https://clockom.xyz/de4b3905e?subid={subid}	https://go.luckyhotei.com/rocketwin
+Rocketwin	Ongoing	Direct	NZ	Hybrid	120	60	20			https://clockom.xyz/de4b3905e?subid={subid}	https://go.luckyhotei.com/rocketwin
+Rocketwin	Ongoing	Direct	FI	Hybrid	120	60	20			https://clockom.xyz/de4b3905e?subid={subid}	https://go.luckyhotei.com/rocketwin
+Rocketwin	Ongoing	Direct	NO	Hybrid	120	60	20			https://clockom.xyz/de4b3905e?subid={subid}	https://go.luckyhotei.com/rocketwin
+Rocketwin	Ongoing	Direct	DK	Hybrid	120	60	20			https://clockom.xyz/de4b3905e?subid={subid}	https://go.luckyhotei.com/rocketwin
+SpinSpace	Ongoing	Direct	AU	Hybrid	120	60	20			https://gomaster.tech/df72df4c4?subid={subid}	https://go.luckyhotei.com/spinspace
+SpinSpace	Ongoing	Direct	CA	Hybrid	120	60	20			https://gomaster.tech/df72df4c4?subid={subid}	https://go.luckyhotei.com/spinspace
+SpinSpace	Ongoing	Direct	NZ	Hybrid	120	60	20			https://gomaster.tech/df72df4c4?subid={subid}	https://go.luckyhotei.com/spinspace
+SpinSpace	Ongoing	Direct	FI	Hybrid	120	60	20			https://gomaster.tech/df72df4c4?subid={subid}	https://go.luckyhotei.com/spinspace
+SpinSpace	Ongoing	Direct	NO	Hybrid	120	60	20			https://gomaster.tech/df72df4c4?subid={subid}	https://go.luckyhotei.com/spinspace
+SpinSpace	Ongoing	Direct	DK	Hybrid	120	60	20			https://gomaster.tech/df72df4c4?subid={subid}	https://go.luckyhotei.com/spinspace
+Wish	Ongoing	Direct	AU	Hybrid	120	60	20			https://trustorg.fun/dfe6d9860?subid={subid}	https://go.luckyhotei.com/wish
+Wish	Ongoing	Direct	CA	Hybrid	120	60	20			https://trustorg.fun/dfe6d9860?subid={subid}	https://go.luckyhotei.com/wish
+Wish	Ongoing	Direct	NZ	Hybrid	120	60	20			https://trustorg.fun/dfe6d9860?subid={subid}	https://go.luckyhotei.com/wish
+Wish	Ongoing	Direct	FI	Hybrid	120	60	20			https://trustorg.fun/dfe6d9860?subid={subid}	https://go.luckyhotei.com/wish
+Wish	Ongoing	Direct	NO	Hybrid	120	60	20			https://trustorg.fun/dfe6d9860?subid={subid}	https://go.luckyhotei.com/wish
+Wish	Ongoing	Direct	DK	Hybrid	120	60	20			https://trustorg.fun/dfe6d9860?subid={subid}	https://go.luckyhotei.com/wish
+GoSpin	Ongoing	Direct	AU	Hybrid	120	60	20			https://spinupload.online/d0f0bd3b5?subid={subid}	https://go.luckyhotei.com/gospin
+GoSpin	Ongoing	Direct	CA	Hybrid	120	60	20			https://spinupload.online/d0f0bd3b5?subid={subid}	https://go.luckyhotei.com/gospin
+GoSpin	Ongoing	Direct	NZ	Hybrid	120	60	20			https://spinupload.online/d0f0bd3b5?subid={subid}	https://go.luckyhotei.com/gospin
+GoSpin	Ongoing	Direct	FI	Hybrid	120	60	20			https://spinupload.online/d0f0bd3b5?subid={subid}	https://go.luckyhotei.com/gospin
+GoSpin	Ongoing	Direct	NO	Hybrid	120	60	20			https://spinupload.online/d0f0bd3b5?subid={subid}	https://go.luckyhotei.com/gospin
+GoSpin	Ongoing	Direct	DK	Hybrid	120	60	20			https://spinupload.online/d0f0bd3b5?subid={subid}	https://go.luckyhotei.com/gospin
+Hashlucky	Ongoing	Direct	NL	Hybrid	150	40	20	100% up to 500€ + 100 Free Spins		https://record.hexaffiliates.io/_60P--n6mqNIWqcfzuvZcQGNd7ZgqdRLk/1/?pg=0?s2s.req_id={subid}	https://go.luckyhotei.com/hashlucky
+Hashlucky	Ongoing	Direct	DE	Hybrid	150	40	20	100% up to 500€ + 100 Free Spins		https://record.hexaffiliates.io/_60P--n6mqNIWqcfzuvZcQGNd7ZgqdRLk/1/?pg=0?s2s.req_id={subid}	https://go.luckyhotei.com/hashlucky
+Hexabet	Ongoing	Direct	AU	Hybrid	150	40	20	150% up to 500€ + 100 Free Spins		https://record.hexaffiliates.io/_60P--n6mqNJhg6WO2I1rgWNd7ZgqdRLk/1/?s2s.req_id={subid}	https://go.luckyhotei.com/hexabet
+Hexabet	Ongoing	Direct	CA	Hybrid	150	40	20	150% up to 500€ + 100 Free Spins		https://record.hexaffiliates.io/_60P--n6mqNJhg6WO2I1rgWNd7ZgqdRLk/1/?s2s.req_id={subid}	https://go.luckyhotei.com/hexabet
+Hexabet	Ongoing	Direct	NZ	Hybrid	150	40	20	150% up to 500€ + 100 Free Spins		https://record.hexaffiliates.io/_60P--n6mqNJhg6WO2I1rgWNd7ZgqdRLk/1/?s2s.req_id={subid}	https://go.luckyhotei.com/hexabet
+Hexabet	Ongoing	Direct	DE	Hybrid	150	40	20	150% up to 500€ + 100 Free Spins		https://record.hexaffiliates.io/_60P--n6mqNLP2s46Cv8UUWNd7ZgqdRLk/1/?pg=0?s2s.req_id={subid}	https://go.luckyhotei.com/hexabet
+Hexabet	Ongoing	Direct	AT	Hybrid	150	40	20	150% up to 500€ + 100 Free Spins		https://record.hexaffiliates.io/_60P--n6mqNLP2s46Cv8UUWNd7ZgqdRLk/1/?pg=0?s2s.req_id={subid}	https://go.luckyhotei.com/hexabet
+Hexabet	Ongoing	Direct	IT	Hybrid	150	40	20	150% up to 500€ + 100 Free Spins		https://record.hexaffiliates.io/_60P--n6mqNJhg6WO2I1rgWNd7ZgqdRLk/1/?s2s.req_id={subid}	https://go.luckyhotei.com/hexabet
+Hexabet	Ongoing	Direct	NO	Hybrid	150	40	20	150% up to 500€ + 100 Free Spins		https://record.hexaffiliates.io/_60P--n6mqNJhg6WO2I1rgWNd7ZgqdRLk/1/?s2s.req_id={subid}	https://go.luckyhotei.com/hexabet
+Hexabet	Ongoing	Direct	FI	Hybrid	150	40	20	150% up to 500€ + 100 Free Spins		https://record.hexaffiliates.io/_60P--n6mqNJhg6WO2I1rgWNd7ZgqdRLk/1/?s2s.req_id={subid}	https://go.luckyhotei.com/hexabet
+Hexabet	Ongoing	Direct	DK	Hybrid	150	40	20	150% up to 500€ + 100 Free Spins		https://record.hexaffiliates.io/_60P--n6mqNJhg6WO2I1rgWNd7ZgqdRLk/1/?s2s.req_id={subid}	https://go.luckyhotei.com/hexabet
+Casabet	Ongoing	Direct	DE	Hybrid	210	40	25	400% up to 2200€ + 350 Free Spins		https://record.joinaff.com/_LFBF10rGqu2_Svdb-mxPVWNd7ZgqdRLk/1/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/casabet
+Casabet	Ongoing	Direct	AT	Hybrid	210	40	25	400% up to 2200€ + 350 Free Spins		https://record.joinaff.com/_LFBF10rGqu2_Svdb-mxPVWNd7ZgqdRLk/2/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/casabet
+Casabet	Ongoing	Direct	CA	Hybrid	210	40	25	400% up to 2200€ + 350 Free Spins		https://record.joinaff.com/_LFBF10rGqu0a04rtdr7SPmNd7ZgqdRLk/3/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/casabet
+Casabet	Ongoing	Direct	IT	Hybrid	210	40	25	400% up to 2200€ + 350 Free Spins		https://record.joinaff.com/_LFBF10rGqu2Il8mywhH2cGNd7ZgqdRLk/4/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/casabet
+Casabet	Ongoing	Direct	AU	Hybrid	210	40	25	400% up to 2200€ + 350 Free Spins		https://record.joinaff.com/_LFBF10rGqu0a3Rx1bGMx4GNd7ZgqdRLk/5/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/casabet
+Casabet	Ongoing	Direct	NZ	Hybrid	210	40	25	400% up to 2200€ + 350 Free Spins		https://record.joinaff.com/_LFBF10rGqu0bpNkCTeyfNmNd7ZgqdRLk/8/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/casabet
+Casabet	Ongoing	Direct	SE	Hybrid	210	40	25	400% up to 2200€ + 350 Free Spins		https://record.joinaff.com/_LFBF10rGqu1WCjANPqOzImNd7ZgqdRLk/11/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/casabet
+Casabet	Ongoing	Direct	NO	Hybrid	210	40	25	400% up to 2200€ + 350 Free Spins		https://record.joinaff.com/_LFBF10rGqu0gz9dvdGE5wWNd7ZgqdRLk/6/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/casabet
+Casabet	Ongoing	Direct	FI	Hybrid	210	40	25	400% up to 2200€ + 350 Free Spins		https://record.joinaff.com/_LFBF10rGqu2zALcSfNRbdGNd7ZgqdRLk/10/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/casabet
+Casabet	Ongoing	Direct	DK	Hybrid	210	40	25	400% up to 2200€ + 350 Free Spins		https://record.joinaff.com/_LFBF10rGqu1oAxKBEI54x2Nd7ZgqdRLk/9/?payload={subid}&s2s.req_id={keyword}	https://go.luckyhotei.com/casabet
+Betstro	Ongoing	Direct	AU	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5485&afp={subid}	https://go.luckyhotei.com/betstro
+Betstro	Ongoing	Direct	CA	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5457&afp={subid}	https://go.luckyhotei.com/betstro
+Betstro	Ongoing	Direct	NZ	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5486&afp={subid}	https://go.luckyhotei.com/betstro
+Betstro	Ongoing	Direct	FI	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5461&afp={subid}	https://go.luckyhotei.com/betstro
+Betstro	Ongoing	Direct	DE	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5412&afp={subid}	https://go.luckyhotei.com/betstro
+Betstro	Ongoing	Direct	FR	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5492&afp={subid}	https://go.luckyhotei.com/betstro
+Betstro	Ongoing	Direct	NO	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5414&afp={subid}	https://go.luckyhotei.com/betstro
+Betstro	Ongoing	Direct	AT	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5412&afp={subid}	https://go.luckyhotei.com/betstro
+Betstro	Ongoing	Direct	DK	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5452&afp={subid}	https://go.luckyhotei.com/betstro
+Betstro	Ongoing	Direct	SE	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5452&afp={subid}	https://go.luckyhotei.com/betstro
+Foggybet	Ongoing	Direct	AU	Hybrid	130	40	20	100% up to 200€ + 25 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5512&afp={subid}	https://go.luckyhotei.com/foggybet
+Foggybet	Ongoing	Direct	CA	Hybrid	130	40	20	100% up to 200€ + 25 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5511&afp={subid}	https://go.luckyhotei.com/foggybet
+Foggybet	Ongoing	Direct	NZ	Hybrid	130	40	20	100% up to 200€ + 25 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5513&afp={subid}	https://go.luckyhotei.com/foggybet
+Foggybet	Ongoing	Direct	FI	Hybrid	130	40	20	100% up to 200€ + 25 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5507&afp={subid}	https://go.luckyhotei.com/foggybet
+Foggybet	Ongoing	Direct	DE	Hybrid	130	40	20	100% up to 200€ + 25 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5514&afp={subid}	https://go.luckyhotei.com/foggybet
+Foggybet	Ongoing	Direct	FR	Hybrid	130	40	20	100% up to 200€ + 25 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5519&afp={subid}	https://go.luckyhotei.com/foggybet
+Foggybet	Ongoing	Direct	NO	Hybrid	130	40	20	100% up to 200€ + 25 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5516&afp={subid}	https://go.luckyhotei.com/foggybet
+Foggybet	Ongoing	Direct	AT	Hybrid	130	40	20	100% up to 200€ + 25 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5514&afp={subid}	https://go.luckyhotei.com/foggybet
+Foggybet	Ongoing	Direct	DK	Hybrid	130	40	20	100% up to 200€ + 25 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5509&afp={subid}	https://go.luckyhotei.com/foggybet
+Foggybet	Ongoing	Direct	SE	Hybrid	130	40	20	100% up to 200€ + 25 Free Spins		https://go.ohmygaming.partners/visit/?bta=35797&nci=5509&afp={subid}	https://go.luckyhotei.com/foggybet
+OhMyZino	Ongoing	Direct	CA	Hybrid	130	40	20	300% up to 1000€ 		https://go.ohmygaming.partners/visit/?bta=35797&nci=5380&afp={subid}	https://go.luckyhotei.com/ohmyzino
+OhMyZino	Ongoing	Direct	FI	Hybrid	130	40	20	300% up to 1000€ 		https://go.ohmygaming.partners/visit/?bta=35797&nci=5371&afp={subid}	https://go.luckyhotei.com/ohmyzino
+OhMyZino	Ongoing	Direct	FR	Hybrid	130	40	20	300% up to 1000€ 		https://go.ohmygaming.partners/visit/?bta=35797&nci=5406&afp={subid}	https://go.luckyhotei.com/ohmyzino
+OhMyZino	Ongoing	Direct	DE	Hybrid	130	40	20	300% up to 1000€ 		https://go.ohmygaming.partners/visit/?bta=35797&nci=5369&afp={subid}	https://go.luckyhotei.com/ohmyzino
+OhMyZino	Ongoing	Direct	AT	Hybrid	130	40	20	300% up to 1000€ 		https://go.ohmygaming.partners/visit/?bta=35797&nci=5369&afp={subid}	https://go.luckyhotei.com/ohmyzino
+OhMyZino	Ongoing	Direct	IT	Hybrid	130	40	20	300% up to 1000€ 		https://go.ohmygaming.partners/visit/?bta=35797&nci=5399&afp={subid}	https://go.luckyhotei.com/ohmyzino
+OhMyZino	Ongoing	Direct	NZ	Hybrid	130	40	20	300% up to 1000€ 		https://go.ohmygaming.partners/visit/?bta=35797&nci=5383&afp={subid}	https://go.luckyhotei.com/ohmyzino
+OhMyZino	Ongoing	Direct	NO	Hybrid	130	40	20	300% up to 1000€ 		https://go.ohmygaming.partners/visit/?bta=35797&nci=5372&afp={subid}	https://go.luckyhotei.com/ohmyzino
+OhMyZino	Ongoing	Direct	SE	Hybrid	130	40	20	300% up to 1000€ 		https://go.ohmygaming.partners/visit/?bta=35797&nci=5389&afp={subid}	https://go.luckyhotei.com/ohmyzino
+OhMyZino	Ongoing	Direct	DK	Hybrid	130	40	20	300% up to 1000€ 		https://go.ohmygaming.partners/visit/?bta=35797&nci=5389&afp={subid}	https://go.luckyhotei.com/ohmyzino
+Yugibet	Ongoing	Direct	AU	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.kamikazeaffiliates.com/visit/?bta=35395&nci=5416&afp={subid}	https://go.luckyhotei.com/yugibet
+Yugibet	Ongoing	Direct	CA	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.kamikazeaffiliates.com/visit/?bta=35395&nci=5404&afp={subid}	https://go.luckyhotei.com/yugibet
+Yugibet	Ongoing	Direct	FI	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.kamikazeaffiliates.com/visit/?bta=35395&nci=5403&afp={subid}	https://go.luckyhotei.com/yugibet
+Yugibet	Ongoing	Direct	FR	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.kamikazeaffiliates.com/visit/?bta=35395&nci=5417&afp={subid}	https://go.luckyhotei.com/yugibet
+Yugibet	Ongoing	Direct	DE	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.kamikazeaffiliates.com/visit/?bta=35395&nci=5418&afp={subid}	https://go.luckyhotei.com/yugibet
+Yugibet	Ongoing	Direct	AT	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.kamikazeaffiliates.com/visit/?bta=35395&nci=5418&afp={subid}	https://go.luckyhotei.com/yugibet
+Yugibet	Ongoing	Direct	IT	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.kamikazeaffiliates.com/visit/?bta=35395&nci=5390&afp={subid}	https://go.luckyhotei.com/yugibet
+Yugibet	Ongoing	Direct	NO	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.kamikazeaffiliates.com/visit/?bta=35395&nci=5420&afp={subid}	https://go.luckyhotei.com/yugibet
+Yugibet	Ongoing	Direct	SE	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.kamikazeaffiliates.com/visit/?bta=35395&nci=5409&afp={subid}	https://go.luckyhotei.com/yugibet
+Yugibet	Ongoing	Direct	DK	Hybrid	130	40	20	100% up to 200€ + 200 Free Spins		https://go.kamikazeaffiliates.com/visit/?bta=35395&nci=5409&afp={subid}	https://go.luckyhotei.com/yugibet
+JoeFortune	Ongoing	Profitov	AU	CPA	200		200	500% up to 5000€ + 450 Free Spins		https://my.trekyoubaby.com/click?pid=4665&offer_id=6232&sub4={subid}	https://go.luckyhotei.com/joefortune
+IgnitionCasino	Ongoing	Profitov	AU	CPA	200		200	200% up to 2000$		https://my.trekyoubaby.com/click?pid=4665&offer_id=6235&sub4={subid}	https://go.luckyhotei.com/ignition
+Coolzino	Ongoing	Profitov	FR	CPA	220		220	255% up to €450 Bonus + 250 Free Spins		https://my.trekyoubaby.com/click?pid=4665&offer_id=6311&l=1723045351&sub4={subid}	https://go.luckyhotei.com/coolzino
+Coolzino	Ongoing	Profitov	AT	CPA	200		200	255% up to €450 Bonus + 250 Free Spins		https://my.trekyoubaby.com/click?pid=4665&offer_id=6311&l=1723045351&sub4={subid}	https://go.luckyhotei.com/coolzino
+Coolzino	Ongoing	Profitov	DE	CPA	240		240	255% up to €450 Bonus + 250 Free Spins		https://my.trekyoubaby.com/click?pid=4665&offer_id=6311&l=1723045351&sub4={subid}	https://go.luckyhotei.com/coolzino
+HighRoller	Ongoing	Profitov	NZ	CPA	200		200	100% up to €500 + 200 Free Spins		https://my.trekyoubaby.com/click?pid=4665&offer_id=6945&sub4={subid}	https://go.luckyhotei.com/highroller
+Hugo Casino	Ongoing	Profitov	SE	CPA	190		190	225% up to €600 + 275 Free Spins		https://my.trekyoubaby.com/click?pid=4665&offer_id=6554&sub4={subid}	https://go.luckyhotei.com/hugo
+LuckyMax	Ongoing	Profitov	NL	CPA	220		220	400% up to €4,000 + 300 Free Spins		https://my.trekyoubaby.com/click?pid=4665&offer_id=7240&sub4={subid}	https://go.luckyhotei.com/luckymax
+BetPrimeiro	Ongoing	Profitov	CA	CPA	270		270	275% up to €1500 Bonus + 300 Free Spins		https://my.trekyoubaby.com/click?pid=4665&offer_id=7156&sub4={subid}	https://go.luckyhotei.com/betprimeiro
+Ritzo	Ongoing	Profitov	CA	CPA	400		400	300% up to €1000 Bonus + 300 Free Spins		https://my.trekyoubaby.com/click?pid=4665&offer_id=7280&sub4={subid}	https://go.luckyhotei.com/ritzo
+Spinoloco	Ongoing	Profitov	NZ	CPA	270		270	370% up to €2000 Bonus + 250 Free Spins		https://my.trekyoubaby.com/click?pid=4665&offer_id=7324&sub4={subid}	https://go.luckyhotei.com/spinoloco
+CasinoLab	Ongoing	Profitov	AU	CPA	200		200	200% up to €1500 Bonus + 300 Free Spins		https://my.trekyoubaby.com/click?pid=4665&offer_id=7359&l=1734966877&sub4={subid}	https://go.luckyhotei.com/casinolab
+CasinoLab	Ongoing	Profitov	CA	CPA	200		200	200% up to €1500 Bonus + 300 Free Spins		https://my.trekyoubaby.com/click?pid=4665&offer_id=7359&l=1734966877&sub4={subid}	https://go.luckyhotei.com/casinolab
+CasinoLab	Ongoing	Profitov	DE	CPA	200		200	200% up to €1500 Bonus + 300 Free Spins		https://my.trekyoubaby.com/click?pid=4665&offer_id=7359&l=1734966877&sub4={subid}	https://go.luckyhotei.com/casinolab
+CasinoLab	Ongoing	Profitov	IT	CPA	200		200	200% up to €1500 Bonus + 300 Free Spins		https://my.trekyoubaby.com/click?pid=4665&offer_id=7359&l=1734966877&sub4={subid}	https://go.luckyhotei.com/casinolab
+SkyHills	Ongoing	Profitov	UK	CPA	250		250	200% up to €1500 + 50 Free Spins		https://my.trekyoubaby.com/click?pid=4665&offer_id=7361&l=1735043552&sub4={subid}	https://go.luckyhotei.com/skyhills
+LiBet	Ongoing	Profitov	UK	CPA	400		400	200% up to £1000 + 150 Free Spins		https://my.trekyoubaby.com/click?pid=4665&offer_id=7360&sub4={subid}	https://go.luckyhotei.com/libet
+Slotmonster	Ongoing	Alfaleads	UK	CPA	250		250	100% up to €500 + 20 Free Spins		https://a.univerns.com/click?pid=169930&offer_id=11462&l=1735295167&sub1={subid}&sub4={keyword}	https://go.luckyhotei.com/slotmonster
+LuckyPays	Ongoing	Alfaleads	UK	CPA	250		250	100% up to €777 + 77 Free Spins		https://a.univerns.com/click?pid=169930&offer_id=11569&l=1735295149&sub1={subid}&sub4={keyword}	https://go.luckyhotei.com/luckypays
+Megawin	Ongoing	Alfaleads	UK	CPA	200		200	300% up to $3000 + 100 Free Spins		https://a.univerns.com/click?pid=169930&offer_id=10551&l=1712226980&sub1={subid}&sub4={keyword}	
+≠	Ongoing	Ramp	AU	CPA	280		280	100% up to €500 + 200 Free Spins		https://rampaffiliates.media-412.com/click?pid=159&offer_id=1014&sub1={subid}&sub4={keyword}	
+Greatwin	Ongoing	Ramp	NZ	CPA	200		200	100% up to €500 + 200 Free Spins		https://rampaffiliates.media-412.com/click?pid=159&offer_id=954&sub1={subid}&sub4={keyword}	https://go.luckyhotei.com/greatwin
+Powbet	Ongoing	Ramp	AU	CPA	280		280	100% up to €500 + 200 Free Spins		https://rampaffiliates.media-412.com/click?pid=159&offer_id=1015&sub1={subid}&sub4={keyword}	https://go.luckyhotei.com/powbet
+JackPoty	Ongoing	Ramp	AU	CPA	300		300	350% up to €1500 + 100 Free Spins		https://rampaffiliates.media-412.com/click?pid=159&offer_id=1036&sub1={subid}&sub4={keyword}	https://go.luckyhotei.com/jackpoty
+Casinoly	Ongoing	Ramp	AU	CPA	280		280	100% up to €500 + 200 Free Spins		https://rampaffiliates.media-412.com/click?pid=159&offer_id=1013&sub1={subid}&sub4={keyword}	https://go.luckyhotei.com/casinoly
+Casinoly	Ongoing	Ramp	NZ	CPA	180		180	100% up to €500 + 200 Free Spins		https://rampaffiliates.media-412.com/click?pid=159&offer_id=952&sub1={subid}&sub4={keyword}	https://go.luckyhotei.com/casinoly
+Joker8	Ongoing	Ramp	CA	CPA	400		400	100% up to €500 + 200 Free Spins		https://rampaffiliates.media-412.com/click?pid=159&offer_id=1172&sub1={subid}&sub4={keyword}	https://go.luckyhotei.com/joker8
+MagicRed	Ongoing	Ramp	NZ	CPA	300		300	100% up to €1500 + 300 Free Spins		https://rampaffiliates.media-412.com/click?pid=159&offer_id=1048&sub1={subid}&sub4={keyword}	https://go.luckyhotei.com/magicred
+RoyalReels	Ongoing	Ramp	NZ	CPA	250		250	225% up to €1200		https://rampaffiliates.media-412.com/click?pid=159&offer_id=2018&sub1={subid}&sub4={keyword}	https://go.luckyhotei.com/royalreels
+MrPunter	Ongoing	Ramp	DE	CPA	350		350	100% up to €500 + 200 Free Spins		https://rampaffiliates.media-412.com/click?pid=159&offer_id=1969&sub1={subid}&sub4={keyword}	https://go.luckyhotei.com/mrpunter
+BetnFlix	Ongoing	Ramp	DE	CPA	230		230	100% up to €200		https://rampaffiliates.media-412.com/click?pid=159&offer_id=908&sub1={subid}&sub4={keyword}	https://go.luckyhotei.com/betnflix
+VinylCasino	Ongoing	Ramp	DE	CPA	250		250	100% up to €500 + 200 Free Spins		https://rampaffiliates.media-412.com/click?pid=159&offer_id=1089&sub1={subid}&sub4={keyword}	https://go.luckyhotei.com/vinylcasino
+Talismania	Ongoing	Ramp	DE	CPA	240		240	200% up to €500		https://rampaffiliates.media-412.com/click?pid=159&offer_id=1492&sub1={subid}&sub4={keyword}	

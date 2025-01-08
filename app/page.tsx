@@ -39,7 +39,7 @@ export default async function Home() {
     <>
 
       <Three_part_gallery />
-      <Advent />
+      {/* <Advent /> */}
       <TopBrands />
       <Banner_small />
 

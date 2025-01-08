@@ -161,10 +161,6 @@ export default function Brands_carousel() {
     "Betplays",
     "Spinarium",
     "Bitstake",
-
-
-  
-
   ];
 
   // Основные категории, как в вашем коде
@@ -308,11 +304,6 @@ export default function Brands_carousel() {
         moveBrandToIndex(finalFilteredBrands, "Spinarium", 22);
         moveBrandToIndex(finalFilteredBrands, "Bitstake", 23);
 
-
-
-  
- 
-        
         finalFilteredBrands = finalFilteredBrands.slice(0, 24);
 
         setBrands(finalFilteredBrands);
