@@ -28,6 +28,8 @@ export const getBrands = async (categoryBrands, lng) => {
     { code: "nl", label: "Netherlands", flag: "🇳🇱" },
     { code: "hu", label: "Hungary", flag: "🇭🇺" },
     { code: "bg", label: "Bulgaria", flag: "🇧🇬" },
+    { code: "us", label: "United States", flag: "🇺🇸" },
+
     { code: "all", label: "World", flag: "🌍" }
   ];
   const availableLanguages1039 = [
