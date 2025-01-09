@@ -2940,6 +2940,11 @@ const availableLanguages = [
         flag: "🇧🇬"
     },
     {
+        code: "us",
+        label: "United States",
+        flag: "🇺🇸"
+    },
+    {
         code: "all",
         label: "World",
         flag: "🌍"
