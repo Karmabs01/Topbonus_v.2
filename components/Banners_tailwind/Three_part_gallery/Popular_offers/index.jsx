@@ -19,7 +19,9 @@ export default function Popular_offers() {
   const [newUrl, setNewUrl] = useState("");
   const [source, setSource] = useState("");
   const [loading, setLoading] = useState(true);
-  const [pinnedBrand, setPinnedBrand] = useState(null);
+  // const [pinnedBrand, setPinnedBrand] = useState(null);
+  const [pinnedBrands, setPinnedBrands] = useState([]);
+
   const [otherBrands, setOtherBrands] = useState([]);
 
   const { language } = useLanguage();
@@ -182,19 +184,18 @@ export default function Popular_offers() {
     };
 
     const handlePinnedAndOtherBrands = (brandsArray) => {
-      const pinned = brandsArray.find(
-        (brand) => brand.CasinoBrand === "FairPari"
+      // Фильтруем бренды для закрепленных
+      const pinned = brandsArray.filter(
+        (brand) =>
+          brand.CasinoBrand === "FairPari" || brand.CasinoBrand === "LuckyChoo"
       );
-      if (pinned) {
-        const others = brandsArray.filter(
-          (brand) => brand.CasinoBrand !== "FairPari"
-        );
-        setPinnedBrand(pinned);
-        setOtherBrands(others);
-      } else {
-        setPinnedBrand(null);
-        setOtherBrands(brandsArray);
-      }
+      const others = brandsArray.filter(
+        (brand) =>
+          brand.CasinoBrand !== "FairPari" && brand.CasinoBrand !== "LuckyChoo"
+      );
+
+      setPinnedBrands(pinned);
+      setOtherBrands(others);
     };
 
     fetchUserBrands();
@@ -212,9 +213,11 @@ export default function Popular_offers() {
 
   // Перемешиваем только остальные бренды
   const shuffledOtherBrands = shuffle(otherBrands);
-  const combinedBrands = pinnedBrand
-    ? [pinnedBrand, ...shuffledOtherBrands]
-    : shuffledOtherBrands;
+  // const combinedBrands = pinnedBrand
+  //   ? [pinnedBrand, ...shuffledOtherBrands]
+  //   : shuffledOtherBrands;
+    const combinedBrands = [...pinnedBrands, ...shuffledOtherBrands];
+
 
   // Создаем карточки для десктопной версии
   const cards2 = combinedBrands.slice(0, 6).map((brand) => ({
