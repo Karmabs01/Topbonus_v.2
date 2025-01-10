@@ -12,16 +12,18 @@ export const availableLanguages = [
   { code: "fr", label: "France", flag: "🇫🇷" },
   { code: "it", label: "Italy", flag: "🇮🇹" },
   { code: "pl", label: "Poland", flag: "🇵🇱" },
+  { code: "pt", label: "Portugal", flag: "🇵🇹" },
   { code: "se", label: "Sweden", flag: "🇸🇪" },
   { code: "cz", label: "Czech", flag: "🇨🇿" },
   { code: "sk", label: "Slovakia", flag: "🇸🇰" },
+  { code: "es", label: "Spain", flag: "🇪🇸" },
   { code: "be", label: "Belgium", flag: "🇧🇪" },
   { code: "gr", label: "Greece", flag: "🇬🇷" },
   { code: "nl", label: "Netherlands", flag: "🇳🇱" },
   { code: "hu", label: "Hungary", flag: "🇭🇺" },
   { code: "bg", label: "Bulgaria", flag: "🇧🇬" },
   { code: "us", label: "United States", flag: "🇺🇸" },
-  { code: "all", label: "World", flag: "🌍" }
+  { code: "all", label: "World", flag: "🌍" },
 ];
 export const availableLanguages1039 = [
   { code: "au", label: "Australia", flag: "🇦🇺" },
@@ -73,6 +75,8 @@ export const availableLanguages1044 = [
   { code: "nz", label: "New Zealand", flag: "🇳🇿" },
   { code: "no", label: "Norway", flag: "🇳🇴" },
   { code: "pl", label: "Poland", flag: "🇵🇱" },
+  { code: "pt", label: "Portugal", flag: "🇵🇹" },
+  { code: "es", label: "Spain", flag: "🇪🇸" },
   { code: "za", label: "South Africa", flag: "🇿🇦" },
   { code: "se", label: "Sweden", flag: "🇸🇪" },
   { code: "us", label: "USA", flag: "🇺🇸" },
