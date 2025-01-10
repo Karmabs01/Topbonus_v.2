@@ -471,8 +471,8 @@ export default function Brands_carousel() {
                                   <Image
                                     src={`/brands/${rowData.CasinoBrand || "default"}.png`}
                                     alt={rowData.CasinoBrand || "Brand"}
-                                    width={192}
-                                    height={96}
+                                    width={256}
+                                    height={128}
                                     loading="lazy"
                                   />
                                 </Link>

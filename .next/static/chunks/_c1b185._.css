@@ -1350,8 +1350,8 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .nonoact {
-  width: 192px;
-  height: 96px;
+  width: 256px;
+  height: 128px;
 }
 
 .card-advent:first-child .dated, .card-advent:nth-child(4) .dated {
@@ -1440,6 +1440,11 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 @media (width >= 320px) and (width <= 767px) {
+  #advent .random-title {
+    font-size: 20px !important;
+    line-height: 24px !important;
+  }
+
   .card-advent {
     flex-basis: 48% !important;
   }
@@ -1460,6 +1465,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   .nonoact {
     max-width: 192px;
     max-height: 96px;
+    background-size: cover;
     width: 146px;
     height: 73px;
   }
