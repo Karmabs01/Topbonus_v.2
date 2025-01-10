@@ -95,8 +95,6 @@
 }
 
 .closed {
-  background-color: #dcdcdd;
-  background-image: url("/newimages/notact.png");
   background-repeat: no-repeat;
   background-position: top;
   border-radius: 32px;
@@ -107,23 +105,27 @@
   height: 96px;
 }
 
-.card-advent:first-child .dated, .card-advent:nth-child(2) .dated, .card-advent:nth-child(3) .dated, .card-advent:nth-child(4) .dated, .card-advent:nth-child(5) .dated {
+.card-advent:first-child .dated, .card-advent:nth-child(4) .dated {
   background: linear-gradient(161deg, #5aa148, #3b702e);
 }
 
-.card-advent:first-child .btn-play, .card-advent:nth-child(2) .btn-play, .card-advent:nth-child(3) .btn-play, .card-advent:nth-child(4) .btn-play, .card-advent:nth-child(5) .btn-play {
+.card-advent:first-child .btn-play, .card-advent:nth-child(4) .btn-play {
   background: linear-gradient(161deg, #5aa148, #3b702e);
 }
 
-.card-advent:nth-child(6) .dated, .card-advent:nth-child(7) .dated, .card-advent:nth-child(8) .dated, .card-advent:nth-child(9) .dated, .card-advent:nth-child(10) .dated {
+.card-advent:nth-child(2) .dated, .card-advent:nth-child(5) .dated {
   background: linear-gradient(161deg, #6c37b1, #310877);
 }
 
-.card-advent:nth-child(6) .btn-play, .card-advent:nth-child(7) .btn-play, .card-advent:nth-child(8) .btn-play, .card-advent:nth-child(9) .btn-play, .card-advent:nth-child(10) .btn-play {
+.card-advent:nth-child(2) .btn-play, .card-advent:nth-child(5) .btn-play {
   background: linear-gradient(161deg, #6c37b1, #310877);
 }
 
-.card-advent:nth-child(11) .dated, .card-advent:nth-child(12) .dated, .card-advent:nth-child(13) .dated, .card-advent:nth-child(14) .dated, .card-advent:nth-child(15) .dated {
+.card-advent:nth-child(3) .dated, .card-advent:nth-child(6) .dated {
+  background: linear-gradient(161deg, #088af6, #568df0);
+}
+
+.card-advent:nth-child(3) .btn-play, .card-advent:nth-child(6) .btn-play {
   background: linear-gradient(161deg, #088af6, #568df0);
 }
 
@@ -135,12 +137,6 @@
   background: #ff8f1f !important;
 }
 
-.opened {
-  background-image: url("/newimages/yesact.png");
-  background-repeat: no-repeat;
-  background-position: top;
-}
-
 .card-advent:nth-child(3n+1) .nonoact {
   background-image: url("/newimages/box_1_light.png");
   background-repeat: no-repeat;
@@ -148,13 +144,13 @@
 }
 
 .card-advent:nth-child(3n+2) .nonoact {
-  background-image: url("/newimages/box_2_light.png");
+  background-image: url("/newimages/box_1_light.png");
   background-repeat: no-repeat;
   background-position: top;
 }
 
 .card-advent:nth-child(3n+3) .nonoact {
-  background-image: url("/newimages/box_3_light.png");
+  background-image: url("/newimages/box_1_light.png");
   background-repeat: no-repeat;
   background-position: top;
 }
