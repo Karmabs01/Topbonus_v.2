@@ -1702,10 +1702,6 @@ select {
   flex-basis: 17%;
 }
 
-.basis-\[18\%\] {
-  flex-basis: 18%;
-}
-
 .basis-\[19\%\] {
   flex-basis: 19%;
 }
@@ -1724,6 +1720,10 @@ select {
 
 .basis-\[31\%\] {
   flex-basis: 31%;
+}
+
+.basis-\[32\%\] {
+  flex-basis: 32%;
 }
 
 .basis-\[36\%\] {
@@ -1752,10 +1752,6 @@ select {
 
 .basis-\[75\%\] {
   flex-basis: 75%;
-}
-
-.basis-\[32\%\] {
-  flex-basis: 32%;
 }
 
 .origin-top-right {

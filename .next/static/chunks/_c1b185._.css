@@ -1317,7 +1317,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .not-yet {
-  color: #444548;
+  color: #fff;
   background: #dcdcdd;
   box-shadow: none;
 }
@@ -1393,7 +1393,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .closed .dated {
-  color: #444548;
+  color: #fff;
   background: #dcdcdd;
 }
 
@@ -1443,6 +1443,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   .card-advent img {
     width: 146px;
     height: 73px;
+    min-height: 73px !important;
   }
 
   .card-sl {

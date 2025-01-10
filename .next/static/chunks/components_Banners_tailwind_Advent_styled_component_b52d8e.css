@@ -81,7 +81,7 @@
 }
 
 .not-yet {
-  color: #444548;
+  color: #fff;
   background: #dcdcdd;
   box-shadow: none;
 }
@@ -157,7 +157,7 @@
 }
 
 .closed .dated {
-  color: #444548;
+  color: #fff;
   background: #dcdcdd;
 }
 
@@ -207,6 +207,7 @@
   .card-advent img {
     width: 146px;
     height: 73px;
+    min-height: 73px !important;
   }
 
   .card-sl {

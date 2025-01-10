@@ -3169,14 +3169,14 @@ function Brands_carousel() {
     // ====== КОНЕЦ: Логика адвента ======
     // Загружаем «активированные» карточки из localStorage
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        const savedActivatedBrands = localStorage.getItem("activatedBrands");
+        const savedActivatedBrands = localStorage.getItem("activatedBrands2");
         if (savedActivatedBrands) {
             setActivatedBrands(JSON.parse(savedActivatedBrands));
         }
     }, []);
     // Сохраняем «активированные» в localStorage при каждом изменении
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        localStorage.setItem("activatedBrands", JSON.stringify(activatedBrands));
+        localStorage.setItem("activatedBrands2", JSON.stringify(activatedBrands));
     }, [
         activatedBrands
     ]);
@@ -3513,8 +3513,8 @@ function Brands_carousel() {
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                                         src: `/brands/${rowData.CasinoBrand || "default"}.png`,
                                                                         alt: rowData.CasinoBrand || "Brand",
-                                                                        width: 192,
-                                                                        height: 96,
+                                                                        width: 256,
+                                                                        height: 128,
                                                                         loading: "lazy"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",

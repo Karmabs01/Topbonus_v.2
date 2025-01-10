@@ -199,6 +199,7 @@
   .card-advent img {
     width: 146px;
     height: 73px;
+    min-height: 73px !important;
   }
   .card-sl {
     border-radius: 30px !important;
