@@ -465,7 +465,7 @@ export default function Brands_carousel() {
                               <div className="flex flex-col items-center">
                                 <Link
                                   className="mt-3 mb-2"
-                                  href={`${rowData.GoBig || "#"}/${newUrl}&creative_id=Advent`}
+                                  href={`${rowData.GoBig || "#"}/${newUrl}&creative_id=Everyday_Advent`}
                                   target="_blank"
                                 >
                                   <Image
@@ -481,7 +481,7 @@ export default function Brands_carousel() {
                                 </p>
                                 <Link
                                   className="relative btn-play btn-blick overflow-hidden"
-                                  href={`${rowData.GoBig || "#"}/${newUrl}&creative_id=Advent`}
+                                  href={`${rowData.GoBig || "#"}/${newUrl}&creative_id=Everyday_Advent`}
                                   target="_blank"
                                 >
                                   {t("Play Now")}
