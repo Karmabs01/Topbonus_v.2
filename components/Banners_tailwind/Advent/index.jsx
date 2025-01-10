@@ -61,7 +61,7 @@ export default function Brands_carousel() {
 
   // Загружаем «активированные» карточки из localStorage
   useEffect(() => {
-    const savedActivatedBrands = localStorage.getItem("activatedBrands");
+    const savedActivatedBrands = localStorage.getItem("activatedBrands2");
     if (savedActivatedBrands) {
       setActivatedBrands(JSON.parse(savedActivatedBrands));
     }
@@ -69,7 +69,7 @@ export default function Brands_carousel() {
 
   // Сохраняем «активированные» в localStorage при каждом изменении
   useEffect(() => {
-    localStorage.setItem("activatedBrands", JSON.stringify(activatedBrands));
+    localStorage.setItem("activatedBrands2", JSON.stringify(activatedBrands));
   }, [activatedBrands]);
 
   // Подчищаем URL, извлекаем партнёров и т. п. (ваш код)
