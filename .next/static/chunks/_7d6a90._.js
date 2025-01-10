@@ -4,17 +4,9 @@
 "use strict";
 
 // i18n.js
-__turbopack_esm__({
-    "default": ()=>__TURBOPACK__default__export__
-});
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$i18next$2f$dist$2f$esm$2f$i18next$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/i18next/dist/esm/i18next.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$i18next$2d$browser$2d$languagedetector$2f$dist$2f$esm$2f$i18nextBrowserLanguageDetector$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/i18next-browser-languagedetector/dist/esm/i18nextBrowserLanguageDetector.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/index.js [app-client] (ecmascript) <module evaluation>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$initReactI18next$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/initReactI18next.js [app-client] (ecmascript)");
-"__TURBOPACK__ecmascript__hoisting__location__";
-;
-;
-;
+import i18n from "i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
+import { initReactI18next } from "react-i18next";
 async function initializeI18n() {
     let defLng;
     try {
@@ -628,7 +620,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Enjoy exclusive bonuses, special rewards, and premium support!",
                 "Dive into thrilling adventures and claim top rewards!": "Dive into thrilling adventures and claim top rewards!",
                 "Explore Exclusive Games": "Explore Exclusive Games",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!"
             }
         },
         pl: {
@@ -1036,7 +1031,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Ciesz się ekskluzywnymi bonusami, specjalnymi nagrodami i wsparciem premium!",
                 "Dive into thrilling adventures and claim top rewards!": "Zanurz się w ekscytujące przygody i zgarnij najlepsze nagrody!",
                 "Explore Exclusive Games": "Odkryj ekskluzywne gry",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Dołącz do nas na 15 dni świątecznych niespodzianek! Odkryj ekskluzywne bonusy, darmowe spiny i ekscytujące oferty od najlepszych kasyn online - jedna nowa oferta każdego dnia od 15 do 29 grudnia!"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Dołącz do nas na 15 dni świątecznych niespodzianek! Odkryj ekskluzywne bonusy, darmowe spiny i ekscytujące oferty od najlepszych kasyn online - jedna nowa oferta każdego dnia od 15 do 29 grudnia!",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Dołącz do nas na 15 dni świątecznych niespodzianek! Odkrywaj ekskluzywne bonusy, darmowe spiny i ekscytujące oferty od najlepszych kasyn online - nowa oferta każdego dnia od 15 grudnia do 7 stycznia!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "NAJLEPSZE KASYNA DLA CIEBIE KAŻDEGO DNIA: WYBIERZ SWOJE",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Odkryj najwyżej oceniane marki dostosowane do Twojego idealnego doświadczenia w grze. Wybierz i zacznij wygrywać już dziś!"
             }
         },
         de: {
@@ -1445,7 +1443,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Genießen Sie exklusive Boni, spezielle Belohnungen und Premium-Support!",
                 "Dive into thrilling adventures and claim top rewards!": "Tauche in aufregende Abenteuer ein und sichere dir Top-Belohnungen!",
                 "Explore Exclusive Games": "Entdecke exklusive Spiele",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Begleiten Sie uns für 15 Tage voller festlicher Überraschungen! Entdecken Sie exklusive Boni, Freispiele und spannende Angebote von Top-Online-Casinos – jeden Tag ein neuer Deal vom 15. bis 29. Dezember!"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Begleiten Sie uns für 15 Tage voller festlicher Überraschungen! Entdecken Sie exklusive Boni, Freispiele und spannende Angebote von Top-Online-Casinos – jeden Tag ein neuer Deal vom 15. bis 29. Dezember!",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Mach mit bei 15 Tagen voller festlicher Überraschungen! Entdecke exklusive Boni, Freispiele und spannende Angebote von Top-Online-Casinos – jeden Tag ein neuer Deal vom 15. Dezember bis zum 7. Januar!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "TOP-CASINOS FÜR SIE JEDEN TAG: WÄHLEN SIE IHRES",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Entdecken Sie hochbewertete Marken, die für Ihr ultimatives Spielerlebnis maßgeschneidert sind. Wählen Sie und beginnen Sie noch heute zu gewinnen!"
             }
         },
         bg: {
@@ -1853,7 +1854,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Насладете се на ексклузивни бонуси, специални награди и премиум поддръжка!",
                 "Dive into thrilling adventures and claim top rewards!": "Потопете се в вълнуващи приключения и спечелете топ награди!",
                 "Explore Exclusive Games": "Разгледайте ексклузивни игри",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Присъединете се към нас за 15 дни празнични изненади! Отключете ексклузивни бонуси, безплатни завъртания и вълнуващи оферти от най-добрите онлайн казина – по една нова оферта всеки ден от 15 до 29 декември!"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Присъединете се към нас за 15 дни празнични изненади! Отключете ексклузивни бонуси, безплатни завъртания и вълнуващи оферти от най-добрите онлайн казина – по една нова оферта всеки ден от 15 до 29 декември!",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Присъединете се към нас за 15 дни празнични изненади! Отключете ексклузивни бонуси, безплатни завъртания и вълнуващи оферти от най-добрите онлайн казина - по една нова оферта всеки ден от 15 декември до 7 януари!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "НАЙ-ДОБРИТЕ КАЗИНА ЗА ВАС ВСЕКИ ДЕН: ИЗБЕРЕТЕ ВАШЕТО",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Открийте най-високо оценените марки, създадени специално за вашето уникално гейминг изживяване. Изберете и започнете да печелите още днес!"
             }
         },
         cz: {
@@ -2261,7 +2265,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Užijte si exkluzivní bonusy, speciální odměny a prémiovou podporu!",
                 "Dive into thrilling adventures and claim top rewards!": "Ponořte se do vzrušujících dobrodružství a získejte špičkové odměny!",
                 "Explore Exclusive Games": "Prozkoumejte exkluzivní hry",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Připojte se k nám na 15 dní plných svátečních překvapení! Odemkněte exkluzivní bonusy, volné otočky a vzrušující nabídky od nejlepších online kasin – každý den nová nabídka od 15. do 29. prosince!"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Připojte se k nám na 15 dní plných svátečních překvapení! Odemkněte exkluzivní bonusy, volné otočky a vzrušující nabídky od nejlepších online kasin – každý den nová nabídka od 15. do 29. prosince!",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Připojte se k nám na 15 dní plných svátečních překvapení! Odemkněte exkluzivní bonusy, volné spiny a vzrušující nabídky od nejlepších online kasin – každý den nová nabídka od 15. prosince do 7. ledna!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "NEJLEPŠÍ KASINA PRO VÁS KAŽDÝ DEN: VYBERTE SI SVÉ",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Objevte špičkové značky přizpůsobené vašemu dokonalému hernímu zážitku. Vyberte si a začněte vyhrávat ještě dnes!"
             }
         },
         dk: {
@@ -2669,7 +2676,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Nyd eksklusive bonusser, særlige belønninger og premium support!",
                 "Dive into thrilling adventures and claim top rewards!": "Dyk ned i spændende eventyr og hent de bedste belønninger!",
                 "Explore Exclusive Games": "Udforsk eksklusive spil",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Vær med i 15 dage med festlige overraskelser! Lås op for eksklusive bonusser, gratis spins og spændende tilbud fra de bedste online casinoer – ét nyt tilbud hver dag fra den 15. til den 29. december!"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Vær med i 15 dage med festlige overraskelser! Lås op for eksklusive bonusser, gratis spins og spændende tilbud fra de bedste online casinoer – ét nyt tilbud hver dag fra den 15. til den 29. december!",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Deltag i 15 dage med festlige overraskelser! Lås op for eksklusive bonusser, gratis spins og spændende tilbud fra top online casinoer – en ny aftale hver dag fra 15. december til 7. januar!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "TOPCASINOER TIL DIG HVER DAG: VÆLG DIT",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Opdag topbedømte mærker skræddersyet til din ultimative spiloplevelse. Vælg og begynd at vinde i dag!"
             }
         },
         nl: {
@@ -3077,7 +3087,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Geniet van exclusieve bonussen, speciale beloningen en premium ondersteuning!",
                 "Dive into thrilling adventures and claim top rewards!": "Duik in spannende avonturen en claim de beste beloningen!",
                 "Explore Exclusive Games": "Ontdek exclusieve spellen",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Sluit je aan bij ons voor 15 dagen vol feestelijke verrassingen! Ontgrendel exclusieve bonussen, gratis spins en spannende aanbiedingen van de beste online casino's – elke dag een nieuwe deal van 15 tot en met 29 december!"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Sluit je aan bij ons voor 15 dagen vol feestelijke verrassingen! Ontgrendel exclusieve bonussen, gratis spins en spannende aanbiedingen van de beste online casino's – elke dag een nieuwe deal van 15 tot en met 29 december!",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Doe mee met 15 dagen vol feestelijke verrassingen! Ontvang exclusieve bonussen, gratis spins en spannende aanbiedingen van top online casino's - elke dag een nieuwe deal van 15 december tot 7 januari!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "TOPCASINO’S VOOR JOU ELKE DAG: KIES DE JOUWE",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Ontdek topmerken die zijn afgestemd op jouw ultieme speelervaring. Kies en begin vandaag nog met winnen!"
             }
         },
         es: {
@@ -3485,7 +3498,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Disfruta de bonos exclusivos, recompensas especiales y soporte premium!",
                 "Dive into thrilling adventures and claim top rewards!": "Sumérgete en emocionantes aventuras y reclama las mejores recompensas!",
                 "Explore Exclusive Games": "Explora juegos exclusivos",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "¡Únete a nosotros durante 15 días de sorpresas festivas! Desbloquea bonos exclusivos, giros gratis y emocionantes ofertas de los mejores casinos en línea: una nueva oferta cada día del 15 al 29 de diciembre."
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "¡Únete a nosotros durante 15 días de sorpresas festivas! Desbloquea bonos exclusivos, giros gratis y emocionantes ofertas de los mejores casinos en línea: una nueva oferta cada día del 15 al 29 de diciembre.",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "¡Únete a nosotros en 15 días de sorpresas festivas! Descubre bonos exclusivos, giros gratis y ofertas emocionantes de los mejores casinos en línea: una nueva oferta cada día desde el 15 de diciembre hasta el 7 de enero!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "LOS MEJORES CASINOS PARA TI CADA DÍA: ELIGE EL TUYO",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Descubre las marcas mejor valoradas, diseñadas para ofrecerte la mejor experiencia de juego. ¡Elige y empieza a ganar hoy!"
             }
         },
         fi: {
@@ -3893,7 +3909,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Nauti eksklusiivisista bonuksista, erityisistä palkinnoista ja ensiluokkaisesta tuesta!",
                 "Dive into thrilling adventures and claim top rewards!": "Sukella jännittäviin seikkailuihin ja lunasta huippupalkinnot!",
                 "Explore Exclusive Games": "Tutustu eksklusiivisiin peleihin",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Liity mukaan 15 päivään juhlavia yllätyksiä! Avaa eksklusiivisia bonuksia, ilmaispyöräytyksiä ja jännittäviä tarjouksia huippuluokan nettikasinoilta – yksi uusi tarjous joka päivä 15.–29. joulukuuta!"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Liity mukaan 15 päivään juhlavia yllätyksiä! Avaa eksklusiivisia bonuksia, ilmaispyöräytyksiä ja jännittäviä tarjouksia huippuluokan nettikasinoilta – yksi uusi tarjous joka päivä 15.–29. joulukuuta!",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Liity mukaan 15 päivän juhlallisiin yllätyksiin! Avaa eksklusiivisia bonuksia, ilmaiskierroksia ja jännittäviä tarjouksia huippuluokan nettikasinoilta – uusi tarjous joka päivä 15. joulukuuta alkaen 7. tammikuuta asti!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "PARHAAT KASINOT SINULLE JOKA PÄIVÄ: VALITSE OMASI",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Löydä huippuluokitellut brändit, jotka on räätälöity juuri sinun pelihetkiisi. Valitse ja aloita voittaminen jo tänään!"
             }
         },
         fr: {
@@ -4302,7 +4321,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Profitez de bonus exclusifs, de récompenses spéciales et d'un support premium !",
                 "Dive into thrilling adventures and claim top rewards!": "Plongez dans des aventures palpitantes et réclamez vos meilleures récompenses !",
                 "Explore Exclusive Games": "Explorez des jeux exclusifs",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Rejoignez-nous pour 15 jours de surprises festives ! Débloquez des bonus exclusifs, des tours gratuits et des offres passionnantes des meilleurs casinos en ligne - une nouvelle offre chaque jour du 15 au 29 décembre !"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Rejoignez-nous pour 15 jours de surprises festives ! Débloquez des bonus exclusifs, des tours gratuits et des offres passionnantes des meilleurs casinos en ligne - une nouvelle offre chaque jour du 15 au 29 décembre !",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Rejoignez-nous pour 15 jours de surprises festives ! Débloquez des bonus exclusifs, des tours gratuits et des offres passionnantes des meilleurs casinos en ligne - une nouvelle offre chaque jour du 15 décembre au 7 janvier !",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "LES MEILLEURS CASINOS POUR VOUS CHAQUE JOUR : CHOISISSEZ LE VÔTRE",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Découvrez des marques de premier choix adaptées à votre expérience de jeu ultime. Choisissez et commencez à gagner dès aujourd’hui !"
             }
         },
         gr: {
@@ -4711,7 +4733,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Απολαύστε αποκλειστικά μπόνους, ειδικές ανταμοιβές και υποστήριξη υψηλής ποιότητας!",
                 "Dive into thrilling adventures and claim top rewards!": "Βυθιστείτε σε συναρπαστικές περιπέτειες και διεκδικήστε κορυφαίες ανταμοιβές!",
                 "Explore Exclusive Games": "Εξερευνήστε αποκλειστικά παιχνίδια",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Γίνετε μέλος μας για 15 ημέρες γιορτινών εκπλήξεων! Ξεκλειδώστε αποκλειστικά μπόνους, δωρεάν περιστροφές και συναρπαστικές προσφορές από τα κορυφαία online καζίνο - μία νέα προσφορά κάθε μέρα από τις 15 έως τις 29 Δεκεμβρίου!"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Γίνετε μέλος μας για 15 ημέρες γιορτινών εκπλήξεων! Ξεκλειδώστε αποκλειστικά μπόνους, δωρεάν περιστροφές και συναρπαστικές προσφορές από τα κορυφαία online καζίνο - μία νέα προσφορά κάθε μέρα από τις 15 έως τις 29 Δεκεμβρίου!",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Ελάτε μαζί μας για 15 ημέρες γεμάτες γιορτινές εκπλήξεις! Ξεκλειδώστε αποκλειστικά μπόνους, δωρεάν περιστροφές και συναρπαστικές προσφορές από κορυφαία online καζίνο - μια νέα προσφορά κάθε μέρα από τις 15 Δεκεμβρίου έως τις 7 Ιανουαρίου!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "ΤΑ ΚΑΛΥΤΕΡΑ ΚΑΖΙΝΟ ΓΙΑ ΕΣΑΣ ΚΑΘΕ ΜΕΡΑ: ΕΠΙΛΕΞΤΕ ΤΟ ΔΙΚΟ ΣΑΣ",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Ανακαλύψτε κορυφαίες μάρκες προσαρμοσμένες στη μέγιστη εμπειρία σας στο παιχνίδι. Επιλέξτε και ξεκινήστε να κερδίζετε σήμερα!"
             }
         },
         hu: {
@@ -5120,7 +5145,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Élvezze az exkluzív bónuszokat, különleges jutalmakat és prémium támogatást!",
                 "Dive into thrilling adventures and claim top rewards!": "Merülj el izgalmas kalandokban, és szerezd meg a legjobb jutalmakat!",
                 "Explore Exclusive Games": "Fedezd fel az exkluzív játékokat",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Csatlakozz hozzánk 15 napnyi ünnepi meglepetésért! Oldj fel exkluzív bónuszokat, ingyenes pörgetéseket és izgalmas ajánlatokat a legjobb online kaszinóktól – minden nap egy új ajánlat december 15-től 29-ig!"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Csatlakozz hozzánk 15 napnyi ünnepi meglepetésért! Oldj fel exkluzív bónuszokat, ingyenes pörgetéseket és izgalmas ajánlatokat a legjobb online kaszinóktól – minden nap egy új ajánlat december 15-től 29-ig!",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Csatlakozz hozzánk 15 napos ünnepi meglepetésekre! Nyisd meg az exkluzív bónuszokat, ingyenes pörgetéseket és izgalmas ajánlatokat a legjobb online kaszinóktól – minden nap új ajánlat december 15. és január 7. között!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "LEGJOBB KASZINÓK NEKED MINDEN NAP: VÁLASZD KI A SAJÁTOD",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Fedezd fel a legjobbra értékelt márkákat, amelyek az ideális játékélményedhez igazodnak. Válassz, és kezdj el nyerni még ma!"
             }
         },
         it: {
@@ -5529,7 +5557,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Goditi bonus esclusivi, ricompense speciali e supporto premium!",
                 "Dive into thrilling adventures and claim top rewards!": "Immergiti in avventure emozionanti e richiedi le migliori ricompense!",
                 "Explore Exclusive Games": "Esplora giochi esclusivi",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Unisciti a noi per 15 giorni di sorprese festive! Sblocca bonus esclusivi, giri gratuiti e offerte entusiasmanti dai migliori casinò online - una nuova offerta ogni giorno dal 15 al 29 dicembre!"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Unisciti a noi per 15 giorni di sorprese festive! Sblocca bonus esclusivi, giri gratuiti e offerte entusiasmanti dai migliori casinò online - una nuova offerta ogni giorno dal 15 al 29 dicembre!",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Unisciti a noi per 15 giorni di sorprese festive! Sblocca bonus esclusivi, giri gratuiti e offerte entusiasmanti dai migliori casinò online - una nuova offerta ogni giorno dal 15 dicembre al 7 gennaio!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "I MIGLIORI CASINO PER TE OGNI GIORNO: SCEGLI IL TUO",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Scopri i brand più apprezzati, pensati per offrirti un’esperienza di gioco unica. Scegli e inizia a vincere oggi stesso!"
             }
         },
         no: {
@@ -5938,7 +5969,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Nyt eksklusive bonuser, spesielle belønninger og premium støtte!",
                 "Dive into thrilling adventures and claim top rewards!": "Dykk ned i spennende eventyr og hent topp belønninger!",
                 "Explore Exclusive Games": "Utforsk eksklusive spill",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Bli med oss i 15 dager med festlige overraskelser! Lås opp eksklusive bonuser, gratisspinn og spennende tilbud fra topp nettkasinoer – en ny avtale hver dag fra 15. til 29. desember!"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Bli med oss i 15 dager med festlige overraskelser! Lås opp eksklusive bonuser, gratisspinn og spennende tilbud fra topp nettkasinoer – en ny avtale hver dag fra 15. til 29. desember!",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Bli med på 15 dager med festlige overraskelser! Lås opp eksklusive bonuser, gratisspinn og spennende tilbud fra topp online kasinoer – én ny avtale hver dag fra 15. desember til 7. januar!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "TOPPKASINOER FOR DEG HVER DAG: VELG DITT",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Oppdag topprangerte merker skreddersydd for din ultimate spillopplevelse. Velg og begynn å vinne i dag!"
             }
         },
         pt: {
@@ -6347,7 +6381,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Aproveite bônus exclusivos, recompensas especiais e suporte premium!",
                 "Dive into thrilling adventures and claim top rewards!": "Mergulhe em aventuras emocionantes e conquiste as melhores recompensas!",
                 "Explore Exclusive Games": "Explore jogos exclusivos",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Junte-se a nós para 15 dias de surpresas festivas! Desbloqueie bônus exclusivos, rodadas grátis e ofertas emocionantes dos melhores cassinos online - uma nova oferta por dia de 15 a 29 de dezembro!"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Junte-se a nós para 15 dias de surpresas festivas! Desbloqueie bônus exclusivos, rodadas grátis e ofertas emocionantes dos melhores cassinos online - uma nova oferta por dia de 15 a 29 de dezembro!",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Junte-se a nós para 15 dias de surpresas festivas! Desbloqueie bônus exclusivos, rodadas grátis e ofertas emocionantes dos melhores cassinos online - uma nova oferta todos os dias de 15 de dezembro a 7 de janeiro!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "OS MELHORES CASSINOS PARA VOCÊ TODOS OS DIAS: ESCOLHA O SEU",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Descubra marcas de primeira linha feitas sob medida para sua experiência de jogo definitiva. Escolha e comece a ganhar hoje mesmo!"
             }
         },
         se: {
@@ -6756,7 +6793,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Njut av exklusiva bonusar, speciella belöningar och premiumsupport!",
                 "Dive into thrilling adventures and claim top rewards!": "Ge dig ut på spännande äventyr och hämta de bästa belöningarna!",
                 "Explore Exclusive Games": "Utforska exklusiva spel",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Delta i 15 dagar av festliga överraskningar! Lås upp exklusiva bonusar, gratissnurr och spännande erbjudanden från toppkasinon online – ett nytt erbjudande varje dag från 15 till 29 december!"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Delta i 15 dagar av festliga överraskningar! Lås upp exklusiva bonusar, gratissnurr och spännande erbjudanden från toppkasinon online – ett nytt erbjudande varje dag från 15 till 29 december!",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Gå med oss i 15 dagar av festliga överraskningar! Lås upp exklusiva bonusar, gratissnurr och spännande erbjudanden från topp onlinecasinon – ett nytt erbjudande varje dag från 15 december till 7 januari!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "TOPPKASINON FÖR DIG VARJE DAG: VÄLJ DITT",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Upptäck topprankade märken anpassade för din ultimata spelupplevelse. Välj och börja vinna idag!"
             }
         },
         sk: {
@@ -7165,7 +7205,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Užite si exkluzívne bonusy, špeciálne odmeny a prémiovú podporu!",
                 "Dive into thrilling adventures and claim top rewards!": "Ponorte sa do vzrušujúcich dobrodružstiev a získajte špičkové odmeny!",
                 "Explore Exclusive Games": "Preskúmajte exkluzívne hry",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Pridajte sa k nám na 15 dní plných sviatočných prekvapení! Odomknite exkluzívne bonusy, voľné točenia a vzrušujúce ponuky od najlepších online kasín – každý deň nová ponuka od 15. do 29. decembra!"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Pridajte sa k nám na 15 dní plných sviatočných prekvapení! Odomknite exkluzívne bonusy, voľné točenia a vzrušujúce ponuky od najlepších online kasín – každý deň nová ponuka od 15. do 29. decembra!",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Pridajte sa k nám na 15 dní plných sviatočných prekvapení! Odomknite exkluzívne bonusy, bezplatné spiny a vzrušujúce ponuky od najlepších online kasín – každý deň nová ponuka od 15. decembra do 7. januára!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "NAJLEPŠIE KASÍNA PRE VÁS KAŽDÝ DEŇ: VYBERTE SI SVOJE",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Objavte špičkové značky prispôsobené vášmu dokonalému hernému zážitku. Vyberte si a začnite vyhrávať ešte dnes!"
             }
         },
         tr: {
@@ -7574,7 +7617,10 @@ async function initializeI18n() {
                 "Enjoy exclusive bonuses, special rewards, and premium support!": "Özel bonusların, özel ödüllerin ve premium desteğin keyfini çıkarın!",
                 "Dive into thrilling adventures and claim top rewards!": "Heyecan dolu maceralara dalın ve en iyi ödülleri kazanın!",
                 "Explore Exclusive Games": "Özel oyunları keşfedin",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "15 gün boyunca festivallere özel sürprizlere katılın! En iyi online casinolardan özel bonuslar, ücretsiz dönüşler ve heyecan verici teklifler kazanın – 15 Aralık'tan 29 Aralık'a kadar her gün yeni bir fırsat!"
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "15 gün boyunca festivallere özel sürprizlere katılın! En iyi online casinolardan özel bonuslar, ücretsiz dönüşler ve heyecan verici teklifler kazanın – 15 Aralık'tan 29 Aralık'a kadar her gün yeni bir fırsat!",
+                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "15 günlük festivallik sürprizler için bize katılın! En iyi çevrimiçi casinoların özel bonuslarını, bedava dönüşlerini ve heyecan verici fırsatlarını keşfedin - 15 Aralık’tan 7 Ocak’a kadar her gün yeni bir teklif!",
+                "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "HER GÜN SİZİN İÇİN EN İYİ CASİNOLAR: SEÇİMİNİZİ YAPIN",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Size özel oyun deneyimi için özenle seçilmiş en iyi markaları keşfedin. Şimdi seçin ve kazanmaya başlayın!"
             }
         }
     };
@@ -7583,7 +7629,7 @@ async function initializeI18n() {
         source = localStorage.getItem("source");
     }
     // Инициализация i18n
-    await __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$i18next$2f$dist$2f$esm$2f$i18next$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].use(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$i18next$2d$browser$2d$languagedetector$2f$dist$2f$esm$2f$i18nextBrowserLanguageDetector$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"]).use(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$initReactI18next$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["initReactI18next"]).init({
+    await i18n.use(LanguageDetector).use(initReactI18next).init({
         resources,
         lng: matchedLanguage,
         interpolation: {
@@ -7592,7 +7638,7 @@ async function initializeI18n() {
     });
 }
 initializeI18n();
-const __TURBOPACK__default__export__ = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$i18next$2f$dist$2f$esm$2f$i18next$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"];
+export default i18n;
 
 })()),
 "[project]/components/Header_tailwind/Navigation_tw.tsx [app-client] (ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
@@ -8060,9 +8106,19 @@ const LanguageSwitcher = ()=>{
             flag: "🇨🇿"
         },
         {
+            code: "pt",
+            label: "Portugal",
+            flag: "🇵🇹"
+        },
+        {
             code: "sk",
             label: "Slovak",
             flag: "🇸🇰"
+        },
+        {
+            code: "es",
+            label: "Spanish",
+            flag: "🇪🇸"
         },
         {
             code: "gr",
@@ -8151,6 +8207,16 @@ const LanguageSwitcher = ()=>{
             flag: "🇵🇱"
         },
         {
+            code: "pt",
+            label: "Portugal",
+            flag: "🇵🇹"
+        },
+        {
+            code: "es",
+            label: "Spanish",
+            flag: "🇪🇸"
+        },
+        {
             code: "se",
             label: "Swedish",
             flag: "🇸🇪"
@@ -8216,6 +8282,11 @@ const LanguageSwitcher = ()=>{
             code: "pl",
             label: "Polish",
             flag: "🇵🇱"
+        },
+        {
+            code: "pt",
+            label: "Portugal",
+            flag: "🇵🇹"
         },
         {
             code: "es",
@@ -8295,6 +8366,11 @@ const LanguageSwitcher = ()=>{
             flag: "🇵🇱"
         },
         {
+            code: "pt",
+            label: "Portugal",
+            flag: "🇵🇹"
+        },
+        {
             code: "es",
             label: "Spanish",
             flag: "🇪🇸"
@@ -8357,7 +8433,7 @@ const LanguageSwitcher = ()=>{
         children: "Failed to load"
     }, void 0, false, {
         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-        lineNumber: 136,
+        lineNumber: 142,
         columnNumber: 21
     }, this);
     const changeLanguage = async (lng)=>{
@@ -8401,14 +8477,14 @@ const LanguageSwitcher = ()=>{
                                                             className: `mr-2 flag-icon flag-icon-${newLng.find((lang)=>lang.code === selectedLanguage)?.code}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                            lineNumber: 172,
+                                                            lineNumber: 178,
                                                             columnNumber: 23
                                                         }, this),
                                                         newLng.find((lang)=>lang.code === selectedLanguage)?.label
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 170,
+                                                    lineNumber: 176,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8418,18 +8494,18 @@ const LanguageSwitcher = ()=>{
                                                         className: "h-5 w-5 text-gray-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                        lineNumber: 184,
+                                                        lineNumber: 190,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 183,
+                                                    lineNumber: 189,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                            lineNumber: 169,
+                                            lineNumber: 175,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ListboxOptions"], {
@@ -8446,7 +8522,7 @@ const LanguageSwitcher = ()=>{
                                                                             className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                            lineNumber: 210,
+                                                                            lineNumber: 216,
                                                                             columnNumber: 31
                                                                         }, this),
                                                                         " ",
@@ -8454,7 +8530,7 @@ const LanguageSwitcher = ()=>{
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                    lineNumber: 202,
+                                                                    lineNumber: 208,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 selected && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8464,57 +8540,57 @@ const LanguageSwitcher = ()=>{
                                                                         className: "h-5 w-5"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                        lineNumber: 217,
+                                                                        lineNumber: 223,
                                                                         columnNumber: 33
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                    lineNumber: 216,
+                                                                    lineNumber: 222,
                                                                     columnNumber: 31
                                                                 }, this)
                                                             ]
                                                         }, void 0, true)
                                                 }, language.code, false, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 193,
+                                                    lineNumber: 199,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                            lineNumber: 191,
+                                            lineNumber: 197,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                    lineNumber: 168,
+                                    lineNumber: 174,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false)
                     }, void 0, false, {
                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                        lineNumber: 155,
+                        lineNumber: 161,
                         columnNumber: 11
                     }, this),
                     isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                        lineNumber: 232,
+                        lineNumber: 238,
                         columnNumber: 25
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                lineNumber: 154,
+                lineNumber: 160,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-            lineNumber: 153,
+            lineNumber: 159,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-        lineNumber: 152,
+        lineNumber: 158,
         columnNumber: 5
     }, this);
 };
@@ -8716,9 +8792,19 @@ const BrandsSwitcher = ()=>{
             flag: "🇨🇿"
         },
         {
+            code: "pt",
+            label: "Portugal",
+            flag: "🇵🇹"
+        },
+        {
             code: "sk",
             label: "Slovakia",
             flag: "🇸🇰"
+        },
+        {
+            code: "es",
+            label: "Spanish",
+            flag: "🇪🇸"
         },
         {
             code: "be",
@@ -8744,6 +8830,11 @@ const BrandsSwitcher = ()=>{
             code: "bg",
             label: "Bulgaria",
             flag: "🇧🇬"
+        },
+        {
+            code: "us",
+            label: "United States",
+            flag: "🇺🇸"
         },
         {
             code: "all",
@@ -8990,6 +9081,16 @@ const BrandsSwitcher = ()=>{
             code: "pl",
             label: "Poland",
             flag: "🇵🇱"
+        },
+        {
+            code: "pt",
+            label: "Portugal",
+            flag: "🇵🇹"
+        },
+        {
+            code: "es",
+            label: "Spanish",
+            flag: "🇪🇸"
         },
         {
             code: "se",
@@ -9324,14 +9425,14 @@ const BrandsSwitcher = ()=>{
                                                     className: `mr-2 flag-icon flag-icon-${selectedLanguage?.code}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                    lineNumber: 237,
+                                                    lineNumber: 243,
                                                     columnNumber: 23
                                                 }, this),
                                                 selectedLanguage?.label
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 236,
+                                            lineNumber: 242,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -9341,18 +9442,18 @@ const BrandsSwitcher = ()=>{
                                                 className: "h-5 w-5 text-gray-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                lineNumber: 241,
+                                                lineNumber: 247,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 240,
+                                            lineNumber: 246,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 234,
+                                    lineNumber: 240,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ListboxOptions"], {
@@ -9369,7 +9470,7 @@ const BrandsSwitcher = ()=>{
                                                                     className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                    lineNumber: 260,
+                                                                    lineNumber: 266,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 " ",
@@ -9377,7 +9478,7 @@ const BrandsSwitcher = ()=>{
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 258,
+                                                            lineNumber: 264,
                                                             columnNumber: 23
                                                         }, this),
                                                         selected ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -9387,47 +9488,47 @@ const BrandsSwitcher = ()=>{
                                                                 className: "h-5 w-5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                lineNumber: 264,
+                                                                lineNumber: 270,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 263,
+                                                            lineNumber: 269,
                                                             columnNumber: 25
                                                         }, this) : null
                                                     ]
                                                 }, void 0, true)
                                         }, language.code, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 249,
+                                            lineNumber: 255,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 245,
+                                    lineNumber: 251,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                            lineNumber: 233,
+                            lineNumber: 239,
                             columnNumber: 11
                         }, this)
                     }, void 0, false)
             }, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 222,
+                lineNumber: 228,
                 columnNumber: 5
             }, this),
             isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 276,
+                lineNumber: 282,
                 columnNumber: 19
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-        lineNumber: 221,
+        lineNumber: 227,
         columnNumber: 5
     }, this);
 };
@@ -11767,6 +11868,16 @@ const availableLanguages = [
         flag: "🇵🇱"
     },
     {
+        code: "pt",
+        label: "Portugal",
+        flag: "🇵🇹"
+    },
+    {
+        code: "es",
+        label: "Spanish",
+        flag: "🇪🇸"
+    },
+    {
         code: "se",
         label: "Sweden",
         flag: "🇸🇪"
@@ -11805,6 +11916,11 @@ const availableLanguages = [
         code: "bg",
         label: "Bulgaria",
         flag: "🇧🇬"
+    },
+    {
+        code: "us",
+        label: "United States",
+        flag: "🇺🇸"
     },
     {
         code: "all",
@@ -12041,6 +12157,16 @@ const availableLanguages1044 = [
         code: "pl",
         label: "Poland",
         flag: "🇵🇱"
+    },
+    {
+        code: "pt",
+        label: "Portugal",
+        flag: "🇵🇹"
+    },
+    {
+        code: "es",
+        label: "Spanish",
+        flag: "🇪🇸"
     },
     {
         code: "za",

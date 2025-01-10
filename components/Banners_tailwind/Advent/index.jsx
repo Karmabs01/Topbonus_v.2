@@ -31,7 +31,7 @@ export default function Brands_carousel() {
   // ====== НАЧАЛО: Логика адвента (даты) ======
   // Адвент стартует 15 декабря 2024 (индекс=0) и длится 24 дня (до 7 января 2025).
   // Если хотите на 2023/2024, смените год на 2023.
-  const ADVENT_START = new Date(2024, 11, 15); // 11 = декабрь, день 15
+  const ADVENT_START = new Date(2025, 0, 10); // 11 = декабрь, день 15
 
   // Сколько дней прошло с 15 декабря 2024 по «сейчас»
   function getTodayDiff() {
@@ -47,7 +47,7 @@ export default function Brands_carousel() {
     const day = date.getDate();
     const month = date.getMonth(); // 11 = Dec, 0 = Jan
     let monthStr;
-    if (month === 11) monthStr = "Dec";
+    if (month === 1) monthStr = "Jan";
     else if (month === 0) monthStr = "Jan";
     else monthStr = "???";
     return `${day} ${monthStr}`;
@@ -137,30 +137,30 @@ export default function Brands_carousel() {
 
   // Приоритетные бренды
   const priorityBrands = [
-    "Fairspin",
-    "Trip2vip",
-    "GreenLuck",
-    "FairPari",
-    "Primebetz",
     "Blockbets",
-    "SpinFest",
-    "Erabet",
-    "MyEmpire",
-    "RollingSlots",
-    "WinWin.Bet",
-    "Casinia",
-    "Luckychoo",
-    "Goldencrown",
-    "Spinsup",
-    "Smokace",
-    "Legiano",
-    "HeroSpin",
-    "RocketSpin",
+    "Spinjo",
+    "FairSpin",
+    "LuckyChoo",
+    "FairPari",
     "Winbay",
-    "Trino",
-    "Betplays",
-    "Spinarium",
-    "Bitstake",
+    // "SpinFest",
+    // "Erabet",
+    // "MyEmpire",
+    // "RollingSlots",
+    // "WinWin.Bet",
+    // "Casinia",
+    // "Luckychoo",
+    // "Goldencrown",
+    // "Spinsup",
+    // "Smokace",
+    // "Legiano",
+    // "HeroSpin",
+    // "RocketSpin",
+    // "Winbay",
+    // "Trino",
+    // "Betplays",
+    // "Spinarium",
+    // "Bitstake",
   ];
 
   // Основные категории, как в вашем коде
@@ -219,8 +219,8 @@ export default function Brands_carousel() {
         }
 
         // Гарантируем хотя бы 24
-        if (finalFilteredBrands.length < 24) {
-          const needed = 24 - finalFilteredBrands.length;
+        if (finalFilteredBrands.length < 6) {
+          const needed = 6 - finalFilteredBrands.length;
           const usedBrands = new Set(
             finalFilteredBrands.map((b) => b.CasinoBrand)
           );
@@ -239,8 +239,8 @@ export default function Brands_carousel() {
             );
           }
         }
-        if (finalFilteredBrands.length < 24) {
-          finalFilteredBrands = data.slice(0, 24);
+        if (finalFilteredBrands.length < 6) {
+          finalFilteredBrands = data.slice(0, 5);
         }
 
         // Проверяем присутствие приоритетных
@@ -279,32 +279,33 @@ export default function Brands_carousel() {
             }
           }
         };
-        moveBrandToIndex(finalFilteredBrands, "Fairspin", 0);
-        moveBrandToIndex(finalFilteredBrands, "Trip2vip", 1);
-        moveBrandToIndex(finalFilteredBrands, "GreenLuck", 2);
-        moveBrandToIndex(finalFilteredBrands, "FairPari", 3);
-        moveBrandToIndex(finalFilteredBrands, "Primebetz", 4);
-        moveBrandToIndex(finalFilteredBrands, "Blockbets", 5);
-        moveBrandToIndex(finalFilteredBrands, "SpinFest", 6);
-        moveBrandToIndex(finalFilteredBrands, "Erabet", 7);
-        moveBrandToIndex(finalFilteredBrands, "MyEmpire", 8);
-        moveBrandToIndex(finalFilteredBrands, "RollingSlots", 9);
-        moveBrandToIndex(finalFilteredBrands, "WinWin.Bet", 10);
-        moveBrandToIndex(finalFilteredBrands, "Casinia", 11);
-        moveBrandToIndex(finalFilteredBrands, "SpinFest", 12);
-        moveBrandToIndex(finalFilteredBrands, "Goldencrown", 13);
-        moveBrandToIndex(finalFilteredBrands, "Spinsup", 14);
-        moveBrandToIndex(finalFilteredBrands, "Smokace", 15);
-        moveBrandToIndex(finalFilteredBrands, "Legiano", 16);
-        moveBrandToIndex(finalFilteredBrands, "HeroSpin", 17);
-        moveBrandToIndex(finalFilteredBrands, "RocketSpin", 18);
-        moveBrandToIndex(finalFilteredBrands, "Winbay", 19);
-        moveBrandToIndex(finalFilteredBrands, "Trino", 20);
-        moveBrandToIndex(finalFilteredBrands, "Betplays", 21);
-        moveBrandToIndex(finalFilteredBrands, "Spinarium", 22);
-        moveBrandToIndex(finalFilteredBrands, "Bitstake", 23);
+        moveBrandToIndex(finalFilteredBrands, "Blockbets", 0);
+        moveBrandToIndex(finalFilteredBrands, "Spinjo", 1);
+        moveBrandToIndex(finalFilteredBrands, "FairSpin", 2);
+        moveBrandToIndex(finalFilteredBrands, "LuckyChoo", 3);
+        moveBrandToIndex(finalFilteredBrands, "FairPari", 4);
+        moveBrandToIndex(finalFilteredBrands, "Winbay", 5);
 
-        finalFilteredBrands = finalFilteredBrands.slice(0, 24);
+        // moveBrandToIndex(finalFilteredBrands, "SpinFest", 6);
+        // moveBrandToIndex(finalFilteredBrands, "Erabet", 7);
+        // moveBrandToIndex(finalFilteredBrands, "MyEmpire", 8);
+        // moveBrandToIndex(finalFilteredBrands, "RollingSlots", 9);
+        // moveBrandToIndex(finalFilteredBrands, "WinWin.Bet", 10);
+        // moveBrandToIndex(finalFilteredBrands, "Casinia", 11);
+        // moveBrandToIndex(finalFilteredBrands, "SpinFest", 12);
+        // moveBrandToIndex(finalFilteredBrands, "Goldencrown", 13);
+        // moveBrandToIndex(finalFilteredBrands, "Spinsup", 14);
+        // moveBrandToIndex(finalFilteredBrands, "Smokace", 15);
+        // moveBrandToIndex(finalFilteredBrands, "Legiano", 16);
+        // moveBrandToIndex(finalFilteredBrands, "HeroSpin", 17);
+        // moveBrandToIndex(finalFilteredBrands, "RocketSpin", 18);
+        // moveBrandToIndex(finalFilteredBrands, "Winbay", 19);
+        // moveBrandToIndex(finalFilteredBrands, "Trino", 20);
+        // moveBrandToIndex(finalFilteredBrands, "Betplays", 21);
+        // moveBrandToIndex(finalFilteredBrands, "Spinarium", 22);
+        // moveBrandToIndex(finalFilteredBrands, "Bitstake", 23);
+
+        finalFilteredBrands = finalFilteredBrands.slice(0, 5);
 
         setBrands(finalFilteredBrands);
         setLoading(false);
@@ -347,35 +348,37 @@ export default function Brands_carousel() {
           }
         };
 
-        moveBrandToIndex(fallbackBrands, "Fairspin", 0);
-        moveBrandToIndex(fallbackBrands, "Trip2vip", 1);
-        moveBrandToIndex(fallbackBrands, "GreenLuck", 2);
-        moveBrandToIndex(fallbackBrands, "FairPari", 3);
-        moveBrandToIndex(fallbackBrands, "Primebetz", 4);
-        moveBrandToIndex(fallbackBrands, "Blockbets", 5);
-        moveBrandToIndex(fallbackBrands, "SpinFest", 6);
-        moveBrandToIndex(fallbackBrands, "Erabet", 7);
-        moveBrandToIndex(fallbackBrands, "MyEmpire", 8);
-        moveBrandToIndex(fallbackBrands, "Rolling slots", 9);
-        moveBrandToIndex(fallbackBrands, "WinWin.Bet", 10);
-        moveBrandToIndex(fallbackBrands, "Casinia", 11);
-        moveBrandToIndex(fallbackBrands, "SpinFest", 12);
-        moveBrandToIndex(fallbackBrands, "Goldencrown", 13);
-        moveBrandToIndex(fallbackBrands, "Spinsup", 14);
-        moveBrandToIndex(fallbackBrands, "Smokace", 15);
-
-        moveBrandToIndex(fallbackBrands, "Legiano", 16);
-        moveBrandToIndex(fallbackBrands, "HeroSpin", 17);
-        moveBrandToIndex(fallbackBrands, "RocketSpin", 18);
-        moveBrandToIndex(fallbackBrands, "Winbay", 19);
-        moveBrandToIndex(fallbackBrands, "Trino", 20);
-        moveBrandToIndex(fallbackBrands, "Betplays", 21);
-        moveBrandToIndex(fallbackBrands, "Spinarium", 22);
-        moveBrandToIndex(fallbackBrands, "Bitstake", 23);
+        moveBrandToIndex(fallbackBrands, "Blockbets", 0);
+        moveBrandToIndex(fallbackBrands, "Spinjo", 1);
+        moveBrandToIndex(fallbackBrands, "FairSpin", 2);
+        moveBrandToIndex(fallbackBrands, "LuckyChoo", 3);
+        moveBrandToIndex(fallbackBrands, "FairPari", 4);
+        moveBrandToIndex(fallbackBrands, "Winbay", 5);
 
 
+        // moveBrandToIndex(fallbackBrands, "SpinFest", 6);
+        // moveBrandToIndex(fallbackBrands, "Erabet", 7);
+        // moveBrandToIndex(fallbackBrands, "MyEmpire", 8);
+        // moveBrandToIndex(fallbackBrands, "Rolling slots", 9);
+        // moveBrandToIndex(fallbackBrands, "WinWin.Bet", 10);
+        // moveBrandToIndex(fallbackBrands, "Casinia", 11);
+        // moveBrandToIndex(fallbackBrands, "SpinFest", 12);
+        // moveBrandToIndex(fallbackBrands, "Goldencrown", 13);
+        // moveBrandToIndex(fallbackBrands, "Spinsup", 14);
+        // moveBrandToIndex(fallbackBrands, "Smokace", 15);
 
-        fallbackBrands = fallbackBrands.slice(0, 24);
+        // moveBrandToIndex(fallbackBrands, "Legiano", 16);
+        // moveBrandToIndex(fallbackBrands, "HeroSpin", 17);
+        // moveBrandToIndex(fallbackBrands, "RocketSpin", 18);
+        // moveBrandToIndex(fallbackBrands, "Winbay", 19);
+        // moveBrandToIndex(fallbackBrands, "Trino", 20);
+        // moveBrandToIndex(fallbackBrands, "Betplays", 21);
+        // moveBrandToIndex(fallbackBrands, "Spinarium", 22);
+        // moveBrandToIndex(fallbackBrands, "Bitstake", 23);
+
+
+
+        fallbackBrands = fallbackBrands.slice(0, 5);
 
         setBrands(fallbackBrands);
         setLoading(false);
@@ -421,15 +424,15 @@ export default function Brands_carousel() {
           ) : (
             <div>
               <h2 className="text-3xl font-bold tracking-tight text-white random-title mb-3 text-center">
-                {t("Christmas Calendar")}
+                {t("TOP BRANDS FOR YOU EVERY DAY: PICK YOURS")}
               </h2>
               <p className="mb-3 text-center text-white">
                 {t(
-                  "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!"
+                  "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!"
                 )}
               </p>
-              <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap">
-                {Array.from({ length: 24 }).map((_, index) => {
+              <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap mt-6">
+                {Array.from({ length: 6 }).map((_, index) => {
                   // locked (в будущем) или нет
                   const locked = isDayLocked(index);
                   // активирован?
@@ -451,7 +454,7 @@ export default function Brands_carousel() {
                   return (
                     <div
                       key={index}
-                      className={`card-advent rounded-xl flex flex-col justify-between basis-[18%] relative mt-16 ${cardState}`}
+                      className={`card-advent rounded-xl flex flex-col justify-between basis-[32%] relative mt-16 ${cardState}`}
                     >
                       <div className="dated">{dayLabel}</div>
                       <div className="mx-auto max-w-7xl flex flex-col w-full">

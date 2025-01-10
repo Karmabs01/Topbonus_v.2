@@ -20,7 +20,7 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
   const [fade, setFade] = useState(true); // State to manage fade effect
   const { language } = useLanguage();
   const { t } = useTranslation();
-
+console.log(categoryBrands.key1, brands);
   
   const settings = {
     infinite: true,

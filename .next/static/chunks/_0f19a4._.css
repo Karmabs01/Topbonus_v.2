@@ -1754,6 +1754,10 @@ select {
   flex-basis: 75%;
 }
 
+.basis-\[32\%\] {
+  flex-basis: 32%;
+}
+
 .origin-top-right {
   transform-origin: 100% 0;
 }
