@@ -898,6 +898,7 @@ function Brands_carousel({ target, creative, categoryBrands }) {
     }, [
         brands.length
     ]);
+    console.log("Brands" + categoryBrands.key1, brands);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "sm:mt-10 mt-5 mb-5 mob-mt10",
@@ -905,7 +906,7 @@ function Brands_carousel({ target, creative, categoryBrands }) {
                 className: "main__container",
                 children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                    lineNumber: 222,
+                    lineNumber: 224,
                     columnNumber: 13
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -933,12 +934,12 @@ function Brands_carousel({ target, creative, categoryBrands }) {
                                                             className: `${target}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                                            lineNumber: 241,
+                                                            lineNumber: 243,
                                                             columnNumber: 33
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                                        lineNumber: 236,
+                                                        lineNumber: 238,
                                                         columnNumber: 31
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -948,53 +949,53 @@ function Brands_carousel({ target, creative, categoryBrands }) {
                                                         children: t("Play Now")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                                        lineNumber: 250,
+                                                        lineNumber: 252,
                                                         columnNumber: 31
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                                lineNumber: 235,
+                                                lineNumber: 237,
                                                 columnNumber: 29
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                            lineNumber: 234,
+                                            lineNumber: 236,
                                             columnNumber: 27
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                        lineNumber: 233,
+                                        lineNumber: 235,
                                         columnNumber: 25
                                     }, this)
                                 }, index, false, {
                                     fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                                    lineNumber: 229,
+                                    lineNumber: 231,
                                     columnNumber: 23
                                 }, this))
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                            lineNumber: 226,
+                            lineNumber: 228,
                             columnNumber: 17
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                        lineNumber: 225,
+                        lineNumber: 227,
                         columnNumber: 15
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                    lineNumber: 224,
+                    lineNumber: 226,
                     columnNumber: 13
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-                lineNumber: 220,
+                lineNumber: 222,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Banners_tailwind/Brands_carousel/index.jsx",
-            lineNumber: 219,
+            lineNumber: 221,
             columnNumber: 7
         }, this)
     }, void 0, false);
@@ -3396,7 +3397,7 @@ function Brands_carousel() {
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                     className: "mt-3 mb-2",
-                                                                    href: `${rowData.GoBig || "#"}/${newUrl}&creative_id=Advent`,
+                                                                    href: `${rowData.GoBig || "#"}/${newUrl}&creative_id=Everyday_Advent`,
                                                                     target: "_blank",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                         src: `/brands/${rowData.CasinoBrand || "default"}.png`,
@@ -3424,7 +3425,7 @@ function Brands_carousel() {
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                     className: "relative btn-play btn-blick overflow-hidden",
-                                                                    href: `${rowData.GoBig || "#"}/${newUrl}&creative_id=Advent`,
+                                                                    href: `${rowData.GoBig || "#"}/${newUrl}&creative_id=Everyday_Advent`,
                                                                     target: "_blank",
                                                                     children: t("Play Now")
                                                                 }, void 0, false, {
