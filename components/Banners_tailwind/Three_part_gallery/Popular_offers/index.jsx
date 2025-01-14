@@ -19,9 +19,12 @@ export default function Popular_offers() {
   const [newUrl, setNewUrl] = useState("");
   const [source, setSource] = useState("");
   const [loading, setLoading] = useState(true);
-  // const [pinnedBrand, setPinnedBrand] = useState(null);
-  const [pinnedBrands, setPinnedBrands] = useState([]);
 
+  // Список брендов, которые вы хотите закрепить
+  const pinnedBrandsList = ["FairPari", "Luckychoo", "Winbay"];
+  
+  // Массив состояний для закреплённых и остальных
+  const [pinnedBrands, setPinnedBrands] = useState([]);
   const [otherBrands, setOtherBrands] = useState([]);
 
   const { language } = useLanguage();
@@ -110,11 +113,10 @@ export default function Popular_offers() {
 
   const categoryBrands0 = { key1: "Networks", key2: "Premium" };
 
-  const { data, error } = useSWR(
-    ["brands", language],
-    () => getBrands(language),
-    { initialData: [] } // Инициализируем пустым массивом
-  );
+  // Получаем бренды через SWR
+  const { data, error } = useSWR(["brands", language], () => getBrands(language), {
+    initialData: [],
+  });
 
   let userId = "";
   if (typeof window !== "undefined") {
@@ -123,7 +125,7 @@ export default function Popular_offers() {
 
   useEffect(() => {
     const fetchUserBrands = async () => {
-      // 1. Фильтрация брендов на основе категорий
+      // 1. Фильтрация брендов по категориям
       const filteredByCategory = data.filter(
         (brand) => brand[categoryBrands0.key1] === categoryBrands0.key2
       );
@@ -146,7 +148,6 @@ export default function Popular_offers() {
         console.log("Полные данные пользователя:", dataUser);
 
         let sales = dataUser.sales;
-
         if (typeof sales === "string") {
           try {
             sales = JSON.parse(sales);
@@ -175,7 +176,7 @@ export default function Popular_offers() {
 
         console.log("Отфильтрованные бренды:", finalFilteredBrands);
 
-        // 5. Обработка закрепленного бренда и остальных
+        // 5. Обработка закреплённых брендов
         handlePinnedAndOtherBrands(finalFilteredBrands);
         setLoading(false);
       } catch (error) {
@@ -188,15 +189,16 @@ export default function Popular_offers() {
       }
     };
 
+    // Функция, которая разделяет бренды на «закреплённые» и «остальные»
     const handlePinnedAndOtherBrands = (brandsArray) => {
-      // Фильтруем бренды для закрепленных
-      const pinned = brandsArray.filter(
-        (brand) =>
-          brand.CasinoBrand === "FairPari" || brand.CasinoBrand === "LuckyChoo"
+      // 1) Берём все бренды, которые нужно закрепить — из pinnedBrandsList
+      const pinned = brandsArray.filter((brand) =>
+        pinnedBrandsList.includes(brand.CasinoBrand)
       );
+
+      // 2) Все остальные — «others»
       const others = brandsArray.filter(
-        (brand) =>
-          brand.CasinoBrand !== "FairPari" && brand.CasinoBrand !== "LuckyChoo"
+        (brand) => !pinnedBrandsList.includes(brand.CasinoBrand)
       );
 
       setPinnedBrands(pinned);
@@ -206,18 +208,16 @@ export default function Popular_offers() {
     fetchUserBrands();
   }, [data, userId, categoryBrands0.key1, categoryBrands0.key2]);
 
+  // Функция для перемешивания «остальных» брендов
   const refetchBrands = () => {
     const shuffled = shuffle(otherBrands);
     setOtherBrands(shuffled);
   };
 
-  // Перемешиваем только остальные бренды
+  // Перемешиваем список «остальных» брендов, а закреплённые не трогаем
   const shuffledOtherBrands = shuffle(otherBrands);
-  // const combinedBrands = pinnedBrand
-  //   ? [pinnedBrand, ...shuffledOtherBrands]
-  //   : shuffledOtherBrands;
-    const combinedBrands = [...pinnedBrands, ...shuffledOtherBrands];
-
+  // Собираем итоговый массив: сначала pinned, потом — остальной список
+  const combinedBrands = [...pinnedBrands, ...shuffledOtherBrands];
 
   return (
     <>
@@ -232,10 +232,7 @@ export default function Popular_offers() {
                   <h2 className="text-3xl font-bold tracking-tight text-white random-title mmm-none">
                     {t("POPULAR")} <span>{t("offers")}</span>
                   </h2>
-                  <button
-                    className="refetch"
-                    onClick={refetchBrands} // Обработчик клика
-                  >
+                  <button className="refetch" onClick={refetchBrands}>
                     <Image
                       src={refetch}
                       alt="refetch"
@@ -244,6 +241,8 @@ export default function Popular_offers() {
                     />
                   </button>
                 </div>
+
+                {/* --- Десктопная версия --- */}
                 <div className="mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8 hidden md:inline">
                   <div className="cards-thr">
                     {combinedBrands.slice(0, 6).map((rowData, index) => (
@@ -267,7 +266,6 @@ export default function Popular_offers() {
                               />
                             </Link>
                           </div>
-
                           <div className="relative mt-4 text-center">
                             <h3 className="text-lg font-semibold text-gray-900">
                               {rowData.CasinoBrand}
@@ -291,6 +289,7 @@ export default function Popular_offers() {
                   </div>
                 </div>
 
+                {/* --- Мобильная версия --- */}
                 <div className="md:hidden w-full mob-sl">
                   <div className="cards-th !mt-0 mmb-1">
                     <h2 className="text-3xl font-bold tracking-tight text-white random-title mt-3 mb-3 ">
