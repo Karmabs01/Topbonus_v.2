@@ -20,6 +20,8 @@ export const getBrands = async (categoryBrands, lng) => {
     { code: "fr", label: "France", flag: "🇫🇷" },
     { code: "it", label: "Italy", flag: "🇮🇹" },
     { code: "pl", label: "Poland", flag: "🇵🇱" },
+    { code: "pt", label: "Portugal", flag: "🇵🇹" },
+    { code: "es", label: "Spanish", flag: "🇪🇸" },
     { code: "se", label: "Sweden", flag: "🇸🇪" },
     { code: "cz", label: "Czech", flag: "🇨🇿" },
     { code: "sk", label: "Slovakia", flag: "🇸🇰" },
@@ -28,6 +30,8 @@ export const getBrands = async (categoryBrands, lng) => {
     { code: "nl", label: "Netherlands", flag: "🇳🇱" },
     { code: "hu", label: "Hungary", flag: "🇭🇺" },
     { code: "bg", label: "Bulgaria", flag: "🇧🇬" },
+    { code: "us", label: "United States", flag: "🇺🇸" },
+
     { code: "all", label: "World", flag: "🌍" }
   ];
   const availableLanguages1039 = [
@@ -56,6 +60,8 @@ export const getBrands = async (categoryBrands, lng) => {
     { code: "ch", label: "Switzerland", flag: "🇨🇭" },
     { code: "tr", label: "Turkey", flag: "🇹🇷" },
     { code: "gb", label: "United Kingdom", flag: "🇬🇧" },
+    { code: "us", label: "United States", flag: "🇺🇸" },
+
     { code: "all", label: "World", flag: "🌍" },
   ];
   const availableLanguages1043 = [
@@ -80,6 +86,8 @@ export const getBrands = async (categoryBrands, lng) => {
     { code: "nz", label: "New Zealand", flag: "🇳🇿" },
     { code: "no", label: "Norway", flag: "🇳🇴" },
     { code: "pl", label: "Poland", flag: "🇵🇱" },
+    { code: "pt", label: "Portugal", flag: "🇵🇹" },
+    { code: "es", label: "Spanish", flag: "🇪🇸" },
     { code: "za", label: "South Africa", flag: "🇿🇦" },
     { code: "se", label: "Sweden", flag: "🇸🇪" },
     { code: "us", label: "USA", flag: "🇺🇸" },
@@ -142,6 +150,8 @@ export const getBrands = async (categoryBrands, lng) => {
     CLD_VIP: { url: apiCLD_VIP, languages: availableLanguagesCLD_VIP },
     partner1045_b1: { url: api1045, languages: availableLanguages1045 },
     partner1046: { url: apiCLD_VIP, languages: availableLanguagesCLD_VIP },
+    partner1050: { url: api1043, languages: availableLanguages1043 },
+    partner1049: { url: apiCLD_VIP, languages: availableLanguagesCLD_VIP },
     partner1047: { url: apiCLD_VIP, languages: availableLanguagesCLD_VIP },
     default: { url: apiAll, languages: availableLanguages },
   };

@@ -58,12 +58,15 @@ const BrandsSwitcher = () => {
     { code: "pl", label: "Poland", flag: "🇵🇱" },
     { code: "se", label: "Sweden", flag: "🇸🇪" },
     { code: "cz", label: "Czech", flag: "🇨🇿" },
+    { code: "pt", label: "Portugal", flag: "🇵🇹" },
     { code: "sk", label: "Slovakia", flag: "🇸🇰" },
+    { code: "es", label: "Spanish", flag: "🇪🇸" },
     { code: "be", label: "Belgium", flag: "🇧🇪" },
     { code: "gr", label: "Greece", flag: "🇬🇷" },
     { code: "nl", label: "Netherlands", flag: "🇳🇱" },
     { code: "hu", label: "Hungary", flag: "🇭🇺" },
     { code: "bg", label: "Bulgaria", flag: "🇧🇬" },
+    { code: "us", label: "United States", flag: "🇺🇸" },
     { code: "all", label: "World", flag: "🌍" }
   ];
   const availableLanguages1039 = [
@@ -88,10 +91,12 @@ const BrandsSwitcher = () => {
     { code: "pt", label: "Portugal", flag: "🇵🇹" },
     { code: "sk", label: "Slovakia", flag: "🇸🇰" },
     { code: "es", label: "Spain", flag: "🇪🇸" },
+
     { code: "se", label: "Sweden", flag: "🇸🇪" },
     { code: "ch", label: "Switzerland", flag: "🇨🇭" },
     { code: "tr", label: "Turkey", flag: "🇹🇷" },
     { code: "gb", label: "United Kingdom", flag: "🇬🇧" },
+    { code: "us", label: "United States", flag: "🇺🇸" },
     { code: "all", label: "World", flag: "🌍" },
   ];
   const availableLanguages1043 = [
@@ -117,6 +122,8 @@ const BrandsSwitcher = () => {
     { code: "no", label: "Norway", flag: "🇳🇴" },
     { code: "nz", label: "New Zealand", flag: "🇳🇿" },
     { code: "pl", label: "Poland", flag: "🇵🇱" },
+    { code: "pt", label: "Portugal", flag: "🇵🇹" },
+    { code: "es", label: "Spanish", flag: "🇪🇸" },
     { code: "se", label: "Sweden", flag: "🇸🇪" },
     { code: "za", label: "South Africa", flag: "🇿🇦" },
     { code: "ch", label: "Switzerland", flag: "🇨🇭" },
@@ -193,6 +200,10 @@ const BrandsSwitcher = () => {
   } else if (item === "partner1045_b1") {
     newLng = availableLanguages1045;
   } else if (item === "partner1046") {
+    newLng = availableLanguagesCLD_VIP;
+  }  else if (item === "partner1050") {
+    newLng = availableLanguages1043;
+  } else if (item === "partner1049") {
     newLng = availableLanguagesCLD_VIP;
   } else if (item === "partner1047") {
     newLng = availableLanguagesCLD_VIP;

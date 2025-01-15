@@ -1,3 +1,11 @@
 node_modules
+<<<<<<< HEAD
 git-filter-repo
 .next
+=======
+<<<<<<< HEAD
+git-filter-repo
+=======
+git-filter-repo
+>>>>>>> 7c78a5997b916b2e78193dd8f5729353ac1ebb29
+>>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1

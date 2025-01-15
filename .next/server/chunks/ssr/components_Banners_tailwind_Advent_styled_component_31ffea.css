@@ -1,0 +1,219 @@
+/* [project]/components/Banners_tailwind/Advent/styled.component.css [app-ssr] (css) */
+.brand_carousel .slick-dots li.slick-active button:before {
+  color: #4f46e5 !important;
+}
+
+.brand_carousel .slick-dots li button:before {
+  font-size: 12px;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.btn-play {
+  border-radius: 0 0 30px 30px;
+  background: #ff8f1f;
+  box-shadow: 0 -5px 30px #ff8f1f4d;
+  padding: 12px 0;
+  width: 100%;
+  line-height: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.card-sl {
+  border: 2px solid #ffffff4d;
+  border-radius: 32px;
+  padding-top: 10px;
+}
+
+.card-sl > div > .mt-3 {
+  display: flex;
+  padding: 0 10px;
+}
+
+.advnt {
+  border-radius: 30px;
+  border-top: 2.5px solid #ffffff4d;
+  border-bottom: 2.5px solid #ffffff4d;
+  background: linear-gradient(161deg, #ffffff1a, #ffffff0d 101.7%);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  padding: 28px !important;
+}
+
+.dated {
+  position: absolute;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  max-width: 100px;
+  width: 100%;
+  left: calc(50% - 50px);
+  top: -50px;
+  height: 50px;
+  background: #ff8f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.advent .card-sl p {
+  padding: 0 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  min-height: 54px;
+  max-height: 54px;
+  overflow: hidden;
+  line-height: 18px !important;
+}
+
+.mt-33 {
+  margin-top: .75rem !important;
+}
+
+.not-yet {
+  color: #fff;
+  background: #dcdcdd;
+  box-shadow: none;
+}
+
+.not-yet:hover {
+  background: #dcdcdd;
+}
+
+.not-yet:before {
+  display: none;
+}
+
+.closed {
+  border-radius: 32px;
+}
+
+.nonoact {
+  width: 256px;
+  height: 128px;
+  background-size: cover !important;
+}
+
+.card-advent:first-child .dated, .card-advent:nth-child(4) .dated {
+  background: linear-gradient(161deg, #5aa148, #3b702e);
+}
+
+.card-advent:first-child .btn-play, .card-advent:nth-child(4) .btn-play {
+  background: linear-gradient(161deg, #5aa148, #3b702e);
+}
+
+.card-advent:nth-child(2) .dated, .card-advent:nth-child(5) .dated {
+  background: linear-gradient(161deg, #6c37b1, #310877);
+}
+
+.card-advent:nth-child(2) .btn-play, .card-advent:nth-child(5) .btn-play {
+  background: linear-gradient(161deg, #6c37b1, #310877);
+}
+
+.card-advent:nth-child(3) .dated, .card-advent:nth-child(6) .dated {
+  background: linear-gradient(161deg, #088af6, #568df0);
+}
+
+.card-advent:nth-child(3) .btn-play, .card-advent:nth-child(6) .btn-play {
+  background: linear-gradient(161deg, #088af6, #568df0);
+}
+
+.card-advent:nth-child(11) .btn-play, .card-advent:nth-child(12) .btn-play, .card-advent:nth-child(13) .btn-play, .card-advent:nth-child(14) .btn-play, .card-advent:nth-child(15) .btn-play {
+  background: linear-gradient(161deg, #088af6, #568df0);
+}
+
+#advent .mt-3.mb-2 img {
+  min-height: 128px;
+}
+
+.activate .btn-play {
+  background: #ff8f1f !important;
+}
+
+.card-advent:nth-child(3n+1) .nonoact {
+  background: url("/newimages/box_1_dark.png") top no-repeat;
+}
+
+.card-advent:nth-child(3n+2) .nonoact {
+  background: url("/newimages/box_1_dark.png") top no-repeat;
+}
+
+.card-advent:nth-child(3n+3) .nonoact {
+  background: url("/newimages/box_1_dark.png") top no-repeat;
+}
+
+.closed .btn-play {
+  opacity: .5;
+}
+
+.closed .dated {
+  color: #fff;
+  background: #dcdcdd;
+}
+
+.opennow {
+  background: #fcfdffd9;
+  border-radius: 15px;
+}
+
+.advnt {
+  background-image: url("/newimages/adventcalendar_dark.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  border: 2.5px solid #ffffff4d;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  #advent .random-title {
+    font-size: 20px !important;
+    line-height: 24px !important;
+  }
+
+  .card-advent {
+    flex-basis: 48% !important;
+  }
+
+  .advnt {
+    background: url("/newimages/bgmomob2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding: 12px !important;
+  }
+
+  .opened, .closed {
+    background-size: contain;
+    border-radius: 30px !important;
+  }
+
+  .nonoact {
+    max-width: 192px;
+    max-height: 96px;
+    width: 146px;
+    height: 73px;
+  }
+
+  .card-advent img {
+    width: 146px;
+    height: 73px;
+    min-height: 73px !important;
+  }
+
+  .card-sl {
+    width: 100%;
+    border-radius: 30px !important;
+  }
+}
+
+/*# sourceMappingURL=components_Banners_tailwind_Advent_styled_component_31ffea.css.map*/

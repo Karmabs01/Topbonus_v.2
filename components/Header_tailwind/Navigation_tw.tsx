@@ -76,6 +76,12 @@ const Navigation = ({ navLinks, onLinkClick }: Props) => {
       case "partner1046":
         url = "https://link.bo-nus.com/rnd_cld";
         break;
+        case "partner1050":
+          url = "https://info.topbon.us/rnd1043";
+          break;
+        case "partner1049":
+          url = "https://link.bo-nus.com/rnd_cld";
+          break;
         case "partner1047":
           url = "https://link.bo-nus.com/rnd_cld";
           break;

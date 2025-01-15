@@ -20,7 +20,7 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
   const [fade, setFade] = useState(true); // State to manage fade effect
   const { language } = useLanguage();
   const { t } = useTranslation();
-
+console.log(categoryBrands.key1, brands);
   
   const settings = {
     infinite: true,
@@ -84,6 +84,8 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
       "CLD_VIP",
       "partner1045_b1",
       "partner1046",
+      "partner1050",
+      "partner1049",
       "partner1047",
     ];
 
@@ -209,6 +211,8 @@ export default function Brands_carousel({ target, creative, categoryBrands }) {
 
     return () => clearInterval(interval);
   }, [brands.length]);
+
+
 
   return (
     <>

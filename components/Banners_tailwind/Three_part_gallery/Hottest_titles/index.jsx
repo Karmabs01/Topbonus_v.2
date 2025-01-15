@@ -59,6 +59,8 @@ export default function Popular_offers() {
       "CLD_VIP",
       "partner1045_b1",
       "partner1046",
+      "partner1050",
+      "partner1049",
       "partner1047",
     ];
 
@@ -181,8 +183,8 @@ export default function Popular_offers() {
 
 
 // Начало изменений
-const specificBrandName1 = "WinWin.Bet"; // Первый конкретный бренд
-const specificBrandName2 = "Erabet";     // Второй конкретный бренд
+const specificBrandName1 = "Fairspin"; // Первый конкретный бренд
+const specificBrandName2 = "WinWin.Bet";     // Второй конкретный бренд
 
 let brandsToDisplay = [];
 

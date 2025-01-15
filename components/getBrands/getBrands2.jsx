@@ -18,6 +18,9 @@ export const getBrands = async (lng) => {
     CLD_VIP: { url: apiCLD_VIP, languages: availableLanguagesCLD_VIP },
     partner1045_b1: { url: api1045, languages: availableLanguages1045 },
     partner1046: { url: apiCLD_VIP, languages: availableLanguagesCLD_VIP },
+    partner1050: { url: api1043, languages: availableLanguages1043 },
+
+    partner1049: { url: apiCLD_VIP, languages: availableLanguagesCLD_VIP },
     partner1047: { url: apiCLD_VIP, languages: availableLanguagesCLD_VIP },
     default: { url: apiAll, languages: availableLanguages },
   };

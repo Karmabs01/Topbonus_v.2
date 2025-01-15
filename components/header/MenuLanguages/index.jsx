@@ -101,6 +101,8 @@ export default function MultipleSelectPlaceholder() {
     { code: "ch", label: "Switzerland", flag: "🇨🇭" },
     { code: "tr", label: "Turkey", flag: "🇹🇷" },
     { code: "gb", label: "United Kingdom", flag: "🇬🇧" },
+    { code: "us", label: "United States", flag: "🇺🇸" },
+
     { code: "all", label: "World", flag: "🌍" },
   ];
   const flags1043 = [
@@ -213,6 +215,12 @@ export default function MultipleSelectPlaceholder() {
     case "partner1046":
       newFlag = flagsCLD_VIP;
       break;
+      case "partner1050":
+        newFlag = flags1043;
+        break;
+      case "partner1049":
+        newFlag = flagsCLD_VIP;
+        break;
       case "partner1047":
         newFlag = flagsCLD_VIP;
         break;
