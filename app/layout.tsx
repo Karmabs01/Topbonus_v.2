@@ -37,7 +37,7 @@ export default function RootLayout({
         />
 
         {/* Включаем Facebook Pixel */}
-        <Script id="facebook-pixel" strategy="afterInteractive">
+        {/* <Script id="facebook-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
             {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -59,7 +59,7 @@ export default function RootLayout({
             src="https://www.facebook.com/tr?id=1086941882913140&ev=PageView&noscript=1"
             alt="fb_pixel"
           />
-        </noscript>
+        </noscript> */}
       </Head>
       <body className="">
         {/* Включаем LanguageProvider и OtpProvider */}
