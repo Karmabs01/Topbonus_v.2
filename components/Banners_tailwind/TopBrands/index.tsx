@@ -1,15 +1,15 @@
-'use client';
+"use client";
 
-import React, { useState, useEffect } from 'react';
-import { useOtp } from '@/context/OtpContext';
-import Image from 'next/image';
-import logo from '@/public/images/logo.png';
-import poster from '@/public/images/poster.png';
-import design1 from '@/public/images/design1.png';
-import dots_1 from '@/public/images/dots_1.png';
-import circle1_1 from '@/public/images/circle1_1.png';
-import menu_line from '@/public/images/menu_line.png';
-import dots_header from '@/public/images/dots_header.png';
+import React, { useState, useEffect } from "react";
+import { useOtp } from "@/context/OtpContext";
+import Image from "next/image";
+import logo from "@/public/images/logo.png";
+import poster from "@/public/images/poster.png";
+import design1 from "@/public/images/design1.png";
+import dots_1 from "@/public/images/dots_1.png";
+import circle1_1 from "@/public/images/circle1_1.png";
+import menu_line from "@/public/images/menu_line.png";
+import dots_header from "@/public/images/dots_header.png";
 
 const TopBrands = () => {
   const { openModal } = useOtp();
@@ -22,18 +22,18 @@ const TopBrands = () => {
   const spinDuration = 10000; // Длительность прокрутки в миллисекундах (5 секунд)
 
   const resetDailyData = () => {
-    const today = new Date().toISOString().split('T')[0];
-    const lastResetDate = localStorage.getItem('lastResetDate');
+    const today = new Date().toISOString().split("T")[0];
+    const lastResetDate = localStorage.getItem("lastResetDate");
 
     if (lastResetDate !== today) {
-      localStorage.setItem('lastResetDate', today);
-      localStorage.setItem('spinsLeft', maxSpinsPerDay.toString());
-      localStorage.setItem('totalWin', '0');
+      localStorage.setItem("lastResetDate", today);
+      localStorage.setItem("spinsLeft", maxSpinsPerDay.toString());
+      localStorage.setItem("totalWin", "0");
       setSpinsLeft(maxSpinsPerDay);
       setTotalWin(0);
     } else {
-      const savedSpins = parseInt(localStorage.getItem('spinsLeft') || '0', 10);
-      const savedWin = parseInt(localStorage.getItem('totalWin') || '0', 10);
+      const savedSpins = parseInt(localStorage.getItem("spinsLeft") || "0", 10);
+      const savedWin = parseInt(localStorage.getItem("totalWin") || "0", 10);
       setSpinsLeft(savedSpins);
       setTotalWin(savedWin);
 
@@ -51,12 +51,14 @@ const TopBrands = () => {
     if (spinsLeft > 0 && !isSpinning) {
       setIsSpinning(true); // Блокируем кнопку
 
-      const video = document.getElementById('slotAnimation') as HTMLVideoElement;
-      const sound = new Audio('/audio/cas2.mp3'); // Убедитесь, что путь к аудио верный
+      const video = document.getElementById(
+        "slotAnimation"
+      ) as HTMLVideoElement;
+      const sound = new Audio("/audio/cas2.mp3"); // Убедитесь, что путь к аудио верный
 
       const newSpinsLeft = spinsLeft - 1;
       setSpinsLeft(newSpinsLeft);
-      localStorage.setItem('spinsLeft', newSpinsLeft.toString());
+      localStorage.setItem("spinsLeft", newSpinsLeft.toString());
 
       // Запускаем видео
       if (video) {
@@ -77,7 +79,7 @@ const TopBrands = () => {
       setTimeout(() => {
         const newTotalWin = totalWin + winAmountPerSpin;
         setTotalWin(newTotalWin);
-        localStorage.setItem('totalWin', newTotalWin.toString());
+        localStorage.setItem("totalWin", newTotalWin.toString());
 
         // Если прокруты закончились, показываем модалку
         if (newSpinsLeft === 0) {
@@ -111,7 +113,7 @@ const TopBrands = () => {
           <div className="block1__inner">
             <div className="block1__left">
               <video
-                poster={poster}
+                poster={poster.src}
                 id="slotAnimation"
                 width="100%"
                 height="100%"
@@ -129,9 +131,9 @@ const TopBrands = () => {
                   <p className="button__text">
                     {spinsLeft > 0
                       ? isSpinning
-                        ? 'Spinning...'
+                        ? "Spinning..."
                         : `Spin (${spinsLeft} left)`
-                      : 'No spins left'}
+                      : "No spins left"}
                   </p>
                 </div>
               </button>
