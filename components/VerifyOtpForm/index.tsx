@@ -48,7 +48,7 @@ const VerifyOtpForm: React.FC<Props> = ({ otpId, email, onChangeEmail }) => {
         // Перенаправление пользователя на главную страницу или другую целевую страницу
         // router.push('/'); // Используем useRouter для перенаправления
         // router.refresh(); 
-        window.location.href = 'https://bonus.easybon.us/';
+        window.location.href = 'https://topbon.us';
       } else {
         setError(data.message || t("Error when verifying OTP."));
         setAttempts((prev) => prev + 1);
