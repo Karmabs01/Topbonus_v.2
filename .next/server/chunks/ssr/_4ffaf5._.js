@@ -2497,9 +2497,9 @@ function Popular_offers() {
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(true);
     // Список брендов, которые вы хотите закрепить
     const pinnedBrandsList = [
+        "Winbay",
         "FairPari",
-        "Luckychoo",
-        "Winbay"
+        "Luckychoo"
     ];
     // Массив состояний для закреплённых и остальных
     const [pinnedBrands, setPinnedBrands] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
@@ -3179,7 +3179,7 @@ function Brands_carousel() {
                     }
                 }
                 if (finalFilteredBrands.length < 6) {
-                    finalFilteredBrands = data.slice(0, 5);
+                    finalFilteredBrands = data.slice(0, 6);
                 }
                 // Проверяем присутствие приоритетных
                 const ensureBrandInList = (brandName)=>{
@@ -3228,7 +3228,7 @@ function Brands_carousel() {
                 // moveBrandToIndex(finalFilteredBrands, "Betplays", 21);
                 // moveBrandToIndex(finalFilteredBrands, "Spinarium", 22);
                 // moveBrandToIndex(finalFilteredBrands, "Bitstake", 23);
-                finalFilteredBrands = finalFilteredBrands.slice(0, 5);
+                finalFilteredBrands = finalFilteredBrands.slice(0, 6);
                 setBrands(finalFilteredBrands);
                 setLoading(false);
             } catch (error) {
@@ -3279,7 +3279,7 @@ function Brands_carousel() {
                 // moveBrandToIndex(fallbackBrands, "Betplays", 21);
                 // moveBrandToIndex(fallbackBrands, "Spinarium", 22);
                 // moveBrandToIndex(fallbackBrands, "Bitstake", 23);
-                fallbackBrands = fallbackBrands.slice(0, 5);
+                fallbackBrands = fallbackBrands.slice(0, 6);
                 setBrands(fallbackBrands);
                 setLoading(false);
             }
