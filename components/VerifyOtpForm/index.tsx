@@ -14,7 +14,7 @@ interface Props {
   onChangeEmail: () => void;
 }
 
-const VerifyOtpForm: React.FC<Props> = ({ otpId, email, onOtpVerified, onChangeEmail }) => {
+const VerifyOtpForm: React.FC<Props> = ({ otpId, email, onChangeEmail }) => {
   const { t } = useTranslation();
   const router = useRouter();
 
