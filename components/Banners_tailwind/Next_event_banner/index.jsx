@@ -14,11 +14,11 @@ export default function Next_event_banner() {
 
   return (
     <>
-<<<<<<< HEAD
-      <div className="main__container !mt-24 otp-ver-if">
-=======
+
+      {/* <div className="main__container !mt-24 otp-ver-if"> */}
+
       <div  id="uncover" className="main__container !mt-24">
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
         <div className="">
           <div className="flex flex-col items-center justify-center gap-x-6 banner-event px-6 py-2.5 sm:px-3.5">
             <h3 className="text-xl sm:text-xl leading-6 text-white uppercase">

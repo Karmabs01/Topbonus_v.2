@@ -782,14 +782,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "Your bonuses are on the way, one moment..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Your Christmas Gift Awaits Start Your Fortune!",
         Festive: "Festive",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!",
         "Check your spam folder": "Check your spam folder",
-=======
+
         "Christmas Calendar": "Christmas Calendar",
 
         "Ready to Activate": "Ready to Activate",
@@ -815,7 +815,7 @@ async function initializeI18n() {
           "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
 
@@ -1380,14 +1380,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "Twoje bonusy są w drodze, chwileczkę..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Twój prezent świąteczny czeka Zacznij swoje szczęście!",
         Festive: "Świąteczny",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Poczuj magię sezonu z najgorętszymi markami kasyn—odkryj ekscytujące niespodzianki i świąteczne nagrody!",
         "Check your spam folder": "Sprawdź folder spam",
-=======
+
         "Christmas Calendar": "Kalendarz Bożonarodzeniowy",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Dołącz do nas na 15 dni świątecznych niespodzianek! Odkryj ekskluzywne bonusy, darmowe spiny i ekscytujące oferty od najlepszych kasyn online - jedna nowa oferta każdego dnia od 1 do 15 grudnia!",
@@ -1414,7 +1414,7 @@ async function initializeI18n() {
           "NAJLEPSZE KASYNA DLA CIEBIE KAŻDEGO DNIA: WYBIERZ SWOJE",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Odkryj najwyżej oceniane marki dostosowane do Twojego idealnego doświadczenia w grze. Wybierz i zacznij wygrywać już dziś!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
     de: {
@@ -1980,14 +1980,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "Ihre Boni sind unterwegs, einen Moment bitte..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Ihr Weihnachtsgeschenk erwartet Sie Starten Sie Ihr Vermögen!",
         Festive: "Festlich",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Erleben Sie die Magie der Saison mit den heißesten Casinobrands – packen Sie spannende Überraschungen und festliche Belohnungen aus!",
         "Check your spam folder": "Überprüfen Sie Ihren Spam-Ordner",
-=======
+
         "Christmas Calendar": "Weihnachtskalender",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Begleiten Sie uns zu 15 Tagen voller festlicher Überraschungen! Entsperren Sie exklusive Boni, Freispiele und spannende Angebote von führenden Online-Casinos - jeden Tag ein neues Angebot vom 1. bis 15. Dezember!",
@@ -2014,7 +2014,7 @@ async function initializeI18n() {
           "TOP-CASINOS FÜR SIE JEDEN TAG: WÄHLEN SIE IHRES",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Entdecken Sie hochbewertete Marken, die für Ihr ultimatives Spielerlebnis maßgeschneidert sind. Wählen Sie und beginnen Sie noch heute zu gewinnen!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
     bg: {
@@ -2571,14 +2571,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "Вашите бонуси са на път, моля изчакайте..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Вашият коледен подарък ви очаква. Започнете вашето богатство!",
         Festive: "Празничен",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Изживейте магията на сезона с най-горещите казино марки—разопаковайте вълнуващи изненади и празнични награди!",
         "Check your spam folder": "Проверете папката със спам",
-=======
+
         "Christmas Calendar": "Коледен календар",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Присъединете се към нас за 15 дни на празнични изненади! Отключете ексклузивни бонуси, безплатни завъртания и вълнуващи оферти от водещи онлайн казина - нова сделка всеки ден от 1-ви до 15-ти декември!",
@@ -2605,7 +2605,7 @@ async function initializeI18n() {
           "НАЙ-ДОБРИТЕ КАЗИНА ЗА ВАС ВСЕКИ ДЕН: ИЗБЕРЕТЕ ВАШЕТО",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Открийте най-високо оценените марки, създадени специално за вашето уникално гейминг изживяване. Изберете и започнете да печелите още днес!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
     cz: {
@@ -3162,14 +3162,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "Vaše bonusy jsou na cestě, vydržte chvíli..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Váš vánoční dárek čeká, začněte své štěstí!",
         Festive: "Sváteční",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Zažijte kouzlo sezóny s nejžhavějšími kasinovými značkami—rozbalte vzrušující překvapení a sváteční odměny!",
         "Check your spam folder": "Zkontrolujte složku spam",
-=======
+
         "Christmas Calendar": "Vánoční kalendář",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Připojte se k nám na 15 dní plných svátečních překvapení! Odemkněte exkluzivní bonusy, volné otočky a vzrušující nabídky od nejlepších online kasin - každý den nová nabídka od 1. do 15. prosince!",
@@ -3196,7 +3196,7 @@ async function initializeI18n() {
           "NEJLEPŠÍ KASINA PRO VÁS KAŽDÝ DEN: VYBERTE SI SVÉ",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Objevte špičkové značky přizpůsobené vašemu dokonalému hernímu zážitku. Vyberte si a začněte vyhrávat ještě dnes!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
     dk: {
@@ -3753,14 +3753,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "Dine bonusser er på vej, et øjeblik..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Din julegave venter Start din formue!",
         Festive: "Festlig",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Oplev sæsonens magi med de hotteste casinobrands—åbn spændende overraskelser og festlige belønninger!",
         "Check your spam folder": "Tjek din spam-mappe",
-=======
+
         "Christmas Calendar": "Julekalender",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Deltag i 15 dage med festlige overraskelser! Lås op for eksklusive bonusser, gratis spins og spændende tilbud fra de bedste online casinoer - en ny aftale hver dag fra 1. til 15. december!",
@@ -3787,7 +3787,7 @@ async function initializeI18n() {
           "TOPCASINOER TIL DIG HVER DAG: VÆLG DIT",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Opdag topbedømte mærker skræddersyet til din ultimative spiloplevelse. Vælg og begynd at vinde i dag!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
     nl: {
@@ -4348,14 +4348,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "Jouw bonussen zijn onderweg, een ogenblik..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Je kerstcadeau wacht op je Begin je fortuin!",
         Festive: "Feestelijk",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Beleef de magie van het seizoen met de populairste casinomerken—ontdek spannende verrassingen en feestelijke beloningen!",
         "Check your spam folder": "Controleer je spammap",
-=======
+
         "Christmas Calendar": "Kerstkalender",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Doe mee aan 15 dagen vol feestelijke verrassingen! Ontgrendel exclusieve bonussen, gratis spins en spannende aanbiedingen van top online casino's - elke dag een nieuwe deal van 1 tot 15 december!",
@@ -4382,7 +4382,7 @@ async function initializeI18n() {
           "TOPCASINO’S VOOR JOU ELKE DAG: KIES DE JOUWE",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Ontdek topmerken die zijn afgestemd op jouw ultieme speelervaring. Kies en begin vandaag nog met winnen!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
     es: {
@@ -4942,14 +4942,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "Tus bonos están en camino, un momento..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Tu regalo de Navidad te espera, ¡comienza tu fortuna!",
         Festive: "Festivo",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Experimenta la magia de la temporada con las marcas de casino más populares: ¡descubre sorpresas emocionantes y recompensas festivas!",
         "Check your spam folder": "Revisa tu carpeta de spam",
-=======
+
         "Christmas Calendar": "Calendario de Navidad",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Únase a nosotros para 15 días de sorpresas festivas. Desbloquee bonos exclusivos, giros gratis y ofertas emocionantes de los mejores casinos en línea: ¡una nueva oferta cada día del 1 al 15 de diciembre!",
@@ -4976,7 +4976,7 @@ async function initializeI18n() {
           "LOS MEJORES CASINOS PARA TI CADA DÍA: ELIGE EL TUYO",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Descubre las marcas mejor valoradas, diseñadas para ofrecerte la mejor experiencia de juego. ¡Elige y empieza a ganar hoy!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
     fi: {
@@ -5532,14 +5532,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "Bonuksesi ovat matkalla, hetki vain..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Joululahjasi odottaa, aloita onnesi!",
         Festive: "Juhlava",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Koe kauden taika kuumimpien kasinobrändien kanssa—avaa jännittäviä yllätyksiä ja juhlavia palkintoja!",
         "Check your spam folder": "Tarkista roskapostikansiosi",
-=======
+
         "Christmas Calendar": "Joulukalenteri",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Liity seuraamme 15 päivän juhlallisiin yllätyksiin! Avaa eksklusiivisia bonuksia, ilmaispyöräytyksiä ja jännittäviä tarjouksia huippu nettikasinoilta - yksi uusi tarjous joka päivä 1.-15. joulukuuta!",
@@ -5566,7 +5566,7 @@ async function initializeI18n() {
           "PARHAAT KASINOT SINULLE JOKA PÄIVÄ: VALITSE OMASI",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Löydä huippuluokitellut brändit, jotka on räätälöity juuri sinun pelihetkiisi. Valitse ja aloita voittaminen jo tänään!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
     fr: {
@@ -6128,14 +6128,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "Vos bonus sont en route, un instant..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Votre cadeau de Noël vous attend, commencez votre fortune !",
         Festive: "Festif",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Découvrez la magie de la saison avec les marques de casino les plus en vogue—dévoilez des surprises palpitantes et des récompenses festives !",
         "Check your spam folder": "Vérifiez votre dossier spam",
-=======
+
         "Christmas Calendar": "Calendrier de Noël",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Rejoignez-nous pour 15 jours de surprises festives ! Débloquez des bonus exclusifs, des tours gratuits et des offres excitantes des meilleurs casinos en ligne - une nouvelle offre chaque jour du 1er au 15 décembre !",
@@ -6162,7 +6162,7 @@ async function initializeI18n() {
           "LES MEILLEURS CASINOS POUR VOUS CHAQUE JOUR : CHOISISSEZ LE VÔTRE",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Découvrez des marques de premier choix adaptées à votre expérience de jeu ultime. Choisissez et commencez à gagner dès aujourd’hui !",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
 
@@ -6720,14 +6720,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "Τα μπόνους σας έρχονται, παρακαλώ περιμένετε λίγο..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Το Χριστουγεννιάτικο Δώρο σας Περιμένει Ξεκινήστε την Τύχη σας!",
         Festive: "Εορταστικός",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Ζήστε τη μαγεία της εποχής με τα πιο καυτά εμπορικά σήματα καζίνο—ξετυλίξτε συναρπαστικές εκπλήξεις και εορταστικές ανταμοιβές!",
         "Check your spam folder": "Ελέγξτε τον φάκελο ανεπιθύμητων",
-=======
+
         "Christmas Calendar": "Χριστουγεννιάτικο Ημερολόγιο",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Ελάτε μαζί μας για 15 ημέρες γιορτινών εκπλήξεων! Ξεκλειδώστε αποκλειστικά μπόνους, δωρεάν περιστροφές και συναρπαστικές προσφορές από κορυφαία διαδικτυακά καζίνο - μία νέα προσφορά κάθε μέρα από την 1η έως την 15η Δεκεμβρίου!",
@@ -6754,7 +6754,7 @@ async function initializeI18n() {
           "ΤΑ ΚΑΛΥΤΕΡΑ ΚΑΖΙΝΟ ΓΙΑ ΕΣΑΣ ΚΑΘΕ ΜΕΡΑ: ΕΠΙΛΕΞΤΕ ΤΟ ΔΙΚΟ ΣΑΣ",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Ανακαλύψτε κορυφαίες μάρκες προσαρμοσμένες στη μέγιστη εμπειρία σας στο παιχνίδι. Επιλέξτε και ξεκινήστε να κερδίζετε σήμερα!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
     hu: {
@@ -7312,14 +7312,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "A bónuszok úton vannak, egy pillanat..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Karácsonyi ajándékod vár, kezd el a szerencséd!",
         Festive: "Ünnepi",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Éld át az évszak varázsát a legmenőbb kaszinómárkákkal—bontsd ki az izgalmas meglepetéseket és ünnepi jutalmakat!",
         "Check your spam folder": "Ellenőrizze a spam mappát",
-=======
+
         "Christmas Calendar": "Karácsonyi naptár",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Csatlakozz hozzánk 15 napos ünnepi meglepetésekre! Oldj fel exkluzív bónuszokat, ingyenes pörgetéseket és izgalmas ajánlatokat a legjobb online kaszinóktól - minden nap egy új ajánlat december 1-től 15-ig!",
@@ -7346,7 +7346,7 @@ async function initializeI18n() {
           "LEGJOBB KASZINÓK NEKED MINDEN NAP: VÁLASZD KI A SAJÁTOD",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Fedezd fel a legjobbra értékelt márkákat, amelyek az ideális játékélményedhez igazodnak. Válassz, és kezdj el nyerni még ma!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
     it: {
@@ -7907,14 +7907,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "I tuoi bonus sono in arrivo, un attimo..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Il tuo regalo di Natale ti aspetta inizia la tua fortuna!",
         Festive: "Festoso",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Vivi la magia della stagione con i marchi di casinò più caldi—scopri sorprese emozionanti e premi festivi!",
         "Check your spam folder": "Controlla la cartella spam",
-=======
+
         "Christmas Calendar": "Calendario di Natale",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Unisciti a noi per 15 giorni di sorprese festive! Sblocca bonus esclusivi, giri gratuiti e offerte entusiasmanti dai migliori casinò online - un nuovo affare ogni giorno dal 1° al 15 dicembre!",
@@ -7941,7 +7941,7 @@ async function initializeI18n() {
           "I MIGLIORI CASINO PER TE OGNI GIORNO: SCEGLI IL TUO",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Scopri i brand più apprezzati, pensati per offrirti un’esperienza di gioco unica. Scegli e inizia a vincere oggi stesso!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
     no: {
@@ -8499,14 +8499,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "Bonusene dine er på vei, et øyeblikk..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Din julegave venter Start din formue!",
         Festive: "Festlig",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Opplev sesongens magi med de hotteste casinomerkevarene—pakk opp spennende overraskelser og festlige belønninger!",
         "Check your spam folder": "Sjekk spam-mappen din",
-=======
+
         "Christmas Calendar": "Julekalender",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Bli med oss i 15 dager med festlige overraskelser! Lås opp eksklusive bonuser, gratisspinn og spennende tilbud fra topp online kasinoer - en ny avtale hver dag fra 1. til 15. desember!",
@@ -8533,7 +8533,7 @@ async function initializeI18n() {
           "TOPPKASINOER FOR DEG HVER DAG: VELG DITT",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Oppdag topprangerte merker skreddersydd for din ultimate spillopplevelse. Velg og begynn å vinne i dag!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
     pt: {
@@ -9093,14 +9093,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "Seus bônus estão a caminho, um momento..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Seu Presente de Natal Aguarda Comece Sua Fortuna!",
         Festive: "Festivo",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Experimente a magia da temporada com as marcas de cassino mais quentes—desembrulhe surpresas emocionantes e recompensas festivas!",
         "Check your spam folder": "Verifique a pasta de spam",
-=======
+
         "Christmas Calendar": "Calendário de Natal",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Junte-se a nós para 15 dias de surpresas festivas! Desbloqueie bônus exclusivos, rodadas grátis e ofertas emocionantes dos melhores cassinos online - uma nova oferta todos os dias de 1 a 15 de dezembro!",
@@ -9127,7 +9127,7 @@ async function initializeI18n() {
           "OS MELHORES CASSINOS PARA VOCÊ TODOS OS DIAS: ESCOLHA O SEU",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Descubra marcas de primeira linha feitas sob medida para sua experiência de jogo definitiva. Escolha e comece a ganhar hoje mesmo!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
     se: {
@@ -9685,14 +9685,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "Dina bonusar är på väg, ett ögonblick..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Din julklapp väntar Börja ditt äventyr!",
         Festive: "Festlig",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Upplev säsongens magi med de hetaste casinovarumärkena—öppna spännande överraskningar och festliga belöningar!",
         "Check your spam folder": "Kontrollera din skräppostmapp",
-=======
+
         "Christmas Calendar": "Julkalender",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Delta med oss i 15 dagar av festliga överraskningar! Lås upp exklusiva bonusar, gratissnurr och spännande erbjudanden från de bästa onlinekasinona - ett nytt erbjudande varje dag från 1 till 15 december!",
@@ -9719,7 +9719,7 @@ async function initializeI18n() {
           "TOPPKASINON FÖR DIG VARJE DAG: VÄLJ DITT",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Upptäck topprankade märken anpassade för din ultimata spelupplevelse. Välj och börja vinna idag!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
     sk: {
@@ -10276,14 +10276,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "Vaše bonusy sú na ceste, chvíľku počkajte..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Váš vianočný darček čaká, začnite svoje šťastie!",
         Festive: "Sviatočný",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Zažite kúzlo sezóny s najhorúcejšími kasínovými značkami—rozbaľte vzrušujúce prekvapenia a sviatočné odmeny!",
         "Check your spam folder": "Skontrolujte priečinok so spamom",
-=======
+
         "Christmas Calendar": "Vianočný kalendár",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Pridajte sa k nám na 15 dní plných sviatočných prekvapení! Odomknite exkluzívne bonusy, voľné točenia a vzrušujúce ponuky od najlepších online kasín - každý deň nová ponuka od 1. do 15. decembra!",
@@ -10310,7 +10310,7 @@ async function initializeI18n() {
           "NAJLEPŠIE KASÍNA PRE VÁS KAŽDÝ DEŇ: VYBERTE SI SVOJE",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Objavte špičkové značky prispôsobené vášmu dokonalému hernému zážitku. Vyberte si a začnite vyhrávať ešte dnes!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
     tr: {
@@ -10867,14 +10867,14 @@ async function initializeI18n() {
         "Your bonuses are on the way, one moment..":
           "Bonuslarınız yolda, lütfen bir dakika..",
 
-<<<<<<< HEAD
+
         "Your Christmas Gift Awaits Start Your Fortune!":
           "Noel Hediyeniz Sizi Bekliyor Şansınızı Başlatın!",
         Festive: "Şenlikli",
         "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
           "Sezonun büyüsünü en popüler casino markalarıyla yaşayın—heyecan verici sürprizler ve festivallik ödüllerle tanışın!",
         "Check your spam folder": "Spam klasörünü kontrol edin",
-=======
+
         "Christmas Calendar": "Noel Takvimi",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
           "Bize 15 günlük festival sürprizlerine katılın! 1 Aralık'tan 15 Aralık'a kadar her gün yeni bir fırsatla en iyi online casinoların özel bonuslarını, bedava dönüşlerini ve heyecan verici tekliflerini açın!",
@@ -10901,7 +10901,7 @@ async function initializeI18n() {
           "HER GÜN SİZİN İÇİN EN İYİ CASİNOLAR: SEÇİMİNİZİ YAPIN",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Size özel oyun deneyimi için özenle seçilmiş en iyi markaları keşfedin. Şimdi seçin ve kazanmaya başlayın!",
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       },
     },
   };

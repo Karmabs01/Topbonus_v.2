@@ -14,7 +14,7 @@ interface Props {
   onChangeEmail: () => void;
 }
 
-const VerifyOtpForm: React.FC<Props> = ({ otpId, email, onChangeEmail }) => {
+const VerifyOtpForm: React.FC<Props> = ({ otpId, email, onOtpVerified, onChangeEmail }) => {
   const { t } = useTranslation();
   const router = useRouter();
 
@@ -48,7 +48,7 @@ const VerifyOtpForm: React.FC<Props> = ({ otpId, email, onChangeEmail }) => {
         // Перенаправление пользователя на главную страницу или другую целевую страницу
         // router.push('/'); // Используем useRouter для перенаправления
         // router.refresh(); 
-        window.location.href = '/';
+        window.location.href = 'https://bonus.easybon.us/';
       } else {
         setError(data.message || t("Error when verifying OTP."));
         setAttempts((prev) => prev + 1);

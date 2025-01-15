@@ -25,11 +25,11 @@ export default function Banner_small() {
 
   return (
     <>
-<<<<<<< HEAD
-     <div className="mb-8 otp-ver-if">
-=======
+
+     {/* <div className="mb-8 otp-ver-if"> */}
+
      <div className="mb-8 violet">
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
+
       <div id="vip" className="main__container">
         <div className="">
           <div className="flex px-2 py-2.5 sm:px-3.5 rounded-md mt-10 flex-col new-brands flex-col items-start b-vip">

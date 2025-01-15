@@ -67,13 +67,13 @@ export default function RootLayout({
           <OtpProvider>
             {/* Включаем наш клиентский компонент для захвата параметров */}
             <CaptureParams />
-            <Header_tailwind />
-            <Chat />
+            {/* <Header_tailwind /> */}
+            {/* <Chat /> */}
             <MainWrapper>
               {children}
-              <Analytics />
+              {/* <Analytics /> */}
             </MainWrapper>
-            <Footer_tailwind />
+            {/* <Footer_tailwind /> */}
           </OtpProvider>
         </LanguageProvider>
         <BackToTopButton />

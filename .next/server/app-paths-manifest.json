@@ -1,11 +1,7 @@
 {
   "/page": "app/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-<<<<<<< HEAD
   "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/api/send-otp/route": "app/api/send-otp/route.js",
   "/api/verify-otp/route": "app/api/verify-otp/route.js"
-=======
-  "/_not-found/page": "app/_not-found/page.js"
->>>>>>> 59da0652e58fd5cb7438dded52c23099696614e1
 }
