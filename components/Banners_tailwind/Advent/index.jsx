@@ -240,7 +240,7 @@ export default function Brands_carousel() {
           }
         }
         if (finalFilteredBrands.length < 6) {
-          finalFilteredBrands = data.slice(0, 5);
+          finalFilteredBrands = data.slice(0, 6);
         }
 
         // Проверяем присутствие приоритетных
@@ -305,7 +305,7 @@ export default function Brands_carousel() {
         // moveBrandToIndex(finalFilteredBrands, "Spinarium", 22);
         // moveBrandToIndex(finalFilteredBrands, "Bitstake", 23);
 
-        finalFilteredBrands = finalFilteredBrands.slice(0, 5);
+        finalFilteredBrands = finalFilteredBrands.slice(0, 6);
 
         setBrands(finalFilteredBrands);
         setLoading(false);
@@ -378,7 +378,7 @@ export default function Brands_carousel() {
 
 
 
-        fallbackBrands = fallbackBrands.slice(0, 5);
+        fallbackBrands = fallbackBrands.slice(0, 6);
 
         setBrands(fallbackBrands);
         setLoading(false);
