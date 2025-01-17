@@ -808,10 +808,12 @@ async function initializeI18n() {
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!",
 
-          "Unlock Your Exclusive": "Unlock Your Exclusive",
-          "Casino Surprise": "Casino Surprise",
-          "Top brands have been chosen for you!": "Top brands have been chosen for you!",
-          "Don’t miss your chance to check it out.": "Don’t miss your chance to check it out."
+        "Unlock Your Exclusive": "Unlock Your Exclusive",
+        "Casino Surprise": "Casino Surprise",
+        "Top brands have been chosen for you!":
+          "Top brands have been chosen for you!",
+        "Don’t miss your chance to check it out.":
+          "Don’t miss your chance to check it out.",
       },
     },
 
@@ -1402,6 +1404,13 @@ async function initializeI18n() {
           "NAJLEPSZE KASYNA DLA CIEBIE KAŻDEGO DNIA: WYBIERZ SWOJE",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Odkryj najwyżej oceniane marki dostosowane do Twojego idealnego doświadczenia w grze. Wybierz i zacznij wygrywać już dziś!",
+
+        "Unlock Your Exclusive": "Odblokuj swoją ekskluzywną",
+        "Casino Surprise": "Kasynową Niespodziankę",
+        "Top brands have been chosen for you!":
+          "Najlepsze marki zostały wybrane specjalnie dla Ciebie!",
+        "Don’t miss your chance to check it out.":
+          "Nie przegap okazji, aby to sprawdzić.",
       },
     },
     de: {
@@ -1993,6 +2002,13 @@ async function initializeI18n() {
           "TOP-CASINOS FÜR SIE JEDEN TAG: WÄHLEN SIE IHRES",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Entdecken Sie hochbewertete Marken, die für Ihr ultimatives Spielerlebnis maßgeschneidert sind. Wählen Sie und beginnen Sie noch heute zu gewinnen!",
+
+        "Unlock Your Exclusive": "Entdecke Deine exklusive",
+        "Casino Surprise": "Casino-Überraschung",
+        "Top brands have been chosen for you!":
+          "Top-Marken wurden für Dich ausgewählt!",
+        "Don’t miss your chance to check it out.":
+          "Verpasse nicht die Chance, es auszuprobieren.",
       },
     },
     bg: {
@@ -2575,6 +2591,13 @@ async function initializeI18n() {
           "НАЙ-ДОБРИТЕ КАЗИНА ЗА ВАС ВСЕКИ ДЕН: ИЗБЕРЕТЕ ВАШЕТО",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Открийте най-високо оценените марки, създадени специално за вашето уникално гейминг изживяване. Изберете и започнете да печелите още днес!",
+
+        "Unlock Your Exclusive": "Отключете вашата ексклузивна",
+        "Casino Surprise": "Казино изненада",
+        "Top brands have been chosen for you!":
+          "Топ марки са избрани специално за вас!",
+        "Don’t miss your chance to check it out.":
+          "Не пропускайте шанса да го проверите.",
       },
     },
     cz: {
@@ -3157,6 +3180,13 @@ async function initializeI18n() {
           "NEJLEPŠÍ KASINA PRO VÁS KAŽDÝ DEN: VYBERTE SI SVÉ",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Objevte špičkové značky přizpůsobené vašemu dokonalému hernímu zážitku. Vyberte si a začněte vyhrávat ještě dnes!",
+
+        "Unlock Your Exclusive": "Odemkněte svůj exkluzivní",
+        "Casino Surprise": "Kasino Překvapení",
+        "Top brands have been chosen for you!":
+          "Nejlepší značky byly vybrány přímo pro vás!",
+        "Don’t miss your chance to check it out.":
+          "Nenechte si ujít příležitost to vyzkoušet.",
       },
     },
     dk: {
@@ -3739,6 +3769,13 @@ async function initializeI18n() {
           "TOPCASINOER TIL DIG HVER DAG: VÆLG DIT",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Opdag topbedømte mærker skræddersyet til din ultimative spiloplevelse. Vælg og begynd at vinde i dag!",
+
+        "Unlock Your Exclusive": "Lås op for din eksklusive",
+        "Casino Surprise": "Casino Overraskelse",
+        "Top brands have been chosen for you!":
+          "Topmærker er valgt specielt til dig!",
+        "Don’t miss your chance to check it out.":
+          "Gå ikke glip af chancen for at tjekke det ud.",
       },
     },
     nl: {
@@ -4325,6 +4362,13 @@ async function initializeI18n() {
           "TOPCASINO’S VOOR JOU ELKE DAG: KIES DE JOUWE",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Ontdek topmerken die zijn afgestemd op jouw ultieme speelervaring. Kies en begin vandaag nog met winnen!",
+
+        "Unlock Your Exclusive": "Ontgrendel jouw exclusieve",
+        "Casino Surprise": "Casino Verrassing",
+        "Top brands have been chosen for you!":
+          "Topmerken zijn speciaal voor jou geselecteerd!",
+        "Don’t miss your chance to check it out.":
+          "Mis je kans niet om het te bekijken.",
       },
     },
     es: {
@@ -4910,6 +4954,13 @@ async function initializeI18n() {
           "LOS MEJORES CASINOS PARA TI CADA DÍA: ELIGE EL TUYO",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Descubre las marcas mejor valoradas, diseñadas para ofrecerte la mejor experiencia de juego. ¡Elige y empieza a ganar hoy!",
+
+        "Unlock Your Exclusive": "Desbloquea tu exclusiva",
+        "Casino Surprise": "Sorpresa de Casino",
+        "Top brands have been chosen for you!":
+          "¡Las mejores marcas han sido seleccionadas para ti!",
+        "Don’t miss your chance to check it out.":
+          "No pierdas la oportunidad de comprobarlo.",
       },
     },
     fi: {
@@ -5491,6 +5542,13 @@ async function initializeI18n() {
           "PARHAAT KASINOT SINULLE JOKA PÄIVÄ: VALITSE OMASI",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Löydä huippuluokitellut brändit, jotka on räätälöity juuri sinun pelihetkiisi. Valitse ja aloita voittaminen jo tänään!",
+
+        "Unlock Your Exclusive": "Avaa eksklusiivinen",
+        "Casino Surprise": "Kasinoyllätyksesi",
+        "Top brands have been chosen for you!":
+          "Huippumerkit on valittu juuri sinulle!",
+        "Don’t miss your chance to check it out.":
+          "Älä missaa tilaisuuttasi tarkistaa se.",
       },
     },
     fr: {
@@ -6078,6 +6136,13 @@ async function initializeI18n() {
           "LES MEILLEURS CASINOS POUR VOUS CHAQUE JOUR : CHOISISSEZ LE VÔTRE",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Découvrez des marques de premier choix adaptées à votre expérience de jeu ultime. Choisissez et commencez à gagner dès aujourd’hui !",
+
+        "Unlock Your Exclusive": "Débloquez votre exclusif",
+        "Casino Surprise": "Cadeau Casino",
+        "Top brands have been chosen for you!":
+          "Les meilleures marques ont été sélectionnées pour vous !",
+        "Don’t miss your chance to check it out.":
+          "Ne manquez pas l’occasion de découvrir cela.",
       },
     },
 
@@ -6661,6 +6726,13 @@ async function initializeI18n() {
           "ΤΑ ΚΑΛΥΤΕΡΑ ΚΑΖΙΝΟ ΓΙΑ ΕΣΑΣ ΚΑΘΕ ΜΕΡΑ: ΕΠΙΛΕΞΤΕ ΤΟ ΔΙΚΟ ΣΑΣ",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Ανακαλύψτε κορυφαίες μάρκες προσαρμοσμένες στη μέγιστη εμπειρία σας στο παιχνίδι. Επιλέξτε και ξεκινήστε να κερδίζετε σήμερα!",
+
+        "Unlock Your Exclusive": "Ξεκλειδώστε την αποκλειστική σας",
+        "Casino Surprise": "Καζίνο Έκπληξη",
+        "Top brands have been chosen for you!":
+          "Οι κορυφαίες μάρκες έχουν επιλεγεί για εσάς!",
+        "Don’t miss your chance to check it out.":
+          "Μην χάσετε την ευκαιρία να το εξερευνήσετε.",
       },
     },
     hu: {
@@ -7244,6 +7316,13 @@ async function initializeI18n() {
           "LEGJOBB KASZINÓK NEKED MINDEN NAP: VÁLASZD KI A SAJÁTOD",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Fedezd fel a legjobbra értékelt márkákat, amelyek az ideális játékélményedhez igazodnak. Válassz, és kezdj el nyerni még ma!",
+
+        "Unlock Your Exclusive": "Oldja fel exkluzív",
+        "Casino Surprise": "Kaszinó Meglepetését",
+        "Top brands have been chosen for you!":
+          "A legjobb márkák kifejezetten Önnek lettek kiválasztva!",
+        "Don’t miss your chance to check it out.":
+          "Ne hagyja ki az alkalmat, hogy kipróbálja.",
       },
     },
     it: {
@@ -7830,6 +7909,13 @@ async function initializeI18n() {
           "I MIGLIORI CASINO PER TE OGNI GIORNO: SCEGLI IL TUO",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Scopri i brand più apprezzati, pensati per offrirti un’esperienza di gioco unica. Scegli e inizia a vincere oggi stesso!",
+
+        "Unlock Your Exclusive": "Sblocca la tua esclusiva",
+        "Casino Surprise": "Sorpresa del Casinò",
+        "Top brands have been chosen for you!":
+          "I migliori marchi sono stati scelti per te!",
+        "Don’t miss your chance to check it out.":
+          "Non perdere l'occasione di scoprirli.",
       },
     },
     no: {
@@ -8413,6 +8499,13 @@ async function initializeI18n() {
           "TOPPKASINOER FOR DEG HVER DAG: VELG DITT",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Oppdag topprangerte merker skreddersydd for din ultimate spillopplevelse. Velg og begynn å vinne i dag!",
+
+        "Unlock Your Exclusive": "Lås opp din eksklusive",
+        "Casino Surprise": "Casino Overraskelse",
+        "Top brands have been chosen for you!":
+          "Toppmerker er valgt spesielt for deg!",
+        "Don’t miss your chance to check it out.":
+          "Ikke gå glipp av sjansen til å sjekke det ut.",
       },
     },
     pt: {
@@ -8998,6 +9091,13 @@ async function initializeI18n() {
           "OS MELHORES CASSINOS PARA VOCÊ TODOS OS DIAS: ESCOLHA O SEU",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Descubra marcas de primeira linha feitas sob medida para sua experiência de jogo definitiva. Escolha e comece a ganhar hoje mesmo!",
+
+        "Unlock Your Exclusive": "Desbloqueie sua exclusiva",
+        "Casino Surprise": "Surpresa de Cassino",
+        "Top brands have been chosen for you!":
+          "As melhores marcas foram escolhidas para você!",
+        "Don’t miss your chance to check it out.":
+          "Não perca a chance de conferir.",
       },
     },
     se: {
@@ -9581,6 +9681,13 @@ async function initializeI18n() {
           "TOPPKASINON FÖR DIG VARJE DAG: VÄLJ DITT",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Upptäck topprankade märken anpassade för din ultimata spelupplevelse. Välj och börja vinna idag!",
+
+        "Unlock Your Exclusive": "Lås upp din exklusiva",
+        "Casino Surprise": "Casinoöverraskning",
+        "Top brands have been chosen for you!":
+          "Toppmärken har valts ut för dig!",
+        "Don’t miss your chance to check it out.":
+          "Missa inte chansen att kolla in det.",
       },
     },
     sk: {
@@ -10163,6 +10270,13 @@ async function initializeI18n() {
           "NAJLEPŠIE KASÍNA PRE VÁS KAŽDÝ DEŇ: VYBERTE SI SVOJE",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Objavte špičkové značky prispôsobené vášmu dokonalému hernému zážitku. Vyberte si a začnite vyhrávať ešte dnes!",
+
+        "Unlock Your Exclusive": "Odomknite si svoju exkluzívnu",
+        "Casino Surprise": "Kasínovú Prekvapenie",
+        "Top brands have been chosen for you!":
+          "Najlepšie značky boli vybrané špeciálne pre vás!",
+        "Don’t miss your chance to check it out.":
+          "Nenechajte si ujsť príležitosť to skontrolovať.",
       },
     },
     tr: {
@@ -10745,6 +10859,13 @@ async function initializeI18n() {
           "HER GÜN SİZİN İÇİN EN İYİ CASİNOLAR: SEÇİMİNİZİ YAPIN",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
           "Size özel oyun deneyimi için özenle seçilmiş en iyi markaları keşfedin. Şimdi seçin ve kazanmaya başlayın!",
+
+        "Unlock Your Exclusive": "Özel",
+        "Casino Surprise": "Casino Sürprizinizi Açın",
+        "Top brands have been chosen for you!":
+          "Sizin için en iyi markalar seçildi!",
+        "Don’t miss your chance to check it out.":
+          "Kaçırmayın, mutlaka göz atın.",
       },
     },
   };
