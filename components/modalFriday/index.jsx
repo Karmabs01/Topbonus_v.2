@@ -69,7 +69,7 @@ const BasicModal = () => {
     const lastShownDate = localStorage.getItem("modalShownDate");
 
 
-    if (lastShownDate === today) {
+    if (lastShownDate !== today) {
       const timeoutId = setTimeout(() => {
         setOpen(true);
         
