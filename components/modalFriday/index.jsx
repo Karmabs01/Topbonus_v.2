@@ -9,7 +9,7 @@ import { useLanguage } from "@/components/switcher/LanguageContext";
 const BasicModal = () => {
   const [open, setOpen] = useState(false);
   const { t } = useTranslation();
-  const TIMEOUT_DELAY = 10000; // 10 секунд
+  const TIMEOUT_DELAY = 5000; // 10 секунд
   const { language } = useLanguage();
   const [newUrl, setNewUrl] = useState("");
   useEffect(() => {
@@ -72,6 +72,7 @@ const BasicModal = () => {
     if (lastShownDate !== today) {
       const timeoutId = setTimeout(() => {
         setOpen(true);
+        
         localStorage.setItem("modalShownDate", today); // Сохранение даты показа
       }, TIMEOUT_DELAY);
 
@@ -82,7 +83,7 @@ const BasicModal = () => {
   const handleClose = () => setOpen(false);
 
   const [brands, setBrands] = useState([]);
-  const categoryBrands = { key1: "Video", key2: "friday" };
+  const categoryBrands = { key1: "Hottest", key2: "50" };
 
   const { data, error } = useSWR(
     ["brands", language],
@@ -181,21 +182,21 @@ const BasicModal = () => {
             </button>
             <div className="custom-modal-content">
               <h2 className="custom-modal-title">
-                {t("Don’t Miss Out on Your")}{" "}
-                <span>{t("Black Friday Fortune")}</span>
+                {t("Unlock Your Exclusive")}{" "}
+                <span>{t("Casino Surprise")}</span>
               </h2>
               <p className="custom-modal-description">
-                <span>{t("Time’s running out!")}</span>
+                <span>{t("Top brands have been chosen for you!")}</span>
                 <br />
-                {t("Grab your exclusive casino deal before it disappears!")}
+                {t("Don’t miss your chance to check it out.")}
               </p>
 
               <div>
                 {brands.length > 0 ? (
-                  brands.slice(0, 3).map((rowData, index) => (
+                  brands.slice(0, 1).map((rowData, index) => (
                     <Link
                       key={index} // Добавляем уникальный ключ для каждого элемента
-                      className="mt-3 flex items-center card-pop"
+                      className="mt-3 flex items-center card-pop flex-col"
                       // href={`${rowData.GoBig}/${newUrl}&creative_id=Black_Friday`}
                       href={`${rowData.GoBig}/${newUrl}&creative_id=Popup_BF`}
                       target="_blank"
@@ -203,7 +204,7 @@ const BasicModal = () => {
                       <Image
                         src={`/brands/${rowData.CasinoBrand}.png`}
                         alt={rowData.CasinoBrand}
-                        width={85}
+                        width={150}
                         height={44}
                         loading="lazy"
                       />

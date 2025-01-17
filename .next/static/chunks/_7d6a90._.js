@@ -623,7 +623,10 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!",
+                "": "",
+                "": "",
+                "": ""
             }
         },
         pl: {
