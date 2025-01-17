@@ -13948,13 +13948,13 @@ ul.ul-list a {
   max-width: 163px;
   margin-left: 5px;
   color: #fff !important;
-  text-align: left !important;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+  text-align: center !important;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
 }
 
 .btn-crd-pop {
-  margin-left: auto !important;
+  width: 150px;
 }
 
 .btn-crd-pop > div {
@@ -13967,7 +13967,7 @@ ul.ul-list a {
 
 .card-pop {
   background: #ffffff1a;
-  padding: 5px;
+  padding: 5px 5px 15px;
 }
 
 @media (width >= 320px) and (width <= 767px) {

@@ -22,7 +22,7 @@ import Advent from "@/components/Banners_tailwind/Advent";
 import FilteredHome from "@/components/Brands_home/FilteredHome";
 import Fortunes from "@/components/fortune";
 import NewArrivals from "@/components/newArrivals/NewArrivals";
-// import BasicModal from "@/components/modalFriday";
+import BasicModal from "@/components/modalFriday";
 // import Loader from "@/components/Loader";
 
 export const metadata: Metadata = {
@@ -37,7 +37,7 @@ export default async function Home() {
   const creative = "FW_Brands_Main_Page_2";
   return (
     <>
-
+      <BasicModal />
       <Three_part_gallery />
       <Advent />
       <TopBrands />
