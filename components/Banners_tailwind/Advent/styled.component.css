@@ -101,8 +101,13 @@
   border-radius: 32px;
 }
 .nonoact {
-  width: 256px;
-  height: 128px;
+  width: 146px;
+  height: 73px;
+}
+#advent .card-sl img {
+  width: 146px;
+  height: 73px;
+  min-height: 73px !important;
 }
 .card-advent:nth-child(1) .dated,
 .card-advent:nth-child(4) .dated{
@@ -159,7 +164,7 @@
   background-position: top center;
 }
 .closed .btn-play {
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .closed .dated {

@@ -2618,7 +2618,6 @@ function Popular_offers() {
     // Список брендов, которые вы хотите закрепить
     const pinnedBrandsList = [
         "Winbay",
-        "FairPari",
         "Luckychoo"
     ];
     // Массив состояний для закреплённых и остальных
@@ -3147,50 +3146,27 @@ function Brands_carousel() {
     // «Карусель»: какой индекс сейчас показывается (если вообще нужно автопереключение)
     const [currentBrandIndex, setCurrentBrandIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     const [fade, setFade] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
-    // Список «активированных» карточек (индексы 0..23)
-    const [activatedBrands, setActivatedBrands] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
+    // Состояния для активации карточек
+    const [lastActivationDate, setLastActivationDate] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [activatedCardIndex, setActivatedCardIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     const { language } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"])();
-    // ====== НАЧАЛО: Логика адвента (даты) ======
-    // Адвент стартует 15 декабря 2024 (индекс=0) и длится 24 дня (до 7 января 2025).
-    // Если хотите на 2023/2024, смените год на 2023.
-    const ADVENT_START = new Date(2025, 0, 10); // 11 = декабрь, день 15
-    // Сколько дней прошло с 15 декабря 2024 по «сейчас»
-    function getTodayDiff() {
-        const now = new Date();
-        const diffMs = now - ADVENT_START;
-        return Math.floor(diffMs / (1000 * 60 * 60 * 24));
-    }
-    // Возвращает строку «15 Dec», «16 Dec», «1 Jan» и т. п. для index=0..23
-    function formatAdventDate(index) {
-        const date = new Date(ADVENT_START);
-        date.setDate(date.getDate() + index);
-        const day = date.getDate();
-        const month = date.getMonth(); // 11 = Dec, 0 = Jan
-        let monthStr;
-        if (month === 1) monthStr = "Jan";
-        else if (month === 0) monthStr = "Jan";
-        else monthStr = "???";
-        return `${day} ${monthStr}`;
-    }
-    // Если index > getTodayDiff(), день считается «будущим» (locked)
-    function isDayLocked(index) {
-        return index > getTodayDiff();
-    }
-    // ====== КОНЕЦ: Логика адвента ======
-    // Загружаем «активированные» карточки из localStorage
+    // Загружаем «активированные» данные из localStorage
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        const savedActivatedBrands = localStorage.getItem("activatedBrands2");
-        if (savedActivatedBrands) {
-            setActivatedBrands(JSON.parse(savedActivatedBrands));
+        const savedActivationDate = localStorage.getItem("lastActivationDate");
+        const savedActivatedCard = localStorage.getItem("activatedCardIndex");
+        const today = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
+        if (savedActivationDate === today) {
+            setLastActivationDate(savedActivationDate);
+            setActivatedCardIndex(savedActivatedCard !== null ? parseInt(savedActivatedCard) : null);
+        } else {
+            // Если дата изменилась, сбрасываем активацию
+            localStorage.removeItem("lastActivationDate");
+            localStorage.removeItem("activatedCardIndex");
+            setLastActivationDate(null);
+            setActivatedCardIndex(null);
         }
     }, []);
-    // Сохраняем «активированные» в localStorage при каждом изменении
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        localStorage.setItem("activatedBrands2", JSON.stringify(activatedBrands));
-    }, [
-        activatedBrands
-    ]);
     // Подчищаем URL, извлекаем партнёров и т. п. (ваш код)
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const currentUrl = window.location.href;
@@ -3302,16 +3278,16 @@ function Brands_carousel() {
                     finalFilteredBrands = finalFilteredBrands.filter((brand)=>!salesCampaignIds.includes(brand.KeitaroGoBigID) && !salesCampaignIds.includes(brand.KeitaroR2dID));
                 }
                 // Гарантируем хотя бы 24
-                if (finalFilteredBrands.length < 6) {
-                    const needed = 6 - finalFilteredBrands.length;
+                if (finalFilteredBrands.length < 5) {
+                    const needed = 5 - finalFilteredBrands.length;
                     const usedBrands = new Set(finalFilteredBrands.map((b)=>b.CasinoBrand));
                     let additional = data.filter((brand)=>!usedBrands.has(brand.CasinoBrand) && !(salesCampaignIds.includes(brand.KeitaroGoBigID) || salesCampaignIds.includes(brand.KeitaroR2dID)));
                     if (additional.length > 0) {
                         finalFilteredBrands = finalFilteredBrands.concat(additional.slice(0, needed));
                     }
                 }
-                if (finalFilteredBrands.length < 6) {
-                    finalFilteredBrands = data.slice(0, 6);
+                if (finalFilteredBrands.length < 5) {
+                    finalFilteredBrands = data.slice(0, 5);
                 }
                 // Проверяем присутствие приоритетных
                 const ensureBrandInList = (brandName)=>{
@@ -3342,25 +3318,7 @@ function Brands_carousel() {
                 moveBrandToIndex(finalFilteredBrands, "LuckyChoo", 3);
                 moveBrandToIndex(finalFilteredBrands, "FairPari", 4);
                 moveBrandToIndex(finalFilteredBrands, "Winbay", 5);
-                // moveBrandToIndex(finalFilteredBrands, "SpinFest", 6);
-                // moveBrandToIndex(finalFilteredBrands, "Erabet", 7);
-                // moveBrandToIndex(finalFilteredBrands, "MyEmpire", 8);
-                // moveBrandToIndex(finalFilteredBrands, "RollingSlots", 9);
-                // moveBrandToIndex(finalFilteredBrands, "WinWin.Bet", 10);
-                // moveBrandToIndex(finalFilteredBrands, "Casinia", 11);
-                // moveBrandToIndex(finalFilteredBrands, "SpinFest", 12);
-                // moveBrandToIndex(finalFilteredBrands, "Goldencrown", 13);
-                // moveBrandToIndex(finalFilteredBrands, "Spinsup", 14);
-                // moveBrandToIndex(finalFilteredBrands, "Smokace", 15);
-                // moveBrandToIndex(finalFilteredBrands, "Legiano", 16);
-                // moveBrandToIndex(finalFilteredBrands, "HeroSpin", 17);
-                // moveBrandToIndex(finalFilteredBrands, "RocketSpin", 18);
-                // moveBrandToIndex(finalFilteredBrands, "Winbay", 19);
-                // moveBrandToIndex(finalFilteredBrands, "Trino", 20);
-                // moveBrandToIndex(finalFilteredBrands, "Betplays", 21);
-                // moveBrandToIndex(finalFilteredBrands, "Spinarium", 22);
-                // moveBrandToIndex(finalFilteredBrands, "Bitstake", 23);
-                finalFilteredBrands = finalFilteredBrands.slice(0, 6);
+                finalFilteredBrands = finalFilteredBrands.slice(0, 5);
                 setBrands(finalFilteredBrands);
                 setLoading(false);
             } catch (error) {
@@ -3393,25 +3351,7 @@ function Brands_carousel() {
                 moveBrandToIndex(fallbackBrands, "LuckyChoo", 3);
                 moveBrandToIndex(fallbackBrands, "FairPari", 4);
                 moveBrandToIndex(fallbackBrands, "Winbay", 5);
-                // moveBrandToIndex(fallbackBrands, "SpinFest", 6);
-                // moveBrandToIndex(fallbackBrands, "Erabet", 7);
-                // moveBrandToIndex(fallbackBrands, "MyEmpire", 8);
-                // moveBrandToIndex(fallbackBrands, "Rolling slots", 9);
-                // moveBrandToIndex(fallbackBrands, "WinWin.Bet", 10);
-                // moveBrandToIndex(fallbackBrands, "Casinia", 11);
-                // moveBrandToIndex(fallbackBrands, "SpinFest", 12);
-                // moveBrandToIndex(fallbackBrands, "Goldencrown", 13);
-                // moveBrandToIndex(fallbackBrands, "Spinsup", 14);
-                // moveBrandToIndex(fallbackBrands, "Smokace", 15);
-                // moveBrandToIndex(fallbackBrands, "Legiano", 16);
-                // moveBrandToIndex(fallbackBrands, "HeroSpin", 17);
-                // moveBrandToIndex(fallbackBrands, "RocketSpin", 18);
-                // moveBrandToIndex(fallbackBrands, "Winbay", 19);
-                // moveBrandToIndex(fallbackBrands, "Trino", 20);
-                // moveBrandToIndex(fallbackBrands, "Betplays", 21);
-                // moveBrandToIndex(fallbackBrands, "Spinarium", 22);
-                // moveBrandToIndex(fallbackBrands, "Bitstake", 23);
-                fallbackBrands = fallbackBrands.slice(0, 6);
+                fallbackBrands = fallbackBrands.slice(0, 5);
                 setBrands(fallbackBrands);
                 setLoading(false);
             }
@@ -3438,14 +3378,21 @@ function Brands_carousel() {
     }, [
         brands.length
     ]);
+    // Функция для получения текущей даты в формате YYYY-MM-DD
+    const getTodayDateString = ()=>{
+        return new Date().toISOString().split("T")[0];
+    };
     // Когда пользователь жмёт «Activate»
     const handleActivate = (index)=>{
-        if (!isDayLocked(index) && !activatedBrands.includes(index)) {
-            setActivatedBrands((prev)=>[
-                    ...prev,
-                    index
-                ]);
+        const today = getTodayDateString();
+        if (lastActivationDate === today) {
+            alert(t("You have already activated a card today."));
+            return;
         }
+        setActivatedCardIndex(index);
+        setLastActivationDate(today);
+        localStorage.setItem("activatedCardIndex", index);
+        localStorage.setItem("lastActivationDate", today);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3455,56 +3402,49 @@ function Brands_carousel() {
                 className: "main__container advnt",
                 children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                    lineNumber: 423,
+                    lineNumber: 351,
                     columnNumber: 13
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-3xl font-bold tracking-tight text-white random-title mb-3 text-center",
-                            children: t("TOP BRANDS FOR YOU EVERY DAY: PICK YOURS")
+                            children: t("Winter Storm of Wins: Catch Your Snowflake of Luck")
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                            lineNumber: 426,
+                            lineNumber: 354,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "mb-3 text-center text-white",
-                            children: t("Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!")
+                            children: t("Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.")
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                            lineNumber: 429,
+                            lineNumber: 357,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "w-full brand_carousel rounded-md flex justify-between items-center flex-wrap mt-6",
+                            className: "w-full brand_carousel rounded-md flex justify-between items-center flex-wrap mt-10",
                             children: [
-                                Array.from({
-                                    length: 6
-                                }).map((_, index)=>{
-                                    // locked (в будущем) или нет
-                                    const locked = isDayLocked(index);
-                                    // активирован?
-                                    const isActivated = activatedBrands.includes(index);
-                                    // строка вида "15 Dec", "16 Dec", "1 Jan"...
-                                    const dayLabel = formatAdventDate(index);
-                                    // Берём бренд из массива (если он там есть)
-                                    // Например, brands[0] будет для index=0 (15 Dec)
-                                    // brands[1] => 16 Dec и т.д.
-                                    const rowData = brands[index] || {};
-                                    // Определяем класс
+                                brands.map((rowData, index)=>{
+                                    // Определяем, была ли карточка активирована сегодня
+                                    const isActivated = activatedCardIndex === index;
+                                    const isActivatedToday = lastActivationDate === getTodayDateString();
+                                    // Определяем состояние карточки
                                     let cardState;
-                                    if (isActivated) cardState = "activate";
-                                    else if (locked) cardState = "closed";
-                                    else cardState = "opened";
+                                    if (isActivated && isActivatedToday) cardState = "activate";
+                                    else cardState = "closed"; // Все остальные карточки закрыты
                                     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: `card-advent rounded-xl flex flex-col justify-between basis-[32%] relative mt-16 ${cardState}`,
+                                        className: `card-advent rounded-xl flex flex-col justify-between basis-[19%] relative mt-16 ${cardState}`,
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "dated",
-                                                children: dayLabel
-                                            }, void 0, false, {
+                                                children: [
+                                                    "#",
+                                                    index + 1
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                lineNumber: 459,
+                                                lineNumber: 378,
                                                 columnNumber: 23
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3513,7 +3453,7 @@ function Brands_carousel() {
                                                     className: "mx-auto max-w-2xl lg:mx-0 flex flex-row card-sl",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "w-full",
-                                                        children: isActivated ? // День открыт (активирован)
+                                                        children: isActivated && isActivatedToday ? // Карточка активирована
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex flex-col items-center",
                                                             children: [
@@ -3529,12 +3469,12 @@ function Brands_carousel() {
                                                                         loading: "lazy"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                        lineNumber: 471,
+                                                                        lineNumber: 390,
                                                                         columnNumber: 35
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 466,
+                                                                    lineNumber: 385,
                                                                     columnNumber: 33
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3542,7 +3482,7 @@ function Brands_carousel() {
                                                                     children: rowData.OurOfferContent || "Offer details..."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 479,
+                                                                    lineNumber: 398,
                                                                     columnNumber: 33
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -3552,15 +3492,15 @@ function Brands_carousel() {
                                                                     children: t("Play Now")
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 482,
+                                                                    lineNumber: 401,
                                                                     columnNumber: 33
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                            lineNumber: 465,
+                                                            lineNumber: 384,
                                                             columnNumber: 31
-                                                        }, this) : locked ? // Будущее
+                                                        }, this) : // Карточка не активирована
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex flex-col items-center",
                                                             children: [
@@ -3568,84 +3508,66 @@ function Brands_carousel() {
                                                                     className: "mt-3 mb-2 nonoact"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 493,
+                                                                    lineNumber: 412,
                                                                     columnNumber: 33
                                                                 }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    className: "!m-0",
-                                                                    children: t("Not Yet Available")
+                                                                lastActivationDate === getTodayDateString() ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                    className: "!m-0 text-white",
+                                                                    children: t("You have activated a card today")
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 494,
-                                                                    columnNumber: 33
+                                                                    lineNumber: 414,
+                                                                    columnNumber: 35
+                                                                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                    className: "!m-0",
+                                                                    children: t("Ready to Activate")
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
+                                                                    lineNumber: 418,
+                                                                    columnNumber: 35
                                                                 }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                                lastActivationDate === getTodayDateString() ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                     disabled: true,
                                                                     className: "relative btn-play btn-blick overflow-hidden not-yet",
                                                                     children: t("Not Yet")
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 497,
-                                                                    columnNumber: 33
-                                                                }, this)
-                                                            ]
-                                                        }, void 0, true, {
-                                                            fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                            lineNumber: 492,
-                                                            columnNumber: 31
-                                                        }, this) : // День наступил, но не активирован
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "flex flex-col items-center",
-                                                            children: [
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "mt-3 mb-2 opennow nonoact"
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 507,
-                                                                    columnNumber: 33
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    className: "!m-0",
-                                                                    children: t("Ready to Activate")
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 508,
-                                                                    columnNumber: 33
-                                                                }, this),
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                                    lineNumber: 423,
+                                                                    columnNumber: 35
+                                                                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                     className: "relative btn-play btn-blick overflow-hidden",
                                                                     onClick: ()=>handleActivate(index),
                                                                     children: t("Activate")
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 511,
-                                                                    columnNumber: 33
+                                                                    lineNumber: 430,
+                                                                    columnNumber: 35
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                            lineNumber: 506,
+                                                            lineNumber: 411,
                                                             columnNumber: 31
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                        lineNumber: 462,
+                                                        lineNumber: 381,
                                                         columnNumber: 27
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                    lineNumber: 461,
+                                                    lineNumber: 380,
                                                     columnNumber: 25
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                lineNumber: 460,
+                                                lineNumber: 379,
                                                 columnNumber: 23
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                        lineNumber: 455,
+                                        lineNumber: 374,
                                         columnNumber: 21
                                     }, this);
                                 }),
@@ -3654,34 +3576,34 @@ function Brands_carousel() {
                                     children: t("No Brands Available")
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                    lineNumber: 527,
+                                    lineNumber: 447,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                            lineNumber: 434,
+                            lineNumber: 362,
                             columnNumber: 15
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                    lineNumber: 425,
+                    lineNumber: 353,
                     columnNumber: 13
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                lineNumber: 421,
+                lineNumber: 349,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-            lineNumber: 420,
+            lineNumber: 348,
             columnNumber: 7
         }, this)
     }, void 0, false);
 }
-_s(Brands_carousel, "LbxmD5A955qJOnFdOu6zhGjgjdk=", false, function() {
+_s(Brands_carousel, "J0ek+hmN/MAlxHda+M2aX4f3SU0=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"],
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"],
@@ -3775,7 +3697,7 @@ const BasicModal = ()=>{
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const today = new Date().toISOString().split("T")[0]; // Текущая дата
         const lastShownDate = localStorage.getItem("modalShownDate");
-        if (lastShownDate === today) {
+        if (lastShownDate !== today) {
             const timeoutId = setTimeout(()=>{
                 setOpen(true);
                 localStorage.setItem("modalShownDate", today); // Сохранение даты показа
