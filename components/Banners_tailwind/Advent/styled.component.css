@@ -93,9 +93,16 @@
   border-radius: 32px;
 }
 .nonoact {
-  width: 256px;
-  height: 128px;
+  width: 146px;
+  height: 73px;
   background-size: cover !important;
+}
+#advent .card-sl img {
+  width: 146px;
+  height: 73px;
+}
+#advent .card-sl img {
+  min-height: 73px !important;
 }
 .card-advent:nth-child(1) .dated,
 .card-advent:nth-child(4) .dated {
@@ -147,7 +154,7 @@
   background: url(/newimages/box_1_dark.png) no-repeat top center;
 }
 .closed .btn-play {
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .closed .dated {
@@ -181,7 +188,7 @@
     background: url(/newimages/bgmomob2.png);
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: contain;
+    background-size: 430px;
   }
   .opened,
   .closed {

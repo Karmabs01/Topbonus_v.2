@@ -22,55 +22,30 @@ export default function Brands_carousel() {
   const [currentBrandIndex, setCurrentBrandIndex] = useState(0);
   const [fade, setFade] = useState(true);
 
-  // Список «активированных» карточек (индексы 0..23)
-  const [activatedBrands, setActivatedBrands] = useState([]);
+  // Состояния для активации карточек
+  const [lastActivationDate, setLastActivationDate] = useState(null);
+  const [activatedCardIndex, setActivatedCardIndex] = useState(null);
 
   const { language } = useLanguage();
   const { t } = useTranslation();
 
-  // ====== НАЧАЛО: Логика адвента (даты) ======
-  // Адвент стартует 15 декабря 2024 (индекс=0) и длится 24 дня (до 7 января 2025).
-  // Если хотите на 2023/2024, смените год на 2023.
-  const ADVENT_START = new Date(2025, 0, 10); // 11 = декабрь, день 15
-
-  // Сколько дней прошло с 15 декабря 2024 по «сейчас»
-  function getTodayDiff() {
-    const now = new Date();
-    const diffMs = now - ADVENT_START;
-    return Math.floor(diffMs / (1000 * 60 * 60 * 24));
-  }
-
-  // Возвращает строку «15 Dec», «16 Dec», «1 Jan» и т. п. для index=0..23
-  function formatAdventDate(index) {
-    const date = new Date(ADVENT_START);
-    date.setDate(date.getDate() + index);
-    const day = date.getDate();
-    const month = date.getMonth(); // 11 = Dec, 0 = Jan
-    let monthStr;
-    if (month === 1) monthStr = "Jan";
-    else if (month === 0) monthStr = "Jan";
-    else monthStr = "???";
-    return `${day} ${monthStr}`;
-  }
-
-  // Если index > getTodayDiff(), день считается «будущим» (locked)
-  function isDayLocked(index) {
-    return index > getTodayDiff();
-  }
-  // ====== КОНЕЦ: Логика адвента ======
-
-  // Загружаем «активированные» карточки из localStorage
+  // Загружаем «активированные» данные из localStorage
   useEffect(() => {
-    const savedActivatedBrands = localStorage.getItem("activatedBrands2");
-    if (savedActivatedBrands) {
-      setActivatedBrands(JSON.parse(savedActivatedBrands));
+    const savedActivationDate = localStorage.getItem("lastActivationDate");
+    const savedActivatedCard = localStorage.getItem("activatedCardIndex");
+    const today = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
+
+    if (savedActivationDate === today) {
+      setLastActivationDate(savedActivationDate);
+      setActivatedCardIndex(savedActivatedCard !== null ? parseInt(savedActivatedCard) : null);
+    } else {
+      // Если дата изменилась, сбрасываем активацию
+      localStorage.removeItem("lastActivationDate");
+      localStorage.removeItem("activatedCardIndex");
+      setLastActivationDate(null);
+      setActivatedCardIndex(null);
     }
   }, []);
-
-  // Сохраняем «активированные» в localStorage при каждом изменении
-  useEffect(() => {
-    localStorage.setItem("activatedBrands2", JSON.stringify(activatedBrands));
-  }, [activatedBrands]);
 
   // Подчищаем URL, извлекаем партнёров и т. п. (ваш код)
   useEffect(() => {
@@ -143,24 +118,7 @@ export default function Brands_carousel() {
     "LuckyChoo",
     "FairPari",
     "Winbay",
-    // "SpinFest",
-    // "Erabet",
-    // "MyEmpire",
-    // "RollingSlots",
-    // "WinWin.Bet",
-    // "Casinia",
-    // "Luckychoo",
-    // "Goldencrown",
-    // "Spinsup",
-    // "Smokace",
-    // "Legiano",
-    // "HeroSpin",
-    // "RocketSpin",
-    // "Winbay",
-    // "Trino",
-    // "Betplays",
-    // "Spinarium",
-    // "Bitstake",
+    // Другие бренды можно добавить по необходимости
   ];
 
   // Основные категории, как в вашем коде
@@ -219,8 +177,8 @@ export default function Brands_carousel() {
         }
 
         // Гарантируем хотя бы 24
-        if (finalFilteredBrands.length < 6) {
-          const needed = 6 - finalFilteredBrands.length;
+        if (finalFilteredBrands.length < 5) {
+          const needed = 5 - finalFilteredBrands.length;
           const usedBrands = new Set(
             finalFilteredBrands.map((b) => b.CasinoBrand)
           );
@@ -239,8 +197,8 @@ export default function Brands_carousel() {
             );
           }
         }
-        if (finalFilteredBrands.length < 6) {
-          finalFilteredBrands = data.slice(0, 6);
+        if (finalFilteredBrands.length < 5) {
+          finalFilteredBrands = data.slice(0, 5);
         }
 
         // Проверяем присутствие приоритетных
@@ -286,26 +244,7 @@ export default function Brands_carousel() {
         moveBrandToIndex(finalFilteredBrands, "FairPari", 4);
         moveBrandToIndex(finalFilteredBrands, "Winbay", 5);
 
-        // moveBrandToIndex(finalFilteredBrands, "SpinFest", 6);
-        // moveBrandToIndex(finalFilteredBrands, "Erabet", 7);
-        // moveBrandToIndex(finalFilteredBrands, "MyEmpire", 8);
-        // moveBrandToIndex(finalFilteredBrands, "RollingSlots", 9);
-        // moveBrandToIndex(finalFilteredBrands, "WinWin.Bet", 10);
-        // moveBrandToIndex(finalFilteredBrands, "Casinia", 11);
-        // moveBrandToIndex(finalFilteredBrands, "SpinFest", 12);
-        // moveBrandToIndex(finalFilteredBrands, "Goldencrown", 13);
-        // moveBrandToIndex(finalFilteredBrands, "Spinsup", 14);
-        // moveBrandToIndex(finalFilteredBrands, "Smokace", 15);
-        // moveBrandToIndex(finalFilteredBrands, "Legiano", 16);
-        // moveBrandToIndex(finalFilteredBrands, "HeroSpin", 17);
-        // moveBrandToIndex(finalFilteredBrands, "RocketSpin", 18);
-        // moveBrandToIndex(finalFilteredBrands, "Winbay", 19);
-        // moveBrandToIndex(finalFilteredBrands, "Trino", 20);
-        // moveBrandToIndex(finalFilteredBrands, "Betplays", 21);
-        // moveBrandToIndex(finalFilteredBrands, "Spinarium", 22);
-        // moveBrandToIndex(finalFilteredBrands, "Bitstake", 23);
-
-        finalFilteredBrands = finalFilteredBrands.slice(0, 6);
+        finalFilteredBrands = finalFilteredBrands.slice(0, 5);
 
         setBrands(finalFilteredBrands);
         setLoading(false);
@@ -355,30 +294,7 @@ export default function Brands_carousel() {
         moveBrandToIndex(fallbackBrands, "FairPari", 4);
         moveBrandToIndex(fallbackBrands, "Winbay", 5);
 
-
-        // moveBrandToIndex(fallbackBrands, "SpinFest", 6);
-        // moveBrandToIndex(fallbackBrands, "Erabet", 7);
-        // moveBrandToIndex(fallbackBrands, "MyEmpire", 8);
-        // moveBrandToIndex(fallbackBrands, "Rolling slots", 9);
-        // moveBrandToIndex(fallbackBrands, "WinWin.Bet", 10);
-        // moveBrandToIndex(fallbackBrands, "Casinia", 11);
-        // moveBrandToIndex(fallbackBrands, "SpinFest", 12);
-        // moveBrandToIndex(fallbackBrands, "Goldencrown", 13);
-        // moveBrandToIndex(fallbackBrands, "Spinsup", 14);
-        // moveBrandToIndex(fallbackBrands, "Smokace", 15);
-
-        // moveBrandToIndex(fallbackBrands, "Legiano", 16);
-        // moveBrandToIndex(fallbackBrands, "HeroSpin", 17);
-        // moveBrandToIndex(fallbackBrands, "RocketSpin", 18);
-        // moveBrandToIndex(fallbackBrands, "Winbay", 19);
-        // moveBrandToIndex(fallbackBrands, "Trino", 20);
-        // moveBrandToIndex(fallbackBrands, "Betplays", 21);
-        // moveBrandToIndex(fallbackBrands, "Spinarium", 22);
-        // moveBrandToIndex(fallbackBrands, "Bitstake", 23);
-
-
-
-        fallbackBrands = fallbackBrands.slice(0, 6);
+        fallbackBrands = fallbackBrands.slice(0, 5);
 
         setBrands(fallbackBrands);
         setLoading(false);
@@ -408,11 +324,23 @@ export default function Brands_carousel() {
     return () => clearInterval(interval);
   }, [brands.length]);
 
+  // Функция для получения текущей даты в формате YYYY-MM-DD
+  const getTodayDateString = () => {
+    return new Date().toISOString().split("T")[0];
+  };
+
   // Когда пользователь жмёт «Activate»
   const handleActivate = (index) => {
-    if (!isDayLocked(index) && !activatedBrands.includes(index)) {
-      setActivatedBrands((prev) => [...prev, index]);
+    const today = getTodayDateString();
+    if (lastActivationDate === today) {
+      alert(t("You have already activated a card today."));
+      return;
     }
+
+    setActivatedCardIndex(index);
+    setLastActivationDate(today);
+    localStorage.setItem("activatedCardIndex", index);
+    localStorage.setItem("lastActivationDate", today);
   };
 
   return (
@@ -424,44 +352,35 @@ export default function Brands_carousel() {
           ) : (
             <div>
               <h2 className="text-3xl font-bold tracking-tight text-white random-title mb-3 text-center">
-                {t("TOP BRANDS FOR YOU EVERY DAY: PICK YOURS")}
+                {t("Winter Storm of Wins: Catch Your Snowflake of Luck")}
               </h2>
               <p className="mb-3 text-center text-white">
                 {t(
-                  "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!"
+                  "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins."
                 )}
               </p>
-              <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap mt-6">
-                {Array.from({ length: 6 }).map((_, index) => {
-                  // locked (в будущем) или нет
-                  const locked = isDayLocked(index);
-                  // активирован?
-                  const isActivated = activatedBrands.includes(index);
-                  // строка вида "15 Dec", "16 Dec", "1 Jan"...
-                  const dayLabel = formatAdventDate(index);
+              <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap mt-10">
+                {brands.map((rowData, index) => {
+                  // Определяем, была ли карточка активирована сегодня
+                  const isActivated = activatedCardIndex === index;
+                  const isActivatedToday = lastActivationDate === getTodayDateString();
 
-                  // Берём бренд из массива (если он там есть)
-                  // Например, brands[0] будет для index=0 (15 Dec)
-                  // brands[1] => 16 Dec и т.д.
-                  const rowData = brands[index] || {};
-
-                  // Определяем класс
+                  // Определяем состояние карточки
                   let cardState;
-                  if (isActivated) cardState = "activate";
-                  else if (locked) cardState = "closed";
-                  else cardState = "opened";
+                  if (isActivated && isActivatedToday) cardState = "activate";
+                  else cardState = "closed"; // Все остальные карточки закрыты
 
                   return (
                     <div
                       key={index}
-                      className={`card-advent rounded-xl flex flex-col justify-between basis-[32%] relative mt-16 ${cardState}`}
+                      className={`card-advent rounded-xl flex flex-col justify-between basis-[19%] relative mt-16 ${cardState}`}
                     >
-                      <div className="dated">{dayLabel}</div>
+                      <div className="dated">#{index + 1}</div>
                       <div className="mx-auto max-w-7xl flex flex-col w-full">
                         <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row card-sl">
                           <div className="w-full">
-                            {isActivated ? (
-                              // День открыт (активирован)
+                            {isActivated && isActivatedToday ? (
+                              // Карточка активирована
                               <div className="flex flex-col items-center">
                                 <Link
                                   className="mt-3 mb-2"
@@ -487,33 +406,34 @@ export default function Brands_carousel() {
                                   {t("Play Now")}
                                 </Link>
                               </div>
-                            ) : locked ? (
-                              // Будущее
+                            ) : (
+                              // Карточка не активирована
                               <div className="flex flex-col items-center">
                                 <div className="mt-3 mb-2 nonoact"></div>
-                                <p className="!m-0">
-                                  {t("Not Yet Available")}
-                                </p>
-                                <button
-                                  disabled
-                                  className="relative btn-play btn-blick overflow-hidden not-yet"
-                                >
-                                  {t("Not Yet")}
-                                </button>
-                              </div>
-                            ) : (
-                              // День наступил, но не активирован
-                              <div className="flex flex-col items-center">
-                                <div className="mt-3 mb-2 opennow nonoact"></div>
-                                <p className="!m-0">
-                                  {t("Ready to Activate")}
-                                </p>
-                                <button
-                                  className="relative btn-play btn-blick overflow-hidden"
-                                  onClick={() => handleActivate(index)}
-                                >
-                                  {t("Activate")}
-                                </button>
+                                {lastActivationDate === getTodayDateString() ? (
+                                  <p className="!m-0 text-white">
+                                    {t("You have activated a card today")}
+                                  </p>
+                                ) : (
+                                  <p className="!m-0">
+                                    {t("Ready to Activate")}
+                                  </p>
+                                )}
+                                {lastActivationDate === getTodayDateString() ? (
+                                  <button
+                                    disabled
+                                    className="relative btn-play btn-blick overflow-hidden not-yet"
+                                  >
+                                    {t("Not Yet")}
+                                  </button>
+                                ) : (
+                                  <button
+                                    className="relative btn-play btn-blick overflow-hidden"
+                                    onClick={() => handleActivate(index)}
+                                  >
+                                    {t("Activate")}
+                                  </button>
+                                )}
                               </div>
                             )}
                           </div>

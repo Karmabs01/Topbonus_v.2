@@ -1046,7 +1046,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Dołącz do nas na 15 dni świątecznych niespodzianek! Odkryj ekskluzywne bonusy, darmowe spiny i ekscytujące oferty od najlepszych kasyn online - jedna nowa oferta każdego dnia od 15 do 29 grudnia!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Dołącz do nas na 15 dni świątecznych niespodzianek! Odkrywaj ekskluzywne bonusy, darmowe spiny i ekscytujące oferty od najlepszych kasyn online - nowa oferta każdego dnia od 15 grudnia do 7 stycznia!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "NAJLEPSZE KASYNA DLA CIEBIE KAŻDEGO DNIA: WYBIERZ SWOJE",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Odkryj najwyżej oceniane marki dostosowane do Twojego idealnego doświadczenia w grze. Wybierz i zacznij wygrywać już dziś!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Odkryj najwyżej oceniane marki dostosowane do Twojego idealnego doświadczenia w grze. Wybierz i zacznij wygrywać już dziś!",
+                "Unlock Your Exclusive": "Odblokuj swoją ekskluzywną",
+                "Casino Surprise": "Kasynową Niespodziankę",
+                "Top brands have been chosen for you!": "Najlepsze marki zostały wybrane specjalnie dla Ciebie!",
+                "Don’t miss your chance to check it out.": "Nie przegap okazji, aby to sprawdzić."
             }
         },
         de: {
@@ -1458,7 +1462,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Begleiten Sie uns für 15 Tage voller festlicher Überraschungen! Entdecken Sie exklusive Boni, Freispiele und spannende Angebote von Top-Online-Casinos – jeden Tag ein neuer Deal vom 15. bis 29. Dezember!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Mach mit bei 15 Tagen voller festlicher Überraschungen! Entdecke exklusive Boni, Freispiele und spannende Angebote von Top-Online-Casinos – jeden Tag ein neuer Deal vom 15. Dezember bis zum 7. Januar!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "TOP-CASINOS FÜR SIE JEDEN TAG: WÄHLEN SIE IHRES",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Entdecken Sie hochbewertete Marken, die für Ihr ultimatives Spielerlebnis maßgeschneidert sind. Wählen Sie und beginnen Sie noch heute zu gewinnen!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Entdecken Sie hochbewertete Marken, die für Ihr ultimatives Spielerlebnis maßgeschneidert sind. Wählen Sie und beginnen Sie noch heute zu gewinnen!",
+                "Unlock Your Exclusive": "Entdecke Deine exklusive",
+                "Casino Surprise": "Casino-Überraschung",
+                "Top brands have been chosen for you!": "Top-Marken wurden für Dich ausgewählt!",
+                "Don’t miss your chance to check it out.": "Verpasse nicht die Chance, es auszuprobieren."
             }
         },
         bg: {
@@ -1869,7 +1877,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Присъединете се към нас за 15 дни празнични изненади! Отключете ексклузивни бонуси, безплатни завъртания и вълнуващи оферти от най-добрите онлайн казина – по една нова оферта всеки ден от 15 до 29 декември!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Присъединете се към нас за 15 дни празнични изненади! Отключете ексклузивни бонуси, безплатни завъртания и вълнуващи оферти от най-добрите онлайн казина - по една нова оферта всеки ден от 15 декември до 7 януари!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "НАЙ-ДОБРИТЕ КАЗИНА ЗА ВАС ВСЕКИ ДЕН: ИЗБЕРЕТЕ ВАШЕТО",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Открийте най-високо оценените марки, създадени специално за вашето уникално гейминг изживяване. Изберете и започнете да печелите още днес!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Открийте най-високо оценените марки, създадени специално за вашето уникално гейминг изживяване. Изберете и започнете да печелите още днес!",
+                "Unlock Your Exclusive": "Отключете вашата ексклузивна",
+                "Casino Surprise": "Казино изненада",
+                "Top brands have been chosen for you!": "Топ марки са избрани специално за вас!",
+                "Don’t miss your chance to check it out.": "Не пропускайте шанса да го проверите."
             }
         },
         cz: {
@@ -2280,7 +2292,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Připojte se k nám na 15 dní plných svátečních překvapení! Odemkněte exkluzivní bonusy, volné otočky a vzrušující nabídky od nejlepších online kasin – každý den nová nabídka od 15. do 29. prosince!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Připojte se k nám na 15 dní plných svátečních překvapení! Odemkněte exkluzivní bonusy, volné spiny a vzrušující nabídky od nejlepších online kasin – každý den nová nabídka od 15. prosince do 7. ledna!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "NEJLEPŠÍ KASINA PRO VÁS KAŽDÝ DEN: VYBERTE SI SVÉ",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Objevte špičkové značky přizpůsobené vašemu dokonalému hernímu zážitku. Vyberte si a začněte vyhrávat ještě dnes!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Objevte špičkové značky přizpůsobené vašemu dokonalému hernímu zážitku. Vyberte si a začněte vyhrávat ještě dnes!",
+                "Unlock Your Exclusive": "Odemkněte svůj exkluzivní",
+                "Casino Surprise": "Kasino Překvapení",
+                "Top brands have been chosen for you!": "Nejlepší značky byly vybrány přímo pro vás!",
+                "Don’t miss your chance to check it out.": "Nenechte si ujít příležitost to vyzkoušet."
             }
         },
         dk: {
@@ -2691,7 +2707,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Vær med i 15 dage med festlige overraskelser! Lås op for eksklusive bonusser, gratis spins og spændende tilbud fra de bedste online casinoer – ét nyt tilbud hver dag fra den 15. til den 29. december!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Deltag i 15 dage med festlige overraskelser! Lås op for eksklusive bonusser, gratis spins og spændende tilbud fra top online casinoer – en ny aftale hver dag fra 15. december til 7. januar!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "TOPCASINOER TIL DIG HVER DAG: VÆLG DIT",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Opdag topbedømte mærker skræddersyet til din ultimative spiloplevelse. Vælg og begynd at vinde i dag!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Opdag topbedømte mærker skræddersyet til din ultimative spiloplevelse. Vælg og begynd at vinde i dag!",
+                "Unlock Your Exclusive": "Lås op for din eksklusive",
+                "Casino Surprise": "Casino Overraskelse",
+                "Top brands have been chosen for you!": "Topmærker er valgt specielt til dig!",
+                "Don’t miss your chance to check it out.": "Gå ikke glip af chancen for at tjekke det ud."
             }
         },
         nl: {
@@ -3102,7 +3122,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Sluit je aan bij ons voor 15 dagen vol feestelijke verrassingen! Ontgrendel exclusieve bonussen, gratis spins en spannende aanbiedingen van de beste online casino's – elke dag een nieuwe deal van 15 tot en met 29 december!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Doe mee met 15 dagen vol feestelijke verrassingen! Ontvang exclusieve bonussen, gratis spins en spannende aanbiedingen van top online casino's - elke dag een nieuwe deal van 15 december tot 7 januari!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "TOPCASINO’S VOOR JOU ELKE DAG: KIES DE JOUWE",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Ontdek topmerken die zijn afgestemd op jouw ultieme speelervaring. Kies en begin vandaag nog met winnen!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Ontdek topmerken die zijn afgestemd op jouw ultieme speelervaring. Kies en begin vandaag nog met winnen!",
+                "Unlock Your Exclusive": "Ontgrendel jouw exclusieve",
+                "Casino Surprise": "Casino Verrassing",
+                "Top brands have been chosen for you!": "Topmerken zijn speciaal voor jou geselecteerd!",
+                "Don’t miss your chance to check it out.": "Mis je kans niet om het te bekijken."
             }
         },
         es: {
@@ -3513,7 +3537,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "¡Únete a nosotros durante 15 días de sorpresas festivas! Desbloquea bonos exclusivos, giros gratis y emocionantes ofertas de los mejores casinos en línea: una nueva oferta cada día del 15 al 29 de diciembre.",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "¡Únete a nosotros en 15 días de sorpresas festivas! Descubre bonos exclusivos, giros gratis y ofertas emocionantes de los mejores casinos en línea: una nueva oferta cada día desde el 15 de diciembre hasta el 7 de enero!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "LOS MEJORES CASINOS PARA TI CADA DÍA: ELIGE EL TUYO",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Descubre las marcas mejor valoradas, diseñadas para ofrecerte la mejor experiencia de juego. ¡Elige y empieza a ganar hoy!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Descubre las marcas mejor valoradas, diseñadas para ofrecerte la mejor experiencia de juego. ¡Elige y empieza a ganar hoy!",
+                "Unlock Your Exclusive": "Desbloquea tu exclusiva",
+                "Casino Surprise": "Sorpresa de Casino",
+                "Top brands have been chosen for you!": "¡Las mejores marcas han sido seleccionadas para ti!",
+                "Don’t miss your chance to check it out.": "No pierdas la oportunidad de comprobarlo."
             }
         },
         fi: {
@@ -3924,7 +3952,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Liity mukaan 15 päivään juhlavia yllätyksiä! Avaa eksklusiivisia bonuksia, ilmaispyöräytyksiä ja jännittäviä tarjouksia huippuluokan nettikasinoilta – yksi uusi tarjous joka päivä 15.–29. joulukuuta!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Liity mukaan 15 päivän juhlallisiin yllätyksiin! Avaa eksklusiivisia bonuksia, ilmaiskierroksia ja jännittäviä tarjouksia huippuluokan nettikasinoilta – uusi tarjous joka päivä 15. joulukuuta alkaen 7. tammikuuta asti!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "PARHAAT KASINOT SINULLE JOKA PÄIVÄ: VALITSE OMASI",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Löydä huippuluokitellut brändit, jotka on räätälöity juuri sinun pelihetkiisi. Valitse ja aloita voittaminen jo tänään!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Löydä huippuluokitellut brändit, jotka on räätälöity juuri sinun pelihetkiisi. Valitse ja aloita voittaminen jo tänään!",
+                "Unlock Your Exclusive": "Avaa eksklusiivinen",
+                "Casino Surprise": "Kasinoyllätyksesi",
+                "Top brands have been chosen for you!": "Huippumerkit on valittu juuri sinulle!",
+                "Don’t miss your chance to check it out.": "Älä missaa tilaisuuttasi tarkistaa se."
             }
         },
         fr: {
@@ -4336,7 +4368,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Rejoignez-nous pour 15 jours de surprises festives ! Débloquez des bonus exclusifs, des tours gratuits et des offres passionnantes des meilleurs casinos en ligne - une nouvelle offre chaque jour du 15 au 29 décembre !",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Rejoignez-nous pour 15 jours de surprises festives ! Débloquez des bonus exclusifs, des tours gratuits et des offres passionnantes des meilleurs casinos en ligne - une nouvelle offre chaque jour du 15 décembre au 7 janvier !",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "LES MEILLEURS CASINOS POUR VOUS CHAQUE JOUR : CHOISISSEZ LE VÔTRE",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Découvrez des marques de premier choix adaptées à votre expérience de jeu ultime. Choisissez et commencez à gagner dès aujourd’hui !"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Découvrez des marques de premier choix adaptées à votre expérience de jeu ultime. Choisissez et commencez à gagner dès aujourd’hui !",
+                "Unlock Your Exclusive": "Débloquez votre exclusif",
+                "Casino Surprise": "Cadeau Casino",
+                "Top brands have been chosen for you!": "Les meilleures marques ont été sélectionnées pour vous !",
+                "Don’t miss your chance to check it out.": "Ne manquez pas l’occasion de découvrir cela."
             }
         },
         gr: {
@@ -4748,7 +4784,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Γίνετε μέλος μας για 15 ημέρες γιορτινών εκπλήξεων! Ξεκλειδώστε αποκλειστικά μπόνους, δωρεάν περιστροφές και συναρπαστικές προσφορές από τα κορυφαία online καζίνο - μία νέα προσφορά κάθε μέρα από τις 15 έως τις 29 Δεκεμβρίου!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Ελάτε μαζί μας για 15 ημέρες γεμάτες γιορτινές εκπλήξεις! Ξεκλειδώστε αποκλειστικά μπόνους, δωρεάν περιστροφές και συναρπαστικές προσφορές από κορυφαία online καζίνο - μια νέα προσφορά κάθε μέρα από τις 15 Δεκεμβρίου έως τις 7 Ιανουαρίου!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "ΤΑ ΚΑΛΥΤΕΡΑ ΚΑΖΙΝΟ ΓΙΑ ΕΣΑΣ ΚΑΘΕ ΜΕΡΑ: ΕΠΙΛΕΞΤΕ ΤΟ ΔΙΚΟ ΣΑΣ",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Ανακαλύψτε κορυφαίες μάρκες προσαρμοσμένες στη μέγιστη εμπειρία σας στο παιχνίδι. Επιλέξτε και ξεκινήστε να κερδίζετε σήμερα!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Ανακαλύψτε κορυφαίες μάρκες προσαρμοσμένες στη μέγιστη εμπειρία σας στο παιχνίδι. Επιλέξτε και ξεκινήστε να κερδίζετε σήμερα!",
+                "Unlock Your Exclusive": "Ξεκλειδώστε την αποκλειστική σας",
+                "Casino Surprise": "Καζίνο Έκπληξη",
+                "Top brands have been chosen for you!": "Οι κορυφαίες μάρκες έχουν επιλεγεί για εσάς!",
+                "Don’t miss your chance to check it out.": "Μην χάσετε την ευκαιρία να το εξερευνήσετε."
             }
         },
         hu: {
@@ -5160,7 +5200,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Csatlakozz hozzánk 15 napnyi ünnepi meglepetésért! Oldj fel exkluzív bónuszokat, ingyenes pörgetéseket és izgalmas ajánlatokat a legjobb online kaszinóktól – minden nap egy új ajánlat december 15-től 29-ig!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Csatlakozz hozzánk 15 napos ünnepi meglepetésekre! Nyisd meg az exkluzív bónuszokat, ingyenes pörgetéseket és izgalmas ajánlatokat a legjobb online kaszinóktól – minden nap új ajánlat december 15. és január 7. között!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "LEGJOBB KASZINÓK NEKED MINDEN NAP: VÁLASZD KI A SAJÁTOD",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Fedezd fel a legjobbra értékelt márkákat, amelyek az ideális játékélményedhez igazodnak. Válassz, és kezdj el nyerni még ma!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Fedezd fel a legjobbra értékelt márkákat, amelyek az ideális játékélményedhez igazodnak. Válassz, és kezdj el nyerni még ma!",
+                "Unlock Your Exclusive": "Oldja fel exkluzív",
+                "Casino Surprise": "Kaszinó Meglepetését",
+                "Top brands have been chosen for you!": "A legjobb márkák kifejezetten Önnek lettek kiválasztva!",
+                "Don’t miss your chance to check it out.": "Ne hagyja ki az alkalmat, hogy kipróbálja."
             }
         },
         it: {
@@ -5572,7 +5616,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Unisciti a noi per 15 giorni di sorprese festive! Sblocca bonus esclusivi, giri gratuiti e offerte entusiasmanti dai migliori casinò online - una nuova offerta ogni giorno dal 15 al 29 dicembre!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Unisciti a noi per 15 giorni di sorprese festive! Sblocca bonus esclusivi, giri gratuiti e offerte entusiasmanti dai migliori casinò online - una nuova offerta ogni giorno dal 15 dicembre al 7 gennaio!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "I MIGLIORI CASINO PER TE OGNI GIORNO: SCEGLI IL TUO",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Scopri i brand più apprezzati, pensati per offrirti un’esperienza di gioco unica. Scegli e inizia a vincere oggi stesso!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Scopri i brand più apprezzati, pensati per offrirti un’esperienza di gioco unica. Scegli e inizia a vincere oggi stesso!",
+                "Unlock Your Exclusive": "Sblocca la tua esclusiva",
+                "Casino Surprise": "Sorpresa del Casinò",
+                "Top brands have been chosen for you!": "I migliori marchi sono stati scelti per te!",
+                "Don’t miss your chance to check it out.": "Non perdere l'occasione di scoprirli."
             }
         },
         no: {
@@ -5984,7 +6032,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Bli med oss i 15 dager med festlige overraskelser! Lås opp eksklusive bonuser, gratisspinn og spennende tilbud fra topp nettkasinoer – en ny avtale hver dag fra 15. til 29. desember!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Bli med på 15 dager med festlige overraskelser! Lås opp eksklusive bonuser, gratisspinn og spennende tilbud fra topp online kasinoer – én ny avtale hver dag fra 15. desember til 7. januar!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "TOPPKASINOER FOR DEG HVER DAG: VELG DITT",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Oppdag topprangerte merker skreddersydd for din ultimate spillopplevelse. Velg og begynn å vinne i dag!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Oppdag topprangerte merker skreddersydd for din ultimate spillopplevelse. Velg og begynn å vinne i dag!",
+                "Unlock Your Exclusive": "Lås opp din eksklusive",
+                "Casino Surprise": "Casino Overraskelse",
+                "Top brands have been chosen for you!": "Toppmerker er valgt spesielt for deg!",
+                "Don’t miss your chance to check it out.": "Ikke gå glipp av sjansen til å sjekke det ut."
             }
         },
         pt: {
@@ -6396,7 +6448,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Junte-se a nós para 15 dias de surpresas festivas! Desbloqueie bônus exclusivos, rodadas grátis e ofertas emocionantes dos melhores cassinos online - uma nova oferta por dia de 15 a 29 de dezembro!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Junte-se a nós para 15 dias de surpresas festivas! Desbloqueie bônus exclusivos, rodadas grátis e ofertas emocionantes dos melhores cassinos online - uma nova oferta todos os dias de 15 de dezembro a 7 de janeiro!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "OS MELHORES CASSINOS PARA VOCÊ TODOS OS DIAS: ESCOLHA O SEU",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Descubra marcas de primeira linha feitas sob medida para sua experiência de jogo definitiva. Escolha e comece a ganhar hoje mesmo!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Descubra marcas de primeira linha feitas sob medida para sua experiência de jogo definitiva. Escolha e comece a ganhar hoje mesmo!",
+                "Unlock Your Exclusive": "Desbloqueie sua exclusiva",
+                "Casino Surprise": "Surpresa de Cassino",
+                "Top brands have been chosen for you!": "As melhores marcas foram escolhidas para você!",
+                "Don’t miss your chance to check it out.": "Não perca a chance de conferir."
             }
         },
         se: {
@@ -6808,7 +6864,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Delta i 15 dagar av festliga överraskningar! Lås upp exklusiva bonusar, gratissnurr och spännande erbjudanden från toppkasinon online – ett nytt erbjudande varje dag från 15 till 29 december!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Gå med oss i 15 dagar av festliga överraskningar! Lås upp exklusiva bonusar, gratissnurr och spännande erbjudanden från topp onlinecasinon – ett nytt erbjudande varje dag från 15 december till 7 januari!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "TOPPKASINON FÖR DIG VARJE DAG: VÄLJ DITT",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Upptäck topprankade märken anpassade för din ultimata spelupplevelse. Välj och börja vinna idag!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Upptäck topprankade märken anpassade för din ultimata spelupplevelse. Välj och börja vinna idag!",
+                "Unlock Your Exclusive": "Lås upp din exklusiva",
+                "Casino Surprise": "Casinoöverraskning",
+                "Top brands have been chosen for you!": "Toppmärken har valts ut för dig!",
+                "Don’t miss your chance to check it out.": "Missa inte chansen att kolla in det."
             }
         },
         sk: {
@@ -7220,7 +7280,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "Pridajte sa k nám na 15 dní plných sviatočných prekvapení! Odomknite exkluzívne bonusy, voľné točenia a vzrušujúce ponuky od najlepších online kasín – každý deň nová ponuka od 15. do 29. decembra!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "Pridajte sa k nám na 15 dní plných sviatočných prekvapení! Odomknite exkluzívne bonusy, bezplatné spiny a vzrušujúce ponuky od najlepších online kasín – každý deň nová ponuka od 15. decembra do 7. januára!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "NAJLEPŠIE KASÍNA PRE VÁS KAŽDÝ DEŇ: VYBERTE SI SVOJE",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Objavte špičkové značky prispôsobené vášmu dokonalému hernému zážitku. Vyberte si a začnite vyhrávať ešte dnes!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Objavte špičkové značky prispôsobené vášmu dokonalému hernému zážitku. Vyberte si a začnite vyhrávať ešte dnes!",
+                "Unlock Your Exclusive": "Odomknite si svoju exkluzívnu",
+                "Casino Surprise": "Kasínovú Prekvapenie",
+                "Top brands have been chosen for you!": "Najlepšie značky boli vybrané špeciálne pre vás!",
+                "Don’t miss your chance to check it out.": "Nenechajte si ujsť príležitosť to skontrolovať."
             }
         },
         tr: {
@@ -7632,7 +7696,11 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "15 gün boyunca festivallere özel sürprizlere katılın! En iyi online casinolardan özel bonuslar, ücretsiz dönüşler ve heyecan verici teklifler kazanın – 15 Aralık'tan 29 Aralık'a kadar her gün yeni bir fırsat!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "15 günlük festivallik sürprizler için bize katılın! En iyi çevrimiçi casinoların özel bonuslarını, bedava dönüşlerini ve heyecan verici fırsatlarını keşfedin - 15 Aralık’tan 7 Ocak’a kadar her gün yeni bir teklif!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "HER GÜN SİZİN İÇİN EN İYİ CASİNOLAR: SEÇİMİNİZİ YAPIN",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Size özel oyun deneyimi için özenle seçilmiş en iyi markaları keşfedin. Şimdi seçin ve kazanmaya başlayın!"
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "Size özel oyun deneyimi için özenle seçilmiş en iyi markaları keşfedin. Şimdi seçin ve kazanmaya başlayın!",
+                "Unlock Your Exclusive": "Özel",
+                "Casino Surprise": "Casino Sürprizinizi Açın",
+                "Top brands have been chosen for you!": "Sizin için en iyi markalar seçildi!",
+                "Don’t miss your chance to check it out.": "Kaçırmayın, mutlaka göz atın."
             }
         }
     };

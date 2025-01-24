@@ -924,9 +924,15 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .nonoact {
-  width: 256px;
-  height: 128px;
+  width: 146px;
+  height: 73px;
   background-size: cover !important;
+}
+
+#advent .card-sl img {
+  width: 146px;
+  height: 73px;
+  min-height: 73px !important;
 }
 
 .card-advent:first-child .dated, .card-advent:nth-child(4) .dated {
@@ -978,7 +984,6 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .closed .btn-play {
-  opacity: .5;
 }
 
 .closed .dated {
@@ -1013,7 +1018,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
     background: url("/newimages/bgmomob2.png");
     background-repeat: no-repeat;
     background-position: top;
-    background-size: contain;
+    background-size: 430px;
     padding: 12px !important;
   }
 
