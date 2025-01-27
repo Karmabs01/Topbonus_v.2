@@ -39,6 +39,7 @@ export const availableLanguages1039 = [
   { code: "gr", label: "Greece", flag: "🇬🇷" },
   { code: "hu", label: "Hungary", flag: "🇭🇺" },
   { code: "ie", label: "Ireland", flag: "🇮🇪" },
+  { code: "in", label: "India", flag: "🇮🇹" },
   { code: "it", label: "Italy", flag: "🇮🇹" },
   { code: "nl", label: "Netherlands", flag: "🇳🇱" },
   { code: "nz", label: "New Zealand", flag: "🇳🇿" },

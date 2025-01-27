@@ -926,6 +926,12 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   height: 73px;
 }
 
+#advent .card-sl img {
+  width: 146px;
+  height: 73px;
+  min-height: 73px !important;
+}
+
 .card-advent:first-child .dated, .card-advent:nth-child(4) .dated {
   background: linear-gradient(161deg, #5aa148, #3b702e);
 }
@@ -977,7 +983,6 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .closed .btn-play {
-  opacity: .5;
 }
 
 .closed .dated {

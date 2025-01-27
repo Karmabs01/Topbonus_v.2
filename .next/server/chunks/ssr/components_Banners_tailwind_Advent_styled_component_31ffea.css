@@ -105,6 +105,12 @@
   height: 73px;
 }
 
+#advent .card-sl img {
+  width: 146px;
+  height: 73px;
+  min-height: 73px !important;
+}
+
 .card-advent:first-child .dated, .card-advent:nth-child(4) .dated {
   background: linear-gradient(161deg, #5aa148, #3b702e);
 }
@@ -156,7 +162,6 @@
 }
 
 .closed .btn-play {
-  opacity: .5;
 }
 
 .closed .dated {

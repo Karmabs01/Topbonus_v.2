@@ -72,6 +72,7 @@ async function initializeI18n() {
     "dk",
     "fr",
     "it",
+    "in",
     "es",
     "pl",
     "se",
@@ -819,6 +820,11 @@ async function initializeI18n() {
           "Winter Storm of Wins: Catch Your Snowflake of Luck",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Exclusive Winter Specials Just for You!",
+        "Your Winter Fortune": "Your Winter Fortune",
+        Check: "Check",
       },
     },
 
@@ -1421,6 +1427,11 @@ async function initializeI18n() {
           "Zimowa burza wygranych: Złap swoją śnieżynkę szczęścia",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Każdego dnia złap śnieżynkę i odkryj zimową niespodziankę! Darmowe spiny, cashback i ekskluzywne bonusy czekają na Ciebie w tej zimowej burzy wygranych.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Ekskluzywne zimowe oferty tylko dla Ciebie!",
+        "Your Winter Fortune": "Twoje zimowe szczęście",
+        Check: "Sprawdź",
       },
     },
     de: {
@@ -2024,6 +2035,11 @@ async function initializeI18n() {
           "Wintersturm der Gewinne: Fang deine Glücksschneeflocke",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Fang jeden Tag eine Schneeflocke und enthülle eine Winterüberraschung! Freidrehs, Cashback und exklusive Boni warten auf dich in diesem Wintersturm der Gewinne.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Exklusive Winterangebote nur für Sie!",
+        "Your Winter Fortune": "Ihr Winterglück",
+        Check: "Prüfen",
       },
     },
     bg: {
@@ -2618,6 +2634,11 @@ async function initializeI18n() {
           "Зимна буря от печалби: Хвани своя снежинка на късмета",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Всеки ден хвани снежинка и разкрий зимна изненада! Безплатни завъртания, кешбек и ексклузивни бонуси те очакват в тази зимна буря от печалби.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Ексклузивни зимни оферти само за вас!",
+        "Your Winter Fortune": "Вашият зимен късмет",
+        Check: "Провери",
       },
     },
     cz: {
@@ -3212,6 +3233,11 @@ async function initializeI18n() {
           "Zimní bouře výher: Chyť si svoji vločku štěstí",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Každý den chyť vločku a odhal zimní překvapení! Volné spiny, cashback a exkluzivní bonusy na tebe čekají v této zimní bouři výher.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Exkluzivní zimní nabídky jen pro vás!",
+        "Your Winter Fortune": "Vaše zimní štěstí",
+        Check: "Zkontrolovat",
       },
     },
     dk: {
@@ -3806,6 +3832,11 @@ async function initializeI18n() {
           "Vinterstorm af gevinster: Fang din heldige snefnug",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Hver dag kan du fange en snefnug og afsløre en vinteroverraskelse! Gratis spins, cashback og eksklusive bonusser venter dig i denne vinterstorm af gevinster.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Eksklusive vintertilbud kun til dig!",
+        "Your Winter Fortune": "Din vinterlykke",
+        Check: "Tjek",
       },
     },
     nl: {
@@ -4404,6 +4435,11 @@ async function initializeI18n() {
           "Winterstorm van winsten: Vang jouw gelukssneeuwvlok",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Vang elke dag een sneeuwvlok en onthul een winterse verrassing! Gratis spins, cashback en exclusieve bonussen wachten op je in deze winterstorm van winsten.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Exclusieve winteraanbiedingen speciaal voor jou!",
+        "Your Winter Fortune": "Jouw wintergeluk",
+        Check: "Controleer",
       },
     },
     es: {
@@ -5001,6 +5037,11 @@ async function initializeI18n() {
           "Tormenta de ganancias invernales: Atrapa tu copo de nieve de la suerte",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Cada día atrapa un copo de nieve y descubre una sorpresa invernal. Giros gratis, reembolsos y bonos exclusivos te esperan en esta tormenta de ganancias invernales.",
+
+        "Exclusive Winter Specials Just for You!":
+          "¡Ofertas exclusivas de invierno solo para ti!",
+        "Your Winter Fortune": "Tu fortuna de invierno",
+        Check: "Verificar",
       },
     },
     fi: {
@@ -5594,6 +5635,11 @@ async function initializeI18n() {
           "Talvimyrsky voittoja: Tartu onnen lumihiutaleeseesi",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Tartu joka päivä lumihiutaleeseen ja paljasta talvinen yllätys! Ilmaiskierroksia, käteispalautuksia ja eksklusiivisia bonuksia odottaa sinua tässä talvimyrskyssä.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Eksklusiivisia talvitarjouksia vain sinulle!",
+        "Your Winter Fortune": "Talvionnesi",
+        Check: "Tarkista",
       },
     },
     fr: {
@@ -6193,6 +6239,11 @@ async function initializeI18n() {
           "Tempête hivernale de gains : Attrapez votre flocon porte-bonheur",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Chaque jour, attrapez un flocon de neige et révélez une surprise hivernale ! Des tours gratuits, des cashback et des bonus exclusifs vous attendent dans cette tempête hivernale de gains.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Offres hivernales exclusives rien que pour vous !",
+        "Your Winter Fortune": "Votre fortune hivernale",
+        Check: "Vérifier",
       },
     },
 
@@ -6788,6 +6839,11 @@ async function initializeI18n() {
           "Χειμωνιάτικη καταιγίδα κερδών: Πιάσε τη νιφάδα τύχης σου",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Κάθε μέρα πιάσε μια νιφάδα και αποκάλυψε μια χειμωνιάτικη έκπληξη! Δωρεάν περιστροφές, επιστροφές χρημάτων και αποκλειστικά μπόνους σε περιμένουν σε αυτή τη χειμωνιάτικη καταιγίδα κερδών.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Αποκλειστικές χειμερινές προσφορές μόνο για εσάς!",
+        "Your Winter Fortune": "Η χειμερινή σας τύχη",
+        Check: "Έλεγχος",
       },
     },
     hu: {
@@ -7383,6 +7439,11 @@ async function initializeI18n() {
           "Téli nyereményvihar: Kapd el a szerencse hópelyhét",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Minden nap kapj el egy hópelyhet, és fedezz fel egy téli meglepetést! Ingyenes pörgetések, pénzvisszatérítés és exkluzív bónuszok várnak rád ebben a téli nyereményviharban.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Exkluzív téli ajánlatok csak neked!",
+        "Your Winter Fortune": "A téli szerencséd",
+        Check: "Ellenőrizd",
       },
     },
     it: {
@@ -7981,6 +8042,11 @@ async function initializeI18n() {
           "Tempesta invernale di vincite: Acchiappa il tuo fiocco di neve fortunato",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Ogni giorno acchiappa un fiocco di neve e scopri una sorpresa invernale! Giri gratis, cashback e bonus esclusivi ti aspettano in questa tempesta invernale di vincite.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Offerte esclusive invernali solo per te!",
+        "Your Winter Fortune": "La tua fortuna invernale",
+        Check: "Controlla",
       },
     },
     no: {
@@ -8576,6 +8642,11 @@ async function initializeI18n() {
           "Vinterstorm av gevinster: Fang ditt lykkesnøfnugg",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Fang et snøfnugg hver dag og avslør en vinteroverraskelse! Gratisspinn, cashback og eksklusive bonuser venter på deg i denne vinterstormen av gevinster.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Eksklusive vintertilbud kun for deg!",
+        "Your Winter Fortune": "Din vinterlykke",
+        Check: "Sjekk",
       },
     },
     pt: {
@@ -9173,6 +9244,11 @@ async function initializeI18n() {
           "Tempestade de ganhos de inverno: Pegue seu floco de neve da sorte",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Todos os dias, pegue um floco de neve e revele uma surpresa de inverno! Giros grátis, cashback e bônus exclusivos esperam por você nesta tempestade de ganhos de inverno.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Ofertas exclusivas de inverno só para você!",
+        "Your Winter Fortune": "Sua sorte de inverno",
+        Check: "Verificar",
       },
     },
     se: {
@@ -9768,6 +9844,11 @@ async function initializeI18n() {
           "Vinterstorm av vinster: Fånga din lyckosnöflinga",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Fånga en snöflinga varje dag och avslöja en vinteröverraskning! Gratissnurr, cashback och exklusiva bonusar väntar på dig i denna vinterstorm av vinster.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Exklusiva vintererbjudanden bara för dig!",
+        "Your Winter Fortune": "Din vintertur",
+        Check: "Kontrollera",
       },
     },
     sk: {
@@ -10362,6 +10443,11 @@ async function initializeI18n() {
           "Zimná búrka výhier: Chyť svoju snehovú vločku šťastia",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Každý deň chyť snehovú vločku a odhaľ zimné prekvapenie! Voľné točenia, cashback a exkluzívne bonusy na teba čakajú v tejto zimnej búrke výhier.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Exkluzívne zimné ponuky iba pre vás!",
+        "Your Winter Fortune": "Vaše zimné šťastie",
+        Check: "Skontrolovať",
       },
     },
     tr: {
@@ -10956,6 +11042,11 @@ async function initializeI18n() {
           "Zaferlerin Kış Fırtınası: Şans Kar Tanesini Yakala",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "Her gün bir kar tanesi yakala ve kış sürprizini keşfet! Bedava dönüşler, nakit iadeler ve özel bonuslar bu zaferlerin kış fırtınasında seni bekliyor.",
+
+        "Exclusive Winter Specials Just for You!":
+          "Sadece size özel kış fırsatları!",
+        "Your Winter Fortune": "Kış talihiniz",
+        Check: "Kontrol et",
       },
     },
 
@@ -11442,6 +11533,11 @@ async function initializeI18n() {
           "जीतों का शीतकालीन तूफान: अपनी भाग्यशाली बर्फ की फुहार पकड़ें",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
           "हर दिन, एक बर्फ की फुहार पकड़ें और एक शीतकालीन सरप्राइज़ का खुलासा करें! मुफ़्त स्पिन, कैशबैक और विशेष बोनस इस शीतकालीन तूफान में आपका इंतजार कर रहे हैं।",
+
+        "Exclusive Winter Specials Just for You!":
+          "सिर्फ आपके लिए खास शीतकालीन ऑफ़र!",
+        "Your Winter Fortune": "आपका शीतकालीन सौभाग्य",
+        Check: "जांचें",
       },
     },
   };
