@@ -367,39 +367,39 @@
   background-size: cover !important;
 }
 
-.popular-christmas {
+.popular-border {
   border-top: none;
   border-bottom: none;
   background-image: url("/newimages/popular-christmas.png") !important;
 }
 
-.popular-christmas .btn-crd {
-  background: #ff1212;
+.popular-border .btn-crd {
+  background: #fcb627;
   box-shadow: 0 -5px 30px #ff121241;
 }
 
-.carousel-christmas {
+.carousel-border {
   background-image: url("/newimages/carousel-christmas.png") !important;
 }
 
-.carousel-christmas .card-sl {
+.carousel-border .card-sl {
   border: none !important;
 }
 
-.carousel-christmas .btn-play {
-  background: #ff1212;
+.carousel-border .btn-play {
+  background: #fcb627;
   box-shadow: 0 -5px 30px #ff121241;
 }
 
 @media (width >= 320px) and (width <= 767px) {
-  .popular-christmas {
+  .popular-border {
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("/newimages/popular-christmas-mob.png") !important;
   }
 
-  .carousel-christmas {
+  .carousel-border {
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;

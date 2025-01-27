@@ -70,6 +70,7 @@ async function initializeI18n() {
     "ch",
     "dk",
     "fr",
+    "in",
     "it",
     "es",
     "pl",

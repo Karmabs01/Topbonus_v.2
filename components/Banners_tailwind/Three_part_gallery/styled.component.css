@@ -340,34 +340,34 @@
   left: -9px;
   top: -21px;
 }
-.popular-christmas {
+.popular-border {
   background-image: url("/newimages/popular-christmas.png") !important;
   border-top: none;
   border-bottom: none;
 }
-.popular-christmas .btn-crd {
-  background: #ff1212;
+.popular-border .btn-crd {
+  background: #FCB627;
   box-shadow: 0 -5px 30px #ff121241;
 }
-.carousel-christmas {
+.carousel-border {
   background-image: url("/newimages/carousel-christmas.png") !important;
 }
-.carousel-christmas .card-sl {
+.carousel-border .card-sl {
   border: none !important;
 }
-.carousel-christmas .btn-play {
-  background: #ff1212;
+.carousel-border .btn-play {
+  background: #FCB627;
   box-shadow: 0 -5px 30px #ff121241;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .popular-christmas {
+  .popular-border {
     background-image: url("/newimages/popular-christmas-mob.png") !important;
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
   }
-  .carousel-christmas {
+  .carousel-border {
     background-image: url("/newimages/carousel-christmas-mob.png") !important;
     background-size: cover;
     background-position: top center;

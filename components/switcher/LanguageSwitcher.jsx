@@ -29,6 +29,7 @@ const LanguageSwitcher = () => {
     { code: "fi", label: "Finnish", flag: "🇫🇮" },
     { code: "dk", label: "Danish", flag: "🇩🇰" },
     { code: "fr", label: "French", flag: "🇫🇷" },
+    { code: "in", label: "Indian", flag: "🇮🇹" },
     { code: "it", label: "Italian", flag: "🇮🇹" },
     { code: "pl", label: "Polish", flag: "🇵🇱" },
     { code: "se", label: "Swedish", flag: "🇸🇪" },

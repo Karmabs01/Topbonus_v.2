@@ -84,6 +84,7 @@ const BrandsSwitcher = () => {
     { code: "hu", label: "Hungary", flag: "🇭🇺" },
     { code: "ie", label: "Ireland", flag: "🇮🇪" },
     { code: "it", label: "Italy", flag: "🇮🇹" },
+    { code: "in", label: "India", flag: "🇮🇹" },
     { code: "nl", label: "Netherlands", flag: "🇳🇱" },
     { code: "nz", label: "New Zealand", flag: "🇳🇿" },
     { code: "no", label: "Norway", flag: "🇳🇴" },

@@ -113,7 +113,7 @@ const TopBrands = () => {
 
   const categoryBrands = { key1: "Trendsetting", key2: "1" };
 
-
+  console.log("LNG", language)
   const { data, error } = useSWR(
     ["brands", language],
     () => getBrands(language),
