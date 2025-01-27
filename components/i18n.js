@@ -72,7 +72,6 @@ async function initializeI18n() {
     "dk",
     "fr",
     "it",
-    "in",
     "es",
     "pl",
     "se",
@@ -478,7 +477,7 @@ async function initializeI18n() {
         "As one of the stalwarts in the iGaming industry, NetEnt Gaming has consistently pushed the envelope in terms of quality, innovation, and gameplay. With a broad spectrum of offerings from classic slots like 'Starburst' to groundbreaking live casino games, the company has set industry benchmarks time and again. Utilizing state-of-the-art technology and creative storytelling, NetEnt offers an unrivaled gaming experience that keeps players coming back for more. Their reputation for excellence is backed by an extensive portfolio that continually evolves, solidifying their position as a leader in digital gaming.":
           "As one of the stalwarts in the iGaming industry, NetEnt Gaming has consistently pushed the envelope in terms of quality, innovation, and gameplay. With a broad spectrum of offerings from classic slots like 'Starburst' to groundbreaking live casino games, the company has set industry benchmarks time and again. Utilizing state-of-the-art technology and creative storytelling, NetEnt offers an unrivaled gaming experience that keeps players coming back for more. Their reputation for excellence is backed by an extensive portfolio that continually evolves, solidifying their position as a leader in digital gaming.",
         "No Limit City Gaming: Nieograniczona innowacja w sferze iGaming":
-          "No Limit City Gaming: Nieograniczona innowacja w sferze iGaming",
+          "No Limit City Gaming: Unlimited iGaming Innovation",
         "Emerging as a force to be reckoned with in the iGaming industry, No Limit City Gaming is synonymous with creative freedom and technological prowess. Known for unique slots like 'Deadwood' and 'Punk Rocker,' the company goes beyond the norm to offer riveting themes and game mechanics. Their dedication to innovation is evident, providing a refreshing and unpredictable gaming experience. By continually pushing the boundaries of what’s possible, No Limit City Gaming has carved a niche for itself as an avant-garde game provider in a highly competitive market.":
           "Emerging as a force to be reckoned with in the iGaming industry, No Limit City Gaming is synonymous with creative freedom and technological prowess. Known for unique slots like 'Deadwood' and 'Punk Rocker,' the company goes beyond the norm to offer riveting themes and game mechanics. Their dedication to innovation is evident, providing a refreshing and unpredictable gaming experience. By continually pushing the boundaries of what’s possible, No Limit City Gaming has carved a niche for itself as an avant-garde game provider in a highly competitive market.",
         "Play'n GO Gaming: A Vanguard of Versatility and Innovation in iGaming":
@@ -11064,7 +11063,7 @@ async function initializeI18n() {
         "Deposit Bonuses": "जमा बोनस",
         "Welcome Bonuses": "स्वागत बोनस",
         "No Wagering Bonuses": "कोई शर्त लगाने वाले बोनस नहीं",
-        "All Payments ▼": "सभी भुगतान विधियाँ ▼",
+        "All Payments ▼": "सभी भुगतान ▼",
         "Apple Pay": "Apple Pay",
         Bitcoin: "Bitcoin",
         Ecopayz: "Ecopayz",
@@ -11114,7 +11113,7 @@ async function initializeI18n() {
         "Crypto Brands": "क्रिप्टो कैसीनो",
         "Top Sports Brands": "शीर्ष खेल कैसीनो",
         "Catalog of all 2024 Online Casino Bonuses Offered":
-          "2025 के सभी ऑनलाइन कैसीनो बोनस की सूची",
+          "2025 में पेश किए गए सभी ऑनलाइन कैसीनो बोनस की सूची",
         "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.":
           "ऑनलाइन कैसीनो बोनस और प्रमोशनों की तलाश कर रहे हैं? हमारे वर्तमान डेटाबेस का अन्वेषण करें जिसमें आपके चयन के लिए कई कैसीनो बोनस ऑफर शामिल हैं।",
         "Our Contacts:": "हमारे संपर्क:",
@@ -11123,16 +11122,15 @@ async function initializeI18n() {
         "Terms and Conditions": "नियम और शर्तें",
         "Empowering iGaming Solutions": "सशक्त iGaming समाधान",
         "Unlocking 15 Websites That Will Boost Your Brand to New Heights":
-          "15 वेबसाइटें जो आपके कैसीनो को नई ऊंचाइयों तक ले जाएंगी",
+          "15 वेबसाइटें जो आपके ब्रांड को नई ऊंचाइयों तक पहुंचाएंगी",
         "Start Working With Us": "हमारे साथ काम करना शुरू करें",
         "positions itself as an exceptional source of information about virtual gaming establishments and online gambling entertainment. All our reviews and guides are crafted in accordance with the knowledge and convictions of our independent team of experts, objectively and without any bias. Nevertheless,such assessments and notifications are provided solely for informational purposes and should not be considered legal advice or a basis for making legal decisions. Before commencing participation in your chosen casino, always ensure that you comply with all applicable legal requirements.":
           "खुद को वर्चुअल गेमिंग प्रतिष्ठानों और ऑनलाइन जुआ मनोरंजन के बारे में एक असाधारण जानकारी स्रोत के रूप में प्रस्तुत करता है। हमारे सभी समीक्षाएं और मार्गदर्शिकाएँ हमारे स्वतंत्र विशेषज्ञों की टीम के ज्ञान और विश्वासों के अनुसार तैयार की जाती हैं, वस्तुनिष्ठ रूप से और बिना किसी पक्षपात के। फिर भी, ऐसी मूल्यांकन और सूचनाएं केवल सूचनात्मक उद्देश्यों के लिए प्रदान की जाती हैं और इन्हें कानूनी सलाह या कानूनी निर्णय लेने के आधार के रूप में नहीं माना जाना चाहिए। अपने चुने हुए कैसीनो में भागीदारी शुरू करने से पहले, हमेशा सुनिश्चित करें कि आप सभी लागू कानूनी आवश्यकताओं का पालन करते हैं।",
         "Your balance:": "आपकी शेष राशि:",
         "Fortune wheel": "भाग्य चक्र",
         "My wallet": "मेरा बटुआ",
-        "Cards Shop": "दुकान",
+        "Cards Shop": "कार्ड्स की दुकान",
         "Account menu": "खाता मेनू",
-
         "Fee:": "शुल्क:",
         "You will receive on balance:": "आपको शेष राशि प्राप्त होगी:",
         "Payment Method": "भुगतान विधि",
@@ -11141,13 +11139,13 @@ async function initializeI18n() {
         "Wallet Address": "वॉलेट पता",
         "Finally Step": "अंतिम चरण",
         "Congratulations, you have successfully requested a withdrawal, in order for them to be credited to your wallet you will need to make a deposit with one of our brands":
-          "बधाई हो, आपने सफलतापूर्वक निकासी का अनुरोध किया है, उन्हें आपके वॉलेट में जमा करने के लिए आपको हमारे किसी एक कैसीनो में जमा करना होगा।",
+          "बधाई हो, आपने सफलतापूर्वक निकासी का अनुरोध किया है, उन्हें आपके वॉलेट में जमा करने के लिए आपको हमारे ब्रांड्स में से एक के साथ जमा करना होगा।",
         "Phone Number": "फोन नंबर",
         "To create a transfer, we need to verify your phone number":
           "स्थानांतरण बनाने के लिए, हमें आपके फोन नंबर को सत्यापित करने की आवश्यकता है",
         "Withdrawal Request": "निकासी अनुरोध",
         "Withdrawal History": "निकासी इतिहास",
-        "Cards Shop": "दुकान",
+        "Cards Shop": "कार्ड्स की दुकान",
         "Next step": "अगला कदम",
         "Prev step": "पिछला चरण",
         Finish: "समाप्त",
@@ -11162,13 +11160,14 @@ async function initializeI18n() {
         "Indicate the email address to which to send the card":
           "जिस ईमेल पते पर कार्ड भेजना है, उसे इंगित करें।",
         Confirm: "पुष्टि करें",
+
         "No Deposit Bonuses": "कोई जमा बोनस नहीं",
         "Exclusive Bonuses": "विशेष बोनस",
         "Deposit Bonuses": "जमा बोनस",
         "Welcome Bonuses": "स्वागत बोनस",
         "No Wagering Bonuses": "कोई शर्त लगाने वाले बोनस नहीं",
         "Catalog of all 2024 Online Casino Bonuses Offered":
-          "2025 के सभी ऑनलाइन कैसीनो बोनस की सूची",
+          "2025 में पेश किए गए सभी ऑनलाइन कैसीनो बोनस की सूची",
         "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.":
           "ऑनलाइन कैसीनो बोनस और प्रमोशनों की तलाश कर रहे हैं? हमारे वर्तमान डेटाबेस का अन्वेषण करें जिसमें आपके चयन के लिए कई कैसीनो बोनस ऑफर शामिल हैं।",
         "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit":
@@ -11176,19 +11175,19 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "शीर्ष स्तरीय प्रारंभिक कैसीनो पुरस्कारों की विविधता से चुनें और अपनी प्रारंभिक भुगतान में शामिल अतिरिक्त बोनस धन प्राप्त करें। नए प्रतिभागियों के लिए विशेष पंजीकरण प्रोत्साहन सौदे।",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
-          "क्या आप वेब पर कैसीनो बोनस और प्रोमो की खोज कर रहे हैं? हमारे वर्तमान, अच्छी तरह से बनाए गए भंडार का अन्वेषण करें जिसमें आपके विचार के लिए कई कैसीनो बोनस प्रस्ताव शामिल हैं।",
+          "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
-          "2025 में अनिवार्य: बिना जमा के कैसीनो बोनस और अनोखे बोनस कोड",
+          "2025 में अट्रैक्टिव: नो डिपॉजिट कैसीनो बोनस और अनोखे बोनस कोड्स",
         "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.":
-          "2025 में नया: वर्चुअल कैसीनो के लिए बिना जमा बोनस सौदों की लगातार ताज़ा की गई सूची। विशेष प्रोमो कोड प्राप्त करें और मुफ्त स्पिन पुरस्कारों का आनंद लें।",
-        "No Wagering Casino Bonuses 2024": "कोई वेजरिंग कैसीनो बोनस 2025",
+          "2025 में ताज़ा: वर्चुअल कैसीनो के लिए बिना जमा बोनस सौदों की लगातार ताज़ा की गई सूची। विशेष प्रोमो कोड प्राप्त करें और मुफ्त स्पिन पुरस्कारों का आनंद लें।",
+        "No Wagering Casino Bonuses 2024": "कोई वेजरिंग कैसीनो बोनस 2024",
         "Searching for no wagering bonuses? Explore our exclusive compilation of wager-free bonuses, available only at Casino.":
           "क्या आप बिना शर्त बोनस की तलाश कर रहे हैं? हमारे विशेष संकलन का अन्वेषण करें जिसमें केवल कैसीनो में उपलब्ध बिना शर्त बोनस शामिल हैं।",
-        "Welcome Bonuses 2024": "स्वागत बोनस 2025",
+        "Welcome Bonuses 2024": "स्वागत बोनस 2024",
         "If you're in search of a quality casino experience coupled with enticing bonuses, we have the perfect solution tailored for you! The welcoming bonus stands as a gesture from casinos to their fresh players, usually presented as free spins or cashback rewards. Explore our compilation of introductory bonuses from renowned online casinos, ensuring an ideal match for your preferences.":
           "यदि आप आकर्षक बोनस के साथ एक गुणवत्तापूर्ण कैसीनो अनुभव की तलाश में हैं, तो हमारे पास आपके लिए एक आदर्श समाधान है! स्वागत बोनस नए खिलाड़ियों के लिए कैसीनो की ओर से एक इशारा होता है, जो आमतौर पर मुफ्त स्पिन या कैशबैक पुरस्कार के रूप में प्रस्तुत किया जाता है। प्रसिद्ध ऑनलाइन कैसीनो से हमारे परिचयात्मक बोनस के संकलन का अन्वेषण करें, जो आपकी प्राथमिकताओं के लिए एक आदर्श मेल सुनिश्चित करता है।",
         "Comprehensive Compilation of 2024 Online Casino Selection":
-          "2025 ऑनलाइन कैसीनो चयन की व्यापक संकलन",
+          "2025 ऑनलाइन कैसीनो चयन का व्यापक संकलन",
         "In Search of an Online Casino? Navigate through our up-to-date repository housing a myriad of casinos awaiting your consideration.":
           "ऑनलाइन कैसीनो की तलाश में हैं? हमारे अद्यतन भंडार के माध्यम से नेविगेट करें, जिसमें आपके विचार के लिए कई कैसीनो हैं।",
         "Top Cryptocurrency Betting Platforms & Bitcoin Casino Sites in 2024":
@@ -11206,14 +11205,14 @@ async function initializeI18n() {
         "Fresh Entrants to the Online Casino Scene 2024":
           "ऑनलाइन कैसीनो दृश्य में नए प्रवेशकर्ता 2025",
         "On the Hunt for Fresh 2024 Online Casino Platforms? Discover Recently Launched Casino Sites Offering Outstanding Incentives and Cutting-Edge Attributes. Constantly Refreshed for Your Exploration.":
-          "2025 के लिए नए ऑनलाइन कैसीनो प्लेटफार्मों की खोज में? हाल ही में लॉन्च किए गए कैसीनो साइटों की खोज करें जो उत्कृष्ट प्रोत्साहन और अत्याधुनिक विशेषताएं प्रदान करती हैं। आपकी खोज के लिए लगातार ताज़ा की जाती हैं।",
+          "2025 के ताज़ा ऑनलाइन कैसीनो प्लेटफॉर्म की खोज में? हाल ही में लॉन्च किए गए कैसीनो साइटों की खोज करें जो उत्कृष्ट प्रोत्साहन और अत्याधुनिक विशेषताएं प्रदान करती हैं। आपकी खोज के लिए लगातार ताज़ा की जाती हैं।",
         "Premier Accredited Casinos in 2024":
           "2025 में प्रमुख मान्यता प्राप्त कैसीनो",
         "Gaming constitutes a substantial sector, and with the assistance of authorized internet-based casinos, you can relish your preferred pastime with serenity, assured of its oversight by official governmental bodies. Cutting-edge security protocols ensure the confidentiality of all personal data!":
           "गेमिंग एक महत्वपूर्ण क्षेत्र है, और अधिकृत इंटरनेट-आधारित कैसीनो की सहायता से, आप अपने पसंदीदा शौक का आनंद शांति से ले सकते हैं, यह सुनिश्चित करते हुए कि इसकी निगरानी आधिकारिक सरकारी निकायों द्वारा की जाती है। अत्याधुनिक सुरक्षा प्रोटोकॉल सभी व्यक्तिगत डेटा की गोपनीयता सुनिश्चित करते हैं।",
-        "All Providers": "सभी कैसीनो गेम प्रदाता",
+        "All Providers": "सभी प्रदाता",
         "Comprehensive 2024 Directory for Online Casinos Sorted by Game Providers":
-          "ऑनलाइन कैसीनो के लिए गेम प्रदाताओं द्वारा क्रमबद्ध 2025 की व्यापक निर्देशिका",
+          "ऑनलाइन कैसीनो के लिए गेम प्रदाताओं द्वारा क्रमबद्ध व्यापक 2025 निर्देशिका",
         "Interested in locating online casinos featuring games from particular providers? Browse our up-to-date list of diverse casino options to find your perfect match.":
           "विशिष्ट प्रदाताओं के खेलों की विशेषता वाले ऑनलाइन कैसीनो खोजने में रुचि रखते हैं? अपने आदर्श मैच को खोजने के लिए हमारे अद्यतन सूची में विभिन्न कैसीनो विकल्पों को ब्राउज़ करें।",
         "Catalog of all offered Online Casinos by Payment Methods in 2024":
@@ -11302,7 +11301,7 @@ async function initializeI18n() {
           "बूंगो गेमिंग ने आकर्षक और विशेषताओं से भरपूर खेलों के साथ प्रतिस्पर्धी आईगेमिंग क्षेत्र में तेजी से अपनी पहचान बनाई है। 'गॉड्स टेम्पल' और '15 गोल्डन एग्स' जैसे शीर्षकों के लिए प्रसिद्ध, कंपनी नवाचार और गुणवत्ता दोनों में उत्कृष्ट है। उनके मजबूत बैकएंड समाधान गेमिंग अनुभव को और भी बेहतर बनाते हैं। चाहे आप एक आकस्मिक खिलाड़ी हों या एक समर्पित उत्साही, बूंगो गेमिंग एक यादगार गेमिंग यात्रा प्रदान करता है।",
         "Evolution Gaming: Setting the Gold Standard in Live Casino Experiences":
           "इवोल्यूशन गेमिंग: लाइव कैसीनो अनुभवों में स्वर्ण मानक स्थापित करना",
-        "A recognized leader in the live casino arena, Evolution Gaming has earned its reputation through a commitment to unparalleled quality and innovation. Offering a rich variety of live dealer games, from classics like blackjack and roulette to unique offerings like 'Lightning Dice', the company consistently delivers engaging and authentic experiences. By utilizing cutting-edge streaming technology and employing professional dealers, Evolution Gaming ensures a seamless and immersive gaming atmosphere that sets them apart in the industry.":
+        "A recognized leader in the live casino arena, Evolution Gaming has earned its reputation through a commitment to unparalleled quality and innovation. Offering a rich variety of live dealer games, from classics like blackjack and roulette to unique offerings like Lightning Dice, the company consistently delivers engaging and authentic experiences. By utilizing cutting-edge streaming technology and employing professional dealers, Evolution Gaming ensures a seamless and immersive gaming atmosphere that sets them apart in the industry.":
           "लाइव कैसीनो क्षेत्र में एक मान्यता प्राप्त नेता, इवोल्यूशन गेमिंग ने अपनी प्रतिष्ठा बेजोड़ गुणवत्ता और नवाचार के प्रति प्रतिबद्धता के माध्यम से अर्जित की है। क्लासिक जैसे ब्लैकजैक और रूले से लेकर अनोखे ऑफरिंग जैसे लाइटनिंग डाइस तक, लाइव डीलर गेम्स की एक समृद्ध विविधता की पेशकश करते हुए, कंपनी लगातार आकर्षक और प्रामाणिक अनुभव प्रदान करती है। अत्याधुनिक स्ट्रीमिंग तकनीक का उपयोग करके और पेशेवर डीलरों को नियुक्त करके, इवोल्यूशन गेमिंग एक सहज और गहन गेमिंग वातावरण सुनिश्चित करता है जो उन्हें उद्योग में अलग बनाता है।",
         "Mascot Gaming: An Emerging Powerhouse in Tailored iGaming Solutions":
           "मास्कॉट गेमिंग: अनुकूलित आईगेमिंग समाधान में एक उभरती हुई शक्ति",
@@ -11312,12 +11311,12 @@ async function initializeI18n() {
           "नेटएंट गेमिंग: आईगेमिंग दुनिया में अग्रणी उत्कृष्टता",
         "As one of the stalwarts in the iGaming industry, NetEnt Gaming has consistently pushed the envelope in terms of quality, innovation, and gameplay. With a broad spectrum of offerings from classic slots like 'Starburst' to groundbreaking live casino games, the company has set industry benchmarks time and again. Utilizing state-of-the-art technology and creative storytelling, NetEnt offers an unrivaled gaming experience that keeps players coming back for more. Their reputation for excellence is backed by an extensive portfolio that continually evolves, solidifying their position as a leader in digital gaming.":
           "iGaming उद्योग में एक प्रमुख कंपनी के रूप में, NetEnt Gaming ने गुणवत्ता, नवाचार और गेमप्ले के मामले में लगातार सीमाओं को आगे बढ़ाया है। 'Starburst' जैसे क्लासिक स्लॉट से लेकर अत्याधुनिक लाइव कैसीनो गेम्स तक के व्यापक स्पेक्ट्रम के साथ, कंपनी ने बार-बार उद्योग के मानक स्थापित किए हैं। अत्याधुनिक तकनीक और रचनात्मक कहानी कहने का उपयोग करते हुए, NetEnt एक बेजोड़ गेमिंग अनुभव प्रदान करता है जो खिलाड़ियों को बार-बार लौटने के लिए प्रेरित करता है। उनकी उत्कृष्टता की प्रतिष्ठा एक व्यापक पोर्टफोलियो द्वारा समर्थित है जो लगातार विकसित होता रहता है, जिससे उनकी स्थिति डिजिटल गेमिंग में एक नेता के रूप में मजबूत होती है।",
-        "No Limit City Gaming: Unbounded Innovation in the iGaming Sphere":
-          "नो लिमिट सिटी गेमिंग: आईगेमिंग क्षेत्र में असीमित नवाचार",
+        "No Limit City Gaming: Nieograniczona innowacja w sferze iGaming":
+          "नो लिमिट सिटी गेमिंग: असीमित आईगेमिंग नवाचार",
         "Emerging as a force to be reckoned with in the iGaming industry, No Limit City Gaming is synonymous with creative freedom and technological prowess. Known for unique slots like 'Deadwood' and 'Punk Rocker,' the company goes beyond the norm to offer riveting themes and game mechanics. Their dedication to innovation is evident, providing a refreshing and unpredictable gaming experience. By continually pushing the boundaries of what’s possible, No Limit City Gaming has carved a niche for itself as an avant-garde game provider in a highly competitive market.":
           "iGaming उद्योग में एक महत्वपूर्ण शक्ति के रूप में उभरते हुए, नो लिमिट सिटी गेमिंग रचनात्मक स्वतंत्रता और तकनीकी कौशल का पर्याय है। 'डेडवुड' और 'पंक रॉकर' जैसे अनोखे स्लॉट्स के लिए प्रसिद्ध, कंपनी रोमांचक थीम और गेम मैकेनिक्स की पेशकश करने के लिए सामान्य से परे जाती है। नवाचार के प्रति उनकी प्रतिबद्धता स्पष्ट है, जो एक ताज़ा और अप्रत्याशित गेमिंग अनुभव प्रदान करती है। जो संभव है उसकी सीमाओं को लगातार आगे बढ़ाकर, नो लिमिट सिटी गेमिंग ने अत्यधिक प्रतिस्पर्धी बाजार में एक अग्रणी गेम प्रदाता के रूप में अपनी जगह बनाई है।",
         "Play'n GO Gaming: A Vanguard of Versatility and Innovation in iGaming":
-          "प्ले'एन गो गेमिंग: आईगेमिंग में बहुमुखी प्रतिभा और नवाचार का अग्रदूत",
+          "प्ले'एन गो गेमिन: आईगेमिंग में बहुमुखी प्रतिभा और नवाचार का अग्रदूत",
         "Cementing its status as a trendsetter in the iGaming community, Play'n GO Gaming is celebrated for its wide-ranging and inventive game portfolio. From iconic slots like 'Book of Dead' to inventive table games, the company provides an all-encompassing gaming experience. Employing cutting-edge technology and captivating narratives, Play'n GO has mastered the art of creating games that are not just visually appealing but also rich in features. Their unyielding commitment to quality and innovation makes them a preferred choice for both casual gamers and ardent casino enthusiasts, continually setting new standards in the ever-evolving gaming landscape.":
           "iGaming समुदाय में एक ट्रेंडसेटर के रूप में अपनी स्थिति को मजबूत करते हुए, Play'n GO Gaming अपने व्यापक और आविष्कारशील गेम पोर्टफोलियो के लिए प्रसिद्ध है। 'Book of Dead' जैसे प्रतिष्ठित स्लॉट्स से लेकर आविष्कारशील टेबल गेम्स तक, कंपनी एक समग्र गेमिंग अनुभव प्रदान करती है। अत्याधुनिक तकनीक और आकर्षक कथाओं का उपयोग करते हुए, Play'n GO ने ऐसे गेम बनाने की कला में महारत हासिल की है जो न केवल दृश्य रूप से आकर्षक हैं बल्कि विशेषताओं में भी समृद्ध हैं। गुणवत्ता और नवाचार के प्रति उनकी अडिग प्रतिबद्धता उन्हें आकस्मिक गेमर्स और उत्साही कैसीनो प्रेमियों दोनों के लिए एक पसंदीदा विकल्प बनाती है, जो लगातार बदलते गेमिंग परिदृश्य में नए मानक स्थापित करती है।",
         "Pragmatic Play: Fusing Quality and Creativity for an Unmatched iGaming Experience":
@@ -11334,18 +11333,18 @@ async function initializeI18n() {
           "iGaming के अत्यधिक प्रतिस्पर्धी क्षेत्र में, Push Gaming 'Jammin' Jars' और 'Wild Swarm' जैसे क्रांतिकारी स्लॉट्स के लिए प्रसिद्ध है, कंपनी असाधारण दृश्य और जटिल गेमप्ले फीचर्स के साथ गेम्स प्रदान करने में उत्कृष्ट है। Push Gaming का मोबाइल-अनुकूलित, HTML5-आधारित गेम्स पर ध्यान केंद्रित करना उपकरणों के बीच एक सहज अनुभव सुनिश्चित करता है। पारंपरिक गेमिंग तत्वों को नए मोड़ों के साथ जोड़ने की उनकी क्षमता उन्हें एक मांग वाला प्रदाता बनाती है, जो iGaming दुनिया में संभावनाओं की सीमाओं को लगातार आगे बढ़ा रहा है।",
         "Spinomenal: A New Age Innovator in the iGaming Ecosystem":
           "स्पिनोमेनल: आईगेमिंग पारिस्थितिकी तंत्र में एक नए युग का नवप्रवर्तक",
-        "Earning its place as an agile and forward-thinking player in the iGaming scene, Spinomenal is recognized for its inventive approach to game development. Specializing in highly engaging slots like 'Book of Guardians' and 'Demi Gods II,' the company combines vibrant graphics with enticing gameplay mechanics. Spinomenal's commitment to user experience is evident, offering games that are optimized for both desktop and mobile play. Their innovative features, such as bonus games and progressive jackpots, make them a standout provider in an ever-growing market, appealing to a wide range of players seeking fresh and exciting gaming experiences.":
-          "iGaming क्षेत्र में एक चुस्त और दूरदर्शी खिलाड़ी के रूप में अपनी जगह बनाते हुए, Spinomenal को गेम विकास के लिए इसके आविष्कारशील दृष्टिकोण के लिए पहचाना जाता है। 'Book of Guardians' और 'Demi Gods II' जैसे अत्यधिक आकर्षक स्लॉट्स में विशेषज्ञता रखने वाली यह कंपनी जीवंत ग्राफिक्स को आकर्षक गेमप्ले मैकेनिक्स के साथ जोड़ती है। Spinomenal की उपयोगकर्ता अनुभव के प्रति प्रतिबद्धता स्पष्ट है, जो डेस्कटॉप और मोबाइल दोनों के लिए अनुकूलित गेम्स प्रदान करती है। उनके नवाचारी फीचर्स, जैसे बोनस गेम्स और प्रोग्रेसिव जैकपॉट्स, उन्हें एक बढ़ते बाजार में एक विशिष्ट प्रदाता बनाते हैं, जो ताजगी और रोमांचक गेमिंग अनुभव की तलाश करने वाले खिलाड़ियों की एक विस्तृत श्रृंखला को आकर्षित करते हैं।",
+        "Earning its place as an agile and forward-thinking player in the iGaming scene, Spinomenal is recognized for its inventive approach to game development. Specializing in highly engaging slots like 'Book of Guardians' and 'Demi Gods II', the company combines vibrant graphics with enticing gameplay mechanics. Spinomenal's commitment to user experience is evident, offering games that are optimized for both desktop and mobile play. Their innovative features, such as bonus games and progressive jackpots, make them a standout provider in an ever-growing market, appealing to a wide range of players seeking fresh and exciting gaming experiences.":
+          "iGaming दृश्य में एक चुस्त और दूरदर्शी खिलाड़ी के रूप में अपनी जगह बनाते हुए, Spinomenal को गेम विकास के लिए इसके आविष्कारशील दृष्टिकोण के लिए पहचाना जाता है। 'Book of Guardians' और 'Demi Gods II' जैसे अत्यधिक आकर्षक स्लॉट में विशेषज्ञता रखने वाली यह कंपनी जीवंत ग्राफिक्स को आकर्षक गेमप्ले मैकेनिक्स के साथ जोड़ती है। Spinomenal की उपयोगकर्ता अनुभव के प्रति प्रतिबद्धता स्पष्ट है, जो डेस्कटॉप और मोबाइल दोनों के लिए अनुकूलित गेम्स प्रदान करती है। उनके नवाचारी फीचर्स, जैसे बोनस गेम्स और प्रोग्रेसिव जैकपॉट्स, उन्हें एक बढ़ते बाजार में एक विशिष्ट प्रदाता बनाते हैं, जो ताजगी और रोमांचक गेमिंग अनुभव की तलाश करने वाले खिलाड़ियों की एक विस्तृत श्रृंखला को आकर्षित करते हैं।",
         Sum: "योग",
-        Method: "भुगतान विधि",
-        Amount: "राशि",
+        Method: "विधि: विधि,",
+        Amount: "राशि: राशि,",
         "Wallet address": "वॉलेट पता",
         "Time of request": "अनुरोध का समय",
-        Status: "स्थिति",
+        Status: "स्थिति: स्थिति,",
         "My Wallet": "मेरा बटुआ",
         "Fortune Wheel": "भाग्य चक्र",
-        "Cards Shop": "दुकान",
-        Amount: "राशि",
+        "Cards Shop": "कार्ड्स की दुकान",
+        Amount: "राशि: राशि,",
         Email: "ईमेल",
         "Card availability varies by region.":
           "कार्ड की उपलब्धता क्षेत्र के अनुसार भिन्न होती है।",
@@ -11355,16 +11354,17 @@ async function initializeI18n() {
         "Something wrong, try again!": "कुछ गलत है, फिर से प्रयास करें!",
         "Please note: PayPal withdrawals are processed every day from 7 AM to 8 PM CET":
           "कृपया ध्यान दें: पेपाल निकासी हर दिन सुबह 7 बजे से शाम 8 बजे तक CET में संसाधित की जाती हैं।",
-        "Your prepaid card request has been received. Our support team will contact you soon to finalize details. Check your inbox.":
+        "Your prepaid card request has been received. Our support team will contact you soon to finalize details. Check your inbox":
           "आपका प्रीपेड कार्ड अनुरोध प्राप्त हो गया है। हमारी सहायता टीम विवरण को अंतिम रूप देने के लिए जल्द ही आपसे संपर्क करेगी। अपने इनबॉक्स की जाँच करें।",
         Address: "पता",
         "Final Step": "अंतिम चरण",
         "Failed to load data": "डेटा लोड करने में विफल।",
         "Error occurred while loading. Try again.":
           "लोड करते समय त्रुटि हुई। पुनः प्रयास करें।",
+
         "Reload page": "पृष्ठ पुनः लोड करें",
         "To qualify for withdrawals, ensure your first deposit is at least €25 or the equivalent in other currencies and was made after requesting a withdrawal.":
-          "निकासी के लिए पात्र होने के लिए, सुनिश्चित करें कि आपकी पहली जमा राशि कम से कम €25 या अन्य मुद्राओं में समकक्ष हो और निकासी का अनुरोध करने के बाद की गई हो।",
+          "निकासी के लिए पात्र होने के लिए, सुनिश्चित करें कि आपकी पहली जमा राशि कम से कम €25 या अन्य मुद्राओं के समकक्ष हो और निकासी का अनुरोध करने के बाद की गई हो।",
         "FORTUNE WHEEL BRANDS": "फॉर्च्यून व्हील ब्रांड्स",
         "Pick a brand below, make first deposit and win real cash":
           "नीचे एक ब्रांड चुनें, पहली जमा करें और असली नकद जीतें।",
@@ -11373,10 +11373,10 @@ async function initializeI18n() {
         "Hottest Deals": "सबसे गर्म सौदे",
         "Top Sports Casinos": "शीर्ष खेल कैसीनो",
         "Top Sports Betting Sites & Platforms in 2024":
-          "2025 में शीर्ष खेल सट्टेबाजी साइटें और प्लेटफॉर्म",
+          "2025 में शीर्ष खेल सट्टेबाजी साइटें और प्लेटफॉर्म्स",
         "Explore our compilation of premier sports betting sites, featuring platforms that offer comprehensive coverage of sporting events and competitive odds. Delve into impartial assessments, and pinpoint the ultimate sports betting destination tailored to your preferences.":
           "हमारी प्रमुख खेल सट्टेबाजी साइटों के संकलन का अन्वेषण करें, जिसमें ऐसे प्लेटफॉर्म शामिल हैं जो खेल आयोजनों की व्यापक कवरेज और प्रतिस्पर्धी ऑड्स प्रदान करते हैं। निष्पक्ष मूल्यांकन में गहराई से जाएं, और अपनी प्राथमिकताओं के अनुसार अंतिम खेल सट्टेबाजी गंतव्य को चिन्हित करें।",
-        "Top New Releases": "शीर्ष नए कैसीनो रिलीज़",
+        "Top New Releases": "शीर्ष नई रिलीज़",
         "New Arrivals": "नई आगमन",
         "Website language": "वेबसाइट भाषा",
         "Your country of residence": "आपका निवास देश",
@@ -11408,22 +11408,132 @@ async function initializeI18n() {
           "आपके वॉलेट में सीधे $20 तक प्राप्त करें!",
         "Already Registered": "पहले से पंजीकृत",
         "Select a brand from the list below, make your first deposit and receive up to $20 in rewards!":
-          "नीचे दी गई सूची से एक कैसीनो चुनें, अपनी पहली जमा राशि करें और $20 तक के इनाम प्राप्त करें!",
+          "नीचे दी गई सूची से एक ब्रांड चुनें, अपनी पहली जमा राशि करें और 20 USD तक के इनाम प्राप्त करें!",
         "You will get 50 Free Spins for every First Deposit from our website. Spin these spins and get up to $20 on your crypto wallet/PayPal. To qualify for withdrawals, ensure your first deposits is at least Є25 or the equivalent on other currencies and was made after requesting a withdrawal.":
-          "हमारी वेबसाइट से हर पहले जमा के लिए आपको 50 फ्री स्पिन्स मिलेंगे। इन स्पिन्स को घुमाएं और अपने क्रिप्टो वॉलेट/पेपल पर $20 तक प्राप्त करें। निकासी के लिए योग्य होने के लिए, सुनिश्चित करें कि आपकी पहली जमा कम से कम €25 या अन्य मुद्राओं के समकक्ष हो और निकासी का अनुरोध करने के बाद की गई हो।",
+          "आपको हमारी वेबसाइट से हर पहले जमा के लिए 50 फ्री स्पिन्स मिलेंगे। इन स्पिन्स को घुमाएं और अपने क्रिप्टो वॉलेट/पेपल पर 20 USD तक प्राप्त करें। निकासी के लिए योग्य होने के लिए, सुनिश्चित करें कि आपकी पहली जमा कम से कम €25 या अन्य मुद्राओं के समकक्ष हो और निकासी का अनुरोध करने के बाद की गई हो।",
         "You have successfully registered on these brands":
-          "आपने इन ब्रांड्स पर सफलतापूर्वक पंजीकरण कर लिया है।",
+          "आपने इन ब्रांड्स पर सफलतापूर्वक पंजीकरण कर लिया है",
         "Thank you for verifying your phone number! Your VIP manager will call you within 10 minutes to share our exclusive offers. Stay tuned!":
           "आपका फ़ोन नंबर सत्यापित करने के लिए धन्यवाद! आपका वीआईपी प्रबंधक आपको 10 मिनट के भीतर हमारे विशेष ऑफ़र साझा करने के लिए कॉल करेगा। बने रहें!",
-        "YOU ARE ALREADY REGISTERED HERE, MAKE YOUR FIRST DEPOSITS AND":
-          "आप पहले से ही यहां पंजीकृत हैं, अपनी पहली जमा राशि करें और",
-        "RECEIVE REAL MONEY WITH INSTANT WITHDRAWAL":
-          "तुरंत निकासी के साथ वास्तविक धन प्राप्त करें",
         "* Explore the Hottest New Brands –":
           "* सबसे नए और लोकप्रिय ब्रांड्स की खोज करें –",
         "Click Here!": "यहाँ क्लिक करें!",
-        "Expires in:": "समाप्ति में:",
-        "OKTOBERFEST WINS": "ओकटोबरफेस्ट जीतता है",
+        "Expires in:": "समाप्ति की तिथि:",
+        "BIGGEST JACKPOTS": "सबसे बड़े जैकपॉट्स",
+        "TOP TOURNAMENTS": "शीर्ष टूर्नामेंट्स",
+        "Click Here to Unleash Your Magic Bonus!":
+          "यहाँ क्लिक करें और अपनी जादुई बोनस का लाभ उठाएं!",
+        "Get a bonus just for you tomorrow!": "कल आपके लिए एक बोनस!",
+        "Get Bonus": "बोनस प्राप्त करें",
+        "Thank you! Your Bonus Will Be Here Soon":
+          "धन्यवाद! आपका बोनस जल्द ही यहाँ होगा।",
+        "Come back after": "बाद में वापस आना",
+        "to collect it!": "इसे इकट्ठा करने के लिए!",
+        "Your Bonus is Ready!": "आपका बोनस तैयार है!",
+        "Click below to claim your magical reward!":
+          "नीचे क्लिक करें और अपना जादुई इनाम प्राप्त करें!",
+        "Bonus Ready!": "बोनस तैयार है!",
+        "HIT THE JACKPOT!": "बड़ी सफलता प्राप्त की!",
+        "Make deposits on the brands below to participate in the jackpot":
+          "नीचे दिए गए ब्रांड्स पर जमा करें ताकि जैकपॉट में भाग ले सकें।",
+        Casino: "कैसिनो",
+        Shop: "दुकान",
+        Wheel: "पहिया",
+        Profile: "प्रोफ़ाइल",
+        "My Profile": "मेरी प्रोफ़ाइल",
+        "Get ready for the hottest brands, arriving soon!":
+          "सबसे लोकप्रिय ब्रांड्स के लिए तैयार हो जाइए, जल्द ही आ रहे हैं!",
+        "The message was sent hastily!": "संदेश जल्दबाजी में भेजा गया!",
+        Error: "त्रुटि",
+        "Contact Us": "हमसे संपर्क करें",
+        Message: "संदेश",
+        Send: "भेजें",
+        Casinos: "कैसीनो",
+        Bonuses: "बोनस",
+        "All Payments": "सभी भुगतान",
+        "Premium Choice of the Day": "दिन की प्रीमियम पसंद",
+        "TOP NEW": "शीर्ष नया",
+        releases: "रिलीज़",
+        "Play Now": "अभी खेलें",
+        "TRY YOUR": "कोशिश करें",
+        "luck!": "भाग्य!",
+        "Feeling lucky? Click to unlock a cool, exclusive bonus—only available right now. Don't miss your chance!":
+          "भाग्यशाली महसूस कर रहे हैं? एक शानदार, विशेष बोनस को अनलॉक करने के लिए क्लिक करें—जो केवल अभी उपलब्ध है। अपना मौका न चूकें!",
+        "Best Payout": "सर्वश्रेष्ठ भुगतान",
+        Casinos: "कैसीनो",
+        "Best payout casinos": "सर्वश्रेष्ठ भुगतान कैसीनो",
+        "Enjoy high returns, fast withdrawals, and unbeatable odds. Ready to win big? Dive in now!":
+          "उच्च रिटर्न का आनंद लें, तेज निकासी और बेजोड़ मौके। बड़ा जीतने के लिए तैयार हैं? अभी शामिल हों!",
+        "HIT THE": "मारो इसे",
+        "JACKPOT!": "जैकपॉट!",
+        HOTTEST: "सबसे गर्म",
+        casinos: "कैसीनो",
+        "Discover the hottest casino brands trending right now!":
+          "अभी के सबसे लोकप्रिय कैसीनो ब्रांड्स की खोज करें!",
+        "What is your choise": "आपकी पसंद क्या है",
+        "for today?": "आज के लिए?",
+        Choose: "चुनें",
+        POPULAR: "लोकप्रिय",
+        offers: "प्रस्ताव",
+        "Uncover the latest casinos": "नवीनतम कैसीनो का पता लगाएं",
+        "and be among the": "और उनमें शामिल हो",
+        "first to play!": "सबसे पहले खेलने वाला!",
+        brands: "ब्रांड्स",
+        "Pick a brand below, make first deposit and":
+          "नीचे एक ब्रांड चुनें, पहली जमा करें और",
+        "win real cash": "वास्तविक नकद जीतें",
+        "To qualify for withdrawals, ensure your first deposit is at least €25 or the equivalent in other currencies and was made after requesting a withdrawal.":
+          "निकासी के लिए पात्र होने के लिए, सुनिश्चित करें कि आपकी पहली जमा राशि कम से कम €25 या अन्य मुद्राओं के समकक्ष हो और निकासी का अनुरोध करने के बाद की गई हो।",
+        "How to get": "कैसे प्राप्त करें",
+        "bonus?": "बोनस?",
+        "Join the community of our subscribers":
+          "हमारे ग्राहकों के समुदाय में शामिल हों",
+        "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!":
+          "अपने क्षेत्र में काम करने वाले विश्वसनीय ऑनलाइन कैसीनो से ताज़ा सौदे और लाभदायक बोनस प्राप्त करें! जानें कि आज कहां खेलना फायदेमंद है!",
+        "I agree with Terms and Conditions and Privacy Policy.":
+          "मैं शर्तों और नियमों और गोपनीयता नीति से सहमत हूँ।",
+        "I agree to receive promotional emails from topbon.us and its partners.":
+          "मैं topbon.us और इसके साझेदारों से प्रचार ईमेल प्राप्त करने के लिए सहमत हूं।",
+        "I agree to receive promotional sms from topbon.us.":
+          "मैं topbon.us से प्रचारात्मक एसएमएस प्राप्त करने के लिए सहमत हूँ।",
+        "Take a Chance!": "मौका लो!",
+        "Feeling lucky? Discover random casino brands and test your fortune!":
+          "भाग्यशाली महसूस कर रहे हैं? यादृच्छिक कैसीनो ब्रांड खोजें और अपनी किस्मत आजमाएं!",
+        "New Brands": "नए कैसीनो",
+        "Top-Rated Casinos": "शीर्ष रेटेड कैसीनो",
+        "Fast Payout Casinos": "तेज़ भुगतान कैसीनो",
+        "Best Slot Sites": "सर्वश्रेष्ठ स्लॉट साइट्स",
+        "Table Games": "टेबल गेम्स",
+        "Jackpot Casinos": "जैकपॉट कैसीनो",
+        "Casino by Category": "श्रेणी के अनुसार कैसीनो",
+        "Casino by Payment Methods": "भुगतान विधियों द्वारा कैसीनो",
+        "Casino by Game Providers": "गेम प्रदाताओं द्वारा कैसीनो",
+        "Best Bonuses": "सर्वश्रेष्ठ बोनस",
+        "Casino by Category": "श्रेणी के अनुसार कैसीनो",
+        "Casino by Payment Methods": "भुगतान विधियों द्वारा कैसीनो",
+        "Casino by Game Providers": "गेम प्रदाताओं द्वारा कैसीनो",
+        "Best Bonuses": "सर्वश्रेष्ठ बोनस",
+        Support: "समर्थन",
+        Company: "कंपनी",
+        "Try Your Luck!": "अपनी किस्मत आजमाएं!",
+        "Our Contacts": "हमारे संपर्क",
+        "Enter your email": "अपना ईमेल दर्ज करें",
+        Subscribe: "सदस्यता लें",
+        Casino: "कैसिनो",
+        Shop: "दुकान",
+        Wheel: "पहिया",
+        Profile: "प्रोफ़ाइल",
+        "My Profile": "मेरी प्रोफ़ाइल",
+        "Get ready for the hottest brands, arriving soon!":
+          "सबसे लोकप्रिय ब्रांड्स के लिए तैयार हो जाइए, जल्द ही आ रहे हैं!",
+        "The message was sent hastily!": "संदेश जल्दबाजी में भेजा गया!",
+        Error: "त्रुटि",
+        "Contact Us": "हमसे संपर्क करें",
+        Message: "संदेश",
+        Send: "भेजें",
+        "Play, Win, and Grab a": "खेलें, जीतें, और पकड़ें",
+        "New iPhone": "नया आईफोन",
+        "OKTOBERFEST WINS": "ऑक्टोबरफेस्ट जीतता है",
         "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!":
           "ओकटोबरफेस्ट की उत्सव भावना में बड़े जीत और बोनस परोसने वाले सबसे हॉट गेमिंग 'ब्रुअरीज' की खोज करें!",
         "Best Halloween Offers": "सर्वश्रेष्ठ हैलोवीन ऑफ़र",
@@ -11467,7 +11577,7 @@ async function initializeI18n() {
         "Spin Your Way to Top Casino Picks 2024":
           "स्पिन करके 2025 के शीर्ष कैसीनो चयन तक पहुंचें",
         "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.":
-          "नमस्ते, स्लॉट प्रेमी! यह मैं हूँ, आपकी पसंदीदा स्लॉट मशीन, जो आपको 2025 के सबसे रोमांचक कैसीनो फ्लोर के माध्यम से मार्गदर्शन करने के लिए यहाँ हूँ। मैं आपको ऑनलाइन कैसीनो का एक नया संग्रह दिखाऊंगा जो उत्साह, खेल और ऑफ़र के मामले में जैकपॉट मार चुका है।",
+          "नमस्ते, स्लॉट उत्साही! यह मैं हूँ, आपकी पसंदीदा स्लॉट मशीन, जो आपको 2025 के सबसे रोमांचक कैसीनो फ्लोर के माध्यम से मार्गदर्शन करने के लिए यहाँ हूँ। मैं आपको ऑनलाइन कैसीनो का एक नया संग्रह दिखाऊंगा जो उत्साह, खेल और ऑफ़र के मामले में जैकपॉट मार चुका है।",
         "Unlock the Best Casino Bonuses of 2024!":
           "2025 के सर्वश्रेष्ठ कैसीनो बोनस अनलॉक करें!",
         "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.":
@@ -11475,7 +11585,7 @@ async function initializeI18n() {
         "Find Your Best Payment Picks for 2024":
           "2025 के लिए अपनी सर्वश्रेष्ठ भुगतान पसंद खोजें",
         "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!":
-          "भौं-भौं! मैं डॉजकॉइन हूँ, 2025 के शीर्ष कैसीनो भुगतान विधियों के माध्यम से आपका भरोसेमंद मार्गदर्शक। सबसे तेज़, सबसे विश्वसनीय विकल्पों की खोज करते हुए, क्रिप्टो सिक्कों से लेकर क्लासिक कार्ड्स तक, मेरे पास सुरक्षित भुगतानों की जानकारी है जो बिना किसी रुकावट के काम करते हैं। चलो शुरू करें!",
+          "भौं-भौं! मैं डॉजकॉइन हूँ, 2025 के शीर्ष कैसीनो भुगतान विधियों के माध्यम से आपका भरोसेमंद मार्गदर्शक। सबसे तेज़, सबसे विश्वसनीय विकल्पों को सूंघते हुए, क्रिप्टो सिक्कों से लेकर क्लासिक कार्ड तक, मेरे पास सुरक्षित भुगतानों की जानकारी है जो बिना किसी रुकावट के काम करते हैं। चलिए शुरू करते हैं!",
         Top: "शीर्ष",
         "Black Friday": "ब्लैक फ्राइडे",
         "Casino Deals!": "कैसीनो डील्स!",
@@ -11490,14 +11600,7 @@ async function initializeI18n() {
         Take: "प्राप्त करें",
         "Your bonuses are on the way, one moment..":
           "आपके बोनस रास्ते में हैं, एक क्षण..",
-        "Your Christmas Gift Awaits Start Your Fortune!":
-          "आपका क्रिसमस उपहार आपका भाग्य शुरू करता है!",
-        Festive: "त्योहार",
-        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
-          "मौसम के जादू का अनुभव करें सबसे हॉट कैसीनो ब्रांड्स के साथ—खोलें रोमांचक सरप्राइज और उत्सव के इनाम!",
         "Christmas Calendar": "क्रिसमस कैलेंडर",
-        "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!":
-          "हमारे साथ 15 दिनों के उत्सव के आश्चर्यों का आनंद लें! शीर्ष ऑनलाइन कैसीनो से विशेष बोनस, मुफ्त स्पिन, और रोमांचक ऑफ़र अनलॉक करें - 1 दिसंबर से 15 दिसंबर तक हर दिन एक नया सौदा!",
         "Ready to Activate": "सक्रिय करने के लिए तैयार",
         Activate: "सक्रिय करें",
         "Not Yet Available": "अभी तक उपलब्ध नहीं",
@@ -11512,7 +11615,6 @@ async function initializeI18n() {
           "विशेष बोनस, विशेष पुरस्कार, और प्रीमियम समर्थन का आनंद लें!",
         "Dive into thrilling adventures and claim top rewards!":
           "रोमांचक रोमांच में डूबें और शीर्ष पुरस्कार प्राप्त करें!",
-
         "Explore Exclusive Games": "विशेष खेलों का अन्वेषण करें",
         "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!":
           "हमारे साथ 15 दिनों के उत्सव के आश्चर्यों का आनंद लें! शीर्ष ऑनलाइन कैसीनो से विशेष बोनस, मुफ्त स्पिन, और रोमांचक ऑफ़र अनलॉक करें - 15 दिसंबर से 29 दिसंबर तक हर दिन एक नया सौदा!",
@@ -11521,23 +11623,21 @@ async function initializeI18n() {
         "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS":
           "हर दिन आपके लिए शीर्ष ब्रांड: अपना चुनें",
         "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!":
-          "शीर्ष-रेटेड कैसीनो खोजें जो आपके अंतिम गेमिंग अनुभव के लिए तैयार हैं। चुनें और आज ही जीतना शुरू करें!",
+          "शीर्ष-रेटेड ब्रांडों की खोज करें जो आपके अंतिम गेमिंग अनुभव के लिए अनुकूलित हैं। आज ही चुनें और जीतना शुरू करें!",
         "Unlock Your Exclusive": "अपना विशेष अनलॉक करें",
         "Casino Surprise": "कैसीनो सरप्राइज",
         "Top brands have been chosen for you!":
-          "आपके लिए शीर्ष कैसीनो चुने गए हैं!",
+          "आपके लिए शीर्ष ब्रांड चुने गए हैं!",
         "Don’t miss your chance to check it out.":
           "अपने मौके को चूकें नहीं, इसे देखना न भूलें।",
-
         "Winter Storm of Wins: Catch Your Snowflake of Luck":
-          "जीतों का शीतकालीन तूफान: अपनी भाग्यशाली बर्फ की फुहार पकड़ें",
+          "विंटर स्टॉर्म ऑफ़ विंस: अपनी किस्मत की बर्फ़ का टुकड़ा पकड़ें",
         "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.":
-          "हर दिन, एक बर्फ की फुहार पकड़ें और एक शीतकालीन सरप्राइज़ का खुलासा करें! मुफ़्त स्पिन, कैशबैक और विशेष बोनस इस शीतकालीन तूफान में आपका इंतजार कर रहे हैं।",
-
+          "हर दिन, एक बर्फ का टुकड़ा पकड़ें और एक सर्दियों का आश्चर्य प्रकट करें! मुफ्त स्पिन, कैशबैक, और विशेष बोनस इस सर्दियों की जीत के तूफान में आपका इंतजार कर रहे हैं।",
         "Exclusive Winter Specials Just for You!":
-          "सिर्फ आपके लिए खास शीतकालीन ऑफ़र!",
-        "Your Winter Fortune": "आपका शीतकालीन सौभाग्य",
-        Check: "जांचें",
+          "विशेष शीतकालीन ऑफ़र केवल आपके लिए!",
+        "Your Winter Fortune": "आपका शीतकालीन भाग्य",
+        Check: "जाँच",
       },
     },
   };
