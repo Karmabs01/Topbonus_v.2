@@ -340,6 +340,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Comprehensive Compilation of Online Casino Bonuses Accessible in 2025",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Irresistible in 2025: No Deposit Casino Bonuses and Unique Bonus Codes",
@@ -402,12 +404,12 @@ async function initializeI18n() {
           "Looking for leading online casinos that welcome ecoPayz transactions? Explore our curated selection of premium ecoPayz-friendly casinos to discover the perfect fit for you.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "Top-Rated Online Casinos Accepting Maestro Payments for 2025",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2025",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2025.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -422,8 +424,8 @@ async function initializeI18n() {
           "In search of an online casino compatible with Neosurf payments? Browse our curated selection of Neosurf-friendly casinos, delve into our in-depth reviews, and pinpoint the ideal platform for you.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "Top Online Casinos Supporting Neteller Transactions in 2025",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "Leading Online Casinos Accepting PayPal Payments in 2025",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -446,8 +448,8 @@ async function initializeI18n() {
           "Searching for internet casinos that welcome Trustly payments? Browse our curated list and in-depth evaluations to discover the most suitable Trustly-compatible casino for you.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "Top-Rated Online Casinos Welcoming Visa Transactions in 2025",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -824,6 +826,17 @@ async function initializeI18n() {
           "Exclusive Winter Specials Just for You!",
         "Your Winter Fortune": "Your Winter Fortune",
         Check: "Check",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "Secrets of the Red Envelope: Open and Discover Your Luck!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!",
+
+        "You have activated a card today": "You have activated a card today",
+        Festive: "Festive",
       },
     },
 
@@ -954,6 +967,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Wybierz spośród różnorodnych najlepszych nagród powitalnych w kasynie i otrzymaj dodatkowe środki bonusowe wliczone w Twoją pierwszą wpłatę. Wyłączne oferty zachęt do rejestracji zaprojektowane dla nowych uczestników.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Kompleksowy Zbiór Bonusów Kasyn Online Dostępnych w 2025 roku",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "Poszukujesz bonusów i promocji kasynowych w sieci? Zapoznaj się z naszym aktualnym, dobrze utrzymanym repozytorium, które zawiera mnóstwo propozycji bonusów kasynowych do rozważenia.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Niezwykłe w 2025 roku: Bonusy w kasynie bez depozytu i unikalne kody bonusowe",
@@ -1017,12 +1032,12 @@ async function initializeI18n() {
           "Poszukujesz wiodących kasyn online, które akceptują transakcje ecoPayz? Odkryj naszą starannie wyselekcjonowaną selekcję premium kasyn przyjaznych ecoPayz, aby znaleźć idealne miejsce dla siebie.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "Najwyżej oceniane kasyna online akceptujące płatności Maestro na rok 2025",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Zainteresowany graniem w kasynach online, które akceptują transakcje Maestro? Pozwól XXXCasinoGuru poprowadzić Cię do idealnego kasyna przyjaznego Maestro dla Ciebie.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Zainteresowany graniem w kasynach online, które akceptują transakcje Maestro? Pozwól Topbonus poprowadzić Cię do idealnego kasyna przyjaznego Maestro dla Ciebie.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "Najlepiej oceniane kasyna online, które akceptują transakcje Mastercard w 2025 roku",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling":
-          "Zainteresowany graniem w kasynie przyjaznym dla Mastercarda? XXXCasinoGuru jest tutaj, aby prowadzić Cię do najbardziej godnych zaufania kasyn, które akceptują Mastercarda do bezpiecznego hazardu.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling":
+          "Zainteresowany graniem w kasynie przyjaznym dla Mastercarda? Topbonus jest tutaj, aby prowadzić Cię do najbardziej godnych zaufania kasyn, które akceptują Mastercarda do bezpiecznego hazardu.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "Wiodące kasyna online, które faworyzują płatności mobilne dla płynnych transakcji w 2025 roku.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -1037,8 +1052,8 @@ async function initializeI18n() {
           "W poszukiwaniu kasyna online kompatybilnego z płatnościami Neosurf? Przeglądaj naszą starannie wybraną selekcję kasyn przyjaznych Neosurfowi, zagłębiaj się w nasze szczegółowe recenzje i wybierz idealną platformę dla siebie.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "Najlepsze kasyna online obsługujące transakcje za pomocą Netellera w 2025 roku",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Katalog kasyn online kompatybilnych z płatnościami Neteller. ✅ Dokładne oceny autorstwa XXXCasinoGuru. ✅ Odkryj swoje idealne kasyno przyjazne dla Netellera.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Katalog kasyn online kompatybilnych z płatnościami Neteller. ✅ Dokładne oceny autorstwa Topbonus. ✅ Odkryj swoje idealne kasyno przyjazne dla Netellera.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "Wiodące kasyna online akceptujące płatności PayPal w 2025 roku",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -1061,8 +1076,8 @@ async function initializeI18n() {
           "Poszukujesz kasyn internetowych, które akceptują płatności Trustly? Przejrzyj naszą starannie wyselekcjonowaną listę i szczegółowe recenzje, aby znaleźć najbardziej odpowiednie kasyno kompatybilne z Trustly dla Ciebie.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "Najlepiej oceniane kasyna online, które akceptują transakcje Visa w 2025 roku",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Zainteresowany graniem w kasynie przyjaznym dla Visa? XXXCasinoGuru jest tutaj, aby prowadzić Cię do najbardziej godnych zaufania kasyn, które akceptują Visa dla bezpiecznego hazardu.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Zainteresowany graniem w kasynie przyjaznym dla Visa? Topbonus jest tutaj, aby prowadzić Cię do najbardziej godnych zaufania kasyn, które akceptują Visa dla bezpiecznego hazardu.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Łącząc przepaść między tradycyjnymi a internetowymi kasynami za pomocą klasycznych tytułów gier",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -1431,6 +1446,17 @@ async function initializeI18n() {
           "Ekskluzywne zimowe oferty tylko dla Ciebie!",
         "Your Winter Fortune": "Twoje zimowe szczęście",
         Check: "Sprawdź",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "Tajemnice Czerwonej Koperty: Otwórz i odkryj swoje szczęście!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Każdego dnia wybierz jedną z czerwonych kopert, aby odkryć niespodziankę. Darmowe spiny, cashback lub ekskluzywne bonusy już na Ciebie czekają!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Poczuj magię sezonu z najgorętszymi markami kasyn – odkryj ekscytujące niespodzianki i świąteczne nagrody!",
+
+        "You have activated a card today": "Dziś aktywowałeś kartę",
+        Festive: "Świątecznych",
       },
     },
     de: {
@@ -1560,6 +1586,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Wählen Sie aus einer Vielzahl von erstklassigen Einführungs-Casino-Belohnungen und erhalten Sie zusätzliche Bonusgelder, die in Ihre erste Zahlung integriert sind. Exklusive Anreizangebote zur Registrierung, die für neue Teilnehmer konzipiert wurden.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Umfassende Zusammenstellung von Online-Casino-Boni im Jahr 2025 verfügbar",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "Auf der Suche nach Casino-Boni und Aktionen im Web? Entdecken Sie unser aktuelles, gut gepflegtes Repository mit einer Vielzahl von Casino-Bonusvorschlägen zur Auswahl.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Unwiderstehlich im Jahr 2025: Keine Einzahlungsboni im Casino und einzigartige Bonuscodes",
@@ -1622,12 +1650,12 @@ async function initializeI18n() {
           "Auf der Suche nach führenden Online-Casinos, die ecoPayz-Transaktionen akzeptieren? Entdecken Sie unsere sorgfältig ausgewählte Auswahl an Premium-Casinos, die ecoPayz-freundlich sind, um die perfekte Lösung für Sie zu finden.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "Top-bewertete Online-Casinos, die Maestro-Zahlungen für 2025 akzeptieren",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Interessiert an Glücksspielen in Online-Casinos, die Maestro-Transaktionen akzeptieren? Lassen Sie sich von XXXCasinoGuru zum idealen Maestro-freundlichen Casino für Sie führen.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Interessiert an Glücksspielen in Online-Casinos, die Maestro-Transaktionen akzeptieren? Lassen Sie sich von Topbonus zum idealen Maestro-freundlichen Casino für Sie führen.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "Top-bewertete Online-Casinos, die Mastercard-Transaktionen im Jahr 2025 begrüßen",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "Interessiert an Glücksspielen in einem Mastercard-freundlichen Casino? XXXCasinoGuru ist hier, um Sie zu den vertrauenswürdigsten Casinos zu führen, die Mastercard für sicheres Glücksspiel akzeptieren.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "Interessiert an Glücksspielen in einem Mastercard-freundlichen Casino? Topbonus ist hier, um Sie zu den vertrauenswürdigsten Casinos zu führen, die Mastercard für sicheres Glücksspiel akzeptieren.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "Führende Online-Casinos, die mobile Zahlungen für reibungslose Transaktionen im Jahr 2025 bevorzugen.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -1642,8 +1670,8 @@ async function initializeI18n() {
           "Auf der Suche nach einem Online-Casino, das mit Neosurf-Zahlungen kompatibel ist? Durchsuchen Sie unsere sorgfältig ausgewählte Auswahl an Neosurf-freundlichen Casinos, tauchen Sie in unsere ausführlichen Bewertungen ein und finden Sie die ideale Plattform für Sie.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "Top Online Casinos, die Neteller-Transaktionen im Jahr 2025 unterstützen",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Verzeichnis von Online-Casinos, die mit Neteller-Zahlungen kompatibel sind. ✅ Ausführliche Bewertungen von XXXCasinoGuru. ✅ Entdecken Sie Ihr ideales Neteller-freundliches Casino.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Verzeichnis von Online-Casinos, die mit Neteller-Zahlungen kompatibel sind. ✅ Ausführliche Bewertungen von Topbonus. ✅ Entdecken Sie Ihr ideales Neteller-freundliches Casino.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "Führende Online-Casinos, die PayPal-Zahlungen im Jahr 2025 akzeptieren",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -1666,8 +1694,8 @@ async function initializeI18n() {
           "Auf der Suche nach Internet-Casinos, die Trustly-Zahlungen akzeptieren? Durchsuchen Sie unsere sorgfältig zusammengestellte Liste und detaillierte Bewertungen, um das für Sie am besten geeignete Trustly-kompatible Casino zu entdecken.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "Top-bewertete Online-Casinos, die Visa-Transaktionen im Jahr 2025 begrüßen",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Interessiert an Spielen in einem Visa-freundlichen Casino? XXXCasinoGuru ist hier, um Sie zu den vertrauenswürdigsten Casinos zu führen, die Visa für sicheres Glücksspiel akzeptieren.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Interessiert an Spielen in einem Visa-freundlichen Casino? Topbonus ist hier, um Sie zu den vertrauenswürdigsten Casinos zu führen, die Visa für sicheres Glücksspiel akzeptieren.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Die Kluft zwischen traditionellen und Online-Casinos mit klassischen Spieltiteln überbrücken",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -2039,6 +2067,18 @@ async function initializeI18n() {
           "Exklusive Winterangebote nur für Sie!",
         "Your Winter Fortune": "Ihr Winterglück",
         Check: "Prüfen",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "Geheimnisse des Roten Umschlags: Öffne und entdecke dein Glück!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Jeden Tag wähle einen der roten Umschläge, um eine Überraschung zu enthüllen. Freispiele, Cashback oder exklusive Boni warten bereits auf dich!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Erleben Sie die Magie der Saison mit den heißesten Casino-Marken – entdecken Sie spannende Überraschungen und festliche Belohnungen!",
+
+        "You have activated a card today":
+          "Sie haben heute eine Karte aktiviert",
+        Festive: "Festliche",
       },
     },
     bg: {
@@ -2167,6 +2207,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Изберете от разнообразие от водещи във въвеждащите казино награди и получете допълнителни бонус средства, включени в първоначалното ви плащане. Ексклузивни оферти за регистрация, предназначени за нови участници.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Обширна компилация от бонуси за онлайн казина, достъпни през 2025 г.",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "Търсите бонуси и промоции за казино в интернет? Изследвайте нашия настоящ, добре поддържан репозиторий, който предлага множество предложения за казино бонуси за вашето разглеждане.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Непреодолими през 2025 г .: Бонуси без депозит в казино и уникални бонус кодове",
@@ -2230,12 +2272,12 @@ async function initializeI18n() {
           "Търсите водещи онлайн казина, които посрещат транзакции с ecoPayz? Изследвайте нашата подбрана селекция от премиум казина, които приемат ecoPayz, за да откриете перфектното за вас.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "Най-добрите онлайн казина, приемащи плащания с Maestro за 2025 година",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Интересувате се от игри в онлайн казина, които приемат транзакции с Maestro? Нека XXXCasinoGuru ви насочи към идеалното казино, което поддържа Maestro за вас.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Интересувате се от игри в онлайн казина, които приемат транзакции с Maestro? Нека Topbonus ви насочи към идеалното казино, което поддържа Maestro за вас.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "Най-добрите онлайн казина, които посрещат транзакции с Mastercard през 2025 г.",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "Интересувате се от игри в казино, което приема Mastercard? XXXCasinoGuru е тук, за да ви насочи към най-надеждните казина, които приемат Mastercard за сигурно залагане.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "Интересувате се от игри в казино, което приема Mastercard? Topbonus е тук, за да ви насочи към най-надеждните казина, които приемат Mastercard за сигурно залагане.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "Водещи онлайн казина, които предпочитат мобилни плащания за безпроблемни транзакции през 2025 г.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -2250,8 +2292,8 @@ async function initializeI18n() {
           "В търсене на онлайн казино, съвместимо с плащания с Neosurf? Разгледайте нашата подбрана селекция от казина, които приемат Neosurf, прочетете нашите подробни ревюта и намерете идеалната платформа за вас.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "Най-добрите онлайн казина, поддържащи транзакции с Neteller през 2025 г.",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Директория на онлайн казина, съвместими с плащания чрез Neteller. ✅ Подробни оценки от XXXCasinoGuru. ✅ Открийте вашето идеално казино, което приема Neteller.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Директория на онлайн казина, съвместими с плащания чрез Neteller. ✅ Подробни оценки от Topbonus. ✅ Открийте вашето идеално казино, което приема Neteller.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "Водещите онлайн казина, приемащи плащания с PayPal през 2025 г.",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -2274,8 +2316,8 @@ async function initializeI18n() {
           "Търсите интернет казина, които приемат плащания с Trustly? Разгледайте нашия подбран списък и подробни оценки, за да откриете най-подходящото казино, съвместимо с Trustly, за вас.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "Най-добрите онлайн казина, които посрещат транзакции с Visa през 2025 г.",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Интересувате се от игри в казино, което приема Visa? XXXCasinoGuru е тук, за да ви насочи към най-надеждните казина, които посрещат Visa за сигурно залагане.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Интересувате се от игри в казино, което приема Visa? Topbonus е тук, за да ви насочи към най-надеждните казина, които посрещат Visa за сигурно залагане.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Свързване на разликата между традиционните и онлайн казина с класически игрови заглавия",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -2638,6 +2680,17 @@ async function initializeI18n() {
           "Ексклузивни зимни оферти само за вас!",
         "Your Winter Fortune": "Вашият зимен късмет",
         Check: "Провери",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "Тайните на червения плик: Отвори и открий късмета си!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Всеки ден избери един от червените пликове, за да разкриеш изненада. Безплатни завъртания, кешбек или ексклузивни бонуси вече те очакват!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Почувствайте магията на сезона с най-горещите казино марки – разопаковайте вълнуващи изненади и празнични награди!",
+
+        "You have activated a card today": "Днес активирахте карта",
+        Festive: "Празнични",
       },
     },
     cz: {
@@ -2766,6 +2819,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Vyberte si z široké škály úvodních kasinových odměn nejvyšší úrovně a získejte dodatečné bonusové prostředky začleněné do vaší počáteční platby. Exkluzivní registrační pobídky navržené pro nové účastníky.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Komplexní Sestava Bonusů Online Kasin Dostupných v roce 2025",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "Hledáte kasinové bonusy a akce na webu? Prozkoumejte náš aktuální, dobře udržovaný repozitář obsahující množství návrhů kasinových bonusů k vašemu zvážení.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Nepřekonatelné v roce 2025: Kasinové bonusy bez vkladu a jedinečné bonusové kódy",
@@ -2828,12 +2883,12 @@ async function initializeI18n() {
           "Hledáte přední online kasina, která přijímají transakce pomocí ecoPayz? Objevte naši pečlivě vybranou selekci prémiových kasin přátelských k ecoPayz a najděte ten správný pro vás.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "Nejlépe hodnocená online kasina přijímající platby Maestro pro rok 2025",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Zajímá vás hraní v online kasinech, které přijímají transakce Maestro? Nechte XXXCasinoGuru, aby vás dovedl k ideálnímu kasinu přátelskému k Maestru pro vás.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Zajímá vás hraní v online kasinech, které přijímají transakce Maestro? Nechte Topbonus, aby vás dovedl k ideálnímu kasinu přátelskému k Maestru pro vás.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "Nejlépe hodnocená online kasina vítající transakce s Mastercardem v roce 2025",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "Zajímá vás hraní v kasinu přijímajícím Mastercard? XXXCasinoGuru vám pomůže najít nejspolehlivější kasina, která přijímají Mastercard pro bezpečné hraní.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "Zajímá vás hraní v kasinu přijímajícím Mastercard? Topbonus vám pomůže najít nejspolehlivější kasina, která přijímají Mastercard pro bezpečné hraní.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "Přední online casina, která preferují mobilní platby pro plynulé transakce v roce 2025.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -2848,8 +2903,8 @@ async function initializeI18n() {
           "Vyhledáváte online kasino kompatibilní s platbami Neosurf? Procházejte naši pečlivě vybranou nabídku kasin přátelských k Neosurfu, prozkoumejte naše podrobné recenze a najděte ideální platformu pro vás.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "Nejlepší online casina podporující transakce pomocí Netelleru v roce 2025",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Adresář online kasin kompatibilních s platbami pomocí Netelleru. ✅ Podrobné hodnocení od XXXCasinoGuru. ✅ Objevte své ideální kasino přátelské k Netelleru.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Adresář online kasin kompatibilních s platbami pomocí Netelleru. ✅ Podrobné hodnocení od Topbonus. ✅ Objevte své ideální kasino přátelské k Netelleru.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "Přední online casina přijímající platby prostřednictvím PayPal v roce 2025",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -2872,8 +2927,8 @@ async function initializeI18n() {
           "Hledáte internetová kasina, která přijímají platby Trustly? Procházejte naši pečlivě vybraný seznam a podrobné recenze, abyste objevili nejvhodnější kasino kompatibilní s Trustly pro vás.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "Nejlépe hodnocená online kasina vítající platební transakce Visa v roce 2025",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Zajímá vás hraní v kasinu přijímajícím platby Visa? XXXCasinoGuru vám pomůže najít nejspolehlivější kasina, která vítají Visa pro bezpečné hraní.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Zajímá vás hraní v kasinu přijímajícím platby Visa? Topbonus vám pomůže najít nejspolehlivější kasina, která vítají Visa pro bezpečné hraní.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Překlenutí propasti mezi tradičními a online kasiny s klasickými herními tituly",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -3237,6 +3292,16 @@ async function initializeI18n() {
           "Exkluzivní zimní nabídky jen pro vás!",
         "Your Winter Fortune": "Vaše zimní štěstí",
         Check: "Zkontrolovat",
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "Tajemství červené obálky: Otevři a objev své štěstí!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Každý den si vyber jednu z červených obálek a odhal překvapení. Volné spiny, cashback nebo exkluzivní bonusy na tebe už čekají!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Zažijte kouzlo sezóny s nejžhavějšími značkami kasin – odhalte vzrušující překvapení a sváteční odměny!",
+
+        "You have activated a card today": "Dnes jste aktivovali kartu",
+        Festive: "Svátečních",
       },
     },
     dk: {
@@ -3365,6 +3430,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Vælg mellem en række top-tier introduktionscasino belønninger og modtag ekstra bonusmidler inkorporeret i din første betaling. Eksklusive registreringsincitamenttilbud designet til nye deltagere.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Omfattende Samling af Online Casino Bonusser tilgængelige i 2025",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "Søger du efter casino bonusser og tilbud på nettet? Udforsk vores aktuelle, velvedligeholdte repository med et væld af casino bonusforslag til din overvejelse.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Irresistible in 2025: Ingen Indskud Casino Bonusser og Unikke Bonuskoder",
@@ -3427,12 +3494,12 @@ async function initializeI18n() {
           "Er du på udkig efter førende online casinoer, der byder velkommen til ecoPayz-transaktioner? Udforsk vores udvalgte udvalg af premium ecoPayz-venlige casinoer for at finde den perfekte match for dig.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "Toprangere online casinoer, der accepterer Maestro-betalinger for 2025",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Interesseret i at spille på online casinoer, der byder velkommen til Maestro-transaktioner? Lad XXXCasinoGuru guide dig til det ideelle Maestro-venlige casino for dig.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Interesseret i at spille på online casinoer, der byder velkommen til Maestro-transaktioner? Lad Topbonus guide dig til det ideelle Maestro-venlige casino for dig.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "Top-vurderede online casinoer byder velkommen til Mastercard-transaktioner i 2025",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "Interesseret i at spille på et casino, der accepterer Mastercard? XXXCasinoGuru er her for at guide dig til de mest pålidelige casinoer, der byder velkommen til Mastercard for sikker gambling.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "Interesseret i at spille på et casino, der accepterer Mastercard? Topbonus er her for at guide dig til de mest pålidelige casinoer, der byder velkommen til Mastercard for sikker gambling.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "Førende online casinoer, der foretrækker mobilbetalinger for problemfri transaktioner i 2025.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -3447,8 +3514,8 @@ async function initializeI18n() {
           "På jagt efter et online casino kompatibelt med Neosurf betalinger? Gennemse vores udvalgte udvalg af Neosurf-venlige casinoer, dykke ned i vores dybdegående anmeldelser, og finde den ideelle platform for dig.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "Top Online Casinoer, der understøtter Neteller-transaktioner i 2025",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Oversigt over online casinoer kompatible med Neteller betalinger. ✅ Dybdegående vurderinger af XXXCasinoGuru. ✅ Opdag dit ideelle Neteller-venlige casino.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Oversigt over online casinoer kompatible med Neteller betalinger. ✅ Dybdegående vurderinger af Topbonus. ✅ Opdag dit ideelle Neteller-venlige casino.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "Førende online casinoer, der accepterer PayPal-betalinger i 2025",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -3471,8 +3538,8 @@ async function initializeI18n() {
           "Leder du efter internetcasinoer, der byder velkommen til Trustly-betalinger? Gennemse vores udvalgte liste og dybdegående evalueringer for at finde det mest passende Trustly-kompatible casino for dig.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "Top-vurderede online casinoer byder velkommen til Visa-transaktioner i 2025",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Interesseret i at spille på et Visa-venligt casino? XXXCasinoGuru er her for at guide dig til de mest pålidelige casinoer, der byder velkommen til Visa for sikker gambling.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Interesseret i at spille på et Visa-venligt casino? Topbonus er her for at guide dig til de mest pålidelige casinoer, der byder velkommen til Visa for sikker gambling.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Broen mellem traditionelle og online casinoer med klassiske spiltitler",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -3836,6 +3903,17 @@ async function initializeI18n() {
           "Eksklusive vintertilbud kun til dig!",
         "Your Winter Fortune": "Din vinterlykke",
         Check: "Tjek",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "Hemmelighederne i den røde kuvert: Åbn og opdag dit held!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Hver dag kan du vælge en af de røde kuverter for at afsløre en overraskelse. Gratis spins, cashback eller eksklusive bonusser venter allerede på dig!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Oplev sæsonens magi med de hotteste casinobrands – åbn spændende overraskelser og festlige belønninger!",
+
+        "You have activated a card today": "Du har aktiveret et kort i dag",
+        Festive: "Festlige",
       },
     },
     nl: {
@@ -3964,6 +4042,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Kies uit een verscheidenheid aan eersteklas introductiecasinobonussen en ontvang extra bonusgeld dat is opgenomen in uw eerste betaling. Exclusieve registratie-incentiveaanbiedingen ontworpen voor nieuwe deelnemers.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Uitgebreide Verzameling van Online Casino Bonussen Beschikbaar in 2025",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "Op zoek naar casinobonussen en promoties op het web? Verken onze huidige, goed onderhouden repository met een overvloed aan casinobonusvoorstellen voor uw overweging.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Onweerstaanbaar in 2025: Geen Stortingscasinobonussen en Unieke Bonuscodes",
@@ -4027,12 +4107,12 @@ async function initializeI18n() {
           "Op zoek naar toonaangevende online casino's die ecoPayz-transacties accepteren? Verken onze samengestelde selectie van premium ecoPayz-vriendelijke casino's om de perfecte match voor jou te ontdekken.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "Top-beoordeelde online casino's die Maestro-betalingen accepteren voor 2025",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Geïnteresseerd in gokken bij online casino's die Maestro-transacties accepteren? Laat XXXCasinoGuru je naar het ideale Maestro-vriendelijke casino leiden voor jou.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Geïnteresseerd in gokken bij online casino's die Maestro-transacties accepteren? Laat Topbonus je naar het ideale Maestro-vriendelijke casino leiden voor jou.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "Top-beoordeelde online casino's die Mastercard-transacties verwelkomen in 2025",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "Geïnteresseerd in gokken bij een casino dat Mastercard accepteert? XXXCasinoGuru staat klaar om je te begeleiden naar de meest betrouwbare casino's die Mastercard accepteren voor veilig gokken.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "Geïnteresseerd in gokken bij een casino dat Mastercard accepteert? Topbonus staat klaar om je te begeleiden naar de meest betrouwbare casino's die Mastercard accepteren voor veilig gokken.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "Toonaangevende online casino's die de voorkeur geven aan mobiele betalingen voor naadloze transacties in 2025.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -4047,8 +4127,8 @@ async function initializeI18n() {
           "Op zoek naar een online casino dat compatibel is met Neosurf-betalingen? Blader door onze samengestelde selectie van Neosurf-vriendelijke casino's, duik in onze diepgaande reviews en vind het ideale platform voor jou.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "Top Online Casino's die Neteller-transacties ondersteunen in 2025",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Overzicht van online casino's die compatibel zijn met Neteller-betalingen. ✅ Diepgaande beoordelingen door XXXCasinoGuru. ✅ Ontdek jouw ideale Neteller-vriendelijke casino.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Overzicht van online casino's die compatibel zijn met Neteller-betalingen. ✅ Diepgaande beoordelingen door Topbonus. ✅ Ontdek jouw ideale Neteller-vriendelijke casino.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "Vooraanstaande online casino's die PayPal-betalingen accepteren in 2025",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -4071,8 +4151,8 @@ async function initializeI18n() {
           "Op zoek naar internetcasino's die Trustly-betalingen accepteren? Blader door onze samengestelde lijst en diepgaande evaluaties om het meest geschikte Trustly-compatibele casino voor jou te ontdekken.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "Top-beoordeelde online casino's die Visa-transacties verwelkomen in 2025",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Geïnteresseerd in gokken bij een Visa-vriendelijk casino? XXXCasinoGuru is hier om je te begeleiden naar de meest betrouwbare casino's die Visa accepteren voor veilig gokken.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Geïnteresseerd in gokken bij een Visa-vriendelijk casino? Topbonus is hier om je te begeleiden naar de meest betrouwbare casino's die Visa accepteren voor veilig gokken.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Het overbruggen van de kloof tussen traditionele en online casino's met klassieke spel titels",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -4439,6 +4519,18 @@ async function initializeI18n() {
           "Exclusieve winteraanbiedingen speciaal voor jou!",
         "Your Winter Fortune": "Jouw wintergeluk",
         Check: "Controleer",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "Geheimen van de Rode Envelop: Open en ontdek je geluk!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Kies elke dag een van de rode enveloppen om een verrassing te onthullen. Gratis spins, cashback of exclusieve bonussen wachten al op je!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Beleef de magie van het seizoen met de populairste casinomerken – ontdek spannende verrassingen en feestelijke beloningen!",
+
+        "You have activated a card today":
+          "Je hebt vandaag een kaart geactiveerd",
+        Festive: "Feestelijke",
       },
     },
     es: {
@@ -4567,6 +4659,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Selecciona entre una variedad de recompensas de casino introductorias de primer nivel y recibe fondos adicionales de bonificación incorporados en tu pago inicial. Ofertas exclusivas de incentivos de registro diseñadas para nuevos participantes.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Compilación Integral de Bonos de Casinos Online Accesibles en 2025",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "¿Buscando bonos y promociones de casino en la web? ¡Explora nuestro repositorio actual y bien mantenido que cuenta con una gran cantidad de propuestas de bonos de casino para tu consideración!",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Irresistible en 2025: Bonos de casino sin depósito y códigos de bonificación únicos",
@@ -4629,12 +4723,12 @@ async function initializeI18n() {
           "¿Buscas los principales casinos en línea que aceptan transacciones con ecoPayz? Explora nuestra selección cuidadosamente elegida de casinos amigables con ecoPayz para descubrir la opción perfecta para ti.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "Los mejores casinos en línea que aceptan pagos con Maestro para el 2025",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "¿Interesado en jugar en casinos en línea que acepten transacciones con Maestro? Deja que XXXCasinoGuru te guíe hacia el casino Maestro ideal para ti.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "¿Interesado en jugar en casinos en línea que acepten transacciones con Maestro? Deja que Topbonus te guíe hacia el casino Maestro ideal para ti.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "Los mejores casinos en línea que aceptarán transacciones con Mastercard en 2025",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "¿Interesado en jugar en un casino amigable con Mastercard? XXXCasinoGuru está aquí para guiarte hacia los casinos más confiables que aceptan Mastercard para un juego seguro.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "¿Interesado en jugar en un casino amigable con Mastercard? Topbonus está aquí para guiarte hacia los casinos más confiables que aceptan Mastercard para un juego seguro.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "Principales casinos en línea que favorecen los pagos móviles para transacciones sin problemas en 2025.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -4649,8 +4743,8 @@ async function initializeI18n() {
           "¿En busca de un casino en línea compatible con pagos Neosurf? Explore nuestra selección cuidadosamente seleccionada de casinos amigables con Neosurf, profundice en nuestras reseñas detalladas y encuentre la plataforma ideal para usted.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "Principales casinos en línea que admiten transacciones con Neteller en 2025",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Directorio de casinos en línea compatibles con pagos de Neteller. ✅ Evaluaciones detalladas por XXXCasinoGuru. ✅ Descubre tu casino ideal compatible con Neteller.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Directorio de casinos en línea compatibles con pagos de Neteller. ✅ Evaluaciones detalladas por Topbonus. ✅ Descubre tu casino ideal compatible con Neteller.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "Principales casinos en línea que aceptan pagos con PayPal en 2025",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -4673,8 +4767,8 @@ async function initializeI18n() {
           "¿Buscando casinos en línea que acepten pagos con Trustly? Explore nuestra lista seleccionada y evaluaciones detalladas para descubrir el casino compatible con Trustly más adecuado para ti.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "Los casinos en línea mejor valorados que aceptarán transacciones con Visa en 2025",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "¿Interesado en jugar en un casino que acepte Visa? XXXCasinoGuru está aquí para guiarte hacia los casinos más confiables que aceptan Visa para un juego seguro.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "¿Interesado en jugar en un casino que acepte Visa? Topbonus está aquí para guiarte hacia los casinos más confiables que aceptan Visa para un juego seguro.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Acortando la brecha entre los casinos tradicionales y en línea con títulos de juegos clásicos",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -5041,6 +5135,17 @@ async function initializeI18n() {
           "¡Ofertas exclusivas de invierno solo para ti!",
         "Your Winter Fortune": "Tu fortuna de invierno",
         Check: "Verificar",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "Secretos del Sobre Rojo: ¡Ábrelo y descubre tu suerte!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Cada día elige uno de los sobres rojos para descubrir una sorpresa. Giros gratis, reembolsos o bonos exclusivos ya te están esperando!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "¡Vive la magia de la temporada con las marcas de casinos más populares y descubre emocionantes sorpresas y recompensas festivas!",
+
+        "You have activated a card today": "Has activado una tarjeta hoy",
+        Festive: "Festivos",
       },
     },
     fi: {
@@ -5169,6 +5274,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Valitse erilaisista huipputason aloitus kasinobonuksista ja saat lisäbonuksia sisällytettyinä ensimmäiseen maksuusi. Yksinoikeudella suunnitellut rekisteröitymisbonustarjoukset uusille osallistujille.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Kattava Kokoelma Verkkokasinoiden Bonuksia Saatavilla Vuonna 2025",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "Etsitkö kasinobonuksia ja tarjouksia verkosta? Tutustu nykyiseen, hyvin ylläpidettyyn tietokantaamme, joka sisältää runsaasti kasinobonusehdotuksia harkintaasi varten.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Vastustamaton vuonna 2025: Ei talletus kasinobonuksia ja ainutlaatuisia bonuskoodit",
@@ -5232,12 +5339,12 @@ async function initializeI18n() {
           "Etsitkö johtavia verkkokasinoita, jotka ottavat vastaan ecoPayz-tapahtumia? Tutustu kuratoituun valikoimaamme premium ecoPayz-yhteensopivia kasinoita löytääksesi täydellisen vaihtoehdon sinulle.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "Parhaiten arvioidut verkkokasinot hyväksyvät Maestro-maksut vuodelle 2025",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Kiinnostunut pelaamisesta verkko kasinoilla, jotka hyväksyvät Maestro-maksut? Anna XXXCasinoGurun ohjata sinut sopivaan Maestro-ystävälliseen kasinoon.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Kiinnostunut pelaamisesta verkko kasinoilla, jotka hyväksyvät Maestro-maksut? Anna Topbonusn ohjata sinut sopivaan Maestro-ystävälliseen kasinoon.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "Parhaiten arvioidut verkkokasinot, jotka ottavat vastaan Mastercard-tapahtumia vuonna 2025",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "Kiinnostunut pelaamisesta Mastercard-ystävällisessä kasinossa? XXXCasinoGuru on täällä opastamassa sinua luotettavimpiin kasinoihin, jotka toivottavat Mastercardin tervetulleeksi turvalliseen pelaamiseen.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "Kiinnostunut pelaamisesta Mastercard-ystävällisessä kasinossa? Topbonus on täällä opastamassa sinua luotettavimpiin kasinoihin, jotka toivottavat Mastercardin tervetulleeksi turvalliseen pelaamiseen.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "Johtavat verkkokasinot, jotka suosivat mobiilimaksuja saumattomien tapahtumien vuoksi vuonna 2025.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -5252,8 +5359,8 @@ async function initializeI18n() {
           "Etsitkö nettikasinoa, joka tukee Neosurf-maksuja? Selaa kuratoitua valikoimaamme Neosurf-yhteensopivia kasinoita, tutustu perusteellisiin arvosteluihimme ja löydä sinulle sopiva alusta.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "Parhaat verkkokasinot, jotka tukevat Neteller-transaktioita vuonna 2025",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Luettelo Neteller-maksuja tukevista verkkokasinoista. ✅ Perusteelliset arvioinnit XXXCasinoGurulta. ✅ Löydä täydellinen Neteller-yhteensopiva kasino.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Luettelo Neteller-maksuja tukevista verkkokasinoista. ✅ Perusteelliset arvioinnit Topbonuslta. ✅ Löydä täydellinen Neteller-yhteensopiva kasino.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "Johtavat verkkokasinot hyväksyvät PayPal-maksut vuonna 2025",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -5276,8 +5383,8 @@ async function initializeI18n() {
           "Etsitkö internet-kasinoita, jotka hyväksyvät Trustly-maksut? Selaa kuratoitua listaa ja syvällisiä arvosteluja löytääksesi sinulle sopivimman Trustly-yhteensopivan kasinon.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "Parhaiten arvioidut verkkokasinot, jotka ottavat vastaan Visa-maksuja vuonna 2025",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Kiinnostunut pelaamisesta Visa-ystävällisessä kasinossa? XXXCasinoGuru on täällä opastamassa sinua luotettavimpiin kasinoihin, jotka toivottavat Visan tervetulleeksi turvalliseen pelaamiseen.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Kiinnostunut pelaamisesta Visa-ystävällisessä kasinossa? Topbonus on täällä opastamassa sinua luotettavimpiin kasinoihin, jotka toivottavat Visan tervetulleeksi turvalliseen pelaamiseen.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Silta perinteisten ja verkkokasinoiden välillä klassisten pelien nimikkeillä",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -5639,6 +5746,17 @@ async function initializeI18n() {
           "Eksklusiivisia talvitarjouksia vain sinulle!",
         "Your Winter Fortune": "Talvionnesi",
         Check: "Tarkista",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "Punaisen kirjekuoren salaisuudet: Avaa ja löydä onnesi!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Valitse joka päivä yksi punaisista kirjekuorista ja paljasta yllätys. Ilmaiskierroksia, käteispalautuksia tai eksklusiivisia bonuksia odottaa sinua jo nyt!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Koe kauden taika kuumimpien kasinobrändien kanssa – avaa jännittäviä yllätyksiä ja juhlapalkintoja!",
+
+        "You have activated a card today": "Olet aktivoinut kortin tänään",
+        Festive: "Juhlavaa",
       },
     },
     fr: {
@@ -5768,6 +5886,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Sélectionnez parmi une variété de récompenses de casino d'introduction de premier ordre et recevez des fonds bonus supplémentaires incorporés dans votre paiement initial. Offres incitatives d'inscription exclusives conçues pour les nouveaux participants.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Compilation Complète des Bonus de Casinos en Ligne Disponibles en 2025",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "À la recherche de bonus de casino et de promotions sur le web ? Explorez notre répertoire actuel et bien entretenu, proposant une multitude de propositions de bonus de casino à prendre en considération.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Irrésistible en 2025 : Bonus de casino sans dépôt et codes bonus uniques",
@@ -5829,12 +5949,12 @@ async function initializeI18n() {
           "À la recherche des principaux casinos en ligne qui acceptent les transactions ecoPayz ? Explorez notre sélection soigneusement choisie de casinos premium compatibles avec ecoPayz pour découvrir celui qui vous convient parfaitement.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "Les meilleurs casinos en ligne acceptant les paiements Maestro pour 2025",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Intéressé par les jeux de casino en ligne qui acceptent les transactions Maestro ? Laissez XXXCasinoGuru vous guider vers le casino Maestro idéal pour vous.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Intéressé par les jeux de casino en ligne qui acceptent les transactions Maestro ? Laissez Topbonus vous guider vers le casino Maestro idéal pour vous.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "Les casinos en ligne les mieux notés accueillant les transactions Mastercard en 2025",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "Intéressé par les jeux de hasard dans un casino acceptant Mastercard ? XXXCasinoGuru est là pour vous guider vers les casinos les plus fiables qui acceptent Mastercard pour un jeu sécurisé.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "Intéressé par les jeux de hasard dans un casino acceptant Mastercard ? Topbonus est là pour vous guider vers les casinos les plus fiables qui acceptent Mastercard pour un jeu sécurisé.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "Principaux casinos en ligne qui favorisent les paiements mobiles pour des transactions fluides en 2025.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -5849,8 +5969,8 @@ async function initializeI18n() {
           "À la recherche d'un casino en ligne compatible avec les paiements Neosurf ? Parcourez notre sélection soigneusement choisie de casinos compatibles avec Neosurf, plongez dans nos critiques approfondies, et trouvez la plateforme idéale pour vous.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "Meilleurs casinos en ligne soutenant les transactions Neteller en 2025",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Répertoire des casinos en ligne compatibles avec les paiements Neteller. ✅ Évaluations approfondies par XXXCasinoGuru. ✅ Découvrez votre casino idéal compatible avec Neteller.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Répertoire des casinos en ligne compatibles avec les paiements Neteller. ✅ Évaluations approfondies par Topbonus. ✅ Découvrez votre casino idéal compatible avec Neteller.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "Principaux casinos en ligne acceptant les paiements PayPal en 2025",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -5873,8 +5993,8 @@ async function initializeI18n() {
           "À la recherche de casinos en ligne qui acceptent les paiements Trustly ? Parcourez notre liste sélectionnée et nos évaluations approfondies pour découvrir le casino compatible avec Trustly le plus adapté pour vous.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "Les casinos en ligne les mieux notés accueillant les transactions Visa en 2025",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Intéressé par les jeux dans un casino acceptant Visa ? XXXCasinoGuru est là pour vous guider vers les casinos les plus fiables qui acceptent Visa pour un jeu sécurisé.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Intéressé par les jeux dans un casino acceptant Visa ? Topbonus est là pour vous guider vers les casinos les plus fiables qui acceptent Visa pour un jeu sécurisé.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic : Combler le fossé entre les casinos traditionnels et en ligne avec des titres de jeux classiques",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -6243,6 +6363,18 @@ async function initializeI18n() {
           "Offres hivernales exclusives rien que pour vous !",
         "Your Winter Fortune": "Votre fortune hivernale",
         Check: "Vérifier",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "Les Secrets de l’Enveloppe Rouge : Ouvrez et découvrez votre chance !",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Chaque jour, choisissez l’une des enveloppes rouges pour révéler une surprise. Des tours gratuits, des cashback ou des bonus exclusifs vous attendent déjà !",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Vivez la magie de la saison avec les marques de casinos les plus en vogue – découvrez des surprises passionnantes et des récompenses festives !",
+
+        "You have activated a card today":
+          "Vous avez activé une carte aujourd'hui",
+        Festive: "Festifs",
       },
     },
 
@@ -6372,6 +6504,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Επιλέξτε από μια ποικιλία από κορυφαίες εισαγωγικές αμοιβές καζίνο και λάβετε επιπλέον μπόνους κεφάλαια ενσωματωμένα στην αρχική σας πληρωμή. Αποκλειστικές προσφορές κίνητρων εγγραφής σχεδιασμένες για νέους συμμετέχοντες.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Πλήρης Συλλογή Μπόνους Διαδικτυακών Καζίνο Διαθέσιμων το 2025",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "Ψάχνετε για μπόνους καζίνο και προσφορές στο διαδίκτυο; Εξερευνήστε το τρέχον, καλά συντηρημένο αποθετήριο μας που περιλαμβάνει μια πληθώρα προτάσεων μπόνους καζίνο για την εξέτασή σας.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Αντιστατικά το 2025: Μπόνους καζίνο χωρίς κατάθεση και μοναδικοί κωδικοί μπόνους",
@@ -6434,12 +6568,12 @@ async function initializeI18n() {
           "Ψάχνετε για κορυφαία online καζίνο που καλωσορίζουν συναλλαγές με ecoPayz; Εξερευνήστε την επιλεγμένη μας συλλογή από premium καζίνο φιλικά προς το ecoPayz για να ανακαλύψετε το τέλειο για εσάς.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "Κορυφαία online καζίνο που δέχονται πληρωμές με Maestro για το 2025",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Ενδιαφέρεστε για παιχνίδια σε online καζίνο που δέχονται συναλλαγές Maestro; Αφήστε τον XXXCasinoGuru να σας καθοδηγήσει στο ιδανικό καζίνο φιλικό προς τη Maestro για εσάς.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Ενδιαφέρεστε για παιχνίδια σε online καζίνο που δέχονται συναλλαγές Maestro; Αφήστε τον Topbonus να σας καθοδηγήσει στο ιδανικό καζίνο φιλικό προς τη Maestro για εσάς.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "Κορυφαία online καζίνο που καλωσορίζουν συναλλαγές Mastercard το 2025",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "Ενδιαφέρεστε για παιχνίδια σε ένα καζίνο φιλικό προς τη Mastercard; Το XXXCasinoGuru είναι εδώ για να σας καθοδηγήσει προς τα πιο αξιόπιστα καζίνο που καλωσορίζουν τη Mastercard για ασφαλή τυχερά παιχνίδια.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "Ενδιαφέρεστε για παιχνίδια σε ένα καζίνο φιλικό προς τη Mastercard; Το Topbonus είναι εδώ για να σας καθοδηγήσει προς τα πιο αξιόπιστα καζίνο που καλωσορίζουν τη Mastercard για ασφαλή τυχερά παιχνίδια.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "Κορυφαία online καζίνο που υποστηρίζουν τις κινητές πληρωμές για άνετες συναλλαγές το 2025.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -6454,8 +6588,8 @@ async function initializeI18n() {
           "Ψάχνετε για ένα online καζίνο συμβατό με πληρωμές Neosurf; Περιηγηθείτε στην επιλεγμένη μας επιλογή καζίνο φιλικών προς το Neosurf, μελετήστε τις λεπτομερείς μας κριτικές και εντοπίστε την ιδανική πλατφόρμα για εσάς.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "Κορυφαία online καζίνο που υποστηρίζουν συναλλαγές μέσω Neteller το 2025",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Κατάλογος online καζίνο συμβατών με πληρωμές μέσω Neteller. ✅ Λεπτομερείς αξιολογήσεις από τον XXXCasinoGuru. ✅ Ανακαλύψτε το ιδανικό καζίνο φιλικό προς το Neteller.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Κατάλογος online καζίνο συμβατών με πληρωμές μέσω Neteller. ✅ Λεπτομερείς αξιολογήσεις από τον Topbonus. ✅ Ανακαλύψτε το ιδανικό καζίνο φιλικό προς το Neteller.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "Κορυφαία online καζίνο που δέχονται πληρωμές μέσω PayPal το 2025",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -6478,8 +6612,8 @@ async function initializeI18n() {
           "Ψάχνετε για διαδικτυακά καζίνο που δέχονται πληρωμές μέσω Trustly; Περιηγηθείτε στην επιμελώς επιλεγμένη μας λίστα και στις λεπτομερείς αξιολογήσεις για να βρείτε το πιο κατάλληλο καζίνο συμβατό με το Trustly για εσάς.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "Κορυφαία online καζίνο που καλωσορίζουν συναλλαγές με Visa το 2025",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Ενδιαφέρεστε για παιχνίδια σε ένα καζίνο φιλικό προς τη Visa; Το XXXCasinoGuru είναι εδώ για να σας καθοδηγήσει προς τα πιο αξιόπιστα καζίνο που καλωσορίζουν τη Visa για ασφαλή τυχερά παιχνίδια.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Ενδιαφέρεστε για παιχνίδια σε ένα καζίνο φιλικό προς τη Visa; Το Topbonus είναι εδώ για να σας καθοδηγήσει προς τα πιο αξιόπιστα καζίνο που καλωσορίζουν τη Visa για ασφαλή τυχερά παιχνίδια.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Γέφυρα μεταξύ Παραδοσιακών και Online Καζίνο με Κλασικούς Τίτλους Παιχνιδιών",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -6843,6 +6977,18 @@ async function initializeI18n() {
           "Αποκλειστικές χειμερινές προσφορές μόνο για εσάς!",
         "Your Winter Fortune": "Η χειμερινή σας τύχη",
         Check: "Έλεγχος",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "Μυστικά του Κόκκινου Φακέλου: Άνοιξε και ανακάλυψε την τύχη σου!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Κάθε μέρα διάλεξε έναν από τους κόκκινους φακέλους και αποκάλυψε μια έκπληξη. Δωρεάν περιστροφές, επιστροφές χρημάτων ή αποκλειστικά μπόνους σε περιμένουν ήδη!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Ζήστε τη μαγεία της σεζόν με τα πιο καυτά brands καζίνο – αποκαλύψτε συναρπαστικές εκπλήξεις και γιορτινές ανταμοιβές!",
+
+        "You have activated a card today":
+          "Έχετε ενεργοποιήσει μια κάρτα σήμερα",
+        Festive: "Γιορτινά",
       },
     },
     hu: {
@@ -6971,6 +7117,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Válasszon a különböző legjobb bevezető kaszinó jutalmak közül, és kapjon további bónusz összegeket az első befizetésébe beépítve. Kizárólag friss résztvevők számára tervezett exkluzív regisztrációs ösztönző ajánlatok.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Átfogó Összeállítás Online Kaszinóbónuszokról, amelyek 2025-ben Érhetők El",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "A kaszinó bónuszok és promóciók keresése a weben? Fedezze fel jelenlegi, jól karbantartott adattárunkat, amely számos kaszinó bónuszajánlatot kínál megfontolásra.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Irresistible in 2025: Nincs Letéti Kaszinó Bónuszok és Egyedi Bónuszkódok",
@@ -7034,12 +7182,12 @@ async function initializeI18n() {
           "Keresed a vezető online kaszinókat, amelyek fogadják az ecoPayz tranzakciókat? Fedezd fel válogatott választékunkat prémium ecoPayz-barát kaszinókból, hogy megtaláld a tökéleteset számodra.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "A legjobban értékelt online kaszinók elfogadják a Maestro fizetéseket 2025-re",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Érdekel a játék az online kaszinókban, amelyek fogadják a Maestro tranzakciókat? Hagyd, hogy az XXXCasinoGuru elvezessen téged az ideális Maestro-barát kaszinóhoz.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Érdekel a játék az online kaszinókban, amelyek fogadják a Maestro tranzakciókat? Hagyd, hogy az Topbonus elvezessen téged az ideális Maestro-barát kaszinóhoz.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "A legjobban értékelt online kaszinók, amelyek 2025-ben fogadják a Mastercard tranzakciókat",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "Érdekel a játék egy olyan kaszinóban, amely elfogadja a Mastercardot? Az XXXCasinoGuru itt van, hogy segítsen a legmegbízhatóbb kaszinók felkutatásában, amelyek biztonságos szerencsejátékot kínálnak Mastercard elfogadásával.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "Érdekel a játék egy olyan kaszinóban, amely elfogadja a Mastercardot? Az Topbonus itt van, hogy segítsen a legmegbízhatóbb kaszinók felkutatásában, amelyek biztonságos szerencsejátékot kínálnak Mastercard elfogadásával.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "Az online kaszinók vezetői, amelyek támogatják a mobilfizetéseket a zökkenőmentes tranzakciók érdekében 2025-ben.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -7054,8 +7202,8 @@ async function initializeI18n() {
           "Keres egy online kaszinót, amely kompatibilis a Neosurf fizetésekkel? Böngéssze át válogatott Neosurf-barát kaszinóinkat, mélyreható véleményeinkbe merülve találja meg az Ön számára ideális platformot.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "A 2025-ben támogatott legjobb online kaszinók Neteller tranzakciókkal",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "A Neteller fizetéseket elfogadó online kaszinók könyvtára. ✅ A XXXCasinoGuru által részletesen értékelt. ✅ Fedezze fel az ideális Neteller-barát kaszinóját.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "A Neteller fizetéseket elfogadó online kaszinók könyvtára. ✅ A Topbonus által részletesen értékelt. ✅ Fedezze fel az ideális Neteller-barát kaszinóját.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "A vezető online kaszinók elfogadják a PayPal fizetéseket 2025-ben",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -7078,8 +7226,8 @@ async function initializeI18n() {
           "Keres internetes kaszinókat, amelyek fogadnak Trustly fizetéseket? Böngéssze át válogatott listánkat és részletes értékeléseinket, hogy megtalálja a legmegfelelőbb Trustly-kompatibilis kaszinót Önnek.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "A legjobban értékelt online kaszinók üdvözlik a Visa tranzakciókat 2025-ben",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Érdekli a játék a Visa-barát kaszinókban? Az XXXCasinoGuru itt van, hogy segítsen a legmegbízhatóbb kaszinók felkutatásában, amelyek fogadnak Visát a biztonságos szerencsejátékhoz.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Érdekli a játék a Visa-barát kaszinókban? Az Topbonus itt van, hogy segítsen a legmegbízhatóbb kaszinók felkutatásában, amelyek fogadnak Visát a biztonságos szerencsejátékhoz.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Hidakat építve a hagyományos és online kaszinók között klasszikus játékcímekkel",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -7443,6 +7591,17 @@ async function initializeI18n() {
           "Exkluzív téli ajánlatok csak neked!",
         "Your Winter Fortune": "A téli szerencséd",
         Check: "Ellenőrizd",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "A Piros Boríték Titkai: Nyisd ki, és fedezd fel a szerencsédet!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Minden nap válassz egyet a piros borítékok közül, hogy felfedd a meglepetést. Ingyenes pörgetések, pénzvisszatérítés vagy exkluzív bónuszok már várnak rád!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Élje át a szezon varázsát a legforróbb kaszinómárkákkal – fedezze fel az izgalmas meglepetéseket és ünnepi jutalmakat!",
+
+        "You have activated a card today": "Ma aktiváltál egy kártyát",
+        Festive: "Ünnepi",
       },
     },
     it: {
@@ -7571,6 +7730,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Scegli tra una varietà di premi introduttivi di casinò di alto livello e ricevi fondi bonus aggiuntivi incorporati nel tuo pagamento iniziale. Offerte esclusive di incentivi per la registrazione progettate per i nuovi partecipanti.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Raccolta Completa di Bonus dei Casinò Online Disponibili nel 2025",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "Stai cercando bonus e promozioni dei casinò sul web? Esplora il nostro attuale e ben tenuto repository che offre una moltitudine di proposte di bonus per casinò da prendere in considerazione.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Irresistibile nel 2025: Bonus Casino Senza Deposito e Codici Bonus Unici",
@@ -7634,12 +7795,12 @@ async function initializeI18n() {
           "Stai cercando i principali casinò online che accettano transazioni ecoPayz? Esplora la nostra selezione curata di casinò ecoPayz-friendly premium per scoprire la soluzione perfetta per te.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "I Migliori Casinò Online che Accettano Pagamenti con Maestro per il 2025",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Interessato a giocare nei casinò online che accettano transazioni con Maestro? Lascia che XXXCasinoGuru ti guidi verso il casinò Maestro-friendly ideale per te.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Interessato a giocare nei casinò online che accettano transazioni con Maestro? Lascia che Topbonus ti guidi verso il casinò Maestro-friendly ideale per te.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "I Migliori Casinò Online che Accettano Transazioni con Mastercard nel 2025",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "Interessato a giocare in un casinò Mastercard-friendly? XXXCasinoGuru è qui per guidarti verso i casinò più affidabili che accettano Mastercard per un gioco sicuro.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "Interessato a giocare in un casinò Mastercard-friendly? Topbonus è qui per guidarti verso i casinò più affidabili che accettano Mastercard per un gioco sicuro.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "I principali casinò online che favoriscono i pagamenti mobili per transazioni senza soluzione di continuità nel 2025.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -7654,8 +7815,8 @@ async function initializeI18n() {
           "Sei alla ricerca di un casinò online compatibile con i pagamenti Neosurf? Sfoglia la nostra selezione curata di casinò amici di Neosurf, approfondisci le nostre recensioni dettagliate e individua la piattaforma ideale per te.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "I migliori casinò online che supportano transazioni Neteller nel 2025",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Directory di casinò online compatibili con pagamenti Neteller. ✅ Valutazioni approfondite da XXXCasinoGuru. ✅ Scopri il tuo casinò Neteller-friendly ideale.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Directory di casinò online compatibili con pagamenti Neteller. ✅ Valutazioni approfondite da Topbonus. ✅ Scopri il tuo casinò Neteller-friendly ideale.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "I principali casinò online che accettano pagamenti PayPal nel 2025",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -7678,8 +7839,8 @@ async function initializeI18n() {
           "Stai cercando casinò su internet che accettano pagamenti con Trustly? Sfoglia la nostra lista selezionata e le valutazioni approfondite per scoprire il casinò compatibile con Trustly più adatto a te.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "I migliori casinò online accolgono transazioni Visa nel 2025",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Interessato a giocare in un casinò che accetta Visa? XXXCasinoGuru è qui per guidarti verso i casinò più affidabili che accolgono Visa per un gioco sicuro.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Interessato a giocare in un casinò che accetta Visa? Topbonus è qui per guidarti verso i casinò più affidabili che accolgono Visa per un gioco sicuro.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Colmare il divario tra casinò tradizionali e online con titoli di giochi classici",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -8046,6 +8207,17 @@ async function initializeI18n() {
           "Offerte esclusive invernali solo per te!",
         "Your Winter Fortune": "La tua fortuna invernale",
         Check: "Controlla",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "I Segreti della Busta Rossa: Aprila e scopri la tua fortuna!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Ogni giorno scegli una delle buste rosse per svelare una sorpresa. Giri gratis, cashback o bonus esclusivi ti aspettano già!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Vivi la magia della stagione con i marchi di casinò più caldi – scopri sorprese entusiasmanti e premi festivi!",
+
+        "You have activated a card today": "Hai attivato una carta oggi",
+        Festive: "Festivi",
       },
     },
     no: {
@@ -8174,6 +8346,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Velg blant et utvalg av førsteklasses introduksjonsbonuser på casino og motta ekstra bonusmidler som er inkludert i ditt første innskudd. Eksklusive registreringsinsentivavtaler designet for nye deltakere.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Omfattende Samling av Nettcasino Bonuser Tilgjengelige i 2025",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "Er du på jakt etter casinobonuser og tilbud på nettet? Utforsk vår nåværende, velvedlikeholdte database som inneholder et mangfold av casinobonusforslag for din vurdering.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Uimotståelig i 2025: Ingen innskudd casino bonuser og unike bonuskoder",
@@ -8237,12 +8411,12 @@ async function initializeI18n() {
           "På jakt etter ledende nettcasinoer som ønsker ecoPayz-transaksjoner velkommen? Utforsk vårt kuraterte utvalg av førsteklasses ecoPayz-vennlige casinoer for å finne den perfekte matchen for deg.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "Topp rangerte nettcasinoer som aksepterer Maestro-betalinger for 2025",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Interessert i å spille på nettcasinoer som aksepterer Maestro-transaksjoner? La XXXCasinoGuru guide deg til det ideelle Maestro-vennlige casinoet for deg.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Interessert i å spille på nettcasinoer som aksepterer Maestro-transaksjoner? La Topbonus guide deg til det ideelle Maestro-vennlige casinoet for deg.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "Topp rangerte nettcasinoer som ønsker velkommen Mastercard-transaksjoner i 2025",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "Interessert i å spille på et Mastercard-vennlig casino? XXXCasinoGuru er her for å guide deg til de mest pålitelige casinoene som godtar Mastercard for trygt pengespill.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "Interessert i å spille på et Mastercard-vennlig casino? Topbonus er her for å guide deg til de mest pålitelige casinoene som godtar Mastercard for trygt pengespill.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "Ledende nettcasinoer som foretrekker mobilbetalinger for sømløse transaksjoner i 2025.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -8257,8 +8431,8 @@ async function initializeI18n() {
           "På jakt etter et nettcasino kompatibelt med Neosurf-betalinger? Bla gjennom vårt kuraterte utvalg av Neosurf-vennlige casinoer, dykk ned i våre grundige anmeldelser, og finn den ideelle plattformen for deg.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "Topp nettbaserte kasinoer som støtter Neteller-transaksjoner i 2025",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Oversikt over nettcasinoer kompatible med Neteller-betalinger. ✅ Grundige vurderinger av XXXCasinoGuru. ✅ Oppdag ditt ideelle Neteller-vennlige casino.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Oversikt over nettcasinoer kompatible med Neteller-betalinger. ✅ Grundige vurderinger av Topbonus. ✅ Oppdag ditt ideelle Neteller-vennlige casino.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "Ledende nettbaserte kasinoer som aksepterer PayPal-betalinger i 2025",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -8281,8 +8455,8 @@ async function initializeI18n() {
           "Er du på jakt etter nettcasinoer som aksepterer Trustly-betalinger? Bla gjennom vår kuraterte liste og grundige evalueringer for å finne det mest passende Trustly-kompatible casinoet for deg.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "Topp rangerte nettcasinoer som ønsker Visa-transaksjoner velkommen i 2025",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Interessert i å spille på et Visa-vennlig casino? XXXCasinoGuru er her for å guide deg til de mest pålitelige casinoene som ønsker Visa velkommen for trygt pengespill.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Interessert i å spille på et Visa-vennlig casino? Topbonus er her for å guide deg til de mest pålitelige casinoene som ønsker Visa velkommen for trygt pengespill.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Broen mellom tradisjonelle og online kasinoer med klassiske spilltitler",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -8646,6 +8820,18 @@ async function initializeI18n() {
           "Eksklusive vintertilbud kun for deg!",
         "Your Winter Fortune": "Din vinterlykke",
         Check: "Sjekk",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "Hemmelighetene i Den Røde Konvolutten: Åpne og oppdag lykken din!",
+
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Hver dag kan du velge en av de røde konvoluttene for å avsløre en overraskelse. Gratisspinn, cashback eller eksklusive bonuser venter allerede på deg!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Opplev sesongens magi med de hotteste casinobrands – åpne spennende overraskelser og festlige belønninger!",
+
+        "You have activated a card today": "Du har aktivert et kort i dag",
+        Festive: "Festlige",
       },
     },
     pt: {
@@ -8774,6 +8960,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Escolha entre uma variedade de recompensas de cassino introdutórias de primeira linha e receba fundos adicionais de bônus incorporados ao seu pagamento inicial. Ofertas exclusivas de incentivo de registro projetadas para novos participantes.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Compilação Abrangente de Bônus de Cassinos Online Disponíveis em 2025",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "Procurando por bônus e promoções de cassino na web? Explore nosso repositório atual e bem mantido, apresentando uma infinidade de propostas de bônus de cassino para sua consideração.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Irresistível em 2025: Bônus de Cassino sem Depósito e Códigos de Bônus Únicos",
@@ -8836,12 +9024,12 @@ async function initializeI18n() {
           "Procurando os principais cassinos online que aceitam transações ecoPayz? Explore nossa seleção cuidadosa de cassinos premium amigáveis ao ecoPayz para descobrir a opção perfeita para você.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "Principais Cassinos Online que Aceitam Pagamentos com Maestro para 2025",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Interessado em jogar em cassinos online que aceitam transações Maestro? Deixe o XXXCasinoGuru te guiar para o cassino Maestro ideal para você.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Interessado em jogar em cassinos online que aceitam transações Maestro? Deixe o Topbonus te guiar para o cassino Maestro ideal para você.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "Principais Cassinos Online que Aceitam Transações com Mastercard em 2025",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "Interessado em jogar em um cassino que aceita Mastercard? O XXXCasinoGuru está aqui para guiá-lo aos cassinos mais confiáveis que aceitam Mastercard para jogos seguros.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "Interessado em jogar em um cassino que aceita Mastercard? O Topbonus está aqui para guiá-lo aos cassinos mais confiáveis que aceitam Mastercard para jogos seguros.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "Principais Cassinos Online que Favorecem Pagamentos Móveis para Transações Sem Problemas em 2025.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -8856,8 +9044,8 @@ async function initializeI18n() {
           "À procura de um cassino online compatível com pagamentos Neosurf? Navegue pela nossa seleção de cassinos compatíveis com Neosurf, mergulhe em nossas análises detalhadas e encontre a plataforma ideal para você.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "Principais Cassinos Online que Aceitam Transações com Neteller em 2025",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Catálogo de cassinos online compatíveis com pagamentos Neteller. ✅ Avaliações detalhadas feitas por XXXCasinoGuru. ✅ Descubra seu cassino ideal compatível com Neteller.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Catálogo de cassinos online compatíveis com pagamentos Neteller. ✅ Avaliações detalhadas feitas por Topbonus. ✅ Descubra seu cassino ideal compatível com Neteller.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "Principais Cassinos Online que Aceitam Pagamentos com PayPal em 2025",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -8880,8 +9068,8 @@ async function initializeI18n() {
           "Procurando por cassinos online que aceitam pagamentos via Trustly? Navegue pela nossa lista selecionada e avaliações detalhadas para descobrir o cassino compatível com Trustly mais adequado para você.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "Principais Cassinos Online que Aceitam Transações Visa em 2025",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Interessado em jogar em um cassino que aceita Visa? O XXXCasinoGuru está aqui para guiá-lo aos cassinos mais confiáveis que aceitam Visa para jogos seguros.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Interessado em jogar em um cassino que aceita Visa? O Topbonus está aqui para guiá-lo aos cassinos mais confiáveis que aceitam Visa para jogos seguros.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Aproximando o Abismo Entre Cassinos Tradicionais e Online com Títulos de Jogos Clássicos",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -9248,6 +9436,17 @@ async function initializeI18n() {
           "Ofertas exclusivas de inverno só para você!",
         "Your Winter Fortune": "Sua sorte de inverno",
         Check: "Verificar",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "Segredos do Envelope Vermelho: Abra e descubra sua sorte!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Todos os dias, escolha um dos envelopes vermelhos para revelar uma surpresa. Giros grátis, cashback ou bônus exclusivos já estão esperando por você!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Experimente a magia da temporada com as marcas de cassinos mais populares – descubra surpresas emocionantes e recompensas festivas!",
+
+        "You have activated a card today": "Você ativou um cartão hoje",
+        Festive: "Festivos",
       },
     },
     se: {
@@ -9376,6 +9575,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Välj bland ett urval av högklassiga introduktionscasinobonusar och få extra bonuspengar inkorporerade i din första insättning. Exklusiva registreringsincitamentavtal utformade för nya deltagare.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Omfattande Samling av Online Casino Bonusar Tillgängliga 2025",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "Söker du efter casinobonusar och erbjudanden på webben? Utforska vår aktuella, välskötta databas med ett överflöd av casinobonusförslag för din övervägande.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Omotståndlig år 2025: Ingen insättningscasinobonusar och unika bonuskoder",
@@ -9439,12 +9640,12 @@ async function initializeI18n() {
           "Letar du efter ledande online casinon som välkomnar ecoPayz-transaktioner? Utforska vårt kuraterade urval av premium ecoPayz-vänliga casinon för att hitta den perfekta matchningen för dig.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "Topprankade onlinecasinon som accepterar Maestro-betalningar för 2025",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Intresserad av spel på online casinon som välkomnar Maestro-transaktioner? Låt XXXCasinoGuru styra dig till det idealiska Maestro-vänliga casinot för dig.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Intresserad av spel på online casinon som välkomnar Maestro-transaktioner? Låt Topbonus styra dig till det idealiska Maestro-vänliga casinot för dig.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "Topprankade onlinekasinon som välkomnar Mastercard-transaktioner år 2025",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "Intresserad av spel på ett Mastercard-vänligt casino? XXXCasinoGuru är här för att guida dig till de mest pålitliga casinona som välkomnar Mastercard för säker spel.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "Intresserad av spel på ett Mastercard-vänligt casino? Topbonus är här för att guida dig till de mest pålitliga casinona som välkomnar Mastercard för säker spel.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "Ledande onlinekasinon som föredrar mobila betalningar för smidiga transaktioner år 2025.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -9459,8 +9660,8 @@ async function initializeI18n() {
           "På jakt efter ett online casino kompatibelt med Neosurf-betalningar? Bläddra igenom vårt kuraterade urval av Neosurf-vänliga casinon, fördjupa dig i våra detaljerade recensioner och hitta den perfekta plattformen för dig.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "Top Online Casinos som stöder Neteller-transaktioner år 2025",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Katalog över online casinon kompatibla med Neteller-betalningar. ✅ Djupgående bedömningar av XXXCasinoGuru. ✅ Upptäck ditt idealiska Neteller-vänliga casino.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Katalog över online casinon kompatibla med Neteller-betalningar. ✅ Djupgående bedömningar av Topbonus. ✅ Upptäck ditt idealiska Neteller-vänliga casino.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "Ledande onlinekasinon som accepterar PayPal-betalningar år 2025",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -9483,8 +9684,8 @@ async function initializeI18n() {
           "Söker du efter internetcasinon som välkomnar Trustly-betalningar? Bläddra igenom vår kuraterade lista och djupgående utvärderingar för att hitta det mest lämpliga Trustly-kompatibla casinot för dig.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "Topprankade onlinecasinon som välkomnar Visa-transaktioner år 2025",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Intresserad av spel på ett Visa-vänligt casino? XXXCasinoGuru är här för att guida dig till de mest pålitliga casinona som välkomnar Visa för säker spel.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Intresserad av spel på ett Visa-vänligt casino? Topbonus är här för att guida dig till de mest pålitliga casinona som välkomnar Visa för säker spel.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Överbrygga klyftan mellan traditionella och online casinon med klassiska spel titlar",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -9848,6 +10049,17 @@ async function initializeI18n() {
           "Exklusiva vintererbjudanden bara för dig!",
         "Your Winter Fortune": "Din vintertur",
         Check: "Kontrollera",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "Hemligheterna i det Röda Kuvertet: Öppna och upptäck din tur!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Varje dag kan du välja ett av de röda kuverten och avslöja en överraskning. Gratissnurr, cashback eller exklusiva bonusar väntar redan på dig!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Upplev säsongens magi med de hetaste casinovarumärkena – upptäck spännande överraskningar och festliga belöningar!",
+
+        "You have activated a card today": "Du har aktiverat ett kort idag",
+        Festive: "Festliga",
       },
     },
     sk: {
@@ -9976,6 +10188,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Vyberte si z rôznych prvotriednych úvodných kasínových odmien a získajte dodatočné bonusové prostriedky zahrnuté do vášho počiatočného platby. Exkluzívne registračné stimuly určené pre nových účastníkov.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "Komplexný Zoznam Bonusov Online Kasín Dostupných v roku 2025",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "Hľadáte kasínové bonusy a akcie na webe? Preskúmajte našu aktuálnu, dobre udržiavanú databázu, ktorá obsahuje množstvo návrhov kasínových bonusov na vaše zváženie.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "Neprekonateľné v roku 2025: Bonusy v kasíne bez vkladu a jedinečné bonusové kódy",
@@ -10038,12 +10252,12 @@ async function initializeI18n() {
           "Hľadáte popredné online kasína, ktoré prijímajú transakcie cez ecoPayz? Preskúmajte našu vybranú ponuku prémiových kasín priateľských k ecoPayz, aby ste objavili tú správnu voľbu pre vás.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "Najlepšie hodnotené online kasína prijímajúce platby Maestro pre rok 2025",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Zaujíma vás hranie hier v online kasínach, ktoré prijímajú transakcie Maestro? Nech vás XXXCasinoGuru usmerní k ideálnemu kasínu priateľskému k Maestru pre vás.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Zaujíma vás hranie hier v online kasínach, ktoré prijímajú transakcie Maestro? Nech vás Topbonus usmerní k ideálnemu kasínu priateľskému k Maestru pre vás.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "Najlepšie hodnotené online kasína, ktoré v roku 2025 prijímajú transakcie s kartou Mastercard",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "Zaujíma vás hrať v kasíne priateľskom k Mastercard? XXXCasinoGuru je tu, aby vás usmernil k najspoľahlivejším kasínam, ktoré vítajú Mastercard pre bezpečné hazardovanie.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "Zaujíma vás hrať v kasíne priateľskom k Mastercard? Topbonus je tu, aby vás usmernil k najspoľahlivejším kasínam, ktoré vítajú Mastercard pre bezpečné hazardovanie.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "Vedúce online kasína, ktoré uprednostňujú mobilné platby pre bezproblémové transakcie v roku 2025.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -10058,8 +10272,8 @@ async function initializeI18n() {
           "V hľadaní online kasína kompatibilného s platbami Neosurf? Prezrite si našu vybranú ponuku kasín priateľských k Neosurfu, preštudujte naše podrobné recenzie a nájdite ideálnu platformu pre vás.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "Top online kasína podporujúce transakcie cez Neteller v roku 2025",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Zoznam online kasín kompatibilných s platbami cez Neteller. ✅ Podrobné hodnotenia od XXXCasinoGuru. ✅ Objavte svoje ideálne kasíno priateľské k Netelleru.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Zoznam online kasín kompatibilných s platbami cez Neteller. ✅ Podrobné hodnotenia od Topbonus. ✅ Objavte svoje ideálne kasíno priateľské k Netelleru.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "Popredné online kasína prijímajúce platby cez PayPal v roku 2025",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -10082,8 +10296,8 @@ async function initializeI18n() {
           "Hľadáte internetové kasína, ktoré prijímajú platby cez Trustly? Prezrite si našu vybranú ponuku a podrobné recenzie, aby ste našli najvhodnejšie kasíno kompatibilné s Trustly pre vás.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "Najlepšie hodnotené online kasína, ktoré v roku 2025 vítajú platby kartou Visa",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Zaujíma vás hra v kasíne priateľskom k Visa? XXXCasinoGuru je tu, aby vás usmernil k najspoľahlivejším kasínam, ktoré vítajú Visa pre bezpečné hazardovanie.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Zaujíma vás hra v kasíne priateľskom k Visa? Topbonus je tu, aby vás usmernil k najspoľahlivejším kasínam, ktoré vítajú Visa pre bezpečné hazardovanie.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Preklenutie medzery medzi tradičnými a online kasínami s klasickými hernými titulmi",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -10447,6 +10661,17 @@ async function initializeI18n() {
           "Exkluzívne zimné ponuky iba pre vás!",
         "Your Winter Fortune": "Vaše zimné šťastie",
         Check: "Skontrolovať",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "Tajomstvá Červenej Obálky: Otvor a objav svoje šťastie!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Každý deň si vyber jednu z červených obálok a odhaľ prekvapenie. Voľné točenia, cashback alebo exkluzívne bonusy na teba už čakajú!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Zažite čaro sezóny s najhorúcejšími značkami kasín – odhaľte vzrušujúce prekvapenia a sviatočné odmeny!",
+
+        "You have activated a card today": "Dnes ste aktivovali kartu",
+        Festive: "Sviatočných",
       },
     },
     tr: {
@@ -10575,6 +10800,8 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "Farklı üst düzey tanıtım casino ödüllerinden seçim yapın ve ilk ödemenize dahil edilen ek bonus fonlarını alın. Yeni katılımcılar için tasarlanmış özel kayıt teşvik anlaşmaları.",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
+          "2025 Yılında Erişilebilir Online Casino Bonuslarının Kapsamlı Derlemesi",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
           "Web'de kumarhane bonusları ve promosyonları arıyor musunuz? Düşünmeniz için birçok kumarhane bonus teklifini içeren güncel ve iyi bakımlı veritabanımızı keşfedin.",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "2025'te Dayanılmaz: Para Yatırmadan Casino Bonusları ve Benzersiz Bonus Kodları",
@@ -10636,12 +10863,12 @@ async function initializeI18n() {
           "EcoPayz işlemlerini kabul eden önde gelen online casinolar mı arıyorsunuz? Size uygun olanı keşfetmek için seçilmiş premium EcoPayz dostu casinolarımızı keşfedin.",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "2025 için Maestro Ödemelerini Kabul Eden En İyi Dereceli Online Casinolar",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "Maestro işlemlerini kabul eden online casinolarda oyun oynamaya ilgi duyuyor musunuz? XXXCasinoGuru sizi size uygun Maestro dostu casinoya yönlendirsin.",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "Maestro işlemlerini kabul eden online casinolarda oyun oynamaya ilgi duyuyor musunuz? Topbonus sizi size uygun Maestro dostu casinoya yönlendirsin.",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "2025'te Mastercard İşlemlerini Kabul Eden En İyi Online Casinolar",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "Mastercard dostu bir casinoda oyun oynamak ilginizi çekiyor mu? XXXCasinoGuru, güvenli kumarhanelere Mastercard kabul eden en güvenilir casinolara rehberlik etmek için burada.",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "Mastercard dostu bir casinoda oyun oynamak ilginizi çekiyor mu? Topbonus, güvenli kumarhanelere Mastercard kabul eden en güvenilir casinolara rehberlik etmek için burada.",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "2025'te Sorunsuz İşlemler İçin Mobil Ödemeleri Tercih Eden Önde Gelen Online Casinolar.",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -10656,8 +10883,8 @@ async function initializeI18n() {
           "Neosurf ödemeleriyle uyumlu bir online kumarhane mi arıyorsunuz? Seçtiğimiz Neosurf dostu kumarhaneler arasında gezinin, detaylı incelemelerimize dalın ve sizin için ideal platformu belirleyin.",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "2025 yılında Neteller İşlemlerini Destekleyen En İyi Online Casinolar",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "Neteller ödemeleri ile uyumlu online casinoların dizini. ✅ XXXCasinoGuru tarafından detaylı değerlendirmeler. ✅ İdeal Neteller dostu casinonuzu keşfedin.",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "Neteller ödemeleri ile uyumlu online casinoların dizini. ✅ Topbonus tarafından detaylı değerlendirmeler. ✅ İdeal Neteller dostu casinonuzu keşfedin.",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "2025'te PayPal Ödemelerini Kabul Eden Önde Gelen Online Casinolar",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -10680,8 +10907,8 @@ async function initializeI18n() {
           "Trustly ödemelerini kabul eden internet casinolarını mı arıyorsunuz? Size en uygun Trustly uyumlu casinoyu bulmak için hazırladığımız seçilmiş listemizi ve detaylı değerlendirmelerimizi inceleyin.",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "2025'te Visa İşlemlerini Kabul Eden En İyi Dereceli Online Casinolar",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "Visa dostu bir casinoda oyun oynamak ilginizi çekiyor mu? XXXCasinoGuru, güvenli kumarhanelere Visa'yı kabul eden en güvenilir casinolara rehberlik etmek için burada.",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "Visa dostu bir casinoda oyun oynamak ilginizi çekiyor mu? Topbonus, güvenli kumarhanelere Visa'yı kabul eden en güvenilir casinolara rehberlik etmek için burada.",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "Amatic: Geleneksel ve Çevrimiçi Casinolar Arasındaki Boşluğu Klasik Oyun Başlıkları ile Kapatıyor",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -11046,6 +11273,17 @@ async function initializeI18n() {
           "Sadece size özel kış fırsatları!",
         "Your Winter Fortune": "Kış talihiniz",
         Check: "Kontrol et",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "Kırmızı Zarfın Sırları: Aç ve Şansını Keşfet!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "Her gün kırmızı zarflardan birini seç ve bir sürpriz keşfet. Bedava dönüşler, nakit iadeler veya özel bonuslar seni bekliyor!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "Sezonun büyüsünü en popüler casino markalarıyla yaşayın – heyecan verici sürprizleri ve festivallere özel ödülleri açığa çıkarın!",
+
+        "You have activated a card today": "Bugün bir kart etkinleştirdiniz",
+        Festive: "Şenlikli",
       },
     },
 
@@ -11175,7 +11413,9 @@ async function initializeI18n() {
         "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.":
           "शीर्ष स्तरीय प्रारंभिक कैसीनो पुरस्कारों की विविधता से चुनें और अपनी प्रारंभिक भुगतान में शामिल अतिरिक्त बोनस धन प्राप्त करें। नए प्रतिभागियों के लिए विशेष पंजीकरण प्रोत्साहन सौदे।",
         "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024":
-          "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.",
+          "2025 में उपलब्ध ऑनलाइन कैसीनो बोनस का व्यापक संग्रह",
+        "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.":
+          "क्या आप वेब पर कैसीनो बोनस और प्रचारों की तलाश कर रहे हैं? हमारे अद्यतन और सुव्यवस्थित भंडार का अन्वेषण करें, जिसमें आपके विचार के लिए कई कैसीनो बोनस प्रस्ताव शामिल हैं।",
         "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes":
           "2025 में अट्रैक्टिव: नो डिपॉजिट कैसीनो बोनस और अनोखे बोनस कोड्स",
         "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.":
@@ -11237,12 +11477,12 @@ async function initializeI18n() {
           "ecoPayz लेनदेन का स्वागत करने वाले प्रमुख ऑनलाइन कैसीनो की तलाश कर रहे हैं? आपके लिए उपयुक्त ecoPayz-अनुकूल कैसीनो खोजने के लिए हमारे क्यूरेटेड प्रीमियम चयन का अन्वेषण करें।",
         "Top-Rated Online Casinos Accepting Maestro Payments for 2024":
           "2025 के लिए मेस्ट्रो भुगतान स्वीकार करने वाले शीर्ष-रेटेड ऑनलाइन कैसीनो",
-        "Interested in gaming at online casinos that welcome Maestro transactions? Let XXXCasinoGuru steer you to the ideal Maestro-friendly casino for you.":
-          "क्या आप उन ऑनलाइन कैसीनो में गेमिंग में रुचि रखते हैं जो Maestro लेनदेन का स्वागत करते हैं? XXXCasinoGuru आपको आपके लिए आदर्श Maestro-फ्रेंडली कैसीनो की ओर ले जाने दें।",
+        "Interested in gaming at online casinos that welcome Maestro transactions? Let Topbonus steer you to the ideal Maestro-friendly casino for you.":
+          "क्या आप उन ऑनलाइन कैसीनो में गेमिंग में रुचि रखते हैं जो Maestro लेनदेन का स्वागत करते हैं? Topbonus आपको आपके लिए आदर्श Maestro-फ्रेंडली कैसीनो की ओर ले जाने दें।",
         "Top-Rated Online Casinos Welcoming Mastercard Transactions in 2024":
           "2025 में मास्टरकार्ड लेनदेन का स्वागत करने वाले शीर्ष-रेटेड ऑनलाइन कैसीनो",
-        "Interested in gaming at a Mastercard-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
-          "क्या आप मास्टरकार्ड-फ्रेंडली कैसीनो में गेमिंग में रुचि रखते हैं? XXXCasinoGuru आपको सबसे विश्वसनीय कैसीनो की ओर मार्गदर्शन करने के लिए यहाँ है जो सुरक्षित जुआ के लिए मास्टरकार्ड का स्वागत करते हैं।",
+        "Interested in gaming at a Mastercard-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Mastercard for secure gambling.":
+          "क्या आप मास्टरकार्ड-फ्रेंडली कैसीनो में गेमिंग में रुचि रखते हैं? Topbonus आपको सबसे विश्वसनीय कैसीनो की ओर मार्गदर्शन करने के लिए यहाँ है जो सुरक्षित जुआ के लिए मास्टरकार्ड का स्वागत करते हैं।",
         "Leading Online Casinos That Favor Mobile Payments for Seamless Transactions in 2024.":
           "2025 में निर्बाध लेनदेन के लिए मोबाइल भुगतान को प्राथमिकता देने वाले प्रमुख ऑनलाइन कैसीनो।",
         "Experience smooth financial transactions in online casinos by leveraging the ease and speed of mobile payment methods. Keep abreast of your available options to choose the best fit for your geographical location and preferred currency, ensuring an effortless gaming journey.":
@@ -11257,8 +11497,8 @@ async function initializeI18n() {
           "क्या आप Neosurf भुगतान के साथ संगत ऑनलाइन कैसीनो की खोज कर रहे हैं? हमारे द्वारा चुने गए Neosurf-अनुकूल कैसीनो की सूची देखें, हमारे गहन समीक्षाओं में डूबें, और अपने लिए आदर्श प्लेटफ़ॉर्म का पता लगाएं।",
         "Top Online Casinos Supporting Neteller Transactions in 2024":
           "2025 में नेटेलर लेनदेन का समर्थन करने वाले शीर्ष ऑनलाइन कैसीनो",
-        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by XXXCasinoGuru. ✅ Discover your ideal Neteller-friendly casino.":
-          "नेटेलर भुगतान के अनुकूल ऑनलाइन कैसीनो की निर्देशिका। ✅ XXXCasinoGuru द्वारा गहन मूल्यांकन। ✅ अपने आदर्श नेटेलर-अनुकूल कैसीनो की खोज करें।",
+        "Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.":
+          "नेटेलर भुगतान के अनुकूल ऑनलाइन कैसीनो की निर्देशिका। ✅ Topbonus द्वारा गहन मूल्यांकन। ✅ अपने आदर्श नेटेलर-अनुकूल कैसीनो की खोज करें।",
         "Leading Online Casinos Accepting PayPal Payments in 2024":
           "2025 में पेपाल भुगतान स्वीकार करने वाले प्रमुख ऑनलाइन कैसीनो",
         "Check out our comprehensive list of top-rated casinos that accept PayPal—a quick and secure option for both deposits and withdrawals. This payment method is a popular choice among global online players, offering advantages like bypassing traditional banking constraints and geographical limitations. If you don&'t already have a PayPal account, it's simple to set one up and start your journey to big wins!":
@@ -11281,8 +11521,8 @@ async function initializeI18n() {
           "क्या आप इंटरनेट कैसीनो की तलाश कर रहे हैं जो ट्रस्टली भुगतान स्वीकार करते हैं? हमारे क्यूरेटेड सूची और गहन मूल्यांकन को ब्राउज़ करें ताकि आपके लिए सबसे उपयुक्त ट्रस्टली-संगत कैसीनो खोजा जा सके।",
         "Top-Rated Online Casinos Welcoming Visa Transactions in 2024":
           "2025 में वीज़ा लेनदेन का स्वागत करने वाले शीर्ष-रेटेड ऑनलाइन कैसीनो",
-        "Interested in gaming at a Visa-friendly casino? XXXCasinoGuru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
-          "वीज़ा-फ्रेंडली कैसीनो में गेमिंग में रुचि रखते हैं? XXXCasinoGuru आपको सबसे विश्वसनीय कैसीनो की ओर मार्गदर्शन करने के लिए यहां है जो सुरक्षित जुआ के लिए वीज़ा का स्वागत करते हैं।",
+        "Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.":
+          "वीज़ा-फ्रेंडली कैसीनो में गेमिंग में रुचि रखते हैं? Topbonus आपको सबसे विश्वसनीय कैसीनो की ओर मार्गदर्शन करने के लिए यहां है जो सुरक्षित जुआ के लिए वीज़ा का स्वागत करते हैं।",
         "Amatic: Bridging the Gap Between Traditional and Online Casinos with Classic Game Titles":
           "अमैटिक: पारंपरिक और ऑनलाइन कैसीनो के बीच क्लासिक गेम टाइटल्स के साथ पुल बनाना",
         "Amatic crafts digital games that mirror their real-world versions in both aesthetics and narrative. This distinct strategy captivates players fond of the time-honored casino vibe. Featuring standout games such as Hot Fruits 100, Allways Hot Fruits, Book Of Aztec, and Lucky Joker 10, Amatic provides an unparalleled entertainment experience for casino aficionados.":
@@ -11638,6 +11878,17 @@ async function initializeI18n() {
           "विशेष शीतकालीन ऑफ़र केवल आपके लिए!",
         "Your Winter Fortune": "आपका शीतकालीन भाग्य",
         Check: "जाँच",
+
+        "Secrets of the Red Envelope: Open and Discover Your Luck!":
+          "लाल लिफाफे के रहस्य: खोलें और अपनी किस्मत जानें!",
+        "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!":
+          "हर दिन लाल लिफाफों में से एक चुनें और एक सरप्राइज़ का खुलासा करें। मुफ़्त स्पिन, कैशबैक, या विशेष बोनस पहले से ही आपका इंतज़ार कर रहे हैं!",
+
+        "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!":
+          "इस सीजन के जादू का अनुभव करें सबसे हॉट कैसीनो ब्रांड्स के साथ – रोमांचक सरप्राइज और त्योहारी इनामों को अनलॉक करें!",
+
+        "You have activated a card today": "आपने आज एक कार्ड सक्रिय किया है",
+        Festive: "उत्सवी",
       },
     },
   };

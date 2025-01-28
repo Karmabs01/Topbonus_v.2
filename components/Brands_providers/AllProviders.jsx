@@ -28,7 +28,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { getUserData } from "@/components/getUser/getUser";
 
-
 export default function AllProviders({
   creative,
   isLoader,
@@ -51,7 +50,6 @@ export default function AllProviders({
   const [openDepositsId, setOpenDepositsId] = useState(null);
   const [openCountriesId, setOpenCountriesId] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
-
 
   const [filteredBrands, setFilteredBrands] = useState([]);
   const [topBrands, setTopBrands] = useState([]);
@@ -142,7 +140,7 @@ export default function AllProviders({
         console.log("Отфильтрованные бренды:", finalFilteredBrands);
 
         // 5. Устанавливаем состояние с отфильтрованными брендами
-  
+
         setTopBrands(finalFilteredBrands);
         setFilteredBrands(finalFilteredBrands2);
         setLoading(false);
@@ -184,8 +182,6 @@ export default function AllProviders({
       setNewUrl(savedUrl);
     }
   }, []);
-
-
 
   const [isMobile, setIsMobile] = useState(false);
 
@@ -245,26 +241,26 @@ export default function AllProviders({
               const advantages =
                 brand.advantages !== null
                   ? brand.advantages
-                    .split(",")
-                    .map((advantage) => ({ advantage: advantage.trim() }))
+                      .split(",")
+                      .map((advantage) => ({ advantage: advantage.trim() }))
                   : "";
               const deposits =
                 brand.DepositMethods !== null
                   ? brand.DepositMethods.split(",").map((deposit) => ({
-                    deposit: deposit.trim(),
-                  }))
+                      deposit: deposit.trim(),
+                    }))
                   : "";
               const withdrawals =
                 brand.WithdrawalMethods !== null
                   ? brand.WithdrawalMethods.split(",").map((withdrawal) => ({
-                    withdrawal: withdrawal.trim(),
-                  }))
+                      withdrawal: withdrawal.trim(),
+                    }))
                   : "";
               const restricted =
                 brand.RestrictedCountries !== null
                   ? brand.RestrictedCountries.split(",").map((restrict) => ({
-                    restrict: restrict.trim(),
-                  }))
+                      restrict: restrict.trim(),
+                    }))
                   : "";
 
               const isPlusesOpen = openPlusesId === brand.id_brand;
@@ -282,17 +278,21 @@ export default function AllProviders({
                       {/* <div className="filter-flag">{filtered.flag}</div> */}
                     </div>
                     <div className="flex mb-1">
-                      <Gift style={{ color: "#fee000" }}
+                      <Gift
+                        style={{ color: "#fee000" }}
                         className="mr-1 w40"
-                        size={40} />
+                        size={40}
+                      />
                       <div className=" flex items-center review-bonus">
                         {brand.OurOfferContent}
                       </div>
                     </div>
                     <div className="mb-2 withdrawal withdrawal-limits flex items-center">
-                      <Handshake style={{ color: "#fee000" }}
+                      <Handshake
+                        style={{ color: "#fee000" }}
                         className="mr-1 mb-1 w40"
-                        size={40} />
+                        size={40}
+                      />
                       <div className="title mr-2">
                         <p>
                           {t("Withdrawal Limits:")}
@@ -312,7 +312,8 @@ export default function AllProviders({
                             className="ml-auto"
                             size={20}
                             style={{ color: "#fee000" }}
-                          />                        </div>
+                          />{" "}
+                        </div>
                         {isPlusesOpen && (
                           <div className="items-center ml-3">
                             <ul className="review-pros">
@@ -372,10 +373,7 @@ export default function AllProviders({
                         className="withdrawal custom-list-item mb-1"
                       >
                         <div className="title flex items-center">
-                          <GameController
-                            style={{ color: "#fff" }}
-                            size={34}
-                          />
+                          <GameController style={{ color: "#fff" }} size={34} />
                           <span className="mt-1 ml-2">
                             {t("Game Providers")}
                           </span>
@@ -474,7 +472,7 @@ export default function AllProviders({
                       </Link> */}
                       <div className="flex flex-col items-center w-full p-4 howUse mt-2 mb-2">
                         <span className="text-center big-p">
-                          How to get <span>bonus?</span>
+                          {t("How to get")} <span>{t("bonus?")}</span>
                         </span>
                         <p className="text-center m-0 text-slate-500 mini-p">
                           {t("Activate bonus in your casino account")}
@@ -500,8 +498,12 @@ export default function AllProviders({
               </div>
             )}
           </div>
-          <div className={`flex flex-col basis-[31%] py-6 slsk ${topBrands.length < 2 ? 'w159' : ''}`}>
-          {!isMobile || topBrands.length < 2 ? (
+          <div
+            className={`flex flex-col basis-[31%] py-6 slsk ${
+              topBrands.length < 2 ? "w159" : ""
+            }`}
+          >
+            {!isMobile || topBrands.length < 2 ? (
               topBrands.slice(0, visibleBrands2).map((item) => {
                 return (
                   <div
