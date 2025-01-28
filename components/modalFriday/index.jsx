@@ -6,12 +6,34 @@ import useSWR from "swr";
 import { useTranslation } from "react-i18next";
 import { useLanguage } from "@/components/switcher/LanguageContext";
 
+function shuffleArray(array) {
+  // Алгоритм Фишера–Йетса
+  let currentIndex = array.length,
+    randomIndex;
+
+  // Пока остаются элементы для перемешивания...
+  while (currentIndex !== 0) {
+    // Выбираем случайный индекс
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex--;
+
+    // И меняем его местами с текущим элементом
+    [array[currentIndex], array[randomIndex]] = [
+      array[randomIndex],
+      array[currentIndex],
+    ];
+  }
+
+  return array;
+}
+
 const BasicModal = () => {
   const [open, setOpen] = useState(false);
   const { t } = useTranslation();
-  const TIMEOUT_DELAY = 5000; // 10 секунд
+  const TIMEOUT_DELAY = 5000; // 5 секунд
   const { language } = useLanguage();
   const [newUrl, setNewUrl] = useState("");
+
   useEffect(() => {
     const currentUrl = window.location.href;
     const indexOfQuestionMark = currentUrl.indexOf("?");
@@ -36,7 +58,6 @@ const BasicModal = () => {
       "partner1050",
       "partner1049",
       "partner1047",
-
     ];
 
     function setPartnerSource(keyword) {
@@ -64,15 +85,14 @@ const BasicModal = () => {
       setNewUrl(savedUrl);
     }
   }, [language]);
+
   useEffect(() => {
     const today = new Date().toISOString().split("T")[0]; // Текущая дата
     const lastShownDate = localStorage.getItem("modalShownDate");
 
-
     if (lastShownDate !== today) {
       const timeoutId = setTimeout(() => {
         setOpen(true);
-        
         localStorage.setItem("modalShownDate", today); // Сохранение даты показа
       }, TIMEOUT_DELAY);
 
@@ -85,33 +105,33 @@ const BasicModal = () => {
   const [brands, setBrands] = useState([]);
   const categoryBrands = { key1: "Hottest", key2: "50" };
 
-  const { data, error } = useSWR(
-    ["brands", language],
-    () => getBrands(language),
-    { initialData: brands }
-  );
+  const { data, error } = useSWR(["brands", language], () => getBrands(language), {
+    initialData: brands,
+  });
+
   let userId = "";
   if (typeof window !== "undefined") {
     userId = localStorage.getItem("user_id") || "";
   }
+
   useEffect(() => {
     const fetchUserBrands = async () => {
-      // 1. Фильтрация брендов на основе категорий
+      // Проверяем, что вообще есть данные
+      if (!data) {
+        console.warn("Данные брендов отсутствуют");
+        return;
+      }
+
+      // 1. Фильтруем бренды по категории (Hottest=50)
       const filteredByCategory = data.filter(
         (brand) => brand[categoryBrands.key1] === categoryBrands.key2
       );
+
       try {
-        // Проверяем наличие данных брендов
-        if (!data) {
-          console.warn("Данные брендов отсутствуют");
-
-          return;
-        }
-
-        // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
         if (!userId) {
-          setBrands(filteredByCategory);
-  
+          // Если userId нет, просто перемешиваем и устанавливаем
+          const shuffled = shuffleArray([...filteredByCategory]);
+          setBrands(shuffled);
           return;
         }
 
@@ -120,8 +140,7 @@ const BasicModal = () => {
         console.log("Полные данные пользователя:", dataUser);
 
         let sales = dataUser.sales;
-
-        // Если sales — строка, пытаемся её распарсить
+        // Если sales — строка, парсим JSON
         if (typeof sales === "string") {
           try {
             sales = JSON.parse(sales);
@@ -142,25 +161,22 @@ const BasicModal = () => {
         const salesCampaignIds = sales.map((sale) => sale.campaignId);
         console.log("Sales Campaign IDs:", salesCampaignIds);
 
-        // 4. Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
+        // 4. Исключаем бренды, у которых KeitaroGoBigID / KeitaroR2dID совпадает с campaignId
         const finalFilteredBrands = filteredByCategory.filter(
           (brand) =>
             !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
             !salesCampaignIds.includes(brand.KeitaroR2dID)
         );
-
         console.log("Отфильтрованные бренды:", finalFilteredBrands);
 
-        // 5. Устанавливаем состояние с отфильтрованными брендами
-        setBrands(finalFilteredBrands);
-
+        // 5. Перемешиваем массив и устанавливаем
+        const shuffled = shuffleArray([...finalFilteredBrands]);
+        setBrands(shuffled);
       } catch (error) {
-        setBrands(filteredByCategory);
-        console.error(
-          "Ошибка при получении данных пользователя или брендов:",
-          error
-        );
-  
+        // Если вдруг ошибка при получении данных пользователя, показываем хоть что-то
+        const shuffled = shuffleArray([...filteredByCategory]);
+        setBrands(shuffled);
+        console.error("Ошибка при получении данных пользователя:", error);
       }
     };
 
@@ -169,7 +185,6 @@ const BasicModal = () => {
 
   return (
     <>
-    
       {open && brands.length > 0 ? (
         <div className="custom-modal-overlay">
           <div className="custom-modal">
@@ -182,8 +197,7 @@ const BasicModal = () => {
             </button>
             <div className="custom-modal-content">
               <h2 className="custom-modal-title">
-                {t("Unlock Your Exclusive")}{" "}
-                <span>{t("Casino Surprise")}</span>
+                {t("Unlock Your Exclusive")} <span>{t("Casino Surprise")}</span>
               </h2>
               <p className="custom-modal-description">
                 <span>{t("Top brands have been chosen for you!")}</span>
@@ -193,11 +207,11 @@ const BasicModal = () => {
 
               <div>
                 {brands.length > 0 ? (
+                  // Берём только первый бренд из перемешанного массива
                   brands.slice(0, 1).map((rowData, index) => (
                     <Link
-                      key={index} // Добавляем уникальный ключ для каждого элемента
+                      key={index}
                       className="mt-3 flex items-center card-pop flex-col"
-                      // href={`${rowData.GoBig}/${newUrl}&creative_id=Black_Friday`}
                       href={`${rowData.GoBig}/${newUrl}&creative_id=Popup_BF`}
                       target="_blank"
                     >
@@ -262,10 +276,9 @@ const BasicModal = () => {
           cursor: pointer;
           z-index: 9;
           color: #fff !important;
-          background: #FF8F1F;
+          background: #fee000;
           padding: 3px 5px;
           border-radius: 2px 2px 0 0;
-
         }
         .custom-modal-content {
           margin-top: 0px;
@@ -280,7 +293,7 @@ const BasicModal = () => {
           color: #fff;
         }
         .custom-modal-title span {
-          color: #FF8F1F;
+          color: #fee000;
         }
         .custom-modal-description {
           font-size: 14px;
@@ -289,21 +302,11 @@ const BasicModal = () => {
           font-style: italic;
         }
         .custom-modal-description span {
-          color: #FF8F1F !important;
+          color: #fee000 !important;
         }
-        .custom-modal-link {
-          display: inline-block;
-          margin-top: 10px;
-          padding: 10px 20px;
-          background: #007bff;
-          color: #fff;
-          text-decoration: none;
-          border-radius: 4px;
+        .no-brands {
+          color: #fff !important;
         }
-        .custom-modal-link:hover {
-          background: #0056b3;
-        }
-     
       `}</style>
     </>
   );
