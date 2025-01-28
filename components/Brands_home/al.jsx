@@ -384,7 +384,7 @@ export default function AllBrands({
                       <div className="buttons ml-auto flex items-center">
                         <div className="flex flex-col items-center w-full p-4 howUse mt-2 mb-2">
                           <span className="text-center">
-                            {t("How to get bonus?")}
+                          {t("How to get")} <span>{t("bonus?")}</span>
                           </span>
                           <p className="text-center m-0 text-slate-500">
                             {t("Activate bonus in your casino account")}

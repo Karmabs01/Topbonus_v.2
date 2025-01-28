@@ -325,7 +325,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "Finest Casino Welcome Bonuses on Your Initial 2025 Deposit",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Comprehensive Compilation of Online Casino Bonuses Accessible in 2025",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Irresistible in 2025: No Deposit Casino Bonuses and Unique Bonus Codes",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Fresh in 2025: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.",
                 "No Wagering Casino Bonuses 2024": "No Wagering Casino Bonuses 2025",
@@ -395,7 +396,7 @@ async function initializeI18n() {
                 "Quickly rising through the ranks of the iGaming industry, Mascot Gaming is garnering attention for its custom gaming solutions. With a balanced portfolio of slots, table games, and interactive experiences, the company is making its mark through a blend of creativity and technology. Known for titles like 'Reel Monsters' and 'Fruit Vegas,' Mascot Gaming combines captivating visuals with intriguing gameplay features. Their unique approach to gaming has made them a go-to for operators seeking versatile and engaging content, setting the stage for what promises to be a bright future in the sector.": "Quickly rising through the ranks of the iGaming industry, Mascot Gaming is garnering attention for its custom gaming solutions. With a balanced portfolio of slots, table games, and interactive experiences, the company is making its mark through a blend of creativity and technology. Known for titles like 'Reel Monsters' and 'Fruit Vegas,' Mascot Gaming combines captivating visuals with intriguing gameplay features. Their unique approach to gaming has made them a go-to for operators seeking versatile and engaging content, setting the stage for what promises to be a bright future in the sector.",
                 "NetEnt Gaming: Pioneering Excellence in the iGaming World": "NetEnt Gaming: Pioneering Excellence in the iGaming World",
                 "As one of the stalwarts in the iGaming industry, NetEnt Gaming has consistently pushed the envelope in terms of quality, innovation, and gameplay. With a broad spectrum of offerings from classic slots like 'Starburst' to groundbreaking live casino games, the company has set industry benchmarks time and again. Utilizing state-of-the-art technology and creative storytelling, NetEnt offers an unrivaled gaming experience that keeps players coming back for more. Their reputation for excellence is backed by an extensive portfolio that continually evolves, solidifying their position as a leader in digital gaming.": "As one of the stalwarts in the iGaming industry, NetEnt Gaming has consistently pushed the envelope in terms of quality, innovation, and gameplay. With a broad spectrum of offerings from classic slots like 'Starburst' to groundbreaking live casino games, the company has set industry benchmarks time and again. Utilizing state-of-the-art technology and creative storytelling, NetEnt offers an unrivaled gaming experience that keeps players coming back for more. Their reputation for excellence is backed by an extensive portfolio that continually evolves, solidifying their position as a leader in digital gaming.",
-                "No Limit City Gaming: Nieograniczona innowacja w sferze iGaming": "No Limit City Gaming: Nieograniczona innowacja w sferze iGaming",
+                "No Limit City Gaming: Nieograniczona innowacja w sferze iGaming": "No Limit City Gaming: Unlimited iGaming Innovation",
                 "Emerging as a force to be reckoned with in the iGaming industry, No Limit City Gaming is synonymous with creative freedom and technological prowess. Known for unique slots like 'Deadwood' and 'Punk Rocker,' the company goes beyond the norm to offer riveting themes and game mechanics. Their dedication to innovation is evident, providing a refreshing and unpredictable gaming experience. By continually pushing the boundaries of what’s possible, No Limit City Gaming has carved a niche for itself as an avant-garde game provider in a highly competitive market.": "Emerging as a force to be reckoned with in the iGaming industry, No Limit City Gaming is synonymous with creative freedom and technological prowess. Known for unique slots like 'Deadwood' and 'Punk Rocker,' the company goes beyond the norm to offer riveting themes and game mechanics. Their dedication to innovation is evident, providing a refreshing and unpredictable gaming experience. By continually pushing the boundaries of what’s possible, No Limit City Gaming has carved a niche for itself as an avant-garde game provider in a highly competitive market.",
                 "Play'n GO Gaming: A Vanguard of Versatility and Innovation in iGaming": "Play'n GO Gamin: A Vanguard of Versatility and Innovation in iGaming",
                 "Cementing its status as a trendsetter in the iGaming community, Play'n GO Gaming is celebrated for its wide-ranging and inventive game portfolio. From iconic slots like 'Book of Dead' to inventive table games, the company provides an all-encompassing gaming experience. Employing cutting-edge technology and captivating narratives, Play'n GO has mastered the art of creating games that are not just visually appealing but also rich in features. Their unyielding commitment to quality and innovation makes them a preferred choice for both casual gamers and ardent casino enthusiasts, continually setting new standards in the ever-evolving gaming landscape.": "Cementing its status as a trendsetter in the iGaming community, Play'n GO Gaming is celebrated for its wide-ranging and inventive game portfolio. From iconic slots like 'Book of Dead' to inventive table games, the company provides an all-encompassing gaming experience. Employing cutting-edge technology and captivating narratives, Play'n GO has mastered the art of creating games that are not just visually appealing but also rich in features. Their unyielding commitment to quality and innovation makes them a preferred choice for both casual gamers and ardent casino enthusiasts, continually setting new standards in the ever-evolving gaming landscape.",
@@ -640,7 +641,12 @@ async function initializeI18n() {
                 "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.",
                 "Exclusive Winter Specials Just for You!": "Exclusive Winter Specials Just for You!",
                 "Your Winter Fortune": "Your Winter Fortune",
-                "Check": "Check"
+                Check: "Check",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "Secrets of the Red Envelope: Open and Discover Your Luck!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!",
+                "You have activated a card today": "You have activated a card today",
+                "Festive": "Festive"
             }
         },
         pl: {
@@ -754,7 +760,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection": "Poszukujesz bonusów i promocji w kasynach online? Przeglądaj naszą aktualną bazę danych, która zawiera liczne oferty bonusów kasynowych do wyboru.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "Najlepsze bonusy powitalne w kasynie przy pierwszej wpłacie w 2025 roku",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Wybierz spośród różnorodnych najlepszych nagród powitalnych w kasynie i otrzymaj dodatkowe środki bonusowe wliczone w Twoją pierwszą wpłatę. Wyłączne oferty zachęt do rejestracji zaprojektowane dla nowych uczestników.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Poszukujesz bonusów i promocji kasynowych w sieci? Zapoznaj się z naszym aktualnym, dobrze utrzymanym repozytorium, które zawiera mnóstwo propozycji bonusów kasynowych do rozważenia.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Kompleksowy Zbiór Bonusów Kasyn Online Dostępnych w 2025 roku",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "Poszukujesz bonusów i promocji kasynowych w sieci? Zapoznaj się z naszym aktualnym, dobrze utrzymanym repozytorium, które zawiera mnóstwo propozycji bonusów kasynowych do rozważenia.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Niezwykłe w 2025 roku: Bonusy w kasynie bez depozytu i unikalne kody bonusowe",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Świeże w 2025 roku: Ciągle odświeżany katalog ofert bonusów bez depozytu dla kasyn wirtualnych. Pozyskaj ekskluzywne kody promocyjne i korzystaj z nagród w postaci darmowych spinów.",
                 "No Wagering Casino Bonuses 2024": "Bonusy w kasynie bez wymogu obrotu 2025",
@@ -1057,7 +1064,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "Najlepsze marki zostały wybrane specjalnie dla Ciebie!",
                 "Don’t miss your chance to check it out.": "Nie przegap okazji, aby to sprawdzić.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Zimowa burza wygranych: Złap swoją śnieżynkę szczęścia",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Każdego dnia złap śnieżynkę i odkryj zimową niespodziankę! Darmowe spiny, cashback i ekskluzywne bonusy czekają na Ciebie w tej zimowej burzy wygranych."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Każdego dnia złap śnieżynkę i odkryj zimową niespodziankę! Darmowe spiny, cashback i ekskluzywne bonusy czekają na Ciebie w tej zimowej burzy wygranych.",
+                "Exclusive Winter Specials Just for You!": "Ekskluzywne zimowe oferty tylko dla Ciebie!",
+                "Your Winter Fortune": "Twoje zimowe szczęście",
+                Check: "Sprawdź",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "Tajemnice Czerwonej Koperty: Otwórz i odkryj swoje szczęście!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Każdego dnia wybierz jedną z czerwonych kopert, aby odkryć niespodziankę. Darmowe spiny, cashback lub ekskluzywne bonusy już na Ciebie czekają!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Poczuj magię sezonu z najgorętszymi markami kasyn – odkryj ekscytujące niespodzianki i świąteczne nagrody!",
+                "You have activated a card today": "Dziś aktywowałeś kartę"
             }
         },
         de: {
@@ -1171,7 +1185,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "Auf der Suche nach Online-Casino-Boni und Aktionen? Entdecken Sie unsere aktuelle Datenbank mit zahlreichen Casino-Bonusangeboten zur Auswahl.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "Die besten Casino Willkommensboni auf Ihre ersten 2025 Einzahlungen",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Wählen Sie aus einer Vielzahl von erstklassigen Einführungs-Casino-Belohnungen und erhalten Sie zusätzliche Bonusgelder, die in Ihre erste Zahlung integriert sind. Exklusive Anreizangebote zur Registrierung, die für neue Teilnehmer konzipiert wurden.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Auf der Suche nach Casino-Boni und Aktionen im Web? Entdecken Sie unser aktuelles, gut gepflegtes Repository mit einer Vielzahl von Casino-Bonusvorschlägen zur Auswahl.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Umfassende Zusammenstellung von Online-Casino-Boni im Jahr 2025 verfügbar",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "Auf der Suche nach Casino-Boni und Aktionen im Web? Entdecken Sie unser aktuelles, gut gepflegtes Repository mit einer Vielzahl von Casino-Bonusvorschlägen zur Auswahl.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Unwiderstehlich im Jahr 2025: Keine Einzahlungsboni im Casino und einzigartige Bonuscodes",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Neu in 2025: Ein kontinuierlich aktualisierter Katalog von Bonusangeboten ohne Einzahlung für virtuelle Casinos. Holen Sie sich exklusive Promo-Codes und genießen Sie kostenlose Freispiel-Belohnungen.",
                 "No Wagering Casino Bonuses 2024": "Keine Wettboni im Casino 2025",
@@ -1475,7 +1490,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "Top-Marken wurden für Dich ausgewählt!",
                 "Don’t miss your chance to check it out.": "Verpasse nicht die Chance, es auszuprobieren.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Wintersturm der Gewinne: Fang deine Glücksschneeflocke",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Fang jeden Tag eine Schneeflocke und enthülle eine Winterüberraschung! Freidrehs, Cashback und exklusive Boni warten auf dich in diesem Wintersturm der Gewinne."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Fang jeden Tag eine Schneeflocke und enthülle eine Winterüberraschung! Freidrehs, Cashback und exklusive Boni warten auf dich in diesem Wintersturm der Gewinne.",
+                "Exclusive Winter Specials Just for You!": "Exklusive Winterangebote nur für Sie!",
+                "Your Winter Fortune": "Ihr Winterglück",
+                Check: "Prüfen",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "Geheimnisse des Roten Umschlags: Öffne und entdecke dein Glück!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Jeden Tag wähle einen der roten Umschläge, um eine Überraschung zu enthüllen. Freispiele, Cashback oder exklusive Boni warten bereits auf dich!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Erleben Sie die Magie der Saison mit den heißesten Casino-Marken – entdecken Sie spannende Überraschungen und festliche Belohnungen!",
+                "You have activated a card today": "Sie haben heute eine Karte aktiviert"
             }
         },
         bg: {
@@ -1589,7 +1611,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "Търсите бонуси и промоции за онлайн казино? Разгледайте нашата текуща база данни, която включва множество предложения за казино бонуси за вашето избиране.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "Най-добрите казино добре дошли бонуси за първите ви 2025 депозита",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Изберете от разнообразие от водещи във въвеждащите казино награди и получете допълнителни бонус средства, включени в първоначалното ви плащане. Ексклузивни оферти за регистрация, предназначени за нови участници.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Търсите бонуси и промоции за казино в интернет? Изследвайте нашия настоящ, добре поддържан репозиторий, който предлага множество предложения за казино бонуси за вашето разглеждане.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Обширна компилация от бонуси за онлайн казина, достъпни през 2025 г.",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "Търсите бонуси и промоции за казино в интернет? Изследвайте нашия настоящ, добре поддържан репозиторий, който предлага множество предложения за казино бонуси за вашето разглеждане.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Непреодолими през 2025 г .: Бонуси без депозит в казино и уникални бонус кодове",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Ново за 2025 г .: Непрекъснато обновяван каталог на бездепозитни бонуси за виртуални казина. Получете ексклузивни промо кодове и се насладете на безплатни завъртания.",
                 "No Wagering Casino Bonuses 2024": "Бонуси за казино без залагания през 2025 г.",
@@ -1892,7 +1915,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "Топ марки са избрани специално за вас!",
                 "Don’t miss your chance to check it out.": "Не пропускайте шанса да го проверите.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Зимна буря от печалби: Хвани своя снежинка на късмета",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Всеки ден хвани снежинка и разкрий зимна изненада! Безплатни завъртания, кешбек и ексклузивни бонуси те очакват в тази зимна буря от печалби."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Всеки ден хвани снежинка и разкрий зимна изненада! Безплатни завъртания, кешбек и ексклузивни бонуси те очакват в тази зимна буря от печалби.",
+                "Exclusive Winter Specials Just for You!": "Ексклузивни зимни оферти само за вас!",
+                "Your Winter Fortune": "Вашият зимен късмет",
+                Check: "Провери",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "Тайните на червения плик: Отвори и открий късмета си!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Всеки ден избери един от червените пликове, за да разкриеш изненада. Безплатни завъртания, кешбек или ексклузивни бонуси вече те очакват!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Почувствайте магията на сезона с най-горещите казино марки – разопаковайте вълнуващи изненади и празнични награди!",
+                "You have activated a card today": "Днес активирахте карта"
             }
         },
         cz: {
@@ -2006,7 +2036,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "Hledáte online kasinové bonusy a akce? Prozkoumejte naši aktuální databázi obsahující mnoho nabídek kasinových bonusů pro vaši volbu.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "Nejlepší uvítací bonusy kasina při vašem prvním vkladu v roce 2025",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Vyberte si z široké škály úvodních kasinových odměn nejvyšší úrovně a získejte dodatečné bonusové prostředky začleněné do vaší počáteční platby. Exkluzivní registrační pobídky navržené pro nové účastníky.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Hledáte kasinové bonusy a akce na webu? Prozkoumejte náš aktuální, dobře udržovaný repozitář obsahující množství návrhů kasinových bonusů k vašemu zvážení.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Komplexní Sestava Bonusů Online Kasin Dostupných v roce 2025",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "Hledáte kasinové bonusy a akce na webu? Prozkoumejte náš aktuální, dobře udržovaný repozitář obsahující množství návrhů kasinových bonusů k vašemu zvážení.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Nepřekonatelné v roce 2025: Kasinové bonusy bez vkladu a jedinečné bonusové kódy",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Nové v roce 2025: Neustále obnovovaný katalog nabídek bez vkladového bonusu pro virtuální kasina. Získejte exkluzivní promo kódy a užijte si odměny v podobě bezplatných spinů.",
                 "No Wagering Casino Bonuses 2024": "Žádné sázky kasinové bonusy 2025",
@@ -2309,7 +2340,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "Nejlepší značky byly vybrány přímo pro vás!",
                 "Don’t miss your chance to check it out.": "Nenechte si ujít příležitost to vyzkoušet.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Zimní bouře výher: Chyť si svoji vločku štěstí",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Každý den chyť vločku a odhal zimní překvapení! Volné spiny, cashback a exkluzivní bonusy na tebe čekají v této zimní bouři výher."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Každý den chyť vločku a odhal zimní překvapení! Volné spiny, cashback a exkluzivní bonusy na tebe čekají v této zimní bouři výher.",
+                "Exclusive Winter Specials Just for You!": "Exkluzivní zimní nabídky jen pro vás!",
+                "Your Winter Fortune": "Vaše zimní štěstí",
+                Check: "Zkontrolovat",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "Tajemství červené obálky: Otevři a objev své štěstí!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Každý den si vyber jednu z červených obálek a odhal překvapení. Volné spiny, cashback nebo exkluzivní bonusy na tebe už čekají!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Zažijte kouzlo sezóny s nejžhavějšími značkami kasin – odhalte vzrušující překvapení a sváteční odměny!",
+                "You have activated a card today": "Dnes jste aktivovali kartu"
             }
         },
         dk: {
@@ -2423,7 +2461,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "Søger du online casino bonusser og tilbud? Udforsk vores nuværende database med talrige casino bonus tilbud til dit valg.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "De bedste casino velkomstbonusser på din første indbetaling i 2025",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Vælg mellem en række top-tier introduktionscasino belønninger og modtag ekstra bonusmidler inkorporeret i din første betaling. Eksklusive registreringsincitamenttilbud designet til nye deltagere.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Søger du efter casino bonusser og tilbud på nettet? Udforsk vores aktuelle, velvedligeholdte repository med et væld af casino bonusforslag til din overvejelse.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Omfattende Samling af Online Casino Bonusser tilgængelige i 2025",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "Søger du efter casino bonusser og tilbud på nettet? Udforsk vores aktuelle, velvedligeholdte repository med et væld af casino bonusforslag til din overvejelse.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Irresistible in 2025: Ingen Indskud Casino Bonusser og Unikke Bonuskoder",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Friske i 2025: En løbende opdateret katalog over ingen indbetalingsbonusser til virtuelle casinoer. Få eksklusive promokoder og nyd gratis spins belønninger.",
                 "No Wagering Casino Bonuses 2024": "Ingen satsningskasinobonusser 2025",
@@ -2726,7 +2765,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "Topmærker er valgt specielt til dig!",
                 "Don’t miss your chance to check it out.": "Gå ikke glip af chancen for at tjekke det ud.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Vinterstorm af gevinster: Fang din heldige snefnug",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Hver dag kan du fange en snefnug og afsløre en vinteroverraskelse! Gratis spins, cashback og eksklusive bonusser venter dig i denne vinterstorm af gevinster."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Hver dag kan du fange en snefnug og afsløre en vinteroverraskelse! Gratis spins, cashback og eksklusive bonusser venter dig i denne vinterstorm af gevinster.",
+                "Exclusive Winter Specials Just for You!": "Eksklusive vintertilbud kun til dig!",
+                "Your Winter Fortune": "Din vinterlykke",
+                Check: "Tjek",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "Hemmelighederne i den røde kuvert: Åbn og opdag dit held!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Hver dag kan du vælge en af de røde kuverter for at afsløre en overraskelse. Gratis spins, cashback eller eksklusive bonusser venter allerede på dig!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Oplev sæsonens magi med de hotteste casinobrands – åbn spændende overraskelser og festlige belønninger!",
+                "You have activated a card today": "Du har aktiveret et kort i dag"
             }
         },
         nl: {
@@ -2840,7 +2886,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "Op zoek naar online casinobonussen en promoties? Verken onze huidige database met tal van casinobonusaanbiedingen voor uw keuze.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "Beste Casinowelkomstbonussen op uw eerste storting in 2025",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Kies uit een verscheidenheid aan eersteklas introductiecasinobonussen en ontvang extra bonusgeld dat is opgenomen in uw eerste betaling. Exclusieve registratie-incentiveaanbiedingen ontworpen voor nieuwe deelnemers.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Op zoek naar casinobonussen en promoties op het web? Verken onze huidige, goed onderhouden repository met een overvloed aan casinobonusvoorstellen voor uw overweging.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Uitgebreide Verzameling van Online Casino Bonussen Beschikbaar in 2025",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "Op zoek naar casinobonussen en promoties op het web? Verken onze huidige, goed onderhouden repository met een overvloed aan casinobonusvoorstellen voor uw overweging.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Onweerstaanbaar in 2025: Geen Stortingscasinobonussen en Unieke Bonuscodes",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Nieuw in 2025: Een voortdurend vernieuwde catalogus van no deposit bonus deals voor virtuele casino's. Verkrijg exclusieve promotiecodes en geniet van gratis spins beloningen.",
                 "No Wagering Casino Bonuses 2024": "Geen inzetvereisten casinobonussen 2025",
@@ -3143,7 +3190,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "Topmerken zijn speciaal voor jou geselecteerd!",
                 "Don’t miss your chance to check it out.": "Mis je kans niet om het te bekijken.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Winterstorm van winsten: Vang jouw gelukssneeuwvlok",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Vang elke dag een sneeuwvlok en onthul een winterse verrassing! Gratis spins, cashback en exclusieve bonussen wachten op je in deze winterstorm van winsten."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Vang elke dag een sneeuwvlok en onthul een winterse verrassing! Gratis spins, cashback en exclusieve bonussen wachten op je in deze winterstorm van winsten.",
+                "Exclusive Winter Specials Just for You!": "Exclusieve winteraanbiedingen speciaal voor jou!",
+                "Your Winter Fortune": "Jouw wintergeluk",
+                Check: "Controleer",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "Geheimen van de Rode Envelop: Open en ontdek je geluk!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Kies elke dag een van de rode enveloppen om een verrassing te onthullen. Gratis spins, cashback of exclusieve bonussen wachten al op je!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Beleef de magie van het seizoen met de populairste casinomerken – ontdek spannende verrassingen en feestelijke beloningen!",
+                "You have activated a card today": "Je hebt vandaag een kaart geactiveerd"
             }
         },
         es: {
@@ -3257,7 +3311,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "¿Buscas bonos y promociones de casinos en línea? Explora nuestra base de datos actual que cuenta con numerosas ofertas de bonos de casino para que elijas.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "Los mejores bonos de bienvenida de casino en tu primer depósito de 2025",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Selecciona entre una variedad de recompensas de casino introductorias de primer nivel y recibe fondos adicionales de bonificación incorporados en tu pago inicial. Ofertas exclusivas de incentivos de registro diseñadas para nuevos participantes.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "¿Buscando bonos y promociones de casino en la web? ¡Explora nuestro repositorio actual y bien mantenido que cuenta con una gran cantidad de propuestas de bonos de casino para tu consideración!",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Compilación Integral de Bonos de Casinos Online Accesibles en 2025",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "¿Buscando bonos y promociones de casino en la web? ¡Explora nuestro repositorio actual y bien mantenido que cuenta con una gran cantidad de propuestas de bonos de casino para tu consideración!",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Irresistible en 2025: Bonos de casino sin depósito y códigos de bonificación únicos",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Nuevo en 2025: ¡Un catálogo continuamente actualizado de ofertas de bonos sin depósito para casinos virtuales! Obtén códigos promocionales exclusivos y disfruta de recompensas de giros gratuitos.",
                 "No Wagering Casino Bonuses 2024": "Bonos de casino sin apuestas 2025",
@@ -3560,7 +3615,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "¡Las mejores marcas han sido seleccionadas para ti!",
                 "Don’t miss your chance to check it out.": "No pierdas la oportunidad de comprobarlo.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Tormenta de ganancias invernales: Atrapa tu copo de nieve de la suerte",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Cada día atrapa un copo de nieve y descubre una sorpresa invernal. Giros gratis, reembolsos y bonos exclusivos te esperan en esta tormenta de ganancias invernales."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Cada día atrapa un copo de nieve y descubre una sorpresa invernal. Giros gratis, reembolsos y bonos exclusivos te esperan en esta tormenta de ganancias invernales.",
+                "Exclusive Winter Specials Just for You!": "¡Ofertas exclusivas de invierno solo para ti!",
+                "Your Winter Fortune": "Tu fortuna de invierno",
+                Check: "Verificar",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "Secretos del Sobre Rojo: ¡Ábrelo y descubre tu suerte!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Cada día elige uno de los sobres rojos para descubrir una sorpresa. Giros gratis, reembolsos o bonos exclusivos ya te están esperando!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "¡Vive la magia de la temporada con las marcas de casinos más populares y descubre emocionantes sorpresas y recompensas festivas!",
+                "You have activated a card today": "Has activado una tarjeta hoy"
             }
         },
         fi: {
@@ -3674,7 +3736,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "Etsitkö nettikasinoiden bonuksia ja tarjouksia? Tutustu nykyiseen tietokantaamme, joka sisältää lukuisia kasinobonustarjouksia valittavaksesi.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "Parhaat kasinon tervetuliaisbonukset ensimmäiselle 2025 talletuksellesi",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Valitse erilaisista huipputason aloitus kasinobonuksista ja saat lisäbonuksia sisällytettyinä ensimmäiseen maksuusi. Yksinoikeudella suunnitellut rekisteröitymisbonustarjoukset uusille osallistujille.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Etsitkö kasinobonuksia ja tarjouksia verkosta? Tutustu nykyiseen, hyvin ylläpidettyyn tietokantaamme, joka sisältää runsaasti kasinobonusehdotuksia harkintaasi varten.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Kattava Kokoelma Verkkokasinoiden Bonuksia Saatavilla Vuonna 2025",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "Etsitkö kasinobonuksia ja tarjouksia verkosta? Tutustu nykyiseen, hyvin ylläpidettyyn tietokantaamme, joka sisältää runsaasti kasinobonusehdotuksia harkintaasi varten.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Vastustamaton vuonna 2025: Ei talletus kasinobonuksia ja ainutlaatuisia bonuskoodit",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Tuoreena vuonna 2025: jatkuvasti päivittyvä luettelo talletusvapaista bonustarjouksista virtuaalikasinoille. Hanki yksinoikeudellisia tarjouskoodeja ja nauti ilmaiskierrospalkinnoista.",
                 "No Wagering Casino Bonuses 2024": "Ei panostusvaatimuksia kasinobonuksia 2025",
@@ -3977,7 +4040,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "Huippumerkit on valittu juuri sinulle!",
                 "Don’t miss your chance to check it out.": "Älä missaa tilaisuuttasi tarkistaa se.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Talvimyrsky voittoja: Tartu onnen lumihiutaleeseesi",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Tartu joka päivä lumihiutaleeseen ja paljasta talvinen yllätys! Ilmaiskierroksia, käteispalautuksia ja eksklusiivisia bonuksia odottaa sinua tässä talvimyrskyssä."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Tartu joka päivä lumihiutaleeseen ja paljasta talvinen yllätys! Ilmaiskierroksia, käteispalautuksia ja eksklusiivisia bonuksia odottaa sinua tässä talvimyrskyssä.",
+                "Exclusive Winter Specials Just for You!": "Eksklusiivisia talvitarjouksia vain sinulle!",
+                "Your Winter Fortune": "Talvionnesi",
+                Check: "Tarkista",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "Punaisen kirjekuoren salaisuudet: Avaa ja löydä onnesi!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Valitse joka päivä yksi punaisista kirjekuorista ja paljasta yllätys. Ilmaiskierroksia, käteispalautuksia tai eksklusiivisia bonuksia odottaa sinua jo nyt!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Koe kauden taika kuumimpien kasinobrändien kanssa – avaa jännittäviä yllätyksiä ja juhlapalkintoja!",
+                "You have activated a card today": "Olet aktivoinut kortin tänään"
             }
         },
         fr: {
@@ -4091,7 +4161,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "À la recherche de bonus et promotions de casino en ligne ? Explorez notre base de données actuelle proposant de nombreuses offres de bonus de casino pour votre sélection.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "Les meilleurs bonus de bienvenue au casino sur votre premier dépôt en 2025",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Sélectionnez parmi une variété de récompenses de casino d'introduction de premier ordre et recevez des fonds bonus supplémentaires incorporés dans votre paiement initial. Offres incitatives d'inscription exclusives conçues pour les nouveaux participants.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "À la recherche de bonus de casino et de promotions sur le web ? Explorez notre répertoire actuel et bien entretenu, proposant une multitude de propositions de bonus de casino à prendre en considération.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Compilation Complète des Bonus de Casinos en Ligne Disponibles en 2025",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "À la recherche de bonus de casino et de promotions sur le web ? Explorez notre répertoire actuel et bien entretenu, proposant une multitude de propositions de bonus de casino à prendre en considération.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Irrésistible en 2025 : Bonus de casino sans dépôt et codes bonus uniques",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Neuf en 2025 : Un catalogue continuellement actualisé des offres de bonus sans dépôt pour les casinos virtuels. Obtenez des codes promo exclusifs et profitez de récompenses de tours gratuits.",
                 "No Wagering Casino Bonuses 2024": "Bonus de casino sans mise en 2025",
@@ -4395,7 +4466,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "Les meilleures marques ont été sélectionnées pour vous !",
                 "Don’t miss your chance to check it out.": "Ne manquez pas l’occasion de découvrir cela.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Tempête hivernale de gains : Attrapez votre flocon porte-bonheur",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Chaque jour, attrapez un flocon de neige et révélez une surprise hivernale ! Des tours gratuits, des cashback et des bonus exclusifs vous attendent dans cette tempête hivernale de gains."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Chaque jour, attrapez un flocon de neige et révélez une surprise hivernale ! Des tours gratuits, des cashback et des bonus exclusifs vous attendent dans cette tempête hivernale de gains.",
+                "Exclusive Winter Specials Just for You!": "Offres hivernales exclusives rien que pour vous !",
+                "Your Winter Fortune": "Votre fortune hivernale",
+                Check: "Vérifier",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "Les Secrets de l’Enveloppe Rouge : Ouvrez et découvrez votre chance !",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Chaque jour, choisissez l’une des enveloppes rouges pour révéler une surprise. Des tours gratuits, des cashback ou des bonus exclusifs vous attendent déjà !",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Vivez la magie de la saison avec les marques de casinos les plus en vogue – découvrez des surprises passionnantes et des récompenses festives !",
+                "You have activated a card today": "Vous avez activé une carte aujourd'hui"
             }
         },
         gr: {
@@ -4509,7 +4587,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "Ψάχνετε για μπόνους και προσφορές καζίνο online; Εξερευνήστε την τρέχουσα βάση δεδομένων μας που περιλαμβάνει πολλές προσφορές μπόνους καζίνο για την επιλογή σας.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "Καλύτερα Καζίνο Καλωσορίσματα Μπόνους στην Αρχική σας Κατάθεση 2025",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Επιλέξτε από μια ποικιλία από κορυφαίες εισαγωγικές αμοιβές καζίνο και λάβετε επιπλέον μπόνους κεφάλαια ενσωματωμένα στην αρχική σας πληρωμή. Αποκλειστικές προσφορές κίνητρων εγγραφής σχεδιασμένες για νέους συμμετέχοντες.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Ψάχνετε για μπόνους καζίνο και προσφορές στο διαδίκτυο; Εξερευνήστε το τρέχον, καλά συντηρημένο αποθετήριο μας που περιλαμβάνει μια πληθώρα προτάσεων μπόνους καζίνο για την εξέτασή σας.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Πλήρης Συλλογή Μπόνους Διαδικτυακών Καζίνο Διαθέσιμων το 2025",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "Ψάχνετε για μπόνους καζίνο και προσφορές στο διαδίκτυο; Εξερευνήστε το τρέχον, καλά συντηρημένο αποθετήριο μας που περιλαμβάνει μια πληθώρα προτάσεων μπόνους καζίνο για την εξέτασή σας.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Αντιστατικά το 2025: Μπόνους καζίνο χωρίς κατάθεση και μοναδικοί κωδικοί μπόνους",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Φρέσκο το 2025: Ένα συνεχώς ανανεούμενο κατάλογος προσφορών χωρίς κατάθεση για εικονικά καζίνο. Αποκτήστε αποκλειστικούς κωδικούς προσφορών και απολαύστε δωρεάν περιστροφές ανταμοιβές.",
                 "No Wagering Casino Bonuses 2024": "Μπόνους καζίνο χωρίς στοίχημα 2025",
@@ -4813,7 +4892,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "Οι κορυφαίες μάρκες έχουν επιλεγεί για εσάς!",
                 "Don’t miss your chance to check it out.": "Μην χάσετε την ευκαιρία να το εξερευνήσετε.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Χειμωνιάτικη καταιγίδα κερδών: Πιάσε τη νιφάδα τύχης σου",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Κάθε μέρα πιάσε μια νιφάδα και αποκάλυψε μια χειμωνιάτικη έκπληξη! Δωρεάν περιστροφές, επιστροφές χρημάτων και αποκλειστικά μπόνους σε περιμένουν σε αυτή τη χειμωνιάτικη καταιγίδα κερδών."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Κάθε μέρα πιάσε μια νιφάδα και αποκάλυψε μια χειμωνιάτικη έκπληξη! Δωρεάν περιστροφές, επιστροφές χρημάτων και αποκλειστικά μπόνους σε περιμένουν σε αυτή τη χειμωνιάτικη καταιγίδα κερδών.",
+                "Exclusive Winter Specials Just for You!": "Αποκλειστικές χειμερινές προσφορές μόνο για εσάς!",
+                "Your Winter Fortune": "Η χειμερινή σας τύχη",
+                Check: "Έλεγχος",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "Μυστικά του Κόκκινου Φακέλου: Άνοιξε και ανακάλυψε την τύχη σου!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Κάθε μέρα διάλεξε έναν από τους κόκκινους φακέλους και αποκάλυψε μια έκπληξη. Δωρεάν περιστροφές, επιστροφές χρημάτων ή αποκλειστικά μπόνους σε περιμένουν ήδη!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Ζήστε τη μαγεία της σεζόν με τα πιο καυτά brands καζίνο – αποκαλύψτε συναρπαστικές εκπλήξεις και γιορτινές ανταμοιβές!",
+                "You have activated a card today": "Έχετε ενεργοποιήσει μια κάρτα σήμερα"
             }
         },
         hu: {
@@ -4927,7 +5013,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "Online kaszinó bónuszokat és promóciókat keres? Fedezze fel jelenlegi adatbázisunkat, amely számos kaszinó bónuszajánlatot kínál választására.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "A legjobb kaszinó üdvözlő bónuszok az első 2025 befizetésedre",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Válasszon a különböző legjobb bevezető kaszinó jutalmak közül, és kapjon további bónusz összegeket az első befizetésébe beépítve. Kizárólag friss résztvevők számára tervezett exkluzív regisztrációs ösztönző ajánlatok.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "A kaszinó bónuszok és promóciók keresése a weben? Fedezze fel jelenlegi, jól karbantartott adattárunkat, amely számos kaszinó bónuszajánlatot kínál megfontolásra.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Átfogó Összeállítás Online Kaszinóbónuszokról, amelyek 2025-ben Érhetők El",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "A kaszinó bónuszok és promóciók keresése a weben? Fedezze fel jelenlegi, jól karbantartott adattárunkat, amely számos kaszinó bónuszajánlatot kínál megfontolásra.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Irresistible in 2025: Nincs Letéti Kaszinó Bónuszok és Egyedi Bónuszkódok",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Friss 2025-ben: Egy folyamatosan frissülő katalógus a virtuális kaszinókhoz kínált befizetés nélküli bónuszajánlatokról. Szerezzen egyedi promóciós kódokat és élvezze az ingyenes pörgetés jutalmakat.",
                 "No Wagering Casino Bonuses 2024": "Nincs tétel nélküli kaszinó bónuszok 2025",
@@ -5231,7 +5318,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "A legjobb márkák kifejezetten Önnek lettek kiválasztva!",
                 "Don’t miss your chance to check it out.": "Ne hagyja ki az alkalmat, hogy kipróbálja.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Téli nyereményvihar: Kapd el a szerencse hópelyhét",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Minden nap kapj el egy hópelyhet, és fedezz fel egy téli meglepetést! Ingyenes pörgetések, pénzvisszatérítés és exkluzív bónuszok várnak rád ebben a téli nyereményviharban."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Minden nap kapj el egy hópelyhet, és fedezz fel egy téli meglepetést! Ingyenes pörgetések, pénzvisszatérítés és exkluzív bónuszok várnak rád ebben a téli nyereményviharban.",
+                "Exclusive Winter Specials Just for You!": "Exkluzív téli ajánlatok csak neked!",
+                "Your Winter Fortune": "A téli szerencséd",
+                Check: "Ellenőrizd",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "A Piros Boríték Titkai: Nyisd ki, és fedezd fel a szerencsédet!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Minden nap válassz egyet a piros borítékok közül, hogy felfedd a meglepetést. Ingyenes pörgetések, pénzvisszatérítés vagy exkluzív bónuszok már várnak rád!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Élje át a szezon varázsát a legforróbb kaszinómárkákkal – fedezze fel az izgalmas meglepetéseket és ünnepi jutalmakat!",
+                "You have activated a card today": "Ma aktiváltál egy kártyát"
             }
         },
         it: {
@@ -5345,7 +5439,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "Cercando bonus e promozioni dei casinò online? Esplora il nostro database attuale che presenta numerose offerte di bonus per la tua scelta.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "I migliori bonus di benvenuto al casinò sul tuo primo deposito del 2025",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Scegli tra una varietà di premi introduttivi di casinò di alto livello e ricevi fondi bonus aggiuntivi incorporati nel tuo pagamento iniziale. Offerte esclusive di incentivi per la registrazione progettate per i nuovi partecipanti.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Stai cercando bonus e promozioni dei casinò sul web? Esplora il nostro attuale e ben tenuto repository che offre una moltitudine di proposte di bonus per casinò da prendere in considerazione.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Raccolta Completa di Bonus dei Casinò Online Disponibili nel 2025",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "Stai cercando bonus e promozioni dei casinò sul web? Esplora il nostro attuale e ben tenuto repository che offre una moltitudine di proposte di bonus per casinò da prendere in considerazione.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Irresistibile nel 2025: Bonus Casino Senza Deposito e Codici Bonus Unici",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Nuovo nel 2025: Un catalogo continuamente aggiornato di offerte di bonus senza deposito per casinò virtuali. Ottieni codici promozionali esclusivi e goditi ricompense di giri gratuiti.",
                 "No Wagering Casino Bonuses 2024": "Bonus casinò senza requisiti di scommessa 2025",
@@ -5649,7 +5744,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "I migliori marchi sono stati scelti per te!",
                 "Don’t miss your chance to check it out.": "Non perdere l'occasione di scoprirli.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Tempesta invernale di vincite: Acchiappa il tuo fiocco di neve fortunato",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Ogni giorno acchiappa un fiocco di neve e scopri una sorpresa invernale! Giri gratis, cashback e bonus esclusivi ti aspettano in questa tempesta invernale di vincite."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Ogni giorno acchiappa un fiocco di neve e scopri una sorpresa invernale! Giri gratis, cashback e bonus esclusivi ti aspettano in questa tempesta invernale di vincite.",
+                "Exclusive Winter Specials Just for You!": "Offerte esclusive invernali solo per te!",
+                "Your Winter Fortune": "La tua fortuna invernale",
+                Check: "Controlla",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "I Segreti della Busta Rossa: Aprila e scopri la tua fortuna!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Ogni giorno scegli una delle buste rosse per svelare una sorpresa. Giri gratis, cashback o bonus esclusivi ti aspettano già!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Vivi la magia della stagione con i marchi di casinò più caldi – scopri sorprese entusiasmanti e premi festivi!",
+                "You have activated a card today": "Hai attivato una carta oggi"
             }
         },
         no: {
@@ -5763,7 +5865,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "Leter du etter online casino bonuser og kampanjer? Utforsk vår nåværende database med mange casinobonustilbud for ditt valg.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "De beste casinovilkommstbonusene på ditt første innskudd i 2025",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Velg blant et utvalg av førsteklasses introduksjonsbonuser på casino og motta ekstra bonusmidler som er inkludert i ditt første innskudd. Eksklusive registreringsinsentivavtaler designet for nye deltakere.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Er du på jakt etter casinobonuser og tilbud på nettet? Utforsk vår nåværende, velvedlikeholdte database som inneholder et mangfold av casinobonusforslag for din vurdering.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Omfattende Samling av Nettcasino Bonuser Tilgjengelige i 2025",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "Er du på jakt etter casinobonuser og tilbud på nettet? Utforsk vår nåværende, velvedlikeholdte database som inneholder et mangfold av casinobonusforslag for din vurdering.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Uimotståelig i 2025: Ingen innskudd casino bonuser og unike bonuskoder",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Ferskt i 2025: En kontinuerlig oppdatert katalog over ingen innskuddsbonusavtaler for virtuelle kasinoer. Få eksklusive kampanjekoder og nyt gratis spinnbelønninger.",
                 "No Wagering Casino Bonuses 2024": "Ingen omsetningskrav casinobonuser 2025",
@@ -6067,7 +6170,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "Toppmerker er valgt spesielt for deg!",
                 "Don’t miss your chance to check it out.": "Ikke gå glipp av sjansen til å sjekke det ut.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Vinterstorm av gevinster: Fang ditt lykkesnøfnugg",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Fang et snøfnugg hver dag og avslør en vinteroverraskelse! Gratisspinn, cashback og eksklusive bonuser venter på deg i denne vinterstormen av gevinster."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Fang et snøfnugg hver dag og avslør en vinteroverraskelse! Gratisspinn, cashback og eksklusive bonuser venter på deg i denne vinterstormen av gevinster.",
+                "Exclusive Winter Specials Just for You!": "Eksklusive vintertilbud kun for deg!",
+                "Your Winter Fortune": "Din vinterlykke",
+                Check: "Sjekk",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "Hemmelighetene i Den Røde Konvolutten: Åpne og oppdag lykken din!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Hver dag kan du velge en av de røde konvoluttene for å avsløre en overraskelse. Gratisspinn, cashback eller eksklusive bonuser venter allerede på deg!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Opplev sesongens magi med de hotteste casinobrands – åpne spennende overraskelser og festlige belønninger!",
+                "You have activated a card today": "Du har aktivert et kort i dag"
             }
         },
         pt: {
@@ -6181,7 +6291,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "Procurando bônus e promoções de cassino online? Explore nosso banco de dados atual com inúmeras ofertas de bônus de cassino para a sua seleção.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "Melhores Bônus de Boas-Vindas do Cassino em Seu Depósito Inicial de 2025",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Escolha entre uma variedade de recompensas de cassino introdutórias de primeira linha e receba fundos adicionais de bônus incorporados ao seu pagamento inicial. Ofertas exclusivas de incentivo de registro projetadas para novos participantes.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Procurando por bônus e promoções de cassino na web? Explore nosso repositório atual e bem mantido, apresentando uma infinidade de propostas de bônus de cassino para sua consideração.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Compilação Abrangente de Bônus de Cassinos Online Disponíveis em 2025",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "Procurando por bônus e promoções de cassino na web? Explore nosso repositório atual e bem mantido, apresentando uma infinidade de propostas de bônus de cassino para sua consideração.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Irresistível em 2025: Bônus de Cassino sem Depósito e Códigos de Bônus Únicos",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Novidades em 2025: Um catálogo continuamente atualizado de ofertas de bônus sem depósito para cassinos virtuais. Obtenha códigos promocionais exclusivos e desfrute de recompensas de giros gratuitos.",
                 "No Wagering Casino Bonuses 2024": "Bônus de Cassino Sem Apostas 2025",
@@ -6485,7 +6596,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "As melhores marcas foram escolhidas para você!",
                 "Don’t miss your chance to check it out.": "Não perca a chance de conferir.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Tempestade de ganhos de inverno: Pegue seu floco de neve da sorte",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Todos os dias, pegue um floco de neve e revele uma surpresa de inverno! Giros grátis, cashback e bônus exclusivos esperam por você nesta tempestade de ganhos de inverno."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Todos os dias, pegue um floco de neve e revele uma surpresa de inverno! Giros grátis, cashback e bônus exclusivos esperam por você nesta tempestade de ganhos de inverno.",
+                "Exclusive Winter Specials Just for You!": "Ofertas exclusivas de inverno só para você!",
+                "Your Winter Fortune": "Sua sorte de inverno",
+                Check: "Verificar",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "Segredos do Envelope Vermelho: Abra e descubra sua sorte!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Todos os dias, escolha um dos envelopes vermelhos para revelar uma surpresa. Giros grátis, cashback ou bônus exclusivos já estão esperando por você!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Experimente a magia da temporada com as marcas de cassinos mais populares – descubra surpresas emocionantes e recompensas festivas!",
+                "You have activated a card today": "Você ativou um cartão hoje"
             }
         },
         se: {
@@ -6599,7 +6717,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "Söker du online casino bonusar och kampanjer? Utforska vår nuvarande databas med många casinobonuserbjudanden för ditt val.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "Bästa casinovälkomstbonusarna på din första insättning 2025",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Välj bland ett urval av högklassiga introduktionscasinobonusar och få extra bonuspengar inkorporerade i din första insättning. Exklusiva registreringsincitamentavtal utformade för nya deltagare.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Söker du efter casinobonusar och erbjudanden på webben? Utforska vår aktuella, välskötta databas med ett överflöd av casinobonusförslag för din övervägande.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Omfattande Samling av Online Casino Bonusar Tillgängliga 2025",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "Söker du efter casinobonusar och erbjudanden på webben? Utforska vår aktuella, välskötta databas med ett överflöd av casinobonusförslag för din övervägande.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Omotståndlig år 2025: Ingen insättningscasinobonusar och unika bonuskoder",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Uppdaterat 2025: En kontinuerligt uppdaterad katalog över bonusar utan insättning för virtuella casinon. Få exklusiva kampanjkoder och njut av gratis spins-belöningar.",
                 "No Wagering Casino Bonuses 2024": "Inga omsättningskrav på casinobonusar 2025",
@@ -6903,7 +7022,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "Toppmärken har valts ut för dig!",
                 "Don’t miss your chance to check it out.": "Missa inte chansen att kolla in det.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Vinterstorm av vinster: Fånga din lyckosnöflinga",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Fånga en snöflinga varje dag och avslöja en vinteröverraskning! Gratissnurr, cashback och exklusiva bonusar väntar på dig i denna vinterstorm av vinster."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Fånga en snöflinga varje dag och avslöja en vinteröverraskning! Gratissnurr, cashback och exklusiva bonusar väntar på dig i denna vinterstorm av vinster.",
+                "Exclusive Winter Specials Just for You!": "Exklusiva vintererbjudanden bara för dig!",
+                "Your Winter Fortune": "Din vintertur",
+                Check: "Kontrollera",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "Hemligheterna i det Röda Kuvertet: Öppna och upptäck din tur!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Varje dag kan du välja ett av de röda kuverten och avslöja en överraskning. Gratissnurr, cashback eller exklusiva bonusar väntar redan på dig!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Upplev säsongens magi med de hetaste casinovarumärkena – upptäck spännande överraskningar och festliga belöningar!",
+                "You have activated a card today": "Du har aktiverat ett kort idag"
             }
         },
         sk: {
@@ -7017,7 +7143,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "Hľadáte online kasínové bonusy a akcie? Preskúmajte našu aktuálnu databázu s mnohými ponukami kasínových bonusov na vaš výber.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "Najlepšie uvítacie bonusy v kasíne pri vašom prvom vklade v roku 2025",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Vyberte si z rôznych prvotriednych úvodných kasínových odmien a získajte dodatočné bonusové prostriedky zahrnuté do vášho počiatočného platby. Exkluzívne registračné stimuly určené pre nových účastníkov.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Hľadáte kasínové bonusy a akcie na webe? Preskúmajte našu aktuálnu, dobre udržiavanú databázu, ktorá obsahuje množstvo návrhov kasínových bonusov na vaše zváženie.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Komplexný Zoznam Bonusov Online Kasín Dostupných v roku 2025",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "Hľadáte kasínové bonusy a akcie na webe? Preskúmajte našu aktuálnu, dobre udržiavanú databázu, ktorá obsahuje množstvo návrhov kasínových bonusov na vaše zváženie.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "Neprekonateľné v roku 2025: Bonusy v kasíne bez vkladu a jedinečné bonusové kódy",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "Nové v roku 2025: Neustále obnovovaný katalóg ponúk bez vkladových bonusov pre virtuálne kasína. Získajte exkluzívne promo kódy a užívajte si odmeny vo forme bezplatných zatočení.",
                 "No Wagering Casino Bonuses 2024": "No Wagering Kasínové Bonusy 2025",
@@ -7321,7 +7448,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "Najlepšie značky boli vybrané špeciálne pre vás!",
                 "Don’t miss your chance to check it out.": "Nenechajte si ujsť príležitosť to skontrolovať.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Zimná búrka výhier: Chyť svoju snehovú vločku šťastia",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Každý deň chyť snehovú vločku a odhaľ zimné prekvapenie! Voľné točenia, cashback a exkluzívne bonusy na teba čakajú v tejto zimnej búrke výhier."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Každý deň chyť snehovú vločku a odhaľ zimné prekvapenie! Voľné točenia, cashback a exkluzívne bonusy na teba čakajú v tejto zimnej búrke výhier.",
+                "Exclusive Winter Specials Just for You!": "Exkluzívne zimné ponuky iba pre vás!",
+                "Your Winter Fortune": "Vaše zimné šťastie",
+                Check: "Skontrolovať",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "Tajomstvá Červenej Obálky: Otvor a objav svoje šťastie!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Každý deň si vyber jednu z červených obálok a odhaľ prekvapenie. Voľné točenia, cashback alebo exkluzívne bonusy na teba už čakajú!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Zažite čaro sezóny s najhorúcejšími značkami kasín – odhaľte vzrušujúce prekvapenia a sviatočné odmeny!",
+                "You have activated a card today": "Dnes ste aktivovali kartu"
             }
         },
         tr: {
@@ -7435,7 +7569,8 @@ async function initializeI18n() {
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "Online casino bonusları ve promosyonları mı arıyorsunuz? Seçiminiz için birçok casino bonus teklifini içeren güncel veritabanımızı keşfedin.",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "İlk 2025 Yatırımınızda En İyi Casino Hoş Geldin Bonusları",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "Farklı üst düzey tanıtım casino ödüllerinden seçim yapın ve ilk ödemenize dahil edilen ek bonus fonlarını alın. Yeni katılımcılar için tasarlanmış özel kayıt teşvik anlaşmaları.",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "Web'de kumarhane bonusları ve promosyonları arıyor musunuz? Düşünmeniz için birçok kumarhane bonus teklifini içeren güncel ve iyi bakımlı veritabanımızı keşfedin.",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "2025 Yılında Erişilebilir Online Casino Bonuslarının Kapsamlı Derlemesi",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "Web'de kumarhane bonusları ve promosyonları arıyor musunuz? Düşünmeniz için birçok kumarhane bonus teklifini içeren güncel ve iyi bakımlı veritabanımızı keşfedin.",
                 "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "2025'te Dayanılmaz: Para Yatırmadan Casino Bonusları ve Benzersiz Bonus Kodları",
                 "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "2025'te Yenilik: Sanal casinolar için sürekli olarak güncellenen depozito bonus fırsatları kataloğu. Özel promosyon kodları alın ve ücretsiz dönüş ödüllerinin keyfini çıkarın.",
                 "No Wagering Casino Bonuses 2024": "2025 Bahis Yok Casino Bonusları",
@@ -7739,7 +7874,14 @@ async function initializeI18n() {
                 "Top brands have been chosen for you!": "Sizin için en iyi markalar seçildi!",
                 "Don’t miss your chance to check it out.": "Kaçırmayın, mutlaka göz atın.",
                 "Winter Storm of Wins: Catch Your Snowflake of Luck": "Zaferlerin Kış Fırtınası: Şans Kar Tanesini Yakala",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Her gün bir kar tanesi yakala ve kış sürprizini keşfet! Bedava dönüşler, nakit iadeler ve özel bonuslar bu zaferlerin kış fırtınasında seni bekliyor."
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "Her gün bir kar tanesi yakala ve kış sürprizini keşfet! Bedava dönüşler, nakit iadeler ve özel bonuslar bu zaferlerin kış fırtınasında seni bekliyor.",
+                "Exclusive Winter Specials Just for You!": "Sadece size özel kış fırsatları!",
+                "Your Winter Fortune": "Kış talihiniz",
+                Check: "Kontrol et",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "Kırmızı Zarfın Sırları: Aç ve Şansını Keşfet!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Her gün kırmızı zarflardan birini seç ve bir sürpriz keşfet. Bedava dönüşler, nakit iadeler veya özel bonuslar seni bekliyor!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Sezonun büyüsünü en popüler casino markalarıyla yaşayın – heyecan verici sürprizleri ve festivallere özel ödülleri açığa çıkarın!",
+                "You have activated a card today": "Bugün bir kart etkinleştirdiniz"
             }
         },
         in: {
@@ -7756,7 +7898,7 @@ async function initializeI18n() {
                 "Deposit Bonuses": "जमा बोनस",
                 "Welcome Bonuses": "स्वागत बोनस",
                 "No Wagering Bonuses": "कोई शर्त लगाने वाले बोनस नहीं",
-                "All Payments ▼": "सभी भुगतान विधियाँ ▼",
+                "All Payments ▼": "सभी भुगतान ▼",
                 "Apple Pay": "Apple Pay",
                 Bitcoin: "Bitcoin",
                 Ecopayz: "Ecopayz",
@@ -7804,20 +7946,20 @@ async function initializeI18n() {
                 "Newly Brands": "नए कैसीनो",
                 "Crypto Brands": "क्रिप्टो कैसीनो",
                 "Top Sports Brands": "शीर्ष खेल कैसीनो",
-                "Catalog of all 2024 Online Casino Bonuses Offered": "2025 के सभी ऑनलाइन कैसीनो बोनस की सूची",
+                "Catalog of all 2024 Online Casino Bonuses Offered": "2025 में पेश किए गए सभी ऑनलाइन कैसीनो बोनस की सूची",
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "ऑनलाइन कैसीनो बोनस और प्रमोशनों की तलाश कर रहे हैं? हमारे वर्तमान डेटाबेस का अन्वेषण करें जिसमें आपके चयन के लिए कई कैसीनो बोनस ऑफर शामिल हैं।",
                 "Our Contacts:": "हमारे संपर्क:",
                 "Responsible Gaming": "जिम्मेदार गेमिंग",
                 "Privacy Policy": "गोपनीयता नीति",
                 "Terms and Conditions": "नियम और शर्तें",
                 "Empowering iGaming Solutions": "सशक्त iGaming समाधान",
-                "Unlocking 15 Websites That Will Boost Your Brand to New Heights": "15 वेबसाइटें जो आपके कैसीनो को नई ऊंचाइयों तक ले जाएंगी",
+                "Unlocking 15 Websites That Will Boost Your Brand to New Heights": "15 वेबसाइटें जो आपके ब्रांड को नई ऊंचाइयों तक पहुंचाएंगी",
                 "Start Working With Us": "हमारे साथ काम करना शुरू करें",
                 "positions itself as an exceptional source of information about virtual gaming establishments and online gambling entertainment. All our reviews and guides are crafted in accordance with the knowledge and convictions of our independent team of experts, objectively and without any bias. Nevertheless,such assessments and notifications are provided solely for informational purposes and should not be considered legal advice or a basis for making legal decisions. Before commencing participation in your chosen casino, always ensure that you comply with all applicable legal requirements.": "खुद को वर्चुअल गेमिंग प्रतिष्ठानों और ऑनलाइन जुआ मनोरंजन के बारे में एक असाधारण जानकारी स्रोत के रूप में प्रस्तुत करता है। हमारे सभी समीक्षाएं और मार्गदर्शिकाएँ हमारे स्वतंत्र विशेषज्ञों की टीम के ज्ञान और विश्वासों के अनुसार तैयार की जाती हैं, वस्तुनिष्ठ रूप से और बिना किसी पक्षपात के। फिर भी, ऐसी मूल्यांकन और सूचनाएं केवल सूचनात्मक उद्देश्यों के लिए प्रदान की जाती हैं और इन्हें कानूनी सलाह या कानूनी निर्णय लेने के आधार के रूप में नहीं माना जाना चाहिए। अपने चुने हुए कैसीनो में भागीदारी शुरू करने से पहले, हमेशा सुनिश्चित करें कि आप सभी लागू कानूनी आवश्यकताओं का पालन करते हैं।",
                 "Your balance:": "आपकी शेष राशि:",
                 "Fortune wheel": "भाग्य चक्र",
                 "My wallet": "मेरा बटुआ",
-                "Cards Shop": "दुकान",
+                "Cards Shop": "कार्ड्स की दुकान",
                 "Account menu": "खाता मेनू",
                 "Fee:": "शुल्क:",
                 "You will receive on balance:": "आपको शेष राशि प्राप्त होगी:",
@@ -7825,12 +7967,12 @@ async function initializeI18n() {
                 "Select one of the withdrawal methods and enter the withdrawal amount": "निकासी विधियों में से एक का चयन करें और निकासी राशि दर्ज करें।",
                 "Wallet Address": "वॉलेट पता",
                 "Finally Step": "अंतिम चरण",
-                "Congratulations, you have successfully requested a withdrawal, in order for them to be credited to your wallet you will need to make a deposit with one of our brands": "बधाई हो, आपने सफलतापूर्वक निकासी का अनुरोध किया है, उन्हें आपके वॉलेट में जमा करने के लिए आपको हमारे किसी एक कैसीनो में जमा करना होगा।",
+                "Congratulations, you have successfully requested a withdrawal, in order for them to be credited to your wallet you will need to make a deposit with one of our brands": "बधाई हो, आपने सफलतापूर्वक निकासी का अनुरोध किया है, उन्हें आपके वॉलेट में जमा करने के लिए आपको हमारे ब्रांड्स में से एक के साथ जमा करना होगा।",
                 "Phone Number": "फोन नंबर",
                 "To create a transfer, we need to verify your phone number": "स्थानांतरण बनाने के लिए, हमें आपके फोन नंबर को सत्यापित करने की आवश्यकता है",
                 "Withdrawal Request": "निकासी अनुरोध",
                 "Withdrawal History": "निकासी इतिहास",
-                "Cards Shop": "दुकान",
+                "Cards Shop": "कार्ड्स की दुकान",
                 "Next step": "अगला कदम",
                 "Prev step": "पिछला चरण",
                 Finish: "समाप्त",
@@ -7849,18 +7991,19 @@ async function initializeI18n() {
                 "Deposit Bonuses": "जमा बोनस",
                 "Welcome Bonuses": "स्वागत बोनस",
                 "No Wagering Bonuses": "कोई शर्त लगाने वाले बोनस नहीं",
-                "Catalog of all 2024 Online Casino Bonuses Offered": "2025 के सभी ऑनलाइन कैसीनो बोनस की सूची",
+                "Catalog of all 2024 Online Casino Bonuses Offered": "2025 में पेश किए गए सभी ऑनलाइन कैसीनो बोनस की सूची",
                 "Seeking online casino bonuses and promotions? Explore our current database featuring numerous casino bonus offers for your selection.": "ऑनलाइन कैसीनो बोनस और प्रमोशनों की तलाश कर रहे हैं? हमारे वर्तमान डेटाबेस का अन्वेषण करें जिसमें आपके चयन के लिए कई कैसीनो बोनस ऑफर शामिल हैं।",
                 "Finest Casino Welcome Bonuses on Your Initial 2024 Deposit": "आपकी प्रारंभिक 2025 जमा पर बेहतरीन कैसीनो स्वागत बोनस",
                 "Select from a variety of top-tier introductory casino rewards and receive additional bonus funds incorporated into your initial payment. Exclusive registration incentive deals designed for fresh participants.": "शीर्ष स्तरीय प्रारंभिक कैसीनो पुरस्कारों की विविधता से चुनें और अपनी प्रारंभिक भुगतान में शामिल अतिरिक्त बोनस धन प्राप्त करें। नए प्रतिभागियों के लिए विशेष पंजीकरण प्रोत्साहन सौदे।",
-                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "क्या आप वेब पर कैसीनो बोनस और प्रोमो की खोज कर रहे हैं? हमारे वर्तमान, अच्छी तरह से बनाए गए भंडार का अन्वेषण करें जिसमें आपके विचार के लिए कई कैसीनो बोनस प्रस्ताव शामिल हैं।",
-                "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "2025 में अनिवार्य: बिना जमा के कैसीनो बोनस और अनोखे बोनस कोड",
-                "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "2025 में नया: वर्चुअल कैसीनो के लिए बिना जमा बोनस सौदों की लगातार ताज़ा की गई सूची। विशेष प्रोमो कोड प्राप्त करें और मुफ्त स्पिन पुरस्कारों का आनंद लें।",
-                "No Wagering Casino Bonuses 2024": "कोई वेजरिंग कैसीनो बोनस 2025",
+                "Comprehensive Compilation of Online Casino Bonuses Accessible in 2024": "2025 में उपलब्ध ऑनलाइन कैसीनो बोनस का व्यापक संग्रह",
+                "Searching for casino bonuses and promos on the web? Explore our current, well-maintained repository featuring a plethora of casino bonus propositions for your consideration.": "क्या आप वेब पर कैसीनो बोनस और प्रचारों की तलाश कर रहे हैं? हमारे अद्यतन और सुव्यवस्थित भंडार का अन्वेषण करें, जिसमें आपके विचार के लिए कई कैसीनो बोनस प्रस्ताव शामिल हैं।",
+                "Irresistible in 2024: No Deposit Casino Bonuses and Unique Bonus Codes": "2025 में अट्रैक्टिव: नो डिपॉजिट कैसीनो बोनस और अनोखे बोनस कोड्स",
+                "Fresh in 2024: A continuously refreshed catalog of no deposit bonus deals for virtual casinos. Obtain exclusive promo codes and enjoy complimentary spins rewards.": "2025 में ताज़ा: वर्चुअल कैसीनो के लिए बिना जमा बोनस सौदों की लगातार ताज़ा की गई सूची। विशेष प्रोमो कोड प्राप्त करें और मुफ्त स्पिन पुरस्कारों का आनंद लें।",
+                "No Wagering Casino Bonuses 2024": "कोई वेजरिंग कैसीनो बोनस 2024",
                 "Searching for no wagering bonuses? Explore our exclusive compilation of wager-free bonuses, available only at Casino.": "क्या आप बिना शर्त बोनस की तलाश कर रहे हैं? हमारे विशेष संकलन का अन्वेषण करें जिसमें केवल कैसीनो में उपलब्ध बिना शर्त बोनस शामिल हैं।",
-                "Welcome Bonuses 2024": "स्वागत बोनस 2025",
+                "Welcome Bonuses 2024": "स्वागत बोनस 2024",
                 "If you're in search of a quality casino experience coupled with enticing bonuses, we have the perfect solution tailored for you! The welcoming bonus stands as a gesture from casinos to their fresh players, usually presented as free spins or cashback rewards. Explore our compilation of introductory bonuses from renowned online casinos, ensuring an ideal match for your preferences.": "यदि आप आकर्षक बोनस के साथ एक गुणवत्तापूर्ण कैसीनो अनुभव की तलाश में हैं, तो हमारे पास आपके लिए एक आदर्श समाधान है! स्वागत बोनस नए खिलाड़ियों के लिए कैसीनो की ओर से एक इशारा होता है, जो आमतौर पर मुफ्त स्पिन या कैशबैक पुरस्कार के रूप में प्रस्तुत किया जाता है। प्रसिद्ध ऑनलाइन कैसीनो से हमारे परिचयात्मक बोनस के संकलन का अन्वेषण करें, जो आपकी प्राथमिकताओं के लिए एक आदर्श मेल सुनिश्चित करता है।",
-                "Comprehensive Compilation of 2024 Online Casino Selection": "2025 ऑनलाइन कैसीनो चयन की व्यापक संकलन",
+                "Comprehensive Compilation of 2024 Online Casino Selection": "2025 ऑनलाइन कैसीनो चयन का व्यापक संकलन",
                 "In Search of an Online Casino? Navigate through our up-to-date repository housing a myriad of casinos awaiting your consideration.": "ऑनलाइन कैसीनो की तलाश में हैं? हमारे अद्यतन भंडार के माध्यम से नेविगेट करें, जिसमें आपके विचार के लिए कई कैसीनो हैं।",
                 "Top Cryptocurrency Betting Platforms & Bitcoin Casino Sites in 2024": "2025 में शीर्ष क्रिप्टोक्यूरेंसी सट्टेबाजी प्लेटफॉर्म और बिटकॉइन कैसीनो साइटें",
                 "Explore our compilation of premier online casinos for Bitcoin along with betting platforms that embrace BTC and alternative cryptocurrencies as viable payment methods. Delve into impartial assessments, and pinpoint the ultimate Bitcoin casino destination tailored to your preferences.": "हमारे बिटकॉइन के लिए प्रमुख ऑनलाइन कैसीनो के संकलन का अन्वेषण करें, साथ ही उन सट्टेबाजी प्लेटफार्मों का भी जो BTC और वैकल्पिक क्रिप्टोकरेंसी को व्यवहार्य भुगतान विधियों के रूप में अपनाते हैं। निष्पक्ष मूल्यांकन में गहराई से जाएं, और अपनी प्राथमिकताओं के अनुसार अंतिम बिटकॉइन कैसीनो गंतव्य को चिन्हित करें।",
@@ -7869,11 +8012,11 @@ async function initializeI18n() {
                 "Premier Live Dealer Casinos of the Year 2024": "वर्ष 2025 के प्रमुख लाइव डीलर कैसीनो",
                 "Explore this compilation of top-notch live dealer casinos for an immersive gaming experience and discover prime online casinos hosting captivating live casino games catered to your preferences.": "शीर्ष स्तरीय लाइव डीलर कैसीनो के इस संकलन का अन्वेषण करें एक गहन गेमिंग अनुभव के लिए और अपनी पसंद के अनुसार आकर्षक लाइव कैसीनो गेम्स की मेजबानी करने वाले प्रमुख ऑनलाइन कैसीनो खोजें।",
                 "Fresh Entrants to the Online Casino Scene 2024": "ऑनलाइन कैसीनो दृश्य में नए प्रवेशकर्ता 2025",
-                "On the Hunt for Fresh 2024 Online Casino Platforms? Discover Recently Launched Casino Sites Offering Outstanding Incentives and Cutting-Edge Attributes. Constantly Refreshed for Your Exploration.": "2025 के लिए नए ऑनलाइन कैसीनो प्लेटफार्मों की खोज में? हाल ही में लॉन्च किए गए कैसीनो साइटों की खोज करें जो उत्कृष्ट प्रोत्साहन और अत्याधुनिक विशेषताएं प्रदान करती हैं। आपकी खोज के लिए लगातार ताज़ा की जाती हैं।",
+                "On the Hunt for Fresh 2024 Online Casino Platforms? Discover Recently Launched Casino Sites Offering Outstanding Incentives and Cutting-Edge Attributes. Constantly Refreshed for Your Exploration.": "2025 के ताज़ा ऑनलाइन कैसीनो प्लेटफॉर्म की खोज में? हाल ही में लॉन्च किए गए कैसीनो साइटों की खोज करें जो उत्कृष्ट प्रोत्साहन और अत्याधुनिक विशेषताएं प्रदान करती हैं। आपकी खोज के लिए लगातार ताज़ा की जाती हैं।",
                 "Premier Accredited Casinos in 2024": "2025 में प्रमुख मान्यता प्राप्त कैसीनो",
                 "Gaming constitutes a substantial sector, and with the assistance of authorized internet-based casinos, you can relish your preferred pastime with serenity, assured of its oversight by official governmental bodies. Cutting-edge security protocols ensure the confidentiality of all personal data!": "गेमिंग एक महत्वपूर्ण क्षेत्र है, और अधिकृत इंटरनेट-आधारित कैसीनो की सहायता से, आप अपने पसंदीदा शौक का आनंद शांति से ले सकते हैं, यह सुनिश्चित करते हुए कि इसकी निगरानी आधिकारिक सरकारी निकायों द्वारा की जाती है। अत्याधुनिक सुरक्षा प्रोटोकॉल सभी व्यक्तिगत डेटा की गोपनीयता सुनिश्चित करते हैं।",
-                "All Providers": "सभी कैसीनो गेम प्रदाता",
-                "Comprehensive 2024 Directory for Online Casinos Sorted by Game Providers": "ऑनलाइन कैसीनो के लिए गेम प्रदाताओं द्वारा क्रमबद्ध 2025 की व्यापक निर्देशिका",
+                "All Providers": "सभी प्रदाता",
+                "Comprehensive 2024 Directory for Online Casinos Sorted by Game Providers": "ऑनलाइन कैसीनो के लिए गेम प्रदाताओं द्वारा क्रमबद्ध व्यापक 2025 निर्देशिका",
                 "Interested in locating online casinos featuring games from particular providers? Browse our up-to-date list of diverse casino options to find your perfect match.": "विशिष्ट प्रदाताओं के खेलों की विशेषता वाले ऑनलाइन कैसीनो खोजने में रुचि रखते हैं? अपने आदर्श मैच को खोजने के लिए हमारे अद्यतन सूची में विभिन्न कैसीनो विकल्पों को ब्राउज़ करें।",
                 "Catalog of all offered Online Casinos by Payment Methods in 2024": "2025 में भुगतान विधियों द्वारा सभी पेश किए गए ऑनलाइन कैसीनो की सूची",
                 "Looking for online casinos with specific payment methods? Explore our current database of numerous casino offers for you to choose from.": "क्या आप विशेष भुगतान विधियों वाले ऑनलाइन कैसीनो की तलाश कर रहे हैं? आपके लिए चुनने के लिए हमारे वर्तमान डेटाबेस में कई कैसीनो ऑफ़र का अन्वेषण करें।",
@@ -7918,14 +8061,14 @@ async function initializeI18n() {
                 "Boongo Gaming: Crafting Immersive Digital Experiences through Innovative Game Design": "बूंगो गेमिंग: अभिनव गेम डिज़ाइन के माध्यम से गहन डिजिटल अनुभवों का निर्माण",
                 "Boongo Gaming has quickly distinguished itself in the competitive iGaming sector with visually appealing and feature-rich games. Known for titles like 'God's Temple' and '15 Golden Eggs,' the company excels in both innovation and quality. Their robust backend solutions further enhance the gaming experience. Whether you're a casual player or a dedicated enthusiast, Boongo Gaming offers a memorable gaming journey.": "बूंगो गेमिंग ने आकर्षक और विशेषताओं से भरपूर खेलों के साथ प्रतिस्पर्धी आईगेमिंग क्षेत्र में तेजी से अपनी पहचान बनाई है। 'गॉड्स टेम्पल' और '15 गोल्डन एग्स' जैसे शीर्षकों के लिए प्रसिद्ध, कंपनी नवाचार और गुणवत्ता दोनों में उत्कृष्ट है। उनके मजबूत बैकएंड समाधान गेमिंग अनुभव को और भी बेहतर बनाते हैं। चाहे आप एक आकस्मिक खिलाड़ी हों या एक समर्पित उत्साही, बूंगो गेमिंग एक यादगार गेमिंग यात्रा प्रदान करता है।",
                 "Evolution Gaming: Setting the Gold Standard in Live Casino Experiences": "इवोल्यूशन गेमिंग: लाइव कैसीनो अनुभवों में स्वर्ण मानक स्थापित करना",
-                "A recognized leader in the live casino arena, Evolution Gaming has earned its reputation through a commitment to unparalleled quality and innovation. Offering a rich variety of live dealer games, from classics like blackjack and roulette to unique offerings like 'Lightning Dice', the company consistently delivers engaging and authentic experiences. By utilizing cutting-edge streaming technology and employing professional dealers, Evolution Gaming ensures a seamless and immersive gaming atmosphere that sets them apart in the industry.": "लाइव कैसीनो क्षेत्र में एक मान्यता प्राप्त नेता, इवोल्यूशन गेमिंग ने अपनी प्रतिष्ठा बेजोड़ गुणवत्ता और नवाचार के प्रति प्रतिबद्धता के माध्यम से अर्जित की है। क्लासिक जैसे ब्लैकजैक और रूले से लेकर अनोखे ऑफरिंग जैसे लाइटनिंग डाइस तक, लाइव डीलर गेम्स की एक समृद्ध विविधता की पेशकश करते हुए, कंपनी लगातार आकर्षक और प्रामाणिक अनुभव प्रदान करती है। अत्याधुनिक स्ट्रीमिंग तकनीक का उपयोग करके और पेशेवर डीलरों को नियुक्त करके, इवोल्यूशन गेमिंग एक सहज और गहन गेमिंग वातावरण सुनिश्चित करता है जो उन्हें उद्योग में अलग बनाता है।",
+                "A recognized leader in the live casino arena, Evolution Gaming has earned its reputation through a commitment to unparalleled quality and innovation. Offering a rich variety of live dealer games, from classics like blackjack and roulette to unique offerings like Lightning Dice, the company consistently delivers engaging and authentic experiences. By utilizing cutting-edge streaming technology and employing professional dealers, Evolution Gaming ensures a seamless and immersive gaming atmosphere that sets them apart in the industry.": "लाइव कैसीनो क्षेत्र में एक मान्यता प्राप्त नेता, इवोल्यूशन गेमिंग ने अपनी प्रतिष्ठा बेजोड़ गुणवत्ता और नवाचार के प्रति प्रतिबद्धता के माध्यम से अर्जित की है। क्लासिक जैसे ब्लैकजैक और रूले से लेकर अनोखे ऑफरिंग जैसे लाइटनिंग डाइस तक, लाइव डीलर गेम्स की एक समृद्ध विविधता की पेशकश करते हुए, कंपनी लगातार आकर्षक और प्रामाणिक अनुभव प्रदान करती है। अत्याधुनिक स्ट्रीमिंग तकनीक का उपयोग करके और पेशेवर डीलरों को नियुक्त करके, इवोल्यूशन गेमिंग एक सहज और गहन गेमिंग वातावरण सुनिश्चित करता है जो उन्हें उद्योग में अलग बनाता है।",
                 "Mascot Gaming: An Emerging Powerhouse in Tailored iGaming Solutions": "मास्कॉट गेमिंग: अनुकूलित आईगेमिंग समाधान में एक उभरती हुई शक्ति",
                 "Quickly rising through the ranks of the iGaming industry, Mascot Gaming is garnering attention for its custom gaming solutions. With a balanced portfolio of slots, table games, and interactive experiences, the company is making its mark through a blend of creativity and technology. Known for titles like 'Reel Monsters' and 'Fruit Vegas,' Mascot Gaming combines captivating visuals with intriguing gameplay features. Their unique approach to gaming has made them a go-to for operators seeking versatile and engaging content, setting the stage for what promises to be a bright future in the sector.": "iGaming उद्योग में तेजी से आगे बढ़ते हुए, मास्कॉट गेमिंग अपने कस्टम गेमिंग समाधानों के लिए ध्यान आकर्षित कर रहा है। स्लॉट्स, टेबल गेम्स और इंटरैक्टिव अनुभवों के संतुलित पोर्टफोलियो के साथ, कंपनी रचनात्मकता और प्रौद्योगिकी के मिश्रण के माध्यम से अपनी छाप छोड़ रही है। 'रील मॉन्स्टर्स' और 'फ्रूट वेगास' जैसे शीर्षकों के लिए जानी जाने वाली, मास्कॉट गेमिंग आकर्षक दृश्य और दिलचस्प गेमप्ले फीचर्स को जोड़ती है। गेमिंग के प्रति उनके अनोखे दृष्टिकोण ने उन्हें ऑपरेटरों के लिए एक पसंदीदा विकल्प बना दिया है जो बहुमुखी और आकर्षक सामग्री की तलाश में हैं, जो इस क्षेत्र में एक उज्ज्वल भविष्य का वादा करता है।",
                 "NetEnt Gaming: Pioneering Excellence in the iGaming World": "नेटएंट गेमिंग: आईगेमिंग दुनिया में अग्रणी उत्कृष्टता",
                 "As one of the stalwarts in the iGaming industry, NetEnt Gaming has consistently pushed the envelope in terms of quality, innovation, and gameplay. With a broad spectrum of offerings from classic slots like 'Starburst' to groundbreaking live casino games, the company has set industry benchmarks time and again. Utilizing state-of-the-art technology and creative storytelling, NetEnt offers an unrivaled gaming experience that keeps players coming back for more. Their reputation for excellence is backed by an extensive portfolio that continually evolves, solidifying their position as a leader in digital gaming.": "iGaming उद्योग में एक प्रमुख कंपनी के रूप में, NetEnt Gaming ने गुणवत्ता, नवाचार और गेमप्ले के मामले में लगातार सीमाओं को आगे बढ़ाया है। 'Starburst' जैसे क्लासिक स्लॉट से लेकर अत्याधुनिक लाइव कैसीनो गेम्स तक के व्यापक स्पेक्ट्रम के साथ, कंपनी ने बार-बार उद्योग के मानक स्थापित किए हैं। अत्याधुनिक तकनीक और रचनात्मक कहानी कहने का उपयोग करते हुए, NetEnt एक बेजोड़ गेमिंग अनुभव प्रदान करता है जो खिलाड़ियों को बार-बार लौटने के लिए प्रेरित करता है। उनकी उत्कृष्टता की प्रतिष्ठा एक व्यापक पोर्टफोलियो द्वारा समर्थित है जो लगातार विकसित होता रहता है, जिससे उनकी स्थिति डिजिटल गेमिंग में एक नेता के रूप में मजबूत होती है।",
-                "No Limit City Gaming: Unbounded Innovation in the iGaming Sphere": "नो लिमिट सिटी गेमिंग: आईगेमिंग क्षेत्र में असीमित नवाचार",
+                "No Limit City Gaming: Nieograniczona innowacja w sferze iGaming": "नो लिमिट सिटी गेमिंग: असीमित आईगेमिंग नवाचार",
                 "Emerging as a force to be reckoned with in the iGaming industry, No Limit City Gaming is synonymous with creative freedom and technological prowess. Known for unique slots like 'Deadwood' and 'Punk Rocker,' the company goes beyond the norm to offer riveting themes and game mechanics. Their dedication to innovation is evident, providing a refreshing and unpredictable gaming experience. By continually pushing the boundaries of what’s possible, No Limit City Gaming has carved a niche for itself as an avant-garde game provider in a highly competitive market.": "iGaming उद्योग में एक महत्वपूर्ण शक्ति के रूप में उभरते हुए, नो लिमिट सिटी गेमिंग रचनात्मक स्वतंत्रता और तकनीकी कौशल का पर्याय है। 'डेडवुड' और 'पंक रॉकर' जैसे अनोखे स्लॉट्स के लिए प्रसिद्ध, कंपनी रोमांचक थीम और गेम मैकेनिक्स की पेशकश करने के लिए सामान्य से परे जाती है। नवाचार के प्रति उनकी प्रतिबद्धता स्पष्ट है, जो एक ताज़ा और अप्रत्याशित गेमिंग अनुभव प्रदान करती है। जो संभव है उसकी सीमाओं को लगातार आगे बढ़ाकर, नो लिमिट सिटी गेमिंग ने अत्यधिक प्रतिस्पर्धी बाजार में एक अग्रणी गेम प्रदाता के रूप में अपनी जगह बनाई है।",
-                "Play'n GO Gaming: A Vanguard of Versatility and Innovation in iGaming": "प्ले'एन गो गेमिंग: आईगेमिंग में बहुमुखी प्रतिभा और नवाचार का अग्रदूत",
+                "Play'n GO Gaming: A Vanguard of Versatility and Innovation in iGaming": "प्ले'एन गो गेमिन: आईगेमिंग में बहुमुखी प्रतिभा और नवाचार का अग्रदूत",
                 "Cementing its status as a trendsetter in the iGaming community, Play'n GO Gaming is celebrated for its wide-ranging and inventive game portfolio. From iconic slots like 'Book of Dead' to inventive table games, the company provides an all-encompassing gaming experience. Employing cutting-edge technology and captivating narratives, Play'n GO has mastered the art of creating games that are not just visually appealing but also rich in features. Their unyielding commitment to quality and innovation makes them a preferred choice for both casual gamers and ardent casino enthusiasts, continually setting new standards in the ever-evolving gaming landscape.": "iGaming समुदाय में एक ट्रेंडसेटर के रूप में अपनी स्थिति को मजबूत करते हुए, Play'n GO Gaming अपने व्यापक और आविष्कारशील गेम पोर्टफोलियो के लिए प्रसिद्ध है। 'Book of Dead' जैसे प्रतिष्ठित स्लॉट्स से लेकर आविष्कारशील टेबल गेम्स तक, कंपनी एक समग्र गेमिंग अनुभव प्रदान करती है। अत्याधुनिक तकनीक और आकर्षक कथाओं का उपयोग करते हुए, Play'n GO ने ऐसे गेम बनाने की कला में महारत हासिल की है जो न केवल दृश्य रूप से आकर्षक हैं बल्कि विशेषताओं में भी समृद्ध हैं। गुणवत्ता और नवाचार के प्रति उनकी अडिग प्रतिबद्धता उन्हें आकस्मिक गेमर्स और उत्साही कैसीनो प्रेमियों दोनों के लिए एक पसंदीदा विकल्प बनाती है, जो लगातार बदलते गेमिंग परिदृश्य में नए मानक स्थापित करती है।",
                 "Pragmatic Play: Fusing Quality and Creativity for an Unmatched iGaming Experience": "प्रैगमैटिक प्ले: एक बेजोड़ आईगेमिंग अनुभव के लिए गुणवत्ता और रचनात्मकता का समन्वय",
                 "A frontrunner in the iGaming industry, Pragmatic Play has made its name through a potent blend of innovative gameplay and top-notch graphics. Renowned for popular titles like 'Wolf Gold' and 'The Dog House,' the company delivers a versatile range of slots, live casino games, and even bingo offerings. Pragmatic Play's commitment to quality is manifest in its intuitive interfaces, engaging storylines, and well-executed game mechanics. By consistently rolling out new and captivating games, they manage to stay ahead in the competitive world of online gaming, solidifying their reputation as a reliable and inventive game provider.": "iGaming उद्योग में एक अग्रणी, प्रगमैटिक प्ले ने अभिनव गेमप्ले और उच्च गुणवत्ता वाले ग्राफिक्स के शक्तिशाली मिश्रण के माध्यम से अपना नाम बनाया है। 'वुल्फ गोल्ड' और 'द डॉग हाउस' जैसे लोकप्रिय शीर्षकों के लिए प्रसिद्ध, कंपनी स्लॉट्स, लाइव कैसीनो गेम्स और यहां तक कि बिंगो ऑफरिंग्स की एक बहुमुखी रेंज प्रदान करती है। प्रगमैटिक प्ले की गुणवत्ता के प्रति प्रतिबद्धता इसके सहज इंटरफेस, आकर्षक कहानियों और अच्छी तरह से निष्पादित गेम मैकेनिक्स में प्रकट होती है। लगातार नए और आकर्षक गेम्स पेश करके, वे ऑनलाइन गेमिंग की प्रतिस्पर्धी दुनिया में आगे बने रहते हैं, और एक विश्वसनीय और आविष्कारशील गेम प्रदाता के रूप में अपनी प्रतिष्ठा को मजबूत करते हैं।",
@@ -7934,39 +8077,39 @@ async function initializeI18n() {
                 "Push Gaming: Revolutionizing iGaming with Cutting-Edge Concepts": "पुश गेमिंग: अत्याधुनिक अवधारणाओं के साथ iGaming में क्रांति ला रहा है",
                 "In the ever-competitive realm of iGaming, Push Gaming stands out for groundbreaking slots like 'Jammin' Jars' and 'Wild Swarm,' the company excels in delivering games with exceptional visuals and intricate gameplay features. Push Gaming's focus on mobile-optimized, HTML5-based games ensures a seamless experience across devices. Their capacity to marry traditional gaming elements with novel twists makes them a sought-after provider, continually pushing the envelope in terms of what is possible in the iGaming world.": "iGaming के अत्यधिक प्रतिस्पर्धी क्षेत्र में, Push Gaming 'Jammin' Jars' और 'Wild Swarm' जैसे क्रांतिकारी स्लॉट्स के लिए प्रसिद्ध है, कंपनी असाधारण दृश्य और जटिल गेमप्ले फीचर्स के साथ गेम्स प्रदान करने में उत्कृष्ट है। Push Gaming का मोबाइल-अनुकूलित, HTML5-आधारित गेम्स पर ध्यान केंद्रित करना उपकरणों के बीच एक सहज अनुभव सुनिश्चित करता है। पारंपरिक गेमिंग तत्वों को नए मोड़ों के साथ जोड़ने की उनकी क्षमता उन्हें एक मांग वाला प्रदाता बनाती है, जो iGaming दुनिया में संभावनाओं की सीमाओं को लगातार आगे बढ़ा रहा है।",
                 "Spinomenal: A New Age Innovator in the iGaming Ecosystem": "स्पिनोमेनल: आईगेमिंग पारिस्थितिकी तंत्र में एक नए युग का नवप्रवर्तक",
-                "Earning its place as an agile and forward-thinking player in the iGaming scene, Spinomenal is recognized for its inventive approach to game development. Specializing in highly engaging slots like 'Book of Guardians' and 'Demi Gods II,' the company combines vibrant graphics with enticing gameplay mechanics. Spinomenal's commitment to user experience is evident, offering games that are optimized for both desktop and mobile play. Their innovative features, such as bonus games and progressive jackpots, make them a standout provider in an ever-growing market, appealing to a wide range of players seeking fresh and exciting gaming experiences.": "iGaming क्षेत्र में एक चुस्त और दूरदर्शी खिलाड़ी के रूप में अपनी जगह बनाते हुए, Spinomenal को गेम विकास के लिए इसके आविष्कारशील दृष्टिकोण के लिए पहचाना जाता है। 'Book of Guardians' और 'Demi Gods II' जैसे अत्यधिक आकर्षक स्लॉट्स में विशेषज्ञता रखने वाली यह कंपनी जीवंत ग्राफिक्स को आकर्षक गेमप्ले मैकेनिक्स के साथ जोड़ती है। Spinomenal की उपयोगकर्ता अनुभव के प्रति प्रतिबद्धता स्पष्ट है, जो डेस्कटॉप और मोबाइल दोनों के लिए अनुकूलित गेम्स प्रदान करती है। उनके नवाचारी फीचर्स, जैसे बोनस गेम्स और प्रोग्रेसिव जैकपॉट्स, उन्हें एक बढ़ते बाजार में एक विशिष्ट प्रदाता बनाते हैं, जो ताजगी और रोमांचक गेमिंग अनुभव की तलाश करने वाले खिलाड़ियों की एक विस्तृत श्रृंखला को आकर्षित करते हैं।",
+                "Earning its place as an agile and forward-thinking player in the iGaming scene, Spinomenal is recognized for its inventive approach to game development. Specializing in highly engaging slots like 'Book of Guardians' and 'Demi Gods II', the company combines vibrant graphics with enticing gameplay mechanics. Spinomenal's commitment to user experience is evident, offering games that are optimized for both desktop and mobile play. Their innovative features, such as bonus games and progressive jackpots, make them a standout provider in an ever-growing market, appealing to a wide range of players seeking fresh and exciting gaming experiences.": "iGaming दृश्य में एक चुस्त और दूरदर्शी खिलाड़ी के रूप में अपनी जगह बनाते हुए, Spinomenal को गेम विकास के लिए इसके आविष्कारशील दृष्टिकोण के लिए पहचाना जाता है। 'Book of Guardians' और 'Demi Gods II' जैसे अत्यधिक आकर्षक स्लॉट में विशेषज्ञता रखने वाली यह कंपनी जीवंत ग्राफिक्स को आकर्षक गेमप्ले मैकेनिक्स के साथ जोड़ती है। Spinomenal की उपयोगकर्ता अनुभव के प्रति प्रतिबद्धता स्पष्ट है, जो डेस्कटॉप और मोबाइल दोनों के लिए अनुकूलित गेम्स प्रदान करती है। उनके नवाचारी फीचर्स, जैसे बोनस गेम्स और प्रोग्रेसिव जैकपॉट्स, उन्हें एक बढ़ते बाजार में एक विशिष्ट प्रदाता बनाते हैं, जो ताजगी और रोमांचक गेमिंग अनुभव की तलाश करने वाले खिलाड़ियों की एक विस्तृत श्रृंखला को आकर्षित करते हैं।",
                 Sum: "योग",
-                Method: "भुगतान विधि",
-                Amount: "राशि",
+                Method: "विधि: विधि,",
+                Amount: "राशि: राशि,",
                 "Wallet address": "वॉलेट पता",
                 "Time of request": "अनुरोध का समय",
-                Status: "स्थिति",
+                Status: "स्थिति: स्थिति,",
                 "My Wallet": "मेरा बटुआ",
                 "Fortune Wheel": "भाग्य चक्र",
-                "Cards Shop": "दुकान",
-                Amount: "राशि",
+                "Cards Shop": "कार्ड्स की दुकान",
+                Amount: "राशि: राशि,",
                 Email: "ईमेल",
                 "Card availability varies by region.": "कार्ड की उपलब्धता क्षेत्र के अनुसार भिन्न होती है।",
                 "Withdrawal rejected: Minimum withdrawal amount is 4 USD.": "निकासी अस्वीकृत: न्यूनतम निकासी राशि 4 USD है।",
                 "Not enough funds in the account.": "खाते में पर्याप्त धन नहीं है।",
                 "Something wrong, try again!": "कुछ गलत है, फिर से प्रयास करें!",
                 "Please note: PayPal withdrawals are processed every day from 7 AM to 8 PM CET": "कृपया ध्यान दें: पेपाल निकासी हर दिन सुबह 7 बजे से शाम 8 बजे तक CET में संसाधित की जाती हैं।",
-                "Your prepaid card request has been received. Our support team will contact you soon to finalize details. Check your inbox.": "आपका प्रीपेड कार्ड अनुरोध प्राप्त हो गया है। हमारी सहायता टीम विवरण को अंतिम रूप देने के लिए जल्द ही आपसे संपर्क करेगी। अपने इनबॉक्स की जाँच करें।",
+                "Your prepaid card request has been received. Our support team will contact you soon to finalize details. Check your inbox": "आपका प्रीपेड कार्ड अनुरोध प्राप्त हो गया है। हमारी सहायता टीम विवरण को अंतिम रूप देने के लिए जल्द ही आपसे संपर्क करेगी। अपने इनबॉक्स की जाँच करें।",
                 Address: "पता",
                 "Final Step": "अंतिम चरण",
                 "Failed to load data": "डेटा लोड करने में विफल।",
                 "Error occurred while loading. Try again.": "लोड करते समय त्रुटि हुई। पुनः प्रयास करें।",
                 "Reload page": "पृष्ठ पुनः लोड करें",
-                "To qualify for withdrawals, ensure your first deposit is at least €25 or the equivalent in other currencies and was made after requesting a withdrawal.": "निकासी के लिए पात्र होने के लिए, सुनिश्चित करें कि आपकी पहली जमा राशि कम से कम €25 या अन्य मुद्राओं में समकक्ष हो और निकासी का अनुरोध करने के बाद की गई हो।",
+                "To qualify for withdrawals, ensure your first deposit is at least €25 or the equivalent in other currencies and was made after requesting a withdrawal.": "निकासी के लिए पात्र होने के लिए, सुनिश्चित करें कि आपकी पहली जमा राशि कम से कम €25 या अन्य मुद्राओं के समकक्ष हो और निकासी का अनुरोध करने के बाद की गई हो।",
                 "FORTUNE WHEEL BRANDS": "फॉर्च्यून व्हील ब्रांड्स",
                 "Pick a brand below, make first deposit and win real cash": "नीचे एक ब्रांड चुनें, पहली जमा करें और असली नकद जीतें।",
                 "Spin the Roulette": "रूलेट घुमाओ",
                 "Quick Sign-Up": "त्वरित साइन-अप",
                 "Hottest Deals": "सबसे गर्म सौदे",
                 "Top Sports Casinos": "शीर्ष खेल कैसीनो",
-                "Top Sports Betting Sites & Platforms in 2024": "2025 में शीर्ष खेल सट्टेबाजी साइटें और प्लेटफॉर्म",
+                "Top Sports Betting Sites & Platforms in 2024": "2025 में शीर्ष खेल सट्टेबाजी साइटें और प्लेटफॉर्म्स",
                 "Explore our compilation of premier sports betting sites, featuring platforms that offer comprehensive coverage of sporting events and competitive odds. Delve into impartial assessments, and pinpoint the ultimate sports betting destination tailored to your preferences.": "हमारी प्रमुख खेल सट्टेबाजी साइटों के संकलन का अन्वेषण करें, जिसमें ऐसे प्लेटफॉर्म शामिल हैं जो खेल आयोजनों की व्यापक कवरेज और प्रतिस्पर्धी ऑड्स प्रदान करते हैं। निष्पक्ष मूल्यांकन में गहराई से जाएं, और अपनी प्राथमिकताओं के अनुसार अंतिम खेल सट्टेबाजी गंतव्य को चिन्हित करें।",
-                "Top New Releases": "शीर्ष नए कैसीनो रिलीज़",
+                "Top New Releases": "शीर्ष नई रिलीज़",
                 "New Arrivals": "नई आगमन",
                 "Website language": "वेबसाइट भाषा",
                 "Your country of residence": "आपका निवास देश",
@@ -7988,16 +8131,111 @@ async function initializeI18n() {
                 "Make First Deposit On One Of These Brands &": "इनमें से किसी एक ब्रांड पर पहली जमा करें और",
                 "Get Up To $20 Right On Your Wallet!": "आपके वॉलेट में सीधे $20 तक प्राप्त करें!",
                 "Already Registered": "पहले से पंजीकृत",
-                "Select a brand from the list below, make your first deposit and receive up to $20 in rewards!": "नीचे दी गई सूची से एक कैसीनो चुनें, अपनी पहली जमा राशि करें और $20 तक के इनाम प्राप्त करें!",
-                "You will get 50 Free Spins for every First Deposit from our website. Spin these spins and get up to $20 on your crypto wallet/PayPal. To qualify for withdrawals, ensure your first deposits is at least Є25 or the equivalent on other currencies and was made after requesting a withdrawal.": "हमारी वेबसाइट से हर पहले जमा के लिए आपको 50 फ्री स्पिन्स मिलेंगे। इन स्पिन्स को घुमाएं और अपने क्रिप्टो वॉलेट/पेपल पर $20 तक प्राप्त करें। निकासी के लिए योग्य होने के लिए, सुनिश्चित करें कि आपकी पहली जमा कम से कम €25 या अन्य मुद्राओं के समकक्ष हो और निकासी का अनुरोध करने के बाद की गई हो।",
-                "You have successfully registered on these brands": "आपने इन ब्रांड्स पर सफलतापूर्वक पंजीकरण कर लिया है।",
+                "Select a brand from the list below, make your first deposit and receive up to $20 in rewards!": "नीचे दी गई सूची से एक ब्रांड चुनें, अपनी पहली जमा राशि करें और 20 USD तक के इनाम प्राप्त करें!",
+                "You will get 50 Free Spins for every First Deposit from our website. Spin these spins and get up to $20 on your crypto wallet/PayPal. To qualify for withdrawals, ensure your first deposits is at least Є25 or the equivalent on other currencies and was made after requesting a withdrawal.": "आपको हमारी वेबसाइट से हर पहले जमा के लिए 50 फ्री स्पिन्स मिलेंगे। इन स्पिन्स को घुमाएं और अपने क्रिप्टो वॉलेट/पेपल पर 20 USD तक प्राप्त करें। निकासी के लिए योग्य होने के लिए, सुनिश्चित करें कि आपकी पहली जमा कम से कम €25 या अन्य मुद्राओं के समकक्ष हो और निकासी का अनुरोध करने के बाद की गई हो।",
+                "You have successfully registered on these brands": "आपने इन ब्रांड्स पर सफलतापूर्वक पंजीकरण कर लिया है",
                 "Thank you for verifying your phone number! Your VIP manager will call you within 10 minutes to share our exclusive offers. Stay tuned!": "आपका फ़ोन नंबर सत्यापित करने के लिए धन्यवाद! आपका वीआईपी प्रबंधक आपको 10 मिनट के भीतर हमारे विशेष ऑफ़र साझा करने के लिए कॉल करेगा। बने रहें!",
-                "YOU ARE ALREADY REGISTERED HERE, MAKE YOUR FIRST DEPOSITS AND": "आप पहले से ही यहां पंजीकृत हैं, अपनी पहली जमा राशि करें और",
-                "RECEIVE REAL MONEY WITH INSTANT WITHDRAWAL": "तुरंत निकासी के साथ वास्तविक धन प्राप्त करें",
                 "* Explore the Hottest New Brands –": "* सबसे नए और लोकप्रिय ब्रांड्स की खोज करें –",
                 "Click Here!": "यहाँ क्लिक करें!",
-                "Expires in:": "समाप्ति में:",
-                "OKTOBERFEST WINS": "ओकटोबरफेस्ट जीतता है",
+                "Expires in:": "समाप्ति की तिथि:",
+                "BIGGEST JACKPOTS": "सबसे बड़े जैकपॉट्स",
+                "TOP TOURNAMENTS": "शीर्ष टूर्नामेंट्स",
+                "Click Here to Unleash Your Magic Bonus!": "यहाँ क्लिक करें और अपनी जादुई बोनस का लाभ उठाएं!",
+                "Get a bonus just for you tomorrow!": "कल आपके लिए एक बोनस!",
+                "Get Bonus": "बोनस प्राप्त करें",
+                "Thank you! Your Bonus Will Be Here Soon": "धन्यवाद! आपका बोनस जल्द ही यहाँ होगा।",
+                "Come back after": "बाद में वापस आना",
+                "to collect it!": "इसे इकट्ठा करने के लिए!",
+                "Your Bonus is Ready!": "आपका बोनस तैयार है!",
+                "Click below to claim your magical reward!": "नीचे क्लिक करें और अपना जादुई इनाम प्राप्त करें!",
+                "Bonus Ready!": "बोनस तैयार है!",
+                "HIT THE JACKPOT!": "बड़ी सफलता प्राप्त की!",
+                "Make deposits on the brands below to participate in the jackpot": "नीचे दिए गए ब्रांड्स पर जमा करें ताकि जैकपॉट में भाग ले सकें।",
+                Casino: "कैसिनो",
+                Shop: "दुकान",
+                Wheel: "पहिया",
+                Profile: "प्रोफ़ाइल",
+                "My Profile": "मेरी प्रोफ़ाइल",
+                "Get ready for the hottest brands, arriving soon!": "सबसे लोकप्रिय ब्रांड्स के लिए तैयार हो जाइए, जल्द ही आ रहे हैं!",
+                "The message was sent hastily!": "संदेश जल्दबाजी में भेजा गया!",
+                Error: "त्रुटि",
+                "Contact Us": "हमसे संपर्क करें",
+                Message: "संदेश",
+                Send: "भेजें",
+                Casinos: "कैसीनो",
+                Bonuses: "बोनस",
+                "All Payments": "सभी भुगतान",
+                "Premium Choice of the Day": "दिन की प्रीमियम पसंद",
+                "TOP NEW": "शीर्ष नया",
+                releases: "रिलीज़",
+                "Play Now": "अभी खेलें",
+                "TRY YOUR": "कोशिश करें",
+                "luck!": "भाग्य!",
+                "Feeling lucky? Click to unlock a cool, exclusive bonus—only available right now. Don't miss your chance!": "भाग्यशाली महसूस कर रहे हैं? एक शानदार, विशेष बोनस को अनलॉक करने के लिए क्लिक करें—जो केवल अभी उपलब्ध है। अपना मौका न चूकें!",
+                "Best Payout": "सर्वश्रेष्ठ भुगतान",
+                Casinos: "कैसीनो",
+                "Best payout casinos": "सर्वश्रेष्ठ भुगतान कैसीनो",
+                "Enjoy high returns, fast withdrawals, and unbeatable odds. Ready to win big? Dive in now!": "उच्च रिटर्न का आनंद लें, तेज निकासी और बेजोड़ मौके। बड़ा जीतने के लिए तैयार हैं? अभी शामिल हों!",
+                "HIT THE": "मारो इसे",
+                "JACKPOT!": "जैकपॉट!",
+                HOTTEST: "सबसे गर्म",
+                casinos: "कैसीनो",
+                "Discover the hottest casino brands trending right now!": "अभी के सबसे लोकप्रिय कैसीनो ब्रांड्स की खोज करें!",
+                "What is your choise": "आपकी पसंद क्या है",
+                "for today?": "आज के लिए?",
+                Choose: "चुनें",
+                POPULAR: "लोकप्रिय",
+                offers: "प्रस्ताव",
+                "Uncover the latest casinos": "नवीनतम कैसीनो का पता लगाएं",
+                "and be among the": "और उनमें शामिल हो",
+                "first to play!": "सबसे पहले खेलने वाला!",
+                brands: "ब्रांड्स",
+                "Pick a brand below, make first deposit and": "नीचे एक ब्रांड चुनें, पहली जमा करें और",
+                "win real cash": "वास्तविक नकद जीतें",
+                "To qualify for withdrawals, ensure your first deposit is at least €25 or the equivalent in other currencies and was made after requesting a withdrawal.": "निकासी के लिए पात्र होने के लिए, सुनिश्चित करें कि आपकी पहली जमा राशि कम से कम €25 या अन्य मुद्राओं के समकक्ष हो और निकासी का अनुरोध करने के बाद की गई हो।",
+                "How to get": "कैसे प्राप्त करें",
+                "bonus?": "बोनस?",
+                "Join the community of our subscribers": "हमारे ग्राहकों के समुदाय में शामिल हों",
+                "Get fresh bargains and lucrative bonuses from trustworthy online casinos working in your region! Be the first one to find out where it's worth playing today!": "अपने क्षेत्र में काम करने वाले विश्वसनीय ऑनलाइन कैसीनो से ताज़ा सौदे और लाभदायक बोनस प्राप्त करें! जानें कि आज कहां खेलना फायदेमंद है!",
+                "I agree with Terms and Conditions and Privacy Policy.": "मैं शर्तों और नियमों और गोपनीयता नीति से सहमत हूँ।",
+                "I agree to receive promotional emails from topbon.us and its partners.": "मैं topbon.us और इसके साझेदारों से प्रचार ईमेल प्राप्त करने के लिए सहमत हूं।",
+                "I agree to receive promotional sms from topbon.us.": "मैं topbon.us से प्रचारात्मक एसएमएस प्राप्त करने के लिए सहमत हूँ।",
+                "Take a Chance!": "मौका लो!",
+                "Feeling lucky? Discover random casino brands and test your fortune!": "भाग्यशाली महसूस कर रहे हैं? यादृच्छिक कैसीनो ब्रांड खोजें और अपनी किस्मत आजमाएं!",
+                "New Brands": "नए कैसीनो",
+                "Top-Rated Casinos": "शीर्ष रेटेड कैसीनो",
+                "Fast Payout Casinos": "तेज़ भुगतान कैसीनो",
+                "Best Slot Sites": "सर्वश्रेष्ठ स्लॉट साइट्स",
+                "Table Games": "टेबल गेम्स",
+                "Jackpot Casinos": "जैकपॉट कैसीनो",
+                "Casino by Category": "श्रेणी के अनुसार कैसीनो",
+                "Casino by Payment Methods": "भुगतान विधियों द्वारा कैसीनो",
+                "Casino by Game Providers": "गेम प्रदाताओं द्वारा कैसीनो",
+                "Best Bonuses": "सर्वश्रेष्ठ बोनस",
+                "Casino by Category": "श्रेणी के अनुसार कैसीनो",
+                "Casino by Payment Methods": "भुगतान विधियों द्वारा कैसीनो",
+                "Casino by Game Providers": "गेम प्रदाताओं द्वारा कैसीनो",
+                "Best Bonuses": "सर्वश्रेष्ठ बोनस",
+                Support: "समर्थन",
+                Company: "कंपनी",
+                "Try Your Luck!": "अपनी किस्मत आजमाएं!",
+                "Our Contacts": "हमारे संपर्क",
+                "Enter your email": "अपना ईमेल दर्ज करें",
+                Subscribe: "सदस्यता लें",
+                Casino: "कैसिनो",
+                Shop: "दुकान",
+                Wheel: "पहिया",
+                Profile: "प्रोफ़ाइल",
+                "My Profile": "मेरी प्रोफ़ाइल",
+                "Get ready for the hottest brands, arriving soon!": "सबसे लोकप्रिय ब्रांड्स के लिए तैयार हो जाइए, जल्द ही आ रहे हैं!",
+                "The message was sent hastily!": "संदेश जल्दबाजी में भेजा गया!",
+                Error: "त्रुटि",
+                "Contact Us": "हमसे संपर्क करें",
+                Message: "संदेश",
+                Send: "भेजें",
+                "Play, Win, and Grab a": "खेलें, जीतें, और पकड़ें",
+                "New iPhone": "नया आईफोन",
+                "OKTOBERFEST WINS": "ऑक्टोबरफेस्ट जीतता है",
                 "Discover the hottest gaming ‘breweries’ serving up big wins and bonuses in the festive spirit of Oktoberfest!": "ओकटोबरफेस्ट की उत्सव भावना में बड़े जीत और बोनस परोसने वाले सबसे हॉट गेमिंग 'ब्रुअरीज' की खोज करें!",
                 "Best Halloween Offers": "सर्वश्रेष्ठ हैलोवीन ऑफ़र",
                 Offers: "प्रस्ताव",
@@ -8032,11 +8270,11 @@ async function initializeI18n() {
                 Bonus: "बोनस",
                 Payment: "भुगतान",
                 "Spin Your Way to Top Casino Picks 2024": "स्पिन करके 2025 के शीर्ष कैसीनो चयन तक पहुंचें",
-                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "नमस्ते, स्लॉट प्रेमी! यह मैं हूँ, आपकी पसंदीदा स्लॉट मशीन, जो आपको 2025 के सबसे रोमांचक कैसीनो फ्लोर के माध्यम से मार्गदर्शन करने के लिए यहाँ हूँ। मैं आपको ऑनलाइन कैसीनो का एक नया संग्रह दिखाऊंगा जो उत्साह, खेल और ऑफ़र के मामले में जैकपॉट मार चुका है।",
+                "Hey there, slot enthusiast! It’s me, your favorite slot machine, here to guide you through the most thrilling casino floors of 2024. I’ll show you a fresh collection of online casinos that have just hit the jackpot in terms of excitement, games, and offers.": "नमस्ते, स्लॉट उत्साही! यह मैं हूँ, आपकी पसंदीदा स्लॉट मशीन, जो आपको 2025 के सबसे रोमांचक कैसीनो फ्लोर के माध्यम से मार्गदर्शन करने के लिए यहाँ हूँ। मैं आपको ऑनलाइन कैसीनो का एक नया संग्रह दिखाऊंगा जो उत्साह, खेल और ऑफ़र के मामले में जैकपॉट मार चुका है।",
                 "Unlock the Best Casino Bonuses of 2024!": "2025 के सर्वश्रेष्ठ कैसीनो बोनस अनलॉक करें!",
                 "Pssst… Guess what? It’s me, the gift box, ready to reveal the best bonuses just for you! Unwrap bonuses, from welcome offers to loyalty rewards, and everything in between.": "सुनो... क्या पता है? यह मैं हूँ, उपहार बॉक्स, आपके लिए सबसे अच्छे बोनस प्रकट करने के लिए तैयार! बोनस खोलें, स्वागत प्रस्तावों से लेकर वफादारी पुरस्कारों तक, और बीच में सब कुछ।",
                 "Find Your Best Payment Picks for 2024": "2025 के लिए अपनी सर्वश्रेष्ठ भुगतान पसंद खोजें",
-                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "भौं-भौं! मैं डॉजकॉइन हूँ, 2025 के शीर्ष कैसीनो भुगतान विधियों के माध्यम से आपका भरोसेमंद मार्गदर्शक। सबसे तेज़, सबसे विश्वसनीय विकल्पों की खोज करते हुए, क्रिप्टो सिक्कों से लेकर क्लासिक कार्ड्स तक, मेरे पास सुरक्षित भुगतानों की जानकारी है जो बिना किसी रुकावट के काम करते हैं। चलो शुरू करें!",
+                "Woof! I’m Dogecoin, your trusty guide through the top casino payment methods of 2024. Sniffing out the fastest, most reliable options, from crypto coins to classic cards, I’ve got the scoop on secure payments that work seamlessly. Let’s dig in!": "भौं-भौं! मैं डॉजकॉइन हूँ, 2025 के शीर्ष कैसीनो भुगतान विधियों के माध्यम से आपका भरोसेमंद मार्गदर्शक। सबसे तेज़, सबसे विश्वसनीय विकल्पों को सूंघते हुए, क्रिप्टो सिक्कों से लेकर क्लासिक कार्ड तक, मेरे पास सुरक्षित भुगतानों की जानकारी है जो बिना किसी रुकावट के काम करते हैं। चलिए शुरू करते हैं!",
                 Top: "शीर्ष",
                 "Black Friday": "ब्लैक फ्राइडे",
                 "Casino Deals!": "कैसीनो डील्स!",
@@ -8048,11 +8286,7 @@ async function initializeI18n() {
                 "Grab your exclusive casino deal before it disappears!": "अपना विशेष कैसीनो सौदा गायब होने से पहले प्राप्त करें!",
                 Take: "प्राप्त करें",
                 "Your bonuses are on the way, one moment..": "आपके बोनस रास्ते में हैं, एक क्षण..",
-                "Your Christmas Gift Awaits Start Your Fortune!": "आपका क्रिसमस उपहार आपका भाग्य शुरू करता है!",
-                Festive: "त्योहार",
-                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "मौसम के जादू का अनुभव करें सबसे हॉट कैसीनो ब्रांड्स के साथ—खोलें रोमांचक सरप्राइज और उत्सव के इनाम!",
                 "Christmas Calendar": "क्रिसमस कैलेंडर",
-                "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 1st to 15th!": "हमारे साथ 15 दिनों के उत्सव के आश्चर्यों का आनंद लें! शीर्ष ऑनलाइन कैसीनो से विशेष बोनस, मुफ्त स्पिन, और रोमांचक ऑफ़र अनलॉक करें - 1 दिसंबर से 15 दिसंबर तक हर दिन एक नया सौदा!",
                 "Ready to Activate": "सक्रिय करने के लिए तैयार",
                 Activate: "सक्रिय करें",
                 "Not Yet Available": "अभी तक उपलब्ध नहीं",
@@ -8068,13 +8302,20 @@ async function initializeI18n() {
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to 29th!": "हमारे साथ 15 दिनों के उत्सव के आश्चर्यों का आनंद लें! शीर्ष ऑनलाइन कैसीनो से विशेष बोनस, मुफ्त स्पिन, और रोमांचक ऑफ़र अनलॉक करें - 15 दिसंबर से 29 दिसंबर तक हर दिन एक नया सौदा!",
                 "Join us for 15 days of festive surprises! Unlock exclusive bonuses, free spins, and exciting offers from top online casinos - one new deal every day from December 15st to January 7th!": "हमारे साथ 15 दिनों के उत्सव के आश्चर्यों का आनंद लें! शीर्ष ऑनलाइन कैसीनो से विशेष बोनस, मुफ्त स्पिन, और रोमांचक ऑफ़र अनलॉक करें - 15 दिसंबर से 7 जनवरी तक हर दिन एक नया सौदा!",
                 "TOP BRANDS FOR YOU EVERY DAY: PICK YOURS": "हर दिन आपके लिए शीर्ष ब्रांड: अपना चुनें",
-                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "शीर्ष-रेटेड कैसीनो खोजें जो आपके अंतिम गेमिंग अनुभव के लिए तैयार हैं। चुनें और आज ही जीतना शुरू करें!",
+                "Discover top-rated brands tailored for your ultimate gaming experience. Choose and start winning today!": "शीर्ष-रेटेड ब्रांडों की खोज करें जो आपके अंतिम गेमिंग अनुभव के लिए अनुकूलित हैं। आज ही चुनें और जीतना शुरू करें!",
                 "Unlock Your Exclusive": "अपना विशेष अनलॉक करें",
                 "Casino Surprise": "कैसीनो सरप्राइज",
-                "Top brands have been chosen for you!": "आपके लिए शीर्ष कैसीनो चुने गए हैं!",
+                "Top brands have been chosen for you!": "आपके लिए शीर्ष ब्रांड चुने गए हैं!",
                 "Don’t miss your chance to check it out.": "अपने मौके को चूकें नहीं, इसे देखना न भूलें।",
-                "Winter Storm of Wins: Catch Your Snowflake of Luck": "जीतों का शीतकालीन तूफान: अपनी भाग्यशाली बर्फ की फुहार पकड़ें",
-                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "हर दिन, एक बर्फ की फुहार पकड़ें और एक शीतकालीन सरप्राइज़ का खुलासा करें! मुफ़्त स्पिन, कैशबैक और विशेष बोनस इस शीतकालीन तूफान में आपका इंतजार कर रहे हैं।"
+                "Winter Storm of Wins: Catch Your Snowflake of Luck": "विंटर स्टॉर्म ऑफ़ विंस: अपनी किस्मत की बर्फ़ का टुकड़ा पकड़ें",
+                "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins.": "हर दिन, एक बर्फ का टुकड़ा पकड़ें और एक सर्दियों का आश्चर्य प्रकट करें! मुफ्त स्पिन, कैशबैक, और विशेष बोनस इस सर्दियों की जीत के तूफान में आपका इंतजार कर रहे हैं।",
+                "Exclusive Winter Specials Just for You!": "विशेष शीतकालीन ऑफ़र केवल आपके लिए!",
+                "Your Winter Fortune": "आपका शीतकालीन भाग्य",
+                Check: "जाँच",
+                "Secrets of the Red Envelope: Open and Discover Your Luck!": "लाल लिफाफे के रहस्य: खोलें और अपनी किस्मत जानें!",
+                "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "हर दिन लाल लिफाफों में से एक चुनें और एक सरप्राइज़ का खुलासा करें। मुफ़्त स्पिन, कैशबैक, या विशेष बोनस पहले से ही आपका इंतज़ार कर रहे हैं!",
+                "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "इस सीजन के जादू का अनुभव करें सबसे हॉट कैसीनो ब्रांड्स के साथ – रोमांचक सरप्राइज और त्योहारी इनामों को अनलॉक करें!",
+                "You have activated a card today": "आपने आज एक कार्ड सक्रिय किया है"
             }
         }
     };
@@ -8517,6 +8758,11 @@ const LanguageSwitcher = ()=>{
             flag: "🇫🇷"
         },
         {
+            code: "in",
+            label: "Hindi",
+            flag: "🇮🇹"
+        },
+        {
             code: "it",
             label: "Italian",
             flag: "🇮🇹"
@@ -8864,7 +9110,7 @@ const LanguageSwitcher = ()=>{
         children: "Failed to load"
     }, void 0, false, {
         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-        lineNumber: 142,
+        lineNumber: 143,
         columnNumber: 21
     }, this);
     const changeLanguage = async (lng)=>{
@@ -8908,14 +9154,14 @@ const LanguageSwitcher = ()=>{
                                                             className: `mr-2 flag-icon flag-icon-${newLng.find((lang)=>lang.code === selectedLanguage)?.code}`
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                            lineNumber: 178,
+                                                            lineNumber: 179,
                                                             columnNumber: 23
                                                         }, this),
                                                         newLng.find((lang)=>lang.code === selectedLanguage)?.label
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 176,
+                                                    lineNumber: 177,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8925,18 +9171,18 @@ const LanguageSwitcher = ()=>{
                                                         className: "h-5 w-5 text-gray-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                        lineNumber: 190,
+                                                        lineNumber: 191,
                                                         columnNumber: 23
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 189,
+                                                    lineNumber: 190,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                            lineNumber: 175,
+                                            lineNumber: 176,
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ListboxOptions"], {
@@ -8953,7 +9199,7 @@ const LanguageSwitcher = ()=>{
                                                                             className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                            lineNumber: 216,
+                                                                            lineNumber: 217,
                                                                             columnNumber: 31
                                                                         }, this),
                                                                         " ",
@@ -8961,7 +9207,7 @@ const LanguageSwitcher = ()=>{
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                    lineNumber: 208,
+                                                                    lineNumber: 209,
                                                                     columnNumber: 29
                                                                 }, this),
                                                                 selected && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -8971,57 +9217,57 @@ const LanguageSwitcher = ()=>{
                                                                         className: "h-5 w-5"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                        lineNumber: 223,
+                                                                        lineNumber: 224,
                                                                         columnNumber: 33
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                                    lineNumber: 222,
+                                                                    lineNumber: 223,
                                                                     columnNumber: 31
                                                                 }, this)
                                                             ]
                                                         }, void 0, true)
                                                 }, language.code, false, {
                                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                                    lineNumber: 199,
+                                                    lineNumber: 200,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                            lineNumber: 197,
+                                            lineNumber: 198,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                                    lineNumber: 174,
+                                    lineNumber: 175,
                                     columnNumber: 17
                                 }, this)
                             }, void 0, false)
                     }, void 0, false, {
                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                        lineNumber: 161,
+                        lineNumber: 162,
                         columnNumber: 11
                     }, this),
                     isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                        lineNumber: 238,
+                        lineNumber: 239,
                         columnNumber: 25
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-                lineNumber: 160,
+                lineNumber: 161,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-            lineNumber: 159,
+            lineNumber: 160,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/switcher/LanguageSwitcher.jsx",
-        lineNumber: 158,
+        lineNumber: 159,
         columnNumber: 5
     }, this);
 };
@@ -9321,6 +9567,11 @@ const BrandsSwitcher = ()=>{
         {
             code: "it",
             label: "Italy",
+            flag: "🇮🇹"
+        },
+        {
+            code: "in",
+            label: "India",
             flag: "🇮🇹"
         },
         {
@@ -9835,14 +10086,14 @@ const BrandsSwitcher = ()=>{
                                                     className: `mr-2 flag-icon flag-icon-${selectedLanguage?.code}`
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                    lineNumber: 243,
+                                                    lineNumber: 244,
                                                     columnNumber: 23
                                                 }, this),
                                                 selectedLanguage?.label
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 242,
+                                            lineNumber: 243,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -9852,18 +10103,18 @@ const BrandsSwitcher = ()=>{
                                                 className: "h-5 w-5 text-gray-400"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                lineNumber: 247,
+                                                lineNumber: 248,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 246,
+                                            lineNumber: 247,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 240,
+                                    lineNumber: 241,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$listbox$2f$listbox$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["ListboxOptions"], {
@@ -9880,7 +10131,7 @@ const BrandsSwitcher = ()=>{
                                                                     className: `mr-2 flag-icon flag-icon-${language.code}`
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                    lineNumber: 266,
+                                                                    lineNumber: 267,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 " ",
@@ -9888,7 +10139,7 @@ const BrandsSwitcher = ()=>{
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 264,
+                                                            lineNumber: 265,
                                                             columnNumber: 23
                                                         }, this),
                                                         selected ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -9898,47 +10149,47 @@ const BrandsSwitcher = ()=>{
                                                                 className: "h-5 w-5"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                                lineNumber: 270,
+                                                                lineNumber: 271,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                                            lineNumber: 269,
+                                                            lineNumber: 270,
                                                             columnNumber: 25
                                                         }, this) : null
                                                     ]
                                                 }, void 0, true)
                                         }, language.code, false, {
                                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                            lineNumber: 255,
+                                            lineNumber: 256,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                                    lineNumber: 251,
+                                    lineNumber: 252,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                            lineNumber: 239,
+                            lineNumber: 240,
                             columnNumber: 11
                         }, this)
                     }, void 0, false)
             }, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 228,
+                lineNumber: 229,
                 columnNumber: 5
             }, this),
             isLoading && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-                lineNumber: 282,
+                lineNumber: 283,
                 columnNumber: 19
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/switcher/BrandsSwitcher.jsx",
-        lineNumber: 227,
+        lineNumber: 228,
         columnNumber: 5
     }, this);
 };
@@ -11111,6 +11362,11 @@ function MultipleSelectPlaceholder() {
             flag: "🇮🇹"
         },
         {
+            code: "in",
+            label: "Hindi",
+            flag: "🇮🇹"
+        },
+        {
             code: "nl",
             label: "Netherlands",
             flag: "🇳🇱"
@@ -11574,7 +11830,7 @@ function MultipleSelectPlaceholder() {
                         className: `flag-icon flag-icon-${languageFlag}`
                     }, void 0, false, {
                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                        lineNumber: 240,
+                        lineNumber: 241,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
@@ -11582,13 +11838,13 @@ function MultipleSelectPlaceholder() {
                         children: lng ? lng.toUpperCase() : ""
                     }, void 0, false, {
                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                        lineNumber: 241,
+                        lineNumber: 242,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                lineNumber: 238,
+                lineNumber: 239,
                 columnNumber: 9
             }, this);
         }
@@ -11608,12 +11864,12 @@ function MultipleSelectPlaceholder() {
                                 children: renderValue(personName)
                             }, void 0, false, {
                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                lineNumber: 259,
+                                lineNumber: 260,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                            lineNumber: 258,
+                            lineNumber: 259,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$menu$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["MenuItems"], {
@@ -11630,23 +11886,23 @@ function MultipleSelectPlaceholder() {
                                                         children: t("Your country of residence")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 272,
+                                                        lineNumber: 273,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$BrandsSwitcher$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 275,
+                                                        lineNumber: 276,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                lineNumber: 271,
+                                                lineNumber: 272,
                                                 columnNumber: 21
                                             }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                        lineNumber: 269,
+                                        lineNumber: 270,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$headlessui$2f$react$2f$dist$2f$components$2f$menu$2f$menu$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["MenuItem"], {
@@ -11658,46 +11914,46 @@ function MultipleSelectPlaceholder() {
                                                         children: t("Website language")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 282,
+                                                        lineNumber: 283,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageSwitcher$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                        lineNumber: 285,
+                                                        lineNumber: 286,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                                lineNumber: 281,
+                                                lineNumber: 282,
                                                 columnNumber: 21
                                             }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                        lineNumber: 279,
+                                        lineNumber: 280,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                                lineNumber: 268,
+                                lineNumber: 269,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/header/MenuLanguages/index.jsx",
-                            lineNumber: 263,
+                            lineNumber: 264,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true)
         }, void 0, false, {
             fileName: "[project]/components/header/MenuLanguages/index.jsx",
-            lineNumber: 255,
+            lineNumber: 256,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/header/MenuLanguages/index.jsx",
-        lineNumber: 254,
+        lineNumber: 255,
         columnNumber: 5
     }, this);
 }
@@ -12351,6 +12607,11 @@ const availableLanguages1039 = [
         code: "ie",
         label: "Ireland",
         flag: "🇮🇪"
+    },
+    {
+        code: "in",
+        label: "India",
+        flag: "🇮🇹"
     },
     {
         code: "it",

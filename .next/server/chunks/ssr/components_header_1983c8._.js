@@ -1143,7 +1143,7 @@ function MultipleSelectPlaceholder() {
         },
         {
             code: "in",
-            label: "Indian",
+            label: "Hindi",
             flag: "🇮🇹"
         },
         {

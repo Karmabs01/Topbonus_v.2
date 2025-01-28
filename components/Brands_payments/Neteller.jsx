@@ -15,7 +15,7 @@ const Payments = () => {
       <div className="main__container flex justify-between items-center inner-top-block h-full relative">
         <div className="flex flex-col lg:basis-[60%] inner-text-block ">
           <h1 className="text-white">{t("Top Online Casinos Supporting Neteller Transactions in 2024")}</h1>
-          <p className="text-white mt-5">{t("Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Casino Guru. ✅ Discover your ideal Neteller-friendly casino.")}</p>
+          <p className="text-white mt-5">{t("Directory of online casinos compatible with Neteller payments. ✅ In-depth assessments by Topbonus. ✅ Discover your ideal Neteller-friendly casino.")}</p>
           {/* <Subscribe /> */}
         </div>
         <div >

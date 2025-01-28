@@ -16,7 +16,7 @@ const Payments = () => {
     <div className="main__container flex justify-between items-center inner-top-block h-full relative">
       <div className="flex flex-col lg:basis-[60%] inner-text-block ">
         <h1 className="text-white">{t("Top-Rated Online Casinos Welcoming Visa Transactions in 2024")}</h1>
-          <p className="text-white mt-5">{t("Interested in gaming at a Visa-friendly casino? Casino Guru is here to guide you to the most reliable casinos that welcome Visa for secure gambling.")}</p>
+          <p className="text-white mt-5">{t("Interested in gaming at a Visa-friendly casino? Topbonus is here to guide you to the most reliable casinos that welcome Visa for secure gambling.")}</p>
           {/* <Subscribe /> */}
         </div>
         <div >
