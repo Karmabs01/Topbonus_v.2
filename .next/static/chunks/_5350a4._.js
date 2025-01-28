@@ -3838,7 +3838,7 @@ const BasicModal = ()=>{
                 console.log("Отфильтрованные бренды:", finalFilteredBrands);
                 // 5. Перемешиваем массив и устанавливаем
                 const shuffled = shuffleArray([
-                    ...finalFilteredBrands
+                    ...filteredByCategory
                 ]);
                 setBrands(shuffled);
             } catch (error) {
@@ -3857,6 +3857,7 @@ const BasicModal = ()=>{
         categoryBrands.key1,
         categoryBrands.key2
     ]);
+    console.log("LLL", brands, data);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             open && brands.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3871,7 +3872,7 @@ const BasicModal = ()=>{
                             children: "×"
                         }, void 0, false, {
                             fileName: "[project]/components/modalFriday/index.jsx",
-                            lineNumber: 191,
+                            lineNumber: 193,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3887,13 +3888,13 @@ const BasicModal = ()=>{
                                             children: t("Casino Surprise")
                                         }, void 0, false, {
                                             fileName: "[project]/components/modalFriday/index.jsx",
-                                            lineNumber: 200,
+                                            lineNumber: 202,
                                             columnNumber: 46
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                    lineNumber: 199,
+                                    lineNumber: 201,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3904,21 +3905,21 @@ const BasicModal = ()=>{
                                             children: t("Top brands have been chosen for you!")
                                         }, void 0, false, {
                                             fileName: "[project]/components/modalFriday/index.jsx",
-                                            lineNumber: 203,
+                                            lineNumber: 205,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
                                             className: "jsx-cfd9a92ed2174dd4"
                                         }, void 0, false, {
                                             fileName: "[project]/components/modalFriday/index.jsx",
-                                            lineNumber: 204,
+                                            lineNumber: 206,
                                             columnNumber: 17
                                         }, this),
                                         t("Don’t miss your chance to check it out.")
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                    lineNumber: 202,
+                                    lineNumber: 204,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3937,7 +3938,7 @@ const BasicModal = ()=>{
                                                     loading: "lazy"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                                    lineNumber: 218,
+                                                    lineNumber: 220,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3945,7 +3946,7 @@ const BasicModal = ()=>{
                                                     children: rowData.OurOfferContent
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                                    lineNumber: 225,
+                                                    lineNumber: 227,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3955,53 +3956,53 @@ const BasicModal = ()=>{
                                                         children: t("Play Now")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/modalFriday/index.jsx",
-                                                        lineNumber: 229,
+                                                        lineNumber: 231,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                                    lineNumber: 228,
+                                                    lineNumber: 230,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/modalFriday/index.jsx",
-                                            lineNumber: 212,
+                                            lineNumber: 214,
                                             columnNumber: 21
                                         }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "jsx-cfd9a92ed2174dd4" + " " + "no-brands",
                                         children: t("No brands available")
                                     }, void 0, false, {
                                         fileName: "[project]/components/modalFriday/index.jsx",
-                                        lineNumber: 236,
+                                        lineNumber: 238,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                    lineNumber: 208,
+                                    lineNumber: 210,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/modalFriday/index.jsx",
-                            lineNumber: 198,
+                            lineNumber: 200,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/modalFriday/index.jsx",
-                    lineNumber: 190,
+                    lineNumber: 192,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/modalFriday/index.jsx",
-                lineNumber: 189,
+                lineNumber: 191,
                 columnNumber: 9
             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "jsx-cfd9a92ed2174dd4"
             }, void 0, false, {
                 fileName: "[project]/components/modalFriday/index.jsx",
-                lineNumber: 243,
+                lineNumber: 245,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
