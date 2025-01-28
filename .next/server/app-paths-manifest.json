@@ -1,12 +1,6 @@
 {
   "/page": "app/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/_not-found/page": "app/_not-found/page.js",
-  "/crypto-casinos/page": "app/crypto-casinos/page.js",
-  "/exclusive-bonuses/page": "app/exclusive-bonuses/page.js",
-  "/payments/mastercard/page": "app/payments/mastercard/page.js",
-  "/payments/neteller-casino/page": "app/payments/neteller-casino/page.js",
-  "/payments/visa/page": "app/payments/visa/page.js",
-  "/payments/maestro/page": "app/payments/maestro/page.js",
-  "/game-providers/spinomenal/page": "app/game-providers/spinomenal/page.js"
+  "/api/geolocation/route": "app/api/geolocation/route.js",
+  "/_not-found/page": "app/_not-found/page.js"
 }
