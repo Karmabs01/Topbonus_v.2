@@ -10,6 +10,14 @@
   border: 0px;
 }
 
+#advent .random-title {
+  font-size: 21px !important;
+  margin-bottom: 0 !important;
+}
+#advent .text-white {
+  max-width: 610px !important;
+}
+
 .all {
   .random-title {
     font-family: "AA Duke";
