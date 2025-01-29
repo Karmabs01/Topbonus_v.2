@@ -19,6 +19,21 @@
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 } */
+#advent .random-title {
+  font-size: 21px !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0 !important;
+
+
+}
+#advent .text-white {
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
 .all {
   .random-title {
     font-family: "AA Duke";
@@ -11407,7 +11422,6 @@ border-radius: 5px !important;
   border: 2px solid hsla(0, 0%, 76%, 0.485) !important;
 }
 
-
 .green .new-brands {
   background: url(/newimages/bgnewreal.png) no-repeat top center !important;
   min-height: 189px;
@@ -11433,7 +11447,7 @@ border-radius: 5px !important;
   background: #90eb7b;
 }
 .violet .btn-play {
-  background: #468CF1;
+  background: #468cf1;
 }
 .violet .btn-play:hover {
   background: #66a0f0;

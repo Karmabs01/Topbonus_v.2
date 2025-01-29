@@ -352,11 +352,11 @@ export default function Brands_carousel() {
           ) : (
             <div>
               <h2 className="text-3xl font-bold tracking-tight text-white random-title mb-3 text-center">
-                {t("Winter Storm of Wins: Catch Your Snowflake of Luck")}
+                {t("Secrets of the Red Envelope: Open and Discover Your Luck!")}
               </h2>
               <p className="mb-3 text-center text-white">
                 {t(
-                  "Every day, catch a snowflake and reveal a winter surprise! Free spins, cashback, and exclusive bonuses are waiting for you in this winter storm of wins."
+                  "Every day, choose one of the red envelopes to reveal a surprise.Free spins, cashback, or exclusive bonuses are already waiting for you!"
                 )}
               </p>
               <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap mt-10">
@@ -375,7 +375,7 @@ export default function Brands_carousel() {
                       key={index}
                       className={`card-advent rounded-xl flex flex-col justify-between basis-[19%] relative mt-16 ${cardState}`}
                     >
-                      <div className="dated">#{index + 1}</div>
+                      <div className="dated">{index + 1}</div>
                       <div className="mx-auto max-w-7xl flex flex-col w-full">
                         <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row card-sl">
                           <div className="w-full">
