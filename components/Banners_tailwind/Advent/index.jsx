@@ -359,6 +359,7 @@ export default function Brands_carousel() {
                   "Every day, choose one of the red envelopes to reveal a surprise.Free spins, cashback, or exclusive bonuses are already waiting for you!"
                 )}
               </p>
+              
               <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap mt-10">
                 {brands.map((rowData, index) => {
                   // Определяем, была ли карточка активирована сегодня
