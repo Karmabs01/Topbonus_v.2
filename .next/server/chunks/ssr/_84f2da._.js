@@ -3365,11 +3365,8 @@ function Brands_carousel() {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "dated",
-                                                children: [
-                                                    "#",
-                                                    index + 1
-                                                ]
-                                            }, void 0, true, {
+                                                children: index + 1
+                                            }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
                                                 lineNumber: 378,
                                                 columnNumber: 23
@@ -3558,26 +3555,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$La
 ;
 ;
 ;
-function shuffleArray(array) {
-    // Алгоритм Фишера–Йетса
-    let currentIndex = array.length, randomIndex;
-    // Пока остаются элементы для перемешивания...
-    while(currentIndex !== 0){
-        // Выбираем случайный индекс
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex--;
-        // И меняем его местами с текущим элементом
-        [array[currentIndex], array[randomIndex]] = [
-            array[randomIndex],
-            array[currentIndex]
-        ];
-    }
-    return array;
-}
 const BasicModal = ()=>{
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useTranslation"])();
-    const TIMEOUT_DELAY = 5000; // 5 секунд
+    const TIMEOUT_DELAY = 5000; // 10 секунд
     const { language } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLanguage"])();
     const [newUrl, setNewUrl] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("");
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
@@ -3654,27 +3635,24 @@ const BasicModal = ()=>{
     }
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const fetchUserBrands = async ()=>{
-            // Проверяем, что вообще есть данные
-            if (!data) {
-                console.warn("Данные брендов отсутствуют");
-                return;
-            }
-            // 1. Фильтруем бренды по категории (Hottest=50)
+            // 1. Фильтрация брендов на основе категорий
             const filteredByCategory = data.filter((brand)=>brand[categoryBrands.key1] === categoryBrands.key2);
             try {
+                // Проверяем наличие данных брендов
+                if (!data) {
+                    console.warn("Данные брендов отсутствуют");
+                    return;
+                }
+                // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
                 if (!userId) {
-                    // Если userId нет, просто перемешиваем и устанавливаем
-                    const shuffled = shuffleArray([
-                        ...filteredByCategory
-                    ]);
-                    setBrands(shuffled);
+                    setBrands(filteredByCategory);
                     return;
                 }
                 // 2. Получаем данные пользователя
                 const dataUser = await getUserData(userId);
                 console.log("Полные данные пользователя:", dataUser);
                 let sales = dataUser.sales;
-                // Если sales — строка, парсим JSON
+                // Если sales — строка, пытаемся её распарсить
                 if (typeof sales === "string") {
                     try {
                         sales = JSON.parse(sales);
@@ -3692,21 +3670,14 @@ const BasicModal = ()=>{
                 // 3. Извлекаем campaignId из sales
                 const salesCampaignIds = sales.map((sale)=>sale.campaignId);
                 console.log("Sales Campaign IDs:", salesCampaignIds);
-                // 4. Исключаем бренды, у которых KeitaroGoBigID / KeitaroR2dID совпадает с campaignId
+                // 4. Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
                 const finalFilteredBrands = filteredByCategory.filter((brand)=>!salesCampaignIds.includes(brand.KeitaroGoBigID) && !salesCampaignIds.includes(brand.KeitaroR2dID));
                 console.log("Отфильтрованные бренды:", finalFilteredBrands);
-                // 5. Перемешиваем массив и устанавливаем
-                const shuffled = shuffleArray([
-                    ...filteredByCategory
-                ]);
-                setBrands(shuffled);
+                // 5. Устанавливаем состояние с отфильтрованными брендами
+                setBrands(finalFilteredBrands);
             } catch (error) {
-                // Если вдруг ошибка при получении данных пользователя, показываем хоть что-то
-                const shuffled = shuffleArray([
-                    ...filteredByCategory
-                ]);
-                setBrands(shuffled);
-                console.error("Ошибка при получении данных пользователя:", error);
+                setBrands(filteredByCategory);
+                console.error("Ошибка при получении данных пользователя или брендов:", error);
             }
         };
         fetchUserBrands();
@@ -3716,76 +3687,75 @@ const BasicModal = ()=>{
         categoryBrands.key1,
         categoryBrands.key2
     ]);
-    console.log("LLL", brands, data);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             open && brands.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-cfd9a92ed2174dd4" + " " + "custom-modal-overlay",
+                className: "jsx-4927c9af6163407" + " " + "custom-modal-overlay",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "jsx-cfd9a92ed2174dd4" + " " + "custom-modal",
+                    className: "jsx-4927c9af6163407" + " " + "custom-modal",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                             onClick: handleClose,
                             "aria-label": "Close modal",
-                            className: "jsx-cfd9a92ed2174dd4" + " " + "custom-modal-close",
+                            className: "jsx-4927c9af6163407" + " " + "custom-modal-close",
                             children: "×"
                         }, void 0, false, {
                             fileName: "[project]/components/modalFriday/index.jsx",
-                            lineNumber: 193,
+                            lineNumber: 176,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "jsx-cfd9a92ed2174dd4" + " " + "custom-modal-content",
+                            className: "jsx-4927c9af6163407" + " " + "custom-modal-content",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                    className: "jsx-cfd9a92ed2174dd4" + " " + "custom-modal-title",
+                                    className: "jsx-4927c9af6163407" + " " + "custom-modal-title",
                                     children: [
                                         t("Unlock Your Exclusive"),
                                         " ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "jsx-cfd9a92ed2174dd4",
+                                            className: "jsx-4927c9af6163407",
                                             children: t("Casino Surprise")
                                         }, void 0, false, {
                                             fileName: "[project]/components/modalFriday/index.jsx",
-                                            lineNumber: 202,
-                                            columnNumber: 46
+                                            lineNumber: 186,
+                                            columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                    lineNumber: 201,
+                                    lineNumber: 184,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "jsx-cfd9a92ed2174dd4" + " " + "custom-modal-description",
+                                    className: "jsx-4927c9af6163407" + " " + "custom-modal-description",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "jsx-cfd9a92ed2174dd4",
+                                            className: "jsx-4927c9af6163407",
                                             children: t("Top brands have been chosen for you!")
                                         }, void 0, false, {
                                             fileName: "[project]/components/modalFriday/index.jsx",
-                                            lineNumber: 205,
+                                            lineNumber: 189,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {
-                                            className: "jsx-cfd9a92ed2174dd4"
+                                            className: "jsx-4927c9af6163407"
                                         }, void 0, false, {
                                             fileName: "[project]/components/modalFriday/index.jsx",
-                                            lineNumber: 206,
+                                            lineNumber: 190,
                                             columnNumber: 17
                                         }, this),
                                         t("Don’t miss your chance to check it out.")
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                    lineNumber: 204,
+                                    lineNumber: 188,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-cfd9a92ed2174dd4",
-                                    children: brands.length > 0 ? // Берём только первый бренд из перемешанного массива
-                                    brands.slice(0, 1).map((rowData, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                                    className: "jsx-4927c9af6163407",
+                                    children: brands.length > 0 ? brands.slice(0, 1).map((rowData, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                             className: "mt-3 flex items-center card-pop flex-col",
+                                            // href={`${rowData.GoBig}/${newUrl}&creative_id=Black_Friday`}
                                             href: `${rowData.GoBig}/${newUrl}&creative_id=Popup_BF`,
                                             target: "_blank",
                                             children: [
@@ -3797,76 +3767,76 @@ const BasicModal = ()=>{
                                                     loading: "lazy"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                                    lineNumber: 220,
+                                                    lineNumber: 204,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    className: "jsx-cfd9a92ed2174dd4" + " " + "mt-1 text-sm text-gray-500 h-10 mw-163",
+                                                    className: "jsx-4927c9af6163407" + " " + "mt-1 text-sm text-gray-500 h-10 mw-163",
                                                     children: rowData.OurOfferContent
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                                    lineNumber: 227,
+                                                    lineNumber: 211,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-cfd9a92ed2174dd4" + " " + "btn-crd btn-crd-pop",
+                                                    className: "jsx-4927c9af6163407" + " " + "btn-crd btn-crd-pop",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-cfd9a92ed2174dd4" + " " + "relative flex items-center justify-center px-8 py-2 text-lg font-medium rounded-full text-white btn-blick overflow-hidden",
+                                                        className: "jsx-4927c9af6163407" + " " + "relative flex items-center justify-center px-8 py-2 text-lg font-medium rounded-full text-white btn-blick overflow-hidden",
                                                         children: t("Play Now")
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/modalFriday/index.jsx",
-                                                        lineNumber: 231,
+                                                        lineNumber: 215,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                                    lineNumber: 230,
+                                                    lineNumber: 214,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/modalFriday/index.jsx",
-                                            lineNumber: 214,
+                                            lineNumber: 197,
                                             columnNumber: 21
                                         }, this)) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "jsx-cfd9a92ed2174dd4" + " " + "no-brands",
+                                        className: "jsx-4927c9af6163407" + " " + "no-brands",
                                         children: t("No brands available")
                                     }, void 0, false, {
                                         fileName: "[project]/components/modalFriday/index.jsx",
-                                        lineNumber: 238,
+                                        lineNumber: 222,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/modalFriday/index.jsx",
-                                    lineNumber: 210,
+                                    lineNumber: 194,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/modalFriday/index.jsx",
-                            lineNumber: 200,
+                            lineNumber: 183,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/modalFriday/index.jsx",
-                    lineNumber: 192,
+                    lineNumber: 175,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/modalFriday/index.jsx",
-                lineNumber: 191,
+                lineNumber: 174,
                 columnNumber: 9
             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-cfd9a92ed2174dd4"
+                className: "jsx-4927c9af6163407"
             }, void 0, false, {
                 fileName: "[project]/components/modalFriday/index.jsx",
-                lineNumber: 245,
+                lineNumber: 229,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "cfd9a92ed2174dd4",
-                children: ".custom-modal-overlay.jsx-cfd9a92ed2174dd4{z-index:1000;background:#00000080;justify-content:center;align-items:center;width:100vw;height:100vh;display:flex;position:fixed;top:0;left:0}.custom-modal.jsx-cfd9a92ed2174dd4{text-align:center;background:url(/newimages/black.png) 50% no-repeat;border-radius:8px;width:400px;min-height:337px;padding:10px 20px;position:relative;box-shadow:0 4px 6px #0000001a}.custom-modal-close.jsx-cfd9a92ed2174dd4{cursor:pointer;z-index:9;background:#fee000;border:none;border-radius:2px 2px 0 0;padding:3px 5px;font-size:30px;position:absolute;top:-26px;right:27px;color:#fff!important}.custom-modal-content.jsx-cfd9a92ed2174dd4{margin-top:0}.custom-modal-title.jsx-cfd9a92ed2174dd4{color:#fff;background:#ffffff1a;margin-bottom:10px;padding:10px 0;font-size:17px;font-weight:700;line-height:22px!important}.custom-modal-title.jsx-cfd9a92ed2174dd4 span.jsx-cfd9a92ed2174dd4{color:#fee000}.custom-modal-description.jsx-cfd9a92ed2174dd4{margin-bottom:5px;font-size:14px;font-style:italic;color:#fff!important}.custom-modal-description.jsx-cfd9a92ed2174dd4 span.jsx-cfd9a92ed2174dd4{color:#fee000!important}.no-brands.jsx-cfd9a92ed2174dd4{color:#fff!important}"
+                id: "4927c9af6163407",
+                children: ".custom-modal-overlay.jsx-4927c9af6163407{z-index:1000;background:#00000080;justify-content:center;align-items:center;width:100vw;height:100vh;display:flex;position:fixed;top:0;left:0}.custom-modal.jsx-4927c9af6163407{text-align:center;background:url(/newimages/black.png) 50% no-repeat;border-radius:8px;width:400px;min-height:337px;padding:10px 20px;position:relative;box-shadow:0 4px 6px #0000001a}.custom-modal-close.jsx-4927c9af6163407{cursor:pointer;z-index:9;background:#fee000;border:none;border-radius:2px 2px 0 0;padding:3px 5px;font-size:30px;position:absolute;top:-26px;right:27px;color:#fff!important}.custom-modal-content.jsx-4927c9af6163407{margin-top:0}.custom-modal-title.jsx-4927c9af6163407{color:#fff;background:#ffffff1a;margin-bottom:10px;padding:10px 0;font-size:17px;font-weight:700;line-height:22px!important}.custom-modal-title.jsx-4927c9af6163407 span.jsx-4927c9af6163407{color:#fee000}.custom-modal-description.jsx-4927c9af6163407{margin-bottom:5px;font-size:14px;font-style:italic;color:#fff!important}.custom-modal-description.jsx-4927c9af6163407 span.jsx-4927c9af6163407{color:#fee000!important}.custom-modal-link.jsx-4927c9af6163407{color:#fff;background:#007bff;border-radius:4px;margin-top:10px;padding:10px 20px;text-decoration:none;display:inline-block}.custom-modal-link.jsx-4927c9af6163407:hover{background:#0056b3}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);

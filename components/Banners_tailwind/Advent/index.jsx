@@ -375,7 +375,7 @@ export default function Brands_carousel() {
                       key={index}
                       className={`card-advent rounded-xl flex flex-col justify-between basis-[19%] relative mt-16 ${cardState}`}
                     >
-                      <div className="dated">#{index + 1}</div>
+                      <div className="dated">{index + 1}</div>
                       <div className="mx-auto max-w-7xl flex flex-col w-full">
                         <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row card-sl">
                           <div className="w-full">
