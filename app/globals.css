@@ -13,9 +13,13 @@
 #advent .random-title {
   font-size: 21px !important;
   margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 #advent .text-white {
   max-width: 610px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
 
 .all {
