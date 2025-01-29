@@ -2289,6 +2289,20 @@ select {
   border: 0;
 }
 
+#advent .random-title {
+  font-size: 21px !important;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  line-height: 24px !important;
+}
+
+#advent .text-white {
+  max-width: 610px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
 .all .random-title {
   font-family: AA Duke;
   font-size: 64px;

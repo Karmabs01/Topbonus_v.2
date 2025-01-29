@@ -350,7 +350,7 @@ export default function Brands_carousel() {
           {loading ? (
             <Loader />
           ) : (
-            <div>
+            <div className="flex flex-col items-center">
               <h2 className="text-3xl font-bold tracking-tight text-white random-title mb-3 text-center">
               {t("Secrets of the Red Envelope: Open and Discover Your Luck!")}
               </h2>
