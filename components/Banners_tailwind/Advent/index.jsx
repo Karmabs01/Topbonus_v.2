@@ -361,7 +361,7 @@ export default function Brands_carousel() {
               </p>
        
               
-              <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap mt-10">
+              <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap mt-16">
                 {brands.map((rowData, index) => {
                   // Определяем, была ли карточка активирована сегодня
                   const isActivated = activatedCardIndex === index;
