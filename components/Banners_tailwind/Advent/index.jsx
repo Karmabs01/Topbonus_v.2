@@ -356,9 +356,10 @@ export default function Brands_carousel() {
               </h2>
               <p className="mb-3 text-center text-white">
                 {t(
-                  "Every day, choose one of the red envelopes to reveal a surprise.Free spins, cashback, or exclusive bonuses are already waiting for you!"
+                  "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!"
                 )}
               </p>
+       
               
               <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap mt-10">
                 {brands.map((rowData, index) => {
