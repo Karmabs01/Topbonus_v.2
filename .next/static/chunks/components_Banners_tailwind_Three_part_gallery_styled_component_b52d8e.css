@@ -354,11 +354,11 @@
   color: #fee000 !important;
 }
 
-.round-christmas .li-img {
+.round-chrstmas .li-img {
   position: relative;
 }
 
-.round-christmas .li-img:after {
+.round-chrstmas .li-img:after {
   content: "";
   position: absolute;
   background-size: auto;
@@ -370,53 +370,53 @@
   background-size: cover !important;
 }
 
-.popular-christmas {
+.popular-border {
   border-top: none;
   border-bottom: none;
   border-radius: 41px;
   background-image: url("/newimages/popular-christmas.png") !important;
 }
 
-.popular-christmas .btn-crd {
+.popular-border .btn-crd {
   box-shadow: 0 -5px 30px #ff121241;
-  background: #ff1212 !important;
+  background: #fcb627 !important;
 }
 
-.popular-christmas .btn-crd a {
+.popular-border .btn-crd a {
   color: #fff !important;
 }
 
-.carousel-christmas {
+.carousel-border {
   background-image: url("/newimages/carousel-christmas.png") !important;
 }
 
-.carousel-christmas .card-sl {
+.carousel-border .card-sl {
   border: none !important;
 }
 
-.carousel-christmas .btn-play {
-  background: #ff1212;
+.carousel-border .btn-play {
+  background: #fcb627;
   box-shadow: 0 -5px 30px #ff121241;
   color: #fff !important;
 }
 
-.light .carousel-christmas .btn-play:hover {
-  background-color: #ff1212;
+.light .carousel-border .btn-play:hover {
+  background: #f5b22c;
 }
 
-.light .carousel-christmas .card-sl {
+.light .carousel-border .card-sl {
   background: none !important;
 }
 
 @media (width >= 320px) and (width <= 767px) {
-  .popular-christmas {
+  .popular-border {
     background-image: url("/newimages/popular-christmas-mob.png") !important;
     background-position: top !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
   }
 
-  .carousel-christmas {
+  .carousel-border {
     background-image: url("/newimages/carousel-christmas-mob.png") !important;
     border-radius: 29px !important;
     background-position: top !important;

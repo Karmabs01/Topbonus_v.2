@@ -320,10 +320,10 @@
 .fivehot-banner h3 .span-orange {
   color: #fee000 !important;
 }
-.round-christmas .li-img {
+.round-chrstmas .li-img {
   position: relative;
 }
-.round-christmas .li-img:after {
+.round-chrstmas .li-img:after {
   content: "";
   position: absolute;
   background: url("/newimages/round-christmas.png") center no-repeat !important;
@@ -335,46 +335,46 @@
   left: -9px;
   top: -21px;
 }
-.popular-christmas {
+.popular-border {
   background-image: url("/newimages/popular-christmas.png") !important;
   border-top: none;
   border-bottom: none;
   border-radius: 41px;
 }
-.popular-christmas .btn-crd {
-  background: #ff1212 !important;
+.popular-border .btn-crd {
+  background: #fcb627 !important;
   box-shadow: 0 -5px 30px #ff121241;
 }
-.popular-christmas .btn-crd a {
+.popular-border .btn-crd a {
   color: #fff !important;
 }
-.carousel-christmas {
+.carousel-border {
   background-image: url("/newimages/carousel-christmas.png") !important;
 }
-.carousel-christmas .card-sl {
+.carousel-border .card-sl {
   border: none !important;
 }
-.carousel-christmas .btn-play {
-  background: #ff1212;
+.carousel-border .btn-play {
+  background: #fcb627;
   box-shadow: 0 -5px 30px #ff121241;
 }
-.carousel-christmas .btn-play {
+.carousel-border .btn-play {
   color: #fff !important;
 }
-.light .carousel-christmas .btn-play:hover {
-  background-color: #ff1212;
+.light .carousel-border .btn-play:hover {
+  background: #f5b22c;
 }
-.light .carousel-christmas .card-sl {
+.light .carousel-border .card-sl {
   background: transparent !important;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  .popular-christmas {
+  .popular-border {
     background-image: url("/newimages/popular-christmas-mob.png") !important;
     background-position: top center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
   }
-  .carousel-christmas {
+  .carousel-border {
     background-image: url("/newimages/carousel-christmas-mob.png") !important;
     /* background-size: cover !important;
     background-position: top center !important;

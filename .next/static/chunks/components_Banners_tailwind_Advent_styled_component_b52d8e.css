@@ -119,10 +119,6 @@
   background: #ba1914 !important;
 }
 
-.closed .btn-play {
-  opacity: .7;
-}
-
 .card-advent:nth-child(2) .dated, .card-advent:nth-child(5) .dated {
   background: linear-gradient(161deg, #6c37b1, #310877);
 }

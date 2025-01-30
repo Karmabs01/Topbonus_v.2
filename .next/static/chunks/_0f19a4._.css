@@ -2801,6 +2801,7 @@ select {
   margin-right: auto;
   font-size: 21px !important;
   margin-bottom: 0 !important;
+  line-height: 24px !important;
 }
 
 #advent .text-white {

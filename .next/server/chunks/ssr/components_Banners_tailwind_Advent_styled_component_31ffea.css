@@ -115,7 +115,7 @@
   background: #ba1914 !important;
 }
 
-.card-advent .btn-play, .card-advent .btn-play, .activate .btn-play {
+.card-advent .btn-play, .card-advent .btn-play, .card-advent.activate .btn-play {
   background: #ba1914 !important;
 }
 
