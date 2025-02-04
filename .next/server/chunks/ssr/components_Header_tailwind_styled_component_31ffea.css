@@ -251,4 +251,84 @@ header nav button {
   color: #ff8f1f;
 }
 
+.searchUl {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  padding: 20px;
+  top: 90px;
+  border-radius: 20px;
+  max-height: 420px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  background: var(--BG, linear-gradient(161deg, #088bf6 0%, #d992e6 101.7%));
+  box-shadow: 0 0 200px 100px #fffc;
+  scroll-snap-type: y mandatory;
+  border: 2px solid #c2c2c27c !important;
+}
+
+.ssearch input {
+  border-radius: 4px;
+  border-top: 1.5px solid #fff6;
+  border-bottom: 1.5px solid #fff6;
+  background: linear-gradient(161deg, #ffffff38 0%, #ffffff2d 101.7%);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+}
+
+.ssearch input::-moz-placeholder {
+  color: #fff;
+}
+
+.ssearch input::placeholder {
+  color: #fff;
+}
+
+.ssearch h3 {
+  font-size: 28px !important;
+  line-height: 34px !important;
+}
+
+.searchUl li {
+  background: #ffffff9a;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border-bottom: 2px solid #c1a7e453 !important;
+}
+
+.searchUl li:last-of-type {
+  border: none !important;
+}
+
+.searchUl li p {
+  color: #000;
+  padding-right: 150px;
+  font-size: 16px !important;
+}
+
+.searchUl li h3 {
+  max-width: 300px;
+  min-width: 300px;
+  width: 100%;
+}
+
+.searchUl li p {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.searchUl li .btn {
+  margin-left: auto;
+}
+
+.searchUl .btn {
+  display: flex;
+  width: 100%;
+  max-width: 120px;
+  text-align: center;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=components_Header_tailwind_styled_component_31ffea.css.map*/

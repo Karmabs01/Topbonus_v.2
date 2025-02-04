@@ -26,6 +26,7 @@ import { getBrands } from "@/components/getBrands/getBrands2";
 import { useLanguage } from "@/components/switcher/LanguageContext";
 import { track } from "@vercel/analytics";
 import Marque from "@/components/header/Marque";
+import SearchComponent from "./SearchComponent";
 
 import {
   Dialog,
@@ -121,7 +122,7 @@ const Header_tailwind = () => {
         "partner1045_b1",
         "partner1046",
         "partner1049",
-        "partner1047"
+        "partner1047",
       ];
       partners.forEach((partner) => {
         if (data.includes(partner)) {
@@ -290,73 +291,10 @@ const Header_tailwind = () => {
               />
             </div>
             <div className="absolute right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-           
-
+              {/* <SearchComponent /> */}
               <I18nextProvider i18n={i18n}>
                 <MenuLanguages />
               </I18nextProvider>
-
-              {/* <Menu as="div" className="relative ml-3 hidden md:inline">
-                <div>
-                  <MenuButton className="relative flex rounded-full bg-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 avatar-new">
-                    <span className="absolute -inset-1.5" />
-                    {load ? (
-                      <div className="h-12 w-12 rounded-full text-4xl flex items-center justify-center text-blue-600"></div>
-                    ) : (
-                      ""
-                    )}
-                  </MenuButton>
-                </div>
-                <MenuItems
-                  transition
-                  className="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 transition focus:outline-none data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in submenu-x"
-                >
-                  <MenuItem>
-                    <Link
-                      href={`/personal`}
-                      className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 flex items-center"
-                    >
-                      <WalletIcon
-                        aria-hidden="true"
-                        className="h-6 w-6 text-white transition-colors duration-300 ease-in-out mr-2"
-                      />
-
-                      {t("My wallet")}
-                    </Link>
-                  </MenuItem>
-                  <MenuItem>
-                    <Link
-                      href={`/fortune`}
-                      className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 flex items-center"
-                    >
-                      <TicketIcon
-                        aria-hidden="true"
-                        className="h-6 w-6 text-white transition-colors duration-300 ease-in-out mr-2"
-                      />
-                      {load ? (
-                        <div className="">
-                          {t("Fortune wheel")} <span>{user.tickets}</span>
-                        </div>
-                      ) : (
-                        <div className="">{t("Fortune wheel")}</div>
-                      )}
-                    </Link>
-                  </MenuItem>
-                  <MenuItem>
-                    <Link
-                      href={`/shop`}
-                      className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 flex items-center "
-                    >
-                      <ShoppingBagIcon
-                        aria-hidden="true"
-                        className="h-6 w-6 text-white transition-colors duration-300 ease-in-out mr-2"
-                      />
-
-                      {t("Cards shop")}
-                    </Link>
-                  </MenuItem>
-                </MenuItems>
-              </Menu> */}
             </div>
           </nav>
           <Dialog
@@ -408,32 +346,12 @@ const Header_tailwind = () => {
                       </Disclosure>
                     ))}
                   </div>
-                  {/* {load && dataUser && (
-                    <div className="py-6 border-t border-gray-200 pb-3 pt-4">
-                      <Disclosure as="div" className="-mx-3">
-                        {userNavigation.map((item) => (
-                          <DisclosureButton
-                            key={item.name}
-                            as="a"
-                            href={item.href}
-                            className="group flex w-full items-center rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-white "
-                          >
-                            <div className="flex mr-2 h-10 w-10 flex-shrink-0 items-center justify-center rounded-md  text-white sm:h-12 sm:w-12 bg-bl">
-                              {item.icon}
-                            </div>
-                            {item.name}
-                          </DisclosureButton>
-                        ))}
-                      </Disclosure>
-                    </div>
-                  )} */}
                 </div>
               </div>
             </DialogPanel>
           </Dialog>
         </div>
       </header>
-      {/* {load && dataUser && <Mobile_tabs_navigation dataUser={dataUser} />} */}
     </>
   );
 };
