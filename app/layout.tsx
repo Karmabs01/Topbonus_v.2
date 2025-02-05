@@ -35,8 +35,6 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
           rel="stylesheet"
         />
-
-
       </Head>
       <body className="">
         {/* Включаем LanguageProvider и OtpProvider */}
@@ -81,27 +79,28 @@ export default function RootLayout({
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
           `}
         </Script>
-                {/* Включаем Facebook Pixel */}
-                <Script id="facebook-pixel" strategy="afterInteractive">
+        {/* Включаем Facebook Pixel */}
+        <Script id="facebook-pixel" strategy="afterInteractive">
           {`
             !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '1086941882913140');
-            fbq('track', 'PageView');
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '622262777016787');
+fbq('track', 'PageView');
           `}
         </Script>
+
         <noscript>
           <img
             height="1"
             width="1"
             style={{ display: "none" }}
-            src="https://www.facebook.com/tr?id=1086941882913140&ev=PageView&noscript=1"
+            src="https://www.facebook.com/tr?id=622262777016787&ev=PageView&noscript=1"
             alt="fb_pixel"
           />
         </noscript>
