@@ -10,44 +10,75 @@ import { useTranslation } from "react-i18next";
 import "./styled.component.css";
 import { getUserData } from "@/components/getUser/getUser";
 
+// Пул из 9 желаемых брендов
+const CUSTOM_BRANDS_POOL = [
+  "Laki World",
+  "Bets. io",
+  "Magius",
+  "Lucky7even",
+  "Spinjo",
+  "Bitstake",
+  "Fairspin",
+  "Luckychoo",
+  "WinWin.Bet",
+];
+
+
 export default function Brands_carousel() {
   const [newUrl, setNewUrl] = useState("");
   const [source, setSource] = useState("");
   const [loading, setLoading] = useState(true);
 
-  // Итоговый массив брендов (после фильтров и сортировок)
+  // Итоговый массив из 5 брендов (после всех фильтров и рандома)
   const [brands, setBrands] = useState([]);
 
-  // «Карусель»: какой индекс сейчас показывается (если вообще нужно автопереключение)
-  const [currentBrandIndex, setCurrentBrandIndex] = useState(0);
-  const [fade, setFade] = useState(true);
-
-  // Состояния для активации карточек
-  const [lastActivationDate, setLastActivationDate] = useState(null);
+  // Индекс активированной карточки за сегодня (для «открытия»)
   const [activatedCardIndex, setActivatedCardIndex] = useState(null);
+  // Дата последней активации (сравним с «сегодня»)
+  const [lastActivationDate, setLastActivationDate] = useState(null);
+  // Название бренда, который сегодня активировали (чтобы сегодня его не исключать)
+  const [activatedBrandToday, setActivatedBrandToday] = useState(null);
 
   const { language } = useLanguage();
   const { t } = useTranslation();
 
-  // Загружаем «активированные» данные из localStorage
+  // =============================================
+  // Вспом. функции
+  // =============================================
+  const getTodayDateString = () => new Date().toISOString().split("T")[0];
+
+  // ---------------------------------------------
+  // 1) При первом рендере считаем из localStorage:
+  //  - lastActivationDate, activatedCardIndex, activatedBrandToday
+  // ---------------------------------------------
   useEffect(() => {
     const savedActivationDate = localStorage.getItem("lastActivationDate");
     const savedActivatedCard = localStorage.getItem("activatedCardIndex");
-    const today = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
+    const savedActivatedBrand = localStorage.getItem("activatedBrandToday");
+    const today = getTodayDateString();
 
     if (savedActivationDate === today) {
       setLastActivationDate(savedActivationDate);
-      setActivatedCardIndex(savedActivatedCard !== null ? parseInt(savedActivatedCard) : null);
+      setActivatedCardIndex(
+        savedActivatedCard !== null ? parseInt(savedActivatedCard) : null
+      );
+      if (savedActivatedBrand) {
+        setActivatedBrandToday(savedActivatedBrand);
+      }
     } else {
-      // Если дата изменилась, сбрасываем активацию
+      // Новый день — сбрасываем
       localStorage.removeItem("lastActivationDate");
       localStorage.removeItem("activatedCardIndex");
+      localStorage.removeItem("activatedBrandToday");
       setLastActivationDate(null);
       setActivatedCardIndex(null);
+      setActivatedBrandToday(null);
     }
   }, []);
 
-  // Подчищаем URL, извлекаем партнёров и т. п. (ваш код)
+  // ---------------------------------------------
+  // 2) Очищаем URL, восстанавливаем newUrl
+  // ---------------------------------------------
   useEffect(() => {
     const currentUrl = window.location.href;
     const indexOfQuestionMark = currentUrl.indexOf("?");
@@ -98,64 +129,58 @@ export default function Brands_carousel() {
     }
   }, [language]);
 
-  // Подгружаем бренды через SWR
+  // ---------------------------------------------
+  // 3) SWR: получаем data (массив брендов)
+  // ---------------------------------------------
   const { data, error } = useSWR(
     ["brands", language],
     () => getBrands(language),
-    { initialData: brands }
+    { initialData: [] }
   );
 
+  // userId (для фильтрации по sales)
   let userId = "";
   if (typeof window !== "undefined") {
     userId = localStorage.getItem("user_id") || "";
   }
 
-  // Приоритетные бренды
-  const priorityBrands = [
-    "Blockbets",
-    "Spinjo",
-    "FairSpin",
-    "LuckyChoo",
-    "FairPari",
-    "Winbay",
-    // Другие бренды можно добавить по необходимости
-  ];
-
-  // Основные категории, как в вашем коде
-  const categoryBrands = { key1: "Video", key2: "Advent" };
-  const categoryBrands2 = { key1: "Segment2", key2: "Premium" };
-
-  // Когда данные загрузились, фильтруем, сортируем, оставляем до 24 штук
+  // ---------------------------------------------
+  // 4) Вся логика фильтрации и формирования final 5
+  // ---------------------------------------------
   useEffect(() => {
-    const fetchUserBrands = async () => {
+    (async () => {
       try {
         if (!data || data.length === 0) {
-          console.warn("Данные брендов отсутствуют");
+          console.log("Данные брендов отсутствуют или data пустое:", data);
           setLoading(false);
           return;
         }
 
-        // 1) Берём основные бренды (Video: Advent)
+        console.log("Исходный массив data:", data);
+
+        // --- Ваша логика категорий
+        const categoryBrands = { key1: "Video", key2: "Advent" };
+        const categoryBrands2 = { key1: "Segment2", key2: "Premium" };
+
+        // 1) Основная категория
         const mainCategoryData = data.filter(
           (rowData) => rowData[categoryBrands.key1] === categoryBrands.key2
         );
-
-        // 2) Берём вторую категорию (Segment2: Premium)
+        // 2) Вторая категория
         const secondaryCategoryData = data.filter(
           (rowData) => rowData[categoryBrands2.key1] === categoryBrands2.key2
         );
 
-        // Объединяем
-        let finalFilteredBrands = [
-          ...mainCategoryData,
-          ...secondaryCategoryData,
-        ];
+        let finalFilteredBrands = [...mainCategoryData, ...secondaryCategoryData];
+        console.log("После категории (Advent + Premium):", finalFilteredBrands);
 
-        // Если есть userId — фильтруем продажи
+        // 3) Фильтруем по sales
         let salesCampaignIds = [];
         if (userId) {
           const dataUser = await getUserData(userId);
-          let sales = dataUser.sales;
+          let sales = dataUser?.sales;
+          console.log("dataUser:", dataUser);
+
           if (typeof sales === "string") {
             try {
               sales = JSON.parse(sales);
@@ -175,174 +200,180 @@ export default function Brands_carousel() {
               !salesCampaignIds.includes(brand.KeitaroR2dID)
           );
         }
+        console.log("После фильтра sales:", finalFilteredBrands);
 
-        // Гарантируем хотя бы 24
+        // 4) Если меньше 5, пытаемся добрать из data
         if (finalFilteredBrands.length < 5) {
           const needed = 5 - finalFilteredBrands.length;
           const usedBrands = new Set(
             finalFilteredBrands.map((b) => b.CasinoBrand)
           );
-
-          let additional = data.filter(
-            (brand) =>
-              !usedBrands.has(brand.CasinoBrand) &&
-              !(
-                salesCampaignIds.includes(brand.KeitaroGoBigID) ||
-                salesCampaignIds.includes(brand.KeitaroR2dID)
-              )
-          );
+          let additional = data.filter((brand) => {
+            const bName = brand.CasinoBrand || "";
+            return (
+              !usedBrands.has(bName) &&
+              !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
+              !salesCampaignIds.includes(brand.KeitaroR2dID)
+            );
+          });
           if (additional.length > 0) {
             finalFilteredBrands = finalFilteredBrands.concat(
               additional.slice(0, needed)
             );
           }
         }
-        if (finalFilteredBrands.length < 5) {
-          finalFilteredBrands = data.slice(0, 5);
+        console.log("После добора до 5 (если нужно):", finalFilteredBrands);
+
+        // -------------------------------------------
+        // Теперь — логика про "9 брендов" из CUSTOM_BRANDS_POOL
+        // -------------------------------------------
+        // A) Считываем excludedBrands
+        let excludedArr = [];
+        const excludedRaw = localStorage.getItem("excludedBrands");
+        if (excludedRaw) {
+          try {
+            excludedArr = JSON.parse(excludedRaw);
+          } catch (e) {
+            excludedArr = [];
+          }
         }
+        console.log("excludedBrands из localStorage:", excludedArr);
 
-        // Проверяем присутствие приоритетных
-        const ensureBrandInList = (brandName) => {
-          const existsInFinal = finalFilteredBrands.some(
+        // B) Формируем объекты из 9 нужных названий
+        //    Сначала ищем бренд в finalFilteredBrands => если нет, ищем в data => иначе заглушка
+        let bigPool = CUSTOM_BRANDS_POOL.map((desiredName) => {
+          // ищем по toLowerCase (как пример)
+          let brandObj = finalFilteredBrands.find(
             (b) =>
-              (b.CasinoBrand || "").toLowerCase() ===
-              brandName.toLowerCase()
+              (b.CasinoBrand || "").toLowerCase() === desiredName.toLowerCase()
           );
-          if (!existsInFinal) {
-            const fromData = data.find(
+          if (!brandObj) {
+            // пробуем в общем data
+            brandObj = data.find(
               (b) =>
-                (b.CasinoBrand || "").toLowerCase() ===
-                brandName.toLowerCase()
+                (b.CasinoBrand || "").toLowerCase() === desiredName.toLowerCase()
             );
-            if (fromData) {
-              finalFilteredBrands.push(fromData);
-            }
           }
-        };
-        priorityBrands.forEach((brandName) => ensureBrandInList(brandName));
-
-        // Перестановка приоритетных
-        const moveBrandToIndex = (array, brandName, targetIndex) => {
-          const index = array.findIndex(
-            (b) =>
-              (b.CasinoBrand || "").toLowerCase() ===
-              brandName.toLowerCase()
-          );
-          if (index > -1 && index !== targetIndex) {
-            const [brandObj] = array.splice(index, 1);
-            if (targetIndex >= array.length) {
-              array.push(brandObj);
-            } else {
-              array.splice(targetIndex, 0, brandObj);
-            }
+          if (!brandObj) {
+            // заглушка
+            brandObj = {
+              CasinoBrand: desiredName,
+              GoBig: "#",
+              OurOfferContent: "Special Offer",
+            };
           }
-        };
-        moveBrandToIndex(finalFilteredBrands, "Blockbets", 0);
-        moveBrandToIndex(finalFilteredBrands, "Spinjo", 1);
-        moveBrandToIndex(finalFilteredBrands, "FairSpin", 2);
-        moveBrandToIndex(finalFilteredBrands, "LuckyChoo", 3);
-        moveBrandToIndex(finalFilteredBrands, "FairPari", 4);
-        moveBrandToIndex(finalFilteredBrands, "Winbay", 5);
-
-        finalFilteredBrands = finalFilteredBrands.slice(0, 5);
-
-        setBrands(finalFilteredBrands);
-        setLoading(false);
-      } catch (error) {
-        console.error("Ошибка при получении данных:", error);
-        // fallback (если ошибка)
-        let fallbackBrands = data.slice(0, 24);
-
-        priorityBrands.forEach((brandName) => {
-          const inFallback = fallbackBrands.some(
-            (b) =>
-              (b.CasinoBrand || "").toLowerCase() ===
-              brandName.toLowerCase()
-          );
-          if (!inFallback) {
-            const fromData = data.find(
-              (b) =>
-                (b.CasinoBrand || "").toLowerCase() ===
-                brandName.toLowerCase()
-            );
-            if (fromData) {
-              fallbackBrands.push(fromData);
-            }
-          }
+          return brandObj;
         });
+        console.log("Сформированный bigPool из 9:", bigPool);
 
-        const moveBrandToIndex = (array, brandName, targetIndex) => {
-          const index = array.findIndex(
-            (b) =>
-              (b.CasinoBrand || "").toLowerCase() ===
-              brandName.toLowerCase()
+        // C) Исключаем из bigPool бренды, которые в excludedArr (активировали в прошлом)
+        bigPool = bigPool.filter((b) => {
+          const bName = (b.CasinoBrand || "").toLowerCase();
+          return !excludedArr.includes(bName);
+        });
+        console.log("bigPool после исключения прошлых:", bigPool);
+
+        // D) Если сегодня уже активировали бренд (activatedBrandToday), принудительно добавим его
+        if (activatedBrandToday) {
+          const lowerActive = activatedBrandToday.toLowerCase();
+          const isInPool = bigPool.some(
+            (b) => (b.CasinoBrand || "").toLowerCase() === lowerActive
           );
-          if (index > -1 && index !== targetIndex) {
-            const [brandObj] = array.splice(index, 1);
-            if (targetIndex >= array.length) {
-              array.push(brandObj);
-            } else {
-              array.splice(targetIndex, 0, brandObj);
+          if (!isInPool) {
+            // Ищем в data
+            let activeObj =
+              data.find(
+                (b) =>
+                  (b.CasinoBrand || "").toLowerCase() === lowerActive
+              ) ||
+              finalFilteredBrands.find(
+                (b) =>
+                  (b.CasinoBrand || "").toLowerCase() === lowerActive
+              );
+            if (!activeObj) {
+              // тоже заглушка
+              activeObj = {
+                CasinoBrand: activatedBrandToday,
+                GoBig: "#",
+                OurOfferContent: "Special Offer",
+              };
             }
+            bigPool.push(activeObj);
+            console.log("Добавили активированный бренд:", activeObj);
           }
-        };
+        }
+        console.log("bigPool после проверки сегодня-активированного:", bigPool);
 
-        moveBrandToIndex(fallbackBrands, "Blockbets", 0);
-        moveBrandToIndex(fallbackBrands, "Spinjo", 1);
-        moveBrandToIndex(fallbackBrands, "FairSpin", 2);
-        moveBrandToIndex(fallbackBrands, "LuckyChoo", 3);
-        moveBrandToIndex(fallbackBrands, "FairPari", 4);
-        moveBrandToIndex(fallbackBrands, "Winbay", 5);
+        // E) Перемешаем bigPool
+        function shuffleArray(arr) {
+          const array = [...arr];
+          for (let i = array.length - 1; i > 0; i--) {
+            const j = Math.floor(Math.random() * (i + 1));
+            [array[i], array[j]] = [array[j], array[i]];
+          }
+          return array;
+        }
+        let shuffled = shuffleArray(bigPool);
+        console.log("shuffled bigPool:", shuffled);
 
-        fallbackBrands = fallbackBrands.slice(0, 5);
+        // F) обрежем до 9 (на случай, если вдруг набралось больше)
+        shuffled = shuffled.slice(0, 9);
 
-        setBrands(fallbackBrands);
+        // G) из shuffled берём первые 5 для отображения
+        const finalFive = shuffled.slice(0, 5);
+        console.log("Итоговые 5 брендов для рендера:", finalFive);
+
+        setBrands(finalFive);
+        setLoading(false);
+      } catch (err) {
+        console.error("Ошибка при получении данных:", err);
         setLoading(false);
       }
-    };
+    })();
+  }, [data, userId, activatedBrandToday]);
 
-    fetchUserBrands();
-  }, [
-    data,
-    userId,
-    categoryBrands.key1,
-    categoryBrands.key2,
-    categoryBrands2.key1,
-    categoryBrands2.key2,
-  ]);
-
-  // Пример автопереключения карусели
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setFade(false);
-      setTimeout(() => {
-        setCurrentBrandIndex((prevIndex) => (prevIndex + 24) % brands.length);
-        setFade(true);
-      }, 500);
-    }, 5000000);
-
-    return () => clearInterval(interval);
-  }, [brands.length]);
-
-  // Функция для получения текущей даты в формате YYYY-MM-DD
-  const getTodayDateString = () => {
-    return new Date().toISOString().split("T")[0];
-  };
-
-  // Когда пользователь жмёт «Activate»
+  // ---------------------------------------------
+  // 5) Клик «Activate»
+  // ---------------------------------------------
   const handleActivate = (index) => {
     const today = getTodayDateString();
     if (lastActivationDate === today) {
       alert(t("You have already activated a card today."));
       return;
     }
-
     setActivatedCardIndex(index);
     setLastActivationDate(today);
+
+    const brand = brands[index];
+    const brandName = (brand?.CasinoBrand || "").trim();
+
     localStorage.setItem("activatedCardIndex", index);
     localStorage.setItem("lastActivationDate", today);
+    localStorage.setItem("activatedBrandToday", brandName);
+    setActivatedBrandToday(brandName);
+
+    // Запишем в excludedBrands, чтобы завтра он не появился
+    let excludedRaw = localStorage.getItem("excludedBrands");
+    let excludedArr = [];
+    if (excludedRaw) {
+      try {
+        excludedArr = JSON.parse(excludedRaw);
+      } catch {
+        excludedArr = [];
+      }
+    }
+    const lowerName = brandName.toLowerCase();
+    if (!excludedArr.includes(lowerName)) {
+      excludedArr.push(lowerName);
+    }
+    localStorage.setItem("excludedBrands", JSON.stringify(excludedArr));
+
+    console.log("Активировали бренд:", brandName, " => excludedArr:", excludedArr);
   };
 
+  // ---------------------------------------------
+  // Рендер
+  // ---------------------------------------------
   return (
     <>
       <div id="advent" className="sm:mt-10 mt-5 mb-5 mob-mt10 advent mb-16">
@@ -350,27 +381,24 @@ export default function Brands_carousel() {
           {loading ? (
             <Loader />
           ) : (
-            <div className="flex flex-col items-center">
+            <div>
               <h2 className="text-3xl font-bold tracking-tight text-white random-title mb-3 text-center">
-              {t("Secrets of the Red Envelope: Open and Discover Your Luck!")}
+                {t("Secrets of the Red Envelope: Open and Discover Your Luck!")}
               </h2>
               <p className="mb-3 text-center text-white">
-              {t(
+                {t(
                   "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!"
                 )}
               </p>
 
-            
-              <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap mt-10">
+              <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap mt-16">
                 {brands.map((rowData, index) => {
-                  // Определяем, была ли карточка активирована сегодня
-                  const isActivated = activatedCardIndex === index;
-                  const isActivatedToday = lastActivationDate === getTodayDateString();
+                  // Проверяем, активирована ли карточка сегодня
+                  const isActivatedToday =
+                    lastActivationDate === getTodayDateString() &&
+                    activatedCardIndex === index;
 
-                  // Определяем состояние карточки
-                  let cardState;
-                  if (isActivated && isActivatedToday) cardState = "activate";
-                  else cardState = "closed"; // Все остальные карточки закрыты
+                  const cardState = isActivatedToday ? "activate" : "closed";
 
                   return (
                     <div
@@ -381,11 +409,12 @@ export default function Brands_carousel() {
                       <div className="mx-auto max-w-7xl flex flex-col w-full">
                         <div className="mx-auto max-w-2xl lg:mx-0 flex flex-row card-sl">
                           <div className="w-full">
-                            {isActivated && isActivatedToday ? (
-                              // Карточка активирована
+                            {isActivatedToday ? (
+                              // Карточка «открыта»
                               <div className="flex flex-col items-center">
                                 <Link
                                   className="mt-3 mb-2"
+                                  // Важно: используем ваш newUrl
                                   href={`${rowData.GoBig || "#"}/${newUrl}&creative_id=Everyday_Advent`}
                                   target="_blank"
                                 >
@@ -409,7 +438,7 @@ export default function Brands_carousel() {
                                 </Link>
                               </div>
                             ) : (
-                              // Карточка не активирована
+                              // Карточка «закрыта»
                               <div className="flex flex-col items-center">
                                 <div className="mt-3 mb-2 nonoact"></div>
                                 {lastActivationDate === getTodayDateString() ? (
