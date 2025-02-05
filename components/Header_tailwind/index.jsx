@@ -7,26 +7,21 @@ import { Navigation } from "./Navigation_tw";
 
 import Image from "next/image";
 import Img from "@/public/logo3.png";
-// import SearchComponent from "@/components/SearchComponent";
-import LanguageSwitcher from "@/components/switcher/LanguageSwitcher";
-import BrandsSwitcher from "@/components/switcher/BrandsSwitcher";
+
 import { useTranslation } from "react-i18next";
 import Link from "next/link";
-import MenuPages from "@/components/header/MenuPages";
+
 import { getUserData } from "@/components/getUser/getUser";
 import { navItems } from "@/components/header/NavItems";
 import MenuLanguages from "@/components/header/MenuLanguages";
 
-import Badge from "@mui/material/Badge";
-import { updateGeo } from "@/components/getUser/updateGeo";
 import ResponsiveDialog from "@/components/geo-identifier";
-import BasicModal from "@/components/modal";
-import KeitaroIframe from "@/components/KeitaroIframe";
+
 import { getBrands } from "@/components/getBrands/getBrands2";
 import { useLanguage } from "@/components/switcher/LanguageContext";
-import { track } from "@vercel/analytics";
+
 import Marque from "@/components/header/Marque";
-import SearchComponent from "./SearchComponent";
+// import SearchComponent from "./SearchComponent";
 
 import {
   Dialog,
@@ -34,23 +29,16 @@ import {
   Disclosure,
   DisclosureButton,
   DisclosurePanel,
-  Menu,
-  MenuButton,
-  MenuItem,
-  MenuItems,
 } from "@headlessui/react";
 import {
   Bars3Icon,
-  TicketIcon,
   XMarkIcon,
   WalletIcon,
-  CurrencyDollarIcon,
   ShoppingBagIcon,
   UserIcon,
 } from "@heroicons/react/24/outline";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import "./styled.component.css";
-// import Mobile_tabs_navigation from "@/components/Mobile_tabs_navigation";
 
 const Header_tailwind = () => {
   const { t } = useTranslation();
@@ -291,7 +279,7 @@ const Header_tailwind = () => {
               />
             </div>
             <div className="absolute right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-              {/* <SearchComponent /> */}
+             {/* <SearchComponent /> */}
               <I18nextProvider i18n={i18n}>
                 <MenuLanguages />
               </I18nextProvider>

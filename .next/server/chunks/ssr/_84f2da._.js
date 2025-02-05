@@ -3069,37 +3069,64 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getUser$2f$get
 ;
 ;
 ;
+// Пул из 9 желаемых брендов
+const CUSTOM_BRANDS_POOL = [
+    "Laki",
+    "Bets.io",
+    "Magius",
+    "lucky7",
+    "spinjo",
+    "Bitstake",
+    "Fairspin",
+    "LuckyChoo",
+    "WinWinbet"
+];
 function Brands_carousel() {
     const [newUrl, setNewUrl] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("");
     const [source, setSource] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("");
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(true);
-    // Итоговый массив брендов (после фильтров и сортировок)
+    // Итоговый массив из 5 брендов (после всех фильтров и рандома)
     const [brands, setBrands] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
-    // «Карусель»: какой индекс сейчас показывается (если вообще нужно автопереключение)
-    const [currentBrandIndex, setCurrentBrandIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(0);
-    const [fade, setFade] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(true);
-    // Состояния для активации карточек
-    const [lastActivationDate, setLastActivationDate] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    // Индекс активированной карточки за сегодня (для «открытия»)
     const [activatedCardIndex, setActivatedCardIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    // Дата последней активации (сравним с «сегодня»)
+    const [lastActivationDate, setLastActivationDate] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
+    // Название бренда, который сегодня активировали (чтобы сегодня его не исключать)
+    const [activatedBrandToday, setActivatedBrandToday] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(null);
     const { language } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useLanguage"])();
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useTranslation"])();
-    // Загружаем «активированные» данные из localStorage
+    // =============================================
+    // Вспом. функции
+    // =============================================
+    const getTodayDateString = ()=>new Date().toISOString().split("T")[0];
+    // ---------------------------------------------
+    // 1) При первом рендере считаем из localStorage:
+    //  - lastActivationDate, activatedCardIndex, activatedBrandToday
+    // ---------------------------------------------
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const savedActivationDate = localStorage.getItem("lastActivationDate");
         const savedActivatedCard = localStorage.getItem("activatedCardIndex");
-        const today = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
+        const savedActivatedBrand = localStorage.getItem("activatedBrandToday");
+        const today = getTodayDateString();
         if (savedActivationDate === today) {
             setLastActivationDate(savedActivationDate);
             setActivatedCardIndex(savedActivatedCard !== null ? parseInt(savedActivatedCard) : null);
+            if (savedActivatedBrand) {
+                setActivatedBrandToday(savedActivatedBrand);
+            }
         } else {
-            // Если дата изменилась, сбрасываем активацию
+            // Новый день — сбрасываем
             localStorage.removeItem("lastActivationDate");
             localStorage.removeItem("activatedCardIndex");
+            localStorage.removeItem("activatedBrandToday");
             setLastActivationDate(null);
             setActivatedCardIndex(null);
+            setActivatedBrandToday(null);
         }
     }, []);
-    // Подчищаем URL, извлекаем партнёров и т. п. (ваш код)
+    // ---------------------------------------------
+    // 2) Очищаем URL, восстанавливаем newUrl
+    // ---------------------------------------------
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const currentUrl = window.location.href;
         const indexOfQuestionMark = currentUrl.indexOf("?");
@@ -3143,58 +3170,56 @@ function Brands_carousel() {
     }, [
         language
     ]);
-    // Подгружаем бренды через SWR
+    // ---------------------------------------------
+    // 3) SWR: получаем data (массив брендов)
+    // ---------------------------------------------
     const { data, error } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swr$2f$dist$2f$core$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"])([
         "brands",
         language
     ], ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$getBrands2$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getBrands"])(language), {
-        initialData: brands
+        initialData: []
     });
+    // userId (для фильтрации по sales)
     let userId = "";
     if (typeof window !== "undefined") {
         userId = localStorage.getItem("user_id") || "";
     }
-    // Приоритетные бренды
-    const priorityBrands = [
-        "Blockbets",
-        "Spinjo",
-        "FairSpin",
-        "LuckyChoo",
-        "FairPari",
-        "Winbay"
-    ];
-    // Основные категории, как в вашем коде
-    const categoryBrands = {
-        key1: "Video",
-        key2: "Advent"
-    };
-    const categoryBrands2 = {
-        key1: "Segment2",
-        key2: "Premium"
-    };
-    // Когда данные загрузились, фильтруем, сортируем, оставляем до 24 штук
+    // ---------------------------------------------
+    // 4) Вся логика фильтрации и формирования final 5
+    // ---------------------------------------------
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        const fetchUserBrands = async ()=>{
+        (async ()=>{
             try {
                 if (!data || data.length === 0) {
-                    console.warn("Данные брендов отсутствуют");
+                    console.log("Данные брендов отсутствуют или data пустое:", data);
                     setLoading(false);
                     return;
                 }
-                // 1) Берём основные бренды (Video: Advent)
+                console.log("Исходный массив data:", data);
+                // --- Ваша логика категорий
+                const categoryBrands = {
+                    key1: "Video",
+                    key2: "Advent"
+                };
+                const categoryBrands2 = {
+                    key1: "Segment2",
+                    key2: "Premium"
+                };
+                // 1) Основная категория
                 const mainCategoryData = data.filter((rowData)=>rowData[categoryBrands.key1] === categoryBrands.key2);
-                // 2) Берём вторую категорию (Segment2: Premium)
+                // 2) Вторая категория
                 const secondaryCategoryData = data.filter((rowData)=>rowData[categoryBrands2.key1] === categoryBrands2.key2);
-                // Объединяем
                 let finalFilteredBrands = [
                     ...mainCategoryData,
                     ...secondaryCategoryData
                 ];
-                // Если есть userId — фильтруем продажи
+                console.log("После категории (Advent + Premium):", finalFilteredBrands);
+                // 3) Фильтруем по sales
                 let salesCampaignIds = [];
                 if (userId) {
                     const dataUser = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getUser$2f$getUser$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["getUserData"])(userId);
-                    let sales = dataUser.sales;
+                    let sales = dataUser?.sales;
+                    console.log("dataUser:", dataUser);
                     if (typeof sales === "string") {
                         try {
                             sales = JSON.parse(sales);
@@ -3209,112 +3234,116 @@ function Brands_carousel() {
                     salesCampaignIds = sales.map((sale)=>sale.campaignId);
                     finalFilteredBrands = finalFilteredBrands.filter((brand)=>!salesCampaignIds.includes(brand.KeitaroGoBigID) && !salesCampaignIds.includes(brand.KeitaroR2dID));
                 }
-                // Гарантируем хотя бы 24
+                console.log("После фильтра sales:", finalFilteredBrands);
+                // 4) Если меньше 5, пытаемся добрать из data
                 if (finalFilteredBrands.length < 5) {
                     const needed = 5 - finalFilteredBrands.length;
                     const usedBrands = new Set(finalFilteredBrands.map((b)=>b.CasinoBrand));
-                    let additional = data.filter((brand)=>!usedBrands.has(brand.CasinoBrand) && !(salesCampaignIds.includes(brand.KeitaroGoBigID) || salesCampaignIds.includes(brand.KeitaroR2dID)));
+                    let additional = data.filter((brand)=>{
+                        const bName = brand.CasinoBrand || "";
+                        return !usedBrands.has(bName) && !salesCampaignIds.includes(brand.KeitaroGoBigID) && !salesCampaignIds.includes(brand.KeitaroR2dID);
+                    });
                     if (additional.length > 0) {
                         finalFilteredBrands = finalFilteredBrands.concat(additional.slice(0, needed));
                     }
                 }
-                if (finalFilteredBrands.length < 5) {
-                    finalFilteredBrands = data.slice(0, 5);
+                console.log("После добора до 5 (если нужно):", finalFilteredBrands);
+                // -------------------------------------------
+                // Теперь — логика про "9 брендов" из CUSTOM_BRANDS_POOL
+                // -------------------------------------------
+                // A) Считываем excludedBrands
+                let excludedArr = [];
+                const excludedRaw = localStorage.getItem("excludedBrands");
+                if (excludedRaw) {
+                    try {
+                        excludedArr = JSON.parse(excludedRaw);
+                    } catch (e) {
+                        excludedArr = [];
+                    }
                 }
-                // Проверяем присутствие приоритетных
-                const ensureBrandInList = (brandName)=>{
-                    const existsInFinal = finalFilteredBrands.some((b)=>(b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase());
-                    if (!existsInFinal) {
-                        const fromData = data.find((b)=>(b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase());
-                        if (fromData) {
-                            finalFilteredBrands.push(fromData);
-                        }
+                console.log("excludedBrands из localStorage:", excludedArr);
+                // B) Формируем объекты из 9 нужных названий
+                //    Сначала ищем бренд в finalFilteredBrands => если нет, ищем в data => иначе заглушка
+                let bigPool = CUSTOM_BRANDS_POOL.map((desiredName)=>{
+                    // ищем по toLowerCase (как пример)
+                    let brandObj = finalFilteredBrands.find((b)=>(b.CasinoBrand || "").toLowerCase() === desiredName.toLowerCase());
+                    if (!brandObj) {
+                        // пробуем в общем data
+                        brandObj = data.find((b)=>(b.CasinoBrand || "").toLowerCase() === desiredName.toLowerCase());
                     }
-                };
-                priorityBrands.forEach((brandName)=>ensureBrandInList(brandName));
-                // Перестановка приоритетных
-                const moveBrandToIndex = (array, brandName, targetIndex)=>{
-                    const index = array.findIndex((b)=>(b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase());
-                    if (index > -1 && index !== targetIndex) {
-                        const [brandObj] = array.splice(index, 1);
-                        if (targetIndex >= array.length) {
-                            array.push(brandObj);
-                        } else {
-                            array.splice(targetIndex, 0, brandObj);
-                        }
+                    if (!brandObj) {
+                        // заглушка
+                        brandObj = {
+                            CasinoBrand: desiredName,
+                            GoBig: "#",
+                            OurOfferContent: "Special Offer"
+                        };
                     }
-                };
-                moveBrandToIndex(finalFilteredBrands, "Blockbets", 0);
-                moveBrandToIndex(finalFilteredBrands, "Spinjo", 1);
-                moveBrandToIndex(finalFilteredBrands, "FairSpin", 2);
-                moveBrandToIndex(finalFilteredBrands, "LuckyChoo", 3);
-                moveBrandToIndex(finalFilteredBrands, "FairPari", 4);
-                moveBrandToIndex(finalFilteredBrands, "Winbay", 5);
-                finalFilteredBrands = finalFilteredBrands.slice(0, 5);
-                setBrands(finalFilteredBrands);
-                setLoading(false);
-            } catch (error) {
-                console.error("Ошибка при получении данных:", error);
-                // fallback (если ошибка)
-                let fallbackBrands = data.slice(0, 24);
-                priorityBrands.forEach((brandName)=>{
-                    const inFallback = fallbackBrands.some((b)=>(b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase());
-                    if (!inFallback) {
-                        const fromData = data.find((b)=>(b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase());
-                        if (fromData) {
-                            fallbackBrands.push(fromData);
-                        }
-                    }
+                    return brandObj;
                 });
-                const moveBrandToIndex = (array, brandName, targetIndex)=>{
-                    const index = array.findIndex((b)=>(b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase());
-                    if (index > -1 && index !== targetIndex) {
-                        const [brandObj] = array.splice(index, 1);
-                        if (targetIndex >= array.length) {
-                            array.push(brandObj);
-                        } else {
-                            array.splice(targetIndex, 0, brandObj);
+                console.log("Сформированный bigPool из 9:", bigPool);
+                // C) Исключаем из bigPool бренды, которые в excludedArr (активировали в прошлом)
+                bigPool = bigPool.filter((b)=>{
+                    const bName = (b.CasinoBrand || "").toLowerCase();
+                    return !excludedArr.includes(bName);
+                });
+                console.log("bigPool после исключения прошлых:", bigPool);
+                // D) Если сегодня уже активировали бренд (activatedBrandToday), принудительно добавим его
+                if (activatedBrandToday) {
+                    const lowerActive = activatedBrandToday.toLowerCase();
+                    const isInPool = bigPool.some((b)=>(b.CasinoBrand || "").toLowerCase() === lowerActive);
+                    if (!isInPool) {
+                        // Ищем в data
+                        let activeObj = data.find((b)=>(b.CasinoBrand || "").toLowerCase() === lowerActive) || finalFilteredBrands.find((b)=>(b.CasinoBrand || "").toLowerCase() === lowerActive);
+                        if (!activeObj) {
+                            // тоже заглушка
+                            activeObj = {
+                                CasinoBrand: activatedBrandToday,
+                                GoBig: "#",
+                                OurOfferContent: "Special Offer"
+                            };
                         }
+                        bigPool.push(activeObj);
+                        console.log("Добавили активированный бренд:", activeObj);
                     }
-                };
-                moveBrandToIndex(fallbackBrands, "Blockbets", 0);
-                moveBrandToIndex(fallbackBrands, "Spinjo", 1);
-                moveBrandToIndex(fallbackBrands, "FairSpin", 2);
-                moveBrandToIndex(fallbackBrands, "LuckyChoo", 3);
-                moveBrandToIndex(fallbackBrands, "FairPari", 4);
-                moveBrandToIndex(fallbackBrands, "Winbay", 5);
-                fallbackBrands = fallbackBrands.slice(0, 5);
-                setBrands(fallbackBrands);
+                }
+                console.log("bigPool после проверки сегодня-активированного:", bigPool);
+                // E) Перемешаем bigPool
+                function shuffleArray(arr) {
+                    const array = [
+                        ...arr
+                    ];
+                    for(let i = array.length - 1; i > 0; i--){
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [array[i], array[j]] = [
+                            array[j],
+                            array[i]
+                        ];
+                    }
+                    return array;
+                }
+                let shuffled = shuffleArray(bigPool);
+                console.log("shuffled bigPool:", shuffled);
+                // F) обрежем до 9 (на случай, если вдруг набралось больше)
+                shuffled = shuffled.slice(0, 9);
+                // G) из shuffled берём первые 5 для отображения
+                const finalFive = shuffled.slice(0, 5);
+                console.log("Итоговые 5 брендов для рендера:", finalFive);
+                setBrands(finalFive);
+                setLoading(false);
+            } catch (err) {
+                console.error("Ошибка при получении данных:", err);
                 setLoading(false);
             }
-        };
-        fetchUserBrands();
+        })();
     }, [
         data,
         userId,
-        categoryBrands.key1,
-        categoryBrands.key2,
-        categoryBrands2.key1,
-        categoryBrands2.key2
+        activatedBrandToday
     ]);
-    // Пример автопереключения карусели
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        const interval = setInterval(()=>{
-            setFade(false);
-            setTimeout(()=>{
-                setCurrentBrandIndex((prevIndex)=>(prevIndex + 24) % brands.length);
-                setFade(true);
-            }, 500);
-        }, 5000000);
-        return ()=>clearInterval(interval);
-    }, [
-        brands.length
-    ]);
-    // Функция для получения текущей даты в формате YYYY-MM-DD
-    const getTodayDateString = ()=>{
-        return new Date().toISOString().split("T")[0];
-    };
-    // Когда пользователь жмёт «Activate»
+    // ---------------------------------------------
+    // 5) Клик «Activate»
+    // ---------------------------------------------
     const handleActivate = (index)=>{
         const today = getTodayDateString();
         if (lastActivationDate === today) {
@@ -3323,9 +3352,32 @@ function Brands_carousel() {
         }
         setActivatedCardIndex(index);
         setLastActivationDate(today);
+        const brand = brands[index];
+        const brandName = (brand?.CasinoBrand || "").trim();
         localStorage.setItem("activatedCardIndex", index);
         localStorage.setItem("lastActivationDate", today);
+        localStorage.setItem("activatedBrandToday", brandName);
+        setActivatedBrandToday(brandName);
+        // Запишем в excludedBrands, чтобы завтра он не появился
+        let excludedRaw = localStorage.getItem("excludedBrands");
+        let excludedArr = [];
+        if (excludedRaw) {
+            try {
+                excludedArr = JSON.parse(excludedRaw);
+            } catch  {
+                excludedArr = [];
+            }
+        }
+        const lowerName = brandName.toLowerCase();
+        if (!excludedArr.includes(lowerName)) {
+            excludedArr.push(lowerName);
+        }
+        localStorage.setItem("excludedBrands", JSON.stringify(excludedArr));
+        console.log("Активировали бренд:", brandName, " => excludedArr:", excludedArr);
     };
+    // ---------------------------------------------
+    // Рендер
+    // ---------------------------------------------
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             id: "advent",
@@ -3334,7 +3386,7 @@ function Brands_carousel() {
                 className: "main__container advnt",
                 children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                    lineNumber: 351,
+                    lineNumber: 381,
                     columnNumber: 13
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     children: [
@@ -3343,7 +3395,7 @@ function Brands_carousel() {
                             children: t("Secrets of the Red Envelope: Open and Discover Your Luck!")
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                            lineNumber: 354,
+                            lineNumber: 384,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3351,20 +3403,16 @@ function Brands_carousel() {
                             children: t("Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!")
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                            lineNumber: 357,
+                            lineNumber: 387,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "w-full brand_carousel rounded-md flex justify-between items-center flex-wrap mt-16",
                             children: [
                                 brands.map((rowData, index)=>{
-                                    // Определяем, была ли карточка активирована сегодня
-                                    const isActivated = activatedCardIndex === index;
-                                    const isActivatedToday = lastActivationDate === getTodayDateString();
-                                    // Определяем состояние карточки
-                                    let cardState;
-                                    if (isActivated && isActivatedToday) cardState = "activate";
-                                    else cardState = "closed"; // Все остальные карточки закрыты
+                                    // Проверяем, активирована ли карточка сегодня
+                                    const isActivatedToday = lastActivationDate === getTodayDateString() && activatedCardIndex === index;
+                                    const cardState = isActivatedToday ? "activate" : "closed";
                                     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: `card-advent rounded-xl flex flex-col justify-between basis-[19%] relative mt-16 ${cardState}`,
                                         children: [
@@ -3373,7 +3421,7 @@ function Brands_carousel() {
                                                 children: index + 1
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                lineNumber: 380,
+                                                lineNumber: 407,
                                                 columnNumber: 23
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3382,12 +3430,13 @@ function Brands_carousel() {
                                                     className: "mx-auto max-w-2xl lg:mx-0 flex flex-row card-sl",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "w-full",
-                                                        children: isActivated && isActivatedToday ? // Карточка активирована
+                                                        children: isActivatedToday ? // Карточка «открыта»
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex flex-col items-center",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                     className: "mt-3 mb-2",
+                                                                    // Важно: используем ваш newUrl
                                                                     href: `${rowData.GoBig || "#"}/${newUrl}&creative_id=Everyday_Advent`,
                                                                     target: "_blank",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3398,12 +3447,12 @@ function Brands_carousel() {
                                                                         loading: "lazy"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                        lineNumber: 392,
+                                                                        lineNumber: 420,
                                                                         columnNumber: 35
                                                                     }, this)
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 387,
+                                                                    lineNumber: 414,
                                                                     columnNumber: 33
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3411,7 +3460,7 @@ function Brands_carousel() {
                                                                     children: rowData.OurOfferContent || "Offer details..."
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 400,
+                                                                    lineNumber: 428,
                                                                     columnNumber: 33
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -3421,15 +3470,15 @@ function Brands_carousel() {
                                                                     children: t("Play Now")
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 403,
+                                                                    lineNumber: 431,
                                                                     columnNumber: 33
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                            lineNumber: 386,
+                                                            lineNumber: 413,
                                                             columnNumber: 31
-                                                        }, this) : // Карточка не активирована
+                                                        }, this) : // Карточка «закрыта»
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             className: "flex flex-col items-center",
                                                             children: [
@@ -3437,7 +3486,7 @@ function Brands_carousel() {
                                                                     className: "mt-3 mb-2 nonoact"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 414,
+                                                                    lineNumber: 442,
                                                                     columnNumber: 33
                                                                 }, this),
                                                                 lastActivationDate === getTodayDateString() ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3445,14 +3494,14 @@ function Brands_carousel() {
                                                                     children: t("You have activated a card today")
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 416,
+                                                                    lineNumber: 444,
                                                                     columnNumber: 35
                                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     className: "!m-0",
                                                                     children: t("Ready to Activate")
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 420,
+                                                                    lineNumber: 448,
                                                                     columnNumber: 35
                                                                 }, this),
                                                                 lastActivationDate === getTodayDateString() ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -3461,7 +3510,7 @@ function Brands_carousel() {
                                                                     children: t("Not Yet")
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 425,
+                                                                    lineNumber: 453,
                                                                     columnNumber: 35
                                                                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                                     className: "relative btn-play btn-blick overflow-hidden",
@@ -3469,34 +3518,34 @@ function Brands_carousel() {
                                                                     children: t("Activate")
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                                    lineNumber: 432,
+                                                                    lineNumber: 460,
                                                                     columnNumber: 35
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                            lineNumber: 413,
+                                                            lineNumber: 441,
                                                             columnNumber: 31
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                        lineNumber: 383,
+                                                        lineNumber: 410,
                                                         columnNumber: 27
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                    lineNumber: 382,
+                                                    lineNumber: 409,
                                                     columnNumber: 25
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                                lineNumber: 381,
+                                                lineNumber: 408,
                                                 columnNumber: 23
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                        lineNumber: 376,
+                                        lineNumber: 403,
                                         columnNumber: 21
                                     }, this);
                                 }),
@@ -3505,29 +3554,29 @@ function Brands_carousel() {
                                     children: t("No Brands Available")
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                                    lineNumber: 449,
+                                    lineNumber: 477,
                                     columnNumber: 19
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                            lineNumber: 364,
+                            lineNumber: 393,
                             columnNumber: 15
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                    lineNumber: 353,
+                    lineNumber: 383,
                     columnNumber: 13
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-                lineNumber: 349,
+                lineNumber: 379,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
-            lineNumber: 348,
+            lineNumber: 378,
             columnNumber: 7
         }, this)
     }, void 0, false);
