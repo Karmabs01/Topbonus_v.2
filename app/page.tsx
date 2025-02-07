@@ -4,6 +4,8 @@ import TopBrands from "@/components/Banners_tailwind/TopBrands";
 import TopBrandsRandom from "@/components/TopBrandsRandom";
 import Banner_small from "@/components/Banners_tailwind/Banner_small";
 import Banner_small_vip from "@/components/Banners_tailwind/Banner_small_vip";
+import Wheel from "@/components/Banners_tailwind/Wheel";
+
 
 // import Brands_carousel from "@/components/Banners_tailwind/Brands_carousel";
 import Brand_carousel_mobile from "@/components/Banners_tailwind/Brands_carousel_mobile";
@@ -39,6 +41,8 @@ export default async function Home() {
     <>
       <BasicModal />
       <Three_part_gallery />
+      <Wheel />
+
       <Advent />
       <TopBrands />
       <Banner_small />
