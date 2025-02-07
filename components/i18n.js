@@ -837,6 +837,12 @@ async function initializeI18n() {
 
         "You have activated a card today": "You have activated a card today",
         Festive: "Festive",
+
+        "Valentine’s Bonus": "Valentine’s Bonus",
+        "A Special": "A Special",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?",
+        "Cupid Spins": "Cupid Spins",
+        "Your Fortune!": "Your Fortune!",
       },
     },
 

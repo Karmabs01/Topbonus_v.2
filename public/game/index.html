@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      body {
+        background: transparent;
+        padding: 0px;
+        margin: 0px auto;
+        max-width: 1260px;
+      }
+      canvas {
+        display: block;
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: transparent;
+      }
+    </style>
+    <script>
+      window.onload = function () {
+        var gameConfig = {
+          type: Phaser.WEBGL,
+          width: 1537,
+          height: 1537,
+          transparent: true, // Убираем фон
+          scene: [FortuneWheel],
+        };
+
+        fortuneWheelGame = new Phaser.Game(gameConfig);
+
+        setTimeout(() => {
+          if (fortuneWheelGame.canvas) {
+            fortuneWheelGame.canvas.style.touchAction = "auto";
+            fortuneWheelGame.canvas.style.msTouchAction = "auto";
+          }
+        }, 100);
+
+        fortuneWheelGame.input.mouse.preventDefaultWheel = false;
+      };
+      window.addEventListener(
+        "wheel",
+        (e) => {
+          // Прокручиваем родительский документ на величину дельты прокрутки
+          // Можно добавить дополнительные проверки, если нужно различать направления и скорость
+          parent.window.scrollBy(0, e.deltaY);
+          // Не вызываем e.preventDefault(), чтобы стандартное поведение не было подавлено
+        },
+        { passive: true }
+      );
+    </script>
+    <script src="js/phaser.js"></script>
+  </head>
+  <body>
+    <script src="pink/js/wheel_config_6.js"></script>
+    <script src="js/animCoins.js"></script>
+    <script src="js/wheelGame.js"></script>
+  </body>
+</html>

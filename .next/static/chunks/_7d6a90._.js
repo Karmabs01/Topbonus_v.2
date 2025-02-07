@@ -646,7 +646,13 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!",
                 "You have activated a card today": "You have activated a card today",
-                Festive: "Festive"
+                Festive: "Festive",
+                "Valentine’s Bonus": "Valentine’s Bonus",
+                "A Special": "",
+                "": "",
+                "": "",
+                "": "",
+                "": ""
             }
         },
         pl: {

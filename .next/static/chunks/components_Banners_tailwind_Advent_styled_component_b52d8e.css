@@ -234,4 +234,10 @@
   }
 }
 
+.advnt > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*# sourceMappingURL=components_Banners_tailwind_Advent_styled_component_b52d8e.css.map*/

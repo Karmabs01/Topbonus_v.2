@@ -15,9 +15,10 @@ import Random_dice from "@/components/Banners_tailwind/Random_dice";
 import Jackpot_banner from "@/components/Banners_tailwind/Jackpot_banner";
 import Next_event_banner from "@/components/Banners_tailwind/Next_event_banner";
 import Three_part_gallery from "@/components/Banners_tailwind/Three_part_gallery";
+import Wheel from "@/components/Banners_tailwind/Wheel";
+
 import Fortune_wheel from "@/components/Banners_tailwind/Fortune_wheel_banner";
 import Advent from "@/components/Banners_tailwind/Advent";
-
 
 import FilteredHome from "@/components/Brands_home/FilteredHome";
 import Fortunes from "@/components/fortune";
@@ -39,6 +40,8 @@ export default async function Home() {
     <>
       <BasicModal />
       <Three_part_gallery />
+      <Wheel />
+
       <Advent />
       <TopBrands />
       <Banner_small />
@@ -46,7 +49,6 @@ export default async function Home() {
       <Next_event_banner />
 
       <Banner_small_vip />
-  
     </>
   );
 }
