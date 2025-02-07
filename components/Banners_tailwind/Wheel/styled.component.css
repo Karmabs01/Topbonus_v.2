@@ -10,13 +10,13 @@
   font-size: 20px;
 }
 .wheel .custom-modal {
-    position: relative;
-    max-width: 391px;
-    padding: 60px 45px 15px;
-    background: url(/newimages/modal18.png) no-repeat top center;
-    background-size: cover;
-    border-radius: 30px;
-    border: 3px inset rgba(232, 19, 150, 0.715);
+  position: relative;
+  max-width: 391px;
+  padding: 60px 45px 15px;
+  background: url(/newimages/modal18.png) no-repeat top center;
+  background-size: cover;
+  border-radius: 30px;
+  border: 3px inset rgba(232, 19, 150, 0.715);
 }
 .wheel .custom-modal h3 {
   color: #fff;
@@ -47,14 +47,19 @@
   color: #fff !important;
 }
 .wheel .btn-new::after {
-
   background: url(/newimages/btnPrr.png) center no-repeat;
 }
 .iframeb {
   width: 700px;
   height: 700px;
 }
-@media(min-width: 320px) and (max-width: 1259px) {
+@media (min-width: 1260px) and (max-width: 5000px) {
+  .wheel {
+    margin-top: -80px;
+    margin-bottom: -80px;
+  }
+}
+@media (min-width: 320px) and (max-width: 1259px) {
   .iframeb {
     width: 500px;
     height: 500px;

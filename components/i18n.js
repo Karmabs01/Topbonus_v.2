@@ -840,7 +840,8 @@ async function initializeI18n() {
 
         "Valentine’s Bonus": "Valentine’s Bonus",
         "A Special": "A Special",
-        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?",
         "Cupid Spins": "Cupid Spins",
         "Your Fortune!": "Your Fortune!",
       },
@@ -1463,6 +1464,13 @@ async function initializeI18n() {
 
         "You have activated a card today": "Dziś aktywowałeś kartę",
         Festive: "Świątecznych",
+
+        "Valentine’s Bonus": "Walentynkowy Bonus",
+        "A Special": "Specjalna Oferta",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "Koło Miłości zdecyduje o Twoim losie! Zakręć nim i odkryj, która marka kasyna jest Twoim prawdziwym dopasowaniem. Czy szczęście będzie Twoją Walentynką w tym roku?",
+        "Cupid Spins": "Amorkowe Obroty",
+        "Your Fortune!": "Twoja Fortuna!",
       },
     },
     de: {
@@ -2085,6 +2093,13 @@ async function initializeI18n() {
         "You have activated a card today":
           "Sie haben heute eine Karte aktiviert",
         Festive: "Festliche",
+
+        "Valentine’s Bonus": "Valentinsbonus",
+        "A Special": "Eine besondere Aktion",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "Das Rad der Liebe entscheidet über dein Schicksal! Dreh es und finde heraus, welche Casino-Marke dein perfektes Match ist. Wird das Glück dein Valentin dieses Jahr?",
+        "Cupid Spins": "Amor-Drehungen",
+        "Your Fortune!": "Dein Schicksal!",
       },
     },
     bg: {
@@ -2697,6 +2712,13 @@ async function initializeI18n() {
 
         "You have activated a card today": "Днес активирахте карта",
         Festive: "Празнични",
+
+        "Valentine’s Bonus": "Валентински бонус",
+        "A Special": "Специална оферта",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "Колелото на любовта ще реши съдбата ти! Завърти го и открий коя казино марка е твоето истинско съвпадение. Ще бъде ли късметът твоята валентинка тази година?",
+        "Cupid Spins": "Купидонови завъртания",
+        "Your Fortune!": "Твоята съдба!",
       },
     },
     cz: {
@@ -3308,6 +3330,13 @@ async function initializeI18n() {
 
         "You have activated a card today": "Dnes jste aktivovali kartu",
         Festive: "Svátečních",
+
+        "Valentine’s Bonus": "Valentýnský bonus",
+        "A Special": "Speciální nabídka",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "Kolo lásky rozhodne o tvém osudu! Roztoč ho a zjisti, která značka kasina je tvým pravým partnerem. Bude letos štěstí tvou Valentýnou?",
+        "Cupid Spins": "Amorovy otočky",
+        "Your Fortune!": "Tvé štěstí!",
       },
     },
     dk: {
@@ -3920,6 +3949,13 @@ async function initializeI18n() {
 
         "You have activated a card today": "Du har aktiveret et kort i dag",
         Festive: "Festlige",
+
+        "Valentine’s Bonus": "Valentinsbonus",
+        "A Special": "En særlig tilbud",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "Kærlighedens hjul bestemmer din skæbne! Giv det et spin og opdag, hvilken casinobrand der er dit perfekte match. Vil heldet være din Valentine i år?",
+        "Cupid Spins": "Amor Spins",
+        "Your Fortune!": "Din skæbne!",
       },
     },
     nl: {
@@ -4537,6 +4573,13 @@ async function initializeI18n() {
         "You have activated a card today":
           "Je hebt vandaag een kaart geactiveerd",
         Festive: "Feestelijke",
+
+        "Valentine’s Bonus": "Valentijnsbonus",
+        "A Special": "Een speciale aanbieding",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "Het Rad van de Liefde bepaalt je lot! Draai eraan en ontdek welk casinobedrijf jouw perfecte match is. Zal geluk jouw Valentijn zijn dit jaar?",
+        "Cupid Spins": "Cupido Spins",
+        "Your Fortune!": "Jouw fortuin!",
       },
     },
     es: {
@@ -5152,6 +5195,13 @@ async function initializeI18n() {
 
         "You have activated a card today": "Has activado una tarjeta hoy",
         Festive: "Festivos",
+
+        "Valentine’s Bonus": "Bono de San Valentín",
+        "A Special": "Una oferta especial",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "¡La Rueda del Amor decidirá tu destino! Gírala y descubre qué marca de casino es tu pareja ideal. ¿Será la suerte tu San Valentín este año?",
+        "Cupid Spins": "Giros de Cupido",
+        "Your Fortune!": "¡Tu fortuna!",
       },
     },
     fi: {
@@ -5763,6 +5813,13 @@ async function initializeI18n() {
 
         "You have activated a card today": "Olet aktivoinut kortin tänään",
         Festive: "Juhlavaa",
+
+        "Valentine’s Bonus": "Ystävänpäiväbonus",
+        "A Special": "Erityinen tarjous",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "Rakkauden pyörä päättää kohtalosi! Pyöräytä sitä ja löydä, mikä kasinobrändi on todellinen parisi. Onko onni sinun ystävänpäiväkumppanisi tänä vuonna?",
+        "Cupid Spins": "Cupidon kierrokset",
+        "Your Fortune!": "Sinun kohtalosi!",
       },
     },
     fr: {
@@ -6381,6 +6438,13 @@ async function initializeI18n() {
         "You have activated a card today":
           "Vous avez activé une carte aujourd'hui",
         Festive: "Festifs",
+
+        "Valentine’s Bonus": "Bonus de la Saint-Valentin",
+        "A Special": "Une offre spéciale",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "La Roue de l'Amour décidera de ton destin ! Fais-la tourner et découvre quelle marque de casino est ton véritable match. La chance sera-t-elle ton Valentin cette année ?",
+        "Cupid Spins": "Tours de Cupidon",
+        "Your Fortune!": "Ta fortune !",
       },
     },
 
@@ -6995,6 +7059,13 @@ async function initializeI18n() {
         "You have activated a card today":
           "Έχετε ενεργοποιήσει μια κάρτα σήμερα",
         Festive: "Γιορτινά",
+
+        "Valentine’s Bonus": "Μπόνους Αγίου Βαλεντίνου",
+        "A Special": "Μια ειδική προσφορά",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "Ο Τροχός της Αγάπης θα αποφασίσει τη μοίρα σου! Γύρισέ τον και ανακάλυψε ποιο καζίνο είναι το ιδανικό σου ταίρι. Θα είναι η τύχη ο Βαλεντίνος σου φέτος;",
+        "Cupid Spins": "Περιστροφές του Έρωτα",
+        "Your Fortune!": "Η τύχη σου!",
       },
     },
     hu: {
@@ -7608,6 +7679,13 @@ async function initializeI18n() {
 
         "You have activated a card today": "Ma aktiváltál egy kártyát",
         Festive: "Ünnepi",
+
+        "Valentine’s Bonus": "Valentin-napi bónusz",
+        "A Special": "Különleges ajánlat",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "A Szerelem kereke dönt a sorsodról! Pörgess egyet, és fedezd fel, melyik kaszinómárka a tökéletes párod. Vajon a szerencse lesz az idei Valentinod?",
+        "Cupid Spins": "Amor pörgetések",
+        "Your Fortune!": "A te szerencséd!",
       },
     },
     it: {
@@ -8224,6 +8302,13 @@ async function initializeI18n() {
 
         "You have activated a card today": "Hai attivato una carta oggi",
         Festive: "Festivi",
+
+        "Valentine’s Bonus": "Bonus di San Valentino",
+        "A Special": "Un'offerta speciale",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "La Ruota dell'Amore deciderà il tuo destino! Falla girare e scopri quale marchio di casinò è la tua vera anima gemella. La fortuna sarà il tuo Valentino quest'anno?",
+        "Cupid Spins": "Giri di Cupido",
+        "Your Fortune!": "La tua fortuna!",
       },
     },
     no: {
@@ -8838,6 +8923,13 @@ async function initializeI18n() {
 
         "You have activated a card today": "Du har aktivert et kort i dag",
         Festive: "Festlige",
+
+        "Valentine’s Bonus": "Valentinsbonus",
+        "A Special": "Et spesielt tilbud",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "Kjærlighetens hjul avgjør skjebnen din! Snurr det og oppdag hvilken casinomerke som er din perfekte match. Vil lykken være din Valentin i år?",
+        "Cupid Spins": "Amor-spinn",
+        "Your Fortune!": "Din formue!",
       },
     },
     pt: {
@@ -9453,6 +9545,13 @@ async function initializeI18n() {
 
         "You have activated a card today": "Você ativou um cartão hoje",
         Festive: "Festivos",
+
+        "Valentine’s Bonus": "Bônus de Dia dos Namorados",
+        "A Special": "Uma oferta especial",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "A Roda do Amor decidirá o seu destino! Gire-a e descubra qual marca de cassino é a sua combinação perfeita. A sorte será o seu par neste Dia dos Namorados?",
+        "Cupid Spins": "Giros do Cupido",
+        "Your Fortune!": "Sua fortuna!",
       },
     },
     se: {
@@ -10066,6 +10165,13 @@ async function initializeI18n() {
 
         "You have activated a card today": "Du har aktiverat ett kort idag",
         Festive: "Festliga",
+
+        "Valentine’s Bonus": "Alla hjärtans dag-bonus",
+        "A Special": "Ett speciellt erbjudande",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "Kärlekens hjul avgör ditt öde! Snurra det och upptäck vilket casinovarumärke som är din perfekta match. Kommer turen att vara din Valentin i år?",
+        "Cupid Spins": "Amor-snurr",
+        "Your Fortune!": "Din lycka!",
       },
     },
     sk: {
@@ -10678,6 +10784,13 @@ async function initializeI18n() {
 
         "You have activated a card today": "Dnes ste aktivovali kartu",
         Festive: "Sviatočných",
+
+        "Valentine’s Bonus": "Valentínsky bonus",
+        "A Special": "Špeciálna ponuka",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "Koleso lásky rozhodne o tvojom osude! Roztoč ho a zisti, ktorá značka kasína je tvoja pravá zhoda. Bude šťastie tvojím Valentínom tento rok?",
+        "Cupid Spins": "Amorove točenia",
+        "Your Fortune!": "Tvoje šťastie!",
       },
     },
     tr: {
@@ -11290,6 +11403,12 @@ async function initializeI18n() {
 
         "You have activated a card today": "Bugün bir kart etkinleştirdiniz",
         Festive: "Şenlikli",
+        "Valentine’s Bonus": "Sevgililer Günü Bonusu",
+        "A Special": "Özel bir teklif",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "Aşk Çarkı kaderini belirleyecek! Çevir ve hangi casino markasının senin için en uygun eşleşme olduğunu keşfet. Bu yıl şans senin sevgilin olacak mı?",
+        "Cupid Spins": "Aşk Tanrısı Çevirmeleri",
+        "Your Fortune!": "Senin Kaderin!",
       },
     },
 
@@ -11895,6 +12014,13 @@ async function initializeI18n() {
 
         "You have activated a card today": "आपने आज एक कार्ड सक्रिय किया है",
         Festive: "उत्सवी",
+
+        "Valentine’s Bonus": "वैलेंटाइन बोनस",
+        "A Special": "एक विशेष ऑफर",
+        "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?":
+          "प्रेम का पहिया आपके भाग्य का फैसला करेगा! इसे घुमाइए और पता लगाइए कि कौन सा कैसीनो ब्रांड आपका सच्चा मेल है। क्या इस साल भाग्य आपका वैलेंटाइन बनेगा?",
+        "Cupid Spins": "क्यूपिड स्पिन्स",
+        "Your Fortune!": "आपकी किस्मत!",
       },
     },
   };
