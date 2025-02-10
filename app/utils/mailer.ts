@@ -18,7 +18,7 @@ export const sendEmail = async (to: string, subject: string, text: string) => {
   console.log(`Trying to send email to ${to} with subject "${subject}"`);
 
   const mailOptions = {
-    from: `"Topbonus" <info@bubenbot.com>`, // Отправитель
+    from: `"Topbonus" <info@friendlybonuses.com>`, // Отправитель
     to, // Получатель
     subject, // Тема письма
     text, // Текст письма

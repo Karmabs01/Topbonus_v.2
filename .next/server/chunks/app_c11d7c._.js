@@ -25,7 +25,7 @@ const transporter = __TURBOPACK__imported__module__$5b$project$5d2f$node_modules
 const sendEmail = async (to, subject, text)=>{
     console.log(`Trying to send email to ${to} with subject "${subject}"`);
     const mailOptions = {
-        from: `"Topbonus" <info@bubenbot.com>`,
+        from: `"Topbonus" <info@friendlybonuses.com>`,
         to,
         subject,
         text
