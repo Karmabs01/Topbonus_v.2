@@ -78,9 +78,11 @@ __turbopack_esm__({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js [app-ssr] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/navigation.js [app-ssr] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Otp$2f$index$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/Otp/index.tsx [app-ssr] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 'use client';
+;
 ;
 ;
 ;
@@ -88,79 +90,78 @@ const OtpContext = /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$
 const OtpProvider = ({ children })=>{
     const [isModalOpen, setIsModalOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     const [isAuthorized, setIsAuthorized] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
+    const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
     const openModal = ()=>setIsModalOpen(true);
     const closeModal = ()=>setIsModalOpen(false);
-    // Пример проверки localStorage при монтировании
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        const data = localStorage.getItem('authorized');
-        if (data) {
+    // Функция для проверки статуса авторизации из localStorage
+    const checkAuthorization = ()=>{
+        const authString = localStorage.getItem('authorized');
+        console.log('Check Authorization:', authString);
+        if (authString) {
             try {
-                const { email, otpVerified } = JSON.parse(data);
-                setIsAuthorized(Boolean(email && otpVerified));
-            } catch  {
+                const auth = JSON.parse(authString);
+                // Предположим, что пользователь авторизован, если есть email и otpVerified === true
+                const authorized = auth.email && auth.otpVerified === true;
+                setIsAuthorized(authorized);
+                console.log('Authorization status:', authorized);
+            } catch (error) {
+                console.error('Error parsing authorized from localStorage:', error);
                 setIsAuthorized(false);
             }
+        } else {
+            setIsAuthorized(false);
+            console.log('No authorized data in localStorage.');
         }
-    }, []);
-    // Глобальное делегирование кликов на ссылки
+    };
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        if (!isAuthorized) {
-            const handleGlobalLinkClick = (e)=>{
-                // Ищем ближайший <a> в цепочке события
-                const target = e.target;
-                const linkEl = target.closest('a');
-                // Если клик действительно по ссылке (<a>),
-                // и пользователь не авторизован
-                if (linkEl && linkEl instanceof HTMLAnchorElement) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    // Открываем твою OTP-модалку
-                    openModal();
-                }
-            };
-            // Добавляем слушатель кликов (capture=true, чтобы успеть перехватить до перехода)
-            document.addEventListener('click', handleGlobalLinkClick, true);
-            return ()=>{
-                document.removeEventListener('click', handleGlobalLinkClick, true);
-            };
-        }
+        // Проверяем статус авторизации при монтировании компонента
+        checkAuthorization();
+        // Слушаем изменения в localStorage
+        const handleStorageChange = (event)=>{
+            if (event.key === 'authorized') {
+                console.log('Storage event detected:', event);
+                checkAuthorization();
+            }
+        };
+        window.addEventListener('storage', handleStorageChange);
+        return ()=>{
+            window.removeEventListener('storage', handleStorageChange);
+        };
+    }, []);
+    // Новый useEffect для открытия модалки через 7 секунд после загрузки
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        // Устанавливаем таймер на 7 секунд
+        const timer = setTimeout(()=>{
+            if (!isAuthorized) {
+                console.log('User not authorized, opening modal after 7 seconds');
+                openModal();
+            } else {
+                console.log('User already authorized, modal will not open');
+            }
+        }, 7000); // 7000 миллисекунд = 7 секунд
+        // Очищаем таймер при размонтировании компонента
+        return ()=>clearTimeout(timer);
     }, [
         isAuthorized
     ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(OtpContext.Provider, {
         value: {
-            isAuthorized,
             openModal,
             closeModal
         },
         children: [
             children,
-            isModalOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                id: "otp-modal-root",
-                className: "fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 z-50",
-                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "bg-white p-4 rounded shadow-lg",
-                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Otp$2f$index$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        onClose: closeModal
-                    }, void 0, false, {
-                        fileName: "[project]/context/OtpContext.tsx",
-                        lineNumber: 71,
-                        columnNumber: 13
-                    }, this)
-                }, void 0, false, {
-                    fileName: "[project]/context/OtpContext.tsx",
-                    lineNumber: 70,
-                    columnNumber: 11
-                }, this)
+            isModalOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Otp$2f$index$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                onClose: closeModal
             }, void 0, false, {
                 fileName: "[project]/context/OtpContext.tsx",
-                lineNumber: 66,
-                columnNumber: 9
+                lineNumber: 81,
+                columnNumber: 23
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/context/OtpContext.tsx",
-        lineNumber: 62,
+        lineNumber: 79,
         columnNumber: 5
     }, this);
 };

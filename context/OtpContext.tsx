@@ -1,10 +1,10 @@
 'use client';
 
-import React, { createContext, useContext, useEffect, useState, ReactNode } from 'react';
+import React, { createContext, useContext, useState, ReactNode, useEffect } from 'react';
+import { useRouter } from 'next/navigation'; // Используем next/navigation вместо next/router
 import OtpModal from '@/components/Otp';
 
 type OtpContextType = {
-  isAuthorized: boolean;
   openModal: () => void;
   closeModal: () => void;
 };
@@ -13,69 +13,75 @@ const OtpContext = createContext<OtpContextType | undefined>(undefined);
 
 export const OtpProvider = ({ children }: { children: ReactNode }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isAuthorized, setIsAuthorized] = useState(false);
+  const [isAuthorized, setIsAuthorized] = useState<boolean>(false);
+  const router = useRouter();
 
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
 
-  // Пример проверки localStorage при монтировании
-  useEffect(() => {
-    const data = localStorage.getItem('authorized'); 
-    if (data) {
+  // Функция для проверки статуса авторизации из localStorage
+  const checkAuthorization = () => {
+    const authString = localStorage.getItem('authorized');
+    console.log('Check Authorization:', authString);
+    if (authString) {
       try {
-        const { email, otpVerified } = JSON.parse(data);
-        setIsAuthorized(Boolean(email && otpVerified));
-      } catch {
+        const auth = JSON.parse(authString);
+        // Предположим, что пользователь авторизован, если есть email и otpVerified === true
+        const authorized = auth.email && auth.otpVerified === true;
+        setIsAuthorized(authorized);
+        console.log('Authorization status:', authorized);
+      } catch (error) {
+        console.error('Error parsing authorized from localStorage:', error);
         setIsAuthorized(false);
       }
+    } else {
+      setIsAuthorized(false);
+      console.log('No authorized data in localStorage.');
     }
+  };
+
+  useEffect(() => {
+    // Проверяем статус авторизации при монтировании компонента
+    checkAuthorization();
+
+    // Слушаем изменения в localStorage
+    const handleStorageChange = (event: StorageEvent) => {
+      if (event.key === 'authorized') {
+        console.log('Storage event detected:', event);
+        checkAuthorization();
+      }
+    };
+
+    window.addEventListener('storage', handleStorageChange);
+
+    return () => {
+      window.removeEventListener('storage', handleStorageChange);
+    };
   }, []);
 
-  // Глобальное делегирование кликов на ссылки
+  // Новый useEffect для открытия модалки через 7 секунд после загрузки
   useEffect(() => {
-    if (!isAuthorized) {
-      const handleGlobalLinkClick = (e: MouseEvent) => {
-        // Ищем ближайший <a> в цепочке события
-        const target = e.target as HTMLElement;
-        const linkEl = target.closest('a');
+    // Устанавливаем таймер на 7 секунд
+    const timer = setTimeout(() => {
+      if (!isAuthorized) {
+        console.log('User not authorized, opening modal after 7 seconds');
+        openModal();
+      } else {
+        console.log('User already authorized, modal will not open');
+      }
+    }, 7000); // 7000 миллисекунд = 7 секунд
 
-        // Если клик действительно по ссылке (<a>),
-        // и пользователь не авторизован
-        if (linkEl && linkEl instanceof HTMLAnchorElement) {
-          e.preventDefault();
-          e.stopPropagation();
-          // Открываем твою OTP-модалку
-          openModal();
-        }
-      };
-
-      // Добавляем слушатель кликов (capture=true, чтобы успеть перехватить до перехода)
-      document.addEventListener('click', handleGlobalLinkClick, true);
-
-      return () => {
-        document.removeEventListener('click', handleGlobalLinkClick, true);
-      };
-    }
+    // Очищаем таймер при размонтировании компонента
+    return () => clearTimeout(timer);
   }, [isAuthorized]);
 
   return (
-    <OtpContext.Provider value={{ isAuthorized, openModal, closeModal }}>
+    <OtpContext.Provider value={{ openModal, closeModal }}>
       {children}
-
-      {isModalOpen && (
-        <div
-          id="otp-modal-root"
-          className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-50 z-50"
-        >
-          <div className="bg-white p-4 rounded shadow-lg">
-            <OtpModal onClose={closeModal} />
-          </div>
-        </div>
-      )}
+      {isModalOpen && <OtpModal onClose={closeModal} />}
     </OtpContext.Provider>
   );
 };
-
 
 export const useOtp = () => {
   const context = useContext(OtpContext);
