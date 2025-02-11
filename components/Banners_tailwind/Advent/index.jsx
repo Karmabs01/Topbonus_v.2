@@ -396,7 +396,6 @@ export default function Brands_carousel() {
                   const isActivatedToday =
                     lastActivationDate === getTodayDateString() &&
                     activatedCardIndex === index;
-
                   const cardState = isActivatedToday ? "activate" : "closed";
 
                   return (
