@@ -383,11 +383,11 @@ export default function Brands_carousel() {
           ) : (
             <div>
               <h2 className="text-3xl font-bold tracking-tight text-white random-title mb-3 text-center">
-                {t("Secrets of the Red Envelope: Open and Discover Your Luck!")}
+                {t("Valentine’s Day Special: Love & Luck!")}
               </h2>
               <p className="mb-3 text-center text-white">
                 {t(
-                  "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!"
+                  "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!"
                 )}
               </p>
 

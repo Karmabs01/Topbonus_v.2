@@ -648,10 +648,10 @@ async function initializeI18n() {
                 "You have activated a card today": "You have activated a card today",
                 Festive: "Festive",
                 "Valentine’s Bonus": "Valentine’s Bonus",
-                "A Special": "",
-                "": "",
-                "": "",
-                "": "",
+                "A Special": "A Special",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?",
+                "Cupid Spins": "Cupid Spins",
+                "Your Fortune!": "Your Fortune!",
                 "": ""
             }
         },
@@ -1078,7 +1078,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Każdego dnia wybierz jedną z czerwonych kopert, aby odkryć niespodziankę. Darmowe spiny, cashback lub ekskluzywne bonusy już na Ciebie czekają!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Poczuj magię sezonu z najgorętszymi markami kasyn – odkryj ekscytujące niespodzianki i świąteczne nagrody!",
                 "You have activated a card today": "Dziś aktywowałeś kartę",
-                Festive: "Świątecznych"
+                Festive: "Świątecznych",
+                "Valentine’s Bonus": "Walentynkowy Bonus",
+                "A Special": "Specjalna Oferta",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "Koło Miłości zdecyduje o Twoim losie! Zakręć nim i odkryj, która marka kasyna jest Twoim prawdziwym dopasowaniem. Czy szczęście będzie Twoją Walentynką w tym roku?",
+                "Cupid Spins": "Amorkowe Obroty",
+                "Your Fortune!": "Twoja Fortuna!"
             }
         },
         de: {
@@ -1505,7 +1510,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Jeden Tag wähle einen der roten Umschläge, um eine Überraschung zu enthüllen. Freispiele, Cashback oder exklusive Boni warten bereits auf dich!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Erleben Sie die Magie der Saison mit den heißesten Casino-Marken – entdecken Sie spannende Überraschungen und festliche Belohnungen!",
                 "You have activated a card today": "Sie haben heute eine Karte aktiviert",
-                Festive: "Festliche"
+                Festive: "Festliche",
+                "Valentine’s Bonus": "Valentinsbonus",
+                "A Special": "Eine besondere Aktion",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "Das Rad der Liebe entscheidet über dein Schicksal! Dreh es und finde heraus, welche Casino-Marke dein perfektes Match ist. Wird das Glück dein Valentin dieses Jahr?",
+                "Cupid Spins": "Amor-Drehungen",
+                "Your Fortune!": "Dein Schicksal!"
             }
         },
         bg: {
@@ -1931,7 +1941,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Всеки ден избери един от червените пликове, за да разкриеш изненада. Безплатни завъртания, кешбек или ексклузивни бонуси вече те очакват!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Почувствайте магията на сезона с най-горещите казино марки – разопаковайте вълнуващи изненади и празнични награди!",
                 "You have activated a card today": "Днес активирахте карта",
-                Festive: "Празнични"
+                Festive: "Празнични",
+                "Valentine’s Bonus": "Валентински бонус",
+                "A Special": "Специална оферта",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "Колелото на любовта ще реши съдбата ти! Завърти го и открий коя казино марка е твоето истинско съвпадение. Ще бъде ли късметът твоята валентинка тази година?",
+                "Cupid Spins": "Купидонови завъртания",
+                "Your Fortune!": "Твоята съдба!"
             }
         },
         cz: {
@@ -2357,7 +2372,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Každý den si vyber jednu z červených obálek a odhal překvapení. Volné spiny, cashback nebo exkluzivní bonusy na tebe už čekají!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Zažijte kouzlo sezóny s nejžhavějšími značkami kasin – odhalte vzrušující překvapení a sváteční odměny!",
                 "You have activated a card today": "Dnes jste aktivovali kartu",
-                Festive: "Svátečních"
+                Festive: "Svátečních",
+                "Valentine’s Bonus": "Valentýnský bonus",
+                "A Special": "Speciální nabídka",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "Kolo lásky rozhodne o tvém osudu! Roztoč ho a zjisti, která značka kasina je tvým pravým partnerem. Bude letos štěstí tvou Valentýnou?",
+                "Cupid Spins": "Amorovy otočky",
+                "Your Fortune!": "Tvé štěstí!"
             }
         },
         dk: {
@@ -2783,7 +2803,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Hver dag kan du vælge en af de røde kuverter for at afsløre en overraskelse. Gratis spins, cashback eller eksklusive bonusser venter allerede på dig!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Oplev sæsonens magi med de hotteste casinobrands – åbn spændende overraskelser og festlige belønninger!",
                 "You have activated a card today": "Du har aktiveret et kort i dag",
-                Festive: "Festlige"
+                Festive: "Festlige",
+                "Valentine’s Bonus": "Valentinsbonus",
+                "A Special": "En særlig tilbud",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "Kærlighedens hjul bestemmer din skæbne! Giv det et spin og opdag, hvilken casinobrand der er dit perfekte match. Vil heldet være din Valentine i år?",
+                "Cupid Spins": "Amor Spins",
+                "Your Fortune!": "Din skæbne!"
             }
         },
         nl: {
@@ -3209,7 +3234,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Kies elke dag een van de rode enveloppen om een verrassing te onthullen. Gratis spins, cashback of exclusieve bonussen wachten al op je!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Beleef de magie van het seizoen met de populairste casinomerken – ontdek spannende verrassingen en feestelijke beloningen!",
                 "You have activated a card today": "Je hebt vandaag een kaart geactiveerd",
-                Festive: "Feestelijke"
+                Festive: "Feestelijke",
+                "Valentine’s Bonus": "Valentijnsbonus",
+                "A Special": "Een speciale aanbieding",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "Het Rad van de Liefde bepaalt je lot! Draai eraan en ontdek welk casinobedrijf jouw perfecte match is. Zal geluk jouw Valentijn zijn dit jaar?",
+                "Cupid Spins": "Cupido Spins",
+                "Your Fortune!": "Jouw fortuin!"
             }
         },
         es: {
@@ -3635,7 +3665,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Cada día elige uno de los sobres rojos para descubrir una sorpresa. Giros gratis, reembolsos o bonos exclusivos ya te están esperando!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "¡Vive la magia de la temporada con las marcas de casinos más populares y descubre emocionantes sorpresas y recompensas festivas!",
                 "You have activated a card today": "Has activado una tarjeta hoy",
-                Festive: "Festivos"
+                Festive: "Festivos",
+                "Valentine’s Bonus": "Bono de San Valentín",
+                "A Special": "Una oferta especial",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "¡La Rueda del Amor decidirá tu destino! Gírala y descubre qué marca de casino es tu pareja ideal. ¿Será la suerte tu San Valentín este año?",
+                "Cupid Spins": "Giros de Cupido",
+                "Your Fortune!": "¡Tu fortuna!"
             }
         },
         fi: {
@@ -4061,7 +4096,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Valitse joka päivä yksi punaisista kirjekuorista ja paljasta yllätys. Ilmaiskierroksia, käteispalautuksia tai eksklusiivisia bonuksia odottaa sinua jo nyt!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Koe kauden taika kuumimpien kasinobrändien kanssa – avaa jännittäviä yllätyksiä ja juhlapalkintoja!",
                 "You have activated a card today": "Olet aktivoinut kortin tänään",
-                Festive: "Juhlavaa"
+                Festive: "Juhlavaa",
+                "Valentine’s Bonus": "Ystävänpäiväbonus",
+                "A Special": "Erityinen tarjous",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "Rakkauden pyörä päättää kohtalosi! Pyöräytä sitä ja löydä, mikä kasinobrändi on todellinen parisi. Onko onni sinun ystävänpäiväkumppanisi tänä vuonna?",
+                "Cupid Spins": "Cupidon kierrokset",
+                "Your Fortune!": "Sinun kohtalosi!"
             }
         },
         fr: {
@@ -4488,7 +4528,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Chaque jour, choisissez l’une des enveloppes rouges pour révéler une surprise. Des tours gratuits, des cashback ou des bonus exclusifs vous attendent déjà !",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Vivez la magie de la saison avec les marques de casinos les plus en vogue – découvrez des surprises passionnantes et des récompenses festives !",
                 "You have activated a card today": "Vous avez activé une carte aujourd'hui",
-                Festive: "Festifs"
+                Festive: "Festifs",
+                "Valentine’s Bonus": "Bonus de la Saint-Valentin",
+                "A Special": "Une offre spéciale",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "La Roue de l'Amour décidera de ton destin ! Fais-la tourner et découvre quelle marque de casino est ton véritable match. La chance sera-t-elle ton Valentin cette année ?",
+                "Cupid Spins": "Tours de Cupidon",
+                "Your Fortune!": "Ta fortune !"
             }
         },
         gr: {
@@ -4915,7 +4960,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Κάθε μέρα διάλεξε έναν από τους κόκκινους φακέλους και αποκάλυψε μια έκπληξη. Δωρεάν περιστροφές, επιστροφές χρημάτων ή αποκλειστικά μπόνους σε περιμένουν ήδη!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Ζήστε τη μαγεία της σεζόν με τα πιο καυτά brands καζίνο – αποκαλύψτε συναρπαστικές εκπλήξεις και γιορτινές ανταμοιβές!",
                 "You have activated a card today": "Έχετε ενεργοποιήσει μια κάρτα σήμερα",
-                Festive: "Γιορτινά"
+                Festive: "Γιορτινά",
+                "Valentine’s Bonus": "Μπόνους Αγίου Βαλεντίνου",
+                "A Special": "Μια ειδική προσφορά",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "Ο Τροχός της Αγάπης θα αποφασίσει τη μοίρα σου! Γύρισέ τον και ανακάλυψε ποιο καζίνο είναι το ιδανικό σου ταίρι. Θα είναι η τύχη ο Βαλεντίνος σου φέτος;",
+                "Cupid Spins": "Περιστροφές του Έρωτα",
+                "Your Fortune!": "Η τύχη σου!"
             }
         },
         hu: {
@@ -5342,7 +5392,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Minden nap válassz egyet a piros borítékok közül, hogy felfedd a meglepetést. Ingyenes pörgetések, pénzvisszatérítés vagy exkluzív bónuszok már várnak rád!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Élje át a szezon varázsát a legforróbb kaszinómárkákkal – fedezze fel az izgalmas meglepetéseket és ünnepi jutalmakat!",
                 "You have activated a card today": "Ma aktiváltál egy kártyát",
-                Festive: "Ünnepi"
+                Festive: "Ünnepi",
+                "Valentine’s Bonus": "Valentin-napi bónusz",
+                "A Special": "Különleges ajánlat",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "A Szerelem kereke dönt a sorsodról! Pörgess egyet, és fedezd fel, melyik kaszinómárka a tökéletes párod. Vajon a szerencse lesz az idei Valentinod?",
+                "Cupid Spins": "Amor pörgetések",
+                "Your Fortune!": "A te szerencséd!"
             }
         },
         it: {
@@ -5769,7 +5824,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Ogni giorno scegli una delle buste rosse per svelare una sorpresa. Giri gratis, cashback o bonus esclusivi ti aspettano già!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Vivi la magia della stagione con i marchi di casinò più caldi – scopri sorprese entusiasmanti e premi festivi!",
                 "You have activated a card today": "Hai attivato una carta oggi",
-                Festive: "Festivi"
+                Festive: "Festivi",
+                "Valentine’s Bonus": "Bonus di San Valentino",
+                "A Special": "Un'offerta speciale",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "La Ruota dell'Amore deciderà il tuo destino! Falla girare e scopri quale marchio di casinò è la tua vera anima gemella. La fortuna sarà il tuo Valentino quest'anno?",
+                "Cupid Spins": "Giri di Cupido",
+                "Your Fortune!": "La tua fortuna!"
             }
         },
         no: {
@@ -6196,7 +6256,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Hver dag kan du velge en av de røde konvoluttene for å avsløre en overraskelse. Gratisspinn, cashback eller eksklusive bonuser venter allerede på deg!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Opplev sesongens magi med de hotteste casinobrands – åpne spennende overraskelser og festlige belønninger!",
                 "You have activated a card today": "Du har aktivert et kort i dag",
-                Festive: "Festlige"
+                Festive: "Festlige",
+                "Valentine’s Bonus": "Valentinsbonus",
+                "A Special": "Et spesielt tilbud",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "Kjærlighetens hjul avgjør skjebnen din! Snurr det og oppdag hvilken casinomerke som er din perfekte match. Vil lykken være din Valentin i år?",
+                "Cupid Spins": "Amor-spinn",
+                "Your Fortune!": "Din formue!"
             }
         },
         pt: {
@@ -6623,7 +6688,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Todos os dias, escolha um dos envelopes vermelhos para revelar uma surpresa. Giros grátis, cashback ou bônus exclusivos já estão esperando por você!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Experimente a magia da temporada com as marcas de cassinos mais populares – descubra surpresas emocionantes e recompensas festivas!",
                 "You have activated a card today": "Você ativou um cartão hoje",
-                Festive: "Festivos"
+                Festive: "Festivos",
+                "Valentine’s Bonus": "Bônus de Dia dos Namorados",
+                "A Special": "Uma oferta especial",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "A Roda do Amor decidirá o seu destino! Gire-a e descubra qual marca de cassino é a sua combinação perfeita. A sorte será o seu par neste Dia dos Namorados?",
+                "Cupid Spins": "Giros do Cupido",
+                "Your Fortune!": "Sua fortuna!"
             }
         },
         se: {
@@ -7050,7 +7120,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Varje dag kan du välja ett av de röda kuverten och avslöja en överraskning. Gratissnurr, cashback eller exklusiva bonusar väntar redan på dig!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Upplev säsongens magi med de hetaste casinovarumärkena – upptäck spännande överraskningar och festliga belöningar!",
                 "You have activated a card today": "Du har aktiverat ett kort idag",
-                Festive: "Festliga"
+                Festive: "Festliga",
+                "Valentine’s Bonus": "Alla hjärtans dag-bonus",
+                "A Special": "Ett speciellt erbjudande",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "Kärlekens hjul avgör ditt öde! Snurra det och upptäck vilket casinovarumärke som är din perfekta match. Kommer turen att vara din Valentin i år?",
+                "Cupid Spins": "Amor-snurr",
+                "Your Fortune!": "Din lycka!"
             }
         },
         sk: {
@@ -7477,7 +7552,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Každý deň si vyber jednu z červených obálok a odhaľ prekvapenie. Voľné točenia, cashback alebo exkluzívne bonusy na teba už čakajú!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Zažite čaro sezóny s najhorúcejšími značkami kasín – odhaľte vzrušujúce prekvapenia a sviatočné odmeny!",
                 "You have activated a card today": "Dnes ste aktivovali kartu",
-                Festive: "Sviatočných"
+                Festive: "Sviatočných",
+                "Valentine’s Bonus": "Valentínsky bonus",
+                "A Special": "Špeciálna ponuka",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "Koleso lásky rozhodne o tvojom osude! Roztoč ho a zisti, ktorá značka kasína je tvoja pravá zhoda. Bude šťastie tvojím Valentínom tento rok?",
+                "Cupid Spins": "Amorove točenia",
+                "Your Fortune!": "Tvoje šťastie!"
             }
         },
         tr: {
@@ -7904,7 +7984,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "Her gün kırmızı zarflardan birini seç ve bir sürpriz keşfet. Bedava dönüşler, nakit iadeler veya özel bonuslar seni bekliyor!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "Sezonun büyüsünü en popüler casino markalarıyla yaşayın – heyecan verici sürprizleri ve festivallere özel ödülleri açığa çıkarın!",
                 "You have activated a card today": "Bugün bir kart etkinleştirdiniz",
-                Festive: "Şenlikli"
+                Festive: "Şenlikli",
+                "Valentine’s Bonus": "Sevgililer Günü Bonusu",
+                "A Special": "Özel bir teklif",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "Aşk Çarkı kaderini belirleyecek! Çevir ve hangi casino markasının senin için en uygun eşleşme olduğunu keşfet. Bu yıl şans senin sevgilin olacak mı?",
+                "Cupid Spins": "Aşk Tanrısı Çevirmeleri",
+                "Your Fortune!": "Senin Kaderin!"
             }
         },
         in: {
@@ -8339,7 +8424,12 @@ async function initializeI18n() {
                 "Every day, choose one of the red envelopes to reveal a surprise. Free spins, cashback, or exclusive bonuses are already waiting for you!": "हर दिन लाल लिफाफों में से एक चुनें और एक सरप्राइज़ का खुलासा करें। मुफ़्त स्पिन, कैशबैक, या विशेष बोनस पहले से ही आपका इंतज़ार कर रहे हैं!",
                 "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!": "इस सीजन के जादू का अनुभव करें सबसे हॉट कैसीनो ब्रांड्स के साथ – रोमांचक सरप्राइज और त्योहारी इनामों को अनलॉक करें!",
                 "You have activated a card today": "आपने आज एक कार्ड सक्रिय किया है",
-                Festive: "उत्सवी"
+                Festive: "उत्सवी",
+                "Valentine’s Bonus": "वैलेंटाइन बोनस",
+                "A Special": "एक विशेष ऑफर",
+                "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?": "प्रेम का पहिया आपके भाग्य का फैसला करेगा! इसे घुमाइए और पता लगाइए कि कौन सा कैसीनो ब्रांड आपका सच्चा मेल है। क्या इस साल भाग्य आपका वैलेंटाइन बनेगा?",
+                "Cupid Spins": "क्यूपिड स्पिन्स",
+                "Your Fortune!": "आपकी किस्मत!"
             }
         }
     };
@@ -8631,7 +8721,7 @@ __turbopack_refresh__.register(_c, "Navigation");
 })()),
 "[project]/public/logo3.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
-__turbopack_export_value__("/_next/static/media/logo3.e00ca3e3.png");
+__turbopack_export_value__("/_next/static/media/logo3.6c0c1dbc.png");
 })()),
 "[project]/public/logo3.png.mjs { IMAGE => \"[project]/public/logo3.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
 "use strict";
@@ -8644,9 +8734,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$logo3$2e$png__$5b$
 ;
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$logo3$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
-    width: 386,
+    width: 398,
     height: 63,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAALElEQVR42gEhAN7/AEMmJkJVMDBSWjQ0WapXV727XFzRu2Rkz8BwcNGxZGTBwcYOSjlox2AAAAAASUVORK5CYII=",
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAALElEQVR42gEhAN7/AGhoaF9gYGBTYV1dVa5bX7K/YmbJxV5j0c1vc9G8Y2e+7jsQAL9bGMwAAAAASUVORK5CYII=",
     blurWidth: 8,
     blurHeight: 1
 };

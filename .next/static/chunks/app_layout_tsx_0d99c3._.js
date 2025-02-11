@@ -1,9 +1,9 @@
 (globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([
-    "static/chunks/app_layout_tsx_0d99c3._.js",
+    "static/chunks/app_layout_tsx_69f315._.js",
     {},
 ]);
 (globalThis.TURBOPACK_CHUNK_LISTS = globalThis.TURBOPACK_CHUNK_LISTS || []).push({
-  "path": "static/chunks/app_layout_tsx_0d99c3._.js",
+  "path": "static/chunks/app_layout_tsx_69f315._.js",
   "chunks": [
     "static/chunks/components_i18n_980316.js",
     "static/chunks/components_header_9c8ca5._.js",

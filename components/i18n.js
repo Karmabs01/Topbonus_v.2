@@ -844,6 +844,10 @@ async function initializeI18n() {
           "The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?",
         "Cupid Spins": "Cupid Spins",
         "Your Fortune!": "Your Fortune!",
+
+        "Valentine’s Day Special: Love & Luck!": "Valentine’s Day Special: Love & Luck!",
+        "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!": "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!",
+
       },
     },
 
