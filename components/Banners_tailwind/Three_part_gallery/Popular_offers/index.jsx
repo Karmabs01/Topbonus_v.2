@@ -21,7 +21,7 @@ export default function Popular_offers() {
   const [loading, setLoading] = useState(true);
 
   // Список брендов, которые вы хотите закрепить
-  const pinnedBrandsList = ["Winbay", "Luckychoo", "Luckychoo", "Laki World"];
+  const pinnedBrandsList = ["Winbay", "Voodoo Casino", "Laki World"];
   
   // Массив состояний для закреплённых и остальных
   const [pinnedBrands, setPinnedBrands] = useState([]);
