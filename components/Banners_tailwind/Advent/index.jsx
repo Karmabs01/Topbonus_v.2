@@ -390,7 +390,6 @@ export default function Brands_carousel() {
                   "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!"
                 )}
               </p>
-
               <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap mt-16">
                 {brands.map((rowData, index) => {
                   // Проверяем, активирована ли карточка сегодня
