@@ -172,7 +172,7 @@ const GamePage = () => {
 
   return (
     <div className="main__container flex items-center wheel">
-      <div className="left flex flex-col w-1/2">
+      <div id="wheel_love"  className="left flex flex-col w-1/2">
         <h3 className="mb-5">
           <span>{t("Cupid Spins")}</span> {t("Your Fortune!")}
         </h3>
