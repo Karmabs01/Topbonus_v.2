@@ -994,7 +994,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   background: linear-gradient(161deg, #ffffff1a, #ffffff0d 101.7%);
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-  padding: 28px !important;
+  padding: 19px 28px !important;
 }
 
 .dated {
@@ -1061,11 +1061,15 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .card-advent .dated {
-  background: #ba1914 !important;
+  background: #fe8ec3 !important;
 }
 
 .card-advent .btn-play, .card-advent .btn-play, .card-advent.activate .btn-play {
-  background: #ba1914 !important;
+  background: #fe8ec3 !important;
+}
+
+#advent .mb-3.text-white {
+  color: #262139;
 }
 
 .card-advent:nth-child(2) .dated, .card-advent:nth-child(5) .dated {
@@ -1092,34 +1096,8 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   background: #ff8f1f !important;
 }
 
-.card-advent:nth-child(5n+1) .nonoact {
-  background-image: url("/newimages/couvert_01_desk.png");
-  background-repeat: no-repeat;
-  background-position: top;
-}
-
-.card-advent:nth-child(5n+2) .nonoact {
-  background-image: url("/newimages/couvert_02_desk.png");
-  background-repeat: no-repeat;
-  background-position: top;
-}
-
-.card-advent:nth-child(5n+3) .nonoact {
-  background-image: url("/newimages/couvert_03_desk.png");
-  background-repeat: no-repeat;
-  background-position: top;
-}
-
-.card-advent:nth-child(5n+4) .nonoact {
-  background-image: url("/newimages/couvert_04_desk.png");
-  background-repeat: no-repeat;
-  background-position: top;
-}
-
-.card-advent:nth-child(5n+5) .nonoact {
-  background-image: url("/newimages/couvert_05_desk.png");
-  background-repeat: no-repeat;
-  background-position: top;
+.card-advent .nonoact {
+  background-image: url("/newimages/box_desk.png");
 }
 
 .closed .btn-play {
