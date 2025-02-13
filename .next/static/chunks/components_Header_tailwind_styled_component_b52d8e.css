@@ -331,4 +331,52 @@ header nav button {
   justify-content: center;
 }
 
+@media (width >= 320px) and (width <= 767px) {
+  .mobileSearch .ssearch {
+    padding: 10px 0 !important;
+  }
+
+  .mobileSearch .ssearch input {
+    border-top: 1.5px solid #1a4a9e66;
+    border-bottom: 1.5px solid #1a4a9e66;
+    background: #1e1541f3 !important;
+  }
+
+  .searchUl {
+    margin-top: 15px !important;
+    box-shadow: none !important;
+    width: 94% !important;
+    margin-left: 3% !important;
+    padding: 20px 10px !important;
+  }
+
+  .searchUl li h3 {
+    display: none;
+  }
+
+  .searchUl li {
+    position: relative;
+    align-items: flex-start;
+  }
+
+  .searchUl li p {
+    padding-right: 0 !important;
+    font-size: 13px !important;
+    line-height: 15px !important;
+    max-width: 145px !important;
+    min-width: 145px !important;
+    margin-left: 0 !important;
+  }
+
+  .searchUl li .btn {
+    max-width: 100px;
+    font-size: 14px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  .ssearch input {
+  }
+}
+
 /*# sourceMappingURL=components_Header_tailwind_styled_component_b52d8e.css.map*/

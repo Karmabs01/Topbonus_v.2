@@ -69,7 +69,7 @@ const TheHeader = () => {
       window.removeEventListener("message", handleMessage);
     };
   }, []);
-  console.log("SETDSETDSETD", d);
+
 
   // useEffect(() => {
   //   if(d && d.includes("Json")) {

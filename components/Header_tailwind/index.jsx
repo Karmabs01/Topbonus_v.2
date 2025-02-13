@@ -21,7 +21,7 @@ import { getBrands } from "@/components/getBrands/getBrands2";
 import { useLanguage } from "@/components/switcher/LanguageContext";
 
 import Marque from "@/components/header/Marque";
-// import SearchComponent from "./SearchComponent";
+import SearchComponent from "./SearchComponent";
 
 import {
   Dialog,
@@ -185,7 +185,21 @@ const Header_tailwind = () => {
   });
 
   //////////////////////////////////////////////////
+  const [isMobile, setIsMobile] = useState(false);
 
+  useEffect(() => {
+    setIsMobile(window.innerWidth < 768);
+
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   useEffect(() => {
     const handleMessage = (event) => {
       if (event.origin !== "https://topbon.us") {
@@ -279,7 +293,7 @@ const Header_tailwind = () => {
               />
             </div>
             <div className="absolute right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-             {/* <SearchComponent /> */}
+              {isMobile ? <div></div> : <SearchComponent />}
               <I18nextProvider i18n={i18n}>
                 <MenuLanguages />
               </I18nextProvider>
@@ -303,8 +317,9 @@ const Header_tailwind = () => {
                   <XMarkIcon aria-hidden="true" className="h-6 w-6" />
                 </button>
               </div>
-              <div className="mt-6 flow-root">
+              <div className="mt-6 flow-root mobileSearch">
                 <div className="-my-6 divide-y divide-gray-500/10">
+                <SearchComponent />
                   <div className="space-y-2 py-6">
                     {items.map((item) => (
                       <Disclosure as="div" className="-mx-3" key={item.label}>
