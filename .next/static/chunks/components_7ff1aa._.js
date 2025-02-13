@@ -3664,8 +3664,8 @@ const Footer_tailwind = ()=>{
         ],
         company: [
             {
-                name: t("Our Contacts") + ": support@myawardwallet.com ",
-                href: 'mailto:support@myawardwallet.com'
+                name: t("Our Contacts") + ": support@topbon.us ",
+                href: 'mailto:support@topbon.us'
             }
         ]
     };

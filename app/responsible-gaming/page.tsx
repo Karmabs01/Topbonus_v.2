@@ -65,15 +65,15 @@ export default async function Bonuses() {
           only occur after the previous limit of the same type expires. If you
           need more information or assistance with Personal Limits, please
           contact our support team at{" "}
-          <a target="_blank" href="mailto:support@myawardwallet.com">
-            support@myawardwallet.com
+          <a target="_blank" href="mailto:support@topbon.us">
+            support@topbon.us
           </a>
         </p>
         <h2 className="mb-3">Self-Exclusion by Request</h2>
         <p>
           If you decide to stop gambling at{" "}
-          <a target="_blank" href="mailto:support@myawardwallet.com">
-            support@myawardwallet.com
+          <a target="_blank" href="mailto:support@topbon.us">
+            support@topbon.us
           </a>{" "}
           for a specific or indefinite period. We will take all necessary steps
           to block your access to your account and ensure that you receive no
@@ -83,8 +83,8 @@ export default async function Bonuses() {
           When you are self-excluded, you won&#39;t be able to log into your
           account or withdraw any remaining balance. To initiate a withdrawal of
           your remaining balance, contact our support team at{" "}
-          <a target="_blank" href="mailto:support@myawardwallet.com">
-            support@myawardwallet.com
+          <a target="_blank" href="mailto:support@topbon.us">
+            support@topbon.us
           </a>
           . They will provide you with information and assistance within a
           reasonable timeframe.

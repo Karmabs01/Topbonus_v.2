@@ -99,7 +99,7 @@ export default async function Privacy() {
         <p className="mb-3">
           7.1. For further inquiries regarding your account balance,
           withdrawals, or any other related information, please contact us via
-          email at support@myawardwallet.com.
+          email at support@topbon.us.
         </p>
         <p className="mb-3">
           By participating in the Program, you acknowledge that you have read,

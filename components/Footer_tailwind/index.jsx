@@ -19,7 +19,7 @@ const Footer_tailwind = () => {
             { name: t("Terms and Conditions"), href: '/terms-and-conditions' },
         ],
         company: [
-            { name: t("Our Contacts") + ": support@myawardwallet.com ", href: 'mailto:support@myawardwallet.com' },
+            { name: t("Our Contacts") + ": support@topbon.us ", href: 'mailto:support@topbon.us' },
         ],
     }
     return (
@@ -81,6 +81,7 @@ const Footer_tailwind = () => {
                                 </ul>
                             </div>
                         </div>
+                        
                         <div className=" sm:hidden">
                             <h3 className="text-sm font-semibold leading-6 text-white uppercase footer-h3">{t("Support")}</h3>
                             <ul role="list" className="mt-6 space-y-2">
