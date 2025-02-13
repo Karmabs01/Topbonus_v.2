@@ -19,7 +19,7 @@ const Footer_tailwind = () => {
             { name: t("Terms and Conditions"), href: '/terms-and-conditions' },
         ],
         company: [
-            { name: t("Our Contacts") + ": support@myawardwallet.com ", href: 'mailto:support@myawardwallet.com' },
+            { name: t("Our Contacts") + ": support@topbon.us ", href: 'mailto:support@topbon.us' },
         ],
     }
     return (
