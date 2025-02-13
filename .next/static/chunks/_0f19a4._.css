@@ -380,6 +380,143 @@ header nav button {
   color: #ff8f1f;
 }
 
+.searchUl {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  padding: 20px;
+  top: 90px;
+  border-radius: 20px;
+  max-height: 420px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(76deg, #9d4eb3 7%, #6c37b1 35.92%, #310877 85.69%);
+  box-shadow: 0 0 200px 100px #091949cc;
+  scroll-snap-type: y mandatory;
+  border: 2px solid #c2c2c27c !important;
+}
+
+.searchUl .btn-primary {
+  background-color: #ff850a !important;
+}
+
+.searchUl .btn-primary:hover {
+  background-color: #cc741c !important;
+}
+
+.ssearch input {
+  border-radius: 4px;
+  border-top: 1.5px solid #fff6;
+  border-bottom: 1.5px solid #fff6;
+  background: linear-gradient(161deg, #ffffff38 0%, #ffffff2d 101.7%);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+}
+
+.ssearch input::-moz-placeholder {
+  color: #fff;
+}
+
+.ssearch input::placeholder {
+  color: #fff;
+}
+
+.ssearch h3 {
+  font-size: 28px !important;
+  line-height: 34px !important;
+}
+
+.searchUl li {
+  background: #ffffff9a;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border-bottom: 2px solid #c1a7e453 !important;
+}
+
+.searchUl li:last-of-type {
+  border: none !important;
+}
+
+.searchUl li p {
+  color: #000;
+  padding-right: 150px;
+  font-size: 16px !important;
+}
+
+.searchUl li h3 {
+  max-width: 300px;
+  min-width: 300px;
+  width: 100%;
+}
+
+.searchUl li p {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.searchUl li .btn {
+  margin-left: auto;
+}
+
+.searchUl .btn {
+  display: flex;
+  width: 100%;
+  max-width: 120px;
+  text-align: center;
+  justify-content: center;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  .mobileSearch .ssearch {
+    padding: 10px 0 !important;
+  }
+
+  .mobileSearch .ssearch input {
+    border-top: 1.5px solid #1a4a9e66;
+    border-bottom: 1.5px solid #1a4a9e66;
+    background: #1e1541f3 !important;
+  }
+
+  .searchUl {
+    margin-top: 28px !important;
+    box-shadow: none !important;
+    width: 94% !important;
+    margin-left: 3% !important;
+    padding: 20px 10px !important;
+  }
+
+  .searchUl li h3 {
+    display: none;
+  }
+
+  .searchUl li {
+    position: relative;
+    align-items: flex-start;
+  }
+
+  .searchUl li p {
+    padding-right: 0 !important;
+    font-size: 13px !important;
+    line-height: 15px !important;
+    max-width: 145px !important;
+    min-width: 145px !important;
+    margin-left: 0 !important;
+  }
+
+  .searchUl li .btn {
+    max-width: 100px;
+    font-size: 14px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  .ssearch {
+    padding: 20px 0 10px !important;
+  }
+}
+
 
 /* [project]/components/Footer_tailwind/styled.component.css [app-client] (css) */
 .footer-bg {
@@ -1813,6 +1950,10 @@ select {
   resize: both;
 }
 
+.snap-x {
+  scroll-snap-type: x var(--tw-scroll-snap-strictness);
+}
+
 .snap-y {
   scroll-snap-type: y var(--tw-scroll-snap-strictness);
 }
@@ -1823,6 +1964,10 @@ select {
 
 .snap-start {
   scroll-snap-align: start;
+}
+
+.snap-center {
+  scroll-snap-align: center;
 }
 
 .grid-cols-1 {
@@ -2565,6 +2710,11 @@ select {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
+}
+
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity, 1));
 }
 
 .text-blue-600 {
@@ -13704,6 +13854,10 @@ main > .topbr {
 .hover\:text-indigo-600:hover {
   --tw-text-opacity: 1;
   color: rgb(79 70 229 / var(--tw-text-opacity, 1));
+}
+
+.hover\:underline:hover {
+  text-decoration-line: underline;
 }
 
 .focus\:outline-none:focus {
