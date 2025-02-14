@@ -14,6 +14,8 @@ import Marque from '@/components/Marque';
 import Script from 'next/script';
 import MainWrapper from '@/components/MainWrapper'; // Импортируем клиентский компонент
 import Chat from "@/components/Chat_support";
+import Hearts from "@/components/Hearts";
+
 
 export const metadata: Metadata = {
   title:
@@ -55,6 +57,8 @@ export default function RootLayout({
           <Header_tailwind />
           <MainWrapper>
             <Chat />
+            <Hearts />
+
             {children}
             <Analytics />
           </MainWrapper>
