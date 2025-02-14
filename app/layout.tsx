@@ -55,7 +55,6 @@ export default function RootLayout({
           <Header_tailwind />
           <Chat />
           {/* <Hearts /> */}
-
           <MainWrapper>
             {children}
             <Analytics />
