@@ -4,6 +4,8 @@ import { TheHeader } from '@/components/TheHeader';
 import { Header_tailwind } from '@/components/Header_tailwind';
 import { Footer_tailwind } from '@/components/Footer_tailwind';
 import Chat from "@/components/Chat_support";
+import Hearts from "@/components/Hearts";
+
 
 import BackToTopButton from '@/components/BackToTopButton';
 import './globals.css';
@@ -14,6 +16,7 @@ import RandomWindow from '@/components/random/RandomWindow';
 import Marque from '@/components/Marque';
 import Script from 'next/script';
 import MainWrapper from '@/components/MainWrapper'; // Импортируем клиентский компонент
+import { Heart } from 'phosphor-react';
 
 export const metadata: Metadata = {
   title:
@@ -51,6 +54,8 @@ export default function RootLayout({
         <LanguageProvider>
           <Header_tailwind />
           <Chat />
+          <Hearts />
+
           <MainWrapper>
             {children}
             <Analytics />
