@@ -54,7 +54,7 @@ export default function RootLayout({
         <LanguageProvider>
           <Header_tailwind />
           <Chat />
-          <Hearts />
+          {/* <Hearts /> */}
 
           <MainWrapper>
             {children}
