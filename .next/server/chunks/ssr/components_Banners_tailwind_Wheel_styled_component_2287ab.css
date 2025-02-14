@@ -65,6 +65,13 @@
   height: 700px;
 }
 
+@media (width >= 1260px) and (width <= 5000px) {
+  .wheel {
+    margin-top: -80px;
+    margin-bottom: -80px;
+  }
+}
+
 @media (width >= 320px) and (width <= 1259px) {
   .iframeb {
     width: 500px;
@@ -102,6 +109,19 @@
 
   .wheel .iframeb {
     margin-top: -55px;
+  }
+
+  .wheel .custom-modal {
+    padding: 30px !important;
+  }
+
+  .wheel .custom-modal h3 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  main .mob-mt10 {
+    margin-top: 0 !important;
   }
 }
 

@@ -7,7 +7,7 @@ import Chat from "@/components/Chat_support";
 import Hearts from "@/components/Hearts";
 
 
-import BackToTopButton from '@/components/BackToTopButton';
+// import BackToTopButton from '@/components/BackToTopButton';
 import './globals.css';
 import type { Metadata } from 'next';
 import { TheFooter } from '@/components/TheFooter';
@@ -54,14 +54,14 @@ export default function RootLayout({
         <LanguageProvider>
           <Header_tailwind />
           <Chat />
-          {/* <Hearts /> */}
+          <Hearts />
           <MainWrapper>
             {children}
             <Analytics />
           </MainWrapper>
           <Footer_tailwind />
         </LanguageProvider>
-        <BackToTopButton />
+        {/* <BackToTopButton /> */}
 
         <Script id="hotjar" strategy="afterInteractive">
           {`

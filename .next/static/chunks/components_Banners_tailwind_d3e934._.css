@@ -1,0 +1,364 @@
+/* [project]/components/Banners_tailwind/Wheel/styled.component.css [app-client] (css) */
+.wheel h3 {
+  font-size: 33px;
+  color: #fff;
+}
+
+.wheel h3 span {
+  color: #e81396;
+}
+
+.wheel p {
+  color: #fff;
+  font-size: 20px;
+}
+
+.wheel .custom-modal {
+  position: relative;
+  max-width: 391px;
+  padding: 60px 45px 15px;
+  background: url("/newimages/modal18.png") top no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  border: 3px inset #e81396b6;
+}
+
+.wheel .custom-modal h3 {
+  color: #fff;
+  text-align: center;
+}
+
+.wheel .custom-modal p {
+  color: #fff;
+  text-align: center !important;
+}
+
+.wheel .custom-modal h3 span {
+  color: #e81396;
+}
+
+.wheel .custom-modal-close {
+  position: absolute;
+  top: -29px;
+  right: 27px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  z-index: 9;
+  background: #dc1010;
+  padding: 3px 5px;
+  border-radius: 2px 2px 0 0;
+  color: #fff !important;
+}
+
+.wheel .btn-new p {
+  color: #fff !important;
+}
+
+.wheel .btn-new:after {
+  background: url("/newimages/btnPrr.png") center no-repeat;
+}
+
+.iframeb {
+  width: 700px;
+  height: 700px;
+}
+
+@media (width >= 1260px) and (width <= 5000px) {
+  .wheel {
+    margin-top: -80px;
+    margin-bottom: -80px;
+  }
+}
+
+@media (width >= 320px) and (width <= 1259px) {
+  .iframeb {
+    width: 500px;
+    height: 500px;
+  }
+
+  .wheel {
+    overflow: hidden;
+    flex-direction: column !important;
+  }
+
+  .custom-modal-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wheel .left {
+    width: 100%;
+  }
+
+  .wheel h3 {
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .wheel .left p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .wheel .left img {
+    display: none;
+  }
+
+  .wheel .iframeb {
+    margin-top: -55px;
+  }
+
+  .wheel .custom-modal {
+    padding: 30px !important;
+  }
+
+  .wheel .custom-modal h3 {
+    font-size: 24px;
+    line-height: 26px;
+  }
+
+  main .mob-mt10 {
+    margin-top: 0 !important;
+  }
+}
+
+
+/* [project]/components/Banners_tailwind/Advent/styled.component.css [app-client] (css) */
+.brand_carousel .slick-dots li.slick-active button:before {
+  color: #4f46e5 !important;
+}
+
+.brand_carousel .slick-dots li button:before {
+  font-size: 12px;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.btn-play {
+  border-radius: 0 0 30px 30px;
+  background: #ff8f1f;
+  box-shadow: 0 -5px 30px #ff8f1f4d;
+  padding: 12px 0;
+  width: 100%;
+  line-height: 20px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.card-sl {
+  border: 2px solid #ffffff4d;
+  border-radius: 32px;
+  padding-top: 10px;
+}
+
+.card-sl > div > .mt-3 {
+  display: flex;
+  padding: 0 10px;
+}
+
+.advnt {
+  border-radius: 30px;
+  border-top: 2.5px solid #ffffff4d;
+  border-bottom: 2.5px solid #ffffff4d;
+  background: linear-gradient(161deg, #ffffff1a, #ffffff0d 101.7%);
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  padding: 15px !important;
+}
+
+.dated {
+  position: absolute;
+  color: #fff;
+  border-radius: 5px 5px 0 0;
+  max-width: 100px;
+  width: 100%;
+  left: calc(50% - 50px);
+  top: -50px;
+  height: 50px;
+  background: #ff8f1f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.advent .card-sl p {
+  padding: 0 10px;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  min-height: 54px;
+  max-height: 54px;
+  overflow: hidden;
+  line-height: 18px !important;
+}
+
+.mt-33 {
+  margin-top: .75rem !important;
+}
+
+.not-yet {
+  color: #fff;
+  background: #dcdcdd;
+  box-shadow: none;
+}
+
+.not-yet:hover {
+  background: #dcdcdd;
+}
+
+.not-yet:before {
+  display: none;
+}
+
+.closed {
+  border-radius: 32px;
+}
+
+.nonoact {
+  width: 146px;
+  height: 73px;
+  background-size: cover !important;
+}
+
+#advent .card-sl img {
+  width: 146px;
+  height: 73px;
+  min-height: 73px !important;
+}
+
+.card-advent .dated {
+  background: #fe8ec3 !important;
+}
+
+.card-advent .btn-play, .card-advent .btn-play, .card-advent.activate .btn-play {
+  background: #fe8ec3 !important;
+}
+
+#advent .text-white, #advent .random-title {
+  color: #2b252b;
+}
+
+#advent .closed p {
+  color: #fff;
+}
+
+.card-advent:first-child .dated, .card-advent:nth-child(4) .dated {
+  background: linear-gradient(161deg, #5aa148, #3b702e);
+}
+
+.card-advent:first-child .btn-play, .card-advent:nth-child(4) .btn-play {
+  background: linear-gradient(161deg, #5aa148, #3b702e);
+}
+
+.card-advent:nth-child(2) .dated, .card-advent:nth-child(5) .dated {
+  background: linear-gradient(161deg, #6c37b1, #310877);
+}
+
+.card-advent:nth-child(2) .btn-play, .card-advent:nth-child(5) .btn-play {
+  background: linear-gradient(161deg, #6c37b1, #310877);
+}
+
+.card-advent:nth-child(3) .dated, .card-advent:nth-child(6) .dated {
+  background: linear-gradient(161deg, #088af6, #568df0);
+}
+
+.card-advent:nth-child(3) .btn-play, .card-advent:nth-child(6) .btn-play {
+  background: linear-gradient(161deg, #088af6, #568df0);
+}
+
+.card-advent:nth-child(11) .btn-play, .card-advent:nth-child(12) .btn-play, .card-advent:nth-child(13) .btn-play, .card-advent:nth-child(14) .btn-play, .card-advent:nth-child(15) .btn-play {
+  background: linear-gradient(161deg, #088af6, #568df0);
+}
+
+#advent .mt-3.mb-2 img {
+  min-height: 128px;
+}
+
+.activate .btn-play {
+  background: #ff8f1f !important;
+}
+
+.card-advent .nonoact {
+  background: url("/newimages/box_desk.png") top no-repeat;
+}
+
+.closed .dated {
+  color: #fff;
+  background: #dcdcdd;
+}
+
+.opennow {
+  background: #fcfdffd9;
+  border-radius: 15px;
+}
+
+.advnt {
+  background-image: url("/newimages/adventcalendar_dark.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  border: 2.5px solid #ffffff4d;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  #advent .random-title {
+    font-size: 20px !important;
+    line-height: 24px !important;
+  }
+
+  .card-advent {
+    flex-basis: 48% !important;
+  }
+
+  .advnt {
+    background: url("/newimages/bgmomob2.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 430px;
+    padding: 12px !important;
+  }
+
+  .opened, .closed {
+    background-size: contain;
+    border-radius: 30px !important;
+  }
+
+  .nonoact {
+    max-width: 192px;
+    max-height: 96px;
+    width: 146px;
+    height: 73px;
+  }
+
+  .card-advent img {
+    width: 146px;
+    height: 73px;
+    min-height: 73px !important;
+  }
+
+  .card-sl {
+    width: 100%;
+    border-radius: 30px !important;
+  }
+}
+
+.advnt > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+/*# sourceMappingURL=components_Banners_tailwind_d3e934._.css.map*/

@@ -1,4 +1,72 @@
 /* [project]/components/Hearts/styled.component.css [app-client] (css) */
+.animation-container {
+  position: fixed;
+  right: 15px;
+  bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  z-index: 10;
+}
 
+.heart {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 0;
+}
+
+.animated-text {
+  margin-top: 10px;
+  background-color: #fff6ff;
+  border: 2px solid #fe8ec3;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2b252b;
+  padding: 8px 12px;
+  border-radius: 4px;
+  animation: .5s ease-out slideIn;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 27px;
+  margin-bottom: -5px;
+  -webkit-backdrop-filter: blur(17.915px);
+  backdrop-filter: blur(17.915px);
+}
+
+.animated-text span {
+  color: #e81396;
+  font-weight: 700;
+}
+
+.tapme {
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  border: 2px solid #ffffff1e;
+  background: #e81396 !important;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (width >= 320px) and (width <= 1259px) {
+  .animation-container {
+    bottom: 80px;
+  }
+}
 
 /*# sourceMappingURL=components_Hearts_styled_component_b52d8e.css.map*/

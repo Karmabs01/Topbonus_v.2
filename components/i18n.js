@@ -849,6 +849,10 @@ async function initializeI18n() {
           "Valentine’s Day Special: Love & Luck!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!",
+        Get: "Get",
+        "St.Valentine’s": "St.Valentine’s",
+        Bonus: "Bonus",
+        "Tap Me": "Tap Me",
       },
     },
 
@@ -1481,6 +1485,10 @@ async function initializeI18n() {
           "Walentynkowa oferta specjalna: Miłość i Szczęście!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Świętuj z odrobiną szczęścia! Odbierz dzisiejszą walentynkową nagrodę i pozwól, by fortuna była twoją idealną parą!",
+        Get: "Otrzymaj",
+        "St.Valentine’s": "Walentynkowy",
+        Bonus: "Bonus",
+        "Tap Me": "Dotknij mnie",
       },
     },
     de: {
@@ -2115,6 +2123,10 @@ async function initializeI18n() {
           "Valentinstags-Special: Liebe & Glück!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Feiere mit einer Prise Glück! Schalte die heutige Valentinstags-Belohnung frei und lass das Glück dein perfektes Match sein!",
+        Get: "Holen",
+        "St.Valentine’s": "Valentinstag",
+        Bonus: "Bonus",
+        "Tap Me": "Tippe mich",
       },
     },
     bg: {
@@ -2739,6 +2751,10 @@ async function initializeI18n() {
           "Специално за Свети Валентин: Любов и Късмет!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Празнувай с щипка късмет! Отключи днешната специална награда за Свети Валентин и нека късметът бъде твоят перфектен избор!",
+        Get: "Вземи",
+        "St.Valentine’s": "Свети Валентин",
+        Bonus: "Бонус",
+        "Tap Me": "Докосни ме",
       },
     },
     cz: {
@@ -3362,6 +3378,10 @@ async function initializeI18n() {
           "Valentýnský speciál: Láska a Štěstí!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Oslavte s kapkou štěstí! Odemkněte dnešní speciální valentýnskou odměnu a nechte štěstí být vaší dokonalou shodou!",
+        Get: "Získat",
+        "St.Valentine’s": "Valentýn",
+        Bonus: "Bonus",
+        "Tap Me": "Klepni na mě",
       },
     },
     dk: {
@@ -3986,6 +4006,10 @@ async function initializeI18n() {
           "Valentinsdag Special: Kærlighed & Held!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Fejr med et strejf af held! Lås op for dagens særlige valentinsbelønning og lad lykken være dit perfekte match!",
+        Get: "Hent",
+        "St.Valentine’s": "Valentinsdag",
+        Bonus: "Bonus",
+        "Tap Me": "Tryk på mig",
       },
     },
     nl: {
@@ -4615,6 +4639,10 @@ async function initializeI18n() {
           "Valentijnsdag Special: Liefde & Geluk!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Vier met een vleugje geluk! Ontgrendel de speciale Valentijnsbeloning van vandaag en laat geluk jouw perfecte match zijn!",
+        Get: "Halen",
+        "St.Valentine’s": "Valentijnsdag",
+        Bonus: "Bonus",
+        "Tap Me": "Tik me aan",
       },
     },
     es: {
@@ -5242,6 +5270,10 @@ async function initializeI18n() {
           "Especial de San Valentín: ¡Amor y Suerte!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "¡Celebra con un toque de fortuna! Desbloquea la recompensa especial de San Valentín de hoy y deja que la suerte sea tu pareja perfecta.",
+        Get: "Obtener",
+        "St.Valentine’s": "San Valentín",
+        Bonus: "Bono",
+        "Tap Me": "Tócame",
       },
     },
     fi: {
@@ -5865,6 +5897,10 @@ async function initializeI18n() {
           "Ystävänpäivän Erikoistarjous: Rakkaus & Onni!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Juhli ripauksella onnea! Avaa tämän päivän ystävänpäivän erikoispalkinto ja anna onnen olla täydellinen parisi!",
+        Get: "Hae",
+        "St.Valentine’s": "Ystävänpäivä",
+        Bonus: "Bonus",
+        "Tap Me": "Napauta minua",
       },
     },
     fr: {
@@ -6495,6 +6531,10 @@ async function initializeI18n() {
           "Spécial Saint-Valentin : Amour & Chance !",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Célébrez avec une touche de fortune ! Déverrouillez la récompense spéciale de la Saint-Valentin d'aujourd'hui et laissez la chance être votre partenaire idéal !",
+        Get: "Obtenir",
+        "St.Valentine’s": "Saint-Valentin",
+        Bonus: "Bonus",
+        "Tap Me": "Tapez-moi",
       },
     },
 
@@ -7121,6 +7161,10 @@ async function initializeI18n() {
           "Ειδική Προσφορά Αγίου Βαλεντίνου: Αγάπη & Τύχη!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Γιορτάστε με μια δόση τύχης! Ξεκλειδώστε τη σημερινή ειδική ανταμοιβή του Αγίου Βαλεντίνου και αφήστε την τύχη να είναι το τέλειο ταίρι σας!",
+        Get: "Πάρε",
+        "St.Valentine’s": "Αγίου Βαλεντίνου",
+        Bonus: "Μπόνους",
+        "Tap Me": "Πάτησέ με",
       },
     },
     hu: {
@@ -7746,6 +7790,10 @@ async function initializeI18n() {
           "Valentin-napi Különlegesség: Szerelem és Szerencse!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Ünnepelj egy kis szerencsével! Nyisd meg a mai Valentin-napi különleges jutalmat, és hagyd, hogy a szerencse legyen a tökéletes párod!",
+        Get: "Szerezd meg",
+        "St.Valentine’s": "Valentin-nap",
+        Bonus: "Bónusz",
+        "Tap Me": "Érints meg",
       },
     },
     it: {
@@ -8374,6 +8422,10 @@ async function initializeI18n() {
           "Speciale San Valentino: Amore & Fortuna!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Festeggia con un tocco di fortuna! Sblocca la ricompensa speciale di San Valentino di oggi e lascia che la fortuna sia la tua anima gemella!",
+        Get: "Ottieni",
+        "St.Valentine’s": "San Valentino",
+        Bonus: "Bonus",
+        "Tap Me": "Toccami",
       },
     },
     no: {
@@ -9000,6 +9052,10 @@ async function initializeI18n() {
           "Valentinsdag Spesial: Kjærlighet & Lykke!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Feir med et snev av flaks! Lås opp dagens spesielle Valentinsbelønning og la lykken være din perfekte match!",
+        Get: "Få",
+        "St.Valentine’s": "Valentinsdag",
+        Bonus: "Bonus",
+        "Tap Me": "Trykk på meg",
       },
     },
     pt: {
@@ -9627,6 +9683,10 @@ async function initializeI18n() {
           "Especial do Dia dos Namorados: Amor & Sorte!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Celebre com um toque de sorte! Desbloqueie a recompensa especial de hoje e deixe a sorte ser o seu par perfeito!",
+        Get: "Obter",
+        "St.Valentine’s": "Dia dos Namorados",
+        Bonus: "Bônus",
+        "Tap Me": "Toque em mim",
       },
     },
     se: {
@@ -10252,6 +10312,10 @@ async function initializeI18n() {
           "Alla hjärtans dag Special: Kärlek & Lycka!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Fira med en touch av tur! Lås upp dagens speciella Alla hjärtans dag-belöning och låt lyckan bli din perfekta match!",
+        Get: "Få",
+        "St.Valentine’s": "Alla hjärtans dag",
+        Bonus: "Bonus",
+        "Tap Me": "Tryck på mig",
       },
     },
     sk: {
@@ -10876,6 +10940,10 @@ async function initializeI18n() {
           "Valentínska Špeciálna Ponuka: Láska a Šťastie!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Oslávte s trochou šťastia! Odomknite dnešnú špeciálnu valentínsku odmenu a nechajte šťastie byť vaším dokonalým partnerom!",
+        Get: "Získať",
+        "St.Valentine’s": "Valentín",
+        Bonus: "Bonus",
+        "Tap Me": "Klepni na mňa",
       },
     },
     tr: {
@@ -11499,6 +11567,10 @@ async function initializeI18n() {
           "Sevgililer Günü Özel: Aşk & Şans!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "Biraz şans ile kutlayın! Bugünün özel Sevgililer Günü ödülünü aç ve şansın mükemmel eşin olmasına izin ver!",
+        Get: "Al",
+        "St.Valentine’s": "Sevgililer Günü",
+        Bonus: "Bonus",
+        "Tap Me": "Bana dokun",
       },
     },
 
@@ -12116,6 +12188,10 @@ async function initializeI18n() {
           "वैलेंटाइन डे स्पेशल: प्यार और किस्मत!",
         "Celebrate with a touch of fortune! Unlock today’s special Valentine’s reward and let luck be your perfect match!":
           "थोड़ी सी किस्मत के साथ जश्न मनाएं! आज का विशेष वैलेंटाइन इनाम अनलॉक करें और किस्मत को अपना परफेक्ट मैच बनने दें!",
+        Get: "प्राप्त करें",
+        "St.Valentine’s": "सेंट वेलेंटाइन",
+        Bonus: "बोनस",
+        "Tap Me": "मुझे टैप करें",
       },
     },
   };
