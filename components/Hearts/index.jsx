@@ -19,7 +19,7 @@ const Index = () => {
   const [brands, setBrands] = useState([]);
   const { language } = useLanguage();
 
-  // Показываем модалку через 5 секунд (если ещё не показывалась сегодня)
+  // Показываем модалку через 25 секунд (если ещё не показывалась сегодня)
   useEffect(() => {
     const modalShownDate2 = localStorage.getItem("modalShownDate2");
     const today = new Date().toISOString().split("T")[0];
@@ -91,13 +91,12 @@ const Index = () => {
 
   // Берем только один случайный бренд (первый после перемешивания)
   const randomBrand = brands[0];
+
   useEffect(() => {
+    // Пример обработки сообщения, если необходимо
     const handleMessage = (event) => {
       if (event.data && event.data.event === "spinComplete") {
-        setWinResult(event.data.prize);
-        // Перемешиваем текущий массив брендов
-        setBrands((currentBrands) => shuffle(currentBrands));
-        setModalVisible(true);
+        // Дополнительная логика
       }
     };
 
@@ -135,10 +134,7 @@ const Index = () => {
       const partner = partners.find((p) => keyword && keyword.includes(p));
       if (partner) {
         localStorage.setItem("source", partner);
-        setSource(partner);
-        searchParams.set("source", partner);
       } else {
-        setSource("0");
         const sourceFound = localStorage.getItem("source");
         if (!partners.includes(sourceFound)) {
           localStorage.setItem("source", "0");
@@ -156,6 +152,7 @@ const Index = () => {
       setNewUrl(savedUrl);
     }
   }, [language]);
+
   return (
     <div className="animation-container">
       {randomBrand && (
@@ -173,6 +170,7 @@ const Index = () => {
                 target="_blank"
                 className="tapme"
                 href={`${randomBrand.GoBig}/${newUrl}&creative_id=Modal_Heart`}
+                onClick={(e) => e.stopPropagation()} // Останавливаем всплытие, чтобы outer Link не срабатывал
               >
                 {t("Tap Me")}
               </Link>
