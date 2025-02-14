@@ -18,55 +18,55 @@ const SearchComponent = () => {
   const [newUrl, setNewUrl] = useState("");
   // Создаем ref для контейнера
   const containerRef = useRef(null);
-  useEffect(() => {
-    const currentUrl = window.location.href;
-    const indexOfQuestionMark = currentUrl.indexOf("?");
-    const newUrl2 =
-      indexOfQuestionMark !== -1
-        ? currentUrl.substring(0, indexOfQuestionMark)
-        : currentUrl;
-    window.history.replaceState({}, document.title, newUrl2);
+  // useEffect(() => {
+  //   const currentUrl = window.location.href;
+  //   const indexOfQuestionMark = currentUrl.indexOf("?");
+  //   const newUrl2 =
+  //     indexOfQuestionMark !== -1
+  //       ? currentUrl.substring(0, indexOfQuestionMark)
+  //       : currentUrl;
+  //   window.history.replaceState({}, document.title, newUrl2);
 
-    const urlObj = new URL(currentUrl);
-    const searchParams = new URLSearchParams(urlObj.search);
-    searchParams.delete("brand");
-    const currentKeyword = searchParams.get("keyword");
+  //   const urlObj = new URL(currentUrl);
+  //   const searchParams = new URLSearchParams(urlObj.search);
+  //   searchParams.delete("brand");
+  //   const currentKeyword = searchParams.get("keyword");
 
-    const partners = [
-      "partner1039",
-      "partner1043",
-      "partner1044",
-      "CLD_VIP",
-      "partner1045_b1",
-      "partner1046",
-      "partner1047",
-    ];
+  //   const partners = [
+  //     "partner1039",
+  //     "partner1043",
+  //     "partner1044",
+  //     "CLD_VIP",
+  //     "partner1045_b1",
+  //     "partner1046",
+  //     "partner1047",
+  //   ];
 
-    function setPartnerSource(keyword) {
-      const partner = partners.find((p) => keyword && keyword.includes(p));
-      if (partner) {
-        localStorage.setItem("source", partner);
-        setSource(partner);
-        searchParams.set("source", partner);
-      } else {
-        setSource("0");
-        const sourceFound = localStorage.getItem("source");
-        if (!partners.includes(sourceFound)) {
-          localStorage.setItem("source", "0");
-          searchParams.set("source", "0");
-        }
-      }
-    }
+  //   function setPartnerSource(keyword) {
+  //     const partner = partners.find((p) => keyword && keyword.includes(p));
+  //     if (partner) {
+  //       localStorage.setItem("source", partner);
+  //       setSource(partner);
+  //       searchParams.set("source", partner);
+  //     } else {
+  //       setSource("0");
+  //       const sourceFound = localStorage.getItem("source");
+  //       if (!partners.includes(sourceFound)) {
+  //         localStorage.setItem("source", "0");
+  //         searchParams.set("source", "0");
+  //       }
+  //     }
+  //   }
 
-    if (currentKeyword) {
-      setPartnerSource(currentKeyword);
-    }
+  //   if (currentKeyword) {
+  //     setPartnerSource(currentKeyword);
+  //   }
 
-    const savedUrl = localStorage.getItem("savedUrl");
-    if (savedUrl) {
-      setNewUrl(savedUrl);
-    }
-  }, [language]);
+  //   const savedUrl = localStorage.getItem("savedUrl");
+  //   if (savedUrl) {
+  //     setNewUrl(savedUrl);
+  //   }
+  // }, [language]);
   // Если данных нет, можно показать лоадер
   if (!data) return <div>Загрузка...</div>;
 
