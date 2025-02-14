@@ -1,0 +1,68 @@
+.animation-container {
+  position: fixed;
+  right: 15px;
+  bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* выравнивание по правому краю */
+  z-index: 10;
+}
+
+.heart {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 0;
+}
+
+/* Стили для текстового блока */
+.animated-text {
+  margin-top: 10px;
+  background-color: #fff6ff;
+  border: 2px solid #fe8ec3;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2b252b;
+  padding: 8px 12px;
+  border-radius: 4px;
+  /* Анимация появления */
+  animation: slideIn 0.5s ease-out;
+  max-width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 27px;
+  margin-bottom: -5px;
+  backdrop-filter: blur(17.915000915527344px);
+}
+.animated-text span {
+  color: #e81396;
+  font-weight: 700;
+}
+.tapme {
+  background: #e81396 !important;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  border: 2px solid rgba(255, 255, 255, 0.118);
+}
+/* Ключевые кадры для анимации */
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+@media(min-width: 320px) and (max-width: 1259px) {
+    .animation-container {
+        bottom: 80px;
+    }
+}
