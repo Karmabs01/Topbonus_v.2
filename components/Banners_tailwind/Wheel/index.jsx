@@ -21,7 +21,7 @@ const GamePage = () => {
   const { language } = useLanguage();
   const { t } = useTranslation();
 
-  const categoryBrands = { key1: "PremiumChoice", key2: "1" };
+  const categoryBrands = { key1: "PremiumChoice", key2: "Love" };
   const { data, error } = useSWR(
     ["brands", language],
     () => getBrands(language),
