@@ -853,6 +853,11 @@ async function initializeI18n() {
         "St.Valentine’s": "St.Valentine’s",
         Bonus: "Bonus",
         "Tap Me": "Tap Me",
+
+        "TOP RATED CRYPTO CASINOS": "TOP RATED CRYPTO CASINOS",
+        "Top Bonuses": "Top Bonuses",
+        "Newbie Perks": "Newbie Perks",
+        "Top Bonuses": "High Stakes",
       },
     },
 
@@ -1489,6 +1494,11 @@ async function initializeI18n() {
         "St.Valentine’s": "Walentynkowy",
         Bonus: "Bonus",
         "Tap Me": "Dotknij mnie",
+
+        "TOP RATED CRYPTO CASINOS": "NAJLEPIEJ OCENIANE KRYPTO KASYNA",
+        "Top Bonuses": "Najlepsze bonusy",
+        "Newbie Perks": "Korzyści dla początkujących",
+        "Top Bonuses": "Wysokie stawki",
       },
     },
     de: {
@@ -2127,6 +2137,11 @@ async function initializeI18n() {
         "St.Valentine’s": "Valentinstag",
         Bonus: "Bonus",
         "Tap Me": "Tippe mich",
+
+        "TOP RATED CRYPTO CASINOS": "TOP BEWERTETE KRYPTO-CASINOS",
+        "Top Bonuses": "Top-Boni",
+        "Newbie Perks": "Vorteile für Neulinge",
+        "Top Bonuses": "Hohe Einsätze",
       },
     },
     bg: {
@@ -2755,6 +2770,11 @@ async function initializeI18n() {
         "St.Valentine’s": "Свети Валентин",
         Bonus: "Бонус",
         "Tap Me": "Докосни ме",
+
+        "TOP RATED CRYPTO CASINOS": "НАЙ-ВИСОКО ОЦЕНЕНИ КРИПТО КАЗИНА",
+        "Top Bonuses": "Топ бонуси",
+        "Newbie Perks": "Привилегии за новаци",
+        "Top Bonuses": "Високи залози",
       },
     },
     cz: {
@@ -3382,6 +3402,11 @@ async function initializeI18n() {
         "St.Valentine’s": "Valentýn",
         Bonus: "Bonus",
         "Tap Me": "Klepni na mě",
+
+        "TOP RATED CRYPTO CASINOS": "NEJLÉPE HODNOCENÁ KRYPTO KASINA",
+        "Top Bonuses": "Nejlepší bonusy",
+        "Newbie Perks": "Výhody pro nováčky",
+        "Top Bonuses": "Vysoké sázky",
       },
     },
     dk: {
@@ -4010,6 +4035,11 @@ async function initializeI18n() {
         "St.Valentine’s": "Valentinsdag",
         Bonus: "Bonus",
         "Tap Me": "Tryk på mig",
+
+        "TOP RATED CRYPTO CASINOS": "TOPBEDØMTE KRYPTOCASINOER",
+        "Top Bonuses": "Topbonusser",
+        "Newbie Perks": "Fordele for nybegyndere",
+        "Top Bonuses": "Høje indsatser",
       },
     },
     nl: {
@@ -4643,6 +4673,11 @@ async function initializeI18n() {
         "St.Valentine’s": "Valentijnsdag",
         Bonus: "Bonus",
         "Tap Me": "Tik me aan",
+
+        "TOP RATED CRYPTO CASINOS": "TOP BEOORDEELDE CRYPTO-CASINO'S",
+        "Top Bonuses": "Topbonussen",
+        "Newbie Perks": "Voordelen voor nieuwkomers",
+        "Top Bonuses": "Hoge inzetten",
       },
     },
     es: {
@@ -5274,6 +5309,11 @@ async function initializeI18n() {
         "St.Valentine’s": "San Valentín",
         Bonus: "Bono",
         "Tap Me": "Tócame",
+
+        "TOP RATED CRYPTO CASINOS": "CASINOS DE CRIPTO MEJOR CALIFICADOS",
+        "Top Bonuses": "Mejores bonos",
+        "Newbie Perks": "Ventajas para principiantes",
+        "Top Bonuses": "Altas apuestas",
       },
     },
     fi: {
@@ -5901,6 +5941,11 @@ async function initializeI18n() {
         "St.Valentine’s": "Ystävänpäivä",
         Bonus: "Bonus",
         "Tap Me": "Napauta minua",
+
+        "TOP RATED CRYPTO CASINOS": "PARHAAT ARVOSTELLUT KRYPTOKASINOT",
+        "Top Bonuses": "Parhaat bonukset",
+        "Newbie Perks": "Aloittelijoiden edut",
+        "Top Bonuses": "Korkeat panokset",
       },
     },
     fr: {
@@ -6535,6 +6580,11 @@ async function initializeI18n() {
         "St.Valentine’s": "Saint-Valentin",
         Bonus: "Bonus",
         "Tap Me": "Tapez-moi",
+
+        "TOP RATED CRYPTO CASINOS": "MEILLEURS CASINOS CRYPTO NOTÉS",
+        "Top Bonuses": "Meilleurs bonus",
+        "Newbie Perks": "Avantages pour débutants",
+        "Top Bonuses": "Mises élevées",
       },
     },
 
@@ -7165,6 +7215,11 @@ async function initializeI18n() {
         "St.Valentine’s": "Αγίου Βαλεντίνου",
         Bonus: "Μπόνους",
         "Tap Me": "Πάτησέ με",
+
+        "TOP RATED CRYPTO CASINOS": "ΚΟΡΥΦΑΊΑ ΚΡΥΠΤΟΚΑΖΊΝΟ",
+        "Top Bonuses": "Κορυφαία μπόνους",
+        "Newbie Perks": "Προνόμια για νέους",
+        "Top Bonuses": "Υψηλά πονταρίσματα",
       },
     },
     hu: {
@@ -7794,6 +7849,11 @@ async function initializeI18n() {
         "St.Valentine’s": "Valentin-nap",
         Bonus: "Bónusz",
         "Tap Me": "Érints meg",
+
+        "TOP RATED CRYPTO CASINOS": "LEGJOBBRA ÉRTÉKELT KRIPTO KASZINÓK",
+        "Top Bonuses": "Legjobb bónuszok",
+        "Newbie Perks": "Előnyök kezdőknek",
+        "Top Bonuses": "Magas tétek",
       },
     },
     it: {
@@ -8426,6 +8486,11 @@ async function initializeI18n() {
         "St.Valentine’s": "San Valentino",
         Bonus: "Bonus",
         "Tap Me": "Toccami",
+
+        "TOP RATED CRYPTO CASINOS": "I MIGLIORI CASINÒ CRYPTO VALUTATI",
+        "Top Bonuses": "Migliori bonus",
+        "Newbie Perks": "Vantaggi per principianti",
+        "Top Bonuses": "Puntate alte",
       },
     },
     no: {
@@ -9056,6 +9121,11 @@ async function initializeI18n() {
         "St.Valentine’s": "Valentinsdag",
         Bonus: "Bonus",
         "Tap Me": "Trykk på meg",
+
+        "TOP RATED CRYPTO CASINOS": "TOPPRANGERTE KRYPTOCASINOER",
+        "Top Bonuses": "Toppbonuser",
+        "Newbie Perks": "Fordeler for nybegynnere",
+        "Top Bonuses": "Høye innsatser",
       },
     },
     pt: {
@@ -9687,6 +9757,11 @@ async function initializeI18n() {
         "St.Valentine’s": "Dia dos Namorados",
         Bonus: "Bônus",
         "Tap Me": "Toque em mim",
+
+        "TOP RATED CRYPTO CASINOS": "MELHORES CASSINOS DE CRIPTO AVALIADOS",
+        "Top Bonuses": "Melhores bônus",
+        "Newbie Perks": "Benefícios para iniciantes",
+        "Top Bonuses": "Apostas altas",
       },
     },
     se: {
@@ -10316,6 +10391,11 @@ async function initializeI18n() {
         "St.Valentine’s": "Alla hjärtans dag",
         Bonus: "Bonus",
         "Tap Me": "Tryck på mig",
+
+        "TOP RATED CRYPTO CASINOS": "HÖGST RANKADE KRYPTOCASINOER",
+        "Top Bonuses": "Toppbonusar",
+        "Newbie Perks": "Fördelar för nybörjare",
+        "Top Bonuses": "Höga insatser",
       },
     },
     sk: {
@@ -10944,6 +11024,11 @@ async function initializeI18n() {
         "St.Valentine’s": "Valentín",
         Bonus: "Bonus",
         "Tap Me": "Klepni na mňa",
+
+        "TOP RATED CRYPTO CASINOS": "NAJLEPŠIE HODNOTENÉ KRYPTO KASÍNA",
+        "Top Bonuses": "Najlepšie bonusy",
+        "Newbie Perks": "Výhody pre nováčikov",
+        "Top Bonuses": "Vysoké stávky",
       },
     },
     tr: {
@@ -11571,6 +11656,11 @@ async function initializeI18n() {
         "St.Valentine’s": "Sevgililer Günü",
         Bonus: "Bonus",
         "Tap Me": "Bana dokun",
+
+        "TOP RATED CRYPTO CASINOS": "EN IYI PUANLANAN KRIPTO CASINOLAR",
+        "Top Bonuses": "En iyi bonuslar",
+        "Newbie Perks": "Yeni başlayan avantajları",
+        "Top Bonuses": "Yüksek bahisler",
       },
     },
 
@@ -12192,6 +12282,11 @@ async function initializeI18n() {
         "St.Valentine’s": "सेंट वेलेंटाइन",
         Bonus: "बोनस",
         "Tap Me": "मुझे टैप करें",
+
+        "TOP RATED CRYPTO CASINOS": "शीर्ष रेटेड क्रिप्टो कैसीनो",
+        "Top Bonuses": "शीर्ष बोनस",
+        "Newbie Perks": "नवागंतुक लाभ",
+        "Top Bonuses": "उच्च दांव",
       },
     },
   };
