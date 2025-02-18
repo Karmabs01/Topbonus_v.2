@@ -503,11 +503,29 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 #thrdjin .btn-new p {
-  font-size: ;
+  font-size: 17px !important;
 }
 
 #thrdjin .btn-new:after {
   display: none !important;
+}
+
+#thrdjin .btn-new p {
+  margin-left: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  #thrdjin p {
+    max-width: 170px;
+    font-size: 14px !important;
+    line-height: 17px !important;
+  }
+
+  #thrdjin img {
+    min-width: 70px !important;
+    max-width: 70px !important;
+  }
 }
 
 

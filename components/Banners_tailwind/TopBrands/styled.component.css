@@ -385,3 +385,19 @@
 #thrdjin .btn-new::after {
   display: none !important;
 }
+#thrdjin .btn-new p {
+  margin-left: 0 !important;
+  padding-bottom: 0 !important;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  #thrdjin p {
+    font-size: 14px !important;
+    line-height: 17px !important;
+    max-width: 160px;
+  }
+
+  #thrdjin img {
+    min-width: 70px !important;
+    max-width: 70px !important;
+  }
+}

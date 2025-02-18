@@ -403,4 +403,22 @@
   display: none !important;
 }
 
+#thrdjin .btn-new p {
+  margin-left: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  #thrdjin p {
+    max-width: 160px;
+    font-size: 14px !important;
+    line-height: 17px !important;
+  }
+
+  #thrdjin img {
+    min-width: 70px !important;
+    max-width: 70px !important;
+  }
+}
+
 /*# sourceMappingURL=components_Banners_tailwind_TopBrands_styled_component_b52d8e.css.map*/
