@@ -27,7 +27,6 @@ const GamePage = () => {
     () => getBrands(language),
     { fallbackData: brands }
   );
-
   let userId = "";
   if (typeof window !== "undefined") {
     userId = localStorage.getItem("user_id") || "";
