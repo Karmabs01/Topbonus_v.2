@@ -4629,7 +4629,7 @@ const Index = ()=>{
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"])();
     const [brands, setBrands] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const { language } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
-    // Показываем модалку через 5 секунд (если ещё не показывалась сегодня)
+    // Показываем модалку через 25 секунд (если ещё не показывалась сегодня)
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const modalShownDate2 = localStorage.getItem("modalShownDate2");
         const today = new Date().toISOString().split("T")[0];
@@ -4704,12 +4704,10 @@ const Index = ()=>{
     // Берем только один случайный бренд (первый после перемешивания)
     const randomBrand = brands[0];
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        // Пример обработки сообщения, если необходимо
         const handleMessage = (event)=>{
             if (event.data && event.data.event === "spinComplete") {
-                setWinResult(event.data.prize);
-                // Перемешиваем текущий массив брендов
-                setBrands((currentBrands)=>shuffle(currentBrands));
-                setModalVisible(true);
+            // Дополнительная логика
             }
         };
         window.addEventListener("message", handleMessage);
@@ -4739,10 +4737,7 @@ const Index = ()=>{
             const partner = partners.find((p)=>keyword && keyword.includes(p));
             if (partner) {
                 localStorage.setItem("source", partner);
-                setSource(partner);
-                searchParams.set("source", partner);
             } else {
-                setSource("0");
                 const sourceFound = localStorage.getItem("source");
                 if (!partners.includes(sourceFound)) {
                     localStorage.setItem("source", "0");
@@ -4778,7 +4773,7 @@ const Index = ()=>{
                                     children: t("St.Valentine’s")
                                 }, void 0, false, {
                                     fileName: "[project]/components/Hearts/index.jsx",
-                                    lineNumber: 170,
+                                    lineNumber: 167,
                                     columnNumber: 28
                                 }, this),
                                 " ",
@@ -4786,23 +4781,24 @@ const Index = ()=>{
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Hearts/index.jsx",
-                            lineNumber: 169,
+                            lineNumber: 166,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                             target: "_blank",
                             className: "tapme",
                             href: `${randomBrand.GoBig}/${newUrl}&creative_id=Modal_Heart`,
+                            onClick: (e)=>e.stopPropagation(),
                             children: t("Tap Me")
                         }, void 0, false, {
                             fileName: "[project]/components/Hearts/index.jsx",
-                            lineNumber: 172,
+                            lineNumber: 169,
                             columnNumber: 15
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Hearts/index.jsx",
-                    lineNumber: 168,
+                    lineNumber: 165,
                     columnNumber: 13
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4812,23 +4808,23 @@ const Index = ()=>{
                         alt: "heart"
                     }, void 0, false, {
                         fileName: "[project]/components/Hearts/index.jsx",
-                        lineNumber: 182,
+                        lineNumber: 180,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Hearts/index.jsx",
-                    lineNumber: 181,
+                    lineNumber: 179,
                     columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Hearts/index.jsx",
-            lineNumber: 162,
+            lineNumber: 159,
             columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Hearts/index.jsx",
-        lineNumber: 160,
+        lineNumber: 157,
         columnNumber: 5
     }, this);
 };

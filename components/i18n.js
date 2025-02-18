@@ -853,6 +853,12 @@ async function initializeI18n() {
         "St.Valentine’s": "St.Valentine’s",
         Bonus: "Bonus",
         "Tap Me": "Tap Me",
+
+        "TOP RATED CRYPTO CASINOS": "TOP RATED CRYPTO CASINOS",
+        "Top Bonuses": "Top Bonuses",
+        "Newbie Perks": "Newbie Perks",
+        "Top Bonuses": "High Stakes"
+
       },
     },
 

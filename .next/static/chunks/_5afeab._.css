@@ -365,6 +365,38 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   padding: 15px;
 }
 
+.topbr-tw .tabs {
+  max-width: 694px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.topbr-tw .tabs button {
+  padding: 3px 5px;
+  border: 1px solid #ffffff83;
+  color: #fff;
+}
+
+.topbr-tw .tabs button:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.topbr-tw .tabs button:nth-child(3) {
+  border-radius: 0 5px 5px 0;
+}
+
+.topbr-tw .tabs .active {
+  background: #ff8f1f;
+}
+
+@media (width >= 1260px) and (width <= 5000px) {
+  .slick-slider .slick-list {
+    overflow: hidden;
+  }
+}
+
 @media (width >= 320px) and (width <= 767px) {
   .mrnu-wi {
     max-width: 35px;

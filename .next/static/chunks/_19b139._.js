@@ -657,7 +657,9 @@ async function initializeI18n() {
                 Get: "Get",
                 "St.Valentine’s": "St.Valentine’s",
                 Bonus: "Bonus",
-                "Tap Me": "Tap Me"
+                "Tap Me": "Tap Me",
+                "TOP RATED CRYPTO CASINOS": "TOP RATED CRYPTO CASINOS",
+                "Top Bonuses": ""
             }
         },
         pl: {
@@ -15205,10 +15207,11 @@ const Index = ()=>{
     _s();
     const [showText, setShowText] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const timerRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const [newUrl, setNewUrl] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("");
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"])();
     const [brands, setBrands] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const { language } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
-    // Показываем модалку через 5 секунд (если ещё не показывалась сегодня)
+    // Показываем модалку через 25 секунд (если ещё не показывалась сегодня)
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const modalShownDate2 = localStorage.getItem("modalShownDate2");
         const today = new Date().toISOString().split("T")[0];
@@ -15216,7 +15219,7 @@ const Index = ()=>{
             timerRef.current = setTimeout(()=>{
                 setShowText(true);
                 localStorage.setItem("modalShownDate2", today);
-            }, 5000);
+            }, 25000);
         }
         return ()=>clearTimeout(timerRef.current);
     }, []);
@@ -15282,10 +15285,63 @@ const Index = ()=>{
     };
     // Берем только один случайный бренд (первый после перемешивания)
     const randomBrand = brands[0];
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        // Пример обработки сообщения, если необходимо
+        const handleMessage = (event)=>{
+            if (event.data && event.data.event === "spinComplete") {
+            // Дополнительная логика
+            }
+        };
+        window.addEventListener("message", handleMessage);
+        return ()=>{
+            window.removeEventListener("message", handleMessage);
+        };
+    }, []);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const currentUrl = window.location.href;
+        const indexOfQuestionMark = currentUrl.indexOf("?");
+        const newUrl2 = indexOfQuestionMark !== -1 ? currentUrl.substring(0, indexOfQuestionMark) : currentUrl;
+        window.history.replaceState({}, document.title, newUrl2);
+        const urlObj = new URL(currentUrl);
+        const searchParams = new URLSearchParams(urlObj.search);
+        searchParams.delete("brand");
+        const currentKeyword = searchParams.get("keyword");
+        const partners = [
+            "partner1039",
+            "partner1043",
+            "partner1044",
+            "CLD_VIP",
+            "partner1045_b1",
+            "partner1046",
+            "partner1047"
+        ];
+        function setPartnerSource(keyword) {
+            const partner = partners.find((p)=>keyword && keyword.includes(p));
+            if (partner) {
+                localStorage.setItem("source", partner);
+            } else {
+                const sourceFound = localStorage.getItem("source");
+                if (!partners.includes(sourceFound)) {
+                    localStorage.setItem("source", "0");
+                    searchParams.set("source", "0");
+                }
+            }
+        }
+        if (currentKeyword) {
+            setPartnerSource(currentKeyword);
+        }
+        const savedUrl = localStorage.getItem("savedUrl");
+        if (savedUrl) {
+            setNewUrl(savedUrl);
+        }
+    }, [
+        language
+    ]);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: "animation-container",
         children: randomBrand && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-            href: randomBrand.GoBig,
+            target: "_blank",
+            href: `${randomBrand.GoBig}/${newUrl}&creative_id=Modal_Heart`,
             onClick: handleClick,
             children: [
                 showText && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -15299,7 +15355,7 @@ const Index = ()=>{
                                     children: t("St.Valentine’s")
                                 }, void 0, false, {
                                     fileName: "[project]/components/Hearts/index.jsx",
-                                    lineNumber: 100,
+                                    lineNumber: 167,
                                     columnNumber: 28
                                 }, this),
                                 " ",
@@ -15307,22 +15363,24 @@ const Index = ()=>{
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Hearts/index.jsx",
-                            lineNumber: 99,
+                            lineNumber: 166,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            target: "_blank",
                             className: "tapme",
-                            href: "#",
+                            href: `${randomBrand.GoBig}/${newUrl}&creative_id=Modal_Heart`,
+                            onClick: (e)=>e.stopPropagation(),
                             children: t("Tap Me")
                         }, void 0, false, {
                             fileName: "[project]/components/Hearts/index.jsx",
-                            lineNumber: 102,
+                            lineNumber: 169,
                             columnNumber: 15
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Hearts/index.jsx",
-                    lineNumber: 98,
+                    lineNumber: 165,
                     columnNumber: 13
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -15332,27 +15390,27 @@ const Index = ()=>{
                         alt: "heart"
                     }, void 0, false, {
                         fileName: "[project]/components/Hearts/index.jsx",
-                        lineNumber: 108,
+                        lineNumber: 180,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Hearts/index.jsx",
-                    lineNumber: 107,
+                    lineNumber: 179,
                     columnNumber: 11
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/Hearts/index.jsx",
-            lineNumber: 96,
+            lineNumber: 159,
             columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Hearts/index.jsx",
-        lineNumber: 94,
+        lineNumber: 157,
         columnNumber: 5
     }, this);
 };
-_s(Index, "Ny1AbPnde19WwSoS0QYYGdL0E3E=", false, function() {
+_s(Index, "8x510xGFyYzsWsPxQBDrx+Ydbmc=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"],
         __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"],

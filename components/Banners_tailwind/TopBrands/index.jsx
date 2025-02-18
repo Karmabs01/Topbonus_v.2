@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect, useMemo, useCallback } from "react";
+import { useState, useEffect, useMemo } from "react";
 import Loader from "../../Loader";
 import { shuffle } from "lodash";
 import Image from "next/image";
@@ -14,7 +14,6 @@ import Pickup from "./pickup";
 import useSWR from "swr";
 import { getUserData } from "@/components/getUser/getUser";
 
-
 import "./styled.component.css";
 
 const TopBrands = () => {
@@ -25,6 +24,7 @@ const TopBrands = () => {
   const { language } = useLanguage();
   const { t } = useTranslation();
 
+  // Настройки слайдера
   const settings = useMemo(
     () => ({
       infinite: true,
@@ -48,6 +48,7 @@ const TopBrands = () => {
     []
   );
 
+  // Обработка URL и источника партнёров
   useEffect(() => {
     console.log("useEffect [language] triggered with language:", language);
     const currentUrl = window.location.href;
@@ -76,7 +77,6 @@ const TopBrands = () => {
       "partner1050",
       "partner1049",
       "partner1047",
-
     ];
 
     const setPartnerSource = (keyword) => {
@@ -111,48 +111,62 @@ const TopBrands = () => {
     }
   }, [language]);
 
-  const categoryBrands = { key1: "Trendsetting", key2: "1" };
+  /**
+   * Определяем набор категорий для табов.
+   * Для каждого таба задаются:
+   * - label: название для отображения;
+   * - property: имя свойства в объекте бренда;
+   * - value: требуемое значение для фильтрации.
+   */
+  const categoryTabs = {
+    topbonuses: { label: "Top Bonuses", property: "Trendsetting", value: "1" },
+    newbieperks: { label: "Newbie Perks", property: "Trendsetting", value: "2" },
+    highstakes: { label: "High Stakes", property: "Trendsetting", value: "3" },
+  };
 
-  console.log("LNG", language)
+  // Состояние для активного таба; по умолчанию выбран первый таб ("Top Bonuses")
+  const [activeTab, setActiveTab] = useState("topbonuses");
+
+  // Получение брендов через SWR с учётом выбранной категории
   const { data, error } = useSWR(
-    ["brands", language],
-    () => getBrands(language),
+    ["brands", language, activeTab],
+    () => getBrands(language, activeTab),
     { initialData: brands }
   );
+
   let userId = "";
   if (typeof window !== "undefined") {
     userId = localStorage.getItem("user_id") || "";
   }
+
+  // Фильтрация брендов по выбранной категории и дополнительная обработка (учёт sales)
   useEffect(() => {
     const fetchUserBrands = async () => {
-      // 1. Фильтрация брендов на основе категорий
+      if (!data) {
+        console.warn("Данные брендов отсутствуют");
+        setLoading(false);
+        return;
+      }
+      // Фильтруем бренды по значению выбранного таба
       const filteredByCategory = data.filter((brand) =>
-        brand[categoryBrands.key1] === categoryBrands.key2
+        brand[categoryTabs[activeTab].property] === categoryTabs[activeTab].value
       );
       try {
-        // Проверяем наличие данных брендов
-        if (!data) {
-          console.warn("Данные брендов отсутствуют");
-          setLoading(false);
-          return;
-        }
-
-
-        // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
+        // Если userId отсутствует, сразу устанавливаем отфильтрованные бренды
         if (!userId) {
           setBrands(filteredByCategory);
           setLoading(false);
           return;
         }
 
-        // 2. Получаем данные пользователя
+        // Получаем данные пользователя
         const dataUser = await getUserData(userId);
         console.log("Полные данные пользователя:", dataUser);
 
         let sales = dataUser.sales;
 
         // Если sales — строка, пытаемся её распарсить
-        if (typeof sales === 'string') {
+        if (typeof sales === "string") {
           try {
             sales = JSON.parse(sales);
             console.log("Sales после парсинга строки:", sales);
@@ -168,19 +182,19 @@ const TopBrands = () => {
           sales = [];
         }
 
-        // 3. Извлекаем campaignId из sales
+        // Извлекаем campaignId из sales
         const salesCampaignIds = sales.map((sale) => sale.campaignId);
         console.log("Sales Campaign IDs:", salesCampaignIds);
 
-        // 4. Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
-        const finalFilteredBrands = filteredByCategory.filter((brand) => 
-          !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
-          !salesCampaignIds.includes(brand.KeitaroR2dID)
+        // Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
+        const finalFilteredBrands = filteredByCategory.filter(
+          (brand) =>
+            !salesCampaignIds.includes(brand.KeitaroGoBigID) &&
+            !salesCampaignIds.includes(brand.KeitaroR2dID)
         );
 
         console.log("Отфильтрованные бренды:", finalFilteredBrands);
 
-        // 5. Устанавливаем состояние с отфильтрованными брендами
         setBrands(finalFilteredBrands);
         setLoading(false);
       } catch (error) {
@@ -191,16 +205,9 @@ const TopBrands = () => {
     };
 
     fetchUserBrands();
-  }, [
-    data, 
-    userId, 
-    categoryBrands.key1, 
-    categoryBrands.key2, 
-  ]);
-  
+  }, [data, userId, activeTab]);
 
-
-
+  // Перемешиваем бренды и выбираем 6 для отображения в слайдере
   const shuffledBrands = shuffle(brands);
   const cards2 = shuffledBrands.slice(0, 6).map((brand) => ({
     key: uuidv4(),
@@ -215,10 +222,25 @@ const TopBrands = () => {
 
   const [fade, setFade] = useState(true);
 
-
   return (
     <div className="topbr-tw">
       <div className="main__container">
+        {/* Блок табов */}
+        <div className="tabs">
+          {Object.keys(categoryTabs).map((key) => (
+            <button
+              key={key}
+              className={activeTab === key ? "active" : ""}
+              onClick={() => {
+                setActiveTab(key);
+                setLoading(true); // При смене таба показываем лоадер
+              }}
+            >
+              {categoryTabs[key].label}
+            </button>
+          ))}
+        </div>
+
         {loading ? (
           <Loader />
         ) : (
@@ -269,8 +291,7 @@ const TopBrands = () => {
                   ))}
                 </Slider>
               </div>
-              {/* <Timestamp /> */}
-              <Pickup newUrl={newUrl} />
+              <Pickup newUrl={newUrl} data={brands} />
             </div>
           )
         )}
