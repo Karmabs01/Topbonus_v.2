@@ -141,10 +141,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swr$2f$dist$
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/switcher/LanguageContext.jsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$module__evaluation$3e$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/index.js [app-client] (ecmascript) <module evaluation>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/react-i18next/dist/es/useTranslation.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lodash$2f$shuffle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/lodash/shuffle.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/node_modules/next/link.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getUser$2f$getUser$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/getUser/getUser.jsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$getBrands2$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_import__("[project]/components/getBrands/getBrands2.jsx [app-client] (ecmascript)");
 "__TURBOPACK__ecmascript__hoisting__location__";
 ;
 var _s = __turbopack_refresh__.signature();
@@ -157,20 +157,22 @@ var _s = __turbopack_refresh__.signature();
 ;
 ;
 ;
-function Pickup({ newUrl }) {
+function Pickup({ newUrl, data: propData = [] }) {
     _s();
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
     const [brands, setBrands] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const { language } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"])();
+    // Категория для фильтрации брендов в данном компоненте
     const categoryBrands = {
         key1: "PremiumChoice",
         key2: "1"
     };
-    const { data, error } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swr$2f$dist$2f$core$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"])([
+    // Переименовываем данные из SWR в swrData, чтобы не затирать prop data
+    const { data: swrData, error } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swr$2f$dist$2f$core$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"])([
         "brands",
         language
-    ], ()=>getBrands(language), {
+    ], ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$getBrands2$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getBrands"])(language), {
         initialData: brands
     });
     let userId = "";
@@ -178,28 +180,28 @@ function Pickup({ newUrl }) {
         userId = localStorage.getItem("user_id") || "";
     }
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
-        // 1. Фильтрация брендов на основе категорий
-        const filteredByCategory = data.filter((brand)=>brand[categoryBrands.key1] === categoryBrands.key2);
+        // Если данных из SWR ещё нет, выходим
+        if (!swrData) {
+            console.warn("Данные брендов отсутствуют");
+            setLoading(false);
+            return;
+        }
+        // Фильтруем бренды по нужной категории
+        const filteredByCategory = swrData.filter((brand)=>brand[categoryBrands.key1] === categoryBrands.key2);
         const fetchUserBrands = async ()=>{
             try {
-                // Проверяем наличие данных брендов
-                if (!data) {
-                    console.warn("Данные брендов отсутствуют");
-                    setLoading(false);
-                    return;
-                }
-                // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
+                // Если userId отсутствует, сразу устанавливаем отфильтрованные бренды
                 if (!userId) {
                     setBrands(filteredByCategory);
                     setLoading(false);
                     return;
                 }
-                // 2. Получаем данные пользователя
+                // Получаем данные пользователя
                 const dataUser = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getUser$2f$getUser$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getUserData"])(userId);
                 console.log("Полные данные пользователя:", dataUser);
                 let sales = dataUser.sales;
                 // Если sales — строка, пытаемся её распарсить
-                if (typeof sales === 'string') {
+                if (typeof sales === "string") {
                     try {
                         sales = JSON.parse(sales);
                         console.log("Sales после парсинга строки:", sales);
@@ -208,76 +210,69 @@ function Pickup({ newUrl }) {
                         sales = [];
                     }
                 }
-                // Проверяем, что sales — массив
+                // Если sales не массив, приводим к массиву
                 if (!Array.isArray(sales)) {
                     console.warn("Поле sales не является массивом:", sales);
                     sales = [];
                 }
-                // 3. Извлекаем campaignId из sales
+                // Извлекаем campaignId из sales
                 const salesCampaignIds = sales.map((sale)=>sale.campaignId);
                 console.log("Sales Campaign IDs:", salesCampaignIds);
-                // 4. Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
+                // Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
                 const finalFilteredBrands = filteredByCategory.filter((brand)=>!salesCampaignIds.includes(brand.KeitaroGoBigID) && !salesCampaignIds.includes(brand.KeitaroR2dID));
                 console.log("Отфильтрованные бренды:", finalFilteredBrands);
-                // 5. Устанавливаем состояние с отфильтрованными брендами
                 setBrands(finalFilteredBrands);
                 setLoading(false);
             } catch (error) {
-                setBrands(filteredByCategory);
                 console.error("Ошибка при получении данных пользователя или брендов:", error);
+                setBrands(filteredByCategory);
                 setLoading(false);
             }
         };
         fetchUserBrands();
     }, [
-        data,
+        swrData,
         userId,
         categoryBrands.key1,
         categoryBrands.key2
     ]);
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        className: "flex items-center justify-end jins w-full",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "flex items-center justify-end jins w-full",
-            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                id: "thrdjin",
-                className: "thrdjin",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
-                        className: "h5",
-                        children: t("Exclusive Winter Specials Just for You!")
-                    }, void 0, false, {
-                        fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                        lineNumber: 109,
-                        columnNumber: 11
-                    }, this),
-                    brands.length > 0 && brands.slice(0, 1).map((rowData, index)=>// <p className="p">{t("Click below to claim your magical reward!")}</p>
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            id: "thrdjin",
+            className: "thrdjin",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h5", {
+                    className: "h5",
+                    children: t("TOP RATED CRYPTO CASINOS")
+                }, void 0, false, {
+                    fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
+                    lineNumber: 107,
+                    columnNumber: 9
+                }, this),
+                brands.length > 0 && brands.slice(0, 3).map((rowData, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "w-full",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "img-wrap flex items-center w-full",
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "img-wrap",
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                        href: `${rowData.GoBig}/${newUrl}&creative_id=Premium_Choice_2`,
-                                        target: "_blank",
-                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                            src: `/brands/${rowData.CasinoBrand}.png`,
-                                            alt: rowData.CasinoBrand,
-                                            width: 150,
-                                            height: 75,
-                                            loading: "lazy",
-                                            className: "target-top-new-releases"
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                            lineNumber: 119,
-                                            columnNumber: 21
-                                        }, this)
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    href: `${rowData.GoBig}/${newUrl}&creative_id=Premium_Choice_2`,
+                                    target: "_blank",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        src: `/brands/${rowData.CasinoBrand}.png`,
+                                        alt: rowData.CasinoBrand,
+                                        width: 100,
+                                        height: 50,
+                                        loading: "lazy",
+                                        className: "target-top-new-releases"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                        lineNumber: 115,
+                                        lineNumber: 116,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                    lineNumber: 114,
+                                    lineNumber: 112,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -285,45 +280,49 @@ function Pickup({ newUrl }) {
                                     children: rowData.OurOfferContent
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                    lineNumber: 129,
+                                    lineNumber: 125,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    className: "btnscale btn btn-new",
+                                    className: "btnscale btn btn-new !absolute right-0",
                                     href: `${rowData.GoBig}/${newUrl}&creative_id=Premium_Choice_2`,
                                     target: "_blank",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         children: t("Play Now")
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                        lineNumber: 136,
+                                        lineNumber: 131,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                                    lineNumber: 130,
+                                    lineNumber: 126,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                            lineNumber: 113,
+                            lineNumber: 111,
                             columnNumber: 15
-                        }, this))
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-                lineNumber: 108,
-                columnNumber: 9
-            }, this)
-        }, void 0, false, {
+                        }, this)
+                    }, index, false, {
+                        fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
+                        lineNumber: 110,
+                        columnNumber: 13
+                    }, this))
+            ]
+        }, void 0, true, {
             fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
-            lineNumber: 107,
+            lineNumber: 106,
             columnNumber: 7
         }, this)
-    }, void 0, false);
+    }, void 0, false, {
+        fileName: "[project]/components/Banners_tailwind/TopBrands/pickup.jsx",
+        lineNumber: 105,
+        columnNumber: 5
+    }, this);
 }
-_s(Pickup, "XNIHWmJXYr5UGpxM63stUd/wVy0=", false, function() {
+_s(Pickup, "xzoDUqxjEXAEu1y/kLAT0K7LG9E=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"],
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"],
@@ -385,6 +384,7 @@ const TopBrands = ()=>{
     const [brands, setBrands] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
     const { language } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"])();
+    // Настройки слайдера
     const settings = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMemo"])(()=>({
             infinite: true,
             dots: true,
@@ -404,6 +404,7 @@ const TopBrands = ()=>{
                 }
             ]
         }), []);
+    // Обработка URL и источника партнёров
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         console.log("useEffect [language] triggered with language:", language);
         const currentUrl = window.location.href;
@@ -458,44 +459,66 @@ const TopBrands = ()=>{
     }, [
         language
     ]);
-    const categoryBrands = {
-        key1: "Trendsetting",
-        key2: "1"
+    /**
+   * Определяем набор категорий для табов.
+   * Для каждого таба задаются:
+   * - label: название для отображения;
+   * - property: имя свойства в объекте бренда;
+   * - value: требуемое значение для фильтрации.
+   */ const categoryTabs = {
+        topbonuses: {
+            label: "Top Bonuses",
+            property: "Trendsetting",
+            value: "1"
+        },
+        newbieperks: {
+            label: "Newbie Perks",
+            property: "Trendsetting",
+            value: "2"
+        },
+        highstakes: {
+            label: "High Stakes",
+            property: "Trendsetting",
+            value: "3"
+        }
     };
-    console.log("LNG", language);
+    // Состояние для активного таба; по умолчанию выбран первый таб ("Top Bonuses")
+    const [activeTab, setActiveTab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])("topbonuses");
+    // Получение брендов через SWR с учётом выбранной категории
     const { data, error } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swr$2f$dist$2f$core$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"])([
         "brands",
-        language
-    ], ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$getBrands2$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getBrands"])(language), {
+        language,
+        activeTab
+    ], ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getBrands$2f$getBrands2$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getBrands"])(language, activeTab), {
         initialData: brands
     });
     let userId = "";
     if (typeof window !== "undefined") {
         userId = localStorage.getItem("user_id") || "";
     }
+    // Фильтрация брендов по выбранной категории и дополнительная обработка (учёт sales)
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const fetchUserBrands = async ()=>{
-            // 1. Фильтрация брендов на основе категорий
-            const filteredByCategory = data.filter((brand)=>brand[categoryBrands.key1] === categoryBrands.key2);
+            if (!data) {
+                console.warn("Данные брендов отсутствуют");
+                setLoading(false);
+                return;
+            }
+            // Фильтруем бренды по значению выбранного таба
+            const filteredByCategory = data.filter((brand)=>brand[categoryTabs[activeTab].property] === categoryTabs[activeTab].value);
             try {
-                // Проверяем наличие данных брендов
-                if (!data) {
-                    console.warn("Данные брендов отсутствуют");
-                    setLoading(false);
-                    return;
-                }
-                // Если userId отсутствует, устанавливаем отфильтрованные бренды и завершаем
+                // Если userId отсутствует, сразу устанавливаем отфильтрованные бренды
                 if (!userId) {
                     setBrands(filteredByCategory);
                     setLoading(false);
                     return;
                 }
-                // 2. Получаем данные пользователя
+                // Получаем данные пользователя
                 const dataUser = await (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getUser$2f$getUser$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getUserData"])(userId);
                 console.log("Полные данные пользователя:", dataUser);
                 let sales = dataUser.sales;
                 // Если sales — строка, пытаемся её распарсить
-                if (typeof sales === 'string') {
+                if (typeof sales === "string") {
                     try {
                         sales = JSON.parse(sales);
                         console.log("Sales после парсинга строки:", sales);
@@ -509,13 +532,12 @@ const TopBrands = ()=>{
                     console.warn("Поле sales не является массивом:", sales);
                     sales = [];
                 }
-                // 3. Извлекаем campaignId из sales
+                // Извлекаем campaignId из sales
                 const salesCampaignIds = sales.map((sale)=>sale.campaignId);
                 console.log("Sales Campaign IDs:", salesCampaignIds);
-                // 4. Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
+                // Исключаем бренды, у которых KeitaroGoBigID или KeitaroR2dID совпадают с campaignId
                 const finalFilteredBrands = filteredByCategory.filter((brand)=>!salesCampaignIds.includes(brand.KeitaroGoBigID) && !salesCampaignIds.includes(brand.KeitaroR2dID));
                 console.log("Отфильтрованные бренды:", finalFilteredBrands);
-                // 5. Устанавливаем состояние с отфильтрованными брендами
                 setBrands(finalFilteredBrands);
                 setLoading(false);
             } catch (error) {
@@ -528,9 +550,9 @@ const TopBrands = ()=>{
     }, [
         data,
         userId,
-        categoryBrands.key1,
-        categoryBrands.key2
+        activeTab
     ]);
+    // Перемешиваем бренды и выбираем 6 для отображения в слайдере
     const shuffledBrands = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lodash$2f$shuffle$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(brands);
     const cards2 = shuffledBrands.slice(0, 6).map((brand)=>({
             key: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$uuid$2f$dist$2f$esm$2d$browser$2f$v4$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__v4$3e$__["v4"])(),
@@ -540,7 +562,7 @@ const TopBrands = ()=>{
                 bonus: brand.OurOfferContent
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                lineNumber: 208,
+                lineNumber: 215,
                 columnNumber: 7
             }, this)
         }));
@@ -549,147 +571,169 @@ const TopBrands = ()=>{
         className: "topbr-tw",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "main__container",
-            children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                lineNumber: 223,
-                columnNumber: 11
-            }, this) : cards2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "flex justify-between items-start md:flex-row lg:space-y-0 mob1",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "slider-left w-full md:w-2/3 mb-10 md:mb-2",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                            ...settings,
-                            children: shuffledBrands.map((rowData, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: `background-slider overflow-hidden bg-indigo-600 py-5 rounded-xl h-full flex flex-col justify-between ${fade ? "fade-in" : "fade-out"}`,
-                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "flex flex-col",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "tabs",
+                    children: Object.keys(categoryTabs).map((key)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                            className: activeTab === key ? "active" : "",
+                            onClick: ()=>{
+                                setActiveTab(key);
+                                setLoading(true); // При смене таба показываем лоадер
+                            },
+                            children: categoryTabs[key].label
+                        }, key, false, {
+                            fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
+                            lineNumber: 231,
+                            columnNumber: 13
+                        }, this))
+                }, void 0, false, {
+                    fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
+                    lineNumber: 229,
+                    columnNumber: 9
+                }, this),
+                loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
+                    lineNumber: 245,
+                    columnNumber: 11
+                }, this) : cards2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "flex justify-between items-start md:flex-row lg:space-y-0 mob1",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "slider-left w-full md:w-2/3 mb-10 md:mb-2",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$slick$2f$lib$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                ...settings,
+                                children: shuffledBrands.map((rowData, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: `background-slider overflow-hidden bg-indigo-600 py-5 rounded-xl h-full flex flex-col justify-between ${fade ? "fade-in" : "fade-out"}`,
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "flex flex-row",
+                                            className: "flex flex-col",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "basis-3/3",
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                        href: `${rowData.GoBig}/${newUrl}&creative_id=Top_Brand`,
-                                                        target: "_blank",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                            src: `/brands/${rowData.CasinoBrand}.png`,
-                                                            alt: rowData.CasinoBrand,
-                                                            width: 150,
-                                                            height: 75,
-                                                            loading: "lazy",
-                                                            className: "target-top-new-releases"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                                                            lineNumber: 243,
-                                                            columnNumber: 31
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                                                        lineNumber: 239,
-                                                        columnNumber: 29
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                        children: rowData.CasinoBrand
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                                                        lineNumber: 252,
-                                                        columnNumber: 29
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                        className: "p",
-                                                        children: rowData.OurOfferContent
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                                                        lineNumber: 253,
-                                                        columnNumber: 29
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "flex sm:mt-4 allbtn",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                                            className: "btnscale",
+                                                className: "flex flex-row",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "basis-3/3",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                             href: `${rowData.GoBig}/${newUrl}&creative_id=Top_Brand`,
                                                             target: "_blank",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "btn btn-new",
-                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    children: t("Play Now")
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                                                                    lineNumber: 261,
-                                                                    columnNumber: 35
-                                                                }, this)
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                src: `/brands/${rowData.CasinoBrand}.png`,
+                                                                alt: rowData.CasinoBrand,
+                                                                width: 150,
+                                                                height: 75,
+                                                                loading: "lazy",
+                                                                className: "target-top-new-releases"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                                                                lineNumber: 260,
-                                                                columnNumber: 33
+                                                                lineNumber: 265,
+                                                                columnNumber: 31
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                                                            lineNumber: 255,
-                                                            columnNumber: 31
+                                                            lineNumber: 261,
+                                                            columnNumber: 29
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                            children: rowData.CasinoBrand
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
+                                                            lineNumber: 274,
+                                                            columnNumber: 29
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "p",
+                                                            children: rowData.OurOfferContent
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
+                                                            lineNumber: 275,
+                                                            columnNumber: 29
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "flex sm:mt-4 allbtn",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                className: "btnscale",
+                                                                href: `${rowData.GoBig}/${newUrl}&creative_id=Top_Brand`,
+                                                                target: "_blank",
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "btn btn-new",
+                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                        children: t("Play Now")
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
+                                                                        lineNumber: 283,
+                                                                        columnNumber: 35
+                                                                    }, this)
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
+                                                                    lineNumber: 282,
+                                                                    columnNumber: 33
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
+                                                                lineNumber: 277,
+                                                                columnNumber: 31
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
+                                                            lineNumber: 276,
+                                                            columnNumber: 29
                                                         }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                                                        lineNumber: 254,
-                                                        columnNumber: 29
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
+                                                    lineNumber: 260,
+                                                    columnNumber: 27
+                                                }, this)
+                                            }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                                                lineNumber: 238,
-                                                columnNumber: 27
+                                                lineNumber: 259,
+                                                columnNumber: 25
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                                            lineNumber: 237,
-                                            columnNumber: 25
+                                            lineNumber: 258,
+                                            columnNumber: 23
                                         }, this)
-                                    }, void 0, false, {
+                                    }, `${rowData.id_brand}-${index}`, false, {
                                         fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                                        lineNumber: 236,
-                                        columnNumber: 23
-                                    }, this)
-                                }, `${rowData.id_brand}-${index}`, false, {
-                                    fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                                    lineNumber: 230,
-                                    columnNumber: 21
-                                }, this))
+                                        lineNumber: 252,
+                                        columnNumber: 21
+                                    }, this))
+                            }, void 0, false, {
+                                fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
+                                lineNumber: 250,
+                                columnNumber: 17
+                            }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                            lineNumber: 228,
-                            columnNumber: 17
+                            lineNumber: 249,
+                            columnNumber: 15
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$TopBrands$2f$pickup$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            newUrl: newUrl,
+                            data: brands
+                        }, void 0, false, {
+                            fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
+                            lineNumber: 294,
+                            columnNumber: 15
                         }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                        lineNumber: 227,
-                        columnNumber: 15
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Banners_tailwind$2f$TopBrands$2f$pickup$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        newUrl: newUrl
-                    }, void 0, false, {
-                        fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                        lineNumber: 273,
-                        columnNumber: 15
-                    }, this)
-                ]
-            }, void 0, true, {
-                fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-                lineNumber: 226,
-                columnNumber: 13
-            }, this)
-        }, void 0, false, {
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
+                    lineNumber: 248,
+                    columnNumber: 13
+                }, this)
+            ]
+        }, void 0, true, {
             fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-            lineNumber: 221,
+            lineNumber: 227,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Banners_tailwind/TopBrands/index.jsx",
-        lineNumber: 220,
+        lineNumber: 226,
         columnNumber: 5
     }, this);
 };
-_s(TopBrands, "ik7kDrR7QRw0bp4X4BWh18ijzsI=", false, function() {
+_s(TopBrands, "gcFODOjhN/ai7QOEbUEOkbyiuUU=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"],
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"],

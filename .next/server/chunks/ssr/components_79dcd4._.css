@@ -517,7 +517,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 
 @media (width >= 320px) and (width <= 767px) {
   #thrdjin p {
-    max-width: 170px;
+    max-width: 160px;
     font-size: 14px !important;
     line-height: 17px !important;
   }

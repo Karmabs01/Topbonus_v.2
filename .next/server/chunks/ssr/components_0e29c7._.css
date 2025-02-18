@@ -365,6 +365,12 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   padding: 15px;
 }
 
+@media (width >= 1260px) and (width <= 5000px) {
+  .slick-slider .slick-list {
+    overflow: hidden;
+  }
+}
+
 @media (width >= 320px) and (width <= 767px) {
   .mrnu-wi {
     max-width: 35px;
@@ -439,6 +445,86 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   .slick-slide:nth-child(3n+3) .background-slider {
     background: url("/newimages/new-banner-slider-3_small.png") center no-repeat;
     background-size: cover;
+  }
+}
+
+.topbr-tw .tabs {
+  max-width: 694px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.topbr-tw .tabs button {
+  padding: 3px 5px;
+  border: 1px solid #ffffff83;
+  color: #fff;
+}
+
+.topbr-tw .tabs button:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.topbr-tw .tabs button:nth-child(3) {
+  border-radius: 0 5px 5px 0;
+}
+
+.topbr-tw .tabs .active {
+  background: #ff8f1f;
+}
+
+#thrdjin .img-wrap {
+  padding: 10px !important;
+}
+
+#thrdjin img {
+  min-width: 100px;
+}
+
+#thrdjin p {
+  text-align: left;
+  max-width: 200px;
+  overflow: hidden;
+  margin-left: 7px;
+  font-size: 15px !important;
+  line-height: 18px !important;
+}
+
+#thrdjin .btn-new {
+  background: #ff8f1f !important;
+  font-size: 20px !important;
+  padding: 10px 15px !important;
+  margin: 0 !important;
+  min-width: 120px !important;
+  max-width: 120px !important;
+  height: 40px !important;
+  margin-left: auto !important;
+}
+
+#thrdjin .btn-new p {
+  font-size: 17px !important;
+}
+
+#thrdjin .btn-new:after {
+  display: none !important;
+}
+
+#thrdjin .btn-new p {
+  margin-left: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+@media (width >= 320px) and (width <= 767px) {
+  #thrdjin p {
+    max-width: 160px;
+    font-size: 14px !important;
+    line-height: 17px !important;
+  }
+
+  #thrdjin img {
+    min-width: 70px !important;
+    max-width: 70px !important;
   }
 }
 
