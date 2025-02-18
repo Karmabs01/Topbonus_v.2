@@ -31,6 +31,7 @@ const GamePage = () => {
   if (typeof window !== "undefined") {
     userId = localStorage.getItem("user_id") || "";
   }
+  
   useEffect(() => {
     // 1. Фильтрация брендов на основе категорий
     const filteredByCategory = data.filter(
