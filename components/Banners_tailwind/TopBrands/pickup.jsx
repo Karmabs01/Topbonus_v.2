@@ -15,7 +15,7 @@ export default function Pickup({ newUrl, data: propData = [] }) {
   const { t } = useTranslation();
 
   // Категория для фильтрации брендов в данном компоненте
-  const categoryBrands = { key1: "PremiumChoice", key2: "1" };
+  const categoryBrands = { key1: "Trendsetting", key2: "4" };
 
   // Переименовываем данные из SWR в swrData, чтобы не затирать prop data
   const { data: swrData, error } = useSWR(
