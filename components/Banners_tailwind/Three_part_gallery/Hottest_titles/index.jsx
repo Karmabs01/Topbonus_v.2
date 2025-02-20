@@ -183,8 +183,9 @@ export default function Popular_offers() {
 
 
 // Начало изменений
-const specificBrandName1 = "Fairspin"; // Первый конкретный бренд
-const specificBrandName2 = "WinWin.Bet";     // Второй конкретный бренд
+const specificBrandName1 = "Fairspin"; 
+const specificBrandName2 = "WinWin.Bet";  
+const specificBrandName3 = "Laki World";   
 
 let brandsToDisplay = [];
 
@@ -196,14 +197,18 @@ if (brands.length > 0) {
   const specificBrand2 = brands.find(
     (brand) => brand.CasinoBrand === specificBrandName2
   );
+  const specificBrand3 = brands.find(
+    (brand) => brand.CasinoBrand === specificBrandName3
+  );
 
   // Убираем эти бренды из списка, чтобы избежать дубликатов
   let otherBrands = brands;
-  if (specificBrand1 || specificBrand2) {
+  if (specificBrand1 || specificBrand2 || specificBrand3) {
     otherBrands = brands.filter(
       (brand) =>
         brand.CasinoBrand !== specificBrandName1 &&
-        brand.CasinoBrand !== specificBrandName2
+        brand.CasinoBrand !== specificBrandName2 &&
+        brand.CasinoBrand !== specificBrandName3
     );
   }
 
@@ -214,6 +219,8 @@ if (brands.length > 0) {
   let numberOfSpecificBrands = 0;
   if (specificBrand1) numberOfSpecificBrands++;
   if (specificBrand2) numberOfSpecificBrands++;
+  if (specificBrand3) numberOfSpecificBrands++;
+
 
   // Получаем необходимое количество случайных брендов, чтобы общее число было 5
   const numberOfRandomBrands = 5 - numberOfSpecificBrands;
@@ -226,6 +233,9 @@ if (brands.length > 0) {
   }
   if (specificBrand2) {
     brandsToDisplay.push(specificBrand2);
+  }
+  if (specificBrand3) {
+    brandsToDisplay.push(specificBrand3);
   }
   brandsToDisplay = brandsToDisplay.concat(randomBrands);
 }
