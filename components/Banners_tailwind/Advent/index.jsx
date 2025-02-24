@@ -21,7 +21,7 @@ const CUSTOM_BRANDS_POOL = [
   "Fairspin",
   "Luckychoo",
   "WinWin.Bet",
-  "Voodoo Casino"
+  "WildRobin"
 ];
 
 
