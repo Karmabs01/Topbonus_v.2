@@ -140,6 +140,7 @@ export default function Brands_carousel() {
     "Blockbets",
     "Spinjo",
     "FairSpin",
+    "WildRobin",
     "LuckyChoo",
     "FairPari",
     "Winbay",
@@ -282,9 +283,10 @@ export default function Brands_carousel() {
         moveBrandToIndex(finalFilteredBrands, "Blockbets", 0);
         moveBrandToIndex(finalFilteredBrands, "Spinjo", 1);
         moveBrandToIndex(finalFilteredBrands, "FairSpin", 2);
-        moveBrandToIndex(finalFilteredBrands, "LuckyChoo", 3);
-        moveBrandToIndex(finalFilteredBrands, "FairPari", 4);
-        moveBrandToIndex(finalFilteredBrands, "Winbay", 5);
+        moveBrandToIndex(finalFilteredBrands, "WildRobin", 3);
+        moveBrandToIndex(finalFilteredBrands, "LuckyChoo", 4);
+        moveBrandToIndex(finalFilteredBrands, "FairPari", 5);
+        moveBrandToIndex(finalFilteredBrands, "Winbay", 6);
 
         // moveBrandToIndex(finalFilteredBrands, "SpinFest", 6);
         // moveBrandToIndex(finalFilteredBrands, "Erabet", 7);
@@ -351,9 +353,10 @@ export default function Brands_carousel() {
         moveBrandToIndex(fallbackBrands, "Blockbets", 0);
         moveBrandToIndex(fallbackBrands, "Spinjo", 1);
         moveBrandToIndex(fallbackBrands, "FairSpin", 2);
-        moveBrandToIndex(fallbackBrands, "LuckyChoo", 3);
-        moveBrandToIndex(fallbackBrands, "FairPari", 4);
-        moveBrandToIndex(fallbackBrands, "Winbay", 5);
+        moveBrandToIndex(fallbackBrands, "WildRobin", 3);
+        moveBrandToIndex(fallbackBrands, "LuckyChoo", 4);
+        moveBrandToIndex(fallbackBrands, "FairPari", 5);
+        moveBrandToIndex(fallbackBrands, "Winbay", 6);
 
 
         // moveBrandToIndex(fallbackBrands, "SpinFest", 6);
