@@ -12,15 +12,11 @@ import { getUserData } from "@/components/getUser/getUser";
 
 // Пул из 9 желаемых брендов
 const CUSTOM_BRANDS_POOL = [
-  "Laki World",
-  "Bets. io",
-  "Magius",
-  "Lucky7even",
-  "Spinjo",
-  "Bitstake",
-  "Fairspin",
-  "Luckychoo",
-  "WinWin.Bet",
+
+  "Winmagic",
+  "FairSpin",
+  "Goldenlion",
+  "Funbet",
   "WildRobin"
 ];
 
