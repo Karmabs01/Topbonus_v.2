@@ -12,7 +12,6 @@ import { getUserData } from "@/components/getUser/getUser";
 
 // Пул из 9 желаемых брендов
 const CUSTOM_BRANDS_POOL = [
-
   "Winmagic",
   "FairSpin",
   "Goldenlion",
