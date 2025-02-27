@@ -183,11 +183,10 @@ export default function Popular_offers() {
 
 
 // Начало изменений
-const specificBrandName1 = "Fairspin"; 
-const specificBrandName2 = "WinWin.Bet";  
+
+const specificBrandName1 = "Magic Win"; 
+const specificBrandName2 = "Golden Lion";  
 const specificBrandName3 = "Ritzo";   
-const specificBrandName4 = "Magic Win"; 
-const specificBrandName5 = "Golden Lion";  
  
 
 
@@ -207,12 +206,7 @@ if (brands.length > 0) {
     (brand) => brand.CasinoBrand === specificBrandName3
   );
 
-  const specificBrand4 = brands.find(
-    (brand) => brand.CasinoBrand === specificBrandName4
-  );
-  const specificBrand5 = brands.find(
-    (brand) => brand.CasinoBrand === specificBrandName5
-  );
+
 
   // Убираем эти бренды из списка, чтобы избежать дубликатов
   let otherBrands = brands;
@@ -221,9 +215,8 @@ if (brands.length > 0) {
       (brand) =>
         brand.CasinoBrand !== specificBrandName1 &&
         brand.CasinoBrand !== specificBrandName2 &&
-        brand.CasinoBrand !== specificBrandName3 &&
-        brand.CasinoBrand !== specificBrandName4 &&
-        brand.CasinoBrand !== specificBrandName5
+        brand.CasinoBrand !== specificBrandName3
+
     );
   }
 
@@ -235,8 +228,7 @@ if (brands.length > 0) {
   if (specificBrand1) numberOfSpecificBrands++;
   if (specificBrand2) numberOfSpecificBrands++;
   if (specificBrand3) numberOfSpecificBrands++;
-  if (specificBrand4) numberOfSpecificBrands++;
-  if (specificBrand5) numberOfSpecificBrands++;
+
 
 
 
@@ -255,12 +247,7 @@ if (brands.length > 0) {
   if (specificBrand3) {
     brandsToDisplay.push(specificBrand3);
   }
-  if (specificBrand4) {
-    brandsToDisplay.push(specificBrand4);
-  }
-  if (specificBrand5) {
-    brandsToDisplay.push(specificBrand5);
-  }
+
   brandsToDisplay = brandsToDisplay.concat(randomBrands);
 }
 // Конец изменений
