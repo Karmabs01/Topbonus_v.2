@@ -145,7 +145,7 @@ const SearchComponent = () => {
               </li>
             ))
           ) : (
-            <li className="text-gray-500 px-2 py-2">Ничего не найдено</li>
+            <li className="text-gray-500 px-2 py-2">Not found</li>
           )}
         </ul>
       )}
