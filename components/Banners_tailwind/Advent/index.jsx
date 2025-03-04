@@ -12,11 +12,16 @@ import { getUserData } from "@/components/getUser/getUser";
 
 // Пул из 9 желаемых брендов
 const CUSTOM_BRANDS_POOL = [
-  "Winmagic",
-  "FairSpin",
-  "Goldenlion",
-  "Funbet",
-  "WildRobin"
+  "Syndicate casino",
+  "Mr.Bet",
+  "XON",
+  "Voodoo Casino",
+  "Magius",
+  "Viking Luck",
+  "SpiNight",
+  "BetOnline",
+  "WildCasino",
+  "Spinshouse",
 ];
 
 
