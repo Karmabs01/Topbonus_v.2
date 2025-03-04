@@ -137,31 +137,16 @@ export default function Brands_carousel() {
 
   // Приоритетные бренды
   const priorityBrands = [
-    "Blockbets",
-    "Spinjo",
-    "FairSpin",
-    "WildRobin",
-    "LuckyChoo",
-    "FairPari",
-    "Winbay",
-    // "SpinFest",
-    // "Erabet",
-    // "MyEmpire",
-    // "RollingSlots",
-    // "WinWin.Bet",
-    // "Casinia",
-    // "Luckychoo",
-    // "Goldencrown",
-    // "Spinsup",
-    // "Smokace",
-    // "Legiano",
-    // "HeroSpin",
-    // "RocketSpin",
-    // "Winbay",
-    // "Trino",
-    // "Betplays",
-    // "Spinarium",
-    // "Bitstake",
+    "Syndicate casino",
+    "Mr.Bet",
+    "XON",
+    "Voodoo Casino",
+    "Magius",
+    "Viking Luck",
+    "SpiNight",
+    "BetOnline",
+    "WildCasino",
+    "Spinshouse",
   ];
 
   // Основные категории, как в вашем коде
@@ -248,14 +233,12 @@ export default function Brands_carousel() {
         const ensureBrandInList = (brandName) => {
           const existsInFinal = finalFilteredBrands.some(
             (b) =>
-              (b.CasinoBrand || "").toLowerCase() ===
-              brandName.toLowerCase()
+              (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
           );
           if (!existsInFinal) {
             const fromData = data.find(
               (b) =>
-                (b.CasinoBrand || "").toLowerCase() ===
-                brandName.toLowerCase()
+                (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
             );
             if (fromData) {
               finalFilteredBrands.push(fromData);
@@ -268,8 +251,7 @@ export default function Brands_carousel() {
         const moveBrandToIndex = (array, brandName, targetIndex) => {
           const index = array.findIndex(
             (b) =>
-              (b.CasinoBrand || "").toLowerCase() ===
-              brandName.toLowerCase()
+              (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
           );
           if (index > -1 && index !== targetIndex) {
             const [brandObj] = array.splice(index, 1);
@@ -319,14 +301,12 @@ export default function Brands_carousel() {
         priorityBrands.forEach((brandName) => {
           const inFallback = fallbackBrands.some(
             (b) =>
-              (b.CasinoBrand || "").toLowerCase() ===
-              brandName.toLowerCase()
+              (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
           );
           if (!inFallback) {
             const fromData = data.find(
               (b) =>
-                (b.CasinoBrand || "").toLowerCase() ===
-                brandName.toLowerCase()
+                (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
             );
             if (fromData) {
               fallbackBrands.push(fromData);
@@ -337,8 +317,7 @@ export default function Brands_carousel() {
         const moveBrandToIndex = (array, brandName, targetIndex) => {
           const index = array.findIndex(
             (b) =>
-              (b.CasinoBrand || "").toLowerCase() ===
-              brandName.toLowerCase()
+              (b.CasinoBrand || "").toLowerCase() === brandName.toLowerCase()
           );
           if (index > -1 && index !== targetIndex) {
             const [brandObj] = array.splice(index, 1);
@@ -357,7 +336,6 @@ export default function Brands_carousel() {
         moveBrandToIndex(fallbackBrands, "LuckyChoo", 4);
         moveBrandToIndex(fallbackBrands, "FairPari", 5);
         moveBrandToIndex(fallbackBrands, "Winbay", 6);
-
 
         // moveBrandToIndex(fallbackBrands, "SpinFest", 6);
         // moveBrandToIndex(fallbackBrands, "Erabet", 7);
@@ -378,8 +356,6 @@ export default function Brands_carousel() {
         // moveBrandToIndex(fallbackBrands, "Betplays", 21);
         // moveBrandToIndex(fallbackBrands, "Spinarium", 22);
         // moveBrandToIndex(fallbackBrands, "Bitstake", 23);
-
-
 
         fallbackBrands = fallbackBrands.slice(0, 6);
 
@@ -468,11 +444,15 @@ export default function Brands_carousel() {
                               <div className="flex flex-col items-center">
                                 <Link
                                   className="mt-3 mb-2"
-                                  href={`${rowData.GoBig || "#"}/${newUrl}&creative_id=Everyday_Advent`}
+                                  href={`${
+                                    rowData.GoBig || "#"
+                                  }/${newUrl}&creative_id=Everyday_Advent`}
                                   target="_blank"
                                 >
                                   <Image
-                                    src={`/brands/${rowData.CasinoBrand || "default"}.png`}
+                                    src={`/brands/${
+                                      rowData.CasinoBrand || "default"
+                                    }.png`}
                                     alt={rowData.CasinoBrand || "Brand"}
                                     width={256}
                                     height={128}
@@ -480,11 +460,14 @@ export default function Brands_carousel() {
                                   />
                                 </Link>
                                 <p className="!m-0">
-                                  {rowData.OurOfferContent || "Offer details..."}
+                                  {rowData.OurOfferContent ||
+                                    "Offer details..."}
                                 </p>
                                 <Link
                                   className="relative btn-play btn-blick overflow-hidden"
-                                  href={`${rowData.GoBig || "#"}/${newUrl}&creative_id=Everyday_Advent`}
+                                  href={`${
+                                    rowData.GoBig || "#"
+                                  }/${newUrl}&creative_id=Everyday_Advent`}
                                   target="_blank"
                                 >
                                   {t("Play Now")}
@@ -494,9 +477,7 @@ export default function Brands_carousel() {
                               // Будущее
                               <div className="flex flex-col items-center">
                                 <div className="mt-3 mb-2 nonoact"></div>
-                                <p className="!m-0">
-                                  {t("Not Yet Available")}
-                                </p>
+                                <p className="!m-0">{t("Not Yet Available")}</p>
                                 <button
                                   disabled
                                   className="relative btn-play btn-blick overflow-hidden not-yet"
@@ -508,9 +489,7 @@ export default function Brands_carousel() {
                               // День наступил, но не активирован
                               <div className="flex flex-col items-center">
                                 <div className="mt-3 mb-2 opennow nonoact"></div>
-                                <p className="!m-0">
-                                  {t("Ready to Activate")}
-                                </p>
+                                <p className="!m-0">{t("Ready to Activate")}</p>
                                 <button
                                   className="relative btn-play btn-blick overflow-hidden"
                                   onClick={() => handleActivate(index)}
