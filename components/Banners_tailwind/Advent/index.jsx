@@ -12,13 +12,17 @@ import { getUserData } from "@/components/getUser/getUser";
 
 // Пул из 9 желаемых брендов
 const CUSTOM_BRANDS_POOL = [
-  "Winmagic",
-  "FairSpin",
-  "Goldenlion",
-  "Funbet",
-  "WildRobin"
+  "Syndicate casino",
+  "Mr.Bet",
+  "XON",
+  "Voodoo Casino",
+  "Magius",
+  "Viking Luck",
+  "SpiNight",
+  "BetOnline",
+  "WildCasino",
+  "Spinshouse",
 ];
-
 
 export default function Brands_carousel() {
   const [newUrl, setNewUrl] = useState("");
@@ -167,7 +171,10 @@ export default function Brands_carousel() {
           (rowData) => rowData[categoryBrands2.key1] === categoryBrands2.key2
         );
 
-        let finalFilteredBrands = [...mainCategoryData, ...secondaryCategoryData];
+        let finalFilteredBrands = [
+          ...mainCategoryData,
+          ...secondaryCategoryData,
+        ];
         console.log("После категории (Advent + Premium):", finalFilteredBrands);
 
         // 3) Фильтруем по sales
@@ -247,7 +254,8 @@ export default function Brands_carousel() {
             // пробуем в общем data
             brandObj = data.find(
               (b) =>
-                (b.CasinoBrand || "").toLowerCase() === desiredName.toLowerCase()
+                (b.CasinoBrand || "").toLowerCase() ===
+                desiredName.toLowerCase()
             );
           }
           if (!brandObj) {
@@ -279,12 +287,10 @@ export default function Brands_carousel() {
             // Ищем в data
             let activeObj =
               data.find(
-                (b) =>
-                  (b.CasinoBrand || "").toLowerCase() === lowerActive
+                (b) => (b.CasinoBrand || "").toLowerCase() === lowerActive
               ) ||
               finalFilteredBrands.find(
-                (b) =>
-                  (b.CasinoBrand || "").toLowerCase() === lowerActive
+                (b) => (b.CasinoBrand || "").toLowerCase() === lowerActive
               );
             if (!activeObj) {
               // тоже заглушка
@@ -364,7 +370,12 @@ export default function Brands_carousel() {
     }
     localStorage.setItem("excludedBrands", JSON.stringify(excludedArr));
 
-    console.log("Активировали бренд:", brandName, " => excludedArr:", excludedArr);
+    console.log(
+      "Активировали бренд:",
+      brandName,
+      " => excludedArr:",
+      excludedArr
+    );
   };
 
   // ---------------------------------------------
@@ -409,11 +420,15 @@ export default function Brands_carousel() {
                                 <Link
                                   className="mt-3 mb-2"
                                   // Важно: используем ваш newUrl
-                                  href={`${rowData.GoBig || "#"}/${newUrl}&creative_id=Everyday_Advent`}
+                                  href={`${
+                                    rowData.GoBig || "#"
+                                  }/${newUrl}&creative_id=Everyday_Advent`}
                                   target="_blank"
                                 >
                                   <Image
-                                    src={`/brands/${rowData.CasinoBrand || "default"}.png`}
+                                    src={`/brands/${
+                                      rowData.CasinoBrand || "default"
+                                    }.png`}
                                     alt={rowData.CasinoBrand || "Brand"}
                                     width={256}
                                     height={128}
@@ -421,11 +436,14 @@ export default function Brands_carousel() {
                                   />
                                 </Link>
                                 <p className="!m-0">
-                                  {rowData.OurOfferContent || "Offer details..."}
+                                  {rowData.OurOfferContent ||
+                                    "Offer details..."}
                                 </p>
                                 <Link
                                   className="relative btn-play btn-blick overflow-hidden"
-                                  href={`${rowData.GoBig || "#"}/${newUrl}&creative_id=Everyday_Advent`}
+                                  href={`${
+                                    rowData.GoBig || "#"
+                                  }/${newUrl}&creative_id=Everyday_Advent`}
                                   target="_blank"
                                 >
                                   {t("Play Now")}
