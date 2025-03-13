@@ -15,13 +15,16 @@ const CUSTOM_BRANDS_POOL = [
   "Syndicate casino",
   "Mr.Bet",
   "XON",
-  "Voodoo Casino",
-  "Magius",
-  "Viking Luck",
   "SpiNight",
-  "BetOnline",
-  "WildCasino",
-  "Spinshouse",
+  "Winshark",
+  "Viking Luck",
+  "Lex",
+  "Irwin",
+  "Trueluck",
+  "Allstarzcasino",
+  "Gizbo",
+  "Hitme.bet",
+  "Novajackpot",
 ];
 
 export default function Brands_carousel() {
@@ -59,8 +62,12 @@ export default function Brands_carousel() {
 
     if (savedActivationDate === today) {
       setLastActivationDate(savedActivationDate);
-      setActivatedCardIndices(savedActivatedCards ? JSON.parse(savedActivatedCards) : []);
-      setActivatedBrandsToday(savedActivatedBrands ? JSON.parse(savedActivatedBrands) : []);
+      setActivatedCardIndices(
+        savedActivatedCards ? JSON.parse(savedActivatedCards) : []
+      );
+      setActivatedBrandsToday(
+        savedActivatedBrands ? JSON.parse(savedActivatedBrands) : []
+      );
     } else {
       // Новый день — сбрасываем
       localStorage.removeItem("lastActivationDate");
@@ -247,7 +254,8 @@ export default function Brands_carousel() {
           if (!brandObj) {
             brandObj = data.find(
               (b) =>
-                (b.CasinoBrand || "").toLowerCase() === desiredName.toLowerCase()
+                (b.CasinoBrand || "").toLowerCase() ===
+                desiredName.toLowerCase()
             );
           }
           if (!brandObj) {
@@ -330,7 +338,8 @@ export default function Brands_carousel() {
   // ---------------------------------------------
   const handleActivate = (index) => {
     const today = getTodayDateString();
-    const currentActivated = lastActivationDate === today ? activatedCardIndices : [];
+    const currentActivated =
+      lastActivationDate === today ? activatedCardIndices : [];
     if (currentActivated.length >= 3) {
       alert(t("You have already activated 3 cards today."));
       return;
@@ -342,16 +351,23 @@ export default function Brands_carousel() {
     const newActivatedIndices = [...currentActivated, index];
     const brand = brands[index];
     const brandName = (brand?.CasinoBrand || "").trim();
-    const newActivatedBrands = lastActivationDate === today
-      ? [...activatedBrandsToday, brandName]
-      : [brandName];
+    const newActivatedBrands =
+      lastActivationDate === today
+        ? [...activatedBrandsToday, brandName]
+        : [brandName];
 
     setActivatedCardIndices(newActivatedIndices);
     setActivatedBrandsToday(newActivatedBrands);
     setLastActivationDate(today);
 
-    localStorage.setItem("activatedCardIndices", JSON.stringify(newActivatedIndices));
-    localStorage.setItem("activatedBrandsToday", JSON.stringify(newActivatedBrands));
+    localStorage.setItem(
+      "activatedCardIndices",
+      JSON.stringify(newActivatedIndices)
+    );
+    localStorage.setItem(
+      "activatedBrandsToday",
+      JSON.stringify(newActivatedBrands)
+    );
     localStorage.setItem("lastActivationDate", today);
 
     // Обновляем excludedBrands, чтобы бренд не появился завтра
@@ -401,14 +417,20 @@ export default function Brands_carousel() {
               </p>
               <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap mt-16">
                 {brands.map((rowData, index) => {
-                  const activatedToday = lastActivationDate === getTodayDateString();
-                  const isActivated = activatedToday && activatedCardIndices.includes(index);
-                  const totalActivated = activatedToday ? activatedCardIndices.length : 0;
-                  
+                  const activatedToday =
+                    lastActivationDate === getTodayDateString();
+                  const isActivated =
+                    activatedToday && activatedCardIndices.includes(index);
+                  const totalActivated = activatedToday
+                    ? activatedCardIndices.length
+                    : 0;
+
                   return (
                     <div
                       key={index}
-                      className={`card-advent rounded-xl flex flex-col justify-between basis-[32%] relative mt-16 ${isActivated ? "activate" : "closed"}`}
+                      className={`card-advent rounded-xl flex flex-col justify-between basis-[32%] relative mt-16 ${
+                        isActivated ? "activate" : "closed"
+                      }`}
                     >
                       <div className="dated">{index + 1}</div>
                       <div className="mx-auto max-w-7xl flex flex-col w-full">
@@ -419,11 +441,15 @@ export default function Brands_carousel() {
                               <div className="flex flex-col items-center">
                                 <Link
                                   className="mt-3 mb-2"
-                                  href={`${rowData.GoBig || "#"}/${newUrl}&creative_id=Everyday_Advent`}
+                                  href={`${
+                                    rowData.GoBig || "#"
+                                  }/${newUrl}&creative_id=Everyday_Advent`}
                                   target="_blank"
                                 >
                                   <Image
-                                    src={`/brands/${rowData.CasinoBrand || "default"}.png`}
+                                    src={`/brands/${
+                                      rowData.CasinoBrand || "default"
+                                    }.png`}
                                     alt={rowData.CasinoBrand || "Brand"}
                                     width={256}
                                     height={128}
@@ -431,11 +457,14 @@ export default function Brands_carousel() {
                                   />
                                 </Link>
                                 <p className="!m-0">
-                                  {rowData.OurOfferContent || "Offer details..."}
+                                  {rowData.OurOfferContent ||
+                                    "Offer details..."}
                                 </p>
                                 <Link
                                   className="relative btn-play btn-blick overflow-hidden"
-                                  href={`${rowData.GoBig || "#"}/${newUrl}&creative_id=Everyday_Advent`}
+                                  href={`${
+                                    rowData.GoBig || "#"
+                                  }/${newUrl}&creative_id=Everyday_Advent`}
                                   target="_blank"
                                 >
                                   {t("Play Now")}
@@ -450,7 +479,9 @@ export default function Brands_carousel() {
                                     {t("You have activated 3 cards today")}
                                   </p>
                                 ) : (
-                                  <p className="!m-0">{t("Ready to Activate")}</p>
+                                  <p className="!m-0">
+                                    {t("Ready to Activate")}
+                                  </p>
                                 )}
                                 {totalActivated >= 3 ? (
                                   <button
