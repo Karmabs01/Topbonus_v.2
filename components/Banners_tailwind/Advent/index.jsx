@@ -392,7 +392,7 @@ export default function Brands_carousel() {
           ) : (
             <div>
               <h2 className="text-3xl font-bold tracking-tight text-white random-title mb-3 text-center">
-                {t("St. Patrick's Day Special: Triple the Treasure!")}
+                {t("triple")}
               </h2>
               <p className="mb-3 text-center text-white">
                 {t(

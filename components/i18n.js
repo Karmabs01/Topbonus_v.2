@@ -859,7 +859,7 @@ async function initializeI18n() {
         "Newbie Perks": "Newbie Perks",
         "Top Bonuses": "High Stakes",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "St. Patrick's Day Special: Triple the Treasure!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.",
@@ -1514,7 +1514,7 @@ async function initializeI18n() {
         "Newbie Perks": "Korzyści dla początkujących",
         "Top Bonuses": "Wysokie stawki",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "Specjalna oferta na Dzień Świętego Patryka: Potrójny skarb!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Szczęście sprzyja odważnym! Otwórz wszystkie trzy szczęśliwe okna i pozwól duchowi Dnia Świętego Patryka przynieść ci niesamowite nagrody.",
@@ -2172,7 +2172,7 @@ async function initializeI18n() {
         "Newbie Perks": "Vorteile für Neulinge",
         "Top Bonuses": "Hohe Einsätze",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "St. Patrick's Day Spezial: Dreifacher Schatz!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Das Glück begünstigt die Mutigen! Öffne alle drei Glücksfenster und lass den Geist des St. Patrick’s Day dir unglaubliche Belohnungen bringen.",
@@ -2819,7 +2819,7 @@ async function initializeI18n() {
         "Newbie Perks": "Привилегии за новаци",
         "Top Bonuses": "Високи залози",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "Специално за Деня на Свети Патрик: Троен съкровищен бонус!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Съдбата обича смелите! Отвори трите късметлийски прозореца и остави духа на Свети Патрик да ти донесе невероятни награди.",
@@ -3466,7 +3466,7 @@ async function initializeI18n() {
         "Newbie Perks": "Výhody pro nováčky",
         "Top Bonuses": "Vysoké sázky",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "Speciál ke Dni svatého Patrika: Trojnásobný poklad!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Štěstí přeje odvážným! Otevřete všechna tři okna štěstí a nechte ducha Dne svatého Patrika přinést vám neuvěřitelné odměny.",
@@ -4114,7 +4114,7 @@ async function initializeI18n() {
         "Newbie Perks": "Fordele for nybegyndere",
         "Top Bonuses": "Høje indsatser",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "Sankt Patricks Dag Special: Tredobbelt Skat!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Heldet tilsmiler de modige! Åbn alle tre lykkelige vinduer og lad ånden fra Sankt Patricks Dag bringe dig utrolige belønninger.",
@@ -4766,7 +4766,7 @@ async function initializeI18n() {
         "Newbie Perks": "Voordelen voor nieuwkomers",
         "Top Bonuses": "Hoge inzetten",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "St. Patrick's Dag Special: Driedubbele Schat!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Het geluk is met de dapperen! Open alle drie de geluksvensters en laat de geest van St. Patrick's Dag je ongelooflijke beloningen brengen.",
@@ -5416,7 +5416,7 @@ async function initializeI18n() {
         "Newbie Perks": "Ventajas para principiantes",
         "Top Bonuses": "Altas apuestas",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "Especial del Día de San Patricio: ¡Triple Tesoro!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "¡La fortuna favorece a los valientes! Abre las tres ventanas de la suerte y deja que el espíritu del Día de San Patricio te traiga increíbles recompensas.",
@@ -6062,7 +6062,7 @@ async function initializeI18n() {
         "Newbie Perks": "Aloittelijoiden edut",
         "Top Bonuses": "Korkeat panokset",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "Pyhän Patrickin päivän erikoistarjous: Kolminkertainen aarre!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Onni suosii rohkeita! Avaa kaikki kolme onnenikkunaa ja anna Pyhän Patrickin päivän hengen tuoda sinulle uskomattomia palkintoja.",
@@ -6715,7 +6715,7 @@ async function initializeI18n() {
         "Newbie Perks": "Avantages pour débutants",
         "Top Bonuses": "Mises élevées",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "Spécial Saint-Patrick : Triplez le Trésor !",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "La chance sourit aux audacieux ! Ouvrez les trois fenêtres chanceuses et laissez l'esprit de la Saint-Patrick vous apporter des récompenses incroyables.",
@@ -7364,7 +7364,7 @@ async function initializeI18n() {
         "Newbie Perks": "Προνόμια για νέους",
         "Top Bonuses": "Υψηλά πονταρίσματα",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "Ειδική Προσφορά για την Ημέρα του Αγίου Πατρικίου: Τριπλός Θησαυρός!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Η τύχη ευνοεί τους τολμηρούς! Ανοίξτε και τα τρία τυχερά παράθυρα και αφήστε το πνεύμα της Ημέρας του Αγίου Πατρικίου να σας φέρει απίστευτες ανταμοιβές.",
@@ -8013,7 +8013,7 @@ async function initializeI18n() {
         "Newbie Perks": "Előnyök kezdőknek",
         "Top Bonuses": "Magas tétek",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "Szent Patrik-napi Különleges: Háromszoros Kincs!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "A szerencse a bátraknak kedvez! Nyisd ki mindhárom szerencseablakot, és hagyd, hogy a Szent Patrik-nap szelleme hihetetlen jutalmakkal ajándékozzon meg.",
@@ -8665,7 +8665,7 @@ async function initializeI18n() {
         "Newbie Perks": "Vantaggi per principianti",
         "Top Bonuses": "Puntate alte",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "Speciale San Patrizio: Triplica il Tesoro!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "La fortuna premia gli audaci! Apri tutte e tre le finestre fortunate e lascia che lo spirito di San Patrizio ti porti incredibili ricompense.",
@@ -9314,7 +9314,7 @@ async function initializeI18n() {
         "Newbie Perks": "Fordeler for nybegynnere",
         "Top Bonuses": "Høye innsatser",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "St. Patrick’s Dag Spesial: Triple Skatten!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Lykken tilhører de modige! Åpne alle tre lykkelige vinduer og la St. Patrick's ånd bringe deg utrolige belønninger.",
@@ -9964,7 +9964,7 @@ async function initializeI18n() {
         "Newbie Perks": "Benefícios para iniciantes",
         "Top Bonuses": "Apostas altas",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "Especial do Dia de São Patrício: Triplique o Tesouro!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "A sorte favorece os audazes! Abra todas as três janelas da sorte e deixe o espírito do Dia de São Patrício trazer-lhe recompensas incríveis.",
@@ -10612,7 +10612,7 @@ async function initializeI18n() {
         "Newbie Perks": "Fördelar för nybörjare",
         "Top Bonuses": "Höga insatser",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "S:t Patricks Dags Special: Trippla Skatten!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Lyckan gynnar de modiga! Öppna alla tre lyckofönster och låt S:t Patricks anda ge dig otroliga belöningar.",
@@ -11259,7 +11259,7 @@ async function initializeI18n() {
         "Newbie Perks": "Výhody pre nováčikov",
         "Top Bonuses": "Vysoké stávky",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "Špeciál na Deň sv. Patrika: Trojnásobný Poklad!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Šťastie praje odvážnym! Otvorte všetky tri šťastné okná a nechajte ducha Dňa sv. Patrika priniesť vám neuveriteľné odmeny.",
@@ -11905,7 +11905,7 @@ async function initializeI18n() {
         "Newbie Perks": "Yeni başlayan avantajları",
         "Top Bonuses": "Yüksek bahisler",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "Aziz Patrik Günü Özel: Hazineyi Üçe Katla!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Şans cesurlardan yanadır! Üç şanslı pencereyi açın ve Aziz Patrik Günü’nün ruhu size inanılmaz ödüller getirsin.",
@@ -12545,7 +12545,7 @@ async function initializeI18n() {
         "Newbie Perks": "नवागंतुक लाभ",
         "Top Bonuses": "उच्च दांव",
 
-        "St. Patrick's Day Special: Triple the Treasure!":
+        "triple":
           "सेंट पैट्रिक दिवस विशेष: तीन गुना खजाना!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "भाग्य साहसी लोगों का साथ देता है! तीनों भाग्यशाली खिड़कियाँ खोलें और सेंट पैट्रिक दिवस की आत्मा आपको अविश्वसनीय पुरस्कार दिलाए।",
