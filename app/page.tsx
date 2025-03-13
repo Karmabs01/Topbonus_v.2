@@ -39,9 +39,9 @@ export default async function Home() {
   const creative = "FW_Brands_Main_Page_2";
   return (
     <>
-      <BasicModal />
+      {/* <BasicModal />
       <Three_part_gallery />
-      <Wheel />
+      <Wheel /> */}
 
       <Advent />
       <TopBrands />

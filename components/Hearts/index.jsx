@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
-import heart from "@/public/newimages/hearts.gif";
+import heart from "@/public/newimages/goldpot.gif";
 import Link from "next/link";
 import "./styled.component.css";
 import { useTranslation } from "react-i18next";
@@ -164,7 +164,7 @@ const Index = () => {
           {showText && (
             <div className="animated-text">
               <p>
-                {t("Get")} <span>{t("St.Valentine’s")}</span> {t("Bonus")}
+                {t("Get")} <span>{t("St. Patrick's")}</span> {t("Bonus")}
               </p>
               <Link
                 target="_blank"

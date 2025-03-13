@@ -14890,7 +14890,7 @@ ul.ul-list a {
 .animated-text {
   margin-top: 10px;
   background-color: #fff6ff;
-  border: 2px solid #fe8ec3;
+  border: 2px solid #85e452;
   font-size: 14px;
   line-height: 16px;
   color: #2b252b;
@@ -14908,7 +14908,7 @@ ul.ul-list a {
 }
 
 .animated-text span {
-  color: #e81396;
+  color: #4eb816;
   font-weight: 700;
 }
 
@@ -14919,7 +14919,7 @@ ul.ul-list a {
   font-weight: 700;
   border-radius: 30px;
   border: 2px solid #ffffff1e;
-  background: #e81396 !important;
+  background: #4eb816 !important;
 }
 
 @keyframes slideIn {
