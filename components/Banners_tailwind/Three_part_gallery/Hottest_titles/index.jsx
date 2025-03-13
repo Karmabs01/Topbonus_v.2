@@ -297,7 +297,7 @@ function shuffle(array) {
                 </h3>
                 <p className="!text-xl mt-5">
                   {t(
-                    "Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!"
+                    "Celebrate the season with big wins and exclusive surprises!"
                   )}
                 </p>
               </div>

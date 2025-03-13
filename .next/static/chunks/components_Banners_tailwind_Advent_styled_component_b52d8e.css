@@ -111,15 +111,15 @@
 }
 
 .card-advent .dated {
-  background: #fe8ec3 !important;
+  background: #3a761a !important;
 }
 
 .card-advent .btn-play, .card-advent .btn-play, .card-advent.activate .btn-play {
-  background: #fe8ec3 !important;
+  background: #3a761a !important;
 }
 
 #advent .text-white, #advent .random-title {
-  color: #2b252b;
+  color: #fff;
 }
 
 #advent .closed p {
@@ -191,7 +191,7 @@
   }
 
   .card-advent {
-    flex-basis: 48% !important;
+    flex-basis: 98% !important;
   }
 
   .advnt {

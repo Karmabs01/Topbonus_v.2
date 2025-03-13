@@ -105,14 +105,14 @@
   min-height: 73px !important;
 }
 .card-advent .dated{
-  background: #FE8EC3 !important;
+  background: #3A761A !important;
 }
 .card-advent .btn-play,
 .card-advent .btn-play, .card-advent.activate .btn-play{
-  background: #FE8EC3 !important;
+  background: #3A761A !important;
 }
 #advent .text-white, #advent .random-title {
-  color: #2b252b;
+  color: #fff;
 }
 #advent .closed p {
   color: #fff;
@@ -202,7 +202,7 @@
     line-height: 24px !important;
   }
   .card-advent {
-    flex-basis: 48% !important;
+    flex-basis: 98% !important;
     /* overflow: hidden; */
   }
   .advnt {

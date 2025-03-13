@@ -161,11 +161,11 @@ function Banner_small() {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                             className: "text-lg leading-6 ",
                             children: [
-                                t("Your Winter Fortune"),
+                                t("YOUR SPRING LUCK"),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     children: [
                                         " ",
-                                        t("Starts Here")
+                                        t("BLOOMS HERE")
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Emoji_picker/index.jsx",
@@ -613,17 +613,19 @@ function Popular_offers() {
         categoryBrands.key2
     ]);
     // Начало изменений
-    const specificBrandName1 = "Fairspin"; // Первый конкретный бренд
-    const specificBrandName2 = "WinWin.Bet"; // Второй конкретный бренд
+    const specificBrandName1 = "Magic Win";
+    const specificBrandName2 = "Golden Lion";
+    const specificBrandName3 = "Ritzo";
     let brandsToDisplay = [];
     if (brands.length > 0) {
         // Находим конкретные бренды
         const specificBrand1 = brands.find((brand)=>brand.CasinoBrand === specificBrandName1);
         const specificBrand2 = brands.find((brand)=>brand.CasinoBrand === specificBrandName2);
+        const specificBrand3 = brands.find((brand)=>brand.CasinoBrand === specificBrandName3);
         // Убираем эти бренды из списка, чтобы избежать дубликатов
         let otherBrands = brands;
-        if (specificBrand1 || specificBrand2) {
-            otherBrands = brands.filter((brand)=>brand.CasinoBrand !== specificBrandName1 && brand.CasinoBrand !== specificBrandName2);
+        if (specificBrand1 || specificBrand2 || specificBrand3) {
+            otherBrands = brands.filter((brand)=>brand.CasinoBrand !== specificBrandName1 && brand.CasinoBrand !== specificBrandName2 && brand.CasinoBrand !== specificBrandName3);
         }
         // Перемешиваем оставшиеся бренды
         const shuffledOtherBrands = shuffle(otherBrands);
@@ -631,6 +633,7 @@ function Popular_offers() {
         let numberOfSpecificBrands = 0;
         if (specificBrand1) numberOfSpecificBrands++;
         if (specificBrand2) numberOfSpecificBrands++;
+        if (specificBrand3) numberOfSpecificBrands++;
         // Получаем необходимое количество случайных брендов, чтобы общее число было 5
         const numberOfRandomBrands = 5 - numberOfSpecificBrands;
         const randomBrands = shuffledOtherBrands.slice(0, numberOfRandomBrands);
@@ -641,6 +644,9 @@ function Popular_offers() {
         }
         if (specificBrand2) {
             brandsToDisplay.push(specificBrand2);
+        }
+        if (specificBrand3) {
+            brandsToDisplay.push(specificBrand3);
         }
         brandsToDisplay = brandsToDisplay.concat(randomBrands);
     }
@@ -676,7 +682,7 @@ function Popular_offers() {
                 className: "main__container",
                 children: loading ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Loader$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                    lineNumber: 269,
+                    lineNumber: 290,
                     columnNumber: 13
                 }, this) : brands.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     children: [
@@ -694,7 +700,7 @@ function Popular_offers() {
                                             children: t("Festive")
                                         }, void 0, false, {
                                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                            lineNumber: 274,
+                                            lineNumber: 295,
                                             columnNumber: 37
                                         }, this),
                                         " ",
@@ -702,27 +708,27 @@ function Popular_offers() {
                                             children: t("casinos")
                                         }, void 0, false, {
                                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                            lineNumber: 275,
+                                            lineNumber: 296,
                                             columnNumber: 19
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                    lineNumber: 273,
+                                    lineNumber: 294,
                                     columnNumber: 17
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "!text-xl mt-5",
-                                    children: t("Experience the magic of the season with the hottest casino brands—unwrap thrilling surprises and festive rewards!")
+                                    children: t("Celebrate the season with big wins and exclusive surprises!")
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                    lineNumber: 277,
+                                    lineNumber: 298,
                                     columnNumber: 17
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                            lineNumber: 272,
+                            lineNumber: 293,
                             columnNumber: 15
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -739,12 +745,12 @@ function Popular_offers() {
                                         loading: "lazy"
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                        lineNumber: 291,
+                                        lineNumber: 312,
                                         columnNumber: 19
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                    lineNumber: 287,
+                                    lineNumber: 308,
                                     columnNumber: 17
                                 }, this),
                                 brandsToDisplay.slice(0, 5).map((rowData, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -764,12 +770,12 @@ function Popular_offers() {
                                                         loading: "lazy"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                                        lineNumber: 306,
+                                                        lineNumber: 327,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                                    lineNumber: 305,
+                                                    lineNumber: 326,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -784,7 +790,7 @@ function Popular_offers() {
                                                                     children: rowData.CasinoBrand
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                                                    lineNumber: 316,
+                                                                    lineNumber: 337,
                                                                     columnNumber: 27
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -795,13 +801,13 @@ function Popular_offers() {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                                                    lineNumber: 322,
+                                                                    lineNumber: 343,
                                                                     columnNumber: 27
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                                            lineNumber: 315,
+                                                            lineNumber: 336,
                                                             columnNumber: 25
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -812,41 +818,41 @@ function Popular_offers() {
                                                                 children: t("Play Now")
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                                                lineNumber: 325,
+                                                                lineNumber: 346,
                                                                 columnNumber: 27
                                                             }, this)
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                                            lineNumber: 324,
+                                                            lineNumber: 345,
                                                             columnNumber: 25
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                                    lineNumber: 314,
+                                                    lineNumber: 335,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                            lineNumber: 304,
+                                            lineNumber: 325,
                                             columnNumber: 21
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                        lineNumber: 299,
+                                        lineNumber: 320,
                                         columnNumber: 19
                                     }, this))
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                            lineNumber: 283,
+                            lineNumber: 304,
                             columnNumber: 15
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                    lineNumber: 271,
+                    lineNumber: 292,
                     columnNumber: 13
                 }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -860,7 +866,7 @@ function Popular_offers() {
                                         children: t("HOTTEST")
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                        lineNumber: 342,
+                                        lineNumber: 363,
                                         columnNumber: 21
                                     }, this),
                                     " ",
@@ -868,13 +874,13 @@ function Popular_offers() {
                                         children: t("casinos")
                                     }, void 0, false, {
                                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                        lineNumber: 343,
+                                        lineNumber: 364,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                lineNumber: 341,
+                                lineNumber: 362,
                                 columnNumber: 17
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -882,28 +888,28 @@ function Popular_offers() {
                                 children: t("Get ready for the hottest brands, arriving soon!")
                             }, void 0, false, {
                                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                                lineNumber: 345,
+                                lineNumber: 366,
                                 columnNumber: 17
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                        lineNumber: 340,
+                        lineNumber: 361,
                         columnNumber: 15
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                    lineNumber: 339,
+                    lineNumber: 360,
                     columnNumber: 13
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-                lineNumber: 267,
+                lineNumber: 288,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/Banners_tailwind/Three_part_gallery/Hottest_titles/index.jsx",
-            lineNumber: 266,
+            lineNumber: 287,
             columnNumber: 7
         }, this)
     }, void 0, false);
@@ -969,9 +975,10 @@ function Popular_offers() {
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
     // Список брендов, которые вы хотите закрепить
     const pinnedBrandsList = [
-        "Winbay",
-        "Luckychoo",
-        "Laki World"
+        "Voodoo Casino",
+        "Duospin",
+        "Book of Bet",
+        "BeOnBet"
     ];
     // Массив состояний для закреплённых и остальных
     const [pinnedBrands, setPinnedBrands] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])([]);
@@ -1459,7 +1466,7 @@ __turbopack_refresh__.register(_c, "Popular_offers");
 })()),
 "[project]/public/newimages/hearts_box.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
-__turbopack_export_value__("/_next/static/media/hearts_box.3f8a9fc6.png");
+__turbopack_export_value__("/_next/static/media/hearts_box.cf0e9ad0.png");
 })()),
 "[project]/public/newimages/hearts_box.png.mjs { IMAGE => \"[project]/public/newimages/hearts_box.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
 "use strict";
@@ -1474,7 +1481,7 @@ const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$newimages$2f$hearts_box$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
     width: 350,
     height: 88,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAYAAABllJ3tAAAATUlEQVR42gFCAL3/AB8WKBtfQGpQPhkhG6xhn46eYaB8HxYcEDJ2YHgSKiMmAAgFCgY8Gygmcig0Ocdopp62YJl+gT5iVhcuKCcGDwwMT+ERwemLPMgAAAAASUVORK5CYII=",
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAYAAABllJ3tAAAATUlEQVR42gFCAL3/ALqiXoJxYDBDODcbHFuMK59/cjpjrm5FRHeANXcpNx8gAFVFIzRUSSspbmxCNFZ9JKFviHKJcWyQTU1WUUglLCES6A0VgwdxKtkAAAAASUVORK5CYII=",
     blurWidth: 8,
     blurHeight: 2
 };
@@ -1522,8 +1529,8 @@ const GamePage = ()=>{
     const { language } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"])();
     const { t } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"])();
     const categoryBrands = {
-        key1: "PremiumChoice",
-        key2: "1"
+        key1: "Video",
+        key2: "Love"
     };
     const { data, error } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swr$2f$dist$2f$core$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["default"])([
         "brands",
@@ -1593,6 +1600,50 @@ const GamePage = ()=>{
         categoryBrands.key1,
         categoryBrands.key2
     ]);
+    // Подчищаем URL, извлекаем партнёров и т. п. (ваш код)
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
+        const currentUrl = window.location.href;
+        const indexOfQuestionMark = currentUrl.indexOf("?");
+        const newUrl2 = indexOfQuestionMark !== -1 ? currentUrl.substring(0, indexOfQuestionMark) : currentUrl;
+        window.history.replaceState({}, document.title, newUrl2);
+        const urlObj = new URL(currentUrl);
+        const searchParams = new URLSearchParams(urlObj.search);
+        searchParams.delete("brand");
+        const currentKeyword = searchParams.get("keyword");
+        const partners = [
+            "partner1039",
+            "partner1043",
+            "partner1044",
+            "CLD_VIP",
+            "partner1045_b1",
+            "partner1046",
+            "partner1047"
+        ];
+        function setPartnerSource(keyword) {
+            const partner = partners.find((p)=>keyword && keyword.includes(p));
+            if (partner) {
+                localStorage.setItem("source", partner);
+                setSource(partner);
+                searchParams.set("source", partner);
+            } else {
+                setSource("0");
+                const sourceFound = localStorage.getItem("source");
+                if (!partners.includes(sourceFound)) {
+                    localStorage.setItem("source", "0");
+                    searchParams.set("source", "0");
+                }
+            }
+        }
+        if (currentKeyword) {
+            setPartnerSource(currentKeyword);
+        }
+        const savedUrl = localStorage.getItem("savedUrl");
+        if (savedUrl) {
+            setNewUrl(savedUrl);
+        }
+    }, [
+        language
+    ]);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const handleMessage = (event)=>{
             if (event.data && event.data.event === "spinComplete") {
@@ -1611,16 +1662,17 @@ const GamePage = ()=>{
         className: "main__container flex items-center wheel",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                id: "wheel_love",
                 className: "left flex flex-col w-1/2",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                         className: "mb-5",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                children: t("Cupid Spins")
+                                children: t("Shamrock Spins")
                             }, void 0, false, {
                                 fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                                lineNumber: 128,
+                                lineNumber: 177,
                                 columnNumber: 11
                             }, this),
                             " ",
@@ -1628,14 +1680,14 @@ const GamePage = ()=>{
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                        lineNumber: 127,
+                        lineNumber: 176,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        children: t("The Wheel of Love will decide your fate! Give it a spin and discover which casino brand is your true match. Will luck be your Valentine this year?")
+                        children: t("The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?")
                     }, void 0, false, {
                         fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                        lineNumber: 130,
+                        lineNumber: 179,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1646,13 +1698,13 @@ const GamePage = ()=>{
                         loading: "lazy"
                     }, void 0, false, {
                         fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                        lineNumber: 133,
+                        lineNumber: 184,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                lineNumber: 126,
+                lineNumber: 175,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1667,12 +1719,12 @@ const GamePage = ()=>{
                     }
                 }, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                    lineNumber: 142,
+                    lineNumber: 193,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                lineNumber: 141,
+                lineNumber: 192,
                 columnNumber: 7
             }, this),
             modalVisible && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1700,24 +1752,20 @@ const GamePage = ()=>{
                                 children: "×"
                             }, void 0, false, {
                                 fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                                lineNumber: 167,
+                                lineNumber: 218,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                children: [
-                                    t("A Special"),
-                                    " ",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        children: t("Valentine’s Bonus")
-                                    }, void 0, false, {
-                                        fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                                        lineNumber: 175,
-                                        columnNumber: 34
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    children: t("A Special St. Patrick's Bonus")
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
+                                    lineNumber: 226,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                                lineNumber: 174,
+                                lineNumber: 225,
                                 columnNumber: 15
                             }, this),
                             brands.length > 0 && brands.slice(0, 1).map((rowData, index)=>// <p className="p">{t("Click below to claim your magical reward!")}</p>
@@ -1738,17 +1786,17 @@ const GamePage = ()=>{
                                                     className: "target-top-new-releases"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                                                    lineNumber: 186,
+                                                    lineNumber: 237,
                                                     columnNumber: 25
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                                                lineNumber: 182,
+                                                lineNumber: 233,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                                            lineNumber: 181,
+                                            lineNumber: 232,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1756,7 +1804,7 @@ const GamePage = ()=>{
                                             children: rowData.OurOfferContent
                                         }, void 0, false, {
                                             fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                                            lineNumber: 196,
+                                            lineNumber: 247,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1767,44 +1815,44 @@ const GamePage = ()=>{
                                                 children: t("Play Now")
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                                                lineNumber: 202,
+                                                lineNumber: 253,
                                                 columnNumber: 23
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                                            lineNumber: 197,
+                                            lineNumber: 248,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                                    lineNumber: 180,
+                                    lineNumber: 231,
                                     columnNumber: 19
                                 }, this))
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                        lineNumber: 166,
+                        lineNumber: 217,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                    lineNumber: 165,
+                    lineNumber: 216,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-                lineNumber: 151,
+                lineNumber: 202,
                 columnNumber: 9
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
-        lineNumber: 125,
+        lineNumber: 174,
         columnNumber: 5
     }, this);
 };
-_s(GamePage, "dKh3xZQPQlF/HCif8L8Pdrk9I90=", false, function() {
+_s(GamePage, "U/pQFTJnbnwGUh+grK2bY8GYiSk=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$switcher$2f$LanguageContext$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useLanguage"],
         __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$i18next$2f$dist$2f$es$2f$useTranslation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useTranslation"],

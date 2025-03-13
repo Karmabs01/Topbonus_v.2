@@ -916,7 +916,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .wheel h3 span {
-  color: #e81396;
+  color: #4eb816;
 }
 
 .wheel p {
@@ -931,7 +931,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   background: url("/newimages/modal18.png") top no-repeat;
   background-size: cover;
   border-radius: 30px;
-  border: 3px inset #e81396b6;
+  border: 3px inset #4fb81691;
 }
 
 .wheel .custom-modal h3 {
@@ -945,7 +945,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .wheel .custom-modal h3 span {
-  color: #e81396;
+  color: #4eb816;
 }
 
 .wheel .custom-modal-close {
@@ -1150,15 +1150,15 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
 }
 
 .card-advent .dated {
-  background: #fe8ec3 !important;
+  background: #3a761a !important;
 }
 
 .card-advent .btn-play, .card-advent .btn-play, .card-advent.activate .btn-play {
-  background: #fe8ec3 !important;
+  background: #3a761a !important;
 }
 
 #advent .text-white, #advent .random-title {
-  color: #2b252b;
+  color: #fff;
 }
 
 #advent .closed p {
@@ -1230,7 +1230,7 @@ div div div:nth-child(6n+6) .Card-module__dr5V-W__card {
   }
 
   .card-advent {
-    flex-basis: 48% !important;
+    flex-basis: 98% !important;
   }
 
   .advnt {

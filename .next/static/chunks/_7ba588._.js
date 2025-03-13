@@ -2,7 +2,7 @@
 
 "[project]/public/logo3.png [app-client] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
-__turbopack_export_value__("/_next/static/media/logo3.6c0c1dbc.png");
+__turbopack_export_value__("/_next/static/media/logo3.23e446c9.png");
 })()),
 "[project]/public/logo3.png.mjs { IMAGE => \"[project]/public/logo3.png [app-client] (static)\" } [app-client] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, k: __turbopack_refresh__ }) => (() => {
 "use strict";
@@ -17,7 +17,7 @@ const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$logo3$2e$png__$5b$app$2d$client$5d$__$28$static$29$__["default"],
     width: 398,
     height: 63,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAALElEQVR42gEhAN7/AGhoaF9gYGBTYV1dVa5bX7K/YmbJxV5j0c1vc9G8Y2e+7jsQAL9bGMwAAAAASUVORK5CYII=",
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAABCAYAAADjAO9DAAAALElEQVR42gEhAN7/AGVlZVZfX19SYV9dVbeKXbLOm2jI0pxmz9ajcNHElGW++ekRKDZVNrMAAAAASUVORK5CYII=",
     blurWidth: 8,
     blurHeight: 1
 };

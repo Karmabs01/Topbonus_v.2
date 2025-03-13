@@ -5,7 +5,7 @@
 }
 
 .wheel h3 span {
-  color: #e81396;
+  color: #4eb816;
 }
 
 .wheel p {
@@ -20,7 +20,7 @@
   background: url("/newimages/modal18.png") top no-repeat;
   background-size: cover;
   border-radius: 30px;
-  border: 3px inset #e81396b6;
+  border: 3px inset #4fb81691;
 }
 
 .wheel .custom-modal h3 {
@@ -34,7 +34,7 @@
 }
 
 .wheel .custom-modal h3 span {
-  color: #e81396;
+  color: #4eb816;
 }
 
 .wheel .custom-modal-close {

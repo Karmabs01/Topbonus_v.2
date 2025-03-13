@@ -661,7 +661,16 @@ async function initializeI18n() {
                 "TOP RATED CRYPTO CASINOS": "TOP RATED CRYPTO CASINOS",
                 "Top Bonuses": "Top Bonuses",
                 "Newbie Perks": "Newbie Perks",
-                "Top Bonuses": "High Stakes"
+                "Top Bonuses": "High Stakes",
+                "St. Patrick's Day Special: Triple the Treasure!": "St. Patrick's Day Special: Triple the Treasure!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.",
+                "YOUR SPRING LUCK": "YOUR SPRING LUCK",
+                "BLOOMS HERE": "BLOOMS HERE",
+                "Celebrate the season with big wins and exclusive surprises!": "Celebrate the season with big wins and exclusive surprises!",
+                "St. Patrick's": "St. Patrick's",
+                "Shamrock Spins": "Shamrock Spins",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?",
+                "A Special St. Patrick's Bonus": "A Special St. Patrick's Bonus"
             }
         },
         pl: {
@@ -1098,7 +1107,20 @@ async function initializeI18n() {
                 Get: "Otrzymaj",
                 "St.Valentine’s": "Walentynkowy",
                 Bonus: "Bonus",
-                "Tap Me": "Dotknij mnie"
+                "Tap Me": "Dotknij mnie",
+                "TOP RATED CRYPTO CASINOS": "NAJLEPIEJ OCENIANE KRYPTO KASYNA",
+                "Top Bonuses": "Najlepsze bonusy",
+                "Newbie Perks": "Korzyści dla początkujących",
+                "Top Bonuses": "Wysokie stawki",
+                "St. Patrick's Day Special: Triple the Treasure!": "Specjalna oferta na Dzień Świętego Patryka: Potrójny skarb!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "Szczęście sprzyja odważnym! Otwórz wszystkie trzy szczęśliwe okna i pozwól duchowi Dnia Świętego Patryka przynieść ci niesamowite nagrody.",
+                "YOUR SPRING LUCK": "TWOJE WIOSENNE SZCZĘŚCIE",
+                "BLOOMS HERE": "ROZKWITA TUTAJ",
+                "Celebrate the season with big wins and exclusive surprises!": "Świętuj sezon z wielkimi wygranymi i ekskluzywnymi niespodziankami!",
+                "St. Patrick's": "Świętego Patryka",
+                "Shamrock Spins": "Obroty koniczyny",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "Koło fortuny zdecyduje o twoim losie! Zakręć nim i odkryj, która marka kasyna jest twoim szczęśliwym amuletem. Czy szczęście Irlandczyków będzie po twojej stronie w tym Dniu Świętego Patryka?",
+                "A Special St. Patrick's Bonus": "Specjalny bonus na Dzień Świętego Patryka"
             }
         },
         de: {
@@ -1536,7 +1558,20 @@ async function initializeI18n() {
                 Get: "Holen",
                 "St.Valentine’s": "Valentinstag",
                 Bonus: "Bonus",
-                "Tap Me": "Tippe mich"
+                "Tap Me": "Tippe mich",
+                "TOP RATED CRYPTO CASINOS": "TOP BEWERTETE KRYPTO-CASINOS",
+                "Top Bonuses": "Top-Boni",
+                "Newbie Perks": "Vorteile für Neulinge",
+                "Top Bonuses": "Hohe Einsätze",
+                "St. Patrick's Day Special: Triple the Treasure!": "St. Patrick's Day Spezial: Dreifacher Schatz!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "Das Glück begünstigt die Mutigen! Öffne alle drei Glücksfenster und lass den Geist des St. Patrick’s Day dir unglaubliche Belohnungen bringen.",
+                "YOUR SPRING LUCK": "DEIN FRÜHLINGSGLÜCK",
+                "BLOOMS HERE": "BLÜHT HIER",
+                "Celebrate the season with big wins and exclusive surprises!": "Feiere die Saison mit großen Gewinnen und exklusiven Überraschungen!",
+                "St. Patrick's": "St. Patrick’s",
+                "Shamrock Spins": "Kleeblatt-Drehungen",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "Das Glücksrad entscheidet über dein Schicksal! Dreh es und finde heraus, welche Casino-Marke dein Glücksbringer ist. Wird das Glück der Iren auf deiner Seite sein an diesem St. Patrick’s Day?",
+                "A Special St. Patrick's Bonus": "Ein besonderer St. Patrick’s Bonus"
             }
         },
         bg: {
@@ -1973,7 +2008,20 @@ async function initializeI18n() {
                 Get: "Вземи",
                 "St.Valentine’s": "Свети Валентин",
                 Bonus: "Бонус",
-                "Tap Me": "Докосни ме"
+                "Tap Me": "Докосни ме",
+                "TOP RATED CRYPTO CASINOS": "НАЙ-ВИСОКО ОЦЕНЕНИ КРИПТО КАЗИНА",
+                "Top Bonuses": "Топ бонуси",
+                "Newbie Perks": "Привилегии за новаци",
+                "Top Bonuses": "Високи залози",
+                "St. Patrick's Day Special: Triple the Treasure!": "Специално за Деня на Свети Патрик: Троен съкровищен бонус!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "Съдбата обича смелите! Отвори трите късметлийски прозореца и остави духа на Свети Патрик да ти донесе невероятни награди.",
+                "YOUR SPRING LUCK": "ТВОЯТ ПРОЛЕТЕН КЪСМЕТ",
+                "BLOOMS HERE": "РАЗЦЪФВА ТУК",
+                "Celebrate the season with big wins and exclusive surprises!": "Отпразнувай сезона с големи печалби и ексклузивни изненади!",
+                "St. Patrick's": "Свети Патрик",
+                "Shamrock Spins": "Детелинови завъртания",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "Колелото на късмета ще реши съдбата ти! Завърти го и разбери кое казино е твоят късметлийски избор. Ще бъде ли ирландският късмет на твоя страна този Ден на Свети Патрик?",
+                "A Special St. Patrick's Bonus": "Специален бонус за Деня на Свети Патрик"
             }
         },
         cz: {
@@ -2410,7 +2458,20 @@ async function initializeI18n() {
                 Get: "Získat",
                 "St.Valentine’s": "Valentýn",
                 Bonus: "Bonus",
-                "Tap Me": "Klepni na mě"
+                "Tap Me": "Klepni na mě",
+                "TOP RATED CRYPTO CASINOS": "NEJLÉPE HODNOCENÁ KRYPTO KASINA",
+                "Top Bonuses": "Nejlepší bonusy",
+                "Newbie Perks": "Výhody pro nováčky",
+                "Top Bonuses": "Vysoké sázky",
+                "St. Patrick's Day Special: Triple the Treasure!": "Speciál ke Dni svatého Patrika: Trojnásobný poklad!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "Štěstí přeje odvážným! Otevřete všechna tři okna štěstí a nechte ducha Dne svatého Patrika přinést vám neuvěřitelné odměny.",
+                "YOUR SPRING LUCK": "TVÉ JARNÍ ŠTĚSTÍ",
+                "BLOOMS HERE": "KVETE ZDE",
+                "Celebrate the season with big wins and exclusive surprises!": "Oslavte sezónu velkými výhrami a exkluzivními překvapeními!",
+                "St. Patrick's": "Svatého Patrika",
+                "Shamrock Spins": "Jetelové otočky",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "Kolo štěstí rozhodne o vašem osudu! Roztočte ho a zjistěte, která značka kasina je vaším talismanem. Bude irské štěstí na vaší straně v tento Den svatého Patrika?",
+                "A Special St. Patrick's Bonus": "Speciální bonus ke Dni svatého Patrika"
             }
         },
         dk: {
@@ -2847,7 +2908,20 @@ async function initializeI18n() {
                 Get: "Hent",
                 "St.Valentine’s": "Valentinsdag",
                 Bonus: "Bonus",
-                "Tap Me": "Tryk på mig"
+                "Tap Me": "Tryk på mig",
+                "TOP RATED CRYPTO CASINOS": "TOPBEDØMTE KRYPTOCASINOER",
+                "Top Bonuses": "Topbonusser",
+                "Newbie Perks": "Fordele for nybegyndere",
+                "Top Bonuses": "Høje indsatser",
+                "St. Patrick's Day Special: Triple the Treasure!": "Sankt Patricks Dag Special: Tredobbelt Skat!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "Heldet tilsmiler de modige! Åbn alle tre lykkelige vinduer og lad ånden fra Sankt Patricks Dag bringe dig utrolige belønninger.",
+                "YOUR SPRING LUCK": "DIT FORÅRSHELD",
+                "BLOOMS HERE": "BLOMSTRER HER",
+                "Celebrate the season with big wins and exclusive surprises!": "Fejr sæsonen med store gevinster og eksklusive overraskelser!",
+                "St. Patrick's": "Sankt Patricks",
+                "Shamrock Spins": "Kløver Spins",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "Lykkehjulet vil afgøre din skæbne! Giv det et spin og opdag, hvilket casino der er din lykkebringer. Vil den irske lykke være på din side denne Sankt Patricks Dag?",
+                "A Special St. Patrick's Bonus": "En speciel Sankt Patricks Bonus"
             }
         },
         nl: {
@@ -3284,7 +3358,20 @@ async function initializeI18n() {
                 Get: "Halen",
                 "St.Valentine’s": "Valentijnsdag",
                 Bonus: "Bonus",
-                "Tap Me": "Tik me aan"
+                "Tap Me": "Tik me aan",
+                "TOP RATED CRYPTO CASINOS": "TOP BEOORDEELDE CRYPTO-CASINO'S",
+                "Top Bonuses": "Topbonussen",
+                "Newbie Perks": "Voordelen voor nieuwkomers",
+                "Top Bonuses": "Hoge inzetten",
+                "St. Patrick's Day Special: Triple the Treasure!": "St. Patrick's Dag Special: Driedubbele Schat!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "Het geluk is met de dapperen! Open alle drie de geluksvensters en laat de geest van St. Patrick's Dag je ongelooflijke beloningen brengen.",
+                "YOUR SPRING LUCK": "JOUW VOORJAARSFORTUIN",
+                "BLOOMS HERE": "BLOEIT HIER",
+                "Celebrate the season with big wins and exclusive surprises!": "Vier het seizoen met grote winsten en exclusieve verrassingen!",
+                "St. Patrick's": "St. Patrick's",
+                "Shamrock Spins": "Klaver Spins",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "Het Rad van Fortuin zal je lot bepalen! Draai eraan en ontdek welk casino jouw geluksbrenger is. Zal het Ierse geluk aan jouw zijde zijn deze St. Patrick's Dag?",
+                "A Special St. Patrick's Bonus": "Een speciale St. Patrick's Bonus"
             }
         },
         es: {
@@ -3721,7 +3808,20 @@ async function initializeI18n() {
                 Get: "Obtener",
                 "St.Valentine’s": "San Valentín",
                 Bonus: "Bono",
-                "Tap Me": "Tócame"
+                "Tap Me": "Tócame",
+                "TOP RATED CRYPTO CASINOS": "CASINOS DE CRIPTO MEJOR CALIFICADOS",
+                "Top Bonuses": "Mejores bonos",
+                "Newbie Perks": "Ventajas para principiantes",
+                "Top Bonuses": "Altas apuestas",
+                "St. Patrick's Day Special: Triple the Treasure!": "Especial del Día de San Patricio: ¡Triple Tesoro!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "¡La fortuna favorece a los valientes! Abre las tres ventanas de la suerte y deja que el espíritu del Día de San Patricio te traiga increíbles recompensas.",
+                "YOUR SPRING LUCK": "TU SUERTE PRIMAVERAL",
+                "BLOOMS HERE": "FLORECE AQUÍ",
+                "Celebrate the season with big wins and exclusive surprises!": "¡Celebra la temporada con grandes premios y sorpresas exclusivas!",
+                "St. Patrick's": "San Patricio",
+                "Shamrock Spins": "Giros del Trébol",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "¡La Rueda de la Fortuna decidirá tu destino! Gírala y descubre qué casino es tu amuleto de la suerte. ¿Estará la suerte de los irlandeses de tu lado este Día de San Patricio?",
+                "A Special St. Patrick's Bonus": "Un Bono Especial de San Patricio"
             }
         },
         fi: {
@@ -4158,7 +4258,20 @@ async function initializeI18n() {
                 Get: "Hae",
                 "St.Valentine’s": "Ystävänpäivä",
                 Bonus: "Bonus",
-                "Tap Me": "Napauta minua"
+                "Tap Me": "Napauta minua",
+                "TOP RATED CRYPTO CASINOS": "PARHAAT ARVOSTELLUT KRYPTOKASINOT",
+                "Top Bonuses": "Parhaat bonukset",
+                "Newbie Perks": "Aloittelijoiden edut",
+                "Top Bonuses": "Korkeat panokset",
+                "St. Patrick's Day Special: Triple the Treasure!": "Pyhän Patrickin päivän erikoistarjous: Kolminkertainen aarre!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "Onni suosii rohkeita! Avaa kaikki kolme onnenikkunaa ja anna Pyhän Patrickin päivän hengen tuoda sinulle uskomattomia palkintoja.",
+                "YOUR SPRING LUCK": "KEVÄTONNESI",
+                "BLOOMS HERE": "KUKKII TÄÄLLÄ",
+                "Celebrate the season with big wins and exclusive surprises!": "Juhlista vuodenaikaa suurilla voitoilla ja eksklusiivisilla yllätyksillä!",
+                "St. Patrick's": "Pyhän Patrickin",
+                "Shamrock Spins": "Apilapyöräytykset",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "Onnenpyörä päättää kohtalosi! Pyöräytä sitä ja selvitä, mikä kasino tuo sinulle onnea. Onko irlantilaisten onni puolellasi tänä Pyhän Patrickin päivänä?",
+                "A Special St. Patrick's Bonus": "Erityinen Pyhän Patrickin bonus"
             }
         },
         fr: {
@@ -4596,7 +4709,20 @@ async function initializeI18n() {
                 Get: "Obtenir",
                 "St.Valentine’s": "Saint-Valentin",
                 Bonus: "Bonus",
-                "Tap Me": "Tapez-moi"
+                "Tap Me": "Tapez-moi",
+                "TOP RATED CRYPTO CASINOS": "MEILLEURS CASINOS CRYPTO NOTÉS",
+                "Top Bonuses": "Meilleurs bonus",
+                "Newbie Perks": "Avantages pour débutants",
+                "Top Bonuses": "Mises élevées",
+                "St. Patrick's Day Special: Triple the Treasure!": "Spécial Saint-Patrick : Triplez le Trésor !",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "La chance sourit aux audacieux ! Ouvrez les trois fenêtres chanceuses et laissez l'esprit de la Saint-Patrick vous apporter des récompenses incroyables.",
+                "YOUR SPRING LUCK": "VOTRE CHANCE DU PRINTEMPS",
+                "BLOOMS HERE": "FLEURIT ICI",
+                "Celebrate the season with big wins and exclusive surprises!": "Célébrez la saison avec de grands gains et des surprises exclusives !",
+                "St. Patrick's": "Saint-Patrick",
+                "Shamrock Spins": "Tours de Trèfle",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "La Roue de la Chance décidera de votre destin ! Faites-la tourner et découvrez quelle marque de casino est votre porte-bonheur. La chance des Irlandais sera-t-elle de votre côté cette Saint-Patrick ?",
+                "A Special St. Patrick's Bonus": "Un Bonus Spécial Saint-Patrick"
             }
         },
         gr: {
@@ -5034,7 +5160,20 @@ async function initializeI18n() {
                 Get: "Πάρε",
                 "St.Valentine’s": "Αγίου Βαλεντίνου",
                 Bonus: "Μπόνους",
-                "Tap Me": "Πάτησέ με"
+                "Tap Me": "Πάτησέ με",
+                "TOP RATED CRYPTO CASINOS": "ΚΟΡΥΦΑΊΑ ΚΡΥΠΤΟΚΑΖΊΝΟ",
+                "Top Bonuses": "Κορυφαία μπόνους",
+                "Newbie Perks": "Προνόμια για νέους",
+                "Top Bonuses": "Υψηλά πονταρίσματα",
+                "St. Patrick's Day Special: Triple the Treasure!": "Ειδική Προσφορά για την Ημέρα του Αγίου Πατρικίου: Τριπλός Θησαυρός!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "Η τύχη ευνοεί τους τολμηρούς! Ανοίξτε και τα τρία τυχερά παράθυρα και αφήστε το πνεύμα της Ημέρας του Αγίου Πατρικίου να σας φέρει απίστευτες ανταμοιβές.",
+                "YOUR SPRING LUCK": "Η ΑΝΟΙΞΙΑΤΙΚΗ ΣΑΣ ΤΥΧΗ",
+                "BLOOMS HERE": "ΑΝΘΙΖΕΙ ΕΔΩ",
+                "Celebrate the season with big wins and exclusive surprises!": "Γιορτάστε την εποχή με μεγάλες νίκες και αποκλειστικές εκπλήξεις!",
+                "St. Patrick's": "Αγίου Πατρικίου",
+                "Shamrock Spins": "Τυχερές Περιστροφές Τριφυλλιού",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "Ο Τροχός της Τύχης θα αποφασίσει για τη μοίρα σας! Περιστρέψτε τον και ανακαλύψτε ποιο καζίνο είναι το γούρι σας. Θα είναι η τύχη των Ιρλανδών με το μέρος σας αυτή την Ημέρα του Αγίου Πατρικίου;",
+                "A Special St. Patrick's Bonus": "Ένα Ειδικό Μπόνους για την Ημέρα του Αγίου Πατρικίου"
             }
         },
         hu: {
@@ -5472,7 +5611,20 @@ async function initializeI18n() {
                 Get: "Szerezd meg",
                 "St.Valentine’s": "Valentin-nap",
                 Bonus: "Bónusz",
-                "Tap Me": "Érints meg"
+                "Tap Me": "Érints meg",
+                "TOP RATED CRYPTO CASINOS": "LEGJOBBRA ÉRTÉKELT KRIPTO KASZINÓK",
+                "Top Bonuses": "Legjobb bónuszok",
+                "Newbie Perks": "Előnyök kezdőknek",
+                "Top Bonuses": "Magas tétek",
+                "St. Patrick's Day Special: Triple the Treasure!": "Szent Patrik-napi Különleges: Háromszoros Kincs!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "A szerencse a bátraknak kedvez! Nyisd ki mindhárom szerencseablakot, és hagyd, hogy a Szent Patrik-nap szelleme hihetetlen jutalmakkal ajándékozzon meg.",
+                "YOUR SPRING LUCK": "TAVASZI SZERENCSÉD",
+                "BLOOMS HERE": "ITT VIRÁGZIK",
+                "Celebrate the season with big wins and exclusive surprises!": "Ünnepeld az évszakot nagy nyereményekkel és exkluzív meglepetésekkel!",
+                "St. Patrick's": "Szent Patrik",
+                "Shamrock Spins": "Lóhere Pörgetések",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "A Szerencsekereke eldönti a sorsodat! Pörgesd meg, és fedezd fel, melyik kaszinómárka a szerencséd forrása. Vajon az ír szerencse veled lesz ezen a Szent Patrik-napon?",
+                "A Special St. Patrick's Bonus": "Egy Különleges Szent Patrik-napi Bónusz"
             }
         },
         it: {
@@ -5910,7 +6062,20 @@ async function initializeI18n() {
                 Get: "Ottieni",
                 "St.Valentine’s": "San Valentino",
                 Bonus: "Bonus",
-                "Tap Me": "Toccami"
+                "Tap Me": "Toccami",
+                "TOP RATED CRYPTO CASINOS": "I MIGLIORI CASINÒ CRYPTO VALUTATI",
+                "Top Bonuses": "Migliori bonus",
+                "Newbie Perks": "Vantaggi per principianti",
+                "Top Bonuses": "Puntate alte",
+                "St. Patrick's Day Special: Triple the Treasure!": "Speciale San Patrizio: Triplica il Tesoro!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "La fortuna premia gli audaci! Apri tutte e tre le finestre fortunate e lascia che lo spirito di San Patrizio ti porti incredibili ricompense.",
+                "YOUR SPRING LUCK": "LA TUA FORTUNA DI PRIMAVERA",
+                "BLOOMS HERE": "FIORESCE QUI",
+                "Celebrate the season with big wins and exclusive surprises!": "Celebra la stagione con grandi vincite e sorprese esclusive!",
+                "St. Patrick's": "San Patrizio",
+                "Shamrock Spins": "Giri del Trifoglio",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "La Ruota della Fortuna deciderà il tuo destino! Girala e scopri quale casinò è il tuo portafortuna. La fortuna degli irlandesi sarà dalla tua parte questo San Patrizio?",
+                "A Special St. Patrick's Bonus": "Un Bonus Speciale di San Patrizio"
             }
         },
         no: {
@@ -6348,7 +6513,20 @@ async function initializeI18n() {
                 Get: "Få",
                 "St.Valentine’s": "Valentinsdag",
                 Bonus: "Bonus",
-                "Tap Me": "Trykk på meg"
+                "Tap Me": "Trykk på meg",
+                "TOP RATED CRYPTO CASINOS": "TOPPRANGERTE KRYPTOCASINOER",
+                "Top Bonuses": "Toppbonuser",
+                "Newbie Perks": "Fordeler for nybegynnere",
+                "Top Bonuses": "Høye innsatser",
+                "St. Patrick's Day Special: Triple the Treasure!": "St. Patrick’s Dag Spesial: Triple Skatten!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "Lykken tilhører de modige! Åpne alle tre lykkelige vinduer og la St. Patrick's ånd bringe deg utrolige belønninger.",
+                "YOUR SPRING LUCK": "DIN VÅRFLAKS",
+                "BLOOMS HERE": "BLOMSTRER HER",
+                "Celebrate the season with big wins and exclusive surprises!": "Feir sesongen med store gevinster og eksklusive overraskelser!",
+                "St. Patrick's": "St. Patrick’s",
+                "Shamrock Spins": "Kløver-spinn",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "Lykkehjulet avgjør skjebnen din! Gi det et spinn og oppdag hvilket casino som er din lykkebringer. Vil irenes flaks være på din side denne St. Patrick’s-dagen?",
+                "A Special St. Patrick's Bonus": "En Spesiell St. Patrick’s Bonus"
             }
         },
         pt: {
@@ -6786,7 +6964,20 @@ async function initializeI18n() {
                 Get: "Obter",
                 "St.Valentine’s": "Dia dos Namorados",
                 Bonus: "Bônus",
-                "Tap Me": "Toque em mim"
+                "Tap Me": "Toque em mim",
+                "TOP RATED CRYPTO CASINOS": "MELHORES CASSINOS DE CRIPTO AVALIADOS",
+                "Top Bonuses": "Melhores bônus",
+                "Newbie Perks": "Benefícios para iniciantes",
+                "Top Bonuses": "Apostas altas",
+                "St. Patrick's Day Special: Triple the Treasure!": "Especial do Dia de São Patrício: Triplique o Tesouro!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "A sorte favorece os audazes! Abra todas as três janelas da sorte e deixe o espírito do Dia de São Patrício trazer-lhe recompensas incríveis.",
+                "YOUR SPRING LUCK": "SUA SORTE DE PRIMAVERA",
+                "BLOOMS HERE": "FLORESCE AQUI",
+                "Celebrate the season with big wins and exclusive surprises!": "Celebre a estação com grandes vitórias e surpresas exclusivas!",
+                "St. Patrick's": "São Patrício",
+                "Shamrock Spins": "Giros do Trevo",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "A Roda da Sorte decidirá seu destino! Gire-a e descubra qual marca de cassino é o seu amuleto da sorte. Será que a sorte dos irlandeses estará ao seu lado neste Dia de São Patrício?",
+                "A Special St. Patrick's Bonus": "Um Bônus Especial de São Patrício"
             }
         },
         se: {
@@ -7224,7 +7415,20 @@ async function initializeI18n() {
                 Get: "Få",
                 "St.Valentine’s": "Alla hjärtans dag",
                 Bonus: "Bonus",
-                "Tap Me": "Tryck på mig"
+                "Tap Me": "Tryck på mig",
+                "TOP RATED CRYPTO CASINOS": "HÖGST RANKADE KRYPTOCASINOER",
+                "Top Bonuses": "Toppbonusar",
+                "Newbie Perks": "Fördelar för nybörjare",
+                "Top Bonuses": "Höga insatser",
+                "St. Patrick's Day Special: Triple the Treasure!": "S:t Patricks Dags Special: Trippla Skatten!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "Lyckan gynnar de modiga! Öppna alla tre lyckofönster och låt S:t Patricks anda ge dig otroliga belöningar.",
+                "YOUR SPRING LUCK": "DIN VÅRTUR",
+                "BLOOMS HERE": "BLOMMAR HÄR",
+                "Celebrate the season with big wins and exclusive surprises!": "Fira säsongen med stora vinster och exklusiva överraskningar!",
+                "St. Patrick's": "S:t Patricks",
+                "Shamrock Spins": "Klöver-spins",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "Lyckohjulet avgör ditt öde! Snurra det och upptäck vilket casino som är din lyckobringare. Kommer den irländska turen att vara på din sida denna S:t Patricks dag?",
+                "A Special St. Patrick's Bonus": "En Speciell S:t Patricks Bonus"
             }
         },
         sk: {
@@ -7662,7 +7866,20 @@ async function initializeI18n() {
                 Get: "Získať",
                 "St.Valentine’s": "Valentín",
                 Bonus: "Bonus",
-                "Tap Me": "Klepni na mňa"
+                "Tap Me": "Klepni na mňa",
+                "TOP RATED CRYPTO CASINOS": "NAJLEPŠIE HODNOTENÉ KRYPTO KASÍNA",
+                "Top Bonuses": "Najlepšie bonusy",
+                "Newbie Perks": "Výhody pre nováčikov",
+                "Top Bonuses": "Vysoké stávky",
+                "St. Patrick's Day Special: Triple the Treasure!": "Špeciál na Deň sv. Patrika: Trojnásobný Poklad!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "Šťastie praje odvážnym! Otvorte všetky tri šťastné okná a nechajte ducha Dňa sv. Patrika priniesť vám neuveriteľné odmeny.",
+                "YOUR SPRING LUCK": "VAŠE JARNÉ ŠŤASTIE",
+                "BLOOMS HERE": "KVITNE TU",
+                "Celebrate the season with big wins and exclusive surprises!": "Oslávte sezónu veľkými výhrami a exkluzívnymi prekvapeniami!",
+                "St. Patrick's": "Sv. Patrika",
+                "Shamrock Spins": "Štvorlístkové Točenia",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "Koleso šťastia rozhodne o vašom osude! Roztočte ho a zistite, ktorá značka kasína je vaším talizmanom. Bude írske šťastie na vašej strane tento Deň sv. Patrika?",
+                "A Special St. Patrick's Bonus": "Špeciálny Bonus na Deň Sv. Patrika"
             }
         },
         tr: {
@@ -8100,7 +8317,20 @@ async function initializeI18n() {
                 Get: "Al",
                 "St.Valentine’s": "Sevgililer Günü",
                 Bonus: "Bonus",
-                "Tap Me": "Bana dokun"
+                "Tap Me": "Bana dokun",
+                "TOP RATED CRYPTO CASINOS": "EN IYI PUANLANAN KRIPTO CASINOLAR",
+                "Top Bonuses": "En iyi bonuslar",
+                "Newbie Perks": "Yeni başlayan avantajları",
+                "Top Bonuses": "Yüksek bahisler",
+                "St. Patrick's Day Special: Triple the Treasure!": "Aziz Patrik Günü Özel: Hazineyi Üçe Katla!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "Şans cesurlardan yanadır! Üç şanslı pencereyi açın ve Aziz Patrik Günü’nün ruhu size inanılmaz ödüller getirsin.",
+                "YOUR SPRING LUCK": "İLKBAHAR ŞANSINIZ",
+                "BLOOMS HERE": "BURADA ÇİÇEK AÇIYOR",
+                "Celebrate the season with big wins and exclusive surprises!": "Bu sezonu büyük kazançlar ve özel sürprizlerle kutlayın!",
+                "St. Patrick's": "Aziz Patrik",
+                "Shamrock Spins": "Yonca Çevirme",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "Şans Çarkı kaderinizi belirleyecek! Çevirin ve hangi kumarhanenin sizin şans tılsımınız olduğunu keşfedin. Bu Aziz Patrik Günü’nde İrlanda şansı sizinle olacak mı?",
+                "A Special St. Patrick's Bonus": "Özel Aziz Patrik Bonusu"
             }
         },
         in: {
@@ -8546,7 +8776,20 @@ async function initializeI18n() {
                 Get: "प्राप्त करें",
                 "St.Valentine’s": "सेंट वेलेंटाइन",
                 Bonus: "बोनस",
-                "Tap Me": "मुझे टैप करें"
+                "Tap Me": "मुझे टैप करें",
+                "TOP RATED CRYPTO CASINOS": "शीर्ष रेटेड क्रिप्टो कैसीनो",
+                "Top Bonuses": "शीर्ष बोनस",
+                "Newbie Perks": "नवागंतुक लाभ",
+                "Top Bonuses": "उच्च दांव",
+                "St. Patrick's Day Special: Triple the Treasure!": "सेंट पैट्रिक दिवस विशेष: तीन गुना खजाना!",
+                "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.": "भाग्य साहसी लोगों का साथ देता है! तीनों भाग्यशाली खिड़कियाँ खोलें और सेंट पैट्रिक दिवस की आत्मा आपको अविश्वसनीय पुरस्कार दिलाए।",
+                "YOUR SPRING LUCK": "आपका वसंत भाग्य",
+                "BLOOMS HERE": "यहाँ खिलता है",
+                "Celebrate the season with big wins and exclusive surprises!": "इस मौसम का जश्न बड़ी जीत और विशेष सरप्राइज़ के साथ मनाएं!",
+                "St. Patrick's": "सेंट पैट्रिक",
+                "Shamrock Spins": "शेमरॉक स्पिन्स",
+                "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?": "भाग्य का पहिया आपके भविष्य का फैसला करेगा! इसे घुमाएं और जानें कि कौन सा कैसीनो ब्रांड आपका भाग्यशाली ताबीज है। क्या इस सेंट पैट्रिक दिवस पर आयरिश भाग्य आपके पक्ष में होगा?",
+                "A Special St. Patrick's Bonus": "एक विशेष सेंट पैट्रिक बोनस"
             }
         }
     };

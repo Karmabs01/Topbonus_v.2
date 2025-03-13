@@ -8,7 +8,7 @@
     "static/chunks/components_i18n_980316.js",
     "static/chunks/components_header_9c8ca5._.js",
     "static/chunks/components_6a26aa._.js",
-    "static/chunks/_92adb5._.js",
+    "static/chunks/_7ba588._.js",
     "static/chunks/node_modules_next_3195b5._.js",
     "static/chunks/node_modules_i18next_dist_esm_i18next_7cc58d.js",
     "static/chunks/node_modules_@headlessui_react_dist_05e1dd._.js",
