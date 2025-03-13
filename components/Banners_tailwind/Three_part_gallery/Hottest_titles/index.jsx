@@ -183,11 +183,10 @@ export default function Popular_offers() {
 
 
 // Начало изменений
-
 const specificBrandName1 = "Magic Win"; 
 const specificBrandName2 = "Golden Lion";  
 const specificBrandName3 = "Ritzo";   
- 
+const specificBrandName4 = "Mr.Bet";   
 
 
 
@@ -205,17 +204,21 @@ if (brands.length > 0) {
   const specificBrand3 = brands.find(
     (brand) => brand.CasinoBrand === specificBrandName3
   );
+  const specificBrand4 = brands.find(
+    (brand) => brand.CasinoBrand === specificBrandName4
+  );
 
 
 
   // Убираем эти бренды из списка, чтобы избежать дубликатов
   let otherBrands = brands;
-  if (specificBrand1 || specificBrand2 || specificBrand3) {
+  if (specificBrand1 || specificBrand2 || specificBrand3 || specificBrand4) {
     otherBrands = brands.filter(
       (brand) =>
         brand.CasinoBrand !== specificBrandName1 &&
         brand.CasinoBrand !== specificBrandName2 &&
-        brand.CasinoBrand !== specificBrandName3
+        brand.CasinoBrand !== specificBrandName3 &&
+        brand.CasinoBrand !== specificBrandName4
 
     );
   }
@@ -228,6 +231,8 @@ if (brands.length > 0) {
   if (specificBrand1) numberOfSpecificBrands++;
   if (specificBrand2) numberOfSpecificBrands++;
   if (specificBrand3) numberOfSpecificBrands++;
+  if (specificBrand4) numberOfSpecificBrands++;
+
 
 
 
@@ -246,6 +251,9 @@ if (brands.length > 0) {
   }
   if (specificBrand3) {
     brandsToDisplay.push(specificBrand3);
+  }
+  if (specificBrand4) {
+    brandsToDisplay.push(specificBrand4);
   }
 
   brandsToDisplay = brandsToDisplay.concat(randomBrands);
