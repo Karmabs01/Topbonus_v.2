@@ -15,13 +15,16 @@ const CUSTOM_BRANDS_POOL = [
   "Syndicate casino",
   "Mr.Bet",
   "XON",
-  "Voodoo Casino",
-  "Magius",
-  "Viking Luck",
   "SpiNight",
-  "BetOnline",
-  "WildCasino",
-  "Spinshouse",
+  "Winshark",
+  "Viking Luck",
+  "Lex",
+  "Irwin",
+  "Trueluck",
+  "Allstarzcasino",
+  "Gizbo",
+  "Hitme.bet",
+  "Novajackpot",
 ];
 
 export default function Brands_carousel() {
