@@ -110,11 +110,11 @@
   min-height: 73px !important;
 }
 .card-advent .dated{
-  background: #FE8EC3 !important;
+  background: #4fdd2f !important;
 }
 .card-advent .btn-play,
 .card-advent .btn-play, .card-advent.activate .btn-play{
-  background: #FE8EC3 !important;
+  background: #4fdd2f !important;
 }
 #advent .mb-3.text-white {
   color: #262139;

@@ -1215,6 +1215,10 @@ select {
   flex-basis: 31%;
 }
 
+.basis-\[32\%\] {
+  flex-basis: 32%;
+}
+
 .basis-\[36\%\] {
   flex-basis: 36%;
 }
