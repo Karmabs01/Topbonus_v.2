@@ -14,6 +14,7 @@ import { getUserData } from "@/components/getUser/getUser";
 const CUSTOM_BRANDS_POOL = [
   "Syndicate casino",
   "Mr.Bet",
+  "Loki",
   "XON",
   "SpiNight",
   "Winshark",
