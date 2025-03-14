@@ -15,6 +15,7 @@ const CUSTOM_BRANDS_POOL = [
   "Syndicate casino",
   "Mr.Bet",
   "XON",
+  "Loki",
   "SpiNight",
   "Winshark",
   "Viking Luck",
