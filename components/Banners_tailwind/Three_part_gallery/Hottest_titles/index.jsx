@@ -184,10 +184,10 @@ export default function Popular_offers() {
 
 // Начало изменений
 
-const specificBrandName1 = "Magic Win"; 
-const specificBrandName2 = "Golden Lion";  
-const specificBrandName3 = "Ritzo";   
-const specificBrandName4 = "Mr.Bet";   
+const specificBrandName1 = "Mr.Bet"; 
+const specificBrandName2 = "Duospin";  
+const specificBrandName3 = "Winhero";   
+const specificBrandName4 = "Irwin";   
 
  
 
