@@ -21,7 +21,11 @@ export default function Popular_offers() {
   const [loading, setLoading] = useState(true);
 
   // Список брендов, которые вы хотите закрепить
-  const pinnedBrandsList = ["Voodoo Casino", "XON", "Book of Bet", "BeOnBet"];
+  const pinnedBrandsList = ["XON", "Jet4bet", "Lex", "Gizbo"];
+  
+
+
+
   
   // Массив состояний для закреплённых и остальных
   const [pinnedBrands, setPinnedBrands] = useState([]);
