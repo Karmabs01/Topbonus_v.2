@@ -64,7 +64,8 @@ const LanguageSwitcher = () => {
     { code: "pt", label: "Portugal", flag: "🇵🇹" },
     { code: "es", label: "Spanish", flag: "🇪🇸" },
     { code: "se", label: "Swedish", flag: "🇸🇪" },
-    { code: "all", label: "English", flag: "🌍" },
+    { code: "sk", label: "Slovak", flag: "🇸🇰" },
+    { code: "all", label: "English", flag: "🌍" }
   ];
   const availableLanguages1045 = [
     { code: "cz", label: "Czech", flag: "🇨🇿" },

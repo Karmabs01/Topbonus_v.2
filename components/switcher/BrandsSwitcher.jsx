@@ -92,7 +92,6 @@ const BrandsSwitcher = () => {
     { code: "pt", label: "Portugal", flag: "🇵🇹" },
     { code: "sk", label: "Slovakia", flag: "🇸🇰" },
     { code: "es", label: "Spain", flag: "🇪🇸" },
-
     { code: "se", label: "Sweden", flag: "🇸🇪" },
     { code: "ch", label: "Switzerland", flag: "🇨🇭" },
     { code: "tr", label: "Turkey", flag: "🇹🇷" },
@@ -126,6 +125,7 @@ const BrandsSwitcher = () => {
     { code: "pt", label: "Portugal", flag: "🇵🇹" },
     { code: "es", label: "Spanish", flag: "🇪🇸" },
     { code: "se", label: "Sweden", flag: "🇸🇪" },
+    { code: "sk", label: "Slovakia", flag: "🇸🇰" },
     { code: "za", label: "South Africa", flag: "🇿🇦" },
     { code: "ch", label: "Switzerland", flag: "🇨🇭" },
     { code: "us", label: "USA", flag: "🇺🇸" },

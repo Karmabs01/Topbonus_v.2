@@ -90,6 +90,7 @@ export const getBrands = async (categoryBrands, lng) => {
     { code: "es", label: "Spanish", flag: "🇪🇸" },
     { code: "za", label: "South Africa", flag: "🇿🇦" },
     { code: "se", label: "Sweden", flag: "🇸🇪" },
+    { code: "sk", label: "Slovakia", flag: "🇸🇰" },
     { code: "us", label: "USA", flag: "🇺🇸" },
     { code: "all", label: "World", flag: "🌍" },
   ];
