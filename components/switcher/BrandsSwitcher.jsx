@@ -129,6 +129,7 @@ const BrandsSwitcher = () => {
     { code: "nz", label: "New Zealand", flag: "🇳🇿" },
     { code: "pl", label: "Poland", flag: "🇵🇱" },
     { code: "se", label: "Sweden", flag: "🇸🇪" },
+    { code: "sk", label: "Slovakia", flag: "🇸🇰" },
     { code: "pt", label: "Portugal", flag: "🇵🇹" },
     { code: "es", label: "Spain", flag: "🇪🇸" },
     { code: "za", label: "South Africa", flag: "🇿🇦" },
