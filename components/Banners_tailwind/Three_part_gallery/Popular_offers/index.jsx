@@ -21,7 +21,7 @@ export default function Popular_offers() {
   const [loading, setLoading] = useState(true);
 
   // Список брендов, которые вы хотите закрепить
-  const pinnedBrandsList = ["XON", "Jet4bet", "Lex", "Gizbo"];
+  const pinnedBrandsList = ["XON", "Jet4bet", "Lex", "Gizbo", "Bodog"];
   
 
 
