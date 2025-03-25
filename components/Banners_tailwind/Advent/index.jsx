@@ -26,6 +26,20 @@ const CUSTOM_BRANDS_POOL = [
   "Gizbo",
   "Hitme.bet",
   "Novajackpot",
+
+  "Jet4bet",
+  "Gizbo",
+  "Malina Casino",
+  "Winhero",
+  "Duospin",
+  "Mr.Bet",
+  "XON",
+  "Winorio",
+  "Viking Luck",
+  "Lex",
+  "Irwin",
+  "Allstarzcasino",
+  "Syndicate casino"
 ];
 
 export default function Brands_carousel() {
