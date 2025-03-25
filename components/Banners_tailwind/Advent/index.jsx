@@ -12,20 +12,19 @@ import { getUserData } from "@/components/getUser/getUser";
 
 // Пул из 9 желаемых брендов
 const CUSTOM_BRANDS_POOL = [
-  "Syndicate casino",
+  "Jet4bet",
+  "Gizbo",
+  "Malina Casino",
+  "Winhero",
+  "Duospin",
   "Mr.Bet",
   "XON",
-  "Loki casino",
-  "SpiNight",
-  "Winshark",
+  "Winorio",
   "Viking Luck",
   "Lex",
   "Irwin",
-  "Trueluck",
   "Allstarzcasino",
-  "Gizbo",
-  "Hitme.bet",
-  "Novajackpot",
+  "Syndicate casino",
 ];
 
 export default function Brands_carousel() {
