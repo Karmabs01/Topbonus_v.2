@@ -12,19 +12,19 @@ import { getUserData } from "@/components/getUser/getUser";
 
 // Пул из 9 желаемых брендов
 const CUSTOM_BRANDS_POOL = [
+  "Cosmobet",
+  "CyberCoins",
   "Jet4bet",
-  "Gizbo",
-  "Malina Casino",
+  "Gratowin",
+  "SwiftCasino",
   "Winhero",
+  "Viu Viu",
   "Duospin",
-  "Mr.Bet",
-  "XON",
+  "Chillistakes",
+  "Playoro",
   "Winorio",
-  "Viking Luck",
   "Lex",
   "Irwin",
-  "Allstarzcasino",
-  "Syndicate casino",
 ];
 
 export default function Brands_carousel() {
