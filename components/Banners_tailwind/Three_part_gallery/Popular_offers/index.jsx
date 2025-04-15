@@ -21,13 +21,8 @@ export default function Popular_offers() {
   const [loading, setLoading] = useState(true);
 
   // Список брендов, которые вы хотите закрепить
-  const pinnedBrandsList = ["Jet4bet", "Just Casino", "Chillistakes", "Rocketplay", "Winspirit"];
-  
+  const pinnedBrandsList = ["Leon.bet", "Cosmobet", "Rocketplay", "Winspirit"];
 
-
-  
-  
-  
   // Массив состояний для закреплённых и остальных
   const [pinnedBrands, setPinnedBrands] = useState([]);
   const [otherBrands, setOtherBrands] = useState([]);
@@ -119,9 +114,13 @@ export default function Popular_offers() {
   const categoryBrands0 = { key1: "Networks", key2: "Premium" };
 
   // Получаем бренды через SWR
-  const { data, error } = useSWR(["brands", language], () => getBrands(language), {
-    initialData: [],
-  });
+  const { data, error } = useSWR(
+    ["brands", language],
+    () => getBrands(language),
+    {
+      initialData: [],
+    }
+  );
 
   let userId = "";
   if (typeof window !== "undefined") {
