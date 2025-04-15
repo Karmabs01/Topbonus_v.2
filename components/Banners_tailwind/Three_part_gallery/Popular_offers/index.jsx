@@ -21,7 +21,7 @@ export default function Popular_offers() {
   const [loading, setLoading] = useState(true);
 
   // Список брендов, которые вы хотите закрепить
-  const pinnedBrandsList = ["Jet4bet", "Just Casino", "Chillistakes", "Rocketplay", "Winspirit"];
+  const pinnedBrandsList = ["Leon.bet", "Cosmobet", "Rocketplay", "Winspirit"];
 
 
 
