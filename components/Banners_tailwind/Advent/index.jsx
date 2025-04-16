@@ -407,12 +407,12 @@ export default function Brands_carousel() {
             <Loader />
           ) : (
             <div>
-              <h2 className="text-3xl font-bold tracking-tight text-white random-title mb-3 text-center">
-                {t("triple")}
+            <h2 className="text-3xl font-bold tracking-tight text-white random-title mb-3 text-center">
+                {t("Easter Special: Triple the Eggs!")}
               </h2>
               <p className="mb-3 text-center text-white">
                 {t(
-                  "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards."
+                  "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!"
                 )}
               </p>
               <div className="w-full brand_carousel rounded-md flex justify-between items-center flex-wrap mt-16">

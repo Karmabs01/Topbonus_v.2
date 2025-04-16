@@ -173,11 +173,11 @@ const GamePage = () => {
     <div className="main__container flex items-center wheel">
       <div id="wheel_love" className="left flex flex-col w-1/2">
         <h3 className="mb-5">
-          <span>{t("Shamrock Spins")}</span> {t("Your Fortune!")}
+          <span>{t("Easter")}</span> {t("Wheel of Luck!")}
         </h3>
         <p>
           {t(
-            "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?"
+            "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?"
           )}
         </p>
         <Image
@@ -222,7 +222,7 @@ const GamePage = () => {
                 ×
               </button>
               <h3>
-                <span>{t("A Special St. Patrick's Bonus")}</span>
+                <span>{t("A Special Easter Bonus")}</span>
               </h3>
               {brands.length > 0 &&
                 brands.slice(0, 1).map((rowData, index) => (
