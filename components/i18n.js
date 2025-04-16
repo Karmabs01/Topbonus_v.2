@@ -859,8 +859,7 @@ async function initializeI18n() {
         "Newbie Perks": "Newbie Perks",
         "Top Bonuses": "High Stakes",
 
-        "triple":
-          "St. Patrick's Day Special: Triple the Treasure!",
+        triple: "St. Patrick's Day Special: Triple the Treasure!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.",
         "YOUR SPRING LUCK": "YOUR SPRING LUCK",
@@ -873,12 +872,14 @@ async function initializeI18n() {
           "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?",
         "A Special St. Patrick's Bonus": "A Special St. Patrick's Bonus",
 
-        "Your Easter":"Your Easter",
-        "Easter":"Easter",
-        "Wheel of Luck!":"Wheel of Luck!",
-        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":"Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?",
-        "Easter Special: Triple the Eggs!":"Easter Special: Triple the Eggs!",
-        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":"Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!",
+        "Your Easter": "Your Easter",
+        Easter: "Easter",
+        "Wheel of Luck!": "Wheel of Luck!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?",
+        "Easter Special: Triple the Eggs!": "Easter Special: Triple the Eggs!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!",
       },
     },
 
@@ -1521,8 +1522,7 @@ async function initializeI18n() {
         "Newbie Perks": "Korzyści dla początkujących",
         "Top Bonuses": "Wysokie stawki",
 
-        "triple":
-          "Specjalna oferta na Dzień Świętego Patryka: Potrójny skarb!",
+        triple: "Specjalna oferta na Dzień Świętego Patryka: Potrójny skarb!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Szczęście sprzyja odważnym! Otwórz wszystkie trzy szczęśliwe okna i pozwól duchowi Dnia Świętego Patryka przynieść ci niesamowite nagrody.",
         "YOUR SPRING LUCK": "TWOJE WIOSENNE SZCZĘŚCIE",
@@ -1535,6 +1535,16 @@ async function initializeI18n() {
           "Koło fortuny zdecyduje o twoim losie! Zakręć nim i odkryj, która marka kasyna jest twoim szczęśliwym amuletem. Czy szczęście Irlandczyków będzie po twojej stronie w tym Dniu Świętego Patryka?",
         "A Special St. Patrick's Bonus":
           "Specjalny bonus na Dzień Świętego Patryka",
+
+        "Your Easter": "Twoja Wielkanoc",
+        Easter: "Wielkanoc",
+        "Wheel of Luck!": "Koło Szczęścia!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Zakreć Wielkanocnym Kołem Szczęścia i pozwól magii tego sezonu poprowadzić swój los! Z każdym obrotem odkrywaj ekscytujące niespodzianki — czy dopisze ci szczęście tej Wielkanocy?",
+        "Easter Special: Triple the Eggs!":
+          "Wielkanocna Promocja: Potrójne Jajka!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "Szczęście rozkwita tej Wielkanocy! Otwórz trzy kolorowe jajka i pozwól wielkanocnej magii przynieść ci niesamowite nagrody!",
       },
     },
     de: {
@@ -2179,8 +2189,7 @@ async function initializeI18n() {
         "Newbie Perks": "Vorteile für Neulinge",
         "Top Bonuses": "Hohe Einsätze",
 
-        "triple":
-          "St. Patrick's Day Spezial: Dreifacher Schatz!",
+        triple: "St. Patrick's Day Spezial: Dreifacher Schatz!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Das Glück begünstigt die Mutigen! Öffne alle drei Glücksfenster und lass den Geist des St. Patrick’s Day dir unglaubliche Belohnungen bringen.",
         "YOUR SPRING LUCK": "DEIN FRÜHLINGSGLÜCK",
@@ -2192,6 +2201,16 @@ async function initializeI18n() {
         "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?":
           "Das Glücksrad entscheidet über dein Schicksal! Dreh es und finde heraus, welche Casino-Marke dein Glücksbringer ist. Wird das Glück der Iren auf deiner Seite sein an diesem St. Patrick’s Day?",
         "A Special St. Patrick's Bonus": "Ein besonderer St. Patrick’s Bonus",
+
+        "Your Easter": "Dein Ostern",
+        Easter: "Ostern",
+        "Wheel of Luck!": "Glücksrad!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Dreh das Oster-Glücksrad und lass dich von der Magie der Saison zum Glück führen! Mit jeder Drehung warten spannende Überraschungen – wirst du dieses Ostern Glück haben?",
+        "Easter Special: Triple the Eggs!":
+          "Oster-Special: Verdreifache die Eier!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "Das Glück blüht zu Ostern! Öffne alle drei bunten Eier und lass die Oster-Magie dir fantastische Belohnungen bringen!",
       },
     },
     bg: {
@@ -2826,8 +2845,7 @@ async function initializeI18n() {
         "Newbie Perks": "Привилегии за новаци",
         "Top Bonuses": "Високи залози",
 
-        "triple":
-          "Специално за Деня на Свети Патрик: Троен съкровищен бонус!",
+        triple: "Специално за Деня на Свети Патрик: Троен съкровищен бонус!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Съдбата обича смелите! Отвори трите късметлийски прозореца и остави духа на Свети Патрик да ти донесе невероятни награди.",
         "YOUR SPRING LUCK": "ТВОЯТ ПРОЛЕТЕН КЪСМЕТ",
@@ -2840,6 +2858,16 @@ async function initializeI18n() {
           "Колелото на късмета ще реши съдбата ти! Завърти го и разбери кое казино е твоят късметлийски избор. Ще бъде ли ирландският късмет на твоя страна този Ден на Свети Патрик?",
         "A Special St. Patrick's Bonus":
           "Специален бонус за Деня на Свети Патрик",
+
+        "Your Easter": "Твоят Великден",
+        Easter: "Великден",
+        "Wheel of Luck!": "Колело на късмета!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Завърти великденското колело на късмета и нека магията на сезона насочи твоята съдба! С всяко завъртане откривай вълнуващи изненади — ще бъдеш ли късметлия този Великден?",
+        "Easter Special: Triple the Eggs!":
+          "Великденски Специален Бонус: Тройни Яйца!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "Късметът разцъфва този Великден! Отвори и трите цветни яйца и нека великденската магия ти донесе невероятни награди!",
       },
     },
     cz: {
@@ -3473,8 +3501,7 @@ async function initializeI18n() {
         "Newbie Perks": "Výhody pro nováčky",
         "Top Bonuses": "Vysoké sázky",
 
-        "triple":
-          "Speciál ke Dni svatého Patrika: Trojnásobný poklad!",
+        triple: "Speciál ke Dni svatého Patrika: Trojnásobný poklad!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Štěstí přeje odvážným! Otevřete všechna tři okna štěstí a nechte ducha Dne svatého Patrika přinést vám neuvěřitelné odměny.",
         "YOUR SPRING LUCK": "TVÉ JARNÍ ŠTĚSTÍ",
@@ -3487,6 +3514,16 @@ async function initializeI18n() {
           "Kolo štěstí rozhodne o vašem osudu! Roztočte ho a zjistěte, která značka kasina je vaším talismanem. Bude irské štěstí na vaší straně v tento Den svatého Patrika?",
         "A Special St. Patrick's Bonus":
           "Speciální bonus ke Dni svatého Patrika",
+
+        "Your Easter": "Tvoje Velikonoce",
+        Easter: "Velikonoce",
+        "Wheel of Luck!": "Kolo štěstí!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Roztoč velikonoční kolo štěstí a nech kouzlo této sezóny vést svůj osud! S každým otočením objevuj vzrušující překvapení – budeš mít letos o Velikonocích štěstí?",
+        "Easter Special: Triple the Eggs!":
+          "Velikonoční Speciál: Trojnásobná Vejce!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "Štěstí rozkvétá o Velikonocích! Otevři všechna tři barevná vejce a nech velikonoční kouzlo přinést úžasné odměny!",
       },
     },
     dk: {
@@ -4121,8 +4158,7 @@ async function initializeI18n() {
         "Newbie Perks": "Fordele for nybegyndere",
         "Top Bonuses": "Høje indsatser",
 
-        "triple":
-          "Sankt Patricks Dag Special: Tredobbelt Skat!",
+        triple: "Sankt Patricks Dag Special: Tredobbelt Skat!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Heldet tilsmiler de modige! Åbn alle tre lykkelige vinduer og lad ånden fra Sankt Patricks Dag bringe dig utrolige belønninger.",
         "YOUR SPRING LUCK": "DIT FORÅRSHELD",
@@ -4134,6 +4170,15 @@ async function initializeI18n() {
         "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?":
           "Lykkehjulet vil afgøre din skæbne! Giv det et spin og opdag, hvilket casino der er din lykkebringer. Vil den irske lykke være på din side denne Sankt Patricks Dag?",
         "A Special St. Patrick's Bonus": "En speciel Sankt Patricks Bonus",
+
+        "Your Easter": "Din Påske",
+        Easter: "Påske",
+        "Wheel of Luck!": "Lykkehjul!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Drej påskens lykkehjul og lad sæsonens magi lede din skæbne! Med hvert drej finder du spændende overraskelser – bliver du heldig denne påske?",
+        "Easter Special: Triple the Eggs!": "Påske Special: Tredobbelte Æg!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "Heldet blomstrer denne påske! Åbn alle tre farverige æg og lad påskens magi give dig fantastiske belønninger!",
       },
     },
     nl: {
@@ -4773,8 +4818,7 @@ async function initializeI18n() {
         "Newbie Perks": "Voordelen voor nieuwkomers",
         "Top Bonuses": "Hoge inzetten",
 
-        "triple":
-          "St. Patrick's Dag Special: Driedubbele Schat!",
+        triple: "St. Patrick's Dag Special: Driedubbele Schat!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Het geluk is met de dapperen! Open alle drie de geluksvensters en laat de geest van St. Patrick's Dag je ongelooflijke beloningen brengen.",
         "YOUR SPRING LUCK": "JOUW VOORJAARSFORTUIN",
@@ -4786,6 +4830,15 @@ async function initializeI18n() {
         "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?":
           "Het Rad van Fortuin zal je lot bepalen! Draai eraan en ontdek welk casino jouw geluksbrenger is. Zal het Ierse geluk aan jouw zijde zijn deze St. Patrick's Dag?",
         "A Special St. Patrick's Bonus": "Een speciale St. Patrick's Bonus",
+
+        "Your Easter": "Jouw Pasen",
+        Easter: "Pasen",
+        "Wheel of Luck!": "Geluksrad!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Draai aan het Paas-Geluksrad en laat de magie van het seizoen jouw geluk bepalen! Ontdek bij elke draai spannende verrassingen – heb jij geluk dit Pasen?",
+        "Easter Special: Triple the Eggs!": "Paasactie: Drie Dubbele Eieren!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "Het geluk bloeit deze Pasen! Open alle drie de kleurrijke eieren en laat de paasmagie je geweldige beloningen brengen!",
       },
     },
     es: {
@@ -5423,8 +5476,7 @@ async function initializeI18n() {
         "Newbie Perks": "Ventajas para principiantes",
         "Top Bonuses": "Altas apuestas",
 
-        "triple":
-          "Especial del Día de San Patricio: ¡Triple Tesoro!",
+        triple: "Especial del Día de San Patricio: ¡Triple Tesoro!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "¡La fortuna favorece a los valientes! Abre las tres ventanas de la suerte y deja que el espíritu del Día de San Patricio te traiga increíbles recompensas.",
         "YOUR SPRING LUCK": "TU SUERTE PRIMAVERAL",
@@ -5436,6 +5488,16 @@ async function initializeI18n() {
         "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?":
           "¡La Rueda de la Fortuna decidirá tu destino! Gírala y descubre qué casino es tu amuleto de la suerte. ¿Estará la suerte de los irlandeses de tu lado este Día de San Patricio?",
         "A Special St. Patrick's Bonus": "Un Bono Especial de San Patricio",
+
+        "Your Easter": "Tu Pascua",
+        Easter: "Pascua",
+        "Wheel of Luck!": "¡Rueda de la Suerte!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Gira la Rueda de la Suerte de Pascua y deja que la magia de la temporada guíe tu destino. ¡Con cada giro, descubre emocionantes sorpresas! ¿Tendrás suerte esta Pascua?",
+        "Easter Special: Triple the Eggs!":
+          "Especial de Pascua: ¡Triplica los Huevos!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "¡La fortuna florece esta Pascua! Abre los tres huevos coloridos y deja que la magia de Pascua te traiga increíbles recompensas.",
       },
     },
     fi: {
@@ -6069,8 +6131,7 @@ async function initializeI18n() {
         "Newbie Perks": "Aloittelijoiden edut",
         "Top Bonuses": "Korkeat panokset",
 
-        "triple":
-          "Pyhän Patrickin päivän erikoistarjous: Kolminkertainen aarre!",
+        triple: "Pyhän Patrickin päivän erikoistarjous: Kolminkertainen aarre!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Onni suosii rohkeita! Avaa kaikki kolme onnenikkunaa ja anna Pyhän Patrickin päivän hengen tuoda sinulle uskomattomia palkintoja.",
         "YOUR SPRING LUCK": "KEVÄTONNESI",
@@ -6082,6 +6143,16 @@ async function initializeI18n() {
         "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?":
           "Onnenpyörä päättää kohtalosi! Pyöräytä sitä ja selvitä, mikä kasino tuo sinulle onnea. Onko irlantilaisten onni puolellasi tänä Pyhän Patrickin päivänä?",
         "A Special St. Patrick's Bonus": "Erityinen Pyhän Patrickin bonus",
+
+        "Your Easter": "Sinun pääsiäisesi",
+        Easter: "Pääsiäinen",
+        "Wheel of Luck!": "Onnenpyörä!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Pyöräytä pääsiäisen onnenpyörää ja anna kauden taikuuden johdattaa kohtaloasi! Jokaisella pyöräytyksellä löydät jännittäviä yllätyksiä – oletko onnekas tänä pääsiäisenä?",
+        "Easter Special: Triple the Eggs!":
+          "Pääsiäistarjous: Kolminkertaiset Munat!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "Onni puhkeaa kukkaan tänä pääsiäisenä! Avaa kaikki kolme värikästä munaa ja anna pääsiäisen taian tuoda sinulle upeita palkintoja!",
       },
     },
     fr: {
@@ -6722,8 +6793,7 @@ async function initializeI18n() {
         "Newbie Perks": "Avantages pour débutants",
         "Top Bonuses": "Mises élevées",
 
-        "triple":
-          "Spécial Saint-Patrick : Triplez le Trésor !",
+        triple: "Spécial Saint-Patrick : Triplez le Trésor !",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "La chance sourit aux audacieux ! Ouvrez les trois fenêtres chanceuses et laissez l'esprit de la Saint-Patrick vous apporter des récompenses incroyables.",
         "YOUR SPRING LUCK": "VOTRE CHANCE DU PRINTEMPS",
@@ -6735,6 +6805,16 @@ async function initializeI18n() {
         "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?":
           "La Roue de la Chance décidera de votre destin ! Faites-la tourner et découvrez quelle marque de casino est votre porte-bonheur. La chance des Irlandais sera-t-elle de votre côté cette Saint-Patrick ?",
         "A Special St. Patrick's Bonus": "Un Bonus Spécial Saint-Patrick",
+
+        "Your Easter": "Votre Pâques",
+        Easter: "Pâques",
+        "Wheel of Luck!": "Roue de la Chance !",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Faites tourner la Roue de la Chance de Pâques et laissez la magie de la saison guider votre fortune ! À chaque tour, découvrez des surprises passionnantes — serez-vous chanceux cette Pâques ?",
+        "Easter Special: Triple the Eggs!":
+          "Spécial Pâques : Triplez les Œufs !",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "La chance fleurit à Pâques ! Ouvrez les trois œufs colorés et laissez la magie pascale vous apporter des récompenses incroyables !",
       },
     },
 
@@ -7371,7 +7451,7 @@ async function initializeI18n() {
         "Newbie Perks": "Προνόμια για νέους",
         "Top Bonuses": "Υψηλά πονταρίσματα",
 
-        "triple":
+        triple:
           "Ειδική Προσφορά για την Ημέρα του Αγίου Πατρικίου: Τριπλός Θησαυρός!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Η τύχη ευνοεί τους τολμηρούς! Ανοίξτε και τα τρία τυχερά παράθυρα και αφήστε το πνεύμα της Ημέρας του Αγίου Πατρικίου να σας φέρει απίστευτες ανταμοιβές.",
@@ -7385,6 +7465,15 @@ async function initializeI18n() {
           "Ο Τροχός της Τύχης θα αποφασίσει για τη μοίρα σας! Περιστρέψτε τον και ανακαλύψτε ποιο καζίνο είναι το γούρι σας. Θα είναι η τύχη των Ιρλανδών με το μέρος σας αυτή την Ημέρα του Αγίου Πατρικίου;",
         "A Special St. Patrick's Bonus":
           "Ένα Ειδικό Μπόνους για την Ημέρα του Αγίου Πατρικίου",
+
+        "Your Easter": "Το Πάσχα σου",
+        Easter: "Πάσχα",
+        "Wheel of Luck!": "Τροχός της Τύχης!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Γύρισε τον Πασχαλινό Τροχό της Τύχης και άσε τη μαγεία της εποχής να καθοδηγήσει την τύχη σου! Με κάθε γύρισμα ανακάλυψε συναρπαστικές εκπλήξεις — θα είσαι τυχερός αυτό το Πάσχα;",
+        "Easter Special: Triple the Eggs!": "Πασχαλινή Προσφορά: Τριπλά Αυγά!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "Η τύχη ανθίζει αυτό το Πάσχα! Άνοιξε και τα τρία πολύχρωμα αυγά και άφησε τη μαγεία του Πάσχα να σου φέρει καταπληκτικές ανταμοιβές!",
       },
     },
     hu: {
@@ -8020,8 +8109,7 @@ async function initializeI18n() {
         "Newbie Perks": "Előnyök kezdőknek",
         "Top Bonuses": "Magas tétek",
 
-        "triple":
-          "Szent Patrik-napi Különleges: Háromszoros Kincs!",
+        triple: "Szent Patrik-napi Különleges: Háromszoros Kincs!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "A szerencse a bátraknak kedvez! Nyisd ki mindhárom szerencseablakot, és hagyd, hogy a Szent Patrik-nap szelleme hihetetlen jutalmakkal ajándékozzon meg.",
         "YOUR SPRING LUCK": "TAVASZI SZERENCSÉD",
@@ -8034,6 +8122,16 @@ async function initializeI18n() {
           "A Szerencsekereke eldönti a sorsodat! Pörgesd meg, és fedezd fel, melyik kaszinómárka a szerencséd forrása. Vajon az ír szerencse veled lesz ezen a Szent Patrik-napon?",
         "A Special St. Patrick's Bonus":
           "Egy Különleges Szent Patrik-napi Bónusz",
+
+        "Your Easter": "A te Húsvétod",
+        Easter: "Húsvét",
+        "Wheel of Luck!": "Szerencsekerék!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Forgasd meg a Húsvéti Szerencsekereket, és engedd, hogy az ünnep varázsa vezesse a sorsodat! Minden pörgetés új, izgalmas meglepetéseket rejt – vajon szerencséd lesz idén Húsvétkor?",
+        "Easter Special: Triple the Eggs!":
+          "Húsvéti Különkiadás: Háromszoros Tojások!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "A szerencse virágba borul ezen a Húsvéton! Nyisd ki mindhárom színes tojást, és hagyd, hogy a húsvéti varázslat csodás jutalmakat hozzon neked!",
       },
     },
     it: {
@@ -8672,8 +8770,7 @@ async function initializeI18n() {
         "Newbie Perks": "Vantaggi per principianti",
         "Top Bonuses": "Puntate alte",
 
-        "triple":
-          "Speciale San Patrizio: Triplica il Tesoro!",
+        triple: "Speciale San Patrizio: Triplica il Tesoro!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "La fortuna premia gli audaci! Apri tutte e tre le finestre fortunate e lascia che lo spirito di San Patrizio ti porti incredibili ricompense.",
         "YOUR SPRING LUCK": "LA TUA FORTUNA DI PRIMAVERA",
@@ -8685,6 +8782,16 @@ async function initializeI18n() {
         "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?":
           "La Ruota della Fortuna deciderà il tuo destino! Girala e scopri quale casinò è il tuo portafortuna. La fortuna degli irlandesi sarà dalla tua parte questo San Patrizio?",
         "A Special St. Patrick's Bonus": "Un Bonus Speciale di San Patrizio",
+
+        "Your Easter": "La tua Pasqua",
+        Easter: "Pasqua",
+        "Wheel of Luck!": "Ruota della Fortuna!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Gira la Ruota della Fortuna di Pasqua e lascia che la magia della stagione guidi la tua fortuna! Ad ogni giro, scopri sorprese emozionanti – sarai fortunato questa Pasqua?",
+        "Easter Special: Triple the Eggs!":
+          "Speciale di Pasqua: Triplica le Uova!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "La fortuna sboccia questa Pasqua! Apri tutte e tre le uova colorate e lascia che la magia della Pasqua ti porti premi incredibili!",
       },
     },
     no: {
@@ -9321,8 +9428,7 @@ async function initializeI18n() {
         "Newbie Perks": "Fordeler for nybegynnere",
         "Top Bonuses": "Høye innsatser",
 
-        "triple":
-          "St. Patrick’s Dag Spesial: Triple Skatten!",
+        triple: "St. Patrick’s Dag Spesial: Triple Skatten!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Lykken tilhører de modige! Åpne alle tre lykkelige vinduer og la St. Patrick's ånd bringe deg utrolige belønninger.",
         "YOUR SPRING LUCK": "DIN VÅRFLAKS",
@@ -9334,6 +9440,15 @@ async function initializeI18n() {
         "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?":
           "Lykkehjulet avgjør skjebnen din! Gi det et spinn og oppdag hvilket casino som er din lykkebringer. Vil irenes flaks være på din side denne St. Patrick’s-dagen?",
         "A Special St. Patrick's Bonus": "En Spesiell St. Patrick’s Bonus",
+
+        "Your Easter": "Din Påske",
+        Easter: "Påske",
+        "Wheel of Luck!": "Lykkens Hjul!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Spinn påskens lykkehjul og la sesongens magi lede din skjebne! Med hvert spinn oppdager du spennende overraskelser – vil du ha flaks denne påsken?",
+        "Easter Special: Triple the Eggs!": "Påskespesial: Trippel med egg!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "Lykken blomstrer denne påsken! Åpne alle tre fargerike eggene og la påskens magi gi deg fantastiske belønninger!",
       },
     },
     pt: {
@@ -9971,8 +10086,7 @@ async function initializeI18n() {
         "Newbie Perks": "Benefícios para iniciantes",
         "Top Bonuses": "Apostas altas",
 
-        "triple":
-          "Especial do Dia de São Patrício: Triplique o Tesouro!",
+        triple: "Especial do Dia de São Patrício: Triplique o Tesouro!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "A sorte favorece os audazes! Abra todas as três janelas da sorte e deixe o espírito do Dia de São Patrício trazer-lhe recompensas incríveis.",
         "YOUR SPRING LUCK": "SUA SORTE DE PRIMAVERA",
@@ -9984,6 +10098,16 @@ async function initializeI18n() {
         "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?":
           "A Roda da Sorte decidirá seu destino! Gire-a e descubra qual marca de cassino é o seu amuleto da sorte. Será que a sorte dos irlandeses estará ao seu lado neste Dia de São Patrício?",
         "A Special St. Patrick's Bonus": "Um Bônus Especial de São Patrício",
+
+        "Your Easter": "Sua Páscoa",
+        Easter: "Páscoa",
+        "Wheel of Luck!": "Roda da Sorte!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Gire a Roda da Sorte de Páscoa e deixe a magia da estação guiar sua sorte! A cada giro, descubra surpresas emocionantes — será que você terá sorte nesta Páscoa?",
+        "Easter Special: Triple the Eggs!":
+          "Especial de Páscoa: Três Vezes Mais Ovos!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "A sorte floresce nesta Páscoa! Abra todos os três ovos coloridos e deixe a magia da Páscoa trazer recompensas incríveis!",
       },
     },
     se: {
@@ -10619,8 +10743,7 @@ async function initializeI18n() {
         "Newbie Perks": "Fördelar för nybörjare",
         "Top Bonuses": "Höga insatser",
 
-        "triple":
-          "S:t Patricks Dags Special: Trippla Skatten!",
+        triple: "S:t Patricks Dags Special: Trippla Skatten!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Lyckan gynnar de modiga! Öppna alla tre lyckofönster och låt S:t Patricks anda ge dig otroliga belöningar.",
         "YOUR SPRING LUCK": "DIN VÅRTUR",
@@ -10632,6 +10755,15 @@ async function initializeI18n() {
         "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?":
           "Lyckohjulet avgör ditt öde! Snurra det och upptäck vilket casino som är din lyckobringare. Kommer den irländska turen att vara på din sida denna S:t Patricks dag?",
         "A Special St. Patrick's Bonus": "En Speciell S:t Patricks Bonus",
+
+        "Your Easter": "Ditt Påskfirande",
+        Easter: "Påsk",
+        "Wheel of Luck!": "Lyckohjulet!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Snurra påskens lyckohjul och låt säsongens magi guida din lycka! Vid varje snurr väntar spännande överraskningar – kommer du ha tur i påsk?",
+        "Easter Special: Triple the Eggs!": "Påskspecial: Trippla Äggen!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "Lyckan blomstrar i påsk! Öppna alla tre färgglada äggen och låt påskens magi ge dig fantastiska belöningar!",
       },
     },
     sk: {
@@ -11266,8 +11398,7 @@ async function initializeI18n() {
         "Newbie Perks": "Výhody pre nováčikov",
         "Top Bonuses": "Vysoké stávky",
 
-        "triple":
-          "Špeciál na Deň sv. Patrika: Trojnásobný Poklad!",
+        triple: "Špeciál na Deň sv. Patrika: Trojnásobný Poklad!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Šťastie praje odvážnym! Otvorte všetky tri šťastné okná a nechajte ducha Dňa sv. Patrika priniesť vám neuveriteľné odmeny.",
         "YOUR SPRING LUCK": "VAŠE JARNÉ ŠŤASTIE",
@@ -11279,6 +11410,16 @@ async function initializeI18n() {
         "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?":
           "Koleso šťastia rozhodne o vašom osude! Roztočte ho a zistite, ktorá značka kasína je vaším talizmanom. Bude írske šťastie na vašej strane tento Deň sv. Patrika?",
         "A Special St. Patrick's Bonus": "Špeciálny Bonus na Deň Sv. Patrika",
+
+        "Your Easter": "Tvoja Veľká noc",
+        Easter: "Veľká noc",
+        "Wheel of Luck!": "Koleso šťastia!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Roztoč veľkonočné koleso šťastia a nechaj, nech ťa kúzlo sezóny zavedie k šťastiu! Každé otočenie prináša vzrušujúce prekvapenia – budeš mať šťastie túto Veľkú noc?",
+        "Easter Special: Triple the Eggs!":
+          "Veľkonočný špeciál: Trojnásobné vajíčka!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "Šťastie kvitne túto Veľkú noc! Otvor všetky tri farebné vajíčka a nechaj veľkonočné kúzlo priniesť ti úžasné odmeny!",
       },
     },
     tr: {
@@ -11912,8 +12053,7 @@ async function initializeI18n() {
         "Newbie Perks": "Yeni başlayan avantajları",
         "Top Bonuses": "Yüksek bahisler",
 
-        "triple":
-          "Aziz Patrik Günü Özel: Hazineyi Üçe Katla!",
+        triple: "Aziz Patrik Günü Özel: Hazineyi Üçe Katla!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "Şans cesurlardan yanadır! Üç şanslı pencereyi açın ve Aziz Patrik Günü’nün ruhu size inanılmaz ödüller getirsin.",
         "YOUR SPRING LUCK": "İLKBAHAR ŞANSINIZ",
@@ -11925,6 +12065,15 @@ async function initializeI18n() {
         "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?":
           "Şans Çarkı kaderinizi belirleyecek! Çevirin ve hangi kumarhanenin sizin şans tılsımınız olduğunu keşfedin. Bu Aziz Patrik Günü’nde İrlanda şansı sizinle olacak mı?",
         "A Special St. Patrick's Bonus": "Özel Aziz Patrik Bonusu",
+
+        "Your Easter": "Senin Paskalyan",
+        Easter: "Paskalya",
+        "Wheel of Luck!": "Şans Çarkı!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "Paskalya Şans Çarkı'nı çevir ve mevsimin büyüsünün kaderini yönlendirmesine izin ver! Her dönüşte heyecan verici sürprizleri keşfet – bu Paskalya'da şans seninle olacak mı?",
+        "Easter Special: Triple the Eggs!": "Paskalya Özel: Yumurta Üçlemesi!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "Bu Paskalya'da şans çiçek açıyor! Üç renkli yumurtayı da aç ve Paskalya'nın büyüsüyle muhteşem ödüller kazan!",
       },
     },
 
@@ -12552,8 +12701,7 @@ async function initializeI18n() {
         "Newbie Perks": "नवागंतुक लाभ",
         "Top Bonuses": "उच्च दांव",
 
-        "triple":
-          "सेंट पैट्रिक दिवस विशेष: तीन गुना खजाना!",
+        triple: "सेंट पैट्रिक दिवस विशेष: तीन गुना खजाना!",
         "Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.":
           "भाग्य साहसी लोगों का साथ देता है! तीनों भाग्यशाली खिड़कियाँ खोलें और सेंट पैट्रिक दिवस की आत्मा आपको अविश्वसनीय पुरस्कार दिलाए।",
         "YOUR SPRING LUCK": "आपका वसंत भाग्य",
@@ -12565,6 +12713,15 @@ async function initializeI18n() {
         "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?":
           "भाग्य का पहिया आपके भविष्य का फैसला करेगा! इसे घुमाएं और जानें कि कौन सा कैसीनो ब्रांड आपका भाग्यशाली ताबीज है। क्या इस सेंट पैट्रिक दिवस पर आयरिश भाग्य आपके पक्ष में होगा?",
         "A Special St. Patrick's Bonus": "एक विशेष सेंट पैट्रिक बोनस",
+
+        "Your Easter": "आपका ईस्टर",
+        Easter: "ईस्टर",
+        "Wheel of Luck!": "सौभाग्य का पहिया!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":
+          "ईस्टर के सौभाग्य के पहिए को घुमाएँ और इस मौसम के जादू को अपने भाग्य का मार्गदर्शन करने दें! हर घुमाव में पाएं रोमांचक सरप्राइज — क्या इस ईस्टर पर आपकी किस्मत चमकेगी?",
+        "Easter Special: Triple the Eggs!": "ईस्टर स्पेशल: अंडों की तिकड़ी!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":
+          "ईस्टर पर किस्मत खिल उठेगी! तीनों रंग-बिरंगे अंडों को खोलें और ईस्टर का जादू आपको शानदार इनाम दिलाए!",
       },
     },
   };
