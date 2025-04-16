@@ -796,6 +796,14 @@ async function initializeI18n() {
         "VIP Programs": "VIP Programs",
         "Enjoy exclusive bonuses, special rewards, and premium support!":
           "Enjoy exclusive bonuses, special rewards, and premium support!",
+
+          "Your Easter":"Your Easter",
+          "Easter":"Easter",
+          "Wheel of Luck!":"Wheel of Luck!",
+          "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":"Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?",
+          "Easter Special: Triple the Eggs!":"Easter Special: Triple the Eggs!",
+          "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":"Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!",
+      
       },
     },
 

@@ -872,6 +872,13 @@ async function initializeI18n() {
         "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?":
           "The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?",
         "A Special St. Patrick's Bonus": "A Special St. Patrick's Bonus",
+
+        "Your Easter":"Your Easter",
+        "Easter":"Easter",
+        "Wheel of Luck!":"Wheel of Luck!",
+        "Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?":"Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?",
+        "Easter Special: Triple the Eggs!":"Easter Special: Triple the Eggs!",
+        "Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!":"Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!",
       },
     },
 

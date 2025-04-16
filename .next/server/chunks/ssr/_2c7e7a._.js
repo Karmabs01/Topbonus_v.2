@@ -2612,9 +2612,10 @@ function Popular_offers() {
     const [loading, setLoading] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(true);
     // Список брендов, которые вы хотите закрепить
     const pinnedBrandsList = [
-        "Jet4bet",
-        "Just Casino",
-        "Chillistakes"
+        "Leon.bet",
+        "Cosmobet",
+        "Rocketplay",
+        "Winspirit"
     ];
     // Массив состояний для закреплённых и остальных
     const [pinnedBrands, setPinnedBrands] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])([]);
@@ -3092,7 +3093,7 @@ function Popular_offers() {
 })()),
 "[project]/public/newimages/hearts_box.png [app-ssr] (static)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname }) => (() => {
 
-__turbopack_export_value__("/_next/static/media/hearts_box.cf0e9ad0.png");
+__turbopack_export_value__("/_next/static/media/hearts_box.35f17fa7.png");
 })()),
 "[project]/public/newimages/hearts_box.png.mjs { IMAGE => \"[project]/public/newimages/hearts_box.png [app-ssr] (static)\" } [app-ssr] (structured image object, ecmascript)": (({ r: __turbopack_require__, f: __turbopack_module_context__, i: __turbopack_import__, s: __turbopack_esm__, v: __turbopack_export_value__, n: __turbopack_export_namespace__, c: __turbopack_cache__, M: __turbopack_modules__, l: __turbopack_load__, j: __turbopack_dynamic__, P: __turbopack_resolve_absolute_path__, U: __turbopack_relative_url__, R: __turbopack_resolve_module_id_path__, g: global, __dirname, x: __turbopack_external_require__, y: __turbopack_external_import__ }) => (() => {
 "use strict";
@@ -3107,7 +3108,7 @@ const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$public$2f$newimages$2f$hearts_box$2e$png__$5b$app$2d$ssr$5d$__$28$static$29$__["default"],
     width: 350,
     height: 88,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAYAAABllJ3tAAAATUlEQVR42gFCAL3/ALqiXoJxYDBDODcbHFuMK59/cjpjrm5FRHeANXcpNx8gAFVFIzRUSSspbmxCNFZ9JKFviHKJcWyQTU1WUUglLCES6A0VgwdxKtkAAAAASUVORK5CYII=",
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAACCAYAAABllJ3tAAAATUlEQVR42gFCAL3/AHFaXXO9hIumzJxgV7yBQmVrQxwlLjoZMlRQXXdLSVNiAJ+pa8m1qnPkmblVyHKZSKtxlEKQfaJAwoaXbuCKmGfNt1UezCcQiRoAAAAASUVORK5CYII=",
     blurWidth: 8,
     blurHeight: 2
 };
@@ -3293,14 +3294,14 @@ const GamePage = ()=>{
                         className: "mb-5",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                children: t("Shamrock Spins")
+                                children: t("Easter")
                             }, void 0, false, {
                                 fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
                                 lineNumber: 177,
                                 columnNumber: 11
                             }, this),
                             " ",
-                            t("Your Fortune!")
+                            t("Wheel of Luck!")
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
@@ -3308,7 +3309,7 @@ const GamePage = ()=>{
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        children: t("The Wheel of Luck will decide your fate! Give it a spin and discover which casino brand is your lucky charm. Will the luck of the Irish be on your side this St. Patrick's Day?")
+                        children: t("Spin the Easter Wheel of Luck and let the magic of the season guide your fortune! With every turn, discover exciting surprises—will you be lucky this Easter?")
                     }, void 0, false, {
                         fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
                         lineNumber: 179,
@@ -3381,7 +3382,7 @@ const GamePage = ()=>{
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    children: t("A Special St. Patrick's Bonus")
+                                    children: t("A Special Easter Bonus")
                                 }, void 0, false, {
                                     fileName: "[project]/components/Banners_tailwind/Wheel/index.jsx",
                                     lineNumber: 226,
@@ -3512,19 +3513,19 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$getUser$2f$get
 ;
 // Пул из 9 желаемых брендов
 const CUSTOM_BRANDS_POOL = [
-    "Cosmobet",
+    "Rocketplay",
+    "Winspirit",
+    "Play Regal",
+    "Intense Casino",
+    "VegasPlus",
+    "Leon.bet",
+    "XON",
+    "Destino",
+    "Betoffice",
+    "Royal Fortune",
+    "Nationalbet",
     "CyberCoins",
-    "Jet4bet",
-    "Gratowin",
-    "SwiftCasino",
-    "Winhero",
-    "Viu Viu",
-    "Duospin",
-    "Chillistakes",
-    "Playoro",
-    "Winorio",
-    "Lex",
-    "Irwin"
+    "Winshark"
 ];
 function Brands_carousel() {
     const [newUrl, setNewUrl] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])("");
@@ -3846,7 +3847,7 @@ function Brands_carousel() {
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "text-3xl font-bold tracking-tight text-white random-title mb-3 text-center",
-                            children: t("triple")
+                            children: t("Easter Special: Triple the Eggs!")
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
                             lineNumber: 410,
@@ -3854,7 +3855,7 @@ function Brands_carousel() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$future$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "mb-3 text-center text-white",
-                            children: t("Fortune favors the bold! Open all three lucky windows and let the spirit of St. Patrick's Day bring you incredible rewards.")
+                            children: t("Fortune blooms this Easter! Open all three colorful eggs and let the Easter magic bring you amazing rewards!")
                         }, void 0, false, {
                             fileName: "[project]/components/Banners_tailwind/Advent/index.jsx",
                             lineNumber: 413,
