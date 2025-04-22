@@ -21,8 +21,8 @@ export default function Popular_offers() {
   const [loading, setLoading] = useState(true);
 
   // Список брендов, которые вы хотите закрепить
-  const pinnedBrandsList = ["Leon.bet", "Oscarspin", "Nine Casino", "Winspirit"];
-  
+  const pinnedBrandsList = ["Fast Slots", "Oscarspin", "Nine Casino", "Samba Slots"];
+   
   // Массив состояний для закреплённых и остальных
   const [pinnedBrands, setPinnedBrands] = useState([]);
   const [otherBrands, setOtherBrands] = useState([]);
