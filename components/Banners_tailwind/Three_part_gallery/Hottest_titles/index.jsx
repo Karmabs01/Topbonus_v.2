@@ -183,11 +183,13 @@ export default function Popular_offers() {
 
 
 // Начало изменений
-const specificBrandName1 = "Bodog CA"; 
-const specificBrandName2 = "XON";  
-const specificBrandName3 = "Lucky Dreams";   
-const specificBrandName4 = "CyberCoins";   
-const specificBrandName5 = "Zlatobet";   
+const specificBrandName1 = "Zlatobet"; 
+const specificBrandName2 = "Intense Casino";  
+const specificBrandName3 = "VegasPlus";   
+const specificBrandName4 = "Play Regal";   
+ 
+
+
 
 
 
@@ -213,23 +215,19 @@ if (brands.length > 0) {
   const specificBrand4 = brands.find(
     (brand) => brand.CasinoBrand === specificBrandName4
   );
-  const specificBrand5 = brands.find(
-    (brand) => brand.CasinoBrand === specificBrandName5
-  );
 
 
 
 
   // Убираем эти бренды из списка, чтобы избежать дубликатов
   let otherBrands = brands;
-  if (specificBrand1 || specificBrand2 || specificBrand3 || specificBrand4 || specificBrand5) {
+  if (specificBrand1 || specificBrand2 || specificBrand3 || specificBrand4) {
     otherBrands = brands.filter(
       (brand) =>
         brand.CasinoBrand !== specificBrandName1 &&
         brand.CasinoBrand !== specificBrandName2 &&
         brand.CasinoBrand !== specificBrandName3 &&
-        brand.CasinoBrand !== specificBrandName4 &&
-        brand.CasinoBrand !== specificBrandName5
+        brand.CasinoBrand !== specificBrandName4
 
     );
   }
@@ -243,7 +241,6 @@ if (brands.length > 0) {
   if (specificBrand2) numberOfSpecificBrands++;
   if (specificBrand3) numberOfSpecificBrands++;
   if (specificBrand4) numberOfSpecificBrands++;
-  if (specificBrand5) numberOfSpecificBrands++;
 
 
 
@@ -267,9 +264,7 @@ if (brands.length > 0) {
   if (specificBrand4) {
     brandsToDisplay.push(specificBrand4);
   }
-  if (specificBrand5) {
-    brandsToDisplay.push(specificBrand5);
-  }
+
 
 
   brandsToDisplay = brandsToDisplay.concat(randomBrands);

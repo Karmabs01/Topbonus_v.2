@@ -12,20 +12,21 @@ import { getUserData } from "@/components/getUser/getUser";
 
 // Пул из 9 желаемых брендов
 const CUSTOM_BRANDS_POOL = [
-  "Rocketplay",
-  "Winspirit",
-  "Play Regal",
-  "Intense Casino",
-  "VegasPlus",
-  "Leon.bet",
-  "XON",
-  "Destino",
-  "Betoffice",
-  "Royal Fortune",
-  "Nationalbet",
-  "CyberCoins",
-  "Winshark",
+"B-bets",
+"Big5casino",
+"Nine Casino",
+"Samba Slots",
+"Fast Slots",
+"Zlatobet",
+"Oscarspin",
+"Winspirit",
+"Winorio",
+"Leon.bet",
+"Cosmobet",
+"Rocketplay"
 ];
+
+
 
 export default function Brands_carousel() {
   const [newUrl, setNewUrl] = useState("");
