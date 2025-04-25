@@ -187,6 +187,7 @@ const specificBrandName1 = "Zlatobet";
 const specificBrandName2 = "Intense Casino";  
 const specificBrandName3 = "VegasPlus";   
 const specificBrandName4 = "Play Regal";   
+const specificBrandName5 = "Voodoo Casino";   
  
 
 
@@ -215,19 +216,23 @@ if (brands.length > 0) {
   const specificBrand4 = brands.find(
     (brand) => brand.CasinoBrand === specificBrandName4
   );
+  const specificBrand5 = brands.find(
+    (brand) => brand.CasinoBrand === specificBrandName5
+  );
 
 
 
 
   // Убираем эти бренды из списка, чтобы избежать дубликатов
   let otherBrands = brands;
-  if (specificBrand1 || specificBrand2 || specificBrand3 || specificBrand4) {
+  if (specificBrand1 || specificBrand2 || specificBrand3 || specificBrand4 || specificBrand5) {
     otherBrands = brands.filter(
       (brand) =>
         brand.CasinoBrand !== specificBrandName1 &&
         brand.CasinoBrand !== specificBrandName2 &&
         brand.CasinoBrand !== specificBrandName3 &&
-        brand.CasinoBrand !== specificBrandName4
+        brand.CasinoBrand !== specificBrandName4 &&
+        brand.CasinoBrand !== specificBrandName5
 
     );
   }
@@ -241,6 +246,7 @@ if (brands.length > 0) {
   if (specificBrand2) numberOfSpecificBrands++;
   if (specificBrand3) numberOfSpecificBrands++;
   if (specificBrand4) numberOfSpecificBrands++;
+  if (specificBrand5) numberOfSpecificBrands++;
 
 
 
@@ -263,6 +269,9 @@ if (brands.length > 0) {
   }
   if (specificBrand4) {
     brandsToDisplay.push(specificBrand4);
+  }
+  if (specificBrand5) {
+    brandsToDisplay.push(specificBrand5);
   }
 
 

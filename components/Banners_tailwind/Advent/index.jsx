@@ -23,7 +23,8 @@ const CUSTOM_BRANDS_POOL = [
 "Winorio",
 "Leon.bet",
 "Cosmobet",
-"Rocketplay"
+"Rocketplay",
+"Voodoo Casino"
 ];
 
 
