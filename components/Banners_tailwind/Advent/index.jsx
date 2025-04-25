@@ -24,6 +24,7 @@ const CUSTOM_BRANDS_POOL = [
   "Leon.bet",
   "Cosmobet",
   "Rocketplay",
+  "Voodoo Casino"
 ];
 
 export default function Brands_carousel() {
