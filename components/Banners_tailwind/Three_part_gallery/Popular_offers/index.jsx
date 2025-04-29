@@ -21,9 +21,13 @@ export default function Popular_offers() {
   const [loading, setLoading] = useState(true);
 
   // Список брендов, которые вы хотите закрепить
-  const pinnedBrandsList = ["Fast Slots", "Oscarspin", "Nine Casino", "Samba Slots", "Voodoo Casino"];
-
-
+  const pinnedBrandsList = [
+    "Winspirit",
+    "Oscarspin",
+    "Voodoo Casino",
+    "Romibet",
+    "Bonrush",
+  ];
 
   // Массив состояний для закреплённых и остальных
   const [pinnedBrands, setPinnedBrands] = useState([]);
@@ -116,9 +120,13 @@ export default function Popular_offers() {
   const categoryBrands0 = { key1: "Networks", key2: "Premium" };
 
   // Получаем бренды через SWR
-  const { data, error } = useSWR(["brands", language], () => getBrands(language), {
-    initialData: [],
-  });
+  const { data, error } = useSWR(
+    ["brands", language],
+    () => getBrands(language),
+    {
+      initialData: [],
+    }
+  );
 
   let userId = "";
   if (typeof window !== "undefined") {
